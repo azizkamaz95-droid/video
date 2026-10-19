@@ -1,0 +1,5 @@
+voiceovers/*.mp3
+voiceovers/*.wav
+__pycache__/
+*.pyc
+.env

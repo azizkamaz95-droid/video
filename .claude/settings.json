@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "google-tts": {
+      "command": "python3",
+      "args": ["mcp-tts/server.py"],
+      "env": {
+        "GOOGLE_CLOUD_API_KEY": "${GOOGLE_CLOUD_API_KEY}"
+      }
+    }
+  }
+}
