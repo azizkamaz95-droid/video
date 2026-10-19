@@ -1,0 +1,6 @@
+CaliBodi — Coach Fitness IA | Entraînement, Nutrition, Récupération
+Vrais écrans capturés : Accueil (anneau Mouvement / Nutrition / Récup), Nutrition (1510 / 2880 kcal, macros, repas du jour),
+Training (séance adaptée, modes Normal / Voyage / Fatigue / Express), Séance (Montées de genoux, compteur),
+Récupération (score nuit 40, récupération 73, dette 3.5h, séance allégée automatiquement),
+Hydratation (2250 / 3230 ml, +500 ml ajoutés après ta séance), Progression (streak, niveaux, badges).
+Coach vocal Calix. Scan photo IA multi-aliments. 300+ recettes. Liste de courses automatique. Essai Premium 7 jours. Google Play.

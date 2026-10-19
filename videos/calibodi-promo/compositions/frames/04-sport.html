@@ -1,0 +1,191 @@
+<template id="04-sport-template">
+  <style>
+    @font-face{font-family:"Inter";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/Inter-500.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/Inter-600.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:block;src:url("assets/fonts/Inter-700.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:900;font-style:normal;font-display:block;src:url("assets/fonts/Inter-900.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-500.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-600.woff2") format("woff2");}
+    #root { position: absolute; inset: 0; overflow: hidden; font-family: "Inter", sans-serif; color: #fff; }
+    #c04-bg { position: absolute; inset: 0; background: #0A0A0F; }
+    #c04 { position: absolute; inset: 0; }
+    #c04 .mono { font-family: "IBM Plex Mono", monospace; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; }
+    #c04-photo { position: absolute; left: 1150px; top: 0; width: 770px; height: 1080px; overflow: hidden; }
+    #c04-photo img { position: absolute; left: 0; top: 0; width: 770px; height: 1080px; object-fit: cover; object-position: 50% 40%; filter: grayscale(1) brightness(0.62) contrast(1.15); }
+    #c04-photofade { position: absolute; left: 1150px; top: 0; width: 420px; height: 1080px; background: linear-gradient(90deg, #0A0A0F 0%, rgba(10,10,15,0) 100%); }
+    #c04-top { position: absolute; left: 106px; right: 106px; top: 58px; height: 30px; font-size: 18px; color: rgba(200,200,208,0.75); }
+    #c04-top .r { position: absolute; right: 0; top: 0; }
+    #c04-top .r b { color: #FF6B35; font-weight: 600; }
+    #c04-rule { position: absolute; left: 106px; top: 100px; width: 1708px; height: 1px; background: #22222E; }
+    #c04-prog { position: absolute; left: 106px; top: 1000px; width: 1708px; height: 2px; background: #22222E; }
+    #c04-progfill { position: absolute; left: 0; top: 0; width: 1708px; height: 2px; background: #FF6B35; }
+    #c04-kicker { position: absolute; left: 106px; top: 236px; font-size: 22px; color: #FF6B35; font-weight: 600; }
+    #c04 .mask { position: absolute; left: 100px; height: 168px; overflow: hidden; }
+    #c04 .line { display: block; font-weight: 900; font-size: 158px; line-height: 168px; letter-spacing: -0.05em; white-space: nowrap; }
+    #c04 .line .o { color: #FF6B35; }
+    #c04-m1 { top: 280px; width: 1000px; }
+    #c04-m2 { top: 440px; width: 1000px; }
+    #c04 .chip { position: absolute; left: 106px; height: 64px; border: 1px solid #2c2c3a; border-radius: 32px; display: flex; align-items: center; gap: 18px; padding: 0 28px; background: rgba(22,22,42,0.55); }
+    #c04 .chip .k { font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 18px; letter-spacing: 0.14em; color: #FF6B35; }
+    #c04 .chip .v { font-weight: 600; font-size: 26px; color: #fff; letter-spacing: -0.01em; }
+    #c04-chip1 { top: 664px; }
+    #c04-chip2 { top: 746px; }
+    #c04-chip3 { top: 828px; }
+    #c04-reps { position: absolute; left: 106px; top: 664px; width: 760px; height: 260px; }
+    #c04-reps .lab { position: absolute; left: 0; top: 0; font-size: 20px; color: #C8C8D0; }
+    #c04-repnum { position: absolute; left: -6px; top: 26px; font-weight: 900; font-size: 150px; line-height: 1; letter-spacing: -0.05em; color: #FF6B35; }
+    #c04-repof { position: absolute; left: 238px; top: 96px; font-weight: 700; font-size: 58px; color: #8a8a99; letter-spacing: -0.03em; }
+    #c04-done { position: absolute; left: 420px; top: 104px; height: 52px; padding: 0 22px; border-radius: 26px; background: #FF6B35; color: #0A0A0F; font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 18px; letter-spacing: 0.14em; display: flex; align-items: center; }
+    #c04-segs { position: absolute; left: 0; top: 206px; width: 700px; height: 12px; }
+    #c04 .seg { position: absolute; top: 0; width: 62px; height: 12px; border-radius: 6px; background: #22222E; }
+    #c04 .seg i { position: absolute; inset: 0; border-radius: 6px; background: #FF6B35; display: block; }
+    #c04-phone { position: absolute; left: 1060px; top: 128px; width: 432px; height: 826px; border-radius: 66px; background: #050507; padding: 14px; box-shadow: 0 0 0 2px #2a2a36, 0 50px 120px rgba(0,0,0,0.7), 0 0 90px rgba(255,107,53,0.12); }
+    #c04-screen { position: relative; width: 404px; height: 798px; border-radius: 52px; overflow: hidden; background: #0A0A0F; }
+    #c04-screen img { position: absolute; left: 0; top: 0; width: 404px; height: 798px; object-fit: cover; object-position: 50% 0%; }
+    #c04-island { position: absolute; left: 50%; top: 26px; width: 110px; height: 30px; margin-left: -55px; border-radius: 15px; background: #000; }
+    #c04 .card { position: absolute; width: 196px; height: 196px; border-radius: 40px; background: #fff; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.55); }
+    #c04 .card video { position: absolute; left: 0; top: 0; width: 196px; height: 196px; object-fit: cover; }
+    #c04 .cardlab { position: absolute; left: 0; width: 196px; text-align: center; font-size: 15px; color: rgba(200,200,208,0.8); }
+    #c04-calix { position: absolute; left: 1424px; top: 640px; width: 450px; height: 176px; border-radius: 30px; background: rgba(18,18,28,0.94); border: 1px solid rgba(255,107,53,0.45); box-shadow: 0 30px 70px rgba(0,0,0,0.6), 0 0 50px rgba(255,107,53,0.18); }
+    #c04-calix .av { position: absolute; left: 24px; top: 24px; width: 58px; height: 58px; border-radius: 18px; background: linear-gradient(135deg, #FF2D55, #FF6B35); display: flex; align-items: center; justify-content: center; }
+    #c04-calix .av svg { width: 32px; height: 32px; stroke: #fff; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    #c04-calix .nm { position: absolute; left: 100px; top: 28px; font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 18px; letter-spacing: 0.16em; color: #FF6B35; }
+    #c04-calix .sub { position: absolute; left: 100px; top: 54px; font-size: 17px; color: #8e8e9c; font-weight: 500; }
+    #c04-calix .say { position: absolute; left: 24px; top: 108px; font-weight: 700; font-size: 30px; letter-spacing: -0.02em; }
+    #c04-wave { position: absolute; right: 28px; top: 106px; width: 108px; height: 44px; }
+    #c04-wave b { position: absolute; bottom: 0; width: 5px; height: 44px; border-radius: 3px; background: #FF6B35; }
+  </style>
+
+  <div id="root" data-composition-id="04-sport" data-width="1920" data-height="1080" data-duration="8.5">
+    <div id="c04-bg" class="clip" data-start="0" data-duration="8.5" data-track-index="0"></div>
+    <div id="c04">
+      <div id="c04-photo"><img src="assets/photos/training.jpg" alt="" /></div>
+      <div id="c04-photofade"></div>
+
+      <div id="c04-top" class="mono"><span>CaliBodi</span><span class="r"><b>01</b> / 04 · Sport</span></div>
+      <div id="c04-rule"></div>
+      <div id="c04-prog"><div id="c04-progfill"></div></div>
+
+      <div id="c04-kicker" class="mono">01 — Sport</div>
+      <div id="c04-m1" class="mask"><span id="c04-l1" class="line">séances</span><span id="c04-l3" class="line">calix</span></div>
+      <div id="c04-m2" class="mask"><span id="c04-l2" class="line">guidées<span class="o">.</span></span><span id="c04-l4" class="line">te pousse<span class="o">.</span></span></div>
+
+      <div id="c04-chip1" class="chip"><span class="k">NIVEAU</span><span class="v">Intermédiaire</span></div>
+      <div id="c04-chip2" class="chip"><span class="k">OBJECTIF</span><span class="v">Prise de masse</span></div>
+      <div id="c04-chip3" class="chip"><span class="k">DURÉE</span><span class="v">16 min · Express 5/10/15</span></div>
+
+      <div id="c04-reps">
+        <div class="lab mono">Répétitions</div>
+        <div id="c04-repnum">07</div>
+        <div id="c04-repof">/ 10</div>
+        <div id="c04-done">SÉRIE TERMINÉE</div>
+        <div id="c04-segs"></div>
+      </div>
+
+      <div id="c04-cardA" class="card" style="left:860px; top:150px;"><video id="c04-vA" class="clip" src="assets/exercises/high_knees.mp4" muted playsinline data-start="0" data-duration="8.5" data-track-index="2"></video></div>
+      <div id="c04-labA" class="cardlab mono" style="left:860px; top:362px;">Montées de genoux</div>
+      <div id="c04-cardB" class="card" style="left:1560px; top:200px;"><video id="c04-vB" class="clip" src="assets/exercises/squat.mp4" muted playsinline data-start="0" data-duration="8.5" data-track-index="3"></video></div>
+      <div id="c04-labB" class="cardlab mono" style="left:1560px; top:412px;">Squat</div>
+      <div id="c04-cardC" class="card" style="left:1580px; top:600px;"><video id="c04-vC" class="clip" src="assets/exercises/pushup.mp4" muted playsinline data-start="0" data-duration="8.5" data-track-index="4"></video></div>
+      <div id="c04-labC" class="cardlab mono" style="left:1580px; top:812px;">Pompes</div>
+
+      <div id="c04-phone">
+        <div id="c04-screen">
+          <img id="c04-scr1" src="assets/app/fitness.png" alt="" />
+          <img id="c04-scr2" src="assets/app/session.jpg" alt="" />
+        </div>
+        <div id="c04-island"></div>
+      </div>
+
+      <div id="c04-calix">
+        <div class="av"><svg viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></div>
+        <div class="nm">CALIX</div>
+        <div class="sub">Coach vocal · en séance</div>
+        <div id="c04-wave"></div>
+        <div class="say">Allez, encore 3 !</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const segs = document.getElementById("c04-segs");
+      for (let i = 0; i < 10; i++) {
+        const s = document.createElement("div");
+        s.className = "seg"; s.style.left = (i * 70) + "px";
+        s.innerHTML = `<i id="c04-sg${i}"></i>`;
+        segs.appendChild(s);
+      }
+      const wave = document.getElementById("c04-wave");
+      for (let i = 0; i < 12; i++) {
+        const b = document.createElement("b");
+        b.id = `c04-wb${i}`; b.style.left = (i * 9) + "px";
+        wave.appendChild(b);
+      }
+
+      // ambient
+      tl.fromTo("#c04-photo img", { scale: 1.12 }, { scale: 1.0, duration: 8.5, ease: "none" }, 0);
+      tl.fromTo("#c04-progfill", { scaleX: 0 }, { scaleX: 1, duration: 8.5, ease: "none", transformOrigin: "0% 50%" }, 0);
+      tl.fromTo(["#c04-top", "#c04-rule"], { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.out" }, 0.15);
+
+      // phase A — séances guidées
+      tl.fromTo("#c04-kicker", { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.5, ease: "expo.out" }, 0.2);
+      tl.fromTo("#c04-l1", { yPercent: 110 }, { yPercent: 0, duration: 0.7, ease: "expo.out" }, 0.42);
+      tl.fromTo("#c04-l2", { yPercent: 110 }, { yPercent: 0, duration: 0.7, ease: "expo.out" }, 0.78);
+      tl.set(["#c04-l3", "#c04-l4"], { yPercent: 110 }, 0);
+
+      tl.fromTo("#c04-phone", { y: 260, rotation: 7, opacity: 0 }, { y: 0, rotation: -2.5, opacity: 1, duration: 1.0, ease: "expo.out" }, 0.25);
+      tl.to("#c04-phone", { y: -14, duration: 2.0, ease: "sine.inOut" }, 1.3);
+      tl.to("#c04-phone", { y: 6, duration: 2.6, ease: "sine.inOut" }, 3.3);
+      tl.to("#c04-phone", { y: -10, duration: 2.5, ease: "sine.inOut" }, 5.9);
+
+      [["#c04-cardA", "#c04-labA", 0.9, -8], ["#c04-cardB", "#c04-labB", 1.15, 6], ["#c04-cardC", "#c04-labC", 1.4, -5]].forEach(([c, l, t, r]) => {
+        tl.fromTo(c, { scale: 0.4, opacity: 0, rotation: r * 2 }, { scale: 1, opacity: 1, rotation: r, duration: 0.7, ease: "back.out(1.6)" }, t);
+        tl.fromTo(l, { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "none" }, t + 0.3);
+        tl.to(c, { y: -12, duration: 1.6, ease: "sine.inOut" }, t + 0.7);
+        tl.to([c, l], { opacity: 0, scale: 0.6, y: 40, duration: 0.4, ease: "power3.in" }, 4.3);
+      });
+
+      [["#c04-chip1", 1.82], ["#c04-chip2", 2.43], ["#c04-chip3", 3.2]].forEach(([c, t]) => {
+        tl.fromTo(c, { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.55, ease: "expo.out" }, t);
+      });
+
+      // phase B — Calix te pousse
+      tl.to(["#c04-chip1", "#c04-chip2", "#c04-chip3"], { opacity: 0, x: -30, duration: 0.3, ease: "power3.in", stagger: 0.04 }, 4.32);
+      tl.to("#c04-l1", { yPercent: -110, duration: 0.45, ease: "power3.in" }, 4.3);
+      tl.to("#c04-l2", { yPercent: -110, duration: 0.45, ease: "power3.in" }, 4.36);
+      tl.to("#c04-l3", { yPercent: -100, duration: 0.7, ease: "expo.out" }, 4.62);
+      tl.to("#c04-l4", { yPercent: -100, duration: 0.7, ease: "expo.out" }, 6.12);
+
+      tl.fromTo("#c04-scr2", { yPercent: 100 }, { yPercent: 0, duration: 0.7, ease: "expo.inOut" }, 4.4);
+      tl.fromTo("#c04-calix", { opacity: 0, y: 40, scale: 0.9 }, { opacity: 1, y: 0, scale: 1, duration: 0.6, ease: "back.out(1.6)" }, 4.55);
+      for (let i = 0; i < 12; i++) {
+        tl.set(`#c04-wb${i}`, { scaleY: 0.15, transformOrigin: "50% 100%" }, 0);
+        for (let k = 0; k < 14; k++) {
+          const h = 0.2 + 0.8 * Math.abs(Math.sin(i * 1.7 + k * 2.3)) * (0.55 + 0.45 * Math.abs(Math.sin(k * 0.9)));
+          tl.to(`#c04-wb${i}`, { scaleY: h, duration: 0.12, ease: "sine.inOut" }, 4.7 + k * 0.12);
+        }
+        tl.to(`#c04-wb${i}`, { scaleY: 0.15, duration: 0.2, ease: "sine.out" }, 4.7 + 14 * 0.12);
+      }
+
+      tl.fromTo("#c04-reps", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "expo.out" }, 5.2);
+      for (let i = 0; i < 10; i++) tl.set(`#c04-sg${i}`, { scaleX: 0, transformOrigin: "0% 50%" }, 0);
+      for (let i = 0; i < 7; i++) tl.to(`#c04-sg${i}`, { scaleX: 1, duration: 0.25, ease: "power2.out" }, 5.3 + i * 0.05);
+      const num = document.getElementById("c04-repnum");
+      const counts = [[6.28, 8], [6.62, 9], [7.0, 10]];
+      const rep = { v: 7 };
+      const paint = () => { num.textContent = String(Math.round(rep.v)).padStart(2, "0"); };
+      counts.forEach(([t, v]) => {
+        tl.fromTo(rep, { v: v - 1 }, { v, duration: 0.01, ease: "none", onUpdate: paint, immediateRender: false }, t);
+      });
+      counts.forEach(([t, v]) => {
+        tl.fromTo("#c04-repnum", { scale: 1.18 }, { scale: 1, duration: 0.3, ease: "back.out(2)", transformOrigin: "0% 60%", immediateRender: false }, t);
+        tl.to(`#c04-sg${v - 1}`, { scaleX: 1, duration: 0.2, ease: "power2.out" }, t);
+      });
+      tl.fromTo("#c04-done", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(2.4)" }, 7.15);
+
+      window.__timelines["04-sport"] = tl;
+    })();
+  </script>
+</template>

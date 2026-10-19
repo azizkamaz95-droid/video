@@ -1,0 +1,888 @@
+{
+ "1": {
+  "frame": 1,
+  "label": "Le chaos",
+  "text": "Une appli pour t'entraîner. Une autre pour tes calories. Une gourde que tu oublies… Et ton sommeil ? Personne ne s'en occupe.",
+  "file": "assets/voice/vo-01.wav",
+  "duration": 6.673,
+  "words": [
+   {
+    "word": "Une",
+    "start": 0.015,
+    "end": 0.145
+   },
+   {
+    "word": "appli",
+    "start": 0.145,
+    "end": 0.415
+   },
+   {
+    "word": "pour",
+    "start": 0.415,
+    "end": 0.61
+   },
+   {
+    "word": "t'entraîner.",
+    "start": 0.61,
+    "end": 1.481
+   },
+   {
+    "word": "Une",
+    "start": 1.481,
+    "end": 1.611
+   },
+   {
+    "word": "autre",
+    "start": 1.611,
+    "end": 1.862
+   },
+   {
+    "word": "pour",
+    "start": 1.862,
+    "end": 2.022
+   },
+   {
+    "word": "tes",
+    "start": 2.022,
+    "end": 2.127
+   },
+   {
+    "word": "calories.",
+    "start": 2.127,
+    "end": 2.964
+   },
+   {
+    "word": "Une",
+    "start": 2.964,
+    "end": 3.094
+   },
+   {
+    "word": "gourde",
+    "start": 3.094,
+    "end": 3.435
+   },
+   {
+    "word": "que",
+    "start": 3.435,
+    "end": 3.55
+   },
+   {
+    "word": "tu",
+    "start": 3.55,
+    "end": 3.685
+   },
+   {
+    "word": "oublies…",
+    "start": 3.685,
+    "end": 4.624
+   },
+   {
+    "word": "Et",
+    "start": 4.624,
+    "end": 4.684
+   },
+   {
+    "word": "ton",
+    "start": 4.684,
+    "end": 4.844
+   },
+   {
+    "word": "sommeil",
+    "start": 4.844,
+    "end": 5.259
+   },
+   {
+    "word": "?",
+    "start": 5.259,
+    "end": 5.705
+   },
+   {
+    "word": "Personne",
+    "start": 5.705,
+    "end": 6.065
+   },
+   {
+    "word": "ne",
+    "start": 6.065,
+    "end": 6.151
+   },
+   {
+    "word": "s'en",
+    "start": 6.151,
+    "end": 6.366
+   },
+   {
+    "word": "occupe.",
+    "start": 6.366,
+    "end": 6.884
+   }
+  ]
+ },
+ "2": {
+  "frame": 2,
+  "label": "Le déclic",
+  "text": "Pourtant, ton corps ne fonctionne pas en morceaux.",
+  "file": "assets/voice/vo-02.wav",
+  "duration": 2.028,
+  "words": [
+   {
+    "word": "Pourtant,",
+    "start": 0.0,
+    "end": 0.527
+   },
+   {
+    "word": "ton",
+    "start": 0.527,
+    "end": 0.697
+   },
+   {
+    "word": "corps",
+    "start": 0.697,
+    "end": 0.931
+   },
+   {
+    "word": "ne",
+    "start": 0.931,
+    "end": 1.026
+   },
+   {
+    "word": "fonctionne",
+    "start": 1.026,
+    "end": 1.426
+   },
+   {
+    "word": "pas",
+    "start": 1.426,
+    "end": 1.541
+   },
+   {
+    "word": "en",
+    "start": 1.541,
+    "end": 1.641
+   },
+   {
+    "word": "morceaux.",
+    "start": 1.641,
+    "end": 2.377
+   }
+  ]
+ },
+ "3": {
+  "frame": 3,
+  "label": "Révélation",
+  "text": "Voici CaliBodi. Un seul coach, propulsé par l'IA, pour tout ton corps.",
+  "file": "assets/voice/vo-03.wav",
+  "duration": 4.11,
+  "words": [
+   {
+    "word": "Voici",
+    "start": 0.015,
+    "end": 0.355
+   },
+   {
+    "word": "CaliBodi.",
+    "start": 0.355,
+    "end": 1.38
+   },
+   {
+    "word": "Un",
+    "start": 1.38,
+    "end": 1.475
+   },
+   {
+    "word": "seul",
+    "start": 1.475,
+    "end": 1.685
+   },
+   {
+    "word": "coach,",
+    "start": 1.685,
+    "end": 2.216
+   },
+   {
+    "word": "propulsé",
+    "start": 2.216,
+    "end": 2.73
+   },
+   {
+    "word": "par",
+    "start": 2.73,
+    "end": 2.915
+   },
+   {
+    "word": "l'IA,",
+    "start": 2.915,
+    "end": 3.378
+   },
+   {
+    "word": "pour",
+    "start": 3.378,
+    "end": 3.533
+   },
+   {
+    "word": "tout",
+    "start": 3.533,
+    "end": 3.668
+   },
+   {
+    "word": "ton",
+    "start": 3.668,
+    "end": 3.832
+   },
+   {
+    "word": "corps.",
+    "start": 3.832,
+    "end": 4.86
+   }
+  ]
+ },
+ "4": {
+  "frame": 4,
+  "label": "Sport",
+  "text": "Des séances guidées, taillées pour ton niveau, ton objectif et ton emploi du temps. Et Calix, ton coach vocal, te pousse jusqu'à la dernière répétition.",
+  "file": "assets/voice/vo-04.wav",
+  "duration": 7.465,
+  "words": [
+   {
+    "word": "Des",
+    "start": 0.015,
+    "end": 0.15
+   },
+   {
+    "word": "séances",
+    "start": 0.15,
+    "end": 0.51
+   },
+   {
+    "word": "guidées,",
+    "start": 0.51,
+    "end": 1.021
+   },
+   {
+    "word": "taillées",
+    "start": 1.021,
+    "end": 1.295
+   },
+   {
+    "word": "pour",
+    "start": 1.295,
+    "end": 1.47
+   },
+   {
+    "word": "ton",
+    "start": 1.47,
+    "end": 1.626
+   },
+   {
+    "word": "niveau,",
+    "start": 1.626,
+    "end": 2.081
+   },
+   {
+    "word": "ton",
+    "start": 2.081,
+    "end": 2.271
+   },
+   {
+    "word": "objectif",
+    "start": 2.271,
+    "end": 2.816
+   },
+   {
+    "word": "et",
+    "start": 2.816,
+    "end": 2.861
+   },
+   {
+    "word": "ton",
+    "start": 2.861,
+    "end": 3.056
+   },
+   {
+    "word": "emploi",
+    "start": 3.056,
+    "end": 3.321
+   },
+   {
+    "word": "du",
+    "start": 3.321,
+    "end": 3.431
+   },
+   {
+    "word": "temps.",
+    "start": 3.431,
+    "end": 4.047
+   },
+   {
+    "word": "Et",
+    "start": 4.047,
+    "end": 4.102
+   },
+   {
+    "word": "Calix,",
+    "start": 4.102,
+    "end": 4.78
+   },
+   {
+    "word": "ton",
+    "start": 4.78,
+    "end": 4.926
+   },
+   {
+    "word": "coach",
+    "start": 4.926,
+    "end": 5.201
+   },
+   {
+    "word": "vocal,",
+    "start": 5.201,
+    "end": 5.812
+   },
+   {
+    "word": "te",
+    "start": 5.812,
+    "end": 5.932
+   },
+   {
+    "word": "pousse",
+    "start": 5.932,
+    "end": 6.207
+   },
+   {
+    "word": "jusqu'à",
+    "start": 6.207,
+    "end": 6.482
+   },
+   {
+    "word": "la",
+    "start": 6.482,
+    "end": 6.567
+   },
+   {
+    "word": "dernière",
+    "start": 6.567,
+    "end": 6.896
+   },
+   {
+    "word": "répétition.",
+    "start": 6.896,
+    "end": 8.183
+   }
+  ]
+ },
+ "5": {
+  "frame": 5,
+  "label": "Nutrition",
+  "text": "Prends ton assiette en photo : l'IA reconnaît chaque aliment, et calcule tes calories et tes macros. Plus de trois cents recettes… et ta liste de courses se remplit toute seule.",
+  "file": "assets/voice/vo-05.wav",
+  "duration": 8.698,
+  "words": [
+   {
+    "word": "Prends",
+    "start": 0.0,
+    "end": 0.162
+   },
+   {
+    "word": "ton",
+    "start": 0.162,
+    "end": 0.342
+   },
+   {
+    "word": "assiette",
+    "start": 0.342,
+    "end": 0.655
+   },
+   {
+    "word": "en",
+    "start": 0.655,
+    "end": 0.73
+   },
+   {
+    "word": "photo",
+    "start": 0.73,
+    "end": 1.109
+   },
+   {
+    "word": ":",
+    "start": 1.109,
+    "end": 1.355
+   },
+   {
+    "word": "l'IA",
+    "start": 1.355,
+    "end": 1.651
+   },
+   {
+    "word": "reconnaît",
+    "start": 1.651,
+    "end": 2.011
+   },
+   {
+    "word": "chaque",
+    "start": 2.011,
+    "end": 2.326
+   },
+   {
+    "word": "aliment,",
+    "start": 2.326,
+    "end": 2.866
+   },
+   {
+    "word": "et",
+    "start": 2.866,
+    "end": 2.911
+   },
+   {
+    "word": "calcule",
+    "start": 2.911,
+    "end": 3.352
+   },
+   {
+    "word": "tes",
+    "start": 3.352,
+    "end": 3.476
+   },
+   {
+    "word": "calories",
+    "start": 3.476,
+    "end": 3.922
+   },
+   {
+    "word": "et",
+    "start": 3.922,
+    "end": 3.972
+   },
+   {
+    "word": "tes",
+    "start": 3.972,
+    "end": 4.102
+   },
+   {
+    "word": "macros.",
+    "start": 4.102,
+    "end": 4.879
+   },
+   {
+    "word": "Plus",
+    "start": 4.879,
+    "end": 5.039
+   },
+   {
+    "word": "de",
+    "start": 5.039,
+    "end": 5.159
+   },
+   {
+    "word": "trois",
+    "start": 5.159,
+    "end": 5.379
+   },
+   {
+    "word": "cents",
+    "start": 5.379,
+    "end": 5.574
+   },
+   {
+    "word": "recettes…",
+    "start": 5.574,
+    "end": 6.638
+   },
+   {
+    "word": "et",
+    "start": 6.638,
+    "end": 6.698
+   },
+   {
+    "word": "ta",
+    "start": 6.698,
+    "end": 6.847
+   },
+   {
+    "word": "liste",
+    "start": 6.847,
+    "end": 7.152
+   },
+   {
+    "word": "de",
+    "start": 7.152,
+    "end": 7.257
+   },
+   {
+    "word": "courses",
+    "start": 7.257,
+    "end": 7.696
+   },
+   {
+    "word": "se",
+    "start": 7.696,
+    "end": 7.841
+   },
+   {
+    "word": "remplit",
+    "start": 7.841,
+    "end": 8.156
+   },
+   {
+    "word": "toute",
+    "start": 8.156,
+    "end": 8.361
+   },
+   {
+    "word": "seule.",
+    "start": 8.361,
+    "end": 9.397
+   }
+  ]
+ },
+ "6": {
+  "frame": 6,
+  "label": "Récupération",
+  "text": "Nuit trop courte ? CaliBodi le voit, et allège ta séance automatiquement. Tu progresses, sans te cramer.",
+  "file": "assets/voice/vo-06.wav",
+  "duration": 5.495,
+  "words": [
+   {
+    "word": "Nuit",
+    "start": 0.015,
+    "end": 0.195
+   },
+   {
+    "word": "trop",
+    "start": 0.195,
+    "end": 0.411
+   },
+   {
+    "word": "courte",
+    "start": 0.411,
+    "end": 0.795
+   },
+   {
+    "word": "?",
+    "start": 0.795,
+    "end": 1.237
+   },
+   {
+    "word": "CaliBodi",
+    "start": 1.237,
+    "end": 1.785
+   },
+   {
+    "word": "le",
+    "start": 1.785,
+    "end": 1.885
+   },
+   {
+    "word": "voit,",
+    "start": 1.885,
+    "end": 2.256
+   },
+   {
+    "word": "et",
+    "start": 2.256,
+    "end": 2.346
+   },
+   {
+    "word": "allège",
+    "start": 2.346,
+    "end": 2.624
+   },
+   {
+    "word": "ta",
+    "start": 2.624,
+    "end": 2.749
+   },
+   {
+    "word": "séance",
+    "start": 2.749,
+    "end": 3.131
+   },
+   {
+    "word": "automatiquement.",
+    "start": 3.131,
+    "end": 4.182
+   },
+   {
+    "word": "Tu",
+    "start": 4.182,
+    "end": 4.297
+   },
+   {
+    "word": "progresses,",
+    "start": 4.297,
+    "end": 4.944
+   },
+   {
+    "word": "sans",
+    "start": 4.944,
+    "end": 5.106
+   },
+   {
+    "word": "te",
+    "start": 5.106,
+    "end": 5.186
+   },
+   {
+    "word": "cramer.",
+    "start": 5.186,
+    "end": 5.848
+   }
+  ]
+ },
+ "7": {
+  "frame": 7,
+  "label": "Hydratation",
+  "text": "Ton objectif d'eau est calculé selon ton poids… et il grimpe après chaque entraînement.",
+  "file": "assets/voice/vo-07.wav",
+  "duration": 4.102,
+  "words": [
+   {
+    "word": "Ton",
+    "start": 0.0,
+    "end": 0.144
+   },
+   {
+    "word": "objectif",
+    "start": 0.144,
+    "end": 0.599
+   },
+   {
+    "word": "d'eau",
+    "start": 0.599,
+    "end": 0.795
+   },
+   {
+    "word": "est",
+    "start": 0.795,
+    "end": 0.83
+   },
+   {
+    "word": "calculé",
+    "start": 0.83,
+    "end": 1.323
+   },
+   {
+    "word": "selon",
+    "start": 1.323,
+    "end": 1.63
+   },
+   {
+    "word": "ton",
+    "start": 1.63,
+    "end": 1.795
+   },
+   {
+    "word": "poids…",
+    "start": 1.795,
+    "end": 2.677
+   },
+   {
+    "word": "et",
+    "start": 2.677,
+    "end": 2.732
+   },
+   {
+    "word": "il",
+    "start": 2.732,
+    "end": 2.847
+   },
+   {
+    "word": "grimpe",
+    "start": 2.847,
+    "end": 3.163
+   },
+   {
+    "word": "après",
+    "start": 3.163,
+    "end": 3.373
+   },
+   {
+    "word": "chaque",
+    "start": 3.373,
+    "end": 3.627
+   },
+   {
+    "word": "entraînement.",
+    "start": 3.627,
+    "end": 4.8
+   }
+  ]
+ },
+ "8": {
+  "frame": 8,
+  "label": "Tout est connecté",
+  "text": "Sport. Nutrition. Récupération. Hydratation. Tout est connecté, et tout se résume dans un seul score, chaque jour.",
+  "file": "assets/voice/vo-08.wav",
+  "duration": 7.022,
+  "words": [
+   {
+    "word": "Sport.",
+    "start": 0.015,
+    "end": 0.812
+   },
+   {
+    "word": "Nutrition.",
+    "start": 0.812,
+    "end": 1.768
+   },
+   {
+    "word": "Récupération.",
+    "start": 1.768,
+    "end": 2.925
+   },
+   {
+    "word": "Hydratation.",
+    "start": 2.925,
+    "end": 3.952
+   },
+   {
+    "word": "Tout",
+    "start": 3.952,
+    "end": 4.147
+   },
+   {
+    "word": "est",
+    "start": 4.147,
+    "end": 4.187
+   },
+   {
+    "word": "connecté,",
+    "start": 4.187,
+    "end": 4.867
+   },
+   {
+    "word": "et",
+    "start": 4.867,
+    "end": 4.922
+   },
+   {
+    "word": "tout",
+    "start": 4.922,
+    "end": 5.077
+   },
+   {
+    "word": "se",
+    "start": 5.077,
+    "end": 5.21
+   },
+   {
+    "word": "résume",
+    "start": 5.21,
+    "end": 5.555
+   },
+   {
+    "word": "dans",
+    "start": 5.555,
+    "end": 5.75
+   },
+   {
+    "word": "un",
+    "start": 5.75,
+    "end": 5.815
+   },
+   {
+    "word": "seul",
+    "start": 5.815,
+    "end": 6.022
+   },
+   {
+    "word": "score,",
+    "start": 6.022,
+    "end": 6.528
+   },
+   {
+    "word": "chaque",
+    "start": 6.528,
+    "end": 6.758
+   },
+   {
+    "word": "jour.",
+    "start": 6.758,
+    "end": 7.768
+   }
+  ]
+ },
+ "9": {
+  "frame": 9,
+  "label": "Appel à l'action",
+  "text": "CaliBodi. Tout ton corps, une seule app. Essaie-la gratuitement pendant sept jours, sur Google Play.",
+  "file": "assets/voice/vo-09.wav",
+  "duration": 5.391,
+  "words": [
+   {
+    "word": "CaliBodi.",
+    "start": 0.0,
+    "end": 0.964
+   },
+   {
+    "word": "Tout",
+    "start": 0.964,
+    "end": 1.084
+   },
+   {
+    "word": "ton",
+    "start": 1.084,
+    "end": 1.239
+   },
+   {
+    "word": "corps,",
+    "start": 1.239,
+    "end": 1.693
+   },
+   {
+    "word": "une",
+    "start": 1.693,
+    "end": 1.798
+   },
+   {
+    "word": "seule",
+    "start": 1.798,
+    "end": 2.003
+   },
+   {
+    "word": "app.",
+    "start": 2.003,
+    "end": 2.615
+   },
+   {
+    "word": "Essaie-la",
+    "start": 2.615,
+    "end": 2.96
+   },
+   {
+    "word": "gratuitement",
+    "start": 2.96,
+    "end": 3.555
+   },
+   {
+    "word": "pendant",
+    "start": 3.555,
+    "end": 3.829
+   },
+   {
+    "word": "sept",
+    "start": 3.829,
+    "end": 4.074
+   },
+   {
+    "word": "jours,",
+    "start": 4.074,
+    "end": 4.524
+   },
+   {
+    "word": "sur",
+    "start": 4.524,
+    "end": 4.715
+   },
+   {
+    "word": "Google",
+    "start": 4.715,
+    "end": 5.04
+   },
+   {
+    "word": "Play.",
+    "start": 5.04,
+    "end": 5.739
+   }
+  ]
+ }
+}

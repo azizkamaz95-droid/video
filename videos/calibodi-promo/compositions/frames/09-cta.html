@@ -1,0 +1,108 @@
+<template id="09-cta-template">
+  <style>
+    @font-face{font-family:"Inter";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/Inter-500.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:block;src:url("assets/fonts/Inter-700.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:900;font-style:normal;font-display:block;src:url("assets/fonts/Inter-900.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-500.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-600.woff2") format("woff2");}
+    #root { position: absolute; inset: 0; overflow: hidden; font-family: "Inter", sans-serif; color: #fff; }
+    #c09-bg { position: absolute; inset: 0; background: #0A0A0F; }
+    #c09 { position: absolute; inset: 0; }
+    #c09 .mono { font-family: "IBM Plex Mono", monospace; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; }
+    #c09-glow { position: absolute; left: 860px; top: 60px; width: 1200px; height: 1100px;
+      background:
+        radial-gradient(closest-side at 40% 60%, rgba(255,107,53,0.32), rgba(255,107,53,0) 100%),
+        radial-gradient(closest-side at 62% 45%, rgba(61,155,255,0.26), rgba(61,155,255,0) 100%),
+        radial-gradient(closest-side at 52% 52%, rgba(255,45,85,0.26), rgba(255,45,85,0) 100%); }
+    #c09-brand { position: absolute; left: 106px; top: 176px; height: 124px; }
+    #c09-icon { position: absolute; left: 0; top: 0; width: 124px; height: 124px; border-radius: 30px; overflow: hidden; box-shadow: 0 0 60px rgba(255,90,60,0.35); }
+    #c09-icon img { width: 124px; height: 124px; display: block; }
+    #c09-sheen { position: absolute; left: -120px; top: -40px; width: 70px; height: 220px; background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0) 100%); }
+    #c09-word { position: absolute; left: 152px; top: 6px; height: 116px; overflow: hidden; font-weight: 900; font-size: 104px; line-height: 116px; letter-spacing: -0.05em; white-space: nowrap; }
+    #c09-word .c { display: inline-block; }
+    #c09 .mask { position: absolute; left: 100px; width: 1000px; height: 118px; overflow: hidden; }
+    #c09 .line { display: block; font-weight: 900; font-size: 108px; line-height: 118px; letter-spacing: -0.05em; white-space: nowrap; }
+    #c09 .line .o { color: #FF6B35; }
+    #c09-m1 { top: 372px; }
+    #c09-m2 { top: 490px; }
+    #c09-offer { position: absolute; left: 106px; top: 672px; height: 76px; padding: 0 30px 0 14px; border-radius: 38px; background: linear-gradient(90deg, #FF2D55, #FF6B35); display: flex; align-items: center; gap: 16px; box-shadow: 0 18px 50px rgba(255,60,70,0.35); }
+    #c09-offer .n { width: 52px; height: 52px; border-radius: 26px; background: #0A0A0F; color: #FF6B35; font-weight: 900; font-size: 30px; display: flex; align-items: center; justify-content: center; letter-spacing: -0.03em; }
+    #c09-offer .t { font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 22px; letter-spacing: 0.12em; color: #0A0A0F; }
+    #c09-play { position: absolute; left: 106px; top: 782px; width: 330px; height: 98px; border-radius: 20px; background: #000; border: 2px solid #3a3a48; }
+    #c09-play svg { position: absolute; left: 26px; top: 22px; width: 50px; height: 54px; }
+    #c09-play .s { position: absolute; left: 96px; top: 20px; font-family: "Inter", sans-serif; font-weight: 500; font-size: 15px; letter-spacing: 0.1em; color: #C8C8D0; }
+    #c09-play .b { position: absolute; left: 94px; top: 38px; font-weight: 700; font-size: 38px; letter-spacing: -0.02em; }
+    #c09-trial { position: absolute; left: 470px; top: 806px; font-size: 17px; color: #8e8e9c; line-height: 1.6; }
+    #c09-trial span { display: block; }
+    #c09 .phone { position: absolute; width: 432px; height: 826px; border-radius: 66px; background: #050507; padding: 14px; box-shadow: 0 0 0 2px #2a2a36, 0 60px 140px rgba(0,0,0,0.75); }
+    #c09 .screen { position: relative; width: 404px; height: 798px; border-radius: 52px; overflow: hidden; background: #0A0A0F; }
+    #c09 .screen img { position: absolute; left: 0; top: 0; width: 404px; height: 798px; object-fit: cover; object-position: 50% 0%; }
+    #c09 .island { position: absolute; left: 50%; top: 26px; width: 110px; height: 30px; margin-left: -55px; border-radius: 15px; background: #000; }
+    #c09-pL { left: 1080px; top: 196px; }
+    #c09-pR { left: 1460px; top: 196px; }
+    #c09-pC { left: 1270px; top: 128px; }
+    #c09 .dim { position: absolute; inset: 0; border-radius: 66px; background: rgba(10,10,15,0.38); }
+    #c09-fade { position: absolute; inset: 0; background: #000; opacity: 0; }
+  </style>
+
+  <div id="root" data-composition-id="09-cta" data-width="1920" data-height="1080" data-duration="8.5">
+    <div id="c09-bg" class="clip" data-start="0" data-duration="8.5" data-track-index="0"></div>
+    <div id="c09">
+      <div id="c09-glow"></div>
+      <div id="c09-pL" class="phone"><div class="screen"><img src="assets/app/nutrition.png" alt="" /></div><div class="island"></div><div class="dim"></div></div>
+      <div id="c09-pR" class="phone"><div class="screen"><img src="assets/app/hydration.png" alt="" /></div><div class="island"></div><div class="dim"></div></div>
+      <div id="c09-pC" class="phone"><div class="screen"><img src="assets/app/dashboard.png" alt="" /></div><div class="island"></div></div>
+
+      <div id="c09-brand">
+        <div id="c09-icon"><img src="assets/brand/icon-512.png" alt="" /><div id="c09-sheen"></div></div>
+        <div id="c09-word"><span class="c">C</span><span class="c">a</span><span class="c">l</span><span class="c">i</span><span class="c">B</span><span class="c">o</span><span class="c">d</span><span class="c">i</span></div>
+      </div>
+      <div id="c09-m1" class="mask"><span id="c09-l1" class="line">tout ton corps<span class="o">.</span></span></div>
+      <div id="c09-m2" class="mask"><span id="c09-l2" class="line">une seule app<span class="o">.</span></span></div>
+
+      <div id="c09-offer"><span class="n">7</span><span class="t">JOURS GRATUITS · PREMIUM</span></div>
+      <div id="c09-play">
+        <svg viewBox="0 0 30 32"><path d="M2 1.5 L17.5 16 L2 30.5 C1.2 30 1 29.3 1 28.5 V3.5 C1 2.7 1.2 2 2 1.5 Z" fill="#00D4FF"/><path d="M2 1.5 L21.8 12.3 L17.5 16 Z" fill="#00FF87"/><path d="M2 30.5 L17.5 16 L21.8 19.7 Z" fill="#FF2D55"/><path d="M21.8 12.3 L28 15.8 C28.9 16.3 28.9 17.4 28 17.9 L21.8 19.7 L17.5 16 Z" fill="#FFC531"/></svg>
+        <span class="s">DISPONIBLE SUR</span>
+        <span class="b">Google Play</span>
+      </div>
+      <div id="c09-trial" class="mono"><span>Coach vocal Calix</span><span>300+ recettes · scan IA</span></div>
+      <div id="c09-fade"></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+
+      tl.fromTo("#c09-glow", { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 1.4, ease: "expo.out" }, 0.0);
+      tl.to("#c09-glow", { scale: 1.06, duration: 6.5, ease: "sine.inOut" }, 1.4);
+
+      tl.fromTo("#c09-pC", { y: 420, opacity: 0, rotation: 0, scale: 0.92 }, { y: 0, opacity: 1, rotation: 0, scale: 0.92, duration: 1.1, ease: "expo.out" }, 0.3);
+      tl.fromTo("#c09-pL", { y: 460, opacity: 0, rotation: -2, scale: 0.84 }, { y: 0, opacity: 1, rotation: -9, scale: 0.84, duration: 1.2, ease: "expo.out" }, 0.5);
+      tl.fromTo("#c09-pR", { y: 460, opacity: 0, rotation: 2, scale: 0.84 }, { y: 0, opacity: 1, rotation: 9, scale: 0.84, duration: 1.2, ease: "expo.out" }, 0.62);
+      tl.to("#c09-pC", { y: -14, duration: 3.2, ease: "sine.inOut" }, 1.5);
+      tl.to("#c09-pC", { y: 0, duration: 3.2, ease: "sine.inOut" }, 4.7);
+      tl.to("#c09-pL", { y: 10, duration: 3.4, ease: "sine.inOut" }, 1.8);
+      tl.to("#c09-pR", { y: -10, duration: 3.0, ease: "sine.inOut" }, 1.9);
+
+      tl.fromTo("#c09-icon", { scale: 0.2, rotation: -20, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.7, ease: "back.out(1.8)" }, 0.15);
+      gsap.utils.toArray("#c09-word .c").forEach((c, i) => {
+        tl.fromTo(c, { yPercent: 105 }, { yPercent: 0, duration: 0.6, ease: "expo.out" }, 0.32 + i * 0.035);
+      });
+      tl.fromTo("#c09-sheen", { x: 0, rotation: 18 }, { x: 300, rotation: 18, duration: 0.7, ease: "power2.inOut" }, 0.8);
+      tl.fromTo("#c09-sheen", { x: 0 }, { x: 300, duration: 0.7, ease: "power2.inOut", immediateRender: false }, 6.4);
+
+      tl.fromTo("#c09-l1", { yPercent: 110 }, { yPercent: 0, duration: 0.7, ease: "expo.out" }, 1.32);
+      tl.fromTo("#c09-l2", { yPercent: 110 }, { yPercent: 0, duration: 0.7, ease: "expo.out" }, 2.06);
+
+      tl.fromTo("#c09-offer", { opacity: 0, x: -40, scale: 0.9 }, { opacity: 1, x: 0, scale: 1, duration: 0.6, ease: "back.out(1.8)", transformOrigin: "0% 50%" }, 3.0);
+      tl.fromTo("#c09-offer .n", { scale: 1.45 }, { scale: 1, duration: 0.45, ease: "back.out(3)", immediateRender: false }, 4.22);
+      tl.fromTo("#c09-play", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "expo.out" }, 4.88);
+      tl.fromTo("#c09-trial", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "none" }, 5.5);
+
+      tl.fromTo("#c09-fade", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power2.in" }, 8.05);
+      window.__timelines["09-cta"] = tl;
+    })();
+  </script>
+</template>

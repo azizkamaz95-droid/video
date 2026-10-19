@@ -1,0 +1,70 @@
+<template id="02-declic-template">
+  <style>
+    @font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:block;src:url("assets/fonts/Inter-700.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:900;font-style:normal;font-display:block;src:url("assets/fonts/Inter-900.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-500.woff2") format("woff2");}
+    #root { position: absolute; inset: 0; overflow: hidden; font-family: "Inter", sans-serif; color: #fff; }
+    #c02-bg { position: absolute; inset: 0; background: #0A0A0F; }
+    #c02 { position: absolute; inset: 0; }
+    #c02-photo { position: absolute; left: 820px; top: 0; width: 1100px; height: 1080px; }
+    #c02 .slice { position: absolute; top: 0; width: 220px; height: 1080px; background-image: url("assets/photos/profile.jpg"); background-size: 1100px 1650px; filter: grayscale(1) brightness(0.82) contrast(1.15); }
+    #c02-fade { position: absolute; left: 820px; top: 0; width: 360px; height: 1080px; background: linear-gradient(90deg, #0A0A0F 0%, rgba(10,10,15,0) 100%); }
+    #c02-flash { position: absolute; left: 820px; top: 0; width: 1100px; height: 1080px; background: #fff; opacity: 0; }
+    #c02-rule { position: absolute; left: 106px; top: 352px; width: 44px; height: 4px; background: #FF6B35; }
+    #c02-lead { position: absolute; left: 106px; top: 380px; font-weight: 700; font-size: 58px; letter-spacing: -0.03em; color: #C8C8D0; }
+    #c02 .disp { position: absolute; left: 100px; font-weight: 900; font-size: 176px; line-height: 1; letter-spacing: -0.05em; white-space: nowrap; }
+    #c02 .disp .c { display: inline-block; }
+    #c02-d1 { top: 470px; }
+    #c02-d2 { top: 640px; }
+    #c02-d2 .o { color: #FF6B35; }
+  </style>
+
+  <div id="root" data-composition-id="02-declic" data-width="1920" data-height="1080" data-duration="3">
+    <div id="c02-bg" class="clip" data-start="0" data-duration="3" data-track-index="0"></div>
+    <div id="c02">
+      <div id="c02-photo">
+        <div id="c02-s0" class="slice" style="left:0px; background-position:0px -330px;"></div>
+        <div id="c02-s1" class="slice" style="left:220px; background-position:-220px -330px;"></div>
+        <div id="c02-s2" class="slice" style="left:440px; background-position:-440px -330px;"></div>
+        <div id="c02-s3" class="slice" style="left:660px; background-position:-660px -330px;"></div>
+        <div id="c02-s4" class="slice" style="left:880px; background-position:-880px -330px;"></div>
+      </div>
+      <div id="c02-fade"></div>
+      <div id="c02-flash"></div>
+      <div id="c02-rule"></div>
+      <div id="c02-lead">ton corps</div>
+      <div id="c02-d1" class="disp"><span class="c">p</span><span class="c">a</span><span class="c">s</span><span class="c">&nbsp;</span><span class="c">e</span><span class="c">n</span></div>
+      <div id="c02-d2" class="disp"><span class="c">m</span><span class="c">o</span><span class="c">r</span><span class="c">c</span><span class="c">e</span><span class="c">a</span><span class="c">u</span><span class="c">x</span><span class="c o">.</span></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const SNAP = 1.96;
+      const off = [[-26, -120], [-12, 80], [0, -56], [14, 140], [28, -90]];
+
+      tl.fromTo("#c02-photo", { scale: 1.06 }, { scale: 1, duration: 2.9, ease: "power1.out", transformOrigin: "60% 40%" }, 0);
+      off.forEach(([dx, dy], i) => {
+        tl.fromTo(`#c02-s${i}`, { x: dx * 0.6, y: dy * 0.6, opacity: 0 },
+          { x: dx, y: dy, opacity: 1, duration: SNAP - 0.08 - i * 0.03, ease: "power1.out" }, i * 0.03);
+        tl.to(`#c02-s${i}`, { x: 0, y: 0, duration: 0.34, ease: "back.out(1.6)" }, SNAP + i * 0.012);
+      });
+      tl.fromTo("#c02-flash", { opacity: 0.55 }, { opacity: 0, duration: 0.4, ease: "power2.out", immediateRender: false }, SNAP + 0.02);
+
+      tl.fromTo("#c02-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "expo.out", transformOrigin: "0% 50%" }, 0.72);
+      tl.fromTo("#c02-lead", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, ease: "expo.out" }, 0.8);
+
+      const chars = gsap.utils.toArray("#c02 .disp .c");
+      const sc = [[-70, -9], [50, 7], [-40, -5], [0, 0], [80, 10], [-60, -8], [45, 6], [-85, -10], [60, 8], [-35, -4], [75, 9], [-55, -7], [40, 5], [-90, -12], [65, 8]];
+      chars.forEach((c, i) => {
+        const [dy, r] = sc[i % sc.length];
+        tl.fromTo(c, { y: dy, rotation: r, opacity: 0 }, { y: dy * 0.8, rotation: r * 0.8, opacity: 1, duration: 0.22, ease: "power2.out" }, 1.5 + i * 0.018);
+        tl.to(c, { y: 0, rotation: 0, duration: 0.34, ease: "back.out(1.8)" }, SNAP + (i % 3) * 0.01);
+      });
+
+      tl.to("#c02", { scale: 1.06, opacity: 0, filter: "blur(8px)", duration: 0.26, ease: "power3.in", transformOrigin: "50% 50%" }, 2.74);
+      window.__timelines["02-declic"] = tl;
+    })();
+  </script>
+</template>
