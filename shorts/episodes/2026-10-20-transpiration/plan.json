@@ -1,0 +1,708 @@
+{
+ "title": "Transpirer fait-il perdre de la graisse ?",
+ "pillar_color": "#00D4FF",
+ "corrections": {
+  "2": "transpires,",
+  "7": "graisse ?",
+  "8": "Ben",
+  "17": "trempé",
+  "31": "pourquoi :",
+  "32": "La",
+  "48": "refroidissement.",
+  "49": "Quand",
+  "50": "ta",
+  "62": "chaleur.",
+  "63": "Et",
+  "77": "séance ?",
+  "78": "Parce",
+  "84": "d'eau.",
+  "85": "Mais",
+  "97": "graisse.",
+  "98": "Quand",
+  "101": "réhydrates,",
+  "109": "Alors,",
+  "117": "portant",
+  "127": "excessive :",
+  "133": "déshydrater.",
+  "134": "Pour",
+  "144": "alimentation,",
+  "153": "habitudes.",
+  "154": "Bienvenue",
+  "156": "CaliBodi.",
+  "157": "Ici,",
+  "161": "fitness,",
+  "165": "poids,",
+  "169": "masse,",
+  "171": "nutrition",
+  "174": "récupération,",
+  "182": "vérifiés.",
+  "183": "Abonne-toi",
+  "195": "mythe,",
+  "196": "ça"
+ },
+ "breath_after": [
+  10,
+  31,
+  48,
+  77,
+  84,
+  97,
+  108,
+  133,
+  153
+ ],
+ "format": [
+  1080,
+  1920
+ ],
+ "tail": 0.6,
+ "keywords": {
+  "#FF2D55": [
+   "faux"
+  ],
+  "#00D4FF": [
+   "sueur",
+   "d'eau",
+   "eau",
+   "réhydrates",
+   "déshydrater",
+   "trempé",
+   "refroidissement",
+   "transpiration",
+   "transpires",
+   "transpirer"
+  ],
+  "#FF6B35": [
+   "graisse",
+   "pourquoi",
+   "température",
+   "chaleur",
+   "balance",
+   "poids",
+   "attention",
+   "naturellement",
+   "vêtements",
+   "chauds",
+   "excessive",
+   "durablement",
+   "alimentation",
+   "activité",
+   "physique",
+   "régularité",
+   "calibodi",
+   "fitness",
+   "masse",
+   "nutrition",
+   "récupération",
+   "vérifiés",
+   "abonne-toi",
+   "partage",
+   "mythe",
+   "force"
+  ]
+ },
+ "poses": [
+  [
+   0.0,
+   "sceptique"
+  ],
+  [
+   3.0,
+   "non"
+  ],
+  [
+   3.5,
+   "explique"
+  ],
+  [
+   9.25,
+   "pointe"
+  ],
+  [
+   9.8,
+   "explique"
+  ],
+  [
+   19.8,
+   "curieux"
+  ],
+  [
+   23.5,
+   "pointe"
+  ],
+  [
+   25.5,
+   "enerve"
+  ],
+  [
+   29.1,
+   "hydratation"
+  ],
+  [
+   33.8,
+   "non"
+  ],
+  [
+   40.05,
+   "fatigue"
+  ],
+  [
+   42.0,
+   "explique"
+  ],
+  [
+   45.2,
+   "un"
+  ],
+  [
+   46.3,
+   "deux"
+  ],
+  [
+   47.75,
+   "trois"
+  ],
+  [
+   49.25,
+   "pointe"
+  ],
+  [
+   54.45,
+   "biceps"
+  ],
+  [
+   55.45,
+   "nutrition"
+  ],
+  [
+   56.65,
+   "fatigue"
+  ],
+  [
+   57.2,
+   "pouce"
+  ],
+  [
+   60.45,
+   "app"
+  ],
+  [
+   64.5,
+   "biceps"
+  ]
+ ],
+ "camera": [
+  [
+   0.0,
+   1.06,
+   0,
+   0,
+   0.0,
+   "none"
+  ],
+  [
+   0.01,
+   1.0,
+   0,
+   0,
+   3.3,
+   "none"
+  ],
+  [
+   3.42,
+   1.3,
+   0,
+   40,
+   0.14,
+   "power4.out"
+  ],
+  [
+   3.9,
+   1.0,
+   0,
+   0,
+   0.7,
+   "power3.inOut"
+  ],
+  [
+   9.25,
+   1.05,
+   40,
+   0,
+   0.25,
+   "power3.out"
+  ],
+  [
+   9.8,
+   1.0,
+   0,
+   0,
+   0.3,
+   "power3.out"
+  ],
+  [
+   10.2,
+   1.08,
+   0,
+   20,
+   5.0,
+   "sine.inOut"
+  ],
+  [
+   15.35,
+   1.0,
+   -40,
+   0,
+   0.25,
+   "power3.out"
+  ],
+  [
+   19.8,
+   1.0,
+   0,
+   0,
+   0.4,
+   "power3.out"
+  ],
+  [
+   25.3,
+   1.25,
+   0,
+   40,
+   0.14,
+   "power4.out"
+  ],
+  [
+   25.6,
+   1.0,
+   0,
+   0,
+   0.5,
+   "power3.inOut"
+  ],
+  [
+   27.28,
+   1.22,
+   0,
+   40,
+   0.14,
+   "power4.out"
+  ],
+  [
+   29.1,
+   0.92,
+   0,
+   30,
+   0.7,
+   "power3.inOut"
+  ],
+  [
+   33.8,
+   1.0,
+   0,
+   0,
+   0.5,
+   "power3.inOut"
+  ],
+  [
+   40.05,
+   1.1,
+   0,
+   20,
+   1.3,
+   "power2.inOut"
+  ],
+  [
+   42.0,
+   0.92,
+   0,
+   30,
+   0.6,
+   "power3.inOut"
+  ],
+  [
+   47.8,
+   1.04,
+   0,
+   10,
+   0.8,
+   "power2.out"
+  ],
+  [
+   49.25,
+   1.0,
+   0,
+   0,
+   0.5,
+   "power3.inOut"
+  ],
+  [
+   59.95,
+   1.15,
+   0,
+   30,
+   0.3,
+   "power3.out"
+  ],
+  [
+   64.5,
+   1.0,
+   0,
+   0,
+   0.6,
+   "power3.inOut"
+  ]
+ ],
+ "shakes": [
+  [
+   3.45,
+   14
+  ],
+  [
+   25.32,
+   10
+  ],
+  [
+   27.3,
+   9
+  ]
+ ],
+ "science": [
+  [
+   9.8,
+   19.95
+  ],
+  [
+   20.0,
+   25.5
+  ],
+  [
+   29.1,
+   33.8
+  ]
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 4.05,
+   "kicker": "Mythe ou réalité ?",
+   "lines": [
+    [
+     "plus tu transpires,",
+     0.0
+    ],
+    [
+     "plus tu perds",
+     1.2
+    ],
+    [
+     "de graisse ?",
+     2.0
+    ]
+   ],
+   "stamp": [
+    "FAUX",
+    3.45
+   ]
+  },
+  {
+   "type": "word_drops",
+   "start": 4.3,
+   "end": 9.15,
+   "word": [
+    "trempé",
+    5.25
+   ],
+   "sub": [
+    "≠ graisse perdue",
+    7.85
+   ]
+  },
+  {
+   "type": "banner",
+   "start": 9.2,
+   "end": 9.9,
+   "text": [
+    "pourquoi ?",
+    9.3
+   ]
+  },
+  {
+   "type": "science",
+   "start": 9.9,
+   "end": 19.95,
+   "tag": "Schéma simplifié",
+   "title": [
+    "la transpiration",
+    10.5
+   ],
+   "strike": [
+    "fait fondre la graisse",
+    12.7
+   ],
+   "equals": [
+    "= système de refroidissement",
+    14.8
+   ],
+   "steps": [
+    [
+     "thermo",
+     "température ↑",
+     16.2
+    ],
+    [
+     "drop",
+     "sueur",
+     18.3
+    ],
+    [
+     "wind",
+     "chaleur évacuée",
+     18.95
+    ]
+   ]
+  },
+  {
+   "type": "scale",
+   "start": 20.0,
+   "end": 25.6,
+   "mode": "down",
+   "title": [
+    "la balance",
+    21.2
+   ],
+   "arrow": [
+    "moins de poids",
+    21.95
+   ],
+   "note": [
+    "juste après la séance",
+    22.85
+   ],
+   "drops": 24.85,
+   "reveal": [
+    "= de l'eau",
+    25.25
+   ]
+  },
+  {
+   "type": "versus",
+   "start": 25.65,
+   "end": 29.1,
+   "chip": [
+    "attention",
+    26.15
+   ],
+   "left": [
+    "eau",
+    25.7
+   ],
+   "sign": 27.3,
+   "right": [
+    "graisse",
+    28.3
+   ]
+  },
+  {
+   "type": "scale",
+   "start": 29.2,
+   "end": 33.75,
+   "mode": "up",
+   "title": [
+    "réhydratation",
+    30.85
+   ],
+   "arrow": [
+    "une partie revient",
+    31.65
+   ],
+   "note": [
+    "naturellement",
+    33.35
+   ],
+   "drops": 30.9
+  },
+  {
+   "type": "list",
+   "start": 33.85,
+   "end": 41.95,
+   "variant": "dont",
+   "title": [
+    "à éviter",
+    34.7
+   ],
+   "items": [
+    [
+     "vêtements trop chauds",
+     36.85
+    ],
+    [
+     "chaleur excessive",
+     38.75
+    ]
+   ],
+   "warn": [
+    "risque : déshydratation",
+    40.05,
+    41.35
+   ]
+  },
+  {
+   "type": "list",
+   "start": 42.05,
+   "end": 49.15,
+   "variant": "do",
+   "title": [
+    "perdre de la graisse durablement",
+    42.45
+   ],
+   "items": [
+    [
+     "alimentation",
+     45.45
+    ],
+    [
+     "activité physique",
+     46.55
+    ],
+    [
+     "régularité",
+     47.85
+    ]
+   ]
+  },
+  {
+   "type": "outro",
+   "start": 49.25,
+   "end": 66.8,
+   "logo": 49.3,
+   "word": 50.45,
+   "chips": [
+    [
+     "fitness",
+     "#FF6B35",
+     52.45
+    ],
+    [
+     "perte de poids",
+     "#FF2D55",
+     53.35
+    ],
+    [
+     "prise de masse",
+     "#FF6B35",
+     54.45
+    ],
+    [
+     "nutrition",
+     "#00FF87",
+     55.45
+    ],
+    [
+     "récupération",
+     "#BF5AF2",
+     56.65
+    ]
+   ],
+   "tagline": [
+    [
+     "conseils utiles",
+     58.05
+    ],
+    [
+     "faits vérifiés",
+     59.75
+    ]
+   ],
+   "cta": [
+    [
+     "abonne-toi",
+     60.45
+    ],
+    [
+     "partage",
+     61.25
+    ]
+   ]
+  }
+ ],
+ "sfx": [
+  [
+   "whoosh_in",
+   0.02
+  ],
+  [
+   "stamp",
+   3.52
+  ],
+  [
+   "whoosh",
+   9.72
+  ],
+  [
+   "plinks",
+   25.42
+  ],
+  [
+   "thump",
+   27.3
+  ],
+  [
+   "tick",
+   36.85
+  ],
+  [
+   "tick",
+   38.75
+  ],
+  [
+   "warn",
+   41.75
+  ],
+  [
+   "check",
+   45.45
+  ],
+  [
+   "check",
+   46.55
+  ],
+  [
+   "check",
+   47.85
+  ],
+  [
+   "shimmer",
+   50.45
+  ],
+  [
+   "tick",
+   52.45
+  ],
+  [
+   "tick",
+   53.35
+  ],
+  [
+   "tick",
+   54.45
+  ],
+  [
+   "tick",
+   55.45
+  ],
+  [
+   "tick",
+   56.65
+  ],
+  [
+   "click",
+   61.0
+  ],
+  [
+   "pop",
+   61.25
+  ]
+ ]
+}
