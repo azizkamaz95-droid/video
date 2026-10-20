@@ -1,0 +1,82 @@
+{
+ "pointe": {
+  "source": "avatar/calix/source/calix-pointe.png",
+  "use": "Intro, accroche",
+  "original_name": "Souriant, pointe la caméra.png"
+ },
+ "pouce": {
+  "source": "avatar/calix/source/calix-pouce.jpg",
+  "use": "Bonne nouvelle, résultat",
+  "original_name": "joyeux pouce levé.PNG"
+ },
+ "enerve": {
+  "source": "avatar/calix/source/calix-enerve.jpg",
+  "use": "Erreurs à éviter",
+  "original_name": "Énervé, bras croisés, sourcils froncés.PNG"
+ },
+ "curieux": {
+  "source": "avatar/calix/source/calix-curieux.jpg",
+  "use": "Questions",
+  "original_name": "Curieux, main au menton, tête penchée.PNG"
+ },
+ "choc": {
+  "source": "avatar/calix/source/calix-choc.jpg",
+  "use": "Chiffre choc, révélation",
+  "original_name": "Choqué, bouche ouverte, mains sur la tête.PNG"
+ },
+ "explique": {
+  "source": "avatar/calix/source/calix-explique.jpg",
+  "use": "Conseils",
+  "original_name": "Explique, mains ouvertes vers la caméra.PNG"
+ },
+ "sceptique": {
+  "source": "avatar/calix/source/calix-sceptique.jpg",
+  "use": "Idées reçues",
+  "original_name": "Sceptique, lunettes baissées sur le nez.png"
+ },
+ "non": {
+  "source": "avatar/calix/source/calix-non.jpg",
+  "use": "Mythes à casser",
+  "original_name": "Fait « non » avec le doigt.png"
+ },
+ "un": {
+  "source": "avatar/calix/source/calix-un.jpg",
+  "use": "Étape 1",
+  "original_name": "Montre 1 doigt.png"
+ },
+ "deux": {
+  "source": "avatar/calix/source/calix-deux.jpg",
+  "use": "Étape 2",
+  "original_name": "Montre 2.png"
+ },
+ "trois": {
+  "source": "avatar/calix/source/calix-trois.jpg",
+  "use": "Étape 3",
+  "original_name": "Montre 3 doigts.png"
+ },
+ "app": {
+  "source": "avatar/calix/source/calix-app.jpg",
+  "use": "Appel à l'action, l'app",
+  "original_name": "Montre son téléphone avec l’app.png"
+ },
+ "biceps": {
+  "source": "avatar/calix/source/calix-biceps.jpg",
+  "use": "Sport, motivation",
+  "original_name": "Contracte le biceps.png"
+ },
+ "hydratation": {
+  "source": "avatar/calix/source/calix-hydratation.jpg",
+  "use": "Hydratation",
+  "original_name": "Boit à une gourde.png"
+ },
+ "nutrition": {
+  "source": "avatar/calix/source/calix-nutrition.jpg",
+  "use": "Nutrition",
+  "original_name": "Tient une assiette ou un bol.png"
+ },
+ "fatigue": {
+  "source": "avatar/calix/source/calix-fatigue.jpg",
+  "use": "Sommeil, récupération",
+  "original_name": "Bâille, fatigué.png"
+ }
+}
