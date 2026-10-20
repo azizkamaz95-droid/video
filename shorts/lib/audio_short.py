@@ -360,6 +360,25 @@ def sfx_pop():
     return np.sin(2 * np.pi * np.cumsum(f) / SR) * expd(len(t), 0.02) * 0.6 + body * 0.7
 
 
+SFX_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "sfx")
+
+
+def load_sfx(name):
+    """A sound downloaded by the client (shorts/sfx/<name>.mp3|wav|ogg|m4a) replaces the synthesized one."""
+    for ext in (".wav", ".mp3", ".ogg", ".m4a"):
+        p = os.path.join(SFX_DIR, name + ext)
+        if os.path.exists(p):
+            x = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", p, "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
+                                             capture_output=True, check=True).stdout, np.float32).astype(float)
+            on = np.where(np.abs(x) > np.abs(x).max() * 0.03)[0]
+            x = x[max(0, on[0] - int(0.005 * SR)):] if len(on) else x   # drop leading silence so it hits on the cue
+            x = x[:int(2.0 * SR)]                                         # effects stay short
+            n = min(len(x), int(0.15 * SR))
+            x[-n:] *= np.linspace(1, 0, n)
+            return x
+    return None
+
+
 # name -> (generator, intended loudness relative to Calix's speech level, in dB, when it lands in a breath)
 BANK = {
     "whoosh_in": (lambda: sfx_whoosh(0.5), -6), "whoosh": (lambda: sfx_whoosh(0.4), -6),
@@ -374,7 +393,8 @@ NUDGE = (-0.10, 0.15)
 hi_global = np.percentile(v_hi[active], 80)            # typical consonant level (s, f, t, ch)
 for name, t0 in plan.get("sfx", []):
     make, intent_db = BANK[name]
-    raw_sig = make()
+    own = load_sfx(name)
+    raw_sig = own if own is not None else make()
     lo_sig, hi_sig = lp(raw_sig, 150, 4), hp(raw_sig, 2500, 4)
     pk = np.max(np.abs(lo_sig + hi_sig)) + 1e-9
     lo_sig, hi_sig = lo_sig / pk, hi_sig / pk
@@ -427,7 +447,7 @@ for name, t0 in plan.get("sfx", []):
         status += f" (lowered {20 * np.log10(cap / nominal):.1f} dB" + (", word attack)" if hits else ")")
     if cap > 0:
         place(sfx, sig, best, cap, pan=0.0)
-    report.append((name, t0, best, status + ("" if talking else " · in a breath")))
+    report.append((name, t0, best, status + ("" if talking else " · in a breath") + (" · own file" if own is not None else "")))
 
 sfx += reverb(sfx, ir, 0.12)
 
