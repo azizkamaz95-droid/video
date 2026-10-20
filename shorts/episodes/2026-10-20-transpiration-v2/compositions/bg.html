@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+
+        #bg { position:absolute; inset:0; background:#0A0A0F; perspective:1200px; perspective-origin:50% 38%; }
+        #bg-floor { position:absolute; left:-760px; top:900px; width:2600px; height:2400px; transform-origin:50% 0%;
+          transform: rotateX(76deg);
+          background-image: linear-gradient(rgba(244,241,236,.13) 3px, transparent 3px), linear-gradient(90deg, rgba(244,241,236,.13) 3px, transparent 3px);
+          background-size: 150px 150px;
+          -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 22%, #000 70%, transparent 100%);
+          mask-image: linear-gradient(to bottom, transparent 0%, #000 22%, #000 70%, transparent 100%); }
+        #bg-horizon { position:absolute; left:0; right:0; top:840px; height:260px; background: radial-gradient(50% 50% at 50% 50%, rgba(244,241,236,.10), rgba(244,241,236,0)); }
+        .glow-set { position:absolute; inset:0; opacity:0; }
+        .glow-set b { position:absolute; display:block; border-radius:50%; }
+        .glow-set .g1 { left:-260px; top:120px; width:1100px; height:1100px; }
+        .glow-set .g2 { left:380px; top:820px; width:1200px; height:1200px; }
+        #bg-parts { position:absolute; left:0; top:0; width:1080px; height:1920px; }
+        .pt { position:absolute; left:0; top:0; display:block; border-radius:50%; background:#F4F1EC; box-shadow:0 0 14px rgba(255,190,150,.8); }
+
+      </style>
+      <div id="root" data-composition-id="bg" data-width="1080" data-height="1920" data-duration="62.0">
+        <div id="bg">
+          <div class="glow-set-wrap"><div class="glow-set" id="bg-heat" style="opacity:1"><b class="g1" style="background:radial-gradient(closest-side,#FF6B3555,#FF6B3500)"></b><b class="g2" style="background:radial-gradient(closest-side,#FF6B3540,#FF6B3500)"></b></div><div class="glow-set" id="bg-red"><b class="g1" style="background:radial-gradient(closest-side,#FF2D5555,#FF2D5500)"></b><b class="g2" style="background:radial-gradient(closest-side,#FF2D5540,#FF2D5500)"></b></div><div class="glow-set" id="bg-water"><b class="g1" style="background:radial-gradient(closest-side,#00D4FF55,#00D4FF00)"></b><b class="g2" style="background:radial-gradient(closest-side,#00D4FF40,#00D4FF00)"></b></div><div class="glow-set" id="bg-green"><b class="g1" style="background:radial-gradient(closest-side,#00FF8755,#00FF8700)"></b><b class="g2" style="background:radial-gradient(closest-side,#00FF8740,#00FF8700)"></b></div></div>
+          <div id="bg-horizon"></div>
+          <div id="bg-floor"></div>
+          <div id="bg-parts" class="p3d"><i class="pt" id="bg-p0" style="width:10.3px;height:10.3px;opacity:0.46"></i><i class="pt" id="bg-p1" style="width:6.3px;height:6.3px;opacity:0.48"></i><i class="pt" id="bg-p2" style="width:8.8px;height:8.8px;opacity:0.36"></i><i class="pt" id="bg-p3" style="width:5.4px;height:5.4px;opacity:0.59"></i><i class="pt" id="bg-p4" style="width:9.6px;height:9.6px;opacity:0.53"></i><i class="pt" id="bg-p5" style="width:5.6px;height:5.6px;opacity:0.26"></i><i class="pt" id="bg-p6" style="width:7.8px;height:7.8px;opacity:0.57"></i><i class="pt" id="bg-p7" style="width:5.2px;height:5.2px;opacity:0.40"></i><i class="pt" id="bg-p8" style="width:4.4px;height:4.4px;opacity:0.50"></i><i class="pt" id="bg-p9" style="width:5.1px;height:5.1px;opacity:0.65"></i><i class="pt" id="bg-p10" style="width:12.7px;height:12.7px;opacity:0.62"></i><i class="pt" id="bg-p11" style="width:10.5px;height:10.5px;opacity:0.69"></i><i class="pt" id="bg-p12" style="width:9.8px;height:9.8px;opacity:0.39"></i><i class="pt" id="bg-p13" style="width:12.5px;height:12.5px;opacity:0.26"></i><i class="pt" id="bg-p14" style="width:13.0px;height:13.0px;opacity:0.54"></i><i class="pt" id="bg-p15" style="width:5.3px;height:5.3px;opacity:0.51"></i><i class="pt" id="bg-p16" style="width:11.3px;height:11.3px;opacity:0.55"></i><i class="pt" id="bg-p17" style="width:12.6px;height:12.6px;opacity:0.51"></i><i class="pt" id="bg-p18" style="width:9.0px;height:9.0px;opacity:0.33"></i><i class="pt" id="bg-p19" style="width:5.5px;height:5.5px;opacity:0.26"></i><i class="pt" id="bg-p20" style="width:4.5px;height:4.5px;opacity:0.47"></i><i class="pt" id="bg-p21" style="width:11.1px;height:11.1px;opacity:0.49"></i><i class="pt" id="bg-p22" style="width:6.6px;height:6.6px;opacity:0.29"></i><i class="pt" id="bg-p23" style="width:11.0px;height:11.0px;opacity:0.66"></i><i class="pt" id="bg-p24" style="width:11.5px;height:11.5px;opacity:0.50"></i><i class="pt" id="bg-p25" style="width:6.6px;height:6.6px;opacity:0.69"></i><i class="pt" id="bg-p26" style="width:10.3px;height:10.3px;opacity:0.55"></i><i class="pt" id="bg-p27" style="width:9.5px;height:9.5px;opacity:0.38"></i><i class="pt" id="bg-p28" style="width:12.7px;height:12.7px;opacity:0.28"></i><i class="pt" id="bg-p29" style="width:11.5px;height:11.5px;opacity:0.69"></i><i class="pt" id="bg-p30" style="width:10.4px;height:10.4px;opacity:0.58"></i><i class="pt" id="bg-p31" style="width:11.5px;height:11.5px;opacity:0.58"></i><i class="pt" id="bg-p32" style="width:12.0px;height:12.0px;opacity:0.30"></i><i class="pt" id="bg-p33" style="width:12.2px;height:12.2px;opacity:0.66"></i></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          tl.fromTo("#bg-p0",{x:-36,y:30,z:179},{x:-51,y:-449,z:179,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p1",{x:233,y:1062,z:-43},{x:275,y:736,z:-43,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p2",{x:183,y:673,z:-436},{x:259,y:288,z:-436,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p3",{x:986,y:301,z:-571},{x:993,y:-82,z:-571,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p4",{x:38,y:1817,z:-202},{x:112,y:1272,z:-202,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p5",{x:1037,y:1638,z:-664},{x:1025,y:1228,z:-664,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p6",{x:54,y:1513,z:-368},{x:125,y:1056,z:-368,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p7",{x:762,y:594,z:-379},{x:828,y:278,z:-379,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p8",{x:175,y:1228,z:-397},{x:242,y:680,z:-397,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p9",{x:925,y:1276,z:128},{x:949,y:793,z:128,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p10",{x:1083,y:1660,z:-165},{x:1091,y:993,z:-165,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p11",{x:-43,y:984,z:-405},{x:-2,y:493,z:-405,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p12",{x:608,y:1629,z:-313},{x:616,y:1058,z:-313,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p13",{x:229,y:-80,z:-678},{x:250,y:-690,z:-678,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p14",{x:680,y:1149,z:-55},{x:758,y:773,z:-55,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p15",{x:900,y:1211,z:47},{x:901,y:534,z:47,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p16",{x:140,y:732,z:-510},{x:178,y:110,z:-510,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p17",{x:1118,y:1180,z:-37},{x:1075,y:714,z:-37,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p18",{x:889,y:1693,z:-529},{x:893,y:1233,z:-529,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p19",{x:246,y:822,z:-270},{x:193,y:560,z:-270,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p20",{x:77,y:1740,z:185},{x:61,y:1407,z:185,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p21",{x:814,y:673,z:-376},{x:862,y:115,z:-376,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p22",{x:892,y:766,z:-194},{x:936,y:284,z:-194,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p23",{x:248,y:1636,z:45},{x:225,y:1196,z:45,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p24",{x:247,y:659,z:-271},{x:323,y:229,z:-271,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p25",{x:465,y:611,z:-217},{x:476,y:-20,z:-217,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p26",{x:942,y:941,z:-307},{x:950,y:290,z:-307,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p27",{x:142,y:1356,z:-348},{x:123,y:736,z:-348,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p28",{x:57,y:1335,z:-41},{x:18,y:942,z:-41,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p29",{x:800,y:1845,z:6},{x:756,y:1181,z:6,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p30",{x:283,y:1031,z:-348},{x:303,y:451,z:-348,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p31",{x:683,y:1148,z:-455},{x:626,y:685,z:-455,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p32",{x:497,y:1075,z:-204},{x:442,y:415,z:-204,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-p33",{x:289,y:1000,z:-347},{x:293,y:380,z:-347,duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-floor",{backgroundPosition:"0px 0px"},{backgroundPosition:"0px 9300px",duration:62.0,ease:"none"},0);
+          tl.fromTo("#bg-heat .g1",{x:-60,y:-40},{x:80,y:60,duration:7,ease:"sine.inOut",yoyo:true,repeat:7},0);
+          tl.fromTo("#bg-heat .g2",{x:50,y:30},{x:-70,y:-50,duration:9,ease:"sine.inOut",yoyo:true,repeat:5},0);
+          tl.fromTo("#bg-red .g1",{x:-60,y:-40},{x:80,y:60,duration:7,ease:"sine.inOut",yoyo:true,repeat:7},0);
+          tl.fromTo("#bg-red .g2",{x:50,y:30},{x:-70,y:-50,duration:9,ease:"sine.inOut",yoyo:true,repeat:5},0);
+          tl.fromTo("#bg-water .g1",{x:-60,y:-40},{x:80,y:60,duration:7,ease:"sine.inOut",yoyo:true,repeat:7},0);
+          tl.fromTo("#bg-water .g2",{x:50,y:30},{x:-70,y:-50,duration:9,ease:"sine.inOut",yoyo:true,repeat:5},0);
+          tl.fromTo("#bg-green .g1",{x:-60,y:-40},{x:80,y:60,duration:7,ease:"sine.inOut",yoyo:true,repeat:7},0);
+          tl.fromTo("#bg-green .g2",{x:50,y:30},{x:-70,y:-50,duration:9,ease:"sine.inOut",yoyo:true,repeat:5},0);
+          tl.fromTo("#bg-heat",{opacity:1.0},{opacity:0.35,duration:.45,ease:"power1.inOut",immediateRender:false},2.8);
+          tl.fromTo("#bg-red",{opacity:0.0},{opacity:1.0,duration:.45,ease:"power1.inOut",immediateRender:false},2.8);
+          tl.fromTo("#bg-heat",{opacity:0.35},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},3.69);
+          tl.fromTo("#bg-red",{opacity:1.0},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},3.69);
+          tl.fromTo("#bg-water",{opacity:0.0},{opacity:1.0,duration:.45,ease:"power1.inOut",immediateRender:false},3.69);
+          tl.fromTo("#bg-heat",{opacity:0},{opacity:1.0,duration:.45,ease:"power1.inOut",immediateRender:false},8.25);
+          tl.fromTo("#bg-water",{opacity:1.0},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},8.25);
+          tl.fromTo("#bg-heat",{opacity:1.0},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},9.45);
+          tl.fromTo("#bg-water",{opacity:0},{opacity:1.0,duration:.45,ease:"power1.inOut",immediateRender:false},9.45);
+          tl.fromTo("#bg-heat",{opacity:0},{opacity:1.0,duration:.45,ease:"power1.inOut",immediateRender:false},17.95);
+          tl.fromTo("#bg-water",{opacity:1.0},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},17.95);
+          tl.fromTo("#bg-heat",{opacity:1.0},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},21.3);
+          tl.fromTo("#bg-water",{opacity:0},{opacity:1.0,duration:.45,ease:"power1.inOut",immediateRender:false},21.3);
+          tl.fromTo("#bg-heat",{opacity:0},{opacity:0.35,duration:.45,ease:"power1.inOut",immediateRender:false},29.95);
+          tl.fromTo("#bg-red",{opacity:0},{opacity:1.0,duration:.45,ease:"power1.inOut",immediateRender:false},29.95);
+          tl.fromTo("#bg-water",{opacity:1.0},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},29.95);
+          tl.fromTo("#bg-heat",{opacity:0.35},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},38.47);
+          tl.fromTo("#bg-red",{opacity:1.0},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},38.47);
+          tl.fromTo("#bg-green",{opacity:0.0},{opacity:1.0,duration:.45,ease:"power1.inOut",immediateRender:false},38.47);
+          tl.fromTo("#bg-heat",{opacity:0},{opacity:0.75,duration:.45,ease:"power1.inOut",immediateRender:false},46.1);
+          tl.fromTo("#bg-red",{opacity:0},{opacity:0.45,duration:.45,ease:"power1.inOut",immediateRender:false},46.1);
+          tl.fromTo("#bg-water",{opacity:0},{opacity:0.45,duration:.45,ease:"power1.inOut",immediateRender:false},46.1);
+          tl.fromTo("#bg-green",{opacity:1.0},{opacity:0,duration:.45,ease:"power1.inOut",immediateRender:false},46.1);
+          window.__timelines["bg"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

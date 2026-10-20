@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f02-bg { position: absolute; inset: 0; background: radial-gradient(75% 55% at 50% 40%, #5a0618 0%, #22030b 55%, #0A0A0F 100%); }
+        #f02-rays { position: absolute; left: -460px; top: -200px; width: 2000px; height: 2000px; opacity: .35;
+          background: repeating-conic-gradient(from 0deg at 50% 50%, rgba(255,45,85,.55) 0deg 6deg, rgba(255,45,85,0) 6deg 18deg);
+          -webkit-mask-image: radial-gradient(closest-side, #000 20%, transparent 80%); mask-image: radial-gradient(closest-side, #000 20%, transparent 80%); }
+        #f02-claim { position: absolute; left: 0; top: 640px; width: 1080px; height: 260px; }
+        .f02-ch { position: absolute; top: 0; font-size: 230px; }
+        #f02-verdict { position: absolute; left: 0; width: 1080px; top: 330px; text-align: center; color: var(--red); }
+        #f02-stamp { position: absolute; left: 140px; top: 470px; width: 800px; height: 420px; }
+        #f02-box { position: absolute; inset: 0; border: 16px solid var(--red); border-radius: 30px; background: rgba(10,10,15,.35);
+          box-shadow: 0 0 60px rgba(255,45,85,.6), inset 0 0 40px rgba(255,45,85,.35); }
+        #f02-word { position: absolute; left: 0; width: 800px; top: 18px; text-align: center; font-size: 400px; }
+        #f02-ring { position: absolute; left: 240px; top: 380px; width: 600px; height: 600px; border-radius: 50%; border: 10px solid var(--red); opacity: 0; }
+        .f02-bit { position: absolute; left: 530px; top: 680px; width: 22px; height: 22px; background: var(--red); border-radius: 4px; opacity: 0; }
+      </style>
+      <div id="root" data-composition-id="f02-faux" data-width="1080" data-height="1920" data-duration="0.89">
+        <div class="scene" id="f02">
+          <div id="f02-bg"></div>
+          <div id="f02-rays"></div>
+          <div id="f02-claim" class="p3d"></div>
+          <div id="f02-verdict" class="mono">Verdict</div>
+          <div id="f02-ring"></div>
+          <div id="f02-bits"></div>
+          <div id="f02-stamp"><div id="f02-box"></div><div id="f02-word" class="disp ex c-red">Faux</div></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f02-faux", T0 = 2.95;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          // seeded PRNG so the burst is identical on every render
+          let s = 20261020; const rnd = () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; };
+          const build = () => {
+          const claim = document.getElementById("f02-claim");
+          const letters = "GRAISSE".split("");
+          const P = window.__hyperframes.pretext;
+          const mw = (txt) => P.measureNaturalWidth(P.prepareWithSegments(txt, '400 230px "League Gothic"'));
+          let x = 540 - mw("GRAISSE") / 2;
+          letters.forEach((c, i) => {
+            const el = document.createElement("div");
+            el.className = "f02-ch disp ex c-heat"; el.id = "f02-c" + i; el.textContent = c;
+            el.style.left = x + "px"; x += mw(c);
+            claim.appendChild(el);
+          });
+          const bits = document.getElementById("f02-bits");
+          for (let i = 0; i < 16; i++) { const b = document.createElement("i"); b.className = "f02-bit"; b.id = "f02-b" + i; bits.appendChild(b); }
+          const tl = gsap.timeline({ paused: true });
+          tl.fromTo("#f02-rays", { rotation: 0, scale: .8 }, { rotation: 24, scale: 1.1, duration: 0.89, ease: "power2.out" }, 0);
+          tl.fromTo("#f02-verdict", { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: "expo.out" }, 0);
+          // the claim breaks apart in 3D
+          letters.forEach((c, i) => {
+            const dx = (i - 3) * 160 + (rnd() - .5) * 200, dy = (rnd() - .3) * 900, dz = 200 + rnd() * 700;
+            tl.fromTo("#f02-c" + i, { x: 0, y: 0, z: 0, rotationX: 0, rotationY: 0, opacity: 1 },
+              { x: dx, y: dy, z: dz, rotationX: (rnd() - .5) * 540, rotationY: (rnd() - .5) * 540, opacity: 0, duration: 0.7, ease: "power3.out" }, at(2.97));
+          });
+          // stamp slam
+          tl.fromTo("#f02-stamp", { scale: 3.2, rotation: -24, opacity: 0 }, { scale: 1, rotation: -9, opacity: 1, duration: 0.13, ease: "power4.in" }, at(2.92));
+          tl.fromTo("#f02-stamp", { scale: 1 }, { scale: 1.06, duration: 0.07, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(3.05));
+          tl.fromTo("#f02-ring", { scale: 0.3, opacity: 1 }, { scale: 2.4, opacity: 0, duration: 0.5, ease: "power2.out", immediateRender: false }, at(3.05));
+          for (let i = 0; i < 16; i++) {
+            const a = (i / 16) * Math.PI * 2 + rnd() * 0.3, d = 380 + rnd() * 380;
+            tl.fromTo("#f02-b" + i, { x: 0, y: 0, rotation: 0, opacity: 1, scale: 1 },
+              { x: Math.cos(a) * d, y: Math.sin(a) * d, rotation: rnd() * 360, opacity: 0, scale: .4, duration: 0.55, ease: "power3.out", immediateRender: false }, at(3.05));
+          }
+          // hold, then a quick pull back as the next idea arrives
+          tl.fromTo("#f02-stamp", { y: 0 }, { y: -40, duration: 0.6, ease: "sine.out", immediateRender: false }, at(3.2));
+          window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

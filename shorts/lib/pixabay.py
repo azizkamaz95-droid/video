@@ -2,6 +2,7 @@
 """Search and download free stock photos or videos from Pixabay into an episode, with a rights ledger.
 
 usage: pixabay.py <episode_dir> <photo|video> "<query>" [count]
+       pixabay.py <episode_dir> <photo|video> id:<pixabay id>
 
 Reads the key from PIXABAY_API_KEY (never put it in the code). Files land in <episode>/assets/stock/ and every
 download is recorded in <episode>/assets/stock/credits.json (source page, author, licence) so each medium in a
@@ -30,6 +31,8 @@ out = os.path.join(EP, "assets", "stock")
 os.makedirs(out, exist_ok=True)
 
 params = {"key": key, "q": query, "lang": "fr", "safesearch": "true", "per_page": max(3, min(200, count * 4))}
+if query.startswith("id:"):  # a specific medium chosen from a contact sheet
+    params = {"key": key, "id": query[3:]}
 if kind == "photo":
     params.update({"image_type": "photo", "orientation": "vertical"})
     url = "https://pixabay.com/api/?" + urllib.parse.urlencode(params)
@@ -52,8 +55,9 @@ for h in hits[:count]:
         src, ext = v["url"], ".mp4"
     name = f"pixabay-{kind}-{h['id']}{ext}"
     path = os.path.join(out, name)
-    if not os.path.exists(path):
-        open(path, "wb").write(fetch(src))
+    if not os.path.exists(path) or os.path.getsize(path) == 0:
+        data = fetch(src)  # fetch first, so a failed download never leaves an empty file behind
+        open(path, "wb").write(data)
     if not any(e["file"] == name for e in ledger):
         ledger.append({"file": name, "source": h["pageURL"], "author": h.get("user"), "tags": h.get("tags"),
                        "query": query, "licence": "Pixabay Content License (https://pixabay.com/service/license-summary/)"})

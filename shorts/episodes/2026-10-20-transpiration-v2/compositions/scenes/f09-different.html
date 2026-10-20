@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f09-band { position: absolute; left: -80px; top: 300px; width: 1240px; height: 150px; rotate: -4deg;
+          background: repeating-linear-gradient(-45deg, #FF2D55 0 34px, #1a0a10 34px 68px); box-shadow: 0 20px 60px rgba(255,45,85,.35); }
+        #f09-band-in { position: absolute; left: 170px; top: 18px; height: 114px; padding: 0 34px; border-radius: 20px; background: #0A0A0F; display: flex; align-items: center; gap: 18px; }
+        #f09-band-in .disp { font-size: 100px; }
+        #f09-warn { width: 76px; height: 70px; }
+        #f09-stage { position: absolute; left: 0; top: 520px; width: 1080px; height: 600px; }
+        .f09-card { position: absolute; top: 0; width: 370px; height: 520px; border-radius: 36px; overflow: hidden; }
+        #f09-c1 { left: 60px; background: linear-gradient(170deg, #063845, #0d1520 70%); border: 5px solid #00D4FF; box-shadow: 0 0 60px rgba(0,212,255,.35), 0 40px 90px rgba(0,0,0,.6); }
+        #f09-c2 { left: 570px; background: linear-gradient(170deg, #3d1a0c, #1a1210 70%); border: 5px solid #FF6B35; box-shadow: 0 0 60px rgba(255,107,53,.35), 0 40px 90px rgba(0,0,0,.6); }
+        .f09-ico { position: absolute; left: 85px; top: 60px; width: 200px; height: 220px; }
+        .f09-name { position: absolute; left: 0; width: 370px; top: 300px; text-align: center; font-size: 170px; }
+        .f09-cap { position: absolute; left: 0; width: 370px; top: 460px; text-align: center; font-size: 22px; color: #cfcbd8; }
+        #f09-neq { position: absolute; left: 0; width: 1000px; top: 90px; text-align: center; font-size: 330px; }
+        #f09-glow { position: absolute; left: 520px; top: -40px; width: 480px; height: 620px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255,107,53,.55), rgba(255,107,53,0)); opacity: 0; }
+      </style>
+      <div id="root" data-composition-id="f09-different" data-width="1080" data-height="1920" data-duration="3.15">
+        <div class="scene" id="f09">
+          <div id="f09-band"><div id="f09-band-in">
+            <svg id="f09-warn" viewBox="0 0 76 70"><path d="M38 4 L73 66 H3 Z" fill="#FF2D55"/><path d="M38 24 V44" stroke="#0A0A0F" stroke-width="8" stroke-linecap="round"/><circle cx="38" cy="55" r="4.5" fill="#0A0A0F"/></svg>
+            <div class="disp c-white">Mais attention</div>
+          </div></div>
+          <div id="f09-stage" class="p3d">
+            <div id="f09-glow"></div>
+            <div class="f09-card" id="f09-c1">
+              <svg class="f09-ico" viewBox="0 0 100 120"><path d="M50 4 C66 34 88 54 88 78 C88 100 70 116 50 116 C30 116 12 100 12 78 C12 54 34 34 50 4 Z" fill="#00D4FF"/><path d="M34 72 C34 88 42 98 56 100" fill="none" stroke="#E8FCFF" stroke-width="7" stroke-linecap="round"/></svg>
+              <div class="f09-name disp ex c-water">Eau</div>
+              <div class="f09-cap mono">Elle part… et revient</div>
+            </div>
+            <div class="f09-card" id="f09-c2">
+              <svg class="f09-ico" viewBox="0 0 100 120"><path d="M50 6 C64 30 84 42 82 70 C80 96 64 112 50 112 C32 112 18 96 18 72 C18 56 30 48 34 34 C40 48 46 50 50 52 C53 36 52 22 50 6 Z" fill="#FF6B35"/><path d="M50 66 C57 76 64 80 62 92 C60 101 54 104 50 104 C43 104 38 99 38 90 C38 81 45 76 50 66 Z" fill="#FFD2B8"/></svg>
+              <div class="f09-name disp ex c-heat">Graisse</div>
+              <div class="f09-cap mono">Ce qu'on veut perdre</div>
+            </div>
+            <div id="f09-neq" class="disp ex c-white">≠</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f09-different", T0 = 23.30;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f09-band", { x: -1300 }, { x: 0, duration: 0.32, ease: "expo.out" }, at(23.32));
+            tl.fromTo("#f09-band", { backgroundPositionX: "0px" }, { backgroundPositionX: "192px", duration: 3.1, ease: "none" }, at(23.32));
+            tl.fromTo("#f09-warn", { scale: 1 }, { scale: 1.2, duration: 0.18, ease: "sine.inOut", yoyo: true, repeat: 5, immediateRender: false }, at(23.6));
+            tl.fromTo("#f09-band", { y: 0, scale: 1 }, { y: -40, scale: 0.86, duration: 0.4, ease: "power3.inOut", immediateRender: false }, at(24.3));
+            tl.fromTo("#f09-c1", { x: -700, rotationY: 80, z: -300, opacity: 0 }, { x: 0, rotationY: 22, z: 0, opacity: 1, duration: 0.5, ease: "back.out(1.4)" }, at(24.42));
+            tl.fromTo("#f09-c2", { x: 700, rotationY: -80, z: -300, opacity: 0 }, { x: 0, rotationY: -22, z: 0, opacity: 1, duration: 0.5, ease: "back.out(1.4)" }, at(24.55));
+            tl.fromTo("#f09-neq", { scale: 3.4, opacity: 0, z: 300 }, { scale: 1, opacity: 1, z: 0, duration: 0.18, ease: "power4.in" }, at(24.70));
+            tl.fromTo("#f09-neq", { rotation: 0 }, { rotation: -8, duration: 0.25, ease: "back.out(3)", immediateRender: false }, at(24.88));
+            // "…perdre de la graisse": the fat card is the one that matters
+            tl.fromTo("#f09-c2", { scale: 1 }, { scale: 1.07, duration: 0.25, ease: "power2.out", immediateRender: false }, at(25.34));
+            tl.fromTo("#f09-glow", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "power1.out" }, at(25.34));
+            tl.fromTo("#f09-c1", { opacity: 1 }, { opacity: 0.55, duration: 0.3, ease: "power1.out", immediateRender: false }, at(25.34));
+            tl.fromTo("#f09-stage", { rotationX: 6, y: 0 }, { rotationX: -2, y: -20, duration: 2.0, ease: "sine.inOut" }, at(24.42));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

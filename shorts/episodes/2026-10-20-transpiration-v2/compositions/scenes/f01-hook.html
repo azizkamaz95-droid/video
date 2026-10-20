@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f01-media { position: absolute; inset: 0; }
+        #f01-shade { position: absolute; inset: 0;
+          background: linear-gradient(180deg, rgba(10,10,15,.82) 0%, rgba(10,10,15,.25) 30%, rgba(10,10,15,.35) 55%, rgba(10,10,15,.92) 78%, #0A0A0F 100%); }
+        #f01-ghost { position: absolute; left: -40px; top: 980px; font-size: 520px; }
+        #f01-tag { position: absolute; left: 70px; top: 250px; color: var(--red); }
+        #f01-cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        .f01-l { position: absolute; left: 70px; transform-origin: 0% 100%; }
+        #f01-l1 { top: 340px; font-size: 170px; }
+        #f01-l2 { top: 495px; font-size: 250px; }
+        #f01-l3 { top: 725px; font-size: 170px; }
+        #f01-l4 { top: 865px; font-size: 230px; }
+        #f01-bar { position: absolute; left: 70px; top: 1072px; width: 620px; height: 14px; background: var(--heat); transform-origin: 0% 50%; border-radius: 7px; }
+      </style>
+      <div id="root" data-composition-id="f01-hook" data-width="1080" data-height="1920" data-duration="2.95">
+        <div class="scene" id="f01">
+          <div id="f01-media">
+            <video id="f01-vid" class="clip media-fill" src="assets/clips/hook-heat.mp4" muted playsinline data-start="0" data-duration="2.95" data-track-index="0"></video>
+          </div>
+          <div id="f01-shade"></div>
+          <div id="f01-ghost" class="ghost">SUEUR</div>
+          <div id="f01-tag" class="mono chip"><i class="dot"></i>Mythe ou réalité ?</div>
+          <div id="f01-cam" class="p3d">
+            <div id="f01-l1" class="f01-l disp ex c-white" data-fit="900">Plus tu</div>
+            <div id="f01-l2" class="f01-l disp ex c-wheat" data-fit="930">Transpires,</div>
+            <div id="f01-l3" class="f01-l disp ex c-white" data-fit="900">Plus tu perds</div>
+            <div id="f01-l4" class="f01-l disp ex c-heat" data-fit="930">De graisse</div>
+            <div id="f01-bar"></div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f01-hook", T0 = 0.0;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const fit = () => document.querySelectorAll("#f01 [data-fit]").forEach((el) => {
+            const base = parseFloat(getComputedStyle(el).fontSize);
+            const r = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 });
+            el.style.fontSize = r.fontSize + "px";
+          });
+          const build = () => {
+            fit();
+            const tl = gsap.timeline({ paused: true });
+            // footage: slow push-in, then drains of colour on "Eh bien…"
+            tl.fromTo("#f01-media", { scale: 1.02 }, { scale: 1.16, duration: 2.95, ease: "none" }, 0);
+            tl.fromTo("#f01-media", { filter: "grayscale(0) brightness(1)" }, { filter: "grayscale(.9) brightness(.55)", duration: 0.35, ease: "power2.out" }, at(2.5));
+            tl.fromTo("#f01-ghost", { x: 60, opacity: 0 }, { x: -160, opacity: 1, duration: 2.95, ease: "none" }, 0);
+            tl.fromTo("#f01-tag", { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.35, ease: "expo.out" }, 0.05);
+            // camera: slow orbit, then a suspense tilt on "Eh bien…"
+            tl.fromTo("#f01-cam", { rotationY: 10, rotationX: -4 }, { rotationY: -3, rotationX: 0, duration: 2.4, ease: "sine.inOut" }, 0);
+            tl.fromTo("#f01-cam", { rotationY: -3, rotationX: 0, scale: 1 }, { rotationY: -12, rotationX: 9, scale: 0.93, duration: 0.45, ease: "power3.out", immediateRender: false }, at(2.5));
+            // four lines, four different hits
+            tl.fromTo("#f01-l1", { z: -1500, opacity: 0, filter: "blur(14px)" }, { z: 0, opacity: 1, filter: "blur(0px)", duration: 0.42, ease: "power4.out" }, at(0.22));
+            tl.fromTo("#f01-l2", { rotationX: -100, opacity: 0, y: 40 }, { rotationX: 0, opacity: 1, y: 0, duration: 0.5, ease: "back.out(1.7)" }, at(0.55));
+            tl.fromTo("#f01-l3", { x: 760, skewX: -16, opacity: 0 }, { x: 0, skewX: 0, opacity: 1, duration: 0.38, ease: "expo.out" }, at(1.2));
+            tl.fromTo("#f01-l4", { scale: 2.6, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.36, ease: "power4.out" }, at(1.68));
+            tl.fromTo("#f01-bar", { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "expo.out" }, at(1.95));
+            // micro-recoil of the stack when "graisse" lands
+            tl.fromTo("#f01-l3", { y: 0 }, { y: -10, duration: 0.08, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(1.74));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

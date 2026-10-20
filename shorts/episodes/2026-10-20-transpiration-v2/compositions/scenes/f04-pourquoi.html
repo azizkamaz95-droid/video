@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f04-q-wrap { position: absolute; left: 430px; top: 230px; width: 700px; height: 900px; }
+        #f04-q { position: absolute; left: 0; top: 0; width: 700px; text-align: center; font-size: 900px; color: var(--heat); --ex: #8a2d10; opacity: .9; }
+        #f04-et { position: absolute; left: 70px; top: 420px; font-size: 80px; }
+        #f04-word { position: absolute; left: 60px; top: 520px; font-size: 300px; }
+        #f04-line { position: absolute; left: 70px; top: 800px; width: 560px; height: 14px; border-radius: 7px; background: var(--fg); transform-origin: 0% 50%; }
+      </style>
+      <div id="root" data-composition-id="f04-pourquoi" data-width="1080" data-height="1920" data-duration="1.2">
+        <div class="scene" id="f04">
+          <div id="f04-q-wrap" class="p3d"><div id="f04-q" class="disp ex">?</div></div>
+          <div id="f04-et" class="sub">Et voici</div>
+          <div id="f04-word" class="disp ex c-wheat" data-fit="960">Pourquoi</div>
+          <div id="f04-line"></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f04-pourquoi", T0 = 8.40;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            document.querySelectorAll("#f04 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f04-q", { rotationY: -160, z: -600, opacity: 0 }, { rotationY: 200, z: 0, opacity: .9, duration: 1.2, ease: "power2.out" }, 0);
+            tl.fromTo("#f04-et", { x: -120, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, at(8.45));
+            tl.fromTo("#f04-word", { rotationX: 90, y: 80, opacity: 0, transformOrigin: "50% 100%" }, { rotationX: 0, y: 0, opacity: 1, duration: 0.42, ease: "back.out(1.8)" }, at(8.80));
+            tl.fromTo("#f04-line", { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "expo.out" }, at(9.02));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

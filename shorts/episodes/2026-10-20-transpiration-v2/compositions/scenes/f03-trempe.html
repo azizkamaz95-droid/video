@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f03-veil { position: absolute; inset: 0; background: radial-gradient(80% 50% at 50% 30%, rgba(0,212,255,.16), rgba(10,10,15,0) 70%); }
+        #f03-line { position: absolute; left: 70px; top: 262px; width: 940px; display: flex; flex-wrap: wrap; gap: 0 18px; font-size: 64px; }
+        #f03-line span { display: inline-block; }
+        #f03-mono { position: absolute; left: 72px; top: 352px; color: var(--water); }
+        #f03-word { position: absolute; left: 0; top: 470px; width: 1080px; height: 340px; }
+        .f03-ch { position: absolute; top: 0; font-size: 330px; }
+        .f03-drip { position: absolute; width: 16px; height: 26px; background: var(--water); border-radius: 50% 50% 50% 50% / 62% 62% 38% 38%; opacity: 0; box-shadow: 0 0 12px rgba(0,212,255,.8); }
+        #f03-rain { position: absolute; inset: 0; }
+        .f03-rd { position: absolute; left: 0; top: 0; width: 6px; height: 34px; border-radius: 3px; background: linear-gradient(180deg, rgba(0,212,255,0), rgba(160,240,255,.9)); }
+        #f03-panel { position: absolute; left: 60px; top: 690px; width: 900px; height: 420px; padding: 34px 40px; opacity: 0; transform-origin: 50% 100%; }
+        #f03-panel .mono { font-size: 24px; }
+        #f03-ptitle { color: var(--fg); }
+        #f03-pill { position: absolute; right: 36px; top: 30px; color: #9a98a8; font-size: 20px; }
+        .f03-row { position: absolute; left: 40px; width: 820px; }
+        .f03-lab { font-size: 24px; color: #cfcbd8; margin-bottom: 14px; }
+        .f03-track { position: relative; width: 820px; height: 64px; border-radius: 32px; background: #1f1f2b; overflow: hidden; }
+        .f03-fill { position: absolute; left: 0; top: 0; height: 64px; border-radius: 32px; transform-origin: 0% 50%; }
+        #f03-r1 { top: 112px; } #f03-r2 { top: 262px; }
+        #f03-f1 { width: 760px; background: linear-gradient(90deg, #ff9a5c, var(--heat)); }
+        #f03-f2 { width: 150px; background: linear-gradient(90deg, #ff6d8c, var(--red)); }
+        #f03-moins { position: absolute; left: 230px; top: 248px; font-size: 92px; color: var(--red); --ex: #6e0a20; opacity: 0; }
+      </style>
+      <div id="root" data-composition-id="f03-trempe" data-width="1080" data-height="1920" data-duration="4.56">
+        <div class="scene" id="f03">
+          <div id="f03-veil"></div>
+          <div id="f03-rain" class="p3d"></div>
+          <div id="f03-line" class="sub"><span id="f03-w0">Tu peux</span><span id="f03-w1">finir</span><span id="f03-w2">ta séance</span></div>
+          <div id="f03-mono" class="mono">Complètement</div>
+          <div id="f03-word" class="p3d"></div>
+          <div id="f03-panel" class="card p3d">
+            <div id="f03-ptitle" class="mono">Graisse perdue</div>
+            <div id="f03-pill" class="mono">Illustration · sans échelle</div>
+            <div class="f03-row" id="f03-r1"><div class="f03-lab mono">Ce que tu imagines</div><div class="f03-track"><div class="f03-fill" id="f03-f1"></div></div></div>
+            <div class="f03-row" id="f03-r2"><div class="f03-lab mono">La réalité</div><div class="f03-track"><div class="f03-fill" id="f03-f2"></div></div></div>
+            <div id="f03-moins" class="disp ex-sm">Beaucoup moins</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f03-trempe", T0 = 3.84;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          let s = 777; const rnd = () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; };
+          const build = () => {
+            const word = document.getElementById("f03-word");
+            const letters = "TREMPÉ".split("");
+            // measure off-DOM (pretext) so layout never depends on the scene being visible at setup
+            const P = window.__hyperframes.pretext;
+            const mw = (txt) => P.measureNaturalWidth(P.prepareWithSegments(txt, '400 330px "League Gothic"'));
+            const total = mw("TREMPÉ");
+            const ws = letters.map((c) => mw(c));
+            let x = 540 - total / 2;
+            letters.forEach((c, i) => {
+              const el = document.createElement("div"); el.className = "f03-ch disp ex c-water"; el.id = "f03-c" + i; el.textContent = c; el.style.left = x + "px"; word.appendChild(el);
+              const d = document.createElement("i"); d.className = "f03-drip"; d.id = "f03-d" + i; d.style.left = (x + ws[i] / 2 - 8) + "px"; d.style.top = "250px"; word.appendChild(d);
+              x += ws[i];
+            });
+            const rain = document.getElementById("f03-rain");
+            for (let i = 0; i < 36; i++) { const r = document.createElement("i"); r.className = "f03-rd"; r.id = "f03-rn" + i; rain.appendChild(r); }
+            const tl = gsap.timeline({ paused: true });
+            // words of the setup line
+            [[0, 3.86], [1, 4.10], [2, 4.42]].forEach(([k, t]) => tl.fromTo("#f03-w" + k, { y: 60, opacity: 0, rotationX: -70 }, { y: 0, opacity: 1, rotationX: 0, duration: 0.3, ease: "back.out(2)" }, at(t)));
+            tl.fromTo("#f03-mono", { x: -40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.25, ease: "expo.out" }, at(4.83));
+            // TREMPÉ: letters fall in and splash, then drip
+            letters.forEach((c, i) => {
+              tl.fromTo("#f03-c" + i, { y: -620, rotationZ: (i % 2 ? 14 : -14), opacity: 0 }, { y: 0, rotationZ: 0, opacity: 1, duration: 0.5, ease: "bounce.out" }, at(5.10 + i * 0.05));
+              const t0 = 5.7 + i * 0.13;
+              tl.fromTo("#f03-d" + i, { y: 0, scaleY: 0.4, opacity: 0 }, { y: 0, scaleY: 1, opacity: 1, duration: 0.25, ease: "power2.out" }, at(t0));
+              tl.fromTo("#f03-d" + i, { y: 0 }, { y: 520, opacity: 0, duration: 0.6, ease: "power2.in", immediateRender: false }, at(t0 + 0.3));
+            });
+            // rain through the whole scene, three depths
+            for (let i = 0; i < 36; i++) {
+              const x0 = rnd() * 1080, z = -500 + rnd() * 700, t0 = 5.15 + rnd() * 3.0, dur = 0.7 + rnd() * 0.6;
+              tl.fromTo("#f03-rn" + i, { x: x0, y: -80, z: z, opacity: 0 }, { x: x0 - 40, y: 1950, z: z, opacity: 1, duration: dur, ease: "none" }, at(t0));
+            }
+            // make room: the word lifts and shrinks, the comparison panel tilts in
+            tl.fromTo("#f03-word", { y: 0, scale: 1 }, { y: -180, scale: 0.62, duration: 0.45, ease: "power3.inOut" }, at(5.95));
+            tl.fromTo(["#f03-line", "#f03-mono"], { opacity: 1 }, { opacity: 0, duration: 0.25, ease: "power1.out", immediateRender: false }, at(5.95));
+            tl.fromTo("#f03-panel", { opacity: 0, rotationX: 70, y: 120, z: -300 }, { opacity: 1, rotationX: 14, y: 0, z: 0, duration: 0.55, ease: "back.out(1.4)" }, at(6.04));
+            tl.fromTo("#f03-f1", { scaleX: 0 }, { scaleX: 1, duration: 0.55, ease: "power3.out" }, at(6.67));
+            tl.fromTo("#f03-f2", { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "back.out(2.5)" }, at(7.07));
+            tl.fromTo("#f03-moins", { scale: 1.8, opacity: 0, rotation: -6 }, { scale: 1, opacity: 1, rotation: -4, duration: 0.28, ease: "power4.out" }, at(7.31));
+            tl.fromTo("#f03-panel", { rotationX: 14, rotationY: 0 }, { rotationX: 8, rotationY: -6, duration: 1.5, ease: "sine.inOut", immediateRender: false }, at(6.6));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

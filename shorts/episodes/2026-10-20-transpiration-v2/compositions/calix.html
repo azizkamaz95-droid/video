@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+
+        #cx-pos { position:absolute; left:-30px; top:1290px; width:740px; height:740px; transform-origin:50% 100%; perspective:900px; }
+        #cx-flip, #cx-pop { position:absolute; inset:0; transform-origin:50% 60%; }
+        #cx-flip { transform-style:preserve-3d; }
+        .pose { position:absolute; inset:0; width:100%; height:100%; opacity:0; }
+
+      </style>
+      <div id="root" data-composition-id="calix" data-width="1080" data-height="1920" data-duration="62.0">
+        <div id="cx-pos"><div id="cx-flip"><div id="cx-pop"><img class="pose" id="cx-app" src="assets/calix/calix-app.png" alt="" /><img class="pose" id="cx-biceps" src="assets/calix/calix-biceps.png" alt="" /><img class="pose" id="cx-choc" src="assets/calix/calix-choc.png" alt="" /><img class="pose" id="cx-curieux" src="assets/calix/calix-curieux.png" alt="" /><img class="pose" id="cx-deux" src="assets/calix/calix-deux.png" alt="" /><img class="pose" id="cx-enerve" src="assets/calix/calix-enerve.png" alt="" /><img class="pose" id="cx-explique" src="assets/calix/calix-explique.png" alt="" /><img class="pose" id="cx-fatigue" src="assets/calix/calix-fatigue.png" alt="" /><img class="pose" id="cx-hydratation" src="assets/calix/calix-hydratation.png" alt="" /><img class="pose" id="cx-non" src="assets/calix/calix-non.png" alt="" /><img class="pose" id="cx-nutrition" src="assets/calix/calix-nutrition.png" alt="" /><img class="pose" id="cx-pointe" src="assets/calix/calix-pointe.png" alt="" /><img class="pose" id="cx-pouce" src="assets/calix/calix-pouce.png" alt="" /><img class="pose" id="cx-sceptique" src="assets/calix/calix-sceptique.png" alt="" /><img class="pose" id="cx-trois" src="assets/calix/calix-trois.png" alt="" /><img class="pose" id="cx-un" src="assets/calix/calix-un.png" alt="" /></div></div></div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          tl.set("#cx-sceptique",{opacity:1},0.29);
+          tl.fromTo("#cx-pos",{y:760,rotation:7},{y:0,rotation:-2,duration:.55,ease:"back.out(1.5)",immediateRender:true},0.25);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},2.9);
+          tl.set("#cx-sceptique",{opacity:0},2.98);tl.set("#cx-non",{opacity:1},2.98);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},2.98);
+          tl.set("#cx-non",{opacity:0},3.86);tl.set("#cx-explique",{opacity:1},3.86);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},3.86);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},6.59);
+          tl.set("#cx-explique",{opacity:0},6.67);tl.set("#cx-choc",{opacity:1},6.67);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},6.67);
+          tl.set("#cx-choc",{opacity:0},8.45);tl.set("#cx-curieux",{opacity:1},8.45);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},8.45);
+          tl.fromTo("#cx-pos",{y:0,rotation:-2},{y:760,rotation:6,duration:.38,ease:"power3.in",immediateRender:false},9.45);
+          tl.set("#cx-curieux",{opacity:0},18.14);
+          tl.set("#cx-curieux",{opacity:1},18.14);
+          tl.fromTo("#cx-pos",{y:760,rotation:7},{y:0,rotation:-2,duration:.55,ease:"back.out(1.5)",immediateRender:false},18.1);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},20.05);
+          tl.set("#cx-curieux",{opacity:0},20.13);tl.set("#cx-pointe",{opacity:1},20.13);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},20.13);
+          tl.set("#cx-pointe",{opacity:0},21.5);tl.set("#cx-explique",{opacity:1},21.5);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},21.5);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},23.26);
+          tl.set("#cx-explique",{opacity:0},23.34);tl.set("#cx-enerve",{opacity:1},23.34);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},23.34);
+          tl.set("#cx-enerve",{opacity:0},24.86);tl.set("#cx-non",{opacity:1},24.86);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},24.86);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},26.42);
+          tl.set("#cx-non",{opacity:0},26.5);tl.set("#cx-hydratation",{opacity:1},26.5);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},26.5);
+          tl.set("#cx-hydratation",{opacity:0},28.95);tl.set("#cx-pouce",{opacity:1},28.95);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},28.95);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},30.1);
+          tl.set("#cx-pouce",{opacity:0},30.18);tl.set("#cx-explique",{opacity:1},30.18);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},30.18);
+          tl.set("#cx-explique",{opacity:0},31.12);tl.set("#cx-non",{opacity:1},31.12);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},31.12);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},33.0);
+          tl.set("#cx-non",{opacity:0},33.08);tl.set("#cx-choc",{opacity:1},33.08);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},33.08);
+          tl.set("#cx-choc",{opacity:0},35.3);tl.set("#cx-enerve",{opacity:1},35.3);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},35.3);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},36.42);
+          tl.set("#cx-enerve",{opacity:0},36.5);tl.set("#cx-fatigue",{opacity:1},36.5);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},36.5);
+          tl.set("#cx-fatigue",{opacity:0},38.67);tl.set("#cx-explique",{opacity:1},38.67);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},38.67);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},40.44);
+          tl.set("#cx-explique",{opacity:0},40.52);tl.set("#cx-pointe",{opacity:1},40.52);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},40.52);
+          tl.set("#cx-pointe",{opacity:0},41.74);tl.set("#cx-un",{opacity:1},41.74);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},41.74);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},42.86);
+          tl.set("#cx-un",{opacity:0},42.94);tl.set("#cx-deux",{opacity:1},42.94);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},42.94);
+          tl.set("#cx-deux",{opacity:0},44.32);tl.set("#cx-trois",{opacity:1},44.32);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},44.32);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},46.3);
+          tl.set("#cx-trois",{opacity:0},46.38);tl.set("#cx-pouce",{opacity:1},46.38);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},46.38);
+          tl.set("#cx-pouce",{opacity:0},48.4);tl.set("#cx-app",{opacity:1},48.4);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},48.4);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},50.72);
+          tl.set("#cx-app",{opacity:0},50.8);tl.set("#cx-biceps",{opacity:1},50.8);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},50.8);
+          tl.set("#cx-biceps",{opacity:0},51.76);tl.set("#cx-nutrition",{opacity:1},51.76);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},51.76);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},53.46);
+          tl.set("#cx-nutrition",{opacity:0},53.54);tl.set("#cx-pouce",{opacity:1},53.54);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},53.54);
+          tl.set("#cx-pouce",{opacity:0},55.98);tl.set("#cx-pointe",{opacity:1},55.98);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},55.98);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},57.02);
+          tl.set("#cx-pointe",{opacity:0},57.1);tl.set("#cx-app",{opacity:1},57.1);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},57.1);
+          tl.set("#cx-app",{opacity:0},59.62);tl.set("#cx-biceps",{opacity:1},59.62);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},59.62);
+          window.__timelines["calix"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

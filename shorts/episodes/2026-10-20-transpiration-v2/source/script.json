@@ -1,0 +1,24 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Charon",
+ "rate": 1.1,
+ "lead": 0.25,
+ "sentences": [
+  {"id": "s01", "text": "Plus tu transpires, plus tu perds de graisse.", "pause": 0.22},
+  {"id": "s02", "text": "Eh bien… c'est faux !", "pause": 0.45},
+  {"id": "s03", "text": "Tu peux finir ta séance complètement trempé, et avoir perdu beaucoup moins de graisse que tu ne l'imagines.", "pause": 0.2},
+  {"id": "s04", "text": "Et voici pourquoi.", "pause": 0.35},
+  {"id": "s05", "text": "La transpiration, ce n'est pas ton corps qui fait fondre ta graisse : c'est ton système de refroidissement.", "pause": 0.3},
+  {"id": "s06", "text": "Quand ta température augmente, ton corps produit de la sueur pour évacuer la chaleur.", "pause": 0.28},
+  {"id": "s07", "text": "Et tu sais pourquoi la balance peut afficher moins de poids juste après ta séance ?", "pause": 0.3},
+  {"id": "s08", "text": "Parce que tu as perdu beaucoup d'eau.", "pause": 0.35},
+  {"id": "s09", "text": "Mais attention : ce n'est pas la même chose que perdre de la graisse.", "pause": 0.3},
+  {"id": "s10", "text": "Quand tu te réhydrates, une partie de ce poids revient naturellement.", "pause": 0.3},
+  {"id": "s11", "text": "Alors, ne cherche pas à transpirer davantage en portant des vêtements trop chauds, ou en t'entraînant dans une chaleur excessive.", "pause": 0.2},
+  {"id": "s12", "text": "Tu risques surtout de te déshydrater.", "pause": 0.4},
+  {"id": "s13", "text": "Pour perdre de la graisse durablement, concentre-toi plutôt sur ton alimentation, ton activité physique, et la régularité de tes habitudes.", "pause": 0.45},
+  {"id": "s14", "text": "Bienvenue chez CaliBodi.", "pause": 0.2},
+  {"id": "s15", "text": "Ici, on décrypte la fitness, la perte de poids, la prise de masse, la nutrition et la récupération, avec des conseils utiles et des faits vérifiés.", "pause": 0.25},
+  {"id": "s16", "text": "Abonne-toi, et partage cette vidéo à quelqu'un qui croit encore à ce mythe.", "pause": 0.12},
+  {"id": "s17", "text": "Ça nous donne beaucoup de force !", "pause": 0.0}
+ ]
+}

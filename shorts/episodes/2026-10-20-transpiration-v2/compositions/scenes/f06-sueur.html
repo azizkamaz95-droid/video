@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f06-steam { position: absolute; left: 0; top: 520px; width: 1080px; height: 1400px; mix-blend-mode: screen; opacity: 0; }
+        #f06-tag { position: absolute; left: 70px; top: 230px; color: var(--water); }
+        #f06-plane { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; transform-origin: 30% 50%; }
+        .f06-row { position: absolute; left: 70px; width: 900px; }
+        #f06-r1 { top: 310px; height: 230px; } #f06-r2 { top: 620px; height: 220px; } #f06-r3 { top: 915px; height: 180px; }
+        #f06-sun { position: absolute; left: 0; top: 0; width: 230px; height: 230px; border-radius: 50%; overflow: hidden; box-shadow: 0 0 70px rgba(255,140,40,.65); }
+        #f06-thermo { position: absolute; left: 252px; top: 6px; width: 70px; height: 220px; }
+        #f06-l1 { position: absolute; left: 350px; top: 40px; font-size: 150px; }
+        #f06-up { position: absolute; left: 350px; top: -6px; color: var(--heat); }
+        #f06-drop { position: absolute; left: 20px; top: 0; width: 190px; height: 220px; }
+        .f06-ring { position: absolute; left: 25px; top: 150px; width: 180px; height: 60px; border-radius: 50%; border: 5px solid var(--water); opacity: 0; }
+        #f06-l2 { position: absolute; left: 350px; top: 30px; font-size: 190px; }
+        #f06-waves { position: absolute; left: 10px; top: 0; width: 210px; height: 180px; }
+        #f06-l3a { position: absolute; left: 350px; top: 6px; font-size: 92px; }
+        #f06-l3b { position: absolute; left: 350px; top: 80px; font-size: 110px; }
+        .f06-arrow { position: absolute; left: 160px; width: 60px; height: 70px; }
+        #f06-a1 { top: 548px; } #f06-a2 { top: 845px; }
+      </style>
+      <div id="root" data-composition-id="f06-sueur" data-width="1080" data-height="1920" data-duration="3.77">
+        <div class="scene" id="f06">
+          <div id="f06-steam"><video id="f06-vid2" class="clip media-fill" src="assets/clips/steam.mp4" muted playsinline data-start="2.5" data-duration="1.27" data-media-start="1.2" data-hf-media-start-basis="local" data-track-index="1"></video></div>
+          <div id="f06-tag" class="mono chip"><i class="dot"></i>Schéma simplifié</div>
+          <div id="f06-plane" class="p3d">
+            <div class="f06-row p3d" id="f06-r1">
+              <div id="f06-sun"><video id="f06-vid1" class="clip media-fill" src="assets/clips/sun.mp4" muted playsinline data-start="0" data-duration="3.77" data-track-index="0"></video></div>
+              <svg id="f06-thermo" viewBox="0 0 70 220"><rect x="22" y="6" width="26" height="170" rx="13" fill="#15151f" stroke="#F4F1EC" stroke-width="5"/><circle cx="35" cy="186" r="28" fill="#FF6B35" stroke="#F4F1EC" stroke-width="5"/><rect id="f06-merc" x="29" y="40" width="12" height="150" rx="6" fill="#FF6B35"/></svg>
+              <div id="f06-up" class="mono">Température ↑</div>
+              <div id="f06-l1" class="disp ex c-heat" data-fit="560">Ça chauffe</div>
+            </div>
+            <svg class="f06-arrow" id="f06-a1" viewBox="0 0 60 70"><path id="f06-p1" d="M30 2 V58 M12 42 L30 62 L48 42" fill="none" stroke="#F4F1EC" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div class="f06-row p3d" id="f06-r2">
+              <svg id="f06-drop" viewBox="0 0 100 120"><path d="M50 4 C66 34 88 54 88 78 C88 100 70 116 50 116 C30 116 12 100 12 78 C12 54 34 34 50 4 Z" fill="#00D4FF"/><path d="M34 72 C34 88 42 98 56 100" fill="none" stroke="#E8FCFF" stroke-width="7" stroke-linecap="round"/></svg>
+              <i class="f06-ring" id="f06-ring1"></i><i class="f06-ring" id="f06-ring2"></i>
+              <div id="f06-l2" class="disp ex c-water">Sueur</div>
+            </div>
+            <svg class="f06-arrow" id="f06-a2" viewBox="0 0 60 70"><path id="f06-p2" d="M30 2 V58 M12 42 L30 62 L48 42" fill="none" stroke="#F4F1EC" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div class="f06-row p3d" id="f06-r3">
+              <svg id="f06-waves" viewBox="0 0 210 180" fill="none" stroke="#FF6B35" stroke-width="9" stroke-linecap="round">
+                <path id="f06-hw1" d="M40 170 C20 140 60 120 40 90 C20 60 60 40 40 10"/><path id="f06-hw2" d="M105 170 C85 140 125 120 105 90 C85 60 125 40 105 10"/><path id="f06-hw3" d="M170 170 C150 140 190 120 170 90 C150 60 190 40 170 10"/>
+              </svg>
+              <div id="f06-l3a" class="disp ex-sm c-white">Chaleur</div>
+              <div id="f06-l3b" class="disp ex c-wheat">évacuée</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f06-sueur", T0 = 14.33;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            document.querySelectorAll("#f06 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
+            const tl = gsap.timeline({ paused: true });
+            // the whole diagram is a tilted plane the camera drifts along
+            tl.fromTo("#f06-plane", { rotationY: 16, rotationX: 10, y: 40 }, { rotationY: -6, rotationX: 4, y: -10, duration: 3.77, ease: "sine.inOut" }, 0);
+            tl.fromTo("#f06-tag", { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, 0);
+            // 1 — temperature rises
+            tl.fromTo("#f06-sun", { scale: 0, rotation: -90 }, { scale: 1, rotation: 0, duration: 0.5, ease: "back.out(1.6)" }, at(14.38));
+            tl.fromTo("#f06-thermo", { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "power3.out" }, at(14.50));
+            tl.fromTo("#f06-merc", { attr: { y: 160, height: 30 } }, { attr: { y: 22, height: 168 }, duration: 0.8, ease: "power2.inOut" }, at(15.0));
+            tl.fromTo("#f06-up", { x: -30, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, at(14.60));
+            tl.fromTo("#f06-l1", { rotationX: -90, opacity: 0, transformOrigin: "50% 100%" }, { rotationX: 0, opacity: 1, duration: 0.45, ease: "back.out(1.7)" }, at(15.10));
+            // 2 — sweat
+            tl.fromTo("#f06-p1", { strokeDasharray: 140, strokeDashoffset: 140 }, { strokeDashoffset: 0, duration: 0.35, ease: "power2.out" }, at(15.60));
+            tl.fromTo("#f06-drop", { y: -260, scaleY: 1.3, opacity: 0 }, { y: 0, scaleY: 1, opacity: 1, duration: 0.45, ease: "bounce.out" }, at(15.95));
+            tl.fromTo("#f06-ring1", { scale: .3, opacity: 1 }, { scale: 1.8, opacity: 0, duration: 0.7, ease: "power2.out", immediateRender: false }, at(16.35));
+            tl.fromTo("#f06-ring2", { scale: .3, opacity: 1 }, { scale: 1.8, opacity: 0, duration: 0.7, ease: "power2.out", immediateRender: false }, at(16.55));
+            tl.fromTo("#f06-l2", { scale: 2.2, opacity: 0, filter: "blur(8px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.35, ease: "power4.out" }, at(16.38));
+            // 3 — heat leaves the body
+            tl.fromTo("#f06-p2", { strokeDasharray: 140, strokeDashoffset: 140 }, { strokeDashoffset: 0, duration: 0.3, ease: "power2.out" }, at(16.80));
+            ["#f06-hw1", "#f06-hw2", "#f06-hw3"].forEach((w, i) => {
+              tl.fromTo(w, { strokeDasharray: 200, strokeDashoffset: 200 }, { strokeDashoffset: 0, duration: 0.45, ease: "power2.out" }, at(16.94 + i * 0.08));
+              tl.fromTo(w, { y: 0 }, { y: -30, duration: 0.6, ease: "sine.inOut", yoyo: true, repeat: 1, immediateRender: false }, at(17.4 + i * 0.05));
+            });
+            tl.fromTo("#f06-l3a", { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, at(17.30));
+            tl.fromTo("#f06-l3b", { y: 70, opacity: 0, rotationX: -60 }, { y: 0, opacity: 1, rotationX: 0, duration: 0.4, ease: "back.out(2)" }, at(17.41));
+            tl.fromTo("#f06-steam", { opacity: 0 }, { opacity: 0.5, duration: 0.5, ease: "power1.out" }, at(16.85));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

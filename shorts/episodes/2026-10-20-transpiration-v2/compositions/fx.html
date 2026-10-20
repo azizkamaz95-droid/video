@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+
+        #fx-grain { position:absolute; inset:0; background:url(assets/fx/grain.png) repeat; background-size:512px 512px; opacity:.16; mix-blend-mode:overlay; }
+        #fx-vig { position:absolute; inset:0; background: radial-gradient(120% 90% at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%); }
+        .fl { position:absolute; inset:0; opacity:0; }
+        .fl-white { background:#F4F1EC; mix-blend-mode:screen; }
+        .fl-red { background: radial-gradient(70% 60% at 50% 40%, rgba(255,45,85,.95), rgba(120,0,25,.9)); mix-blend-mode:screen; }
+        .st { position:absolute; left:0; top:-300px; width:520px; height:2600px; opacity:0; transform-origin:50% 50%;
+              background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,236,220,.55) 45%, rgba(255,255,255,.9) 50%, rgba(255,236,220,.55) 55%, rgba(255,255,255,0));
+              mix-blend-mode:screen; rotate:14deg; }
+        .gb { position:absolute; left:-60px; width:1200px; opacity:0; mix-blend-mode:screen;
+              background: linear-gradient(90deg, rgba(255,45,85,.0), rgba(255,45,85,.55) 30%, rgba(0,212,255,.55) 60%, rgba(0,212,255,0)); }
+
+      </style>
+      <div id="root" data-composition-id="fx" data-width="1080" data-height="1920" data-duration="62.0">
+        <div id="fx-grain"></div>
+        <div id="fx-vig"></div>
+        <div class="fl fl-red" id="fx-f0"></div>
+        <div class="fl fl-white" id="fx-f1"></div>
+        <div class="fl fl-white" id="fx-f2"></div>
+        <div class="fl fl-white" id="fx-f3"></div>
+        <div class="fl fl-white" id="fx-f4"></div>
+        <div class="fl fl-white" id="fx-f5"></div>
+        <div class="fl fl-white" id="fx-f6"></div>
+        <div class="st" id="fx-s0"></div>
+        <div class="st" id="fx-s1"></div>
+        <div class="st" id="fx-s2"></div>
+        <div class="st" id="fx-s3"></div>
+        <div class="st" id="fx-s4"></div>
+        <div class="st" id="fx-s5"></div>
+        <div class="st" id="fx-s6"></div>
+        <div class="gb" id="fx-g0-0" style="top:969px;height:67px"></div>
+        <div class="gb" id="fx-g0-1" style="top:1103px;height:96px"></div>
+        <div class="gb" id="fx-g0-2" style="top:236px;height:67px"></div>
+        <div class="gb" id="fx-g0-3" style="top:865px;height:63px"></div>
+        <div class="gb" id="fx-g0-4" style="top:813px;height:80px"></div>
+        <div class="gb" id="fx-g0-5" style="top:373px;height:36px"></div>
+        <div class="gb" id="fx-g1-0" style="top:773px;height:53px"></div>
+        <div class="gb" id="fx-g1-1" style="top:316px;height:73px"></div>
+        <div class="gb" id="fx-g1-2" style="top:811px;height:95px"></div>
+        <div class="gb" id="fx-g1-3" style="top:1406px;height:48px"></div>
+        <div class="gb" id="fx-g1-4" style="top:527px;height:25px"></div>
+        <div class="gb" id="fx-g1-5" style="top:1762px;height:46px"></div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const gp={f:0};tl.fromTo(gp,{f:0},{f:744,duration:62.0,ease:"none",onUpdate:()=>{const k=Math.floor(gp.f);const a=(k*7919)%512,b=(k*104729)%512;document.getElementById("fx-grain").style.backgroundPosition=a+"px "+b+"px";}},0);
+          tl.fromTo("#fx-f0",{opacity:0.85},{opacity:0,duration:0.3,ease:"power2.out",immediateRender:false},2.95);
+          tl.fromTo("#fx-f1",{opacity:0.6},{opacity:0,duration:0.18,ease:"power2.out",immediateRender:false},8.4);
+          tl.fromTo("#fx-f2",{opacity:0.6},{opacity:0,duration:0.18,ease:"power2.out",immediateRender:false},9.6);
+          tl.fromTo("#fx-f3",{opacity:0.6},{opacity:0,duration:0.18,ease:"power2.out",immediateRender:false},21.45);
+          tl.fromTo("#fx-f4",{opacity:0.6},{opacity:0,duration:0.18,ease:"power2.out",immediateRender:false},30.1);
+          tl.fromTo("#fx-f5",{opacity:0.6},{opacity:0,duration:0.18,ease:"power2.out",immediateRender:false},38.62);
+          tl.fromTo("#fx-f6",{opacity:0.6},{opacity:0,duration:0.18,ease:"power2.out",immediateRender:false},46.25);
+          tl.fromTo("#fx-s0",{x:-1500,opacity:1},{x:1700,opacity:1,duration:.32,ease:"power2.inOut",immediateRender:false},3.68);
+          tl.set("#fx-s0",{opacity:0},4.01);
+          tl.fromTo("#fx-s1",{x:-1500,opacity:1},{x:1700,opacity:1,duration:.32,ease:"power2.inOut",immediateRender:false},14.17);
+          tl.set("#fx-s1",{opacity:0},14.5);
+          tl.fromTo("#fx-s2",{x:-1500,opacity:1},{x:1700,opacity:1,duration:.32,ease:"power2.inOut",immediateRender:false},17.94);
+          tl.set("#fx-s2",{opacity:0},18.27);
+          tl.fromTo("#fx-s3",{x:-1500,opacity:1},{x:1700,opacity:1,duration:.32,ease:"power2.inOut",immediateRender:false},23.14);
+          tl.set("#fx-s3",{opacity:0},23.47);
+          tl.fromTo("#fx-s4",{x:-1500,opacity:1},{x:1700,opacity:1,duration:.32,ease:"power2.inOut",immediateRender:false},26.29);
+          tl.set("#fx-s4",{opacity:0},26.62);
+          tl.fromTo("#fx-s5",{x:-1500,opacity:1},{x:1700,opacity:1,duration:.32,ease:"power2.inOut",immediateRender:false},36.29);
+          tl.set("#fx-s5",{opacity:0},36.62);
+          tl.fromTo("#fx-s6",{x:-1500,opacity:1},{x:1700,opacity:1,duration:.32,ease:"power2.inOut",immediateRender:false},53.34);
+          tl.set("#fx-s6",{opacity:0},53.67);
+          tl.fromTo("#fx-g0-0",{opacity:.9,x:23},{opacity:0,x:-23,duration:.09,ease:"steps(3)",immediateRender:false},2.98);
+          tl.fromTo("#fx-g0-1",{opacity:.9,x:8},{opacity:0,x:-8,duration:.09,ease:"steps(3)",immediateRender:false},3.005);
+          tl.fromTo("#fx-g0-2",{opacity:.9,x:23},{opacity:0,x:-23,duration:.09,ease:"steps(3)",immediateRender:false},3.03);
+          tl.fromTo("#fx-g0-3",{opacity:.9,x:75},{opacity:0,x:-75,duration:.09,ease:"steps(3)",immediateRender:false},3.055);
+          tl.fromTo("#fx-g0-4",{opacity:.9,x:39},{opacity:0,x:-39,duration:.09,ease:"steps(3)",immediateRender:false},3.08);
+          tl.fromTo("#fx-g0-5",{opacity:.9,x:-49},{opacity:0,x:49,duration:.09,ease:"steps(3)",immediateRender:false},3.105);
+          tl.fromTo("#fx-g1-0",{opacity:.9,x:18},{opacity:0,x:-18,duration:.09,ease:"steps(3)",immediateRender:false},37.55);
+          tl.fromTo("#fx-g1-1",{opacity:.9,x:16},{opacity:0,x:-16,duration:.09,ease:"steps(3)",immediateRender:false},37.575);
+          tl.fromTo("#fx-g1-2",{opacity:.9,x:67},{opacity:0,x:-67,duration:.09,ease:"steps(3)",immediateRender:false},37.6);
+          tl.fromTo("#fx-g1-3",{opacity:.9,x:27},{opacity:0,x:-27,duration:.09,ease:"steps(3)",immediateRender:false},37.625);
+          tl.fromTo("#fx-g1-4",{opacity:.9,x:53},{opacity:0,x:-53,duration:.09,ease:"steps(3)",immediateRender:false},37.65);
+          tl.fromTo("#fx-g1-5",{opacity:.9,x:-77},{opacity:0,x:77,duration:.09,ease:"steps(3)",immediateRender:false},37.675);
+          window.__timelines["fx"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>
