@@ -8,3 +8,5 @@ assets/audio/music.wav
 assets/audio/sfx.wav
 renders/work-*/
 renders/.*
+# 300 MB delivery master (over GitHub file limit; re-render with npx hyperframes render --quality delivery)
+renders/calibodi-promo.mp4
