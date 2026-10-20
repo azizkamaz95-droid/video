@@ -60,3 +60,16 @@ synthétisé du même nom. Le `.gitignore` d'un épisode doit exclure `assets/st
   un mot, seuls leurs graves (< 150 Hz) et leurs aigus (> 2,5 kHz) restent, plafonnés sous les consonnes de la
   phrase, baissés de 4 dB sur l'attaque d'un mot, supprimés s'il faut les baisser de plus de 15 dB.
   Le rapport liste chaque décision.
+
+## Format v2 — motion design 3D (depuis le 2026-10-20)
+
+Modèle de référence : `shorts/episodes/2026-10-20-transpiration-v2/` (BRIEF.md, DESIGN.md, STORYBOARD.md).
+
+- Voix off Google (fr-FR-Chirp3-HD-Charon, débit 1.1), phrase par phrase avec respirations réglées :
+  `source/script.json` → `python3 shorts/lib/tts_script.py "$EP"`, puis minutages AssemblyAI :
+  `transcribe_assemblyai.py assets/voice/voice.wav source/transcript-voice-assemblyai.json` et
+  `align_words.py "$EP" --transcript source/transcript-voice-assemblyai.json`.
+- Médias Pixabay choisis sur planche-contact puis `pixabay.py "$EP" video id:<id>`, recadrés en clips (`assets/clips/`).
+- Calix en autocollant : `python3 avatar/make_sticker.py avatar/calix/cutout "$EP/assets/calix"` (contour blanc 16 px).
+- Couches permanentes générées par `build_v2.py` (fond 3D, Calix, sous-titres, effets de coupe) ; une scène = un fichier
+  dans `compositions/scenes/`. Son : `plan.json` (`style: drive`, `hits`, `science`, `sfx`) → `audio_short.py`.
