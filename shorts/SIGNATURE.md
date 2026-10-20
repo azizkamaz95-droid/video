@@ -15,8 +15,9 @@ Règles fixées par le client le 2026-10-20. Elles s'appliquent à **chaque** vi
 - Réduire davantage la musique pendant les explications scientifiques.
 - Effets sonores courts uniquement pour souligner une révélation, un changement de plan ou un mot important.
 - **Règle absolue : si un effet sonore gêne la compréhension d'un mot, il est réduit ou supprimé.**
-  (Mise en œuvre : effets hors bande vocale — graves sous 150 Hz ou aigus au-dessus de 2,5 kHz —, placés
-  dans les respirations, atténués automatiquement s'ils chevauchent l'attaque d'un mot.)
+  (Mise en œuvre : effets déplacés vers la respiration la plus proche et joués entiers dans les respirations ;
+  dès qu'ils touchent un mot — de 80 ms avant à 40 ms après —, seuls leurs graves (< 150 Hz) et leurs aigus
+  (> 2,5 kHz) restent, plafonnés sous la voix, baissés sur l'attaque d'un mot, supprimés si nécessaire.)
 - Découper l'audio : retirer les blancs, mais laisser respirer les phrases importantes avec de courtes pauses.
 
 ## Image

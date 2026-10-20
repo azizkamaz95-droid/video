@@ -387,6 +387,15 @@ BANK = {
     "warn": (sfx_warn, -6), "check": (sfx_check, -8), "shimmer": (sfx_shimmer, -8), "pop": (sfx_pop, -8),
 }
 
+# voice guard: 1 from 80 ms before a word to 40 ms after it (forward masking), smoothed, at sample rate
+g = active.copy()
+for k in range(1, 9):
+    g[:-k] |= active[k:]
+for k in range(1, 5):
+    g[k:] |= active[:-k]
+guard = np.repeat(uniform_filter1d(g.astype(float), 3), HOP)
+guard = np.pad(guard, (0, max(0, N - len(guard))))[:N]
+
 sfx = np.zeros((2, N))
 report = []
 NUDGE = (-0.10, 0.15)
@@ -395,15 +404,13 @@ for name, t0 in plan.get("sfx", []):
     make, intent_db = BANK[name]
     own = load_sfx(name)
     raw_sig = own if own is not None else make()
-    lo_sig, hi_sig = lp(raw_sig, 150, 4), hp(raw_sig, 2500, 4)
-    pk = np.max(np.abs(lo_sig + hi_sig)) + 1e-9
-    lo_sig, hi_sig = lo_sig / pk, hi_sig / pk
-    sig = lo_sig + hi_sig
+    full = raw_sig / (np.max(np.abs(raw_sig)) + 1e-9)
+    lo_sig, hi_sig = lp(full, 150, 4), hp(full, 2500, 4)
     pad = np.zeros(HOP * 4)
     s_lo = frame_rms(np.concatenate([lo_sig, pad]))
     s_hi = frame_rms(np.concatenate([hi_sig, pad]))
-    s_all = np.maximum(s_lo, s_hi)
-    loud = np.where(s_all > s_all.max() * 0.25)[0]
+    s_full = frame_rms(np.concatenate([full, pad]))
+    loud = np.where(s_full > s_full.max() * 0.25)[0]
     span = (loud[-1] + 1) if len(loud) else 1
     # 1) nudge into the quietest spot nearby (a breath), measured over the effect's audible span
     best, best_e = t0, None
@@ -425,6 +432,14 @@ for name, t0 in plan.get("sfx", []):
         lo_ref = np.median(v_rms[around][act])
     else:
         hi_ref, lo_ref = hi_global, speech_ref
+    # where the effect meets the voice it keeps only its lows and highs; in a breath it plays whole
+    i0 = int(round(best * SR))
+    gm = np.zeros(len(full))
+    j0, j1 = max(0, i0), min(N, i0 + len(full))
+    if j1 > j0:
+        gm[j0 - i0:j1 - i0] = guard[j0:j1]
+    sig = full * (1 - gm) + (lo_sig + hi_sig) * gm
+    s_all = frame_rms(np.concatenate([sig, pad]))
     nominal = speech_ref * 10 ** (intent_db / 20) / (s_all.max() + 1e-9)
     cap = nominal
     n_seg = seg.stop - seg.start

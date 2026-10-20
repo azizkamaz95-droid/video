@@ -56,6 +56,7 @@ synthétisé du même nom. Le `.gitignore` d'un épisode doit exclure `assets/st
 
 - Voix à -16 LUFS ; musique instrumentale à -29,5 LUFS, creusée entre 1 et 4 kHz et baissée de 7 dB
   quand Calix parle (≈ 19 dB sous la voix dans la bande de la parole).
-- Effets limités aux graves (< 150 Hz) et aux aigus (> 2,5 kHz), déplacés vers la respiration la plus proche,
-  plafonnés sous les consonnes de la phrase en cours, baissés de 4 dB sur l'attaque d'un mot,
-  supprimés s'il faut les baisser de plus de 15 dB. Le rapport liste chaque décision.
+- Effets déplacés vers la respiration la plus proche et joués entiers dans les respirations ; là où ils touchent
+  un mot, seuls leurs graves (< 150 Hz) et leurs aigus (> 2,5 kHz) restent, plafonnés sous les consonnes de la
+  phrase, baissés de 4 dB sur l'attaque d'un mot, supprimés s'il faut les baisser de plus de 15 dB.
+  Le rapport liste chaque décision.
