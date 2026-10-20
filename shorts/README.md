@@ -25,6 +25,9 @@ python3 shorts/lib/cut_silences.py "$EP/source/voice-memo.m4a" "$EP/source/trans
 # 4. minutages des mots sur la voix montée (AssemblyAI si la clé est là, sinon Google), puis filet de sécurité
 python3 shorts/lib/align_words.py "$EP"
 python3 shorts/lib/refine_words.py "$EP"
+# (option) photos / vidéos libres de droits, tracées dans assets/stock/credits.json (PIXABAY_API_KEY)
+python3 shorts/lib/pixabay.py "$EP" photo "verre d'eau" 2
+python3 shorts/lib/pixabay.py "$EP" video "boire de l'eau" 1
 # 5. musique + effets (contrôle anti-masquage), puis composition
 python3 shorts/lib/audio_short.py "$EP"              # rapport : $EP/renders/audio-report.txt
 python3 shorts/lib/build_short.py "$EP"
@@ -45,6 +48,9 @@ python3 shorts/lib/build_short.py "$EP"
 | `science` | plages d'explication : musique baissée de 5 dB, sans batterie |
 | `blocks` | graphismes : `myth`, `word_drops`, `banner`, `science`, `scale`, `versus`, `list`, `outro` |
 | `sfx` | `[nom, temps]` — `whoosh_in`, `whoosh`, `stamp`, `thump`, `plinks`, `tick`, `click`, `warn`, `check`, `shimmer`, `pop` |
+
+Effets sonores : un fichier déposé dans `shorts/sfx/` (ex. `pop.mp3`, téléchargé sur Pixabay) remplace l'effet
+synthétisé du même nom. Le `.gitignore` d'un épisode doit exclure `assets/stock/*` sauf `credits.json`.
 
 ## Garanties du mixage
 

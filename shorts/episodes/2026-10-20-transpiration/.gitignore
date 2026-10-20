@@ -12,3 +12,6 @@ assets/audio/
 renders/
 .thumbnails/
 .waveform-cache/
+# stock media: re-downloadable from assets/stock/credits.json
+assets/stock/*
+!assets/stock/credits.json
