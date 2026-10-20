@@ -89,8 +89,8 @@
   font-family: "League Gothic", sans-serif;
   text-transform: uppercase;
   line-height: 0.85;
-  color: transparent;
-  -webkit-text-stroke: 3px rgba(244, 241, 236, 0.13);
+  color: rgba(244, 241, 236, 0.07);
+  -webkit-text-stroke: 3px rgba(244, 241, 236, 0.16);
   white-space: nowrap;
 }
 .card {

@@ -1,6 +1,64 @@
 <!doctype html>
-<html lang="fr"><head><meta charset="UTF-8" /></head><body><template>
-<style>#root { position:absolute; inset:0; overflow:hidden; }</style>
-<div id="root" data-composition-id="f12-deshydratation" data-width="1080" data-height="1920" data-duration="2.17"><div class="scene"><div class="disp" style="position:absolute;left:70px;top:500px;font-size:120px;color:#F4F1EC">STUB f12-deshydratation</div></div></div>
-<script>(function(){const tl=gsap.timeline({paused:true});window.__timelines["f12-deshydratation"]=tl;})();</script>
-</template></body></html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f12-media { position: absolute; inset: 0; }
+        #f12-media img { width: 100%; height: 100%; object-fit: cover; filter: saturate(1.2) contrast(1.1); }
+        #f12-tint { position: absolute; inset: 0; background: radial-gradient(80% 60% at 50% 40%, rgba(120,10,30,.45), rgba(10,10,15,.88) 75%), linear-gradient(180deg, rgba(10,10,15,.3), #0A0A0F 92%); }
+        .f12-haz { position: absolute; left: -100px; width: 1300px; height: 46px; background: repeating-linear-gradient(-45deg, #FF2D55 0 28px, #0A0A0F 28px 56px); }
+        #f12-h1 { top: 228px; } #f12-h2 { top: 1080px; }
+        #f12-tri { position: absolute; left: 400px; top: 330px; width: 280px; height: 250px; }
+        #f12-sub { position: absolute; left: 0; width: 1080px; text-align: center; top: 606px; font-size: 64px; }
+        #f12-wrap { position: absolute; left: 50px; top: 770px; width: 980px; height: 260px; }
+        .f12-t { position: absolute; left: 0; top: 0; width: 980px; text-align: center; font-size: 230px; }
+        #f12-r { color: rgba(255,45,85,.85); mix-blend-mode: screen; opacity: 0; }
+        #f12-c { color: rgba(0,212,255,.85); mix-blend-mode: screen; opacity: 0; }
+      </style>
+      <div id="root" data-composition-id="f12-deshydratation" data-width="1080" data-height="1920" data-duration="2.17">
+        <div class="scene" id="f12">
+          <div id="f12-media"><img src="assets/stock/pixabay-photo-3355931.jpg" alt="" /></div>
+          <div id="f12-tint"></div>
+          <div class="f12-haz" id="f12-h1"></div>
+          <div class="f12-haz" id="f12-h2"></div>
+          <svg id="f12-tri" viewBox="0 0 112 100"><path d="M56 6 L106 94 H6 Z" fill="none" stroke="#FF2D55" stroke-width="9" stroke-linejoin="round"/><path d="M56 36 V64" stroke="#FF2D55" stroke-width="10" stroke-linecap="round"/><circle cx="56" cy="79" r="6" fill="#FF2D55"/></svg>
+          <div id="f12-sub" class="sub">Tu risques surtout de te…</div>
+          <div id="f12-wrap" data-layout-allow-overlap>
+            <div class="f12-t disp" id="f12-c" data-fit="960">Déshydrater</div>
+            <div class="f12-t disp" id="f12-r" data-fit="960">Déshydrater</div>
+            <div class="f12-t disp ex c-red" id="f12-main" data-fit="960">Déshydrater</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f12-deshydratation", T0 = 36.45;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            document.querySelectorAll("#f12 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f12-media", { scale: 1.0 }, { scale: 1.16, duration: 2.17, ease: "none" }, 0);
+            tl.fromTo("#f12-h1", { x: -300 }, { x: 0, duration: 2.17, ease: "none" }, 0);
+            tl.fromTo("#f12-h2", { x: 0 }, { x: -300, duration: 2.17, ease: "none" }, 0);
+            tl.fromTo("#f12-tri", { scale: 0, rotation: -20 }, { scale: 1, rotation: 0, duration: 0.4, ease: "back.out(2)" }, at(36.48));
+            tl.fromTo("#f12-tri", { opacity: 1 }, { opacity: 0.35, duration: 0.14, ease: "steps(1)", yoyo: true, repeat: 7, immediateRender: false }, at(36.9));
+            tl.fromTo("#f12-sub", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, at(36.55));
+            tl.fromTo("#f12-main", { scale: 2.8, opacity: 0, z: 200 }, { scale: 1, opacity: 1, z: 0, duration: 0.2, ease: "power4.in" }, at(37.42));
+            // chromatic split for a heartbeat on the reveal
+            tl.fromTo("#f12-r", { x: -16, opacity: 0.9 }, { x: 0, opacity: 0, duration: 0.35, ease: "steps(5)", immediateRender: false }, at(37.6));
+            tl.fromTo("#f12-c", { x: 16, opacity: 0.9 }, { x: 0, opacity: 0, duration: 0.35, ease: "steps(5)", immediateRender: false }, at(37.6));
+            tl.fromTo("#f12-wrap", { rotation: 0 }, { rotation: -3, duration: 0.25, ease: "back.out(3)" }, at(37.62));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

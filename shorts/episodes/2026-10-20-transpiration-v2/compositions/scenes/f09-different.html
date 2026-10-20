@@ -16,14 +16,14 @@
         #f09-c1 { left: 60px; background: linear-gradient(170deg, #063845, #0d1520 70%); border: 5px solid #00D4FF; box-shadow: 0 0 60px rgba(0,212,255,.35), 0 40px 90px rgba(0,0,0,.6); }
         #f09-c2 { left: 570px; background: linear-gradient(170deg, #3d1a0c, #1a1210 70%); border: 5px solid #FF6B35; box-shadow: 0 0 60px rgba(255,107,53,.35), 0 40px 90px rgba(0,0,0,.6); }
         .f09-ico { position: absolute; left: 85px; top: 60px; width: 200px; height: 220px; }
-        .f09-name { position: absolute; left: 0; width: 370px; top: 300px; text-align: center; font-size: 170px; }
+        .f09-name { position: absolute; left: 0; width: 370px; top: 290px; height: 160px; display: flex; align-items: flex-end; justify-content: center; font-size: 170px; }
         .f09-cap { position: absolute; left: 0; width: 370px; top: 460px; text-align: center; font-size: 22px; color: #cfcbd8; }
         #f09-neq { position: absolute; left: 0; width: 1000px; top: 90px; text-align: center; font-size: 330px; }
         #f09-glow { position: absolute; left: 520px; top: -40px; width: 480px; height: 620px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255,107,53,.55), rgba(255,107,53,0)); opacity: 0; }
       </style>
       <div id="root" data-composition-id="f09-different" data-width="1080" data-height="1920" data-duration="3.15">
         <div class="scene" id="f09">
-          <div id="f09-band"><div id="f09-band-in">
+          <div id="f09-band" data-layout-allow-overflow><div id="f09-band-in">
             <svg id="f09-warn" viewBox="0 0 76 70"><path d="M38 4 L73 66 H3 Z" fill="#FF2D55"/><path d="M38 24 V44" stroke="#0A0A0F" stroke-width="8" stroke-linecap="round"/><circle cx="38" cy="55" r="4.5" fill="#0A0A0F"/></svg>
             <div class="disp c-white">Mais attention</div>
           </div></div>
@@ -31,12 +31,12 @@
             <div id="f09-glow"></div>
             <div class="f09-card" id="f09-c1">
               <svg class="f09-ico" viewBox="0 0 100 120"><path d="M50 4 C66 34 88 54 88 78 C88 100 70 116 50 116 C30 116 12 100 12 78 C12 54 34 34 50 4 Z" fill="#00D4FF"/><path d="M34 72 C34 88 42 98 56 100" fill="none" stroke="#E8FCFF" stroke-width="7" stroke-linecap="round"/></svg>
-              <div class="f09-name disp ex c-water">Eau</div>
+              <div class="f09-name disp ex c-water" data-fit="330">Eau</div>
               <div class="f09-cap mono">Elle part… et revient</div>
             </div>
             <div class="f09-card" id="f09-c2">
               <svg class="f09-ico" viewBox="0 0 100 120"><path d="M50 6 C64 30 84 42 82 70 C80 96 64 112 50 112 C32 112 18 96 18 72 C18 56 30 48 34 34 C40 48 46 50 50 52 C53 36 52 22 50 6 Z" fill="#FF6B35"/><path d="M50 66 C57 76 64 80 62 92 C60 101 54 104 50 104 C43 104 38 99 38 90 C38 81 45 76 50 66 Z" fill="#FFD2B8"/></svg>
-              <div class="f09-name disp ex c-heat">Graisse</div>
+              <div class="f09-name disp ex c-heat" data-fit="330">Graisse</div>
               <div class="f09-cap mono">Ce qu'on veut perdre</div>
             </div>
             <div id="f09-neq" class="disp ex c-white">≠</div>
@@ -48,6 +48,10 @@
           const ID = "f09-different", T0 = 23.30;
           const at = (t) => +Math.max(0, t - T0).toFixed(3);
           const build = () => {
+            document.querySelectorAll("#f09 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
             const tl = gsap.timeline({ paused: true });
             tl.fromTo("#f09-band", { x: -1300 }, { x: 0, duration: 0.32, ease: "expo.out" }, at(23.32));
             tl.fromTo("#f09-band", { backgroundPositionX: "0px" }, { backgroundPositionX: "192px", duration: 3.1, ease: "none" }, at(23.32));

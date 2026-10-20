@@ -1,0 +1,23 @@
+{
+ "title": "Transpirer fait-il perdre de la graisse ? (v2)",
+ "tail": 1.02,
+ "bpm": 100,
+ "style": "drive",
+ "music_lufs": -29.0,
+ "science": [[9.6, 18.1]],
+ "hits": [2.98, 24.86, 37.55, 46.83],
+ "blocks": [
+  {"type": "myth", "start": 0.0, "end": 2.95},
+  {"type": "body", "start": 2.95, "end": 46.25},
+  {"type": "outro", "start": 46.25, "end": 62.0}
+ ],
+ "sfx": [
+  ["whoosh_in", 0.02], ["stamp", 2.98], ["whoosh", 3.84], ["plinks", 5.22], ["pop", 7.31],
+  ["whoosh", 8.40], ["whoosh", 9.60], ["pop", 11.85], ["whoosh", 12.40], ["tick", 15.10], ["plinks", 15.95],
+  ["whoosh", 18.10], ["tick", 19.65], ["plinks", 22.70], ["warn", 23.34], ["thump", 24.86], ["whoosh", 26.45],
+  ["check", 29.23], ["thump", 30.35], ["stamp", 33.58], ["stamp", 35.52], ["warn", 37.45], ["whoosh", 38.62],
+  ["check", 41.74], ["check", 42.94], ["check", 44.32], ["shimmer", 46.83], ["pop", 48.92], ["pop", 49.83],
+  ["pop", 50.80], ["pop", 51.76], ["pop", 52.59], ["check", 54.19], ["check", 55.15], ["click", 56.60],
+  ["pop", 57.62], ["shimmer", 59.62], ["thump", 60.35]
+ ]
+}

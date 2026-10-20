@@ -1,6 +1,105 @@
 <!doctype html>
-<html lang="fr"><head><meta charset="UTF-8" /></head><body><template>
-<style>#root { position:absolute; inset:0; overflow:hidden; }</style>
-<div id="root" data-composition-id="f15-cta" data-width="1080" data-height="1920" data-duration="8.5"><div class="scene"><div class="disp" style="position:absolute;left:70px;top:500px;font-size:120px;color:#F4F1EC">STUB f15-cta</div></div></div>
-<script>(function(){const tl=gsap.timeline({paused:true});window.__timelines["f15-cta"]=tl;})();</script>
-</template></body></html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f15-top { position: absolute; left: 0; top: 0; width: 1080px; height: 640px; transform-origin: 0% 0%; }
+        .f15-row { position: absolute; left: 70px; height: 150px; width: 940px; }
+        #f15-r1 { top: 250px; } #f15-r2 { top: 420px; }
+        .f15-chk { position: absolute; left: 0; top: 16px; width: 116px; height: 116px; }
+        .f15-txt { position: absolute; left: 146px; top: 6px; font-size: 150px; }
+        #f15-btns { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        .f15-btn { position: absolute; left: 70px; width: 820px; display: flex; align-items: center; gap: 28px; padding: 0 44px; border-radius: 80px; }
+        #f15-b1 { top: 640px; height: 160px; background: linear-gradient(90deg, #FF2D55, #FF6B35); box-shadow: 0 16px 0 #8a1c2f, 0 40px 80px rgba(255,60,70,.45); }
+        #f15-b2 { top: 860px; height: 140px; background: #15151f; border: 5px solid #F4F1EC; box-shadow: 0 14px 0 #05050a, 0 40px 80px rgba(0,0,0,.5); }
+        .f15-btn svg { width: 86px; height: 86px; flex: none; }
+        .f15-btn .disp { font-size: 120px; }
+        #f15-ring { position: absolute; left: 380px; top: 620px; width: 200px; height: 200px; border-radius: 50%; border: 8px solid #F4F1EC; opacity: 0; }
+        #f15-who { position: absolute; left: 70px; top: 1040px; color: #cfcbd8; font-size: 24px; }
+        #f15-end { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        #f15-rays { position: absolute; left: -460px; top: -380px; width: 2000px; height: 2000px; opacity: 0;
+          background: repeating-conic-gradient(from 0deg at 50% 50%, rgba(255,107,53,.45) 0deg 5deg, rgba(255,107,53,0) 5deg 15deg);
+          -webkit-mask-image: radial-gradient(closest-side, #000 15%, transparent 75%); mask-image: radial-gradient(closest-side, #000 15%, transparent 75%); }
+        #f15-lock { position: absolute; left: 0; top: 330px; width: 1080px; height: 240px; display: flex; align-items: center; justify-content: center; gap: 30px; }
+        #f15-icon { width: 200px; height: 200px; border-radius: 46px; overflow: hidden; box-shadow: 0 20px 70px rgba(255,107,53,.5); flex: none; }
+        #f15-icon img { width: 100%; height: 100%; }
+        #f15-name { font-size: 230px; }
+        #f15-force { position: absolute; left: 0; width: 1080px; top: 640px; text-align: center; font-size: 190px; }
+        #f15-tag { position: absolute; left: 0; width: 1080px; top: 900px; display: flex; justify-content: center; }
+      </style>
+      <div id="root" data-composition-id="f15-cta" data-width="1080" data-height="1920" data-duration="8.5">
+        <div class="scene" id="f15">
+          <div id="f15-top">
+            <div class="f15-row" id="f15-r1">
+              <svg class="f15-chk" id="f15-k1" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#00FF87"/><path id="f15-p1" d="M28 52 L44 67 L74 35" fill="none" stroke="#0A0A0F" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div class="f15-txt disp ex c-wheat" id="f15-t1" data-fit="790">Conseils utiles</div>
+            </div>
+            <div class="f15-row" id="f15-r2">
+              <svg class="f15-chk" id="f15-k2" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#00FF87"/><path id="f15-p2" d="M28 52 L44 67 L74 35" fill="none" stroke="#0A0A0F" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div class="f15-txt disp ex c-green" id="f15-t2" data-fit="790">Faits vérifiés</div>
+            </div>
+          </div>
+          <div id="f15-btns" class="p3d">
+            <div class="f15-btn" id="f15-b1">
+              <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#0A0A0F"/><path d="M50 28 V72 M28 50 H72" stroke="#F4F1EC" stroke-width="11" stroke-linecap="round"/></svg>
+              <div class="disp" style="color:#0A0A0F" data-fit="620">Abonne-toi</div>
+            </div>
+            <div class="f15-btn" id="f15-b2">
+              <svg viewBox="0 0 100 100" fill="none" stroke="#F4F1EC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><circle cx="74" cy="22" r="12"/><circle cx="26" cy="50" r="12"/><circle cx="74" cy="78" r="12"/><path d="M36 44 L64 28 M36 56 L64 72"/></svg>
+              <div class="disp c-white" data-fit="620">Partage</div>
+            </div>
+            <i id="f15-ring"></i>
+            <div id="f15-who" class="mono chip">À quelqu'un qui y croit encore</div>
+          </div>
+          <div id="f15-end">
+            <div id="f15-rays"></div>
+            <div id="f15-lock"><div id="f15-icon"><img src="assets/brand/icon-512.png" alt="" /></div><div id="f15-name" class="disp ex c-wheat">CaliBodi</div></div>
+            <div id="f15-force" class="disp ex c-heat" data-fit="960">Beaucoup de force !</div>
+            <div id="f15-tag"><div class="mono chip" style="color:#F4F1EC">Abonne-toi · Partage</div></div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f15-cta", T0 = 53.50;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            document.querySelectorAll("#f15 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
+            const tl = gsap.timeline({ paused: true });
+            // two verified promises
+            [["1", 53.80, 54.19], ["2", 54.95, 55.15]].forEach(([k, tt, tc]) => {
+              tl.fromTo("#f15-t" + k, { x: 120, opacity: 0, skewX: -12 }, { x: 0, opacity: 1, skewX: 0, duration: 0.35, ease: "expo.out" }, at(tt));
+              tl.fromTo("#f15-k" + k, { scale: 0, rotation: -120 }, { scale: 1, rotation: 0, duration: 0.4, ease: "back.out(2.6)" }, at(tc));
+              tl.fromTo("#f15-p" + k, { strokeDasharray: 80, strokeDashoffset: 80 }, { strokeDashoffset: 0, duration: 0.25, ease: "power2.out" }, at(tc + 0.15));
+            });
+            tl.fromTo("#f15-top", { y: 0, scale: 1 }, { y: -20, scale: 0.78, duration: 0.45, ease: "power3.inOut" }, at(55.7));
+            // the buttons flip up and get pressed
+            tl.fromTo("#f15-b1", { rotationX: -95, y: 120, opacity: 0, transformOrigin: "50% 100%" }, { rotationX: 0, y: 0, opacity: 1, duration: 0.45, ease: "back.out(1.7)" }, at(55.92));
+            tl.fromTo("#f15-b1", { y: 0, boxShadow: "0 16px 0 #8a1c2f, 0 40px 80px rgba(255,60,70,.45)" }, { y: 14, boxShadow: "0 2px 0 #8a1c2f, 0 16px 40px rgba(255,60,70,.35)", duration: 0.09, ease: "power2.in", yoyo: true, repeat: 1, immediateRender: false }, at(56.6));
+            tl.fromTo("#f15-ring", { scale: 0.3, opacity: 1 }, { scale: 2.6, opacity: 0, duration: 0.5, ease: "power2.out", immediateRender: false }, at(56.65));
+            tl.fromTo("#f15-b2", { rotationX: -95, y: 120, opacity: 0, transformOrigin: "50% 100%" }, { rotationX: 0, y: 0, opacity: 1, duration: 0.45, ease: "back.out(1.7)" }, at(57.05));
+            tl.fromTo("#f15-b2", { y: 0 }, { y: 12, duration: 0.09, ease: "power2.in", yoyo: true, repeat: 1, immediateRender: false }, at(57.62));
+            tl.fromTo("#f15-who", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, at(57.99));
+            // end card: everything flies past the camera, the brand lands
+            tl.fromTo(["#f15-top", "#f15-btns"], { opacity: 1, z: 0 }, { opacity: 0, z: 700, duration: 0.35, ease: "power3.in", immediateRender: false }, at(59.45));
+            tl.fromTo("#f15-rays", { opacity: 0, rotation: 0 }, { opacity: 1, rotation: 40, duration: 2.6, ease: "power1.out" }, at(59.6));
+            tl.fromTo("#f15-icon", { rotationY: 180, scale: 0.3, opacity: 0, transformPerspective: 900 }, { rotationY: 0, scale: 1, opacity: 1, duration: 0.55, ease: "back.out(1.7)" }, at(59.62));
+            tl.fromTo("#f15-name", { x: 140, opacity: 0 }, { x: 0, opacity: 1, duration: 0.45, ease: "expo.out" }, at(59.72));
+            tl.fromTo("#f15-force", { scale: 2.6, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.32, ease: "power4.out" }, at(60.10));
+            tl.fromTo("#f15-force", { rotation: 0 }, { rotation: -3, duration: 0.3, ease: "back.out(3)", immediateRender: false }, at(60.42));
+            tl.fromTo("#f15-tag", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "power3.out" }, at(60.7));
+            tl.fromTo("#f15-lock", { scale: 1 }, { scale: 1.04, duration: 0.6, ease: "sine.inOut", yoyo: true, repeat: 1, immediateRender: false }, at(60.8));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -210,7 +210,7 @@ def build_calix():
         #cx-flip { transform-style:preserve-3d; }
         .pose { position:absolute; inset:0; width:100%; height:100%; opacity:0; }
 """
-    body = f'        <div id="cx-pos"><div id="cx-flip"><div id="cx-pop">{imgs}</div></div></div>'
+    body = f'        <div id="cx-pos" data-layout-allow-overflow><div id="cx-flip"><div id="cx-pop">{imgs}</div></div></div>'
     return sub_file("calix", style, body, "\n".join("          " + j for j in js))
 
 

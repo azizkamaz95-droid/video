@@ -1,6 +1,89 @@
 <!doctype html>
-<html lang="fr"><head><meta charset="UTF-8" /></head><body><template>
-<style>#root { position:absolute; inset:0; overflow:hidden; }</style>
-<div id="root" data-composition-id="f14-bienvenue" data-width="1080" data-height="1920" data-duration="7.25"><div class="scene"><div class="disp" style="position:absolute;left:70px;top:500px;font-size:120px;color:#F4F1EC">STUB f14-bienvenue</div></div></div>
-<script>(function(){const tl=gsap.timeline({paused:true});window.__timelines["f14-bienvenue"]=tl;})();</script>
-</template></body></html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f14-hello { position: absolute; left: 70px; top: 246px; font-size: 58px; }
+        #f14-lock { position: absolute; left: 60px; top: 330px; width: 960px; height: 220px; }
+        #f14-icon { position: absolute; left: 10px; top: 14px; width: 190px; height: 190px; border-radius: 44px; overflow: hidden; box-shadow: 0 20px 60px rgba(255,107,53,.45); }
+        #f14-icon img { width: 100%; height: 100%; }
+        #f14-word { position: absolute; left: 236px; top: 6px; height: 220px; display: flex; }
+        #f14-word span { display: inline-block; font-size: 230px; }
+        #f14-ici { position: absolute; left: 70px; top: 588px; color: var(--heat); }
+        #f14-chips { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        .f14-chip { position: absolute; left: 70px; height: 74px; display: flex; align-items: center; gap: 16px; padding: 0 28px 0 22px; border-radius: 37px;
+          background: rgba(21,21,31,.92); border: 3px solid currentColor; font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 38px; letter-spacing: -.01em; white-space: nowrap; }
+        .f14-chip i { display: block; width: 22px; height: 22px; border-radius: 50%; background: currentColor; box-shadow: 0 0 14px currentColor; }
+        .f14-chip span { color: #F4F1EC; }
+        #f14-k0 { top: 670px; color: #FF6B35; } #f14-k1 { top: 760px; color: #FF2D55; } #f14-k2 { top: 850px; color: #FF6B35; }
+        #f14-k3 { top: 940px; color: #00FF87; } #f14-k4 { top: 1030px; color: #00D4FF; }
+        #f14-phone { position: absolute; left: 640px; top: 640px; width: 250px; height: 494px; }
+        #f14-body { position: absolute; inset: 0; border-radius: 40px; background: #0d0d12; border: 9px solid #2a2a36; box-shadow: 0 40px 80px rgba(0,0,0,.7), 0 0 60px rgba(255,107,53,.25); overflow: hidden; }
+        .f14-scr { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; }
+        #f14-gloss { position: absolute; inset: 0; background: linear-gradient(115deg, rgba(255,255,255,.18) 0%, rgba(255,255,255,0) 35%); }
+      </style>
+      <div id="root" data-composition-id="f14-bienvenue" data-width="1080" data-height="1920" data-duration="7.25">
+        <div class="scene" id="f14">
+          <div id="f14-hello" class="sub">Bienvenue chez</div>
+          <div id="f14-lock" class="p3d">
+            <div id="f14-icon"><img src="assets/brand/icon-512.png" alt="" /></div>
+            <div id="f14-word" class="p3d"></div>
+          </div>
+          <div id="f14-ici" class="mono chip"><i class="dot"></i>Ici, on décrypte</div>
+          <div id="f14-chips" class="p3d">
+            <div class="f14-chip" id="f14-k0"><i></i><span>La fitness</span></div>
+            <div class="f14-chip" id="f14-k1"><i></i><span>La perte de poids</span></div>
+            <div class="f14-chip" id="f14-k2"><i></i><span>La prise de masse</span></div>
+            <div class="f14-chip" id="f14-k3"><i></i><span>La nutrition</span></div>
+            <div class="f14-chip" id="f14-k4"><i></i><span>La récupération</span></div>
+          </div>
+          <div id="f14-phone" class="p3d">
+            <div id="f14-body">
+              <img class="f14-scr" id="f14-s0" src="assets/app/dashboard.jpg" alt="" />
+              <img class="f14-scr" id="f14-s1" src="assets/app/fitness.jpg" alt="" />
+              <img class="f14-scr" id="f14-s2" src="assets/app/progress.jpg" alt="" />
+              <img class="f14-scr" id="f14-s3" src="assets/app/nutrition.jpg" alt="" />
+              <img class="f14-scr" id="f14-s4" src="assets/app/sleep.jpg" alt="" />
+              <div id="f14-gloss"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f14-bienvenue", T0 = 46.25;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            const word = document.getElementById("f14-word");
+            "CALIBODI".split("").forEach((c, i) => {
+              const s = document.createElement("span"); s.className = "disp ex " + (i < 4 ? "c-wheat" : "c-heat"); s.id = "f14-l" + i; s.textContent = c; word.appendChild(s);
+            });
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f14-hello", { x: -80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, at(46.33));
+            tl.fromTo("#f14-icon", { rotationY: -180, scale: 0.4, opacity: 0, transformPerspective: 900 }, { rotationY: 0, scale: 1, opacity: 1, duration: 0.6, ease: "back.out(1.6)" }, at(46.70));
+            for (let i = 0; i < 8; i++) tl.fromTo("#f14-l" + i, { y: 140, rotationX: -90, opacity: 0 }, { y: 0, rotationX: 0, opacity: 1, duration: 0.42, ease: "back.out(2)" }, at(46.83 + i * 0.045));
+            // little bounce of the lockup when the name lands
+            tl.fromTo("#f14-lock", { scale: 1 }, { scale: 1.05, duration: 0.12, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(47.3));
+            tl.fromTo("#f14-ici", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, at(47.76));
+            // phone swings in, keeps a slow 3D sway
+            tl.fromTo("#f14-phone", { rotationY: -70, x: 200, z: -400, opacity: 0 }, { rotationY: -18, x: 0, z: 0, opacity: 1, duration: 0.7, ease: "back.out(1.3)" }, at(47.9));
+            tl.fromTo("#f14-phone", { rotationY: -18, rotationX: 4 }, { rotationY: 14, rotationX: -2, duration: 4.6, ease: "sine.inOut", immediateRender: false }, at(48.6));
+            tl.set("#f14-s0", { opacity: 1 }, at(47.9));
+            // topics: each chip orbits in from depth; the phone shows the matching screen
+            [["#f14-k0", 48.92, "#f14-s1"], ["#f14-k1", 49.83, "#f14-s2"], ["#f14-k2", 50.80, "#f14-s3"], ["#f14-k3", 51.76, null], ["#f14-k4", 52.59, "#f14-s4"]].forEach(([c, t, scr], i) => {
+              tl.fromTo(c, { rotationY: 75, z: -500, x: -120, opacity: 0, transformOrigin: "0% 50%" }, { rotationY: 0, z: 0, x: 0, opacity: 1, duration: 0.45, ease: "back.out(1.6)" }, at(t - 0.04));
+              if (scr) {
+                tl.fromTo(scr, { opacity: 0, scale: 1.08 }, { opacity: 1, scale: 1, duration: 0.25, ease: "power2.out" }, at(t));
+              }
+            });
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

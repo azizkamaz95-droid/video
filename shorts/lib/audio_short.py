@@ -38,6 +38,7 @@ rng = np.random.default_rng(7)
 MUSIC_LUFS = plan.get("music_lufs", -29.5)   # ducked bed, integrated
 DUCK_DB = plan.get("duck_db", -7.0)          # extra drop while Calix speaks
 SCIENCE_DB = plan.get("science_db", -5.0)    # extra drop during scientific explanations
+DRIVE = plan.get("style") == "drive"         # straighter, busier groove for fast-cut edits
 
 
 # ---------------------------------------------------------------- dsp helpers
@@ -239,19 +240,21 @@ for k, b0 in enumerate(np.arange(0, D, bar)):
             place(bells, bell(ch["bell"][j % 3]), b0 + step * BEAT / 4, 0.05, pan=0.5 if j % 2 else -0.5)
     # drums: none in the hook's first bar, none during science
     for s16 in range(16):
-        t = b0 + s16 * BEAT / 4 + (0.035 if s16 % 4 == 2 else 0.0)  # light swing
+        t = b0 + s16 * BEAT / 4 + (0.035 if s16 % 4 == 2 and not DRIVE else 0.0)  # light swing (lo-fi only)
         if t >= D or t < 0.2 or in_science(t):
             continue
         groove = t >= first_groove
-        if groove and s16 in (0, 7, 10):
-            place(drums, kick(), t, 0.55 if s16 == 0 else 0.4)
+        if groove and s16 in ((0, 6, 10) if DRIVE else (0, 7, 10)):
+            place(drums, kick(), t, 0.6 if s16 == 0 else 0.45)
             kick_times.append(t)
         if groove and s16 in (4, 12):
-            place(drums, snap(), t, 0.35, pan=0.1)
-        if s16 % 2 == 0:
+            place(drums, snap(), t, 0.4 if DRIVE else 0.35, pan=0.1)
+        if DRIVE and groove:  # straight 16th hats with an accent pattern
+            place(drums, hat(), t, [0.24, 0.09, 0.15, 0.09][s16 % 4], pan=0.3)
+        elif s16 % 2 == 0:
             place(drums, hat(), t, [0.2, 0.11][(s16 // 2) % 2], pan=0.3)
         if groove and s16 == 14:
-            place(drums, hat(True), t, 0.1, pan=-0.3)
+            place(drums, hat(True), t, 0.12 if DRIVE else 0.1, pan=-0.3)
 
 # gentle sidechain from the kick on keys/pad/sub
 pump = np.ones(N)
@@ -262,8 +265,18 @@ for kt in kick_times:
 for bus in (keys, padb, low):
     bus *= pump
 
+# structural hits on reveals: a short high riser into a sub boom (both outside the speech band)
+hitsb = np.zeros((2, N))
+for th in plan.get("hits", []):
+    d = 0.7
+    nz = hp(noise(d), 3000, 4) * (np.linspace(0, 1, int(d * SR)) ** 2.5)
+    place(hitsb, nz, th - d, 0.16)
+    tt = t_arr(1.2)
+    boom = np.sin(2 * np.pi * np.cumsum(42 + 70 * np.exp(-tt / 0.05)) / SR) * expd(len(tt), 0.35)
+    place(hitsb, boom, th, 0.55)
+
 ir = reverb_ir()
-music = keys + padb + low + drums * 0.9 + bells
+music = keys + padb + low + drums * 0.9 + bells + hitsb
 music += reverb(keys * 0.7 + padb * 0.4 + bells, ir, 0.3)
 # carve the speech band: -5 dB between 1 and 4 kHz, clean sub rumble
 music = np.stack([hp(c, 35, 2) - 0.44 * bp(c, 1000, 4000, 2) for c in music])
