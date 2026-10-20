@@ -68,4 +68,4 @@ phrases courtes, respiration avant les révélations.
 **Time:** 52.5 – 61.0s
 **Delivery:** Signature de marque, puis invitation directe.
 
-    CaliBodi. Tout ton corps, une seule app. Essaie-la gratuitement pendant sept jours, sur Google Play.
+    CaliBodi. Tout ton corps, une seule app. Essaie-la gratuitement pendant sept jours, sur l'App Store et Google Play.

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>CaliBodi — TikTok</title>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      @font-face{font-family:"Inter";font-weight:400;font-style:normal;font-display:block;src:url("assets/fonts/Inter-400.woff2") format("woff2");}
+      @font-face{font-family:"Inter";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/Inter-500.woff2") format("woff2");}
+      @font-face{font-family:"Inter";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/Inter-600.woff2") format("woff2");}
+      @font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:block;src:url("assets/fonts/Inter-700.woff2") format("woff2");}
+      @font-face{font-family:"Inter";font-weight:800;font-style:normal;font-display:block;src:url("assets/fonts/Inter-800.woff2") format("woff2");}
+      @font-face{font-family:"Inter";font-weight:900;font-style:normal;font-display:block;src:url("assets/fonts/Inter-900.woff2") format("woff2");}
+      @font-face{font-family:"IBM Plex Mono";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-500.woff2") format("woff2");}
+      @font-face{font-family:"IBM Plex Mono";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-600.woff2") format("woff2");}
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0A0A0F; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: #0A0A0F; font-family: "Inter", sans-serif; }
+      [data-composition-id="main"] > div[data-composition-src] { position: absolute; inset: 0; }
+      #base { position: absolute; inset: 0; background: #0A0A0F; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="63.0" data-width="1080" data-height="1920">
+      <div id="base" class="clip" data-start="0" data-duration="63.0" data-track-index="0"></div>
+      <div id="el-01-chaos" data-composition-id="01-chaos" data-composition-src="compositions/frames/01-chaos.html" data-start="0.0" data-duration="8.0" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-02-declic" data-composition-id="02-declic" data-composition-src="compositions/frames/02-declic.html" data-start="8.0" data-duration="3.0" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-03-reveal" data-composition-id="03-reveal" data-composition-src="compositions/frames/03-reveal.html" data-start="11.0" data-duration="5.5" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-04-sport" data-composition-id="04-sport" data-composition-src="compositions/frames/04-sport.html" data-start="16.5" data-duration="8.5" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-05-nutrition" data-composition-id="05-nutrition" data-composition-src="compositions/frames/05-nutrition.html" data-start="25.0" data-duration="10.0" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-06-recup" data-composition-id="06-recup" data-composition-src="compositions/frames/06-recup.html" data-start="35.0" data-duration="6.5" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-07-hydratation" data-composition-id="07-hydratation" data-composition-src="compositions/frames/07-hydratation.html" data-start="41.5" data-duration="5.0" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-08-connecte" data-composition-id="08-connecte" data-composition-src="compositions/frames/08-connecte.html" data-start="46.5" data-duration="8.0" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-09-cta" data-composition-id="09-cta" data-composition-src="compositions/frames/09-cta.html" data-start="54.5" data-duration="8.5" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-fx-overlay" data-composition-id="fx-overlay" data-composition-src="compositions/fx-overlay.html" data-start="0" data-duration="63.0" data-track-index="5" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <audio id="vo-01" src="assets/voice/vo-01.wav" data-audio-group="voiceover" data-start="0.6" data-duration="6.673" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-02" src="assets/voice/vo-02.wav" data-audio-group="voiceover" data-start="8.3" data-duration="2.028" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-03" src="assets/voice/vo-03.wav" data-audio-group="voiceover" data-start="11.6" data-duration="4.11" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-04" src="assets/voice/vo-04.wav" data-audio-group="voiceover" data-start="16.85" data-duration="7.465" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-05" src="assets/voice/vo-05.wav" data-audio-group="voiceover" data-start="25.35" data-duration="8.698" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-06" src="assets/voice/vo-06.wav" data-audio-group="voiceover" data-start="35.35" data-duration="5.495" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-07" src="assets/voice/vo-07.wav" data-audio-group="voiceover" data-start="41.85" data-duration="4.102" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-08" src="assets/voice/vo-08.wav" data-audio-group="voiceover" data-start="46.85" data-duration="7.022" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-09" src="assets/voice/vo-09.wav" data-audio-group="voiceover" data-start="54.9" data-duration="5.977" data-track-index="10" data-volume="1"></audio>
+      <audio id="el-bgm" src="assets/audio/bed.wav" data-start="0" data-duration="63.0" data-track-index="11" data-volume="1"></audio>
+    </div>
+    <script>
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

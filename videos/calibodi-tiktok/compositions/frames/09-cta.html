@@ -1,0 +1,109 @@
+<template id="09-cta-template">
+  <style>
+    @font-face{font-family:"Inter";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/Inter-500.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:block;src:url("assets/fonts/Inter-700.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:900;font-style:normal;font-display:block;src:url("assets/fonts/Inter-900.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-600.woff2") format("woff2");}
+    #root { position: absolute; inset: 0; overflow: hidden; font-family: "Inter", sans-serif; color: #fff; }
+    #v09-bg { position: absolute; inset: 0; background: #0A0A0F; }
+    #v09 { position: absolute; inset: 0; }
+    #v09-glow { position: absolute; left: -260px; top: 420px; width: 1600px; height: 1200px;
+      background:
+        radial-gradient(closest-side at 40% 55%, rgba(255,107,53,0.32), rgba(255,107,53,0) 100%),
+        radial-gradient(closest-side at 62% 45%, rgba(61,155,255,0.26), rgba(61,155,255,0) 100%),
+        radial-gradient(closest-side at 52% 52%, rgba(255,45,85,0.26), rgba(255,45,85,0) 100%); }
+    #v09-brand { position: absolute; left: 72px; top: 296px; height: 112px; width: 900px; }
+    #v09-icon { position: absolute; left: 0; top: 0; width: 112px; height: 112px; border-radius: 27px; overflow: hidden; box-shadow: 0 0 60px rgba(255,90,60,0.35); }
+    #v09-icon img { width: 112px; height: 112px; display: block; }
+    #v09-sheen { position: absolute; left: -120px; top: -40px; width: 70px; height: 200px; background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0) 100%); }
+    #v09-word { position: absolute; left: 140px; top: 4px; height: 106px; overflow: hidden; font-weight: 900; font-size: 96px; line-height: 106px; letter-spacing: -0.05em; white-space: nowrap; }
+    #v09-word .c { display: inline-block; }
+    #v09 .mask { position: absolute; left: 66px; width: 960px; height: 118px; overflow: hidden; }
+    #v09 .line { display: block; font-weight: 900; font-size: 106px; line-height: 118px; letter-spacing: -0.05em; white-space: nowrap; }
+    #v09 .line .o { color: #FF6B35; }
+    #v09-m1 { top: 450px; }
+    #v09-m2 { top: 566px; }
+    #v09 .phone { position: absolute; width: 286px; height: 547px; border-radius: 44px; background: #050507; padding: 9px; box-shadow: 0 0 0 2px #2a2a36, 0 50px 120px rgba(0,0,0,0.75); }
+    #v09 .screen { position: relative; width: 268px; height: 529px; border-radius: 35px; overflow: hidden; background: #0A0A0F; }
+    #v09 .screen img { position: absolute; left: 0; top: 0; width: 268px; height: 529px; object-fit: cover; object-position: 50% 0%; }
+    #v09 .island { position: absolute; left: 50%; top: 18px; width: 74px; height: 20px; margin-left: -37px; border-radius: 10px; background: #000; }
+    #v09 .dim { position: absolute; inset: 0; border-radius: 44px; background: rgba(10,10,15,0.38); }
+    #v09-pL { left: 190px; top: 748px; }
+    #v09-pR { left: 604px; top: 748px; }
+    #v09-pC { left: 397px; top: 704px; }
+    #v09-offer { position: absolute; left: 72px; top: 1290px; height: 70px; padding: 0 28px 0 12px; border-radius: 35px; background: linear-gradient(90deg, #FF2D55, #FF6B35); display: flex; align-items: center; gap: 14px; box-shadow: 0 18px 50px rgba(255,60,70,0.35); }
+    #v09-offer .n { width: 48px; height: 48px; border-radius: 24px; background: #0A0A0F; color: #FF6B35; font-weight: 900; font-size: 28px; display: flex; align-items: center; justify-content: center; letter-spacing: -0.03em; }
+    #v09-offer .t { font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 21px; letter-spacing: 0.12em; color: #0A0A0F; }
+    #v09 .store { position: absolute; top: 1384px; height: 90px; border-radius: 18px; background: #000; border: 2px solid #3a3a48; }
+    #v09 .store svg { position: absolute; left: 20px; top: 21px; width: 44px; height: 48px; }
+    #v09 .store .s { position: absolute; left: 80px; top: 18px; font-family: "Inter", sans-serif; font-weight: 500; font-size: 14px; letter-spacing: 0.06em; color: #C8C8D0; white-space: nowrap; }
+    #v09 .store .b { position: absolute; left: 78px; top: 35px; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; white-space: nowrap; }
+    #v09-apple { left: 72px; width: 296px; }
+    #v09-play { left: 388px; width: 296px; }
+    #v09-fade { position: absolute; inset: 0; background: #000; opacity: 0; }
+  </style>
+
+  <div id="root" data-composition-id="09-cta" data-width="1080" data-height="1920" data-duration="8.5">
+    <div id="v09-bg" class="clip" data-start="0" data-duration="8.5" data-track-index="0"></div>
+    <div id="v09">
+      <div id="v09-glow"></div>
+      <div id="v09-pL" class="phone"><div class="screen"><img src="assets/app/nutrition.png" alt="" /></div><div class="island"></div><div class="dim"></div></div>
+      <div id="v09-pR" class="phone"><div class="screen"><img src="assets/app/hydration.png" alt="" /></div><div class="island"></div><div class="dim"></div></div>
+      <div id="v09-pC" class="phone"><div class="screen"><img src="assets/app/dashboard.png" alt="" /></div><div class="island"></div></div>
+
+      <div id="v09-brand">
+        <div id="v09-icon"><img src="assets/brand/icon-512.png" alt="" /><div id="v09-sheen"></div></div>
+        <div id="v09-word"><span class="c">C</span><span class="c">a</span><span class="c">l</span><span class="c">i</span><span class="c">B</span><span class="c">o</span><span class="c">d</span><span class="c">i</span></div>
+      </div>
+      <div id="v09-m1" class="mask"><span id="v09-l1" class="line">tout ton corps<span class="o">.</span></span></div>
+      <div id="v09-m2" class="mask"><span id="v09-l2" class="line">une seule app<span class="o">.</span></span></div>
+
+      <div id="v09-offer"><span class="n">7</span><span class="t">JOURS GRATUITS · PREMIUM</span></div>
+      <div id="v09-apple" class="store">
+        <svg viewBox="0 0 24 24"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701" fill="#fff"/></svg>
+        <span class="s">Télécharger dans</span>
+        <span class="b">l'App Store</span>
+      </div>
+      <div id="v09-play" class="store">
+        <svg viewBox="0 0 30 32"><path d="M2 1.5 L17.5 16 L2 30.5 C1.2 30 1 29.3 1 28.5 V3.5 C1 2.7 1.2 2 2 1.5 Z" fill="#00D4FF"/><path d="M2 1.5 L21.8 12.3 L17.5 16 Z" fill="#00FF87"/><path d="M2 30.5 L17.5 16 L21.8 19.7 Z" fill="#FF2D55"/><path d="M21.8 12.3 L28 15.8 C28.9 16.3 28.9 17.4 28 17.9 L21.8 19.7 L17.5 16 Z" fill="#FFC531"/></svg>
+        <span class="s">DISPONIBLE SUR</span>
+        <span class="b">Google Play</span>
+      </div>
+      <div id="v09-fade"></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#v09-glow", { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 1.4, ease: "expo.out" }, 0.0);
+      tl.to("#v09-glow", { scale: 1.06, duration: 6.5, ease: "sine.inOut" }, 1.4);
+
+      tl.fromTo("#v09-pC", { y: 420, opacity: 0, rotation: 0 }, { y: 0, opacity: 1, rotation: 0, duration: 1.1, ease: "expo.out" }, 0.3);
+      tl.fromTo("#v09-pL", { y: 460, opacity: 0, rotation: -2, scale: 0.86 }, { y: 0, opacity: 1, rotation: -9, scale: 0.86, duration: 1.2, ease: "expo.out" }, 0.5);
+      tl.fromTo("#v09-pR", { y: 460, opacity: 0, rotation: 2, scale: 0.86 }, { y: 0, opacity: 1, rotation: 9, scale: 0.86, duration: 1.2, ease: "expo.out" }, 0.62);
+      tl.to("#v09-pC", { y: -14, duration: 3.2, ease: "sine.inOut" }, 1.5);
+      tl.to("#v09-pC", { y: 0, duration: 3.2, ease: "sine.inOut" }, 4.7);
+      tl.to("#v09-pL", { y: 10, duration: 3.4, ease: "sine.inOut" }, 1.8);
+      tl.to("#v09-pR", { y: -10, duration: 3.0, ease: "sine.inOut" }, 1.9);
+
+      tl.fromTo("#v09-icon", { scale: 0.2, rotation: -20, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.7, ease: "back.out(1.8)" }, 0.15);
+      gsap.utils.toArray("#v09-word .c").forEach((c, i) => {
+        tl.fromTo(c, { yPercent: 105 }, { yPercent: 0, duration: 0.6, ease: "expo.out" }, 0.32 + i * 0.035);
+      });
+      tl.fromTo("#v09-sheen", { x: 0, rotation: 18 }, { x: 280, rotation: 18, duration: 0.7, ease: "power2.inOut" }, 0.8);
+      tl.fromTo("#v09-sheen", { x: 0 }, { x: 280, duration: 0.7, ease: "power2.inOut", immediateRender: false }, 6.6);
+
+      tl.fromTo("#v09-l1", { yPercent: 110 }, { yPercent: 0, duration: 0.7, ease: "expo.out" }, 1.32);
+      tl.fromTo("#v09-l2", { yPercent: 110 }, { yPercent: 0, duration: 0.7, ease: "expo.out" }, 2.06);
+
+      tl.fromTo("#v09-offer", { opacity: 0, x: -40, scale: 0.9 }, { opacity: 1, x: 0, scale: 1, duration: 0.6, ease: "back.out(1.8)", transformOrigin: "0% 50%" }, 3.0);
+      tl.fromTo("#v09-offer .n", { scale: 1.45 }, { scale: 1, duration: 0.45, ease: "back.out(3)", immediateRender: false }, 4.22);
+      tl.fromTo("#v09-apple", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "expo.out" }, 5.08);
+      tl.fromTo("#v09-play", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "expo.out" }, 5.68);
+
+      tl.fromTo("#v09-fade", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power2.in" }, 8.05);
+      window.__timelines["09-cta"] = tl;
+    })();
+  </script>
+</template>

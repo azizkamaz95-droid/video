@@ -804,9 +804,9 @@
  "9": {
   "frame": 9,
   "label": "Appel à l'action",
-  "text": "CaliBodi. Tout ton corps, une seule app. Essaie-la gratuitement pendant sept jours, sur Google Play.",
+  "text": "CaliBodi. Tout ton corps, une seule app. Essaie-la gratuitement pendant sept jours, sur l'App Store et Google Play.",
   "file": "assets/voice/vo-09.wav",
-  "duration": 5.391,
+  "duration": 5.977,
   "words": [
    {
     "word": "CaliBodi.",
@@ -846,42 +846,57 @@
    {
     "word": "Essaie-la",
     "start": 2.615,
-    "end": 2.96
+    "end": 2.965
    },
    {
     "word": "gratuitement",
-    "start": 2.96,
-    "end": 3.555
+    "start": 2.965,
+    "end": 3.548
    },
    {
     "word": "pendant",
-    "start": 3.555,
-    "end": 3.829
+    "start": 3.548,
+    "end": 3.831
    },
    {
     "word": "sept",
-    "start": 3.829,
-    "end": 4.074
+    "start": 3.831,
+    "end": 4.081
    },
    {
     "word": "jours,",
-    "start": 4.074,
-    "end": 4.524
+    "start": 4.081,
+    "end": 4.536
    },
    {
     "word": "sur",
-    "start": 4.524,
-    "end": 4.715
+    "start": 4.536,
+    "end": 4.711
+   },
+   {
+    "word": "l'App",
+    "start": 4.711,
+    "end": 4.886
+   },
+   {
+    "word": "Store",
+    "start": 4.886,
+    "end": 5.251
+   },
+   {
+    "word": "et",
+    "start": 5.251,
+    "end": 5.301
    },
    {
     "word": "Google",
-    "start": 4.715,
-    "end": 5.04
+    "start": 5.301,
+    "end": 5.63
    },
    {
     "word": "Play.",
-    "start": 5.04,
-    "end": 5.739
+    "start": 5.63,
+    "end": 6.674
    }
   ]
  }

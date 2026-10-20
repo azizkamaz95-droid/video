@@ -137,11 +137,11 @@ cartes de recettes qui défilent, téléphone Nutrition, liste de courses (saumo
 
 ## Frame 9 — Appel à l'action
 
-- scene: Trois téléphones en éventail (Nutrition, Accueil, Hydratation), logo, « tout ton corps. une seule app. », pastille 7 jours gratuits, badge Google Play.
+- scene: Trois téléphones en éventail (Nutrition, Accueil, Hydratation), logo, « tout ton corps. une seule app. », pastille 7 jours gratuits, badges App Store et Google Play.
 - duration: 8.5s
 - start: 54.5
 - transition_in: cut
 - status: animated
-- voiceover: "CaliBodi. Tout ton corps, une seule app. Essaie-la gratuitement pendant sept jours, sur Google Play."
+- voiceover: "CaliBodi. Tout ton corps, une seule app. Essaie-la gratuitement pendant sept jours, sur l'App Store et Google Play."
 - src: compositions/frames/09-cta.html
 - asset_candidates: capture/brand/icon-512.png, capture/app/dashboard.png, capture/app/nutrition.png, capture/app/hydration.png

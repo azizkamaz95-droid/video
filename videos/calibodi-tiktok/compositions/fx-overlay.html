@@ -1,0 +1,82 @@
+<template id="fx-overlay-template">
+  <style>
+    @font-face{font-family:"Inter";font-weight:400;font-style:normal;font-display:block;src:url("assets/fonts/Inter-400.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/Inter-500.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/Inter-600.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:block;src:url("assets/fonts/Inter-700.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:800;font-style:normal;font-display:block;src:url("assets/fonts/Inter-800.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:900;font-style:normal;font-display:block;src:url("assets/fonts/Inter-900.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-500.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-600.woff2") format("woff2");}
+    #root { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+    .fx-wipe { position: absolute; inset: 0; overflow: hidden; }
+    .fx-trail { position: absolute; inset: 0; background: #0A0A0F; }
+    .fx-panel { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; padding-left: 72px; }
+    .fx-num { display: block; font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 22px; letter-spacing: 0.14em; color: rgba(10,10,15,0.7); margin-bottom: 18px; }
+    .fx-label { display: block; font-family: "Inter", sans-serif; font-weight: 900; font-size: 150px; line-height: 0.88; letter-spacing: -0.05em; color: #0A0A0F; white-space: nowrap; }
+    .fx-flash { position: absolute; inset: 0; background: #ffffff; opacity: 0; }
+    #fx-vignette { position: absolute; inset: 0; background: radial-gradient(130% 80% at 50% 48%, rgba(0,0,0,0) 58%, rgba(0,0,0,0.55) 100%); }
+    #fx-grain { position: absolute; inset: -40px; background-image: url("assets/fx/grain.png"); background-size: 512px 512px; opacity: 0.075; mix-blend-mode: screen; }
+  </style>
+  <div id="root" data-composition-id="fx-overlay" data-width="1080" data-height="1920" data-duration="63.0">
+      <div id="fx-wipe-0" class="fx-wipe" data-layout-allow-overflow>
+        <div id="fx-wipe-0-trail" class="fx-trail"></div>
+        <div id="fx-wipe-0-panel" class="fx-panel" style="background:#FF6B35">
+          <span class="fx-num">01 / 04</span><span id="fx-wipe-0-label" class="fx-label">sport.</span>
+        </div>
+      </div>
+      <div id="fx-wipe-1" class="fx-wipe" data-layout-allow-overflow>
+        <div id="fx-wipe-1-trail" class="fx-trail"></div>
+        <div id="fx-wipe-1-panel" class="fx-panel" style="background:#00FF87">
+          <span class="fx-num">02 / 04</span><span id="fx-wipe-1-label" class="fx-label">nutrition.</span>
+        </div>
+      </div>
+      <div id="fx-wipe-2" class="fx-wipe" data-layout-allow-overflow>
+        <div id="fx-wipe-2-trail" class="fx-trail"></div>
+        <div id="fx-wipe-2-panel" class="fx-panel" style="background:#BF5AF2">
+          <span class="fx-num">03 / 04</span><span id="fx-wipe-2-label" class="fx-label">récup.</span>
+        </div>
+      </div>
+      <div id="fx-wipe-3" class="fx-wipe" data-layout-allow-overflow>
+        <div id="fx-wipe-3-trail" class="fx-trail"></div>
+        <div id="fx-wipe-3-panel" class="fx-panel" style="background:#00D4FF">
+          <span class="fx-num">04 / 04</span><span id="fx-wipe-3-label" class="fx-label">hydratation.</span>
+        </div>
+      </div>
+      <div id="fx-flash-0" class="fx-flash"></div>
+      <div id="fx-flash-1" class="fx-flash"></div>
+      <div id="fx-flash-2" class="fx-flash"></div>
+      <div id="fx-vignette"></div>
+      <div id="fx-grain"></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#fx-wipe-0-trail", { xPercent: -101 }, { xPercent: 0, duration: 0.34, ease: "power3.in" }, 16.08);
+      tl.fromTo("#fx-wipe-0-panel", { xPercent: -101 }, { xPercent: 0, duration: 0.36, ease: "power3.in" }, 16.12);
+      tl.set("#fx-wipe-0-trail", { xPercent: 101 }, 16.5);
+      tl.to("#fx-wipe-0-panel", { xPercent: 101, duration: 0.44, ease: "power3.out" }, 16.56);
+      tl.fromTo("#fx-wipe-0-label", { x: -90 }, { x: 60, duration: 0.95, ease: "none" }, 16.08);
+      tl.fromTo("#fx-wipe-1-trail", { xPercent: -101 }, { xPercent: 0, duration: 0.34, ease: "power3.in" }, 24.58);
+      tl.fromTo("#fx-wipe-1-panel", { xPercent: -101 }, { xPercent: 0, duration: 0.36, ease: "power3.in" }, 24.62);
+      tl.set("#fx-wipe-1-trail", { xPercent: 101 }, 25.0);
+      tl.to("#fx-wipe-1-panel", { xPercent: 101, duration: 0.44, ease: "power3.out" }, 25.06);
+      tl.fromTo("#fx-wipe-1-label", { x: -90 }, { x: 60, duration: 0.95, ease: "none" }, 24.58);
+      tl.fromTo("#fx-wipe-2-trail", { xPercent: -101 }, { xPercent: 0, duration: 0.34, ease: "power3.in" }, 34.58);
+      tl.fromTo("#fx-wipe-2-panel", { xPercent: -101 }, { xPercent: 0, duration: 0.36, ease: "power3.in" }, 34.62);
+      tl.set("#fx-wipe-2-trail", { xPercent: 101 }, 35.0);
+      tl.to("#fx-wipe-2-panel", { xPercent: 101, duration: 0.44, ease: "power3.out" }, 35.06);
+      tl.fromTo("#fx-wipe-2-label", { x: -90 }, { x: 60, duration: 0.95, ease: "none" }, 34.58);
+      tl.fromTo("#fx-wipe-3-trail", { xPercent: -101 }, { xPercent: 0, duration: 0.34, ease: "power3.in" }, 41.08);
+      tl.fromTo("#fx-wipe-3-panel", { xPercent: -101 }, { xPercent: 0, duration: 0.36, ease: "power3.in" }, 41.12);
+      tl.set("#fx-wipe-3-trail", { xPercent: 101 }, 41.5);
+      tl.to("#fx-wipe-3-panel", { xPercent: 101, duration: 0.44, ease: "power3.out" }, 41.56);
+      tl.fromTo("#fx-wipe-3-label", { x: -90 }, { x: 60, duration: 0.95, ease: "none" }, 41.08);
+      tl.fromTo("#fx-flash-0", { opacity: 0.8 }, { opacity: 0, duration: 0.45, ease: "power2.out", immediateRender: false }, 11.0);
+      tl.fromTo("#fx-flash-1", { opacity: 0.8 }, { opacity: 0, duration: 0.45, ease: "power2.out", immediateRender: false }, 46.5);
+      tl.fromTo("#fx-flash-2", { opacity: 0.8 }, { opacity: 0, duration: 0.45, ease: "power2.out", immediateRender: false }, 54.5);
+      tl.fromTo("#fx-grain", { backgroundPosition: "0px 0px" }, { backgroundPosition: "130788px 73332px", duration: 63.0, ease: "steps(756)" }, 0);
+      window.__timelines["fx-overlay"] = tl;
+    })();
+  </script>
+</template>

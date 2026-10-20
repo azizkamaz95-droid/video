@@ -1,0 +1,69 @@
+<template id="02-declic-template">
+  <style>
+    @font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:block;src:url("assets/fonts/Inter-700.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:900;font-style:normal;font-display:block;src:url("assets/fonts/Inter-900.woff2") format("woff2");}
+    #root { position: absolute; inset: 0; overflow: hidden; font-family: "Inter", sans-serif; color: #fff; }
+    #v02-bg { position: absolute; inset: 0; background: #0A0A0F; }
+    #v02 { position: absolute; inset: 0; }
+    #v02-photo { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    #v02 .slice { position: absolute; top: 0; width: 216px; height: 1920px; background-image: url("assets/photos/profile.jpg"); background-size: 1280px 1920px; filter: grayscale(1) brightness(0.8) contrast(1.15); }
+    #v02-shade { position: absolute; left: 0; top: 760px; width: 1080px; height: 1160px; background: linear-gradient(180deg, rgba(10,10,15,0) 0%, rgba(10,10,15,0.82) 34%, #0A0A0F 70%); }
+    #v02-flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
+    #v02-rule { position: absolute; left: 72px; top: 1000px; width: 44px; height: 4px; background: #FF6B35; }
+    #v02-lead { position: absolute; left: 72px; top: 1026px; font-weight: 700; font-size: 56px; letter-spacing: -0.03em; color: #C8C8D0; }
+    #v02 .disp { position: absolute; left: 66px; font-weight: 900; font-size: 158px; line-height: 1; letter-spacing: -0.05em; white-space: nowrap; }
+    #v02 .disp .c { display: inline-block; }
+    #v02-d1 { top: 1100px; }
+    #v02-d2 { top: 1258px; }
+    #v02-d2 .o { color: #FF6B35; }
+  </style>
+
+  <div id="root" data-composition-id="02-declic" data-width="1080" data-height="1920" data-duration="3">
+    <div id="v02-bg" class="clip" data-start="0" data-duration="3" data-track-index="0"></div>
+    <div id="v02">
+      <div id="v02-photo">
+        <div id="v02-s0" class="slice" style="left:0px; background-position:-100px 0px;"></div>
+        <div id="v02-s1" class="slice" style="left:216px; background-position:-316px 0px;"></div>
+        <div id="v02-s2" class="slice" style="left:432px; background-position:-532px 0px;"></div>
+        <div id="v02-s3" class="slice" style="left:648px; background-position:-748px 0px;"></div>
+        <div id="v02-s4" class="slice" style="left:864px; background-position:-964px 0px;"></div>
+      </div>
+      <div id="v02-shade"></div>
+      <div id="v02-flash"></div>
+      <div id="v02-rule"></div>
+      <div id="v02-lead">ton corps</div>
+      <div id="v02-d1" class="disp"><span class="c">p</span><span class="c">a</span><span class="c">s</span><span class="c">&nbsp;</span><span class="c">e</span><span class="c">n</span></div>
+      <div id="v02-d2" class="disp"><span class="c">m</span><span class="c">o</span><span class="c">r</span><span class="c">c</span><span class="c">e</span><span class="c">a</span><span class="c">u</span><span class="c">x</span><span class="c o">.</span></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const SNAP = 1.96;
+      const off = [[-20, -150], [-10, 100], [0, -70], [10, 170], [20, -110]];
+
+      tl.fromTo("#v02-photo", { scale: 1.06 }, { scale: 1, duration: 2.9, ease: "power1.out", transformOrigin: "50% 35%" }, 0);
+      off.forEach(([dx, dy], i) => {
+        tl.fromTo(`#v02-s${i}`, { x: dx * 0.6, y: dy * 0.6, opacity: 0 },
+          { x: dx, y: dy, opacity: 1, duration: SNAP - 0.08 - i * 0.03, ease: "power1.out" }, i * 0.03);
+        tl.to(`#v02-s${i}`, { x: 0, y: 0, duration: 0.34, ease: "back.out(1.6)" }, SNAP + i * 0.012);
+      });
+      tl.fromTo("#v02-flash", { opacity: 0.5 }, { opacity: 0, duration: 0.4, ease: "power2.out", immediateRender: false }, SNAP + 0.02);
+
+      tl.fromTo("#v02-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "expo.out", transformOrigin: "0% 50%" }, 0.72);
+      tl.fromTo("#v02-lead", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, ease: "expo.out" }, 0.8);
+
+      const chars = gsap.utils.toArray("#v02 .disp .c");
+      const sc = [[-70, -9], [50, 7], [-40, -5], [0, 0], [80, 10], [-60, -8], [45, 6], [-85, -10], [60, 8], [-35, -4], [75, 9], [-55, -7], [40, 5], [-90, -12], [65, 8]];
+      chars.forEach((c, i) => {
+        const [dy, r] = sc[i % sc.length];
+        tl.fromTo(c, { y: dy, rotation: r, opacity: 0 }, { y: dy * 0.8, rotation: r * 0.8, opacity: 1, duration: 0.22, ease: "power2.out" }, 1.5 + i * 0.018);
+        tl.to(c, { y: 0, rotation: 0, duration: 0.34, ease: "back.out(1.8)" }, SNAP + (i % 3) * 0.01);
+      });
+
+      tl.to("#v02", { scale: 1.06, opacity: 0, filter: "blur(8px)", duration: 0.26, ease: "power3.in", transformOrigin: "50% 50%" }, 2.74);
+      window.__timelines["02-declic"] = tl;
+    })();
+  </script>
+</template>

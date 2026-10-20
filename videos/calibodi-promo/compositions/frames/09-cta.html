@@ -28,12 +28,13 @@
     #c09-offer { position: absolute; left: 106px; top: 672px; height: 76px; padding: 0 30px 0 14px; border-radius: 38px; background: linear-gradient(90deg, #FF2D55, #FF6B35); display: flex; align-items: center; gap: 16px; box-shadow: 0 18px 50px rgba(255,60,70,0.35); }
     #c09-offer .n { width: 52px; height: 52px; border-radius: 26px; background: #0A0A0F; color: #FF6B35; font-weight: 900; font-size: 30px; display: flex; align-items: center; justify-content: center; letter-spacing: -0.03em; }
     #c09-offer .t { font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 22px; letter-spacing: 0.12em; color: #0A0A0F; }
-    #c09-play { position: absolute; left: 106px; top: 782px; width: 330px; height: 98px; border-radius: 20px; background: #000; border: 2px solid #3a3a48; }
-    #c09-play svg { position: absolute; left: 26px; top: 22px; width: 50px; height: 54px; }
-    #c09-play .s { position: absolute; left: 96px; top: 20px; font-family: "Inter", sans-serif; font-weight: 500; font-size: 15px; letter-spacing: 0.1em; color: #C8C8D0; }
-    #c09-play .b { position: absolute; left: 94px; top: 38px; font-weight: 700; font-size: 38px; letter-spacing: -0.02em; }
-    #c09-trial { position: absolute; left: 470px; top: 806px; font-size: 17px; color: #8e8e9c; line-height: 1.6; }
-    #c09-trial span { display: block; }
+    #c09 .store { position: absolute; top: 782px; height: 98px; border-radius: 20px; background: #000; border: 2px solid #3a3a48; }
+    #c09 .store svg { position: absolute; left: 24px; top: 22px; width: 50px; height: 54px; }
+    #c09 .store .s { position: absolute; left: 92px; top: 20px; font-family: "Inter", sans-serif; font-weight: 500; font-size: 15px; letter-spacing: 0.06em; color: #C8C8D0; white-space: nowrap; }
+    #c09 .store .b { position: absolute; left: 90px; top: 38px; font-weight: 700; font-size: 38px; letter-spacing: -0.02em; white-space: nowrap; }
+    #c09-apple { left: 106px; width: 318px; }
+    #c09-play { left: 446px; width: 318px; }
+    #c09-trial { position: absolute; left: 108px; top: 908px; font-size: 17px; color: #8e8e9c; white-space: nowrap; }
     #c09 .phone { position: absolute; width: 432px; height: 826px; border-radius: 66px; background: #050507; padding: 14px; box-shadow: 0 0 0 2px #2a2a36, 0 60px 140px rgba(0,0,0,0.75); }
     #c09 .screen { position: relative; width: 404px; height: 798px; border-radius: 52px; overflow: hidden; background: #0A0A0F; }
     #c09 .screen img { position: absolute; left: 0; top: 0; width: 404px; height: 798px; object-fit: cover; object-position: 50% 0%; }
@@ -61,12 +62,17 @@
       <div data-hf-id="hf-v6k4" id="c09-m2" class="mask"><span data-hf-id="hf-c7dd" id="c09-l2" class="line">une seule app<span data-hf-id="hf-53r2" class="o">.</span></span></div>
 
       <div data-hf-id="hf-x5ag" id="c09-offer"><span data-hf-id="hf-bq3u" class="n">7</span><span data-hf-id="hf-gl5z" class="t">JOURS GRATUITS · PREMIUM</span></div>
-      <div data-hf-id="hf-iusg" id="c09-play">
+      <div id="c09-apple" class="store">
+        <svg viewBox="0 0 24 24"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701" fill="#fff"/></svg>
+        <span class="s">Télécharger dans</span>
+        <span class="b">l'App Store</span>
+      </div>
+      <div data-hf-id="hf-iusg" id="c09-play" class="store">
         <svg data-hf-id="hf-m7o5" viewBox="0 0 30 32"><path data-hf-id="hf-5vxg" d="M2 1.5 L17.5 16 L2 30.5 C1.2 30 1 29.3 1 28.5 V3.5 C1 2.7 1.2 2 2 1.5 Z" fill="#00D4FF"/><path data-hf-id="hf-9810" d="M2 1.5 L21.8 12.3 L17.5 16 Z" fill="#00FF87"/><path data-hf-id="hf-svce" d="M2 30.5 L17.5 16 L21.8 19.7 Z" fill="#FF2D55"/><path data-hf-id="hf-6plp" d="M21.8 12.3 L28 15.8 C28.9 16.3 28.9 17.4 28 17.9 L21.8 19.7 L17.5 16 Z" fill="#FFC531"/></svg>
         <span data-hf-id="hf-w2rb" class="s">DISPONIBLE SUR</span>
         <span data-hf-id="hf-oex8" class="b">Google Play</span>
       </div>
-      <div data-hf-id="hf-lmz0" id="c09-trial" class="mono"><span data-hf-id="hf-p0dh">Coach vocal Calix</span><span data-hf-id="hf-xl7s">300+ recettes · scan IA</span></div>
+      <div data-hf-id="hf-lmz0" id="c09-trial" class="mono">Coach vocal Calix · 300+ recettes · scan IA</div>
       <div data-hf-id="hf-osvs" id="c09-fade"></div>
     </div>
   </div>
@@ -98,8 +104,9 @@
 
       tl.fromTo("#c09-offer", { opacity: 0, x: -40, scale: 0.9 }, { opacity: 1, x: 0, scale: 1, duration: 0.6, ease: "back.out(1.8)", transformOrigin: "0% 50%" }, 3.0);
       tl.fromTo("#c09-offer .n", { scale: 1.45 }, { scale: 1, duration: 0.45, ease: "back.out(3)", immediateRender: false }, 4.22);
-      tl.fromTo("#c09-play", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "expo.out" }, 4.88);
-      tl.fromTo("#c09-trial", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "none" }, 5.5);
+      tl.fromTo("#c09-apple", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "expo.out" }, 5.08);
+      tl.fromTo("#c09-play", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: "expo.out" }, 5.68);
+      tl.fromTo("#c09-trial", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "none" }, 6.35);
 
       tl.fromTo("#c09-fade", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power2.in" }, 8.05);
       window.__timelines["09-cta"] = tl;

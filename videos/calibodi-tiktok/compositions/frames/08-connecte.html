@@ -1,0 +1,154 @@
+<template id="08-connecte-template">
+  <style>
+    @font-face{font-family:"Inter";font-weight:900;font-style:normal;font-display:block;src:url("assets/fonts/Inter-900.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-500.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-600.woff2") format("woff2");}
+    #root { position: absolute; inset: 0; overflow: hidden; font-family: "Inter", sans-serif; color: #fff; }
+    #v08-bg { position: absolute; inset: 0; background: radial-gradient(80% 45% at 50% 42%, #14141f 0%, #0A0A0F 75%); }
+    #v08 { position: absolute; inset: 0; }
+    #v08 .mono { font-family: "IBM Plex Mono", monospace; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; }
+    #v08-links { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    #v08 .node { position: absolute; width: 0; height: 0; }
+    #v08 .node .ring { position: absolute; left: -62px; top: -62px; width: 124px; height: 124px; border-radius: 50%; background: #0f0f18; border: 3px solid; display: flex; align-items: center; justify-content: center; }
+    #v08 .node .ring svg { width: 54px; height: 54px; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    #v08 .node .lab { position: absolute; top: 82px; left: -300px; width: 600px; text-align: center; font-weight: 900; font-size: 74px; line-height: 1; letter-spacing: -0.05em; white-space: nowrap; }
+    #v08 .elab { position: absolute; height: 40px; padding: 0 16px; border-radius: 20px; background: #0f0f18; border: 1px solid #2a2a38; font-size: 15px; color: #C8C8D0; display: flex; align-items: center; white-space: nowrap; }
+    #v08 .pk { position: absolute; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: #fff; box-shadow: 0 0 16px #fff; }
+    #v08-score { position: absolute; left: 540px; top: 800px; width: 0; height: 0; }
+    #v08-score svg { position: absolute; left: -290px; top: -290px; width: 580px; height: 580px; }
+    #v08-num { position: absolute; left: -200px; top: -78px; width: 400px; text-align: center; font-weight: 900; font-size: 132px; line-height: 1; letter-spacing: -0.05em; }
+    #v08-numlab { position: absolute; left: -200px; top: 58px; width: 400px; text-align: center; font-size: 17px; color: #C8C8D0; }
+    #v08-week { position: absolute; left: 0; right: 0; top: 1150px; height: 64px; display: flex; justify-content: center; gap: 16px; }
+    #v08 .day { position: relative; width: 64px; height: 64px; border-radius: 18px; background: #14141f; border: 1px solid #2a2a38; overflow: hidden; }
+    #v08 .day i { position: absolute; inset: 0; background: linear-gradient(135deg, #FF2D55, #FF6B35); display: block; }
+    #v08 .day span { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 20px; }
+    #v08-streak { position: absolute; left: 0; right: 0; top: 1242px; text-align: center; font-size: 19px; color: #C8C8D0; }
+    #v08-streak b { color: #FF6B35; font-weight: 600; }
+  </style>
+
+  <div id="root" data-composition-id="08-connecte" data-width="1080" data-height="1920" data-duration="8">
+    <div id="v08-bg" class="clip" data-start="0" data-duration="8" data-track-index="0"></div>
+    <div id="v08">
+      <svg id="v08-links" viewBox="0 0 1080 1920">
+        <defs>
+          <linearGradient id="v08-g01" gradientUnits="userSpaceOnUse" x1="300" y1="560" x2="780" y2="560"><stop offset="0" stop-color="#FF6B35"/><stop offset="1" stop-color="#00FF87"/></linearGradient>
+          <linearGradient id="v08-g12" gradientUnits="userSpaceOnUse" x1="780" y1="560" x2="780" y2="1060"><stop offset="0" stop-color="#00FF87"/><stop offset="1" stop-color="#BF5AF2"/></linearGradient>
+          <linearGradient id="v08-g23" gradientUnits="userSpaceOnUse" x1="780" y1="1060" x2="300" y2="1060"><stop offset="0" stop-color="#BF5AF2"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+          <linearGradient id="v08-g30" gradientUnits="userSpaceOnUse" x1="300" y1="1060" x2="300" y2="560"><stop offset="0" stop-color="#00D4FF"/><stop offset="1" stop-color="#FF6B35"/></linearGradient>
+          <linearGradient id="v08-g20" gradientUnits="userSpaceOnUse" x1="780" y1="1060" x2="300" y2="560"><stop offset="0" stop-color="#BF5AF2"/><stop offset="1" stop-color="#FF6B35"/></linearGradient>
+          <linearGradient id="v08-g13" gradientUnits="userSpaceOnUse" x1="780" y1="560" x2="300" y2="1060"><stop offset="0" stop-color="#00FF87"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+        </defs>
+        <line id="v08-e01" x1="300" y1="560" x2="780" y2="560" stroke="url(#v08-g01)" stroke-width="3"/>
+        <line id="v08-e12" x1="780" y1="560" x2="780" y2="1060" stroke="url(#v08-g12)" stroke-width="3"/>
+        <line id="v08-e23" x1="780" y1="1060" x2="300" y2="1060" stroke="url(#v08-g23)" stroke-width="3"/>
+        <line id="v08-e30" x1="300" y1="1060" x2="300" y2="560" stroke="url(#v08-g30)" stroke-width="3"/>
+        <line id="v08-e20" x1="780" y1="1060" x2="300" y2="560" stroke="url(#v08-g20)" stroke-width="3"/>
+        <line id="v08-e13" x1="780" y1="560" x2="300" y2="1060" stroke="url(#v08-g13)" stroke-width="3"/>
+      </svg>
+      <div id="v08-l1" class="elab mono" style="left:531px; top:890px;">Sommeil → séance</div>
+      <div id="v08-l2" class="elab mono" style="left:217px; top:790px;">Séance → eau</div>
+      <div id="v08-l3" class="elab mono" style="left:430px; top:540px;">Séance → calories</div>
+      <div id="v08-pk0" class="pk" style="left:780px; top:1060px;"></div>
+      <div id="v08-pk1" class="pk" style="left:300px; top:560px;"></div>
+      <div id="v08-pk2" class="pk" style="left:300px; top:560px;"></div>
+      <div id="v08-pk3" class="pk" style="left:780px; top:560px;"></div>
+
+      <div id="v08-n0" class="node" style="left:300px; top:560px;">
+        <div class="ring" style="border-color:#FF6B35; box-shadow:0 0 40px rgba(255,107,53,0.35);"><svg viewBox="0 0 24 24" style="stroke:#FF6B35;"><path d="M14.4 14.4 9.6 9.6"/><path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z"/><path d="m21.5 21.5-1.4-1.4"/><path d="M3.9 3.9 2.5 2.5"/><path d="M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z"/></svg></div>
+        <div class="lab" style="color:#FF6B35; top:-168px;">sport.</div>
+      </div>
+      <div id="v08-n1" class="node" style="left:780px; top:560px;">
+        <div class="ring" style="border-color:#00FF87; box-shadow:0 0 40px rgba(0,255,135,0.3);"><svg viewBox="0 0 24 24" style="stroke:#00FF87;"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg></div>
+        <div class="lab" style="color:#00FF87; top:-168px;">nutrition.</div>
+      </div>
+      <div id="v08-n2" class="node" style="left:780px; top:1060px;">
+        <div class="ring" style="border-color:#BF5AF2; box-shadow:0 0 40px rgba(191,90,242,0.35);"><svg viewBox="0 0 24 24" style="stroke:#BF5AF2;"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></div>
+        <div class="lab" style="color:#BF5AF2;">récup.</div>
+      </div>
+      <div id="v08-n3" class="node" style="left:300px; top:1060px;">
+        <div class="ring" style="border-color:#00D4FF; box-shadow:0 0 40px rgba(0,212,255,0.35);"><svg viewBox="0 0 24 24" style="stroke:#00D4FF;"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg></div>
+        <div class="lab" style="color:#00D4FF;">hydratation.</div>
+      </div>
+
+      <div id="v08-score">
+        <svg viewBox="0 0 580 580">
+          <g transform="rotate(-90 290 290)" fill="none" stroke-linecap="round">
+            <circle cx="290" cy="290" r="262" stroke="#1a1a26" stroke-width="24"/>
+            <circle cx="290" cy="290" r="222" stroke="#1a1a26" stroke-width="24"/>
+            <circle cx="290" cy="290" r="182" stroke="#1a1a26" stroke-width="24"/>
+            <circle cx="290" cy="290" r="142" stroke="#1a1a26" stroke-width="24"/>
+            <circle id="v08-a0" cx="290" cy="290" r="262" stroke="#FF6B35" stroke-width="24" style="filter: drop-shadow(0 0 10px rgba(255,107,53,0.6));"/>
+            <circle id="v08-a1" cx="290" cy="290" r="222" stroke="#00FF87" stroke-width="24" style="filter: drop-shadow(0 0 10px rgba(0,255,135,0.5));"/>
+            <circle id="v08-a2" cx="290" cy="290" r="182" stroke="#BF5AF2" stroke-width="24" style="filter: drop-shadow(0 0 10px rgba(191,90,242,0.6));"/>
+            <circle id="v08-a3" cx="290" cy="290" r="142" stroke="#00D4FF" stroke-width="24" style="filter: drop-shadow(0 0 10px rgba(0,212,255,0.6));"/>
+          </g>
+        </svg>
+        <div id="v08-num">0</div>
+        <div id="v08-numlab" class="mono">Score du jour</div>
+      </div>
+      <div id="v08-week"></div>
+      <div id="v08-streak" class="mono">Série · <b>12 jours</b> d'affilée</div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const week = document.getElementById("v08-week");
+      ["L", "M", "M", "J", "V", "S", "D"].forEach((d, i) => {
+        const el = document.createElement("div");
+        el.className = "day"; el.id = `v08-d${i}`;
+        el.innerHTML = `<i id="v08-df${i}"></i><span>${d}</span>`;
+        week.appendChild(el);
+      });
+      const P = [[300, 560], [780, 560], [780, 1060], [300, 1060]];
+      const CX = 540, CY = 800;
+
+      tl.fromTo("#v08-bg", { opacity: 0.6 }, { opacity: 1, duration: 1.0, ease: "none" }, 0);
+      [0.32, 1.12, 2.08, 3.24].forEach((t, i) => {
+        tl.fromTo(`#v08-n${i} .ring`, { scale: 0, rotation: -90 }, { scale: 1, rotation: 0, duration: 0.6, ease: "back.out(2)" }, t);
+        tl.fromTo(`#v08-n${i} .lab`, { opacity: 0, y: 30, filter: "blur(10px)" }, { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.55, ease: "expo.out" }, t + 0.06);
+      });
+
+      const edges = ["#v08-e01", "#v08-e12", "#v08-e23", "#v08-e30", "#v08-e20", "#v08-e13"];
+      edges.forEach((e, i) => {
+        const el = document.querySelector(e);
+        const len = Math.hypot(el.x2.baseVal.value - el.x1.baseVal.value, el.y2.baseVal.value - el.y1.baseVal.value);
+        el.setAttribute("stroke-dasharray", `${len} ${len}`);
+        tl.fromTo(e, { attr: { "stroke-dashoffset": len }, opacity: 1 }, { attr: { "stroke-dashoffset": 0 }, duration: 0.55, ease: "power2.inOut" }, 4.28 + i * 0.07);
+      });
+      [["#v08-l1", 4.62], ["#v08-l2", 4.72], ["#v08-l3", 4.82]].forEach(([l, t]) => {
+        tl.fromTo(l, { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.35, ease: "back.out(2)" }, t);
+      });
+      [[2, 0], [0, 3], [0, 1], [1, 2]].forEach(([a, b], i) => {
+        tl.fromTo(`#v08-pk${i}`, { x: 0, y: 0, opacity: 0 }, { x: P[b][0] - P[a][0], y: P[b][1] - P[a][1], opacity: 1, duration: 0.6, ease: "power1.inOut" }, 4.55 + i * 0.08);
+      });
+
+      const out = 5.2;
+      tl.to(edges.concat(["#v08-l1", "#v08-l2", "#v08-l3", "#v08-pk0", "#v08-pk1", "#v08-pk2", "#v08-pk3"]), { opacity: 0, duration: 0.3, ease: "power2.in" }, out);
+      P.forEach(([x, y], i) => {
+        tl.to(`#v08-n${i}`, { x: CX - x, y: CY - y, scale: 0.25, opacity: 0, duration: 0.55, ease: "power3.in" }, out + i * 0.03);
+      });
+      tl.fromTo("#v08-score", { scale: 0.55, opacity: 0, rotation: -40 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.8, ease: "expo.out" }, 5.62);
+      const fills = [1.0, 0.92, 0.84, 0.78];
+      [262, 222, 182, 142].forEach((r, i) => {
+        const c = 2 * Math.PI * r;
+        const el = document.getElementById(`v08-a${i}`);
+        el.setAttribute("stroke-dasharray", `${c} ${c}`);
+        tl.fromTo(el, { attr: { "stroke-dashoffset": c } }, { attr: { "stroke-dashoffset": c * (1 - fills[i]) }, duration: 1.1, ease: "power3.out" }, 5.75 + i * 0.07);
+      });
+      const num = document.getElementById("v08-num");
+      const s = { v: 0 };
+      tl.fromTo(s, { v: 0 }, { v: 87, duration: 1.0, ease: "power3.out", onUpdate() { num.textContent = Math.round(s.v); } }, 5.85);
+      tl.fromTo("#v08-numlab", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 6.1);
+      tl.fromTo("#v08-week", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "expo.out" }, 6.7);
+      for (let i = 0; i < 7; i++) {
+        tl.fromTo(`#v08-df${i}`, { yPercent: 100 }, { yPercent: 0, duration: 0.3, ease: "power3.out" }, 6.88 + i * 0.09);
+      }
+      tl.fromTo("#v08-streak", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 7.35);
+      tl.to("#v08-score", { scale: 1.03, duration: 1.5, ease: "sine.inOut" }, 6.45);
+
+      window.__timelines["08-connecte"] = tl;
+    })();
+  </script>
+</template>

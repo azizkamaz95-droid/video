@@ -1,0 +1,126 @@
+<template id="07-hydratation-template">
+  <style>
+    @font-face{font-family:"Inter";font-weight:700;font-style:normal;font-display:block;src:url("assets/fonts/Inter-700.woff2") format("woff2");}
+    @font-face{font-family:"Inter";font-weight:900;font-style:normal;font-display:block;src:url("assets/fonts/Inter-900.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:500;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-500.woff2") format("woff2");}
+    @font-face{font-family:"IBM Plex Mono";font-weight:600;font-style:normal;font-display:block;src:url("assets/fonts/IBMPlexMono-600.woff2") format("woff2");}
+    #root { position: absolute; inset: 0; overflow: hidden; font-family: "Inter", sans-serif; color: #fff; }
+    #v07-bg { position: absolute; inset: 0; background: radial-gradient(90% 60% at 20% 80%, #0b1a24 0%, #0A0A0F 65%); }
+    #v07 { position: absolute; inset: 0; }
+    #v07 .mono { font-family: "IBM Plex Mono", monospace; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; }
+    #v07 .b { color: #00D4FF; }
+    #v07-top { position: absolute; left: 72px; right: 72px; top: 228px; height: 30px; font-size: 20px; color: rgba(200,200,208,0.8); }
+    #v07-top .r { position: absolute; right: 0; top: 0; }
+    #v07-top .r b { color: #00D4FF; font-weight: 600; }
+    #v07-rule { position: absolute; left: 72px; top: 272px; width: 936px; height: 1px; background: #22222E; }
+    #v07-prog { position: absolute; left: 72px; top: 1490px; width: 936px; height: 2px; background: #22222E; }
+    #v07-progfill { position: absolute; left: 0; top: 0; width: 936px; height: 2px; background: #00D4FF; }
+    #v07-kicker { position: absolute; left: 72px; top: 318px; font-size: 24px; color: #00D4FF; font-weight: 600; }
+    #v07-dmask { position: absolute; left: 66px; top: 352px; width: 940px; height: 160px; overflow: hidden; }
+    #v07-disp { display: block; font-weight: 900; font-size: 150px; line-height: 160px; letter-spacing: -0.05em; white-space: nowrap; }
+    #v07-col { position: absolute; left: 72px; top: 560px; width: 380px; height: 910px; border-radius: 44px; overflow: hidden; background: #0e0e18; border: 1px solid #22222E; }
+    #v07-water { position: absolute; left: 0; top: 0; width: 380px; height: 1000px; }
+    #v07-body { position: absolute; left: 0; top: 40px; width: 380px; height: 960px; background: linear-gradient(180deg, #19dcff 0%, #0096c7 45%, #00507a 100%); }
+    #v07-wave1, #v07-wave2 { position: absolute; left: 0; top: 0; width: 760px; height: 44px; }
+    #v07 .bub { position: absolute; border-radius: 50%; border: 2px solid rgba(255,255,255,0.55); }
+    #v07 .tick { position: absolute; left: 0; width: 380px; height: 0; border-top: 2px dashed rgba(255,255,255,0.35); }
+    #v07 .tick span { position: absolute; right: 16px; top: -40px; height: 32px; padding: 0 12px; border-radius: 9px; background: rgba(10,10,15,0.82); font-size: 15px; color: #fff; display: flex; align-items: center; }
+    #v07-drop { position: absolute; left: 30px; top: 30px; width: 52px; height: 52px; }
+    #v07-drop svg { width: 52px; height: 52px; stroke: #00D4FF; stroke-width: 1.8; fill: rgba(0,212,255,0.12); stroke-linecap: round; stroke-linejoin: round; }
+    #v07 .eq { position: absolute; left: 500px; width: 420px; }
+    #v07 .eq .lab { display: block; font-size: 16px; color: #a2a2b0; }
+    #v07 .eq .num { display: block; margin-top: 6px; font-weight: 900; font-size: 72px; line-height: 1; letter-spacing: -0.045em; white-space: nowrap; }
+    #v07 .eq .num .op { color: #8a8a99; }
+    #v07-e1 { top: 600px; }
+    #v07-e2 { top: 740px; }
+    #v07-e3 { top: 880px; }
+    #v07-e4 { top: 1066px; }
+    #v07-e3 .num { color: #00D4FF; }
+    #v07-sep { position: absolute; left: 500px; top: 1036px; width: 420px; height: 1px; background: #2a2a36; }
+    #v07-note { position: absolute; left: 500px; top: 1220px; width: 420px; font-size: 16px; color: #a2a2b0; line-height: 1.7; }
+    #v07-note span { display: block; }
+  </style>
+
+  <div id="root" data-composition-id="07-hydratation" data-width="1080" data-height="1920" data-duration="5">
+    <div id="v07-bg" class="clip" data-start="0" data-duration="5" data-track-index="0"></div>
+    <div id="v07">
+      <div id="v07-top" class="mono"><span>CaliBodi</span><span class="r"><b>04</b> / 04 · Hydratation</span></div>
+      <div id="v07-rule"></div>
+      <div id="v07-prog"><div id="v07-progfill"></div></div>
+      <div id="v07-kicker" class="mono">04 — Hydratation</div>
+      <div id="v07-dmask"><span id="v07-disp">ton eau<span class="b">.</span></span></div>
+
+      <div id="v07-col">
+        <div id="v07-water">
+          <svg id="v07-wave2" viewBox="0 0 760 44" preserveAspectRatio="none"><path id="v07-wp2" fill="rgba(25,220,255,0.45)" d=""/></svg>
+          <svg id="v07-wave1" viewBox="0 0 760 44" preserveAspectRatio="none"><path id="v07-wp1" fill="#19dcff" d=""/></svg>
+          <div id="v07-body"></div>
+        </div>
+        <div id="v07-t1" class="tick" style="top:200px;"><span class="mono">2 730 ml</span></div>
+        <div id="v07-t2" class="tick" style="top:70px;"><span class="mono">3 230 ml</span></div>
+        <div id="v07-drop"><svg viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg></div>
+      </div>
+
+      <div id="v07-e1" class="eq"><span class="lab mono">Ton poids</span><span class="num">78 kg</span></div>
+      <div id="v07-e2" class="eq"><span class="lab mono">Par kilo</span><span class="num"><span class="op">×</span> 35 ml</span></div>
+      <div id="v07-e3" class="eq"><span class="lab mono">Ton objectif</span><span id="v07-goal" class="num"><span class="op">=</span> 2 730 ml</span></div>
+      <div id="v07-sep"></div>
+      <div id="v07-e4" class="eq"><span class="lab mono b">Après ta séance</span><span class="num"><span class="op">+</span> 500 ml</span></div>
+      <div id="v07-note" class="mono"><span>Rappels contextuels</span><span>Suivi verre par verre</span></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const wave = (amp, phase) => {
+        let d = "M0 44 L0 22";
+        for (let x = 0; x <= 760; x += 10) d += ` L${x} ${(22 + amp * Math.sin((x / 190) * Math.PI * 2 + phase)).toFixed(2)}`;
+        return d + " L760 44 Z";
+      };
+      document.getElementById("v07-wp1").setAttribute("d", wave(9, 0));
+      document.getElementById("v07-wp2").setAttribute("d", wave(12, 1.6));
+      const water = document.getElementById("v07-water");
+      const seeds = [[40, 14, 0.9], [100, 10, 1.4], [170, 18, 1.1], [230, 12, 2.0], [290, 9, 1.7], [330, 15, 2.4], [70, 8, 2.8], [260, 11, 3.1], [140, 13, 3.4], [210, 9, 0.7]];
+      seeds.forEach(([x, r], i) => {
+        const b = document.createElement("div");
+        b.className = "bub"; b.id = `v07-bb${i}`;
+        b.style.left = x + "px"; b.style.top = "960px"; b.style.width = r + "px"; b.style.height = r + "px";
+        water.appendChild(b);
+      });
+
+      const H = 910, lvl = (ml) => H - (ml / 3500) * H;
+      tl.fromTo("#v07-progfill", { scaleX: 0 }, { scaleX: 1, duration: 5, ease: "none", transformOrigin: "0% 50%" }, 0);
+      tl.fromTo(["#v07-top", "#v07-rule"], { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.out" }, 0.15);
+      tl.fromTo("#v07-kicker", { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.5, ease: "expo.out" }, 0.3);
+      tl.fromTo("#v07-disp", { yPercent: 110 }, { yPercent: 0, duration: 0.7, ease: "expo.out" }, 0.45);
+      tl.fromTo("#v07-col", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.7, ease: "expo.out" }, 0.2);
+      tl.fromTo("#v07-wave1", { x: 0 }, { x: -380, duration: 5, ease: "none" }, 0);
+      tl.fromTo("#v07-wave2", { x: -190 }, { x: 0, duration: 5, ease: "none" }, 0);
+      tl.fromTo("#v07-water", { y: H }, { y: lvl(900) - 22, duration: 0.8, ease: "power2.out" }, 0.4);
+      tl.to("#v07-water", { y: lvl(2730) - 22, duration: 0.9, ease: "power3.inOut" }, 1.75);
+      tl.to("#v07-water", { y: lvl(3230) - 22, duration: 0.8, ease: "power3.inOut" }, 3.1);
+      tl.fromTo("#v07-t1", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.4, ease: "expo.out" }, 2.1);
+      tl.fromTo("#v07-t2", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.4, ease: "expo.out" }, 3.4);
+      tl.fromTo("#v07-drop", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(2.4)" }, 0.45);
+      seeds.forEach(([, , t], i) => {
+        tl.fromTo(`#v07-bb${i}`, { y: 0, opacity: 0.9 }, { y: -860, opacity: 0, duration: 2.2, ease: "power1.in" }, t);
+      });
+
+      [["#v07-e1", 1.15], ["#v07-e2", 1.65], ["#v07-e3", 2.05]].forEach(([e, t]) => {
+        tl.fromTo(e, { opacity: 0, y: 34 }, { opacity: 1, y: 0, duration: 0.55, ease: "expo.out" }, t);
+      });
+      tl.fromTo("#v07-sep", { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "expo.out", transformOrigin: "0% 50%" }, 2.95);
+      tl.fromTo("#v07-e4", { opacity: 0, y: 34, scale: 0.9 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "back.out(2)", transformOrigin: "0% 50%" }, 3.05);
+      tl.fromTo("#v07-note", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "none" }, 3.9);
+      const goal = document.getElementById("v07-goal");
+      const g = { v: 2730 };
+      tl.fromTo(g, { v: 2730 }, {
+        v: 3230, duration: 0.8, ease: "power3.inOut",
+        onUpdate() { const v = Math.round(g.v / 10) * 10; goal.innerHTML = `<span class="op">=</span> ${String(v).replace(/\B(?=(\d{3})+(?!\d))/g, " ")} ml`; },
+      }, 3.25);
+
+      window.__timelines["07-hydratation"] = tl;
+    })();
+  </script>
+</template>

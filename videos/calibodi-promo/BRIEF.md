@@ -18,7 +18,7 @@ captions: skipped
 
 ## Intent
 
-Vidéo motion design pour vendre l'application CaliBodi (Android, Google Play). Elle présente l'app
+Vidéo motion design pour vendre l'application CaliBodi (App Store + Google Play). Elle présente l'app
 de façon premium et parle des quatre piliers : sport, nutrition, récupération, hydratation. Ton :
 énergique, sûr de lui, sportif, haut de gamme — direction « nuit de salle de sport » : photos noir & blanc
 dramatiques, fond quasi noir, accents néon par pilier. Le client a délégué toutes les décisions
@@ -49,4 +49,4 @@ créatives (« montre-moi de quoi tu es capable », « tu es un designer senior 
 - Faits produit vérifiés dans le code : 300+ recettes (361 entrées), scan photo IA multi-aliments,
   objectif d'eau = poids × 35 ml (+ bonus post-séance), séance allégée si dette de sommeil,
   coach vocal Calix, modes Express 5/10/15 · Voyage · Fatigue · Cycle, essai Premium 7 jours.
-- Disponible sur Google Play uniquement (le site ne montre que ce store).
+- Disponible sur l'App Store et Google Play (confirmé par le client le 2026-10-20 ; la fin montre les deux badges).
