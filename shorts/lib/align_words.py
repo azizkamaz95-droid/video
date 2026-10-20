@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Give the corrected words of an episode the timings of a fresh transcription of the *edited* voice.
 
-usage: align_words.py <episode_dir> [--transcript existing.json] [split_seconds ...]
+usage: align_words.py <episode_dir> [--transcript existing.json] [split_seconds ... (Google only)]
 
 cut_silences.py remaps the memo's timings through the cuts, which drifts a little at every joint.
-This re-transcribes assets/voice/voice.wav with Google (or reads --transcript), matches its tokens to
-assets/voice/words.json (keeping our corrected spelling) and copies the timings over; words Google
-missed get times interpolated from their neighbours. Run refine_words.py afterwards.
+This re-transcribes assets/voice/voice.wav with AssemblyAI when ASSEMBLYAI_API_KEY is set, else Google
+(or reads --transcript), matches its tokens to
+assets/voice/words.json (keeping our corrected spelling) and copies the timings over; words
+the transcriber missed get times interpolated from their neighbours. Run refine_words.py afterwards.
 """
 import difflib
 import json
@@ -28,10 +29,14 @@ data = json.load(open(wpath))
 W = data["words"]
 
 if tpath is None:
-    tpath = os.path.join(EP, "source/transcript-edit-google.json")
     here = os.path.dirname(os.path.abspath(__file__))
-    subprocess.run([sys.executable, os.path.join(here, "../../avatar/transcribe_google.py"), os.path.join(EP, "assets/voice/voice.wav"), tpath] + args,
-                   check=True)
+    voice = os.path.join(EP, "assets/voice/voice.wav")
+    if os.environ.get("ASSEMBLYAI_API_KEY"):  # preferred: better French text, millisecond timings
+        tpath = os.path.join(EP, "source/transcript-edit-assemblyai.json")
+        subprocess.run([sys.executable, os.path.join(here, "transcribe_assemblyai.py"), voice, tpath], check=True)
+    else:
+        tpath = os.path.join(EP, "source/transcript-edit-google.json")
+        subprocess.run([sys.executable, os.path.join(here, "../../avatar/transcribe_google.py"), voice, tpath] + args, check=True)
 G = json.load(open(tpath))["words"]
 
 

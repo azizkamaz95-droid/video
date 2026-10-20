@@ -16,13 +16,14 @@ EP=shorts/episodes/AAAA-MM-JJ-sujet
 shorts/lib/sync_assets.sh "$EP"                      # poses Calix, polices, GSAP, grain, icône
 mkdir -p "$EP/source" && cp memo.m4a "$EP/source/voice-memo.m4a"
 
-# 1. transcription du mémo (clé GOOGLE_CLOUD_API_KEY dans l'environnement, jamais dans le code)
-python3 avatar/transcribe_google.py "$EP/source/voice-memo.m4a" "$EP/source/transcript-google.json" 55
+# 1. transcription du mémo : AssemblyAI (clé ASSEMBLYAI_API_KEY dans l'environnement, jamais dans le code)
+python3 shorts/lib/transcribe_assemblyai.py "$EP/source/voice-memo.m4a" "$EP/source/transcript-memo.json"
+#    secours : python3 avatar/transcribe_google.py <memo> <out.json> 55   (GOOGLE_CLOUD_API_KEY, coupes < 60 s)
 # 2. relire le texte, écrire plan.json : corrections, respirations, mots-clés, poses, blocs, effets
 # 3. nettoyage + suppression des blancs (respirations gardées après les phrases clés)
-python3 shorts/lib/cut_silences.py "$EP/source/voice-memo.m4a" "$EP/source/transcript-google.json" "$EP/plan.json" "$EP/assets/voice"
-# 4. minutages des mots sur la voix montée, puis recalage sur la forme d'onde
-python3 shorts/lib/align_words.py "$EP" 55
+python3 shorts/lib/cut_silences.py "$EP/source/voice-memo.m4a" "$EP/source/transcript-memo.json" "$EP/plan.json" "$EP/assets/voice"
+# 4. minutages des mots sur la voix montée (AssemblyAI si la clé est là, sinon Google), puis filet de sécurité
+python3 shorts/lib/align_words.py "$EP"
 python3 shorts/lib/refine_words.py "$EP"
 # 5. musique + effets (contrôle anti-masquage), puis composition
 python3 shorts/lib/audio_short.py "$EP"              # rapport : $EP/renders/audio-report.txt

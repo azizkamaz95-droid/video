@@ -3,7 +3,7 @@
 
 usage: refine_words.py <episode_dir>
 
-Google's word offsets are coarse (100 ms) and, after a kept breath, often start the next word at the end
+Safety net after align_words.py. Google's word offsets are coarse (100 ms) and, after a kept breath, often start the next word at the end
 of the previous one. When a word "starts" in silence, move its start to where the speech actually comes
 back (never past its own end or the next word's start). Edits assets/voice/words.json in place and keeps
 Google's original [start, end] as "google". Safe to run twice.
@@ -43,10 +43,10 @@ for i, w in enumerate(W):
     while g + 3 < len(db) and g / 100 < limit and not (db[g:g + 3] > SPEECH).all():
         g += 1
     nxt = W[i + 1]["google"][0] if i + 1 < len(W) else 1e9
-    if g / 100 >= limit or g + 3 >= len(db) or g / 100 > nxt - 0.05:  # no speech in the word's own slot
+    if g / 100 >= limit or g + 3 >= len(db):  # no speech in the word's own slot
         continue
     new = round(max(g / 100 - 0.02, s0), 3)  # 20 ms lead so the caption lands with the attack
-    if new - s0 < 0.05:
+    if new - s0 < 0.05 or new >= nxt - 0.02:  # never pass the next word
         continue
     w["start"] = new
     w["end"] = round(max(w["end"], new + 0.12), 3)

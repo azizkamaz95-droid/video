@@ -7,6 +7,7 @@ Writes the same format as avatar/transcribe_google.py: {"duration": s, "words": 
 """
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -38,6 +39,16 @@ while True:
     time.sleep(3)
 if res["status"] == "error":
     sys.exit(f"AssemblyAI error: {res.get('error')}")
-words = [{"word": w["text"], "start": round(w["start"] / 1000, 3), "end": round(w["end"] / 1000, 3)} for w in res["words"]]
-json.dump({"duration": round(dur, 3), "words": words, "text": res.get("text", "")}, open(out, "w"), ensure_ascii=False, indent=1)
+# brand names the model can't know: fix the usual misspellings
+BRAND = [(re.compile(r"^[CK]ali[- ]?bod(?:y|i|ie|ee)(\W*)$", re.I), r"CaliBodi\1"), (re.compile(r"^[CK]alix(\W*)$", re.I), r"Calix\1")]
+
+
+def fix(t):
+    for pat, rep in BRAND:
+        t = pat.sub(rep, t)
+    return t
+
+
+words = [{"word": fix(w["text"]), "start": round(w["start"] / 1000, 3), "end": round(w["end"] / 1000, 3)} for w in res["words"]]
+json.dump({"duration": round(dur, 3), "words": words, "text": " ".join(w["word"] for w in words)}, open(out, "w"), ensure_ascii=False, indent=1)
 print(f"{len(words)} words, {dur:.1f}s")
