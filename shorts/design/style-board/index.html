@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1820, height=3462" />
+    <title>Planche de style</title>
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family:"Archivo"; src:url("fonts/Archivo-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+      @font-face { font-family:"Archivo"; src:url("fonts/Archivo-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      @font-face { font-family:"Caveat"; src:url("fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+      @font-face { font-family:"Caveat"; src:url("fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      @font-face { font-family:"Montserrat"; src:url("fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+      @font-face { font-family:"Montserrat"; src:url("fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      @font-face { font-family:"Montserrat"; src:url("fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+      @font-face { font-family:"Montserrat"; src:url("fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      @font-face { font-family:"Montserrat"; src:url("fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+      @font-face { font-family:"Montserrat"; src:url("fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      @font-face { font-family:"Montserrat"; src:url("fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+      @font-face { font-family:"Montserrat"; src:url("fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      @font-face { font-family:"Poppins"; src:url("fonts/Poppins-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+      @font-face { font-family:"Poppins"; src:url("fonts/Poppins-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1820px; height:3462px; overflow:hidden; background:#E9E7E2; }
+      #root { position:relative; width:1820px; height:3462px; overflow:hidden; background:#E9E7E2; font-family:'Montserrat', sans-serif; color:#141414; }
+      .f-a { font-family:"Montserrat"; font-weight:900; } .f-b { font-family:"Poppins"; font-weight:800; }
+      .f-c { font-family:"Archivo"; font-weight:900; } .f-d { font-family:"Caveat"; font-weight:700; }
+      .title { position:absolute; left:60px; top:40px; font-weight:900; font-size:46px; letter-spacing:-.02em; }
+      .title span { font-weight:600; font-size:26px; color:#555; margin-left:14px; letter-spacing:0; }
+      .chead { position:absolute; top:106px; width:540px; display:flex; gap:14px; align-items:center; }
+      .chead i { display:block; width:52px; height:52px; border-radius:14px; border:3px solid #141414; flex:none; }
+      .chead b { display:block; font-size:28px; font-weight:900; }
+      .chead span { display:block; font-size:17px; font-weight:600; color:#444; }
+      .rlab { position:absolute; height:84px; display:flex; align-items:center; gap:14px; }
+      .rlab b { font-size:34px; }
+      .rlab span { font-size:22px; font-weight:600; color:#555; }
+      .slot { position:absolute; width:540px; height:960px; border-radius:22px; overflow:hidden; box-shadow:0 14px 34px rgba(0,0,0,.18); }
+      .fr { position:absolute; left:0; top:0; width:1080px; height:1920px; transform:scale(0.5); transform-origin:0 0; overflow:hidden; }
+      .note { position:absolute; left:82px; top:150px; font-family:"Caveat", cursive; font-weight:700; font-size:104px; rotate:-6deg; }
+      .arr { position:absolute; left:420px; top:150px; width:220px; height:160px; }
+      .hook { position:absolute; left:80px; top:330px; width:930px; line-height:1.04; }
+      .hl { display:inline-block; padding:0 .14em; border-radius:10px; rotate:-2deg; }
+      .card { position:absolute; left:70px; top:800px; width:600px; height:440px; background:#FFFDF6; color:#141414; border-radius:10px; rotate:-3deg;
+               box-shadow:0 22px 44px rgba(0,0,0,.22); padding:46px 44px; }
+      .card::before { content:""; position:absolute; left:220px; top:-22px; width:160px; height:46px; background:rgba(255,255,255,.55); border:1px solid rgba(0,0,0,.06); rotate:3deg; }
+      .big { line-height:.95; white-space:nowrap; }
+      .cap { font-size:46px; margin-top:34px; }
+      .src { position:absolute; left:44px; bottom:34px; font-size:26px; font-weight:500; color:#555; font-family:'Montserrat', sans-serif; }
+      .scrib { position:absolute; left:-62px; top:-22px; width:640px; height:290px; }
+      .calix { position:absolute; left:470px; top:1060px; width:660px; height:660px; }
+      .capt { position:absolute; left:60px; width:960px; top:1700px; text-align:center; font-size:66px; line-height:1.1; letter-spacing:-.01em; }
+      .foot { position:absolute; left:60px; bottom:22px; font-size:20px; font-weight:600; color:#555; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="1" data-width="1820" data-height="3462">
+      <div class="title">Planche de style : 1 couleur (colonne) + 1 police (ligne)</div><div class="foot">Les notes manuscrites (« Attends… », flèche, cercle) sont en « Caveat » dans les trois versions.</div>
+      <div class="chead" style="left:60px"><i style="background:#FFC93C"></i><div><b>Soleil</b><span>#FFC93C · texte noir · contraste 12:1</span></div></div><div class="chead" style="left:640px"><i style="background:#2B59C3"></i><div><b>Cobalt</b><span>#2B59C3 · texte blanc · contraste 6,3:1</span></div></div><div class="chead" style="left:1220px"><i style="background:#FF7A59"></i><div><b>Corail</b><span>#FF7A59 · texte noir · contraste 7,2:1</span></div></div>
+      <div class="rlab" style="left:60px;top:190px"><b style="font-family:'Montserrat', sans-serif;font-weight:900">A · Montserrat Black</b><span>— la police classique des créateurs (CapCut, Canva)</span></div><div class="slot" style="left:60px;top:274px">
+      <div class="fr" style="background:#FFC93C;color:#141414;font-family:'Montserrat', sans-serif">
+        <div class="note" style="color:#141414">Attends…</div><svg class="arr" viewBox="0 0 220 160"><path d="M10 20 C 80 10, 150 40, 170 120" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round"/><path d="M148 104 L172 126 L186 96" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="hook" style="font-weight:900;letter-spacing:-0.03em;font-size:112px">Je parie que tu ne savais <span class="hl" style="background:#FFFFFF;color:#141414">pas ça</span></div>
+        <div class="card">
+          <svg class="scrib" viewBox="0 0 520 260"><path d="M60 140 C 40 60, 200 18, 330 30 C 470 42, 510 120, 450 190 C 380 250, 160 250, 80 200 C 40 175, 50 120, 110 95" fill="none" stroke="#E63946" stroke-width="9" stroke-linecap="round"/></svg>
+          <div class="big" style="font-weight:900;letter-spacing:-0.03em;font-size:150px">5 004</div>
+          <div class="cap" style="font-weight:800">abdos en 27 jours</div>
+          <div class="src">Source : Katch et al., 1984</div>
+        </div>
+        <img class="calix" src="img/calix-pointe.png" alt="" />
+        <div class="capt" style="font-weight:800">et ton ventre n'a <span style="background:#FFFFFF;color:#141414;padding:0 .14em;border-radius:8px">pas bougé</span></div>
+      </div></div><div class="slot" style="left:640px;top:274px">
+      <div class="fr" style="background:#2B59C3;color:#FFFFFF;font-family:'Montserrat', sans-serif">
+        <div class="note" style="color:#FFFFFF">Attends…</div><svg class="arr" viewBox="0 0 220 160"><path d="M10 20 C 80 10, 150 40, 170 120" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/><path d="M148 104 L172 126 L186 96" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="hook" style="font-weight:900;letter-spacing:-0.03em;font-size:112px">Je parie que tu ne savais <span class="hl" style="background:#FFC93C;color:#141414">pas ça</span></div>
+        <div class="card">
+          <svg class="scrib" viewBox="0 0 520 260"><path d="M60 140 C 40 60, 200 18, 330 30 C 470 42, 510 120, 450 190 C 380 250, 160 250, 80 200 C 40 175, 50 120, 110 95" fill="none" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/></svg>
+          <div class="big" style="font-weight:900;letter-spacing:-0.03em;font-size:150px">5 004</div>
+          <div class="cap" style="font-weight:800">abdos en 27 jours</div>
+          <div class="src">Source : Katch et al., 1984</div>
+        </div>
+        <img class="calix" src="img/calix-pointe.png" alt="" />
+        <div class="capt" style="font-weight:800">et ton ventre n'a <span style="background:#FFC93C;color:#141414;padding:0 .14em;border-radius:8px">pas bougé</span></div>
+      </div></div><div class="slot" style="left:1220px;top:274px">
+      <div class="fr" style="background:#FF7A59;color:#141414;font-family:'Montserrat', sans-serif">
+        <div class="note" style="color:#141414">Attends…</div><svg class="arr" viewBox="0 0 220 160"><path d="M10 20 C 80 10, 150 40, 170 120" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round"/><path d="M148 104 L172 126 L186 96" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="hook" style="font-weight:900;letter-spacing:-0.03em;font-size:112px">Je parie que tu ne savais <span class="hl" style="background:#FFFFFF;color:#141414">pas ça</span></div>
+        <div class="card">
+          <svg class="scrib" viewBox="0 0 520 260"><path d="M60 140 C 40 60, 200 18, 330 30 C 470 42, 510 120, 450 190 C 380 250, 160 250, 80 200 C 40 175, 50 120, 110 95" fill="none" stroke="#141414" stroke-width="9" stroke-linecap="round"/></svg>
+          <div class="big" style="font-weight:900;letter-spacing:-0.03em;font-size:150px">5 004</div>
+          <div class="cap" style="font-weight:800">abdos en 27 jours</div>
+          <div class="src">Source : Katch et al., 1984</div>
+        </div>
+        <img class="calix" src="img/calix-pointe.png" alt="" />
+        <div class="capt" style="font-weight:800">et ton ventre n'a <span style="background:#FFFFFF;color:#141414;padding:0 .14em;border-radius:8px">pas bougé</span></div>
+      </div></div><div class="rlab" style="left:60px;top:1274px"><b style="font-family:'Poppins', sans-serif;font-weight:800">B · Poppins ExtraBold</b><span>— plus ronde et chaleureuse</span></div><div class="slot" style="left:60px;top:1358px">
+      <div class="fr" style="background:#FFC93C;color:#141414;font-family:'Poppins', sans-serif">
+        <div class="note" style="color:#141414">Attends…</div><svg class="arr" viewBox="0 0 220 160"><path d="M10 20 C 80 10, 150 40, 170 120" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round"/><path d="M148 104 L172 126 L186 96" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="hook" style="font-weight:800;letter-spacing:-0.02em;font-size:112px">Je parie que tu ne savais <span class="hl" style="background:#FFFFFF;color:#141414">pas ça</span></div>
+        <div class="card">
+          <svg class="scrib" viewBox="0 0 520 260"><path d="M60 140 C 40 60, 200 18, 330 30 C 470 42, 510 120, 450 190 C 380 250, 160 250, 80 200 C 40 175, 50 120, 110 95" fill="none" stroke="#E63946" stroke-width="9" stroke-linecap="round"/></svg>
+          <div class="big" style="font-weight:800;letter-spacing:-0.02em;font-size:150px">5 004</div>
+          <div class="cap" style="font-weight:800">abdos en 27 jours</div>
+          <div class="src">Source : Katch et al., 1984</div>
+        </div>
+        <img class="calix" src="img/calix-pointe.png" alt="" />
+        <div class="capt" style="font-weight:800">et ton ventre n'a <span style="background:#FFFFFF;color:#141414;padding:0 .14em;border-radius:8px">pas bougé</span></div>
+      </div></div><div class="slot" style="left:640px;top:1358px">
+      <div class="fr" style="background:#2B59C3;color:#FFFFFF;font-family:'Poppins', sans-serif">
+        <div class="note" style="color:#FFFFFF">Attends…</div><svg class="arr" viewBox="0 0 220 160"><path d="M10 20 C 80 10, 150 40, 170 120" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/><path d="M148 104 L172 126 L186 96" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="hook" style="font-weight:800;letter-spacing:-0.02em;font-size:112px">Je parie que tu ne savais <span class="hl" style="background:#FFC93C;color:#141414">pas ça</span></div>
+        <div class="card">
+          <svg class="scrib" viewBox="0 0 520 260"><path d="M60 140 C 40 60, 200 18, 330 30 C 470 42, 510 120, 450 190 C 380 250, 160 250, 80 200 C 40 175, 50 120, 110 95" fill="none" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/></svg>
+          <div class="big" style="font-weight:800;letter-spacing:-0.02em;font-size:150px">5 004</div>
+          <div class="cap" style="font-weight:800">abdos en 27 jours</div>
+          <div class="src">Source : Katch et al., 1984</div>
+        </div>
+        <img class="calix" src="img/calix-pointe.png" alt="" />
+        <div class="capt" style="font-weight:800">et ton ventre n'a <span style="background:#FFC93C;color:#141414;padding:0 .14em;border-radius:8px">pas bougé</span></div>
+      </div></div><div class="slot" style="left:1220px;top:1358px">
+      <div class="fr" style="background:#FF7A59;color:#141414;font-family:'Poppins', sans-serif">
+        <div class="note" style="color:#141414">Attends…</div><svg class="arr" viewBox="0 0 220 160"><path d="M10 20 C 80 10, 150 40, 170 120" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round"/><path d="M148 104 L172 126 L186 96" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="hook" style="font-weight:800;letter-spacing:-0.02em;font-size:112px">Je parie que tu ne savais <span class="hl" style="background:#FFFFFF;color:#141414">pas ça</span></div>
+        <div class="card">
+          <svg class="scrib" viewBox="0 0 520 260"><path d="M60 140 C 40 60, 200 18, 330 30 C 470 42, 510 120, 450 190 C 380 250, 160 250, 80 200 C 40 175, 50 120, 110 95" fill="none" stroke="#141414" stroke-width="9" stroke-linecap="round"/></svg>
+          <div class="big" style="font-weight:800;letter-spacing:-0.02em;font-size:150px">5 004</div>
+          <div class="cap" style="font-weight:800">abdos en 27 jours</div>
+          <div class="src">Source : Katch et al., 1984</div>
+        </div>
+        <img class="calix" src="img/calix-pointe.png" alt="" />
+        <div class="capt" style="font-weight:800">et ton ventre n'a <span style="background:#FFFFFF;color:#141414;padding:0 .14em;border-radius:8px">pas bougé</span></div>
+      </div></div><div class="rlab" style="left:60px;top:2358px"><b style="font-family:'Archivo', sans-serif;font-weight:900">C · Archivo Black (Archivo 900)</b><span>— plus « presse », très percutante</span></div><div class="slot" style="left:60px;top:2442px">
+      <div class="fr" style="background:#FFC93C;color:#141414;font-family:'Archivo', sans-serif">
+        <div class="note" style="color:#141414">Attends…</div><svg class="arr" viewBox="0 0 220 160"><path d="M10 20 C 80 10, 150 40, 170 120" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round"/><path d="M148 104 L172 126 L186 96" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="hook" style="font-weight:900;letter-spacing:-0.02em;font-size:108px">Je parie que tu ne savais <span class="hl" style="background:#FFFFFF;color:#141414">pas ça</span></div>
+        <div class="card">
+          <svg class="scrib" viewBox="0 0 520 260"><path d="M60 140 C 40 60, 200 18, 330 30 C 470 42, 510 120, 450 190 C 380 250, 160 250, 80 200 C 40 175, 50 120, 110 95" fill="none" stroke="#E63946" stroke-width="9" stroke-linecap="round"/></svg>
+          <div class="big" style="font-weight:900;letter-spacing:-0.02em;font-size:150px">5 004</div>
+          <div class="cap" style="font-weight:800">abdos en 27 jours</div>
+          <div class="src">Source : Katch et al., 1984</div>
+        </div>
+        <img class="calix" src="img/calix-pointe.png" alt="" />
+        <div class="capt" style="font-weight:800">et ton ventre n'a <span style="background:#FFFFFF;color:#141414;padding:0 .14em;border-radius:8px">pas bougé</span></div>
+      </div></div><div class="slot" style="left:640px;top:2442px">
+      <div class="fr" style="background:#2B59C3;color:#FFFFFF;font-family:'Archivo', sans-serif">
+        <div class="note" style="color:#FFFFFF">Attends…</div><svg class="arr" viewBox="0 0 220 160"><path d="M10 20 C 80 10, 150 40, 170 120" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/><path d="M148 104 L172 126 L186 96" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="hook" style="font-weight:900;letter-spacing:-0.02em;font-size:108px">Je parie que tu ne savais <span class="hl" style="background:#FFC93C;color:#141414">pas ça</span></div>
+        <div class="card">
+          <svg class="scrib" viewBox="0 0 520 260"><path d="M60 140 C 40 60, 200 18, 330 30 C 470 42, 510 120, 450 190 C 380 250, 160 250, 80 200 C 40 175, 50 120, 110 95" fill="none" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/></svg>
+          <div class="big" style="font-weight:900;letter-spacing:-0.02em;font-size:150px">5 004</div>
+          <div class="cap" style="font-weight:800">abdos en 27 jours</div>
+          <div class="src">Source : Katch et al., 1984</div>
+        </div>
+        <img class="calix" src="img/calix-pointe.png" alt="" />
+        <div class="capt" style="font-weight:800">et ton ventre n'a <span style="background:#FFC93C;color:#141414;padding:0 .14em;border-radius:8px">pas bougé</span></div>
+      </div></div><div class="slot" style="left:1220px;top:2442px">
+      <div class="fr" style="background:#FF7A59;color:#141414;font-family:'Archivo', sans-serif">
+        <div class="note" style="color:#141414">Attends…</div><svg class="arr" viewBox="0 0 220 160"><path d="M10 20 C 80 10, 150 40, 170 120" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round"/><path d="M148 104 L172 126 L186 96" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="hook" style="font-weight:900;letter-spacing:-0.02em;font-size:108px">Je parie que tu ne savais <span class="hl" style="background:#FFFFFF;color:#141414">pas ça</span></div>
+        <div class="card">
+          <svg class="scrib" viewBox="0 0 520 260"><path d="M60 140 C 40 60, 200 18, 330 30 C 470 42, 510 120, 450 190 C 380 250, 160 250, 80 200 C 40 175, 50 120, 110 95" fill="none" stroke="#141414" stroke-width="9" stroke-linecap="round"/></svg>
+          <div class="big" style="font-weight:900;letter-spacing:-0.02em;font-size:150px">5 004</div>
+          <div class="cap" style="font-weight:800">abdos en 27 jours</div>
+          <div class="src">Source : Katch et al., 1984</div>
+        </div>
+        <img class="calix" src="img/calix-pointe.png" alt="" />
+        <div class="capt" style="font-weight:800">et ton ventre n'a <span style="background:#FFFFFF;color:#141414;padding:0 .14em;border-radius:8px">pas bougé</span></div>
+      </div></div>
+    </div>
+    <script>
+      (function () {
+        const build = () => { window.__timelines["main"] = gsap.timeline({ paused: true }); };
+        document.fonts.ready.then(build);
+      })();
+    </script>
+  </body>
+</html>
