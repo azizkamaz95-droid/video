@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Miniature sommeil</title>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <link rel="stylesheet" href="assets/style/kit.css" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0A0A0F; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #0A0A0F; }
+      /* name the three families inline so the compiler fetches them */
+      .hf-font-display { font-family: "League Gothic"; font-weight: 400; }
+      .hf-font-sub { font-family: "Montserrat"; font-weight: 900; }
+      .hf-font-mono { font-family: "IBM Plex Mono"; font-weight: 700; }
+
+      .v { position: absolute; inset: 0; opacity: 0; }
+      .bg { position: absolute; left: -40px; top: -60px; width: 1160px; height: 2040px; object-fit: cover; filter: blur(3px) brightness(.5) saturate(1.3); }
+      .tint { position: absolute; inset: 0;
+        background:
+          radial-gradient(55% 32% at 50% 70%, rgba(139,123,255,.5), rgba(139,123,255,0) 70%),
+          linear-gradient(180deg, rgba(10,10,15,.94) 0%, rgba(10,10,15,.72) 24%, rgba(10,10,15,.25) 46%, rgba(10,10,15,.3) 78%, rgba(10,10,15,.92) 100%); }
+      .vig { position: absolute; inset: 0; background: radial-gradient(120% 90% at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,.6) 100%); }
+
+      .brand { position: absolute; left: 0; width: 1080px; top: 112px; display: flex; justify-content: center; align-items: center; gap: 18px; }
+      .brand img { width: 78px; height: 78px; border-radius: 18px; box-shadow: 0 10px 30px rgba(255,107,53,.4); }
+      .brand span { font-size: 84px; }
+
+      .band { position: absolute; left: -80px; top: 262px; width: 1240px; height: 170px; rotate: -4deg;
+        background: repeating-linear-gradient(-45deg, #FF2D55 0 34px, #1a0a10 34px 68px); box-shadow: 0 20px 60px rgba(255,45,85,.4); }
+      .band-in { position: absolute; left: 150px; top: 20px; height: 130px; padding: 0 40px; border-radius: 22px; background: #0A0A0F;
+        display: flex; align-items: center; gap: 24px; }
+      .band-in svg { width: 86px; height: 80px; flex: none; }
+      .band-in .disp { font-size: 124px; }
+
+      .t1 { position: absolute; left: 66px; top: 478px; font-size: 220px; }
+      .t2 { position: absolute; left: 58px; top: 660px; font-size: 300px; }
+
+      .glow { position: absolute; left: 90px; top: 1000px; width: 900px; height: 760px; border-radius: 50%;
+        background: radial-gradient(closest-side, rgba(255,107,53,.35), rgba(255,107,53,0)); }
+      .stk { position: absolute; }
+      .stk img { width: 100%; height: 100%; }
+
+      .badge { position: absolute; width: 310px; height: 310px; border-radius: 50%; rotate: 10deg;
+        background: radial-gradient(circle at 34% 30%, #ff5c7d, #FF2D55 55%, #b3123a);
+        border: 10px solid #F4F1EC; box-shadow: 0 22px 50px rgba(0,0,0,.6), 0 0 70px rgba(255,45,85,.55);
+        display: flex; flex-direction: column; align-items: center; justify-content: center; }
+      .b-num { font-size: 138px; color: #F4F1EC; line-height: .86; text-shadow: 5px 5px 0 #6e0a20; }
+      .b-txt { font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 33px; line-height: 1; color: #fff; text-align: center; text-transform: uppercase; margin-top: 8px; }
+      .b-src { font-size: 17px; letter-spacing: .08em; color: #ffe1e8; margin-top: 10px; }
+
+      .clock { position: absolute; width: 280px; height: 293px; }
+
+      /* variant A: shocked Calix + alarm clock */
+      #vA .stk { left: -50px; top: 900px; width: 1000px; height: 1000px; }
+      #vA .badge { left: 728px; top: 930px; }
+      #vA .clock { left: 776px; top: 1300px; rotate: 12deg; }
+      /* variant B: Calix asleep in bed */
+      #vB .stk { left: 10px; top: 870px; width: 1060px; height: 1060px; }
+      #vB .badge { left: 52px; top: 905px; rotate: -10deg; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="2" data-width="1080" data-height="1920">
+      <div class="v" id="vA">
+        <img class="bg" src="img/bg-bedroom.jpg" alt="" />
+        <div class="tint"></div>
+        <div class="brand"><img src="assets/brand/icon-512.png" alt="" /><span class="disp ex-sm c-wheat">CaliBodi</span></div>
+        <div class="band"><div class="band-in">
+          <svg viewBox="0 0 76 70"><path d="M38 4 L73 66 H3 Z" fill="#FF2D55"/><path d="M38 24 V44" stroke="#0A0A0F" stroke-width="8" stroke-linecap="round"/><circle cx="38" cy="55" r="4.5" fill="#0A0A0F"/></svg>
+          <div class="disp c-white">Tu dors mal ?</div>
+        </div></div>
+        <div class="t1 disp ex c-white" data-fit="940">Tu gardes</div>
+        <div class="t2 disp ex c-heat" data-fit="964">Ta graisse</div>
+        <div class="glow"></div>
+        <div class="stk"><img src="img/calix-choc.png" alt="Calix choqué" /></div>
+        <svg class="clock" viewBox="0 0 440 460">
+          <path d="M40 120 Q10 170 30 230 M70 140 Q52 175 62 212" stroke="#FF2D55" stroke-width="14" fill="none" stroke-linecap="round"/>
+          <path d="M400 120 Q430 170 410 230 M370 140 Q388 175 378 212" stroke="#FF2D55" stroke-width="14" fill="none" stroke-linecap="round"/>
+          <circle cx="122" cy="98" r="46" fill="#F4F1EC"/><circle cx="318" cy="98" r="46" fill="#F4F1EC"/>
+          <path d="M120 420 L96 452 M320 420 L344 452" stroke="#F4F1EC" stroke-width="18" stroke-linecap="round"/>
+          <circle cx="220" cy="260" r="172" fill="#F4F1EC"/>
+          <circle cx="220" cy="260" r="148" fill="#15151f"/>
+          <g fill="#F4F1EC"><rect x="214" y="124" width="12" height="26" rx="5"/><rect x="214" y="370" width="12" height="26" rx="5"/><rect x="84" y="254" width="26" height="12" rx="5"/><rect x="330" y="254" width="26" height="12" rx="5"/></g>
+          <rect x="212" y="140" width="16" height="124" rx="8" fill="#F4F1EC"/>
+          <rect x="210" y="178" width="20" height="86" rx="10" fill="#FF2D55" transform="rotate(120 220 260)"/>
+          <circle cx="220" cy="260" r="16" fill="#FF2D55"/>
+        </svg>
+        <div class="badge"><div class="b-num disp">−55 %</div><div class="b-txt">de graisse<br />perdue</div><div class="b-src mono">étude 2010</div></div>
+        <div class="vig"></div>
+      </div>
+
+      <div class="v" id="vB">
+        <img class="bg" src="img/bg-bedroom.jpg" alt="" />
+        <div class="tint"></div>
+        <div class="brand"><img src="assets/brand/icon-512.png" alt="" /><span class="disp ex-sm c-wheat">CaliBodi</span></div>
+        <div class="band"><div class="band-in">
+          <svg viewBox="0 0 76 70"><path d="M38 4 L73 66 H3 Z" fill="#FF2D55"/><path d="M38 24 V44" stroke="#0A0A0F" stroke-width="8" stroke-linecap="round"/><circle cx="38" cy="55" r="4.5" fill="#0A0A0F"/></svg>
+          <div class="disp c-white">Tu dors mal ?</div>
+        </div></div>
+        <div class="t1 disp ex c-white" data-fit="940">Tu gardes</div>
+        <div class="t2 disp ex c-heat" data-fit="964">Ta graisse</div>
+        <div class="glow"></div>
+        <div class="stk"><img src="img/calix-endormi.png" alt="Calix endormi" /></div>
+        <div class="badge"><div class="b-num disp">−55 %</div><div class="b-txt">de graisse<br />perdue</div><div class="b-src mono">étude 2010</div></div>
+        <div class="vig"></div>
+      </div>
+    </div>
+    <script>
+      (function () {
+        const build = () => {
+          document.querySelectorAll("[data-fit]").forEach((el) => {
+            const base = parseFloat(getComputedStyle(el).fontSize);
+            el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+          });
+          const tl = gsap.timeline({ paused: true });
+          tl.set("#vA", { opacity: 1 }, 0);
+          tl.set("#vA", { opacity: 0 }, 1);
+          tl.set("#vB", { opacity: 1 }, 1);
+          window.__timelines["main"] = tl;
+        };
+        document.fonts.ready.then(build);
+      })();
+    </script>
+  </body>
+</html>
