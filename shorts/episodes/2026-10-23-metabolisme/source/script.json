@@ -1,0 +1,93 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Sadachbia",
+ "rate": 1.1,
+ "lead": 0.15,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Je parie que tu ne savais pas ça.",
+   "pause": 0.3
+  },
+  {
+   "id": "s02",
+   "text": "Ton métabolisme ne ralentit pas à trente ans… ni à quarante… ni même à cinquante.",
+   "pause": 0.35
+  },
+  {
+   "id": "s03",
+   "text": "En 2021, des chercheurs ont mesuré les calories brûlées par plus de 6 400 personnes, dans 29 pays, de 8 jours à 95 ans.",
+   "pause": 0.3,
+   "say": "En deux mille vingt et un, des chercheurs ont mesuré les calories brûlées par plus de six mille quatre cents personnes, dans vingt-neuf pays, de huit jours à quatre-vingt-quinze ans."
+  },
+  {
+   "id": "s04",
+   "text": "Résultat ? Entre 20 et 60 ans, la courbe est… plate.",
+   "pause": 0.35,
+   "say": "Résultat ? Entre vingt et soixante ans, la courbe est… plate."
+  },
+  {
+   "id": "s05",
+   "text": "À corps égal, tu brûles autant à 55 ans qu'à 25.",
+   "pause": 0.35,
+   "say": "À corps égal, tu brûles autant à cinquante-cinq ans qu'à vingt-cinq."
+  },
+  {
+   "id": "s06",
+   "text": "Il ne recommence à baisser qu'après 60 ans. Et doucement : environ 0,7 % par an.",
+   "pause": 0.4,
+   "say": "Il ne recommence à baisser qu'après soixante ans. Et doucement : environ zéro virgule sept pour cent par an."
+  },
+  {
+   "id": "s07",
+   "text": "Et tu sais qui a le métabolisme le plus rapide ? Les bébés.",
+   "pause": 0.3
+  },
+  {
+   "id": "s08",
+   "text": "Vers un an, ils brûlent environ 50 % de plus qu'un adulte, à taille égale.",
+   "pause": 0.4,
+   "say": "Vers un an, ils brûlent environ cinquante pour cent de plus qu'un adulte, à taille égale."
+  },
+  {
+   "id": "s09",
+   "text": "Alors pourquoi on prend du poids à 40 ans ? Probablement pas à cause du métabolisme.",
+   "pause": 0.3,
+   "say": "Alors pourquoi on prend du poids à quarante ans ? Probablement pas à cause du métabolisme."
+  },
+  {
+   "id": "s10",
+   "text": "Plutôt parce que la vie change : on bouge moins, on mange un peu plus… et on perd du muscle si on ne s'entraîne pas.",
+   "pause": 0.4
+  },
+  {
+   "id": "s11",
+   "text": "La bonne nouvelle ? Tout ça, tu le contrôles.",
+   "pause": 0.3
+  },
+  {
+   "id": "s12",
+   "text": "Marche plus, fais de la muscu pour garder ton muscle, et suis tes calories.",
+   "pause": 0.35
+  },
+  {
+   "id": "s13",
+   "text": "Dans CaliBodi, tu suis tes calories et ton programme au même endroit.",
+   "pause": 0.3
+  },
+  {
+   "id": "s14",
+   "text": "Mets un like si tu accusais ton métabolisme… et partage à quelqu'un qui dit toujours « c'est l'âge ».",
+   "pause": 0.2
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un nouveau fait fitness vérifié.",
+   "pause": 0.3
+  },
+  {
+   "id": "s16",
+   "text": "Merci, ça nous donne beaucoup de force !",
+   "pause": 0.0
+  }
+ ]
+}
