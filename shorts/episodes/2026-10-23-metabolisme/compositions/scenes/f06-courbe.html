@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f06-t { position: absolute; left: 70px; top: 210px; }
+        #f06-card { left: 50px; top: 350px; width: 980px; height: 760px; rotate: -1deg; }
+        #f06-svg { position: absolute; left: 0; top: 0; width: 980px; height: 720px; overflow: visible; }
+        #f06-y { position: absolute; left: 34px; top: 36px; font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 26px; color: #555; letter-spacing: .04em; }
+        #f06-plate { left: 600px; top: 560px; font-size: 110px; background: var(--red); color: #fff; rotate: -8deg; }
+        #f06-bb { position: absolute; left: 120px; top: 120px; font-size: 52px; color: #d63a2f; rotate: -6deg; }
+        #f06-src { position: absolute; left: 40px; top: 716px; }
+      </style>
+      <div id="root" data-composition-id="f06-courbe" data-width="1080" data-height="1920" data-duration="4.2">
+        <div class="scene" id="f06">
+          <div id="f06-t" class="h2">Résultat ?</div>
+          <div class="paper" id="f06-card">
+            <div id="f06-y">MÉTABOLISME (à taille égale)</div>
+            <svg id="f06-svg" viewBox="0 0 980 720">
+              <rect id="f06-band" x="267" y="70" width="354" height="570" fill="#FFC93C" opacity=".55" />
+              <path d="M90 640 L930 640" stroke="#141414" stroke-width="5" fill="none" />
+              <g font-family="Montserrat" font-weight="700" font-size="28" fill="#555" text-anchor="middle">
+                <text x="90" y="680">0</text><text x="444" y="680">40</text><text x="797" y="680">80</text><text x="930" y="680">95 ans</text>
+              </g>
+              <g font-family="Montserrat" font-weight="900" font-size="46" fill="#141414" text-anchor="middle">
+                <text id="f06-a20" x="267" y="690">20</text><text id="f06-a60" x="621" y="690">60</text>
+              </g>
+              <path id="f06-curve" class="doodle" style="stroke:#141414;stroke-width:9" d="M90 444 C 92 300, 95 228, 99 224 C 120 222, 150 330, 190 380 C 225 420, 250 444, 267 444 L 621 444 C 700 452, 830 515, 930 550" />
+              <path id="f06-flat" fill="none" stroke="#2B59C3" stroke-width="18" stroke-linecap="round" d="M267 444 L621 444" />
+            </svg>
+            <div id="f06-bb" class="hand">bébés ↓</div>
+            <div id="f06-src" class="foot">Pontzer et al., Science, 2021 · dépense d'énergie ajustée à la taille du corps</div>
+          </div>
+          <div class="lab" id="f06-plate">PLATE.</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f06-courbe", at = K3.T(13.75);
+          const W = (id) => document.getElementById(id);
+          const build = () => {
+            const R = document.getElementById("f06");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f06", 13.75);
+            K3.words(tl, at, W("f06-t"), [13.80, 13.98]);
+            K3.drop(tl, at, "#f06-card", 13.9, 0, { y: -160 });
+            K3.draw(tl, at, "#f06-curve", 14.2, 0.85, "power1.inOut");
+            K3.write(tl, at, "#f06-bb", 14.45, 0.35);
+            tl.fromTo("#f06-band", { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.4, ease: "power2.out" }, at(15.10));
+            K3.pop(tl, at, "#f06-a20", 15.32, { from: 0.3, r0: 0 });
+            K3.pop(tl, at, "#f06-a60", 15.56, { from: 0.3, r0: 0 });
+            K3.draw(tl, at, "#f06-flat", 16.84, 0.4, "power2.out");
+            K3.slam(tl, at, "#f06-plate", 17.42, { from: 2.6, r: -8 });
+            tl.fromTo("#f06-card", { scale: 1 }, { scale: 1.04, duration: 3.6, ease: "none", immediateRender: false }, at(14.1));
+            K3.exit(tl, at, "#f06", 17.72);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

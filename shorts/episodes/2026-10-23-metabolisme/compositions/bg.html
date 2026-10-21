@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        .cut { position:absolute; inset:0; opacity:0; }
+        .mq { position:absolute; left:0; white-space:pre; font-family:"Montserrat",sans-serif; font-weight:900; font-size:300px; line-height:1;
+              letter-spacing:-.04em; color:rgba(255,255,255,.075); opacity:0; }
+      </style>
+      <div id="root" data-composition-id="bg" data-width="1080" data-height="1920" data-duration="68.62">
+        <div id="bg-base" style="position:absolute;inset:0;background:#2B59C3"></div>
+        <div class="mq" id="mq0" style="top:40px" aria-hidden="true" data-layout-allow-overflow></div>
+        <div class="mq" id="mq1" style="top:680px" aria-hidden="true" data-layout-allow-overflow></div>
+        <div class="mq" id="mq2" style="top:1320px" aria-hidden="true" data-layout-allow-overflow></div>
+        <div class="cut" id="bg-c0" style="background:#FFC93C"></div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          const MQ=[[0.0, 6.0, "  MÉTABOLISME  ·  MÉTABOLISME  ·  MÉTABOLISME  ·  MÉTABOLISME  ·  MÉTABOLISME  ·  MÉTABOLISME  ·  MÉTABOLISME  ·  MÉTABOLISME  ·  MÉTABOLISME  ·  MÉTABOLISME  ·"], [6.0, 13.75, "  ÉTUDE 2021  ·  ÉTUDE 2021  ·  ÉTUDE 2021  ·  ÉTUDE 2021  ·  ÉTUDE 2021  ·  ÉTUDE 2021  ·  ÉTUDE 2021  ·  ÉTUDE 2021  ·  ÉTUDE 2021  ·  ÉTUDE 2021  ·"], [13.75, 27.95, "  20 – 60 ANS  ·  20 – 60 ANS  ·  20 – 60 ANS  ·  20 – 60 ANS  ·  20 – 60 ANS  ·  20 – 60 ANS  ·  20 – 60 ANS  ·  20 – 60 ANS  ·  20 – 60 ANS  ·  20 – 60 ANS  ·"], [27.95, 35.95, "  BÉBÉS  ·  BÉBÉS  ·  BÉBÉS  ·  BÉBÉS  ·  BÉBÉS  ·  BÉBÉS  ·  BÉBÉS  ·  BÉBÉS  ·  BÉBÉS  ·  BÉBÉS  ·"], [35.95, 45.3, "  40 ANS ?  ·  40 ANS ?  ·  40 ANS ?  ·  40 ANS ?  ·  40 ANS ?  ·  40 ANS ?  ·  40 ANS ?  ·  40 ANS ?  ·  40 ANS ?  ·  40 ANS ?  ·"], [47.95, 55.85, "  BOUGE · MUSCU · CALORIES  ·  BOUGE · MUSCU · CALORIES  ·  BOUGE · MUSCU · CALORIES  ·  BOUGE · MUSCU · CALORIES  ·  BOUGE · MUSCU · CALORIES  ·  BOUGE · MUSCU · CALORIES  ·  BOUGE · MUSCU · CALORIES  ·  BOUGE · MUSCU · CALORIES  ·  BOUGE · MUSCU · CALORIES  ·  BOUGE · MUSCU · CALORIES  ·"], [55.85, 68.62, "  CALIBODI  ·  CALIBODI  ·  CALIBODI  ·  CALIBODI  ·  CALIBODI  ·  CALIBODI  ·  CALIBODI  ·  CALIBODI  ·  CALIBODI  ·  CALIBODI  ·"]],RW=[[1, 55], [-1, 70], [1, 85]],mq=[0,1,2].map(k=>document.getElementById("mq"+k)),mp={t:0};
+          const mqUpd=()=>{const t=mp.t;const s=MQ.find(x=>t>=x[0]&&t<x[1]);mq.forEach((el,k)=>{if(!s){el.style.opacity=0;return;}if(el.dataset.w!==s[2]){el.textContent=s[2];el.dataset.w=s[2];}const o=Math.max(0,Math.min(1,(t-s[0])/0.2,(s[1]-t)/0.12));el.style.opacity=o;el.style.transform="translateX("+(-2600+RW[k][0]*RW[k][1]*t).toFixed(1)+"px)";});};
+          tl.fromTo(mp,{t:0},{t:68.62,duration:68.62,ease:"none",onUpdate:mqUpd},0);mqUpd();
+          tl.fromTo("#bg-c0",{opacity:0},{opacity:1,duration:.04,ease:"none",immediateRender:false},45.3);
+          tl.fromTo("#bg-c0",{opacity:1},{opacity:0,duration:.04,ease:"none",immediateRender:false},47.91);
+          window.__timelines["bg"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f12-t1 { position: absolute; left: 70px; top: 300px; }
+        #f12-t2 { position: absolute; left: 70px; top: 420px; }
+        #f12-q { position: absolute; left: 780px; top: 560px; font-size: 360px; color: var(--yel); rotate: 10deg; }
+        #f12-b { opacity: 0; }
+        #f12-lab { left: 50%; top: 1020px; font-size: 100px; translate: -50% 0; }
+        #f12-c { position: absolute; inset: 0; opacity: 0; background: var(--bg); }
+        #f12-c1 { position: absolute; left: 60px; top: 280px; }
+        #f12-c2 { position: absolute; left: 60px; top: 450px; font-size: 230px; }
+        #f12-c3 { position: absolute; left: 70px; top: 720px; }
+        #f12-c4 { position: absolute; left: 70px; top: 810px; }
+        #f12-st { position: absolute; left: 50px; top: 830px; width: 780px; height: 120px; overflow: visible; }
+      </style>
+      <div id="root" data-composition-id="f12-quarante" data-width="1080" data-height="1920" data-duration="3.9">
+        <div class="scene" id="f12">
+          <div id="f12-t1" class="h2" data-fit="940">Alors pourquoi</div>
+          <div id="f12-t2" class="h2" data-fit="940">on prend du poids</div>
+          <div id="f12-q" class="hand">?</div>
+          <div class="full" id="f12-b"><div class="kb" id="f12-bk">
+            <div class="slot" style="left:0"><video id="f12-v1" class="clip" src="assets/clips/cand-4.mp4" muted playsinline data-start="1.1" data-duration="0.85" data-media-start="1" data-track-index="1"></video></div>
+            <div class="slot" style="left:540px"><video id="f12-v2" class="clip" src="assets/clips/cand-0.mp4" muted playsinline data-start="1.1" data-duration="0.85" data-media-start="2" data-track-index="2"></video></div>
+            <div class="lab" id="f12-lab">À 40 ANS ?</div>
+          </div></div>
+          <div id="f12-c">
+            <div id="f12-c1" class="h1" data-fit="960">PROBABLEMENT</div>
+            <div id="f12-c2" class="h1"><span class="mk" id="f12-mk"><i></i><span>PAS</span></span></div>
+            <div id="f12-c3" class="h3">à cause du</div>
+            <div id="f12-c4" class="h2" data-fit="900">métabolisme.</div>
+            <svg id="f12-st" viewBox="0 0 780 120"><path id="f12-sp" class="doodle red" style="stroke-width:16" d="M10 80 C 200 50, 450 76, 770 30" /></svg>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f12-quarante", at = K3.T(35.95);
+          const W = (id) => document.getElementById(id);
+          const build = () => {
+            const R = document.getElementById("f12");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f12", 35.95);
+            K3.words(tl, at, W("f12-t1"), [36.02, 36.24]);
+            K3.words(tl, at, W("f12-t2"), [36.50, 36.57, 36.76, 36.89]);
+            K3.pop(tl, at, "#f12-q", 36.7, { from: 0.3, r0: -30, r: 10 });
+            K3.cut(tl, at, "#f12-b", 37.05, true);
+            K3.cut(tl, at, ["#f12-t1", "#f12-t2", "#f12-q"], 37.05, false);
+            K3.kb(tl, at, "#f12-bk", 37.05, 37.9, 1.0, 1.06);
+            K3.slam(tl, at, "#f12-lab", 37.13, { from: 2.4, r: -3 });
+            K3.cut(tl, at, "#f12-c", 37.90, true);
+            K3.slam(tl, at, "#f12-c1", 37.93, { from: 2.2, r: -2 });
+            K3.slam(tl, at, "#f12-c2", 38.49, { from: 2.6, r: -4 });
+            K3.marker(tl, at, "#f12-mk", 38.6, 0.14);
+            K3.words(tl, at, W("f12-c3"), [38.59, 38.65, 38.89]);
+            K3.words(tl, at, W("f12-c4"), [38.97]);
+            K3.draw(tl, at, "#f12-sp", 39.3, 0.25);
+            K3.exit(tl, at, "#f12", 39.62);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

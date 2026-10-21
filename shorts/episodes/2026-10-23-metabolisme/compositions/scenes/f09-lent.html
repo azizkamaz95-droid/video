@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f09-t { position: absolute; left: 70px; top: 210px; }
+        #f09-n { left: 60px; top: 340px; font-size: 200px; font-variant-numeric: tabular-nums; }
+        #f09-p { position: absolute; left: 76px; top: 590px; }
+        #f09-svg { position: absolute; left: 0; top: 0; width: 1080px; height: 1150px; overflow: visible; }
+        #f09-a60 { position: absolute; left: 230px; top: 980px; }
+        #f09-a95 { position: absolute; left: 820px; top: 980px; white-space: nowrap; }
+        #f09-note { position: absolute; left: 610px; top: 650px; font-size: 62px; color: var(--yel); rotate: -5deg; }
+      </style>
+      <div id="root" data-composition-id="f09-lent" data-width="1080" data-height="1920" data-duration="3.15">
+        <div class="scene" id="f09">
+          <div id="f09-t" class="h2">Et doucement :</div>
+          <div class="lab" id="f09-n"><span id="f09-num">−0,0 %</span></div>
+          <div id="f09-p" class="h2">par an</div>
+          <svg id="f09-svg" viewBox="0 0 1080 1150">
+            <path d="M90 960 L1000 960" stroke="rgba(255,255,255,.5)" stroke-width="5" fill="none" />
+            <path id="f09-line" class="doodle yel" style="stroke-width:14" d="M90 790 L 300 790 C 520 800, 760 850, 980 900" />
+          </svg>
+          <div id="f09-a60" class="h3">60 ans</div>
+          <div id="f09-a95" class="h3">95 ans</div>
+          <div id="f09-note" class="hand">vers 90 ans : −26 %</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f09-lent", at = K3.T(24.8);
+          const W = (id) => document.getElementById(id);
+          const build = () => {
+            const R = document.getElementById("f09");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f09", 24.8);
+            K3.words(tl, at, W("f09-t"), [24.85, 24.93]);
+            K3.draw(tl, at, "#f09-line", 25.0, 1.7, "none");
+            K3.pop(tl, at, "#f09-a60", 25.1, { from: 0.4, r0: 0 });
+            K3.pop(tl, at, "#f09-a95", 26.5, { from: 0.4, r0: 0 });
+            K3.pop(tl, at, "#f09-n", 25.75, { from: 0.4, r0: -6 });
+            K3.count(tl, at, W("f09-num"), 0, 0.7, 26.14, 0.5, (v) => "−" + v.toFixed(1).replace(".", ",") + " %");
+            K3.words(tl, at, W("f09-p"), [27.26, 27.44]);
+            K3.write(tl, at, "#f09-note", 26.9, 0.6);
+            K3.exit(tl, at, "#f09", 27.72);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f17-a { position: absolute; left: 0; top: 0; width: 1080px; height: 1150px; }
+        .f17-row { position: absolute; left: 60px; width: 960px; height: 230px; }
+        #f17-r1 { top: 220px; } #f17-r2 { top: 470px; } #f17-r3 { top: 860px; }
+        .f17-ic { position: absolute; left: 0; top: 10px; width: 180px; height: 180px; border-radius: 50%; background: var(--paper); box-shadow: 0 12px 26px rgba(0,0,0,.25); }
+        .f17-ic svg { position: absolute; left: 28px; top: 28px; width: 124px; height: 124px; overflow: visible; }
+        .f17-ic .doodle { stroke: var(--dark); }
+        .f17-row .h2 { position: absolute; left: 220px; top: 14px; }
+        .f17-row .hand { position: absolute; left: 226px; top: 122px; font-size: 58px; color: var(--yel); white-space: nowrap; }
+        #f17-bub { left: 300px; top: 700px; font-size: 70px; rotate: -3deg; }
+        #f17-x { position: absolute; left: 290px; top: 670px; width: 560px; height: 170px; overflow: visible; }
+        #f17-b { position: absolute; left: 0; top: 0; width: 1080px; height: 1150px; }
+        #f17-logo { position: absolute; left: 400px; top: 230px; width: 280px; height: 280px; border-radius: 62px; box-shadow: 0 18px 40px rgba(0,0,0,.3); }
+        #f17-name { position: absolute; left: 0; width: 1080px; top: 540px; text-align: center; }
+        #f17-thx { position: absolute; left: 0; width: 1080px; top: 700px; text-align: center; font-size: 170px; color: var(--yel); rotate: -4deg; }
+        #f17-force { position: absolute; left: 0; width: 1080px; top: 930px; text-align: center; }
+      </style>
+      <div id="root" data-composition-id="f17-cta" data-width="1080" data-height="1920" data-duration="12.77">
+        <div class="scene" id="f17">
+          <div id="f17-a">
+            <div class="f17-row" id="f17-r1">
+              <div class="f17-ic"><svg viewBox="0 0 140 140"><path id="f17-hf" d="M70 124 C 30 96, 6 70, 10 42 C 14 18, 44 6, 70 34 C 96 6, 126 18, 130 42 C 134 70, 110 96, 70 124 Z" fill="#FF5A4E" /><path id="f17-hp" class="doodle" style="stroke-width:8" d="M70 124 C 30 96, 6 70, 10 42 C 14 18, 44 6, 70 34 C 96 6, 126 18, 130 42 C 134 70, 110 96, 70 124 Z" /></svg></div>
+              <div class="h2" id="f17-t1">Like</div>
+              <div class="hand" id="f17-n1">si tu accusais ton métabolisme…</div>
+            </div>
+            <div class="f17-row" id="f17-r2">
+              <div class="f17-ic"><svg viewBox="0 0 140 140"><path id="f17-sp" class="doodle" style="stroke-width:9" d="M14 120 C 20 70, 50 44, 104 44 M84 18 L 122 44 L 84 72" /></svg></div>
+              <div class="h2" id="f17-t2"><span class="mk" id="f17-mk2"><i></i><span>Partage</span></span></div>
+              <div class="hand" id="f17-n2">à quelqu'un qui dit toujours :</div>
+            </div>
+            <div class="bubble" id="f17-bub">« c'est l'âge »</div>
+            <svg id="f17-x" viewBox="0 0 560 170"><path id="f17-xp" class="doodle red" style="stroke-width:18" d="M20 20 L 540 150 M540 20 L 20 150" /></svg>
+            <div class="f17-row" id="f17-r3">
+              <div class="f17-ic"><svg viewBox="0 0 140 140"><path id="f17-pl" class="doodle red" style="stroke-width:14" d="M70 18 V122 M18 70 H122" /></svg></div>
+              <div class="h2" id="f17-t3" data-fit="720"><span class="mk" id="f17-mk3"><i></i><span>Abonne-toi</span></span></div>
+              <div class="hand" id="f17-n3">1 fait fitness vérifié / jour</div>
+            </div>
+          </div>
+          <div id="f17-b">
+            <img id="f17-logo" src="assets/brand/icon-512.png" alt="CaliBodi" />
+            <div id="f17-name" class="h1">CaliBodi</div>
+            <div id="f17-thx" class="hand">Merci !</div>
+            <div id="f17-force" class="h3"><span class="w">ça nous donne beaucoup de </span><span class="mk" id="f17-mk4"><i></i><span>force</span></span></div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f17-cta", at = K3.T(55.85);
+          const W = (id) => document.getElementById(id);
+          const build = () => {
+            const R = document.getElementById("f17");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f17", 55.85);
+            // « Mets un like si tu accusais ton métabolisme… »
+            K3.pop(tl, at, "#f17-r1 .f17-ic", 55.98, { from: 0.3, r0: -20 });
+            K3.draw(tl, at, "#f17-hp", 56.0, 0.26);
+            tl.fromTo("#f17-hf", { scale: 0, svgOrigin: "70 70" }, { scale: 1, duration: 0.3, ease: "back.out(3)" }, at(56.19));
+            K3.slam(tl, at, "#f17-t1", 56.19, { from: 2.2, r: -2 });
+            K3.write(tl, at, "#f17-n1", 56.6, 0.9);
+            tl.fromTo("#f17-r1 .f17-ic", { scale: 1 }, { scale: 1.12, duration: 0.12, ease: "power2.out", yoyo: true, repeat: 3, immediateRender: false }, at(57.22));
+            // « …et partage à quelqu'un qui dit toujours « c'est l'âge » »
+            tl.fromTo("#f17-r1", { opacity: 1 }, { opacity: 0.4, duration: 0.2, ease: "none", immediateRender: false }, at(58.2));
+            K3.pop(tl, at, "#f17-r2 .f17-ic", 58.24, { from: 0.3, r0: 20 });
+            K3.draw(tl, at, "#f17-sp", 58.3, 0.3);
+            K3.slam(tl, at, "#f17-t2", 58.39, { from: 2.2, r: -2 });
+            K3.marker(tl, at, "#f17-mk2", 58.5, 0.18);
+            K3.write(tl, at, "#f17-n2", 58.73, 0.8);
+            K3.pop(tl, at, "#f17-bub", 60.48, { from: 0.3, r0: -12, r: -3 });
+            K3.draw(tl, at, "#f17-xp", 61.17, 0.25);
+            K3.wobble(tl, at, "#f17-bub", 61.45, 3, 3);
+            // « Abonne-toi : chaque jour, un nouveau fait fitness vérifié. »
+            tl.fromTo(["#f17-r2", "#f17-bub", "#f17-x"], { opacity: 1 }, { opacity: 0.4, duration: 0.2, ease: "none", immediateRender: false }, at(61.75));
+            K3.pop(tl, at, "#f17-r3 .f17-ic", 61.8, { from: 0.3, r0: -20 });
+            K3.draw(tl, at, "#f17-pl", 61.82, 0.24);
+            K3.slam(tl, at, "#f17-t3", 61.86, { from: 2.2, r: -2 });
+            K3.marker(tl, at, "#f17-mk3", 62.0, 0.18);
+            K3.write(tl, at, "#f17-n3", 62.97, 1.6);
+            tl.fromTo("#f17-r3 .f17-ic", { scale: 1 }, { scale: 1.12, duration: 0.12, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(64.81));
+            // end card « Merci, ça nous donne beaucoup de force ! »
+            tl.fromTo("#f17-a", { y: 0, opacity: 1 }, { y: -600, opacity: 0, duration: 0.26, ease: "power3.in", immediateRender: false }, at(65.45));
+            K3.pop(tl, at, "#f17-logo", 65.69, { from: 0.2, r0: -40, ease: "back.out(2.6)" });
+            K3.slam(tl, at, "#f17-name", 65.8, { from: 2, r: 0 });
+            K3.write(tl, at, "#f17-thx", 65.75, 0.5);
+            K3.words(tl, at, W("f17-force"), [66.02, 66.13, 66.34, 66.50, 66.74, 66.82]);
+            K3.marker(tl, at, "#f17-mk4", 66.9, 0.18);
+            tl.fromTo("#f17-b", { scale: 1 }, { scale: 1.05, duration: 2.9, ease: "none", immediateRender: false }, at(65.7));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

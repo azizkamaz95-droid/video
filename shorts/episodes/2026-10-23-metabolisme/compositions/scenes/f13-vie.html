@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f13-t1 { position: absolute; left: 70px; top: 200px; }
+        #f13-t2 { position: absolute; left: 70px; top: 270px; }
+        .f13-r { position: absolute; left: 70px; width: 600px; }
+        #f13-r1 { top: 470px; } #f13-r2 { top: 660px; } #f13-r3 { top: 850px; }
+        #f13-s1 { left: 660px; top: 430px; width: 380px; height: 194px; rotate: -12deg; }
+        #f13-s2 { left: 640px; top: 600px; width: 240px; height: 192px; rotate: 8deg; }
+        #f13-s3 { left: 830px; top: 650px; width: 210px; height: 170px; rotate: -10deg; }
+        #f13-s4 { left: 690px; top: 830px; width: 330px; height: 247px; rotate: 6deg; }
+        #f13-n { position: absolute; left: 80px; top: 975px; font-size: 66px; color: var(--yel); rotate: -3deg; }
+      </style>
+      <div id="root" data-composition-id="f13-vie" data-width="1080" data-height="1920" data-duration="5.45">
+        <div class="scene" id="f13">
+          <div id="f13-t1" class="h3">Plutôt parce que</div>
+          <div id="f13-t2" class="h2" data-fit="940">la vie change :</div>
+          <div class="f13-r h2" id="f13-r1" data-fit="580">on bouge moins</div>
+          <div class="f13-r h2" id="f13-r2" data-fit="580">on mange plus…</div>
+          <div class="f13-r h2" id="f13-r3" data-fit="580">on perd du muscle</div>
+          <div class="stk" id="f13-s1"><img src="assets/objects/obj-remote.png" alt="télécommande" /></div>
+          <div class="stk" id="f13-s2"><img src="assets/objects/obj-chips.png" alt="chips" /></div>
+          <div class="stk" id="f13-s3"><img src="assets/objects/obj-donut.png" alt="donut" /></div>
+          <div class="stk" id="f13-s4"><img src="assets/objects/obj-dumbbell.png" alt="haltères" /></div>
+          <div id="f13-n" class="hand">… si on ne s'entraîne pas</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f13-vie", at = K3.T(39.85);
+          const W = (id) => document.getElementById(id);
+          const build = () => {
+            const R = document.getElementById("f13");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f13", 39.85);
+            K3.words(tl, at, W("f13-t1"), [39.94, 40.26, 40.42]);
+            K3.words(tl, at, W("f13-t2"), [40.53, 40.66, 40.74, 40.80]);
+            K3.words(tl, at, W("f13-r1"), [41.48, 41.62, 41.86]);
+            K3.toss(tl, at, "#f13-s1", 41.55, { dx: 700, dy: -100, r0: 40, r: -12 });
+            K3.words(tl, at, W("f13-r2"), [42.44, 42.50, 42.77]);
+            K3.toss(tl, at, "#f13-s2", 42.5, { dx: 700, dy: 60, r0: 50, r: 8 });
+            K3.toss(tl, at, "#f13-s3", 42.7, { dx: 600, dy: 160, r0: -50, r: -10 });
+            K3.words(tl, at, W("f13-r3"), [43.16, 43.24, 43.38, 43.55, 43.66]);
+            K3.toss(tl, at, "#f13-s4", 43.4, { dx: 700, dy: 200, r0: 30, r: 6 });
+            // the muscle « drops »: the dumbbells sag and shrink
+            tl.fromTo("#f13-s4", { scale: 1, rotation: 6, y: 0 }, { scale: 0.72, rotation: 24, y: 70, duration: 0.5, ease: "power2.in", immediateRender: false }, at(44.33));
+            K3.write(tl, at, "#f13-n", 44.12, 0.7);
+            K3.bob(tl, at, "#f13-s1", 42.1, 45.0, 10, 0.8);
+            K3.bob(tl, at, "#f13-s2", 43.2, 45.0, 12, 0.7);
+            K3.exit(tl, at, "#f13", 45.07);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

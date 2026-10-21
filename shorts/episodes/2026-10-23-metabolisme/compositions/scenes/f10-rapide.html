@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f10-t1 { position: absolute; left: 70px; top: 210px; }
+        #f10-t2 { position: absolute; left: 60px; top: 334px; }
+        #f10-t3 { position: absolute; left: 70px; top: 490px; }
+        #f10-g { position: absolute; left: 190px; top: 680px; width: 700px; height: 400px; overflow: visible; }
+        .f10-q { position: absolute; font-size: 150px; color: var(--yel); }
+        #f10-q1 { left: 70px; top: 760px; rotate: -14deg; } #f10-q2 { left: 900px; top: 700px; rotate: 12deg; }
+      </style>
+      <div id="root" data-composition-id="f10-rapide" data-width="1080" data-height="1920" data-duration="3.1">
+        <div class="scene" id="f10">
+          <div id="f10-t1" class="h2" data-fit="940">Qui a le</div>
+          <div id="f10-t2" class="h1" data-fit="960">MÉTABOLISME</div>
+          <div id="f10-t3" class="h2" data-fit="940"><span class="w">le </span><span class="w">plus </span><span class="mk" id="f10-mk"><i></i><span>rapide ?</span></span></div>
+          <svg id="f10-g" viewBox="0 0 700 400">
+            <path id="f10-arc" class="doodle" style="stroke-width:16" d="M70 360 A 280 280 0 0 1 630 360" />
+            <path id="f10-red" fill="none" stroke="#FF5A4E" stroke-width="16" stroke-linecap="round" d="M548 162 A 280 280 0 0 1 630 360" />
+            <path class="doodle" style="stroke-width:8" d="M110 250 L136 262 M200 140 L214 164 M350 92 V120 M500 140 L486 164 M590 250 L564 262" />
+            <g id="f10-needle"><path d="M350 360 L350 130" stroke="#FFC93C" stroke-width="18" stroke-linecap="round" /><circle cx="350" cy="360" r="30" fill="#FFC93C" /></g>
+            <text x="640" y="250" font-family="Montserrat" font-weight="900" font-size="44" fill="#FF5A4E">MAX</text>
+          </svg>
+          <div class="f10-q hand" id="f10-q1">?</div>
+          <div class="f10-q hand" id="f10-q2">?</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f10-rapide", at = K3.T(27.95);
+          const W = (id) => document.getElementById(id);
+          const build = () => {
+            const R = document.getElementById("f10");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f10", 27.95);
+            K3.words(tl, at, W("f10-t1"), [28.46, 28.64, 28.70]);
+            K3.slam(tl, at, "#f10-t2", 28.78, { from: 2.2, r: -2 });
+            K3.words(tl, at, W("f10-t3"), [29.38, 29.51, 29.62]);
+            K3.marker(tl, at, "#f10-mk", 29.7, 0.16);
+            K3.draw(tl, at, "#f10-arc", 28.2, 0.6);
+            K3.draw(tl, at, "#f10-red", 28.6, 0.3);
+            tl.fromTo("#f10-needle", { rotation: -80, svgOrigin: "350 360" }, { rotation: 40, duration: 0.9, ease: "power2.inOut" }, at(28.4));
+            tl.fromTo("#f10-needle", { rotation: 40 }, { rotation: 88, duration: 0.35, ease: "back.out(3)", immediateRender: false, svgOrigin: "350 360" }, at(29.62));
+            tl.fromTo("#f10-needle", { rotation: 88 }, { rotation: 80, duration: 0.08, ease: "sine.inOut", yoyo: true, repeat: 7, immediateRender: false, svgOrigin: "350 360" }, at(30.0));
+            K3.pop(tl, at, "#f10-q1", 29.9, { from: 0.3, r0: -40, r: -14 });
+            K3.pop(tl, at, "#f10-q2", 30.05, { from: 0.3, r0: 40, r: 12 });
+            K3.bob(tl, at, ".f10-q", 30.3, 31.05, 16, 0.35);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

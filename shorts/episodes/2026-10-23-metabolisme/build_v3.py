@@ -11,39 +11,48 @@ import re
 import unicodedata
 
 EP = os.path.dirname(os.path.abspath(__file__))
-W, H, D = 1080, 1920, 74.0
+W, H, D = 1080, 1920, 68.62
 words = json.load(open(os.path.join(EP, "assets/voice/words.json")))
 WORDS = words["words"]
 
-BG = "#FFC93C"          # Soleil (episodes rotate Soleil / Cobalt / Corail)
-INK = "#141414"
+BG = "#2B59C3"          # Cobalt (episodes rotate Soleil / Cobalt / Corail)
+INK = "#FFFFFF"         # caption colour on the background
+DARK = "#141414"
+YEL = "#FFC93C"
 
 SCENES = [
-    ("f01-hook", 0.00, 4.30), ("f02-milliers", 4.30, 7.20), ("f03-etude", 7.20, 12.32), ("f04-total", 12.32, 15.22),
-    ("f05-zones", 15.22, 24.28), ("f06-taille", 24.28, 26.70), ("f07-fou", 26.70, 27.80), ("f08-jambe", 27.80, 36.94),
-    ("f09-bras", 36.94, 40.42), ("f10-partout", 40.42, 45.74), ("f11-meta", 45.74, 50.86), ("f12-abdos", 50.86, 54.52),
-    ("f13-solution", 54.52, 60.48), ("f14-app", 60.48, 63.74), ("f15-cta", 63.74, 74.00),
+    ("f01-hook", 0.00, 1.80), ("f02-age", 1.80, 6.00), ("f03-etude", 6.00, 9.05), ("f04-foule", 9.05, 10.80),
+    ("f05-monde", 10.80, 13.75), ("f06-courbe", 13.75, 17.95), ("f07-corps", 17.95, 21.95), ("f08-soixante", 21.95, 24.80),
+    ("f09-lent", 24.80, 27.95), ("f10-rapide", 27.95, 31.05), ("f11-bebes", 31.05, 35.95), ("f12-quarante", 35.95, 39.85),
+    ("f13-vie", 39.85, 45.30), ("f14-bonne", 45.30, 47.95), ("f15-tips", 47.95, 52.45), ("f16-app", 52.45, 55.85),
+    ("f17-cta", 55.85, 68.62),
 ]
 
 # Calix sticker (bottom-left): (time, pose); None = drops out of frame
 POSES = [
-    (0.20, "pointe"), (1.85, None), (6.00, "pointe"), (7.35, "explique"), (13.95, "choc"), (15.37, "curieux"),
-    (22.09, "explique"), (24.52, "sceptique"), (25.64, "non"), (26.66, None), (27.89, "explique"), (33.57, "sceptique"),
-    (35.28, "non"), (37.03, "curieux"), (39.62, "choc"), (40.56, "explique"), (45.95, "pointe"), (48.75, "non"),
-    (51.08, "biceps"), (52.68, "non"), (54.69, "curieux"), (56.87, "nutrition"), (58.30, "biceps"), (59.68, "endormi"),
-    (60.10, "abdos"), (61.43, "app"), (63.92, "pouce"), (65.77, "pointe"), (67.87, "explique"), (70.99, "biceps"),
+    (0.20, "pointe"), (1.86, "explique"), (3.25, "choc"), (5.09, "non"), (6.11, "explique"), (9.15, "choc"), (10.91, "curieux"),
+    (13.80, "explique"), (17.42, "pouce"), (18.12, "explique"), (22.07, "sceptique"), (23.41, "non"), (26.14, "explique"),
+    (28.08, "curieux"), (31.11, "choc"), (33.20, "pointe"), (36.02, "sceptique"), (37.13, "choc"), (38.49, "non"),
+    (40.74, "explique"), (41.62, "fatigue"), (42.50, "nutrition"), (43.38, "non"), (45.39, "pouce"), (47.09, "biceps"),
+    (48.04, "un"), (49.67, "deux"), (51.73, "trois"), (52.66, "app"), (55.98, "pouce"), (58.39, "pointe"), (61.86, "explique"),
+    (65.69, "biceps"),
 ]
 
 # camera punch-ins on the whole picture (time, scale): a quick push in, then a slow release
-PUNCH = [(1.30, 1.09), (2.99, 1.05), (5.15, 1.05), (13.98, 1.10), (18.56, 1.05), (26.03, 1.06), (35.28, 1.05),
-         (39.84, 1.12), (43.21, 1.05), (47.54, 1.05), (53.90, 1.06), (59.91, 1.06), (64.13, 1.05), (70.99, 1.06)]
+PUNCH = [(1.30, 1.08), (3.30, 1.05), (4.17, 1.05), (5.09, 1.06), (9.95, 1.06), (10.91, 1.04), (17.42, 1.08), (26.14, 1.06),
+         (31.11, 1.08), (33.20, 1.06), (37.13, 1.06), (39.00, 1.05), (47.09, 1.07), (48.04, 1.04), (49.67, 1.04), (51.73, 1.04),
+         (56.19, 1.05), (61.17, 1.06), (66.82, 1.06)]
 
 # full-frame colour cuts: (start, end, background, caption colour)
-CUTS = [(26.70, 27.80, "#141414", "#FFFFFF"), (39.60, 40.42, "#2B59C3", "#FFFFFF")]
+CUTS = [(45.30, 47.95, "#FFC93C", "#141414", "#FFFFFF")]   # (start, end, background, caption colour, keyword box)
+
+# giant ghost words drifting behind each section (the background is never empty nor still)
+MARQUEE = [(0.0, 6.0, "MÉTABOLISME"), (6.0, 13.75, "ÉTUDE 2021"), (13.75, 27.95, "20 – 60 ANS"), (27.95, 35.95, "BÉBÉS"),
+           (35.95, 45.30, "40 ANS ?"), (47.95, 55.85, "BOUGE · MUSCU · CALORIES"), (55.85, D, "CALIBODI")]
 
 # caption keywords get a marker box
-KW = {"ça", "fondre", "milliers", "prouver", "treize", "5", "004", "fesses", "autant", "bougé", "fou", "seule", "aucun",
-      "bras", "partout", "forces", "confirme", "fort", "apparaître", "déficit", "sommeil", "calibodi", "like", "partage",
+KW = {"ça", "trente", "quarante", "cinquante", "2021", "calories", "6", "400", "29", "95", "plate", "autant", "60", "doucement",
+      "07", "bébés", "50", "40", "probablement", "muscle", "contrôles", "marche", "muscu", "calibodi", "like", "partage", "l'âge",
       "abonne-toi", "force"}
 
 
@@ -92,11 +101,25 @@ def sub_file(cid, style, body, js):
 def build_bg():
     body = [f'        <div id="bg-base" style="position:absolute;inset:0;background:{BG}"></div>']
     js = []
-    for i, (a, b, col, _) in enumerate(CUTS):
+    rows = [(40, 1, 55), (680, -1, 70), (1320, 1, 85)]
+    # one set of rows for the whole video; a single proxy tween drives word, drift and fades (seek-safe: pure function of t)
+    for k, (top, d, v) in enumerate(rows):
+        body.append(f'        <div class="mq" id="mq{k}" style="top:{top}px" aria-hidden="true" data-layout-allow-overflow></div>')
+    secs = json.dumps([[a, b, ("  " + w + "  ·") * 10] for a, b, w in MARQUEE], ensure_ascii=False)
+    rws = json.dumps([[d, v] for _, d, v in rows])
+    js.append(f'const MQ={secs},RW={rws},mq=[0,1,2].map(k=>document.getElementById("mq"+k)),mp={{t:0}};')
+    js.append('const mqUpd=()=>{const t=mp.t;const s=MQ.find(x=>t>=x[0]&&t<x[1]);'
+              'mq.forEach((el,k)=>{if(!s){el.style.opacity=0;return;}if(el.dataset.w!==s[2]){el.textContent=s[2];el.dataset.w=s[2];}'
+              'const o=Math.max(0,Math.min(1,(t-s[0])/0.2,(s[1]-t)/0.12));el.style.opacity=o;'
+              'el.style.transform="translateX("+(-2600+RW[k][0]*RW[k][1]*t).toFixed(1)+"px)";});};')
+    js.append(f'tl.fromTo(mp,{{t:0}},{{t:{D},duration:{D},ease:"none",onUpdate:mqUpd}},0);mqUpd();')
+    for i, (a, b, col, *_) in enumerate(CUTS):
         body.append(f'        <div class="cut" id="bg-c{i}" style="background:{col}"></div>')
         js.append(f'tl.fromTo("#bg-c{i}",{{opacity:0}},{{opacity:1,duration:.04,ease:"none",immediateRender:false}},{r(a)});')
         js.append(f'tl.fromTo("#bg-c{i}",{{opacity:1}},{{opacity:0,duration:.04,ease:"none",immediateRender:false}},{r(b - 0.04)});')
-    style = "        .cut { position:absolute; inset:0; opacity:0; }"
+    style = """        .cut { position:absolute; inset:0; opacity:0; }
+        .mq { position:absolute; left:0; white-space:pre; font-family:"Montserrat",sans-serif; font-weight:900; font-size:300px; line-height:1;
+              letter-spacing:-.04em; color:rgba(255,255,255,.075); opacity:0; }"""
     return sub_file("bg", style, "\n".join(body), "\n".join("          " + j for j in js))
 
 
@@ -162,17 +185,21 @@ def build_captions():
                 js.append(f'tl.fromTo("#cw{w["i"]} > i",{{scaleX:0}},{{scaleX:1,duration:.16,ease:"power2.out",immediateRender:false}},{r(w["start"])});')
                 js.append(f'tl.fromTo("#cw{w["i"]}",{{scale:1}},{{scale:1.12,duration:.07,ease:"power2.out",immediateRender:false}},{r(w["start"])});')
                 js.append(f'tl.fromTo("#cw{w["i"]}",{{scale:1.12}},{{scale:1,duration:.2,ease:"back.out(2)",immediateRender:false}},{r(w["start"] + 0.07)});')
-    for a, b, _, col in CUTS:
+    for a, b, _, col, box in CUTS:
         js.append(f'tl.fromTo("#capwrap",{{color:"{INK}"}},{{color:"{col}",duration:.02,ease:"none",immediateRender:false}},{r(a)});')
         js.append(f'tl.fromTo("#capwrap",{{color:"{col}"}},{{color:"{INK}",duration:.02,ease:"none",immediateRender:false}},{r(b - 0.04)});')
+        js.append(f'tl.fromTo(".kw > i",{{backgroundColor:"{YEL}"}},{{backgroundColor:"{box}",duration:.02,ease:"none",immediateRender:false}},{r(a)});')
+        js.append(f'tl.fromTo(".kw > i",{{backgroundColor:"{box}"}},{{backgroundColor:"{YEL}",duration:.02,ease:"none",immediateRender:false}},{r(b - 0.04)});')
+        js.append(f'tl.fromTo("#capwrap p",{{textShadow:"0 3px 14px rgba(0,0,0,.35)"}},{{textShadow:"0 0 0 rgba(0,0,0,0)",duration:.02,ease:"none",immediateRender:false}},{r(a)});')
+        js.append(f'tl.fromTo("#capwrap p",{{textShadow:"0 0 0 rgba(0,0,0,0)"}},{{textShadow:"0 3px 14px rgba(0,0,0,.35)",duration:.02,ease:"none",immediateRender:false}},{r(b - 0.04)});')
     style = f"""
         #capwrap {{ position:absolute; inset:0; color:{INK}; }}
         .cg {{ position:absolute; left:70px; width:940px; top:1150px; height:150px; display:flex; align-items:center; justify-content:center; opacity:0; }}
-        .cg p {{ display:block; width:100%; text-align:center; font-family:"Montserrat",sans-serif; font-weight:800; font-size:60px; line-height:1.1; letter-spacing:-.02em; }}
+        .cg p {{ display:block; width:100%; text-align:center; font-family:"Montserrat",sans-serif; font-weight:800; font-size:60px; line-height:1.1; letter-spacing:-.02em; text-shadow:0 3px 14px rgba(0,0,0,.35); }}
         .cw {{ display:inline-block; margin:0 .12em; opacity:.38; position:relative; }}
         .kw {{ padding:0 .12em; }}
-        .kw > i {{ position:absolute; left:0; right:0; top:.08em; bottom:.02em; background:#FFFFFF; border-radius:.1em; transform-origin:0% 50%; transform:scaleX(0); }}
-        .kw > b {{ position:relative; font-weight:800; color:{INK}; }}
+        .kw > i {{ position:absolute; left:0; right:0; top:.08em; bottom:.02em; background:{YEL}; border-radius:.1em; transform-origin:0% 50%; transform:scaleX(0); }}
+        .kw > b {{ position:relative; font-weight:800; color:{DARK}; text-shadow:none; }}
 """
     body = '        <div id="capwrap">' + "".join(html) + "</div>"
     return sub_file("captions", style, body, "\n".join("          " + j for j in js)), len(groups)
@@ -203,13 +230,13 @@ def build_index():
     js = []
     for t, s in PUNCH:
         js.append(f'tl.fromTo("#cam",{{scale:1}},{{scale:{s},duration:.11,ease:"power2.out",immediateRender:false}},{r(t - 0.03)});')
-        js.append(f'tl.fromTo("#cam",{{scale:{s}}},{{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false}},{r(t + 0.12)});')
+        js.append(f'tl.fromTo("#cam",{{scale:{s}}},{{scale:1,duration:.68,ease:"power2.inOut",immediateRender:false}},{r(t + 0.12)});')
     return f"""<!doctype html>
 <html lang="fr" data-resolution="portrait">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width={W}, height={H}" />
-    <title>Calix #3 — Les abdos ne font pas fondre ton ventre</title>
+    <title>Calix #4 — Ton métabolisme ne ralentit pas à 40 ans</title>
     <script src="assets/vendor/gsap.min.js"></script>
     <script src="assets/style/kit3.js"></script>
     <link rel="stylesheet" href="assets/style/kit3.css" />
