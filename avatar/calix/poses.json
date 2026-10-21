@@ -83,5 +83,15 @@
   "source": "avatar/calix/source/calix-endormi.png",
   "use": "Sommeil, nuit (scène au lit : grand autocollant)",
   "original_name": "calix-endormi.png (damier incrusté, détouré par key_checker.py)"
+ },
+ "crunch": {
+  "source": "avatar/calix/source/calix-crunch.png",
+  "use": "Abdos, gainage, exercice au sol",
+  "original_name": "crunch au sol.png (fond salle de sport, détouré au modèle + contour de jambe tracé à la main)"
+ },
+ "abdos": {
+  "source": "avatar/calix/source/calix-abdos.png",
+  "use": "Abdos visibles, résultat, perte de gras",
+  "original_name": "t-shirt relevé.png"
  }
 }

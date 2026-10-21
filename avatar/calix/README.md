@@ -23,3 +23,7 @@ Pose dont le « fond transparent » est un damier dessiné dans l'image (ex. `ca
 ```bash
 python3 key_checker.py source/calix-endormi.png cutout/calix-endormi.png 90   # rayon des coins arrondis
 ```
+
+Pose sur fond chargé (ex. `calix-crunch`, salle de sport) : le modèle de détourage perd le pantalon noir sur le sol
+sombre. Le matte final = modèle ∪ pixels sombres et neutres dans un contour de jambe tracé à la main, bord gauche
+(jambes coupées par le cadre) lissé. `apercu-crunch-abdos.jpg` montre les deux autocollants sur les fonds v3.
