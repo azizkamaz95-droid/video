@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f13-top { position: absolute; left: 0; top: 0; width: 1080px; height: 900px; transform-origin: 70px 260px; }
+        #f13-l1 { position: absolute; left: 70px; top: 290px; font-size: 100px; transform-origin: 0% 100%; }
+        #f13-will { position: absolute; left: 70px; top: 400px; font-size: 300px; transform-origin: 0% 100%; }
+        #f13-x { position: absolute; left: 50px; top: 520px; width: 960px; height: 30px; border-radius: 15px; background: var(--red); transform-origin: 0% 50%; rotate: -6deg;
+          box-shadow: 0 0 30px rgba(255,45,85,.6); }
+        #f13-mol { position: absolute; left: 40px; top: 560px; width: 1000px; height: 520px; opacity: .55; }
+        #f13-tes { position: absolute; left: 70px; top: 610px; font-size: 140px; transform-origin: 0% 100%; }
+        #f13-hor { position: absolute; left: 70px; top: 730px; font-size: 290px; transform-origin: 0% 100%; }
+      </style>
+      <div id="root" data-composition-id="f13-volonte" data-width="1080" data-height="1920" data-duration="3.25">
+        <div class="scene" id="f13">
+          <svg id="f13-mol" viewBox="0 0 1000 520" fill="none" stroke="#8B7BFF" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+            <path id="f13-h1" d="M180 160 L250 120 L320 160 L320 240 L250 280 L180 240 Z"/>
+            <path id="f13-h2" d="M320 240 L390 200 L460 240 L460 320 L390 360 L320 320 Z"/>
+            <path id="f13-h3" d="M680 120 L750 80 L820 120 L820 200 L750 240 L680 200 Z"/>
+            <path id="f13-b1" d="M460 240 L560 200 L680 200 M250 280 L250 380 L180 430 M820 200 L900 250"/>
+            <circle id="f13-o1" cx="180" cy="430" r="18" fill="#8B7BFF"/><circle id="f13-o2" cx="900" cy="250" r="18" fill="#8B7BFF"/>
+          </svg>
+          <div id="f13-top">
+            <div id="f13-l1" class="disp ex c-white" data-fit="940">Pas qu'une question de</div>
+            <div id="f13-will" class="disp ex c-white" data-fit="940" data-layout-allow-occlusion>Volonté</div>
+            <div id="f13-x"></div>
+          </div>
+          <div id="f13-tes" class="disp ex c-white" data-fit="900">Ce sont tes</div>
+          <div id="f13-hor" class="disp ex c-night" data-fit="940">Hormones</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f13-volonte", T0 = 47.85;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            document.querySelectorAll("#f13 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f13-l1", { rotationX: -100, opacity: 0, y: 30 }, { rotationX: 0, opacity: 1, y: 0, duration: 0.4, ease: "back.out(1.8)" }, at(48.02));
+            tl.fromTo("#f13-will", { scale: 2.6, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.24, ease: "power4.in" }, at(48.8));
+            tl.fromTo("#f13-x", { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: "expo.out" }, at(49.42));
+            // "Ce sont tes hormones.": the willpower line is pushed up, the hormones take over
+            tl.fromTo("#f13-top", { scale: 1, y: 0, opacity: 1 }, { scale: 0.6, y: -40, opacity: 0.55, duration: 0.4, ease: "power3.inOut", immediateRender: false }, at(49.9));
+            tl.fromTo("#f13-tes", { x: -500, skewX: 16, opacity: 0 }, { x: 0, skewX: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, at(49.98));
+            tl.fromTo("#f13-hor", { z: -1600, opacity: 0, filter: "blur(14px)" }, { z: 0, opacity: 1, filter: "blur(0px)", duration: 0.3, ease: "power4.out" }, at(50.3));
+            ["#f13-h1", "#f13-h2", "#f13-h3", "#f13-b1"].forEach((s, i) => {
+              tl.fromTo(s, { strokeDasharray: 900, strokeDashoffset: 900 }, { strokeDashoffset: 0, duration: 0.55, ease: "power2.out" }, at(50.3 + i * 0.08));
+            });
+            tl.fromTo(["#f13-o1", "#f13-o2"], { scale: 0, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.3, ease: "back.out(2.6)" }, at(50.7));
+            tl.fromTo("#f13-mol", { rotation: 0 }, { rotation: 4, duration: 1.0, ease: "sine.inOut" }, at(50.3));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

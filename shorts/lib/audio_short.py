@@ -398,6 +398,8 @@ BANK = {
     "stamp": (sfx_stamp, 0), "thump": (lambda: sfx_thump(50, 0.6), -2), "plinks": (sfx_plinks, -6),
     "tick": (lambda: sfx_click(3400, 0.03), -10), "click": (lambda: sfx_click(3000, 0.04), -8),
     "warn": (sfx_warn, -6), "check": (sfx_check, -8), "shimmer": (sfx_shimmer, -8), "pop": (sfx_pop, -8),
+    # client sounds without a synthesized twin (the generator is only a fallback if the file is missing)
+    "reveil": (sfx_warn, -8), "ventre": (lambda: sfx_thump(60, 0.5), -6),
 }
 
 # voice guard: 1 from 80 ms before a word to 40 ms after it (forward masking), smoothed, at sample rate
@@ -413,10 +415,15 @@ sfx = np.zeros((2, N))
 report = []
 NUDGE = (-0.10, 0.15)
 hi_global = np.percentile(v_hi[active], 80)            # typical consonant level (s, f, t, ch)
-for name, t0 in plan.get("sfx", []):
+for cue in plan.get("sfx", []):
+    name, t0 = cue[0], cue[1]
     make, intent_db = BANK[name]
     own = load_sfx(name)
     raw_sig = own if own is not None else make()
+    if len(cue) > 2:  # optional per-cue length (s): a long sound trimmed to fit one breath
+        raw_sig = raw_sig[:int(cue[2] * SR)].copy()
+        nf = min(len(raw_sig), int(0.04 * SR))
+        raw_sig[-nf:] *= np.linspace(1, 0, nf)
     full = raw_sig / (np.max(np.abs(raw_sig)) + 1e-9)
     lo_sig, hi_sig = lp(full, 150, 4), hp(full, 2500, 4)
     pad = np.zeros(HOP * 4)

@@ -47,7 +47,7 @@ python3 shorts/lib/build_short.py "$EP"
 | `camera`, `shakes` | mouvements de caméra simulés ; vibrations réservées aux révélations |
 | `science` | plages d'explication : musique baissée de 5 dB, sans batterie |
 | `blocks` | graphismes : `myth`, `word_drops`, `banner`, `science`, `scale`, `versus`, `list`, `outro` |
-| `sfx` | `[nom, temps]` — `whoosh_in`, `whoosh`, `stamp`, `thump`, `plinks`, `tick`, `click`, `warn`, `check`, `shimmer`, `pop` |
+| `sfx` | `[nom, temps]` ou `[nom, temps, durée max en s]` — `whoosh_in`, `whoosh`, `stamp`, `thump`, `plinks`, `tick`, `click`, `warn`, `check`, `shimmer`, `pop`, `reveil`, `ventre` |
 
 Effets sonores : un fichier déposé dans `shorts/sfx/` (ex. `pop.mp3`, téléchargé sur Pixabay) remplace l'effet
 synthétisé du même nom. Le `.gitignore` d'un épisode doit exclure `assets/stock/*` sauf `credits.json`.
@@ -73,3 +73,7 @@ Modèle de référence : `shorts/episodes/2026-10-20-transpiration-v2/` (BRIEF.m
 - Calix en autocollant : `python3 avatar/make_sticker.py avatar/calix/cutout "$EP/assets/calix"` (contour blanc 16 px).
 - Couches permanentes générées par `build_v2.py` (fond 3D, Calix, sous-titres, effets de coupe) ; une scène = un fichier
   dans `compositions/scenes/`. Son : `plan.json` (`style: drive`, `hits`, `science`, `sfx`) → `audio_short.py`.
+- Épisode 2 (sommeil) : `shorts/episodes/2026-10-21-sommeil/` — même modèle, couleur nuit `#8B7BFF`, pose `endormi`.
+- Polices : le compilateur de rendu ne télécharge que les familles nommées dans un `<style>` des pages HTML, pas dans
+  `assets/style/kit.css`. `build_v2.py` les nomme donc dans `index.html` (`.hf-font-*`). Vérifier dans `renders/render.log`
+  la ligne « Injected deterministic @font-face rules for 3 requested font families » (League Gothic, Montserrat, IBM Plex Mono).

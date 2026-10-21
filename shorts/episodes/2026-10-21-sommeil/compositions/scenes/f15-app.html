@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f15-lock { position: absolute; left: 70px; top: 236px; width: 940px; height: 160px; display: flex; align-items: center; gap: 26px; }
+        #f15-icon { width: 150px; height: 150px; border-radius: 36px; overflow: hidden; box-shadow: 0 16px 50px rgba(255,107,53,.45); flex: none; }
+        #f15-icon img { width: 100%; height: 100%; }
+        #f15-name { font-size: 180px; }
+        #f15-stage { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        .f15-ph { position: absolute; border-radius: 40px; background: #0d0d12; border: 9px solid #2a2a36; overflow: hidden; box-shadow: 0 40px 80px rgba(0,0,0,.7); }
+        .f15-ph img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+        .f15-ph b { position: absolute; inset: 0; background: linear-gradient(115deg, rgba(255,255,255,.16) 0%, rgba(255,255,255,0) 35%); }
+        #f15-p0 { left: 380px; top: 470px; width: 320px; height: 632px; box-shadow: 0 40px 80px rgba(0,0,0,.7), 0 0 80px rgba(139,123,255,.45); }
+        #f15-p1 { left: 90px; top: 540px; width: 260px; height: 514px; rotate: -9deg; }
+        #f15-p2 { left: 730px; top: 540px; width: 260px; height: 514px; rotate: 9deg; }
+        .f15-k { position: absolute; font-size: 24px; letter-spacing: .1em; background: rgba(10,10,15,.88); }
+        #f15-k0 { left: 410px; top: 418px; color: var(--night); }
+        #f15-k1 { left: 96px; top: 478px; color: var(--heat); }
+        #f15-k2 { left: 740px; top: 478px; color: var(--red); }
+      </style>
+      <div id="root" data-composition-id="f15-app" data-width="1080" data-height="1920" data-duration="3.7">
+        <div class="scene" id="f15">
+          <div id="f15-lock" class="p3d"><div id="f15-icon"><img src="assets/brand/icon-512.png" alt="" /></div><div id="f15-name" class="disp ex c-wheat">CaliBodi</div></div>
+          <div id="f15-stage" class="p3d">
+            <div class="f15-ph" id="f15-p1"><img src="assets/app/nutrition.jpg" alt="" /><b></b></div>
+            <div class="f15-ph" id="f15-p2"><img src="assets/app/fitness.jpg" alt="" /><b></b></div>
+            <div class="f15-ph" id="f15-p0"><img id="f15-s0" src="assets/app/sleep.jpg" alt="" /><b></b></div>
+            <div class="f15-k mono chip" id="f15-k0"><i class="dot"></i>Tes nuits</div>
+            <div class="f15-k mono chip" id="f15-k1"><i class="dot"></i>Repas</div>
+            <div class="f15-k mono chip" id="f15-k2"><i class="dot"></i>Séances</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f15-app", T0 = 55.60;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f15-icon", { rotationY: 180, scale: 0.3, opacity: 0, transformPerspective: 900 }, { rotationY: 0, scale: 1, opacity: 1, duration: 0.5, ease: "back.out(1.7)" }, at(55.8));
+            tl.fromTo("#f15-name", { x: 160, opacity: 0, skewX: -14 }, { x: 0, opacity: 1, skewX: 0, duration: 0.4, ease: "expo.out" }, at(55.95));
+            // "tu suis tes nuits": the recovery screen flips up
+            tl.fromTo("#f15-p0", { rotationY: -100, y: 300, opacity: 0 }, { rotationY: 0, y: 0, opacity: 1, duration: 0.55, ease: "back.out(1.4)" }, at(56.45));
+            tl.fromTo("#f15-k0", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.28, ease: "back.out(2.4)" }, at(56.9));
+            tl.fromTo("#f15-s0", { objectPosition: "50% 0%" }, { objectPosition: "50% 40%", duration: 2.2, ease: "sine.inOut" }, at(57.0));
+            // "…à côté de tes repas et de tes séances"
+            tl.fromTo("#f15-p1", { x: 300, z: -300, opacity: 0, rotationY: 40 }, { x: 0, z: 0, opacity: 1, rotationY: 14, duration: 0.45, ease: "back.out(1.5)" }, at(57.9));
+            tl.fromTo("#f15-k1", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.28, ease: "back.out(2.4)" }, at(58.0));
+            tl.fromTo("#f15-p2", { x: -300, z: -300, opacity: 0, rotationY: -40 }, { x: 0, z: 0, opacity: 1, rotationY: -14, duration: 0.45, ease: "back.out(1.5)" }, at(58.42));
+            tl.fromTo("#f15-k2", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.28, ease: "back.out(2.4)" }, at(58.52));
+            tl.fromTo("#f15-stage", { rotationX: 8, y: 0 }, { rotationX: 0, y: -14, duration: 3.0, ease: "sine.inOut" }, at(56.45));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

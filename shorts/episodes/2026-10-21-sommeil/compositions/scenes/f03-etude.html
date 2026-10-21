@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f03-src { position: absolute; left: 70px; top: 236px; color: var(--night); }
+        #f03-src2 { position: absolute; left: 76px; top: 312px; font-size: 22px; letter-spacing: .08em; color: #cfcbd8; }
+        #f03-uni { position: absolute; left: 70px; top: 360px; font-size: 140px; transform-origin: 0% 100%; }
+        #f03-mid { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        #f03-ppl { position: absolute; left: 62px; top: 540px; width: 560px; height: 290px; }
+        .f03-p { position: absolute; width: 96px; height: 130px; }
+        #f03-n { position: absolute; left: 70px; top: 852px; font-size: 130px; }
+        #f03-over { position: absolute; left: 70px; top: 990px; color: var(--heat); }
+        #f03-cal { position: absolute; left: 660px; top: 536px; width: 350px; height: 400px; border-radius: 34px; background: #15151f; border: 4px solid #2a2a3a;
+          box-shadow: 0 40px 90px rgba(0,0,0,.6); overflow: hidden; transform-origin: 50% 50%; }
+        #f03-cal-top { position: absolute; left: 0; top: 0; width: 100%; height: 86px; background: linear-gradient(90deg, #FF2D55, #FF6B35); }
+        .f03-ring { position: absolute; top: -18px; width: 22px; height: 52px; border-radius: 11px; background: #F4F1EC; box-shadow: 0 4px 0 #8a1c2f; }
+        #f03-cal-lab { position: absolute; left: 0; width: 100%; top: 26px; text-align: center; color: #0A0A0F; }
+        #f03-num { position: absolute; left: 0; width: 100%; top: 108px; text-align: center; font-size: 230px; }
+        #f03-cal-sub { position: absolute; left: 0; width: 100%; top: 334px; text-align: center; font-size: 22px; color: #cfcbd8; }
+        #f03-same { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        .f03-row { position: absolute; left: 70px; height: 150px; width: 940px; }
+        #f03-r1 { top: 600px; } #f03-r2 { top: 790px; }
+        .f03-chk { position: absolute; left: 0; top: 16px; width: 116px; height: 116px; }
+        .f03-txt { position: absolute; left: 146px; top: 6px; font-size: 150px; }
+      </style>
+      <div id="root" data-composition-id="f03-etude" data-width="1080" data-height="1920" data-duration="6.7">
+        <div class="scene" id="f03">
+          <div id="f03-src" class="mono chip"><i class="dot"></i>Étude · Ann. Intern. Med. · 2010</div>
+          <div id="f03-src2" class="mono">Nedeltcheva et al.</div>
+          <div id="f03-uni" class="disp ex c-wheat" data-fit="940">Université de Chicago</div>
+          <div id="f03-mid" class="p3d">
+            <div id="f03-ppl" class="p3d"></div>
+            <div id="f03-n" class="disp ex c-white" data-fit="560">10 adultes</div>
+            <div id="f03-over" class="mono chip"><i class="dot"></i>En surpoids</div>
+            <div id="f03-cal">
+              <div id="f03-cal-top"><i class="f03-ring" style="left:90px"></i><i class="f03-ring" style="left:238px"></i><div id="f03-cal-lab" class="mono">Au régime</div></div>
+              <div id="f03-num" class="disp ex c-wheat">01</div>
+              <div id="f03-cal-sub" class="mono">jours</div>
+            </div>
+          </div>
+          <div id="f03-same" class="p3d">
+            <div class="f03-row" id="f03-r1">
+              <svg class="f03-chk" id="f03-k1" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#00FF87"/><path id="f03-cp1" d="M28 52 L44 67 L74 35" fill="none" stroke="#0A0A0F" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div class="f03-txt disp ex c-white" id="f03-t1" data-fit="790">Mêmes personnes</div>
+            </div>
+            <div class="f03-row" id="f03-r2">
+              <svg class="f03-chk" id="f03-k2" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#00FF87"/><path id="f03-cp2" d="M28 52 L44 67 L74 35" fill="none" stroke="#0A0A0F" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div class="f03-txt disp ex c-heat" id="f03-t2" data-fit="790">Mêmes calories</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f03-etude", T0 = 4.70;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            document.querySelectorAll("#f03 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
+            // ten participants, two rows of five
+            const ppl = document.getElementById("f03-ppl");
+            for (let i = 0; i < 10; i++) {
+              const p = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+              p.setAttribute("viewBox", "0 0 96 130");
+              p.setAttribute("class", "f03-p");
+              p.setAttribute("id", "f03-pp" + i);
+              p.style.left = (i % 5) * 110 + "px";
+              p.style.top = Math.floor(i / 5) * 150 + "px";
+              p.innerHTML = '<circle cx="48" cy="30" r="24" fill="#F4F1EC"/><path d="M8 128 C8 84 24 64 48 64 C72 64 88 84 88 128 Z" fill="#8B7BFF"/>';
+              ppl.appendChild(p);
+            }
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f03-src", { x: -80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, at(4.76));
+            tl.fromTo("#f03-src2", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "power1.out" }, at(4.95));
+            tl.fromTo("#f03-uni", { rotationX: -95, opacity: 0, y: 30 }, { rotationX: 0, opacity: 1, y: 0, duration: 0.5, ease: "back.out(1.6)" }, at(4.82));
+            tl.fromTo("#f03-uni", { scale: 1 }, { scale: 1.05, duration: 0.18, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(5.5));
+            // "…ont mis dix adultes": ten people pop one after the other
+            for (let i = 0; i < 10; i++) {
+              tl.fromTo("#f03-pp" + i, { scale: 0, y: 40, opacity: 0 }, { scale: 1, y: 0, opacity: 1, duration: 0.3, ease: "back.out(2.4)", transformOrigin: "50% 100%" }, at(6.95 + i * 0.045));
+            }
+            tl.fromTo("#f03-n", { x: -120, skewX: 14, opacity: 0 }, { x: 0, skewX: 0, opacity: 1, duration: 0.32, ease: "expo.out" }, at(7.36));
+            tl.fromTo("#f03-over", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.28, ease: "power3.out" }, at(7.86));
+            tl.fromTo("#f03-ppl", { rotation: 0 }, { rotation: -2, duration: 0.5, ease: "sine.inOut", yoyo: true, repeat: 3, immediateRender: false }, at(7.9));
+            // "…au régime pendant quatorze jours": a calendar flips in and counts the days
+            tl.fromTo("#f03-cal", { rotationY: -100, x: 300, opacity: 0 }, { rotationY: -10, x: 0, opacity: 1, duration: 0.5, ease: "back.out(1.4)" }, at(8.28));
+            const cnt = { v: 1 }, num = document.getElementById("f03-num");
+            tl.fromTo(cnt, { v: 1 }, { v: 14, duration: 0.7, ease: "power1.in", onUpdate: () => { num.textContent = String(Math.round(cnt.v)).padStart(2, "0"); } }, at(8.62));
+            tl.fromTo("#f03-cal", { scale: 1 }, { scale: 1.08, duration: 0.12, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(9.34));
+            // "Mêmes personnes, mêmes calories": the board flies back, two checks land
+            tl.fromTo("#f03-mid", { z: 0, opacity: 1 }, { z: -900, opacity: 0, duration: 0.35, ease: "power3.in", immediateRender: false }, at(9.7));
+            [["1", 9.92, 10.20], ["2", 10.56, 10.84]].forEach(([k, tt, tc]) => {
+              tl.fromTo("#f03-t" + k, { x: 140, opacity: 0, skewX: -12 }, { x: 0, opacity: 1, skewX: 0, duration: 0.32, ease: "expo.out" }, at(tt));
+              tl.fromTo("#f03-k" + k, { scale: 0, rotation: -120 }, { scale: 1, rotation: 0, duration: 0.36, ease: "back.out(2.6)" }, at(tc));
+              tl.fromTo("#f03-cp" + k, { strokeDasharray: 80, strokeDashoffset: 80 }, { strokeDashoffset: 0, duration: 0.22, ease: "power2.out" }, at(tc + 0.12));
+            });
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

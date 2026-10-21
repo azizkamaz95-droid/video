@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f06-cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        #f06-l1 { position: absolute; left: 70px; top: 270px; font-size: 140px; transform-origin: 0% 100%; }
+        #f06-l2 { position: absolute; left: 70px; top: 390px; font-size: 260px; transform-origin: 0% 100%; }
+        #f06-l3 { position: absolute; left: 70px; top: 650px; font-size: 110px; transform-origin: 0% 100%; }
+        #f06-fondu { position: absolute; left: 70px; top: 750px; width: 940px; height: 360px; transform-origin: 50% 0%; }
+        #f06-l4 { position: absolute; left: 0; top: 0; font-size: 330px; z-index: 2; }
+        .f06-drip { position: absolute; z-index: 1; top: 285px; width: 30px; border-radius: 0 0 15px 15px; background: #FF6B35; transform-origin: 50% 0%; box-shadow: 0 0 18px rgba(255,107,53,.6); }
+        #f06-lens { position: absolute; left: 0; top: 0; width: 300px; height: 300px; }
+        #f06-scan { position: absolute; left: -100px; top: 230px; width: 1280px; height: 14px; background: linear-gradient(90deg, rgba(0,212,255,0), #00D4FF 30%, #F4F1EC 50%, #00D4FF 70%, rgba(0,212,255,0)); opacity: 0;
+          box-shadow: 0 0 40px rgba(0,212,255,.8); }
+      </style>
+      <div id="root" data-composition-id="f06-regarde" data-width="1080" data-height="1920" data-duration="1.8">
+        <div class="scene" id="f06">
+          <div id="f06-cam" class="p3d" data-layout-allow-overlap>
+            <div id="f06-l1" class="disp ex c-white" data-fit="900">Mais</div>
+            <div id="f06-l2" class="disp ex c-wheat" data-fit="940">Regarde</div>
+            <div id="f06-l3" class="disp ex c-white" data-fit="900">Ce qui a vraiment</div>
+            <div id="f06-fondu">
+              <div id="f06-l4" class="disp ex c-heat" data-fit="700">Fondu</div>
+              <i class="f06-drip" id="f06-d0" style="left:30px;height:100px"></i>
+              <i class="f06-drip" id="f06-d1" style="left:150px;height:70px"></i>
+              <i class="f06-drip" id="f06-d2" style="left:262px;height:130px"></i>
+              <i class="f06-drip" id="f06-d3" style="left:372px;height:80px"></i>
+              <i class="f06-drip" id="f06-d4" style="left:470px;height:115px"></i>
+              <i class="f06-drip" id="f06-d5" style="left:570px;height:60px"></i>
+            </div>
+            <svg id="f06-lens" viewBox="0 0 300 300"><circle cx="120" cy="120" r="88" fill="rgba(0,212,255,.12)" stroke="#F4F1EC" stroke-width="18"/><path d="M186 186 L270 270" stroke="#F4F1EC" stroke-width="30" stroke-linecap="round"/></svg>
+          </div>
+          <div id="f06-scan"></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f06-regarde", T0 = 17.75;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            document.querySelectorAll("#f06 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f06-l1", { x: -300, opacity: 0 }, { x: 0, opacity: 1, duration: 0.25, ease: "expo.out" }, at(17.86));
+            tl.fromTo("#f06-l2", { z: -1600, opacity: 0, filter: "blur(14px)" }, { z: 0, opacity: 1, filter: "blur(0px)", duration: 0.32, ease: "power4.out" }, at(17.98));
+            // a magnifying glass sweeps the frame, with a scan line
+            tl.fromTo("#f06-lens", { x: -320, y: 700, rotation: -20 }, { x: 760, y: 560, rotation: 10, duration: 0.95, ease: "power2.inOut" }, at(18.12));
+            tl.fromTo("#f06-scan", { y: 0, opacity: 0 }, { y: 820, opacity: 1, duration: 0.7, ease: "power1.inOut" }, at(18.2));
+            tl.fromTo("#f06-scan", { opacity: 1 }, { opacity: 0, duration: 0.15, ease: "none", immediateRender: false }, at(18.9));
+            tl.fromTo("#f06-l3", { rotationX: -95, opacity: 0, y: 30 }, { rotationX: 0, opacity: 1, y: 0, duration: 0.4, ease: "back.out(1.7)" }, at(18.28));
+            // "…fondu." the word melts: drips run down, the word sags
+            tl.fromTo("#f06-l4", { scale: 2.4, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.24, ease: "power4.out" }, at(18.82));
+            for (let i = 0; i < 6; i++) {
+              tl.fromTo("#f06-d" + i, { scaleY: 0 }, { scaleY: 1, duration: 0.5 + i * 0.06, ease: "power2.in" }, at(18.98 + i * 0.05));
+            }
+            tl.fromTo("#f06-fondu", { scaleY: 1, skewX: 0 }, { scaleY: 1.1, skewX: -4, duration: 0.6, ease: "sine.inOut" }, at(19.0));
+            tl.fromTo("#f06-cam", { scale: 1 }, { scale: 1.06, duration: 1.8, ease: "none" }, 0);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

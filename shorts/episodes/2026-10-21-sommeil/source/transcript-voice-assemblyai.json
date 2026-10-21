@@ -1,0 +1,1106 @@
+{
+ "duration": 68.238,
+ "words": [
+  {
+   "word": "Ton",
+   "start": 0.176,
+   "end": 0.336
+  },
+  {
+   "word": "régime",
+   "start": 0.336,
+   "end": 0.657
+  },
+  {
+   "word": "ne",
+   "start": 0.657,
+   "end": 0.737
+  },
+  {
+   "word": "marche",
+   "start": 0.737,
+   "end": 1.058
+  },
+  {
+   "word": "pas?",
+   "start": 1.058,
+   "end": 1.106
+  },
+  {
+   "word": "Le",
+   "start": 1.54,
+   "end": 1.7
+  },
+  {
+   "word": "problème",
+   "start": 1.7,
+   "end": 1.957
+  },
+  {
+   "word": "n'est",
+   "start": 1.957,
+   "end": 2.101
+  },
+  {
+   "word": "peut-être",
+   "start": 2.101,
+   "end": 2.326
+  },
+  {
+   "word": "pas",
+   "start": 2.342,
+   "end": 2.454
+  },
+  {
+   "word": "dans",
+   "start": 2.454,
+   "end": 2.582
+  },
+  {
+   "word": "ton",
+   "start": 2.582,
+   "end": 2.759
+  },
+  {
+   "word": "assiette.",
+   "start": 2.759,
+   "end": 2.951
+  },
+  {
+   "word": "Il",
+   "start": 3.481,
+   "end": 3.561
+  },
+  {
+   "word": "est",
+   "start": 3.561,
+   "end": 3.657
+  },
+  {
+   "word": "dans",
+   "start": 3.657,
+   "end": 3.785
+  },
+  {
+   "word": "ton",
+   "start": 3.785,
+   "end": 4.026
+  },
+  {
+   "word": "lit.",
+   "start": 4.026,
+   "end": 4.074
+  },
+  {
+   "word": "À",
+   "start": 4.764,
+   "end": 4.812
+  },
+  {
+   "word": "l'Université",
+   "start": 4.812,
+   "end": 5.422
+  },
+  {
+   "word": "de",
+   "start": 5.422,
+   "end": 5.502
+  },
+  {
+   "word": "Chicago,",
+   "start": 5.502,
+   "end": 5.951
+  },
+  {
+   "word": "des",
+   "start": 6.513,
+   "end": 6.593
+  },
+  {
+   "word": "chercheurs",
+   "start": 6.593,
+   "end": 6.978
+  },
+  {
+   "word": "ont",
+   "start": 7.01,
+   "end": 7.106
+  },
+  {
+   "word": "mis",
+   "start": 7.106,
+   "end": 7.234
+  },
+  {
+   "word": "10",
+   "start": 7.234,
+   "end": 7.411
+  },
+  {
+   "word": "adultes",
+   "start": 7.411,
+   "end": 7.732
+  },
+  {
+   "word": "en",
+   "start": 7.732,
+   "end": 7.876
+  },
+  {
+   "word": "surpoids",
+   "start": 7.876,
+   "end": 8.229
+  },
+  {
+   "word": "au",
+   "start": 8.229,
+   "end": 8.357
+  },
+  {
+   "word": "régime",
+   "start": 8.357,
+   "end": 8.678
+  },
+  {
+   "word": "pendant",
+   "start": 8.678,
+   "end": 8.919
+  },
+  {
+   "word": "14",
+   "start": 8.999,
+   "end": 9.4
+  },
+  {
+   "word": "jours.",
+   "start": 9.4,
+   "end": 9.448
+  },
+  {
+   "word": "Mêmes",
+   "start": 9.962,
+   "end": 10.106
+  },
+  {
+   "word": "personnes,",
+   "start": 10.202,
+   "end": 10.571
+  },
+  {
+   "word": "mêmes",
+   "start": 10.603,
+   "end": 10.844
+  },
+  {
+   "word": "calories,",
+   "start": 10.844,
+   "end": 11.133
+  },
+  {
+   "word": "une",
+   "start": 11.582,
+   "end": 11.646
+  },
+  {
+   "word": "seule",
+   "start": 11.646,
+   "end": 11.887
+  },
+  {
+   "word": "différence:",
+   "start": 11.887,
+   "end": 12.336
+  },
+  {
+   "word": "8h30",
+   "start": 12.769,
+   "end": 13.346
+  },
+  {
+   "word": "au",
+   "start": 13.346,
+   "end": 13.491
+  },
+  {
+   "word": "lit",
+   "start": 13.491,
+   "end": 13.619
+  },
+  {
+   "word": "ou",
+   "start": 13.908,
+   "end": 13.972
+  },
+  {
+   "word": "5h30.",
+   "start": 13.972,
+   "end": 14.582
+  },
+  {
+   "word": "Sur",
+   "start": 15.175,
+   "end": 15.336
+  },
+  {
+   "word": "la",
+   "start": 15.336,
+   "end": 15.416
+  },
+  {
+   "word": "balance,",
+   "start": 15.416,
+   "end": 15.849
+  },
+  {
+   "word": "presque",
+   "start": 16.378,
+   "end": 16.731
+  },
+  {
+   "word": "le",
+   "start": 16.731,
+   "end": 16.811
+  },
+  {
+   "word": "même",
+   "start": 16.811,
+   "end": 17.02
+  },
+  {
+   "word": "poids",
+   "start": 17.02,
+   "end": 17.18
+  },
+  {
+   "word": "perdu.",
+   "start": 17.18,
+   "end": 17.469
+  },
+  {
+   "word": "Mais",
+   "start": 17.902,
+   "end": 18.015
+  },
+  {
+   "word": "regarde",
+   "start": 18.015,
+   "end": 18.287
+  },
+  {
+   "word": "ce",
+   "start": 18.303,
+   "end": 18.384
+  },
+  {
+   "word": "qui",
+   "start": 18.384,
+   "end": 18.48
+  },
+  {
+   "word": "a",
+   "start": 18.48,
+   "end": 18.544
+  },
+  {
+   "word": "vraiment",
+   "start": 18.544,
+   "end": 18.865
+  },
+  {
+   "word": "fondu.",
+   "start": 18.865,
+   "end": 19.154
+  },
+  {
+   "word": "Avec",
+   "start": 19.763,
+   "end": 19.988
+  },
+  {
+   "word": "les",
+   "start": 19.988,
+   "end": 20.02
+  },
+  {
+   "word": "nuits",
+   "start": 20.02,
+   "end": 20.228
+  },
+  {
+   "word": "courtes,",
+   "start": 20.228,
+   "end": 20.501
+  },
+  {
+   "word": "55%",
+   "start": 21.03,
+   "end": 21.865
+  },
+  {
+   "word": "de",
+   "start": 21.865,
+   "end": 21.993
+  },
+  {
+   "word": "graisse",
+   "start": 21.993,
+   "end": 22.234
+  },
+  {
+   "word": "perdue",
+   "start": 22.234,
+   "end": 22.506
+  },
+  {
+   "word": "en",
+   "start": 22.57,
+   "end": 22.587
+  },
+  {
+   "word": "moins.",
+   "start": 22.587,
+   "end": 22.683
+  },
+  {
+   "word": "Et",
+   "start": 23.212,
+   "end": 23.276
+  },
+  {
+   "word": "60%",
+   "start": 23.276,
+   "end": 23.854
+  },
+  {
+   "word": "de",
+   "start": 23.998,
+   "end": 24.078
+  },
+  {
+   "word": "masse",
+   "start": 24.078,
+   "end": 24.319
+  },
+  {
+   "word": "maigre",
+   "start": 24.319,
+   "end": 24.624
+  },
+  {
+   "word": "perdue",
+   "start": 24.64,
+   "end": 24.977
+  },
+  {
+   "word": "en",
+   "start": 24.977,
+   "end": 25.041
+  },
+  {
+   "word": "plus,",
+   "start": 25.041,
+   "end": 25.201
+  },
+  {
+   "word": "celle",
+   "start": 25.602,
+   "end": 25.715
+  },
+  {
+   "word": "qui",
+   "start": 25.763,
+   "end": 25.843
+  },
+  {
+   "word": "contient",
+   "start": 25.843,
+   "end": 26.164
+  },
+  {
+   "word": "tes",
+   "start": 26.164,
+   "end": 26.244
+  },
+  {
+   "word": "muscles.",
+   "start": 26.276,
+   "end": 26.597
+  },
+  {
+   "word": "Tu",
+   "start": 27.046,
+   "end": 27.158
+  },
+  {
+   "word": "maigris,",
+   "start": 27.158,
+   "end": 27.479
+  },
+  {
+   "word": "mais",
+   "start": 28.089,
+   "end": 28.169
+  },
+  {
+   "word": "du",
+   "start": 28.169,
+   "end": 28.249
+  },
+  {
+   "word": "mauvais",
+   "start": 28.249,
+   "end": 28.474
+  },
+  {
+   "word": "côté.",
+   "start": 28.474,
+   "end": 28.699
+  },
+  {
+   "word": "Et",
+   "start": 29.388,
+   "end": 29.453
+  },
+  {
+   "word": "le",
+   "start": 29.453,
+   "end": 29.533
+  },
+  {
+   "word": "pire,",
+   "start": 29.533,
+   "end": 29.789
+  },
+  {
+   "word": "c'est",
+   "start": 29.805,
+   "end": 29.934
+  },
+  {
+   "word": "la",
+   "start": 29.934,
+   "end": 29.982
+  },
+  {
+   "word": "faim.",
+   "start": 30.094,
+   "end": 30.142
+  },
+  {
+   "word": "Une",
+   "start": 30.752,
+   "end": 30.832
+  },
+  {
+   "word": "autre",
+   "start": 30.832,
+   "end": 30.993
+  },
+  {
+   "word": "étude:",
+   "start": 30.993,
+   "end": 31.265
+  },
+  {
+   "word": "2",
+   "start": 31.859,
+   "end": 32.019
+  },
+  {
+   "word": "nuits",
+   "start": 32.019,
+   "end": 32.148
+  },
+  {
+   "word": "de",
+   "start": 32.18,
+   "end": 32.34
+  },
+  {
+   "word": "4",
+   "start": 32.34,
+   "end": 32.517
+  },
+  {
+   "word": "heures",
+   "start": 32.517,
+   "end": 32.661
+  },
+  {
+   "word": "seulement,",
+   "start": 32.661,
+   "end": 32.95
+  },
+  {
+   "word": "la",
+   "start": 33.383,
+   "end": 33.495
+  },
+  {
+   "word": "leptine,",
+   "start": 33.495,
+   "end": 33.912
+  },
+  {
+   "word": "l'hormone",
+   "start": 34.137,
+   "end": 34.57
+  },
+  {
+   "word": "qui",
+   "start": 34.666,
+   "end": 34.827
+  },
+  {
+   "word": "te",
+   "start": 34.827,
+   "end": 34.987
+  },
+  {
+   "word": "dit",
+   "start": 34.987,
+   "end": 35.26
+  },
+  {
+   "word": "stop,",
+   "start": 35.388,
+   "end": 35.757
+  },
+  {
+   "word": "j'ai",
+   "start": 36.11,
+   "end": 36.254
+  },
+  {
+   "word": "assez",
+   "start": 36.254,
+   "end": 36.383
+  },
+  {
+   "word": "mangé,",
+   "start": 36.383,
+   "end": 36.72
+  },
+  {
+   "word": "chute",
+   "start": 37.073,
+   "end": 37.393
+  },
+  {
+   "word": "de",
+   "start": 37.393,
+   "end": 37.554
+  },
+  {
+   "word": "18%.",
+   "start": 37.554,
+   "end": 38.083
+  },
+  {
+   "word": "La",
+   "start": 38.597,
+   "end": 38.645
+  },
+  {
+   "word": "ghréline,",
+   "start": 38.645,
+   "end": 39.142
+  },
+  {
+   "word": "celle",
+   "start": 39.399,
+   "end": 39.511
+  },
+  {
+   "word": "qui",
+   "start": 39.559,
+   "end": 39.639
+  },
+  {
+   "word": "crie",
+   "start": 39.639,
+   "end": 39.88
+  },
+  {
+   "word": "j'ai",
+   "start": 40.682,
+   "end": 40.762
+  },
+  {
+   "word": "faim,",
+   "start": 40.762,
+   "end": 40.971
+  },
+  {
+   "word": "grimpe",
+   "start": 41.404,
+   "end": 41.613
+  },
+  {
+   "word": "de",
+   "start": 41.645,
+   "end": 41.725
+  },
+  {
+   "word": "28%.",
+   "start": 41.757,
+   "end": 42.19
+  },
+  {
+   "word": "Et",
+   "start": 42.764,
+   "end": 42.784
+  },
+  {
+   "word": "l'envie",
+   "start": 42.784,
+   "end": 43.088
+  },
+  {
+   "word": "de",
+   "start": 43.088,
+   "end": 43.169
+  },
+  {
+   "word": "sucré,",
+   "start": 43.201,
+   "end": 43.538
+  },
+  {
+   "word": "de",
+   "start": 43.891,
+   "end": 43.971
+  },
+  {
+   "word": "salé",
+   "start": 43.971,
+   "end": 44.292
+  },
+  {
+   "word": "et",
+   "start": 44.308,
+   "end": 44.372
+  },
+  {
+   "word": "de",
+   "start": 44.372,
+   "end": 44.452
+  },
+  {
+   "word": "féculents?",
+   "start": 44.452,
+   "end": 44.821
+  },
+  {
+   "word": "Jusqu'à",
+   "start": 46.137,
+   "end": 46.457
+  },
+  {
+   "word": "45%",
+   "start": 46.457,
+   "end": 47.179
+  },
+  {
+   "word": "de",
+   "start": 47.179,
+   "end": 47.259
+  },
+  {
+   "word": "plus.",
+   "start": 47.259,
+   "end": 47.468
+  },
+  {
+   "word": "Ce",
+   "start": 48.062,
+   "end": 48.158
+  },
+  {
+   "word": "n'est",
+   "start": 48.158,
+   "end": 48.302
+  },
+  {
+   "word": "pas",
+   "start": 48.302,
+   "end": 48.463
+  },
+  {
+   "word": "qu'une",
+   "start": 48.463,
+   "end": 48.623
+  },
+  {
+   "word": "question",
+   "start": 48.623,
+   "end": 48.944
+  },
+  {
+   "word": "de",
+   "start": 48.944,
+   "end": 49.024
+  },
+  {
+   "word": "volonté,",
+   "start": 49.024,
+   "end": 49.393
+  },
+  {
+   "word": "ce",
+   "start": 49.987,
+   "end": 50.067
+  },
+  {
+   "word": "sont",
+   "start": 50.067,
+   "end": 50.227
+  },
+  {
+   "word": "tes",
+   "start": 50.227,
+   "end": 50.404
+  },
+  {
+   "word": "hormones.",
+   "start": 50.404,
+   "end": 50.676
+  },
+  {
+   "word": "La",
+   "start": 51.35,
+   "end": 51.43
+  },
+  {
+   "word": "règle:",
+   "start": 51.43,
+   "end": 51.719
+  },
+  {
+   "word": "au",
+   "start": 52.088,
+   "end": 52.152
+  },
+  {
+   "word": "moins",
+   "start": 52.152,
+   "end": 52.313
+  },
+  {
+   "word": "7",
+   "start": 52.313,
+   "end": 52.65
+  },
+  {
+   "word": "heures",
+   "start": 52.65,
+   "end": 52.714
+  },
+  {
+   "word": "par",
+   "start": 52.714,
+   "end": 52.906
+  },
+  {
+   "word": "nuit,",
+   "start": 52.906,
+   "end": 53.083
+  },
+  {
+   "word": "C'est",
+   "start": 53.356,
+   "end": 53.468
+  },
+  {
+   "word": "la",
+   "start": 53.468,
+   "end": 53.549
+  },
+  {
+   "word": "recommandation",
+   "start": 53.549,
+   "end": 54.241
+  },
+  {
+   "word": "des",
+   "start": 54.241,
+   "end": 54.322
+  },
+  {
+   "word": "experts",
+   "start": 54.338,
+   "end": 54.757
+  },
+  {
+   "word": "du",
+   "start": 54.757,
+   "end": 54.837
+  },
+  {
+   "word": "sommeil.",
+   "start": 54.837,
+   "end": 55.176
+  },
+  {
+   "word": "Et",
+   "start": 55.788,
+   "end": 55.852
+  },
+  {
+   "word": "dans",
+   "start": 55.852,
+   "end": 55.981
+  },
+  {
+   "word": "CaliBodi,",
+   "start": 55.981,
+   "end": 56.416
+  },
+  {
+   "word": "tu",
+   "start": 56.496,
+   "end": 56.657
+  },
+  {
+   "word": "suis",
+   "start": 56.657,
+   "end": 56.818
+  },
+  {
+   "word": "tes",
+   "start": 56.818,
+   "end": 56.931
+  },
+  {
+   "word": "nuits",
+   "start": 56.931,
+   "end": 57.221
+  },
+  {
+   "word": "juste",
+   "start": 57.221,
+   "end": 57.398
+  },
+  {
+   "word": "à",
+   "start": 57.398,
+   "end": 57.495
+  },
+  {
+   "word": "côté",
+   "start": 57.495,
+   "end": 57.785
+  },
+  {
+   "word": "de",
+   "start": 57.785,
+   "end": 57.865
+  },
+  {
+   "word": "tes",
+   "start": 57.865,
+   "end": 57.978
+  },
+  {
+   "word": "repas",
+   "start": 57.978,
+   "end": 58.252
+  },
+  {
+   "word": "et",
+   "start": 58.252,
+   "end": 58.349
+  },
+  {
+   "word": "de",
+   "start": 58.349,
+   "end": 58.429
+  },
+  {
+   "word": "tes",
+   "start": 58.429,
+   "end": 58.51
+  },
+  {
+   "word": "séances.",
+   "start": 58.51,
+   "end": 58.88
+  },
+  {
+   "word": "Mets",
+   "start": 59.476,
+   "end": 59.573
+  },
+  {
+   "word": "un",
+   "start": 59.573,
+   "end": 59.605
+  },
+  {
+   "word": "like",
+   "start": 59.605,
+   "end": 60.024
+  },
+  {
+   "word": "si",
+   "start": 60.04,
+   "end": 60.12
+  },
+  {
+   "word": "tu",
+   "start": 60.12,
+   "end": 60.281
+  },
+  {
+   "word": "dors",
+   "start": 60.281,
+   "end": 60.394
+  },
+  {
+   "word": "moins",
+   "start": 60.394,
+   "end": 60.555
+  },
+  {
+   "word": "de",
+   "start": 60.555,
+   "end": 60.603
+  },
+  {
+   "word": "7",
+   "start": 60.603,
+   "end": 60.861
+  },
+  {
+   "word": "heures",
+   "start": 60.861,
+   "end": 61.07
+  },
+  {
+   "word": "et",
+   "start": 61.344,
+   "end": 61.409
+  },
+  {
+   "word": "partage",
+   "start": 61.409,
+   "end": 61.747
+  },
+  {
+   "word": "à",
+   "start": 61.747,
+   "end": 61.795
+  },
+  {
+   "word": "quelqu'un",
+   "start": 61.795,
+   "end": 62.053
+  },
+  {
+   "word": "qui",
+   "start": 62.053,
+   "end": 62.214
+  },
+  {
+   "word": "se",
+   "start": 62.214,
+   "end": 62.295
+  },
+  {
+   "word": "couche",
+   "start": 62.295,
+   "end": 62.536
+  },
+  {
+   "word": "toujours",
+   "start": 62.536,
+   "end": 62.778
+  },
+  {
+   "word": "trop",
+   "start": 62.778,
+   "end": 62.939
+  },
+  {
+   "word": "tard.",
+   "start": 62.939,
+   "end": 63.148
+  },
+  {
+   "word": "Abonne-toi.",
+   "start": 63.438,
+   "end": 63.792
+  },
+  {
+   "word": "Chaque",
+   "start": 64.147,
+   "end": 64.388
+  },
+  {
+   "word": "jour,",
+   "start": 64.388,
+   "end": 64.678
+  },
+  {
+   "word": "un",
+   "start": 64.888,
+   "end": 64.904
+  },
+  {
+   "word": "nouveau",
+   "start": 64.904,
+   "end": 65.194
+  },
+  {
+   "word": "fait",
+   "start": 65.194,
+   "end": 65.323
+  },
+  {
+   "word": "fitness",
+   "start": 65.323,
+   "end": 65.741
+  },
+  {
+   "word": "vérifié.",
+   "start": 65.757,
+   "end": 66.128
+  },
+  {
+   "word": "Merci,",
+   "start": 66.482,
+   "end": 66.853
+  },
+  {
+   "word": "ça",
+   "start": 66.885,
+   "end": 66.998
+  },
+  {
+   "word": "nous",
+   "start": 66.998,
+   "end": 67.126
+  },
+  {
+   "word": "donne",
+   "start": 67.126,
+   "end": 67.287
+  },
+  {
+   "word": "beaucoup",
+   "start": 67.287,
+   "end": 67.529
+  },
+  {
+   "word": "de",
+   "start": 67.529,
+   "end": 67.577
+  },
+  {
+   "word": "force.",
+   "start": 67.61,
+   "end": 67.9
+  }
+ ],
+ "text": "Ton régime ne marche pas? Le problème n'est peut-être pas dans ton assiette. Il est dans ton lit. À l'Université de Chicago, des chercheurs ont mis 10 adultes en surpoids au régime pendant 14 jours. Mêmes personnes, mêmes calories, une seule différence: 8h30 au lit ou 5h30. Sur la balance, presque le même poids perdu. Mais regarde ce qui a vraiment fondu. Avec les nuits courtes, 55% de graisse perdue en moins. Et 60% de masse maigre perdue en plus, celle qui contient tes muscles. Tu maigris, mais du mauvais côté. Et le pire, c'est la faim. Une autre étude: 2 nuits de 4 heures seulement, la leptine, l'hormone qui te dit stop, j'ai assez mangé, chute de 18%. La ghréline, celle qui crie j'ai faim, grimpe de 28%. Et l'envie de sucré, de salé et de féculents? Jusqu'à 45% de plus. Ce n'est pas qu'une question de volonté, ce sont tes hormones. La règle: au moins 7 heures par nuit, C'est la recommandation des experts du sommeil. Et dans CaliBodi, tu suis tes nuits juste à côté de tes repas et de tes séances. Mets un like si tu dors moins de 7 heures et partage à quelqu'un qui se couche toujours trop tard. Abonne-toi. Chaque jour, un nouveau fait fitness vérifié. Merci, ça nous donne beaucoup de force."
+}

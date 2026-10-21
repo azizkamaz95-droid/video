@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f01-media { position: absolute; inset: 0; }
+        #f01-shade { position: absolute; inset: 0;
+          background: linear-gradient(180deg, rgba(10,10,15,.86) 0%, rgba(10,10,15,.42) 30%, rgba(10,10,15,.5) 52%, rgba(10,10,15,.94) 76%, #0A0A0F 100%); }
+        #f01-tag { position: absolute; left: 70px; top: 236px; color: var(--heat); }
+        #f01-cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        #f01-top { position: absolute; left: 0; top: 0; width: 1080px; height: 800px; transform-origin: 70px 330px; }
+        .f01-l { position: absolute; left: 70px; transform-origin: 0% 100%; }
+        #f01-l1 { top: 356px; font-size: 250px; }
+        #f01-l2 { top: 576px; font-size: 200px; }
+        #f01-l3 { top: 610px; font-size: 140px; }
+        #f01-l4 { top: 740px; font-size: 290px; }
+        #f01-strike { position: absolute; left: 50px; top: 858px; width: 940px; height: 28px; border-radius: 14px; background: var(--red);
+          transform-origin: 0% 50%; rotate: -5deg; box-shadow: 0 0 34px rgba(255,45,85,.65); }
+      </style>
+      <div id="root" data-composition-id="f01-hook" data-width="1080" data-height="1920" data-duration="3.42">
+        <div class="scene" id="f01">
+          <div id="f01-media">
+            <video id="f01-vid" class="clip media-fill" src="assets/clips/hook-veggies.mp4" muted playsinline data-start="0" data-duration="3.42" data-track-index="0"></video>
+          </div>
+          <div id="f01-shade"></div>
+          <div id="f01-tag" class="mono chip"><i class="dot"></i>Régime bloqué ?</div>
+          <div id="f01-cam" class="p3d" data-layout-allow-overlap>
+            <div id="f01-top" class="p3d">
+              <div id="f01-l1" class="f01-l disp ex c-white" data-fit="940">Ton régime</div>
+              <div id="f01-l2" class="f01-l disp ex c-red" data-fit="940">Ne marche pas ?</div>
+            </div>
+            <div id="f01-l3" class="f01-l disp ex c-white" data-fit="900">Pas dans ton</div>
+            <div id="f01-l4" class="f01-l disp ex c-heat" data-fit="940">Assiette</div>
+            <div id="f01-strike"></div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f01-hook", T0 = 0.0;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            document.querySelectorAll("#f01 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
+            const tl = gsap.timeline({ paused: true });
+            // footage: fast push-in, drains of colour when the plate gets crossed out
+            tl.fromTo("#f01-media", { scale: 1.0 }, { scale: 1.18, duration: 3.42, ease: "none" }, 0);
+            tl.fromTo("#f01-media", { filter: "grayscale(0) brightness(1)" }, { filter: "grayscale(.85) brightness(.5)", duration: 0.3, ease: "power2.out" }, at(2.95));
+            tl.fromTo("#f01-tag", { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, 0.02);
+            tl.fromTo("#f01-cam", { rotationY: 9, rotationX: -4 }, { rotationY: -4, rotationX: 2, duration: 3.42, ease: "sine.inOut" }, 0);
+            // "Ton régime ne marche pas ?"
+            tl.fromTo("#f01-l1", { z: -1600, opacity: 0, filter: "blur(14px)" }, { z: 0, opacity: 1, filter: "blur(0px)", duration: 0.36, ease: "power4.out" }, at(0.16));
+            tl.fromTo("#f01-l2", { rotationX: -100, opacity: 0, y: 40 }, { rotationX: 0, opacity: 1, y: 0, duration: 0.42, ease: "back.out(1.8)" }, at(0.64));
+            tl.fromTo("#f01-l2", { x: 0 }, { x: 14, duration: 0.05, ease: "none", yoyo: true, repeat: 5, immediateRender: false }, at(1.08));
+            // "Le problème…": the question shrinks to the top, the real answer comes in under it
+            tl.fromTo("#f01-top", { scale: 1, y: 0 }, { scale: 0.6, y: -10, duration: 0.45, ease: "power3.inOut", immediateRender: false }, at(1.54));
+            tl.fromTo("#f01-l3", { x: 760, skewX: -16, opacity: 0 }, { x: 0, skewX: 0, opacity: 1, duration: 0.36, ease: "expo.out" }, at(2.30));
+            tl.fromTo("#f01-l4", { scale: 2.6, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.3, ease: "power4.out" }, at(2.74));
+            tl.fromTo("#f01-strike", { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: "expo.out" }, at(2.98));
+            tl.fromTo("#f01-l4", { rotation: 0 }, { rotation: -3, duration: 0.2, ease: "back.out(3)", immediateRender: false }, at(3.0));
+            tl.fromTo("#f01-cam", { scale: 1 }, { scale: 0.94, duration: 0.4, ease: "power3.out", immediateRender: false }, at(3.0));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

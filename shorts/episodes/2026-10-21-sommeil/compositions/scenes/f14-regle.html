@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f14-media { position: absolute; left: 0; top: -480px; width: 1080px; height: 2230px; }
+        #f14-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,15,.55) 0%, rgba(10,10,15,.15) 30%, rgba(10,10,15,.35) 55%, rgba(10,10,15,.92) 74%, #0A0A0F 100%); }
+        #f14-rule { position: absolute; left: 70px; top: 236px; padding: 6px 26px 0; border: 7px solid #00FF87; border-radius: 18px; font-size: 110px; rotate: -4deg; background: rgba(10,10,15,.6); }
+        #f14-dial { position: absolute; left: 240px; top: 390px; width: 600px; height: 600px; }
+        #f14-arc { transform-origin: 300px 300px; }
+        #f14-min { position: absolute; left: 240px; top: 500px; width: 600px; text-align: center; font-size: 30px; color: #F4F1EC; }
+        #f14-7 { position: absolute; left: 240px; top: 545px; width: 600px; text-align: center; font-size: 300px; }
+        #f14-nuit { position: absolute; left: 240px; top: 832px; width: 600px; text-align: center; font-size: 30px; color: #F4F1EC; }
+        #f14-reco { position: absolute; left: 0; width: 1080px; top: 1010px; display: flex; justify-content: center; }
+        #f14-reco .chip { color: var(--green); font-size: 24px; letter-spacing: .08em; }
+        #f14-src { position: absolute; left: 0; width: 1080px; top: 1078px; text-align: center; font-size: 20px; letter-spacing: .06em; color: #cfcbd8; }
+      </style>
+      <div id="root" data-composition-id="f14-regle" data-width="1080" data-height="1920" data-duration="4.5">
+        <div class="scene" id="f14">
+          <div id="f14-media">
+            <video id="f14-vid" class="clip media-fill" src="assets/clips/moon.mp4" muted playsinline data-start="0" data-duration="4.5" data-track-index="0"></video>
+          </div>
+          <div id="f14-shade"></div>
+          <div id="f14-rule" class="disp c-green">La règle</div>
+          <svg id="f14-dial" viewBox="0 0 600 600">
+            <circle cx="300" cy="300" r="262" fill="rgba(10,10,15,.55)" stroke="#24242f" stroke-width="30"/>
+            <g id="f14-ticks" stroke="#F4F1EC" stroke-width="8" stroke-linecap="round" opacity=".7"></g>
+            <circle id="f14-arc" cx="300" cy="300" r="262" fill="none" stroke="#00FF87" stroke-width="30" stroke-linecap="round" transform="rotate(-90 300 300)"
+              style="filter: drop-shadow(0 0 14px rgba(0,255,135,.7))"/>
+          </svg>
+          <div id="f14-min" class="mono">Au moins</div>
+          <div id="f14-7" class="disp ex c-green">7 h</div>
+          <div id="f14-nuit" class="mono">Par nuit</div>
+          <div id="f14-reco"><div class="mono chip"><i class="dot"></i>Recommandation des experts du sommeil</div></div>
+          <div id="f14-src" class="mono">AASM &amp; Sleep Research Society · 2015 · adultes</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f14-regle", T0 = 51.10;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            const ticks = document.getElementById("f14-ticks");
+            for (let h = 0; h < 12; h++) {
+              const a = (h / 12) * Math.PI * 2;
+              const l = document.createElementNS("http://www.w3.org/2000/svg", "line");
+              l.setAttribute("x1", (300 + Math.sin(a) * 214).toFixed(1)); l.setAttribute("y1", (300 - Math.cos(a) * 214).toFixed(1));
+              l.setAttribute("x2", (300 + Math.sin(a) * 232).toFixed(1)); l.setAttribute("y2", (300 - Math.cos(a) * 232).toFixed(1));
+              ticks.appendChild(l);
+            }
+            const C = 2 * Math.PI * 262;
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f14-media", { scale: 1.12 }, { scale: 1.0, duration: 4.5, ease: "none" }, 0);
+            tl.fromTo("#f14-rule", { scale: 2.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.18, ease: "power4.in" }, at(51.3));
+            tl.fromTo("#f14-dial", { scale: 0.4, opacity: 0, rotation: -60 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.5, ease: "back.out(1.6)" }, at(51.6));
+            tl.fromTo("#f14-min", { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "power3.out" }, at(52.06));
+            // "…sept heures": the arc fills 7 of 12 hours
+            tl.fromTo("#f14-arc", { strokeDasharray: C, strokeDashoffset: C }, { strokeDashoffset: C * (1 - 7 / 12), duration: 0.6, ease: "power2.out" }, at(52.28));
+            tl.fromTo("#f14-7", { scale: 2.8, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.24, ease: "power4.out" }, at(52.28));
+            tl.fromTo("#f14-nuit", { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "power3.out" }, at(52.7));
+            tl.fromTo("#f14-7", { scale: 1 }, { scale: 1.08, duration: 0.14, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(52.92));
+            // "c'est la recommandation des experts du sommeil"
+            tl.fromTo("#f14-reco", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, at(53.5));
+            tl.fromTo("#f14-src", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "power1.out" }, at(54.3));
+            tl.fromTo("#f14-dial", { rotation: 0 }, { rotation: 6, duration: 2.4, ease: "sine.inOut", immediateRender: false }, at(52.95));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

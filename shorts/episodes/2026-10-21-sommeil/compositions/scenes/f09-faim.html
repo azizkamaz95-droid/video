@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f09-cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+        #f09-l1 { position: absolute; left: 70px; top: 270px; font-size: 180px; transform-origin: 0% 100%; }
+        #f09-c { position: absolute; left: 70px; top: 470px; color: #F4F1EC; }
+        #f09-bite { position: absolute; left: 50px; top: 560px; width: 980px; height: 420px; --b1: 0px; --b2: 0px;
+          -webkit-mask-image: radial-gradient(circle var(--b1) at 91% 22%, transparent 97%, #000 100%), radial-gradient(circle var(--b2) at 79% 10%, transparent 97%, #000 100%);
+          mask-image: radial-gradient(circle var(--b1) at 91% 22%, transparent 97%, #000 100%), radial-gradient(circle var(--b2) at 79% 10%, transparent 97%, #000 100%);
+          -webkit-mask-composite: source-in; mask-composite: intersect; }
+        #f09-l2 { position: absolute; left: 20px; top: 40px; font-size: 400px; }
+        .f09-crumb { position: absolute; left: 900px; top: 650px; width: 18px; height: 18px; border-radius: 5px; background: #FF2D55; }
+      </style>
+      <div id="root" data-composition-id="f09-faim" data-width="1080" data-height="1920" data-duration="1.45">
+        <div class="scene" id="f09">
+          <div id="f09-cam" class="p3d" data-layout-allow-overlap>
+            <div id="f09-l1" class="disp ex c-white" data-fit="940">Et le pire,</div>
+            <div id="f09-c" class="mono chip"><i class="dot"></i>C'est</div>
+            <div id="f09-bite"><div id="f09-l2" class="disp ex c-red" data-fit="940">La faim</div></div>
+            <i class="f09-crumb" id="f09-cr0"></i><i class="f09-crumb" id="f09-cr1"></i><i class="f09-crumb" id="f09-cr2"></i><i class="f09-crumb" id="f09-cr3"></i><i class="f09-crumb" id="f09-cr4"></i>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f09-faim", T0 = 29.25;
+          const at = (t) => +Math.max(0, t - T0).toFixed(3);
+          const build = () => {
+            document.querySelectorAll("#f09 [data-fit]").forEach((el) => {
+              const base = parseFloat(getComputedStyle(el).fontSize);
+              el.style.fontSize = window.__hyperframes.fitTextFontSize(el.textContent.toUpperCase(), { maxWidth: +el.dataset.fit - 12, fontFamily: '"League Gothic"', fontWeight: 400, baseFontSize: base, minFontSize: 60, step: 2 }).fontSize + "px";
+            });
+            const tl = gsap.timeline({ paused: true });
+            tl.fromTo("#f09-l1", { x: -500, skewX: 16, opacity: 0 }, { x: 0, skewX: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, at(29.34));
+            tl.fromTo("#f09-c", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.22, ease: "power3.out" }, at(29.78));
+            tl.fromTo("#f09-l2", { scale: 2.8, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.22, ease: "power4.in" }, at(29.88));
+            tl.fromTo("#f09-l2", { rotation: 0 }, { rotation: -3, duration: 0.25, ease: "back.out(3)", immediateRender: false }, at(30.1));
+            // two bites taken out of "LA FAIM", with crumbs
+            tl.fromTo("#f09-bite", { "--b1": "0px" }, { "--b1": "115px", duration: 0.08, ease: "power3.out" }, at(30.3));
+            tl.fromTo("#f09-bite", { "--b2": "0px" }, { "--b2": "100px", duration: 0.08, ease: "power3.out" }, at(30.5));
+            [[-160, -220], [-60, -300], [80, -260], [140, -150], [-220, -90]].forEach(([dx, dy], i) => {
+              const t = i < 3 ? 30.32 : 30.52;
+              tl.fromTo("#f09-cr" + i, { x: 0, y: 0, scale: 0, rotation: 0 }, { x: dx, y: dy + 420, scale: 1.2, rotation: 200, duration: 0.5, ease: "power1.in" }, at(t));
+              tl.fromTo("#f09-cr" + i, { opacity: 1 }, { opacity: 0, duration: 0.18, ease: "none", immediateRender: false }, at(t + 0.32));
+            });
+            tl.fromTo("#f09-cam", { scale: 1.06 }, { scale: 1, duration: 1.45, ease: "power2.out" }, 0);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

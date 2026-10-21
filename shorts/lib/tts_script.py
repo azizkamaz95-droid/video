@@ -64,12 +64,15 @@ subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", raw, "-af", f"volume={-16 -
 os.remove(raw)
 dur = round(len(v) / SR, 3)
 json.dump({"duration": dur, "segments": segs}, open(os.path.join(EP, "assets/voice/segments.json"), "w"), ensure_ascii=False, indent=1)
-toks = []
+toks, glue_next = [], False
 for w in " ".join(s["text"] for s in S["sentences"]).split():
-    if toks and all(c in ":;!?…»" for c in w):  # French spaced punctuation sticks to its word
+    if toks and all(c in ":;!?…»%.," for c in w):  # French spaced punctuation (and "55 %") sticks to its word
+        toks[-1] += "\u00a0" + w
+    elif glue_next:
         toks[-1] += "\u00a0" + w
     else:
         toks.append(w)
+    glue_next = w == "«"  # an opening guillemet sticks to the next word
 words = [{"i": i, "word": w, "start": 0.0, "end": 0.0} for i, w in enumerate(toks)]
 json.dump({"duration": dur, "words": words}, open(os.path.join(EP, "assets/voice/words.json"), "w"), ensure_ascii=False, indent=1)
 print(f"{len(segs)} sentences, {dur:.2f}s, {len(words)} words")

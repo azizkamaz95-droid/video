@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit.css" />
+      <style>
+        #root { position: absolute; inset: 0; overflow: hidden; }
+
+        #cx-pos { position:absolute; left:-30px; top:1290px; width:740px; height:740px; transform-origin:50% 100%; perspective:900px; }
+        #cx-flip, #cx-pop { position:absolute; inset:0; transform-origin:50% 60%; }
+        #cx-flip { transform-style:preserve-3d; }
+        .pose { position:absolute; inset:0; width:100%; height:100%; opacity:0; }
+
+      </style>
+      <div id="root" data-composition-id="calix" data-width="1080" data-height="1920" data-duration="69.3">
+        <div id="cx-pos" data-layout-allow-overflow><div id="cx-flip"><div id="cx-pop"><img class="pose" id="cx-app" src="assets/calix/calix-app.png" alt="" /><img class="pose" id="cx-biceps" src="assets/calix/calix-biceps.png" alt="" /><img class="pose" id="cx-choc" src="assets/calix/calix-choc.png" alt="" /><img class="pose" id="cx-curieux" src="assets/calix/calix-curieux.png" alt="" /><img class="pose" id="cx-deux" src="assets/calix/calix-deux.png" alt="" /><img class="pose" id="cx-endormi" src="assets/calix/calix-endormi.png" alt="" /><img class="pose" id="cx-enerve" src="assets/calix/calix-enerve.png" alt="" /><img class="pose" id="cx-explique" src="assets/calix/calix-explique.png" alt="" /><img class="pose" id="cx-fatigue" src="assets/calix/calix-fatigue.png" alt="" /><img class="pose" id="cx-non" src="assets/calix/calix-non.png" alt="" /><img class="pose" id="cx-nutrition" src="assets/calix/calix-nutrition.png" alt="" /><img class="pose" id="cx-pointe" src="assets/calix/calix-pointe.png" alt="" /><img class="pose" id="cx-pouce" src="assets/calix/calix-pouce.png" alt="" /><img class="pose" id="cx-sceptique" src="assets/calix/calix-sceptique.png" alt="" /><img class="pose" id="cx-un" src="assets/calix/calix-un.png" alt="" /></div></div></div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          tl.set("#cx-sceptique",{opacity:1},0.24);
+          tl.fromTo("#cx-pos",{y:760,rotation:7},{y:0,rotation:-2,duration:.55,ease:"back.out(1.5)",immediateRender:true},0.2);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},2.26);
+          tl.set("#cx-sceptique",{opacity:0},2.34);tl.set("#cx-non",{opacity:1},2.34);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},2.34);
+          tl.fromTo("#cx-pos",{y:0,rotation:-2},{y:760,rotation:6,duration:.38,ease:"power3.in",immediateRender:false},3.4);
+          tl.set("#cx-non",{opacity:0},4.75);
+          tl.set("#cx-explique",{opacity:1},4.75);
+          tl.fromTo("#cx-pos",{y:760,rotation:7},{y:0,rotation:-2,duration:.55,ease:"back.out(1.5)",immediateRender:false},4.71);
+          tl.set("#cx-explique",{opacity:0},7.23);tl.set("#cx-pointe",{opacity:1},7.23);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},7.23);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},9.88);
+          tl.set("#cx-pointe",{opacity:0},9.96);tl.set("#cx-deux",{opacity:1},9.96);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},9.96);
+          tl.set("#cx-deux",{opacity:0},11.58);tl.set("#cx-un",{opacity:1},11.58);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},11.58);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},12.69);
+          tl.set("#cx-un",{opacity:0},12.77);tl.set("#cx-endormi",{opacity:1},12.77);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},12.77);
+          tl.set("#cx-endormi",{opacity:0},13.91);tl.set("#cx-fatigue",{opacity:1},13.91);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},13.91);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},15.1);
+          tl.set("#cx-fatigue",{opacity:0},15.18);tl.set("#cx-sceptique",{opacity:1},15.18);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},15.18);
+          tl.set("#cx-sceptique",{opacity:0},17.9);tl.set("#cx-curieux",{opacity:1},17.9);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},17.9);
+          tl.fromTo("#cx-pos",{y:0,rotation:-2},{y:760,rotation:6,duration:.38,ease:"power3.in",immediateRender:false},19.5);
+          tl.set("#cx-curieux",{opacity:0},27.04);
+          tl.set("#cx-choc",{opacity:1},27.04);
+          tl.fromTo("#cx-pos",{y:760,rotation:7},{y:0,rotation:-2,duration:.55,ease:"back.out(1.5)",immediateRender:false},27.0);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},28.17);
+          tl.set("#cx-choc",{opacity:0},28.25);tl.set("#cx-non",{opacity:1},28.25);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},28.25);
+          tl.set("#cx-non",{opacity:0},29.39);tl.set("#cx-enerve",{opacity:1},29.39);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},29.39);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},30.67);
+          tl.set("#cx-enerve",{opacity:0},30.75);tl.set("#cx-fatigue",{opacity:1},30.75);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},30.75);
+          tl.fromTo("#cx-pos",{y:0,rotation:-2},{y:760,rotation:6,duration:.38,ease:"power3.in",immediateRender:false},33.25);
+          tl.set("#cx-fatigue",{opacity:0},42.75);
+          tl.set("#cx-nutrition",{opacity:1},42.75);
+          tl.fromTo("#cx-pos",{y:760,rotation:7},{y:0,rotation:-2,duration:.55,ease:"back.out(1.5)",immediateRender:false},42.71);
+          tl.set("#cx-nutrition",{opacity:0},46.14);tl.set("#cx-choc",{opacity:1},46.14);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},46.14);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},47.98);
+          tl.set("#cx-choc",{opacity:0},48.06);tl.set("#cx-non",{opacity:1},48.06);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},48.06);
+          tl.set("#cx-non",{opacity:0},49.99);tl.set("#cx-explique",{opacity:1},49.99);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},49.99);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},51.27);
+          tl.set("#cx-explique",{opacity:0},51.35);tl.set("#cx-pointe",{opacity:1},51.35);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},51.35);
+          tl.set("#cx-pointe",{opacity:0},53.36);tl.set("#cx-pouce",{opacity:1},53.36);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},53.36);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},55.71);
+          tl.set("#cx-pouce",{opacity:0},55.79);tl.set("#cx-app",{opacity:1},55.79);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},55.79);
+          tl.set("#cx-app",{opacity:0},59.48);tl.set("#cx-pouce",{opacity:1},59.48);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},59.48);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},61.33);
+          tl.set("#cx-pouce",{opacity:0},61.41);tl.set("#cx-pointe",{opacity:1},61.41);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},61.41);
+          tl.set("#cx-pointe",{opacity:0},63.44);tl.set("#cx-app",{opacity:1},63.44);
+          tl.fromTo("#cx-pop",{scale:.9,rotation:-4},{scale:1,rotation:0,duration:.3,ease:"back.out(2.6)",immediateRender:false},63.44);
+          tl.fromTo("#cx-flip",{rotationY:0},{rotationY:90,duration:.08,ease:"power2.in",immediateRender:false},66.4);
+          tl.set("#cx-app",{opacity:0},66.48);tl.set("#cx-biceps",{opacity:1},66.48);
+          tl.fromTo("#cx-flip",{rotationY:-90},{rotationY:0,duration:.22,ease:"back.out(2)",immediateRender:false},66.48);
+          window.__timelines["calix"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Charon",
+ "rate": 1.1,
+ "lead": 0.2,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Ton régime ne marche pas ?",
+   "pause": 0.25
+  },
+  {
+   "id": "s02",
+   "text": "Le problème n'est peut-être pas dans ton assiette…",
+   "pause": 0.35
+  },
+  {
+   "id": "s03",
+   "text": "Il est dans ton lit.",
+   "pause": 0.5
+  },
+  {
+   "id": "s04",
+   "text": "À l'Université de Chicago, des chercheurs ont mis dix adultes en surpoids au régime pendant quatorze jours.",
+   "pause": 0.25
+  },
+  {
+   "id": "s05",
+   "text": "Mêmes personnes, mêmes calories.",
+   "pause": 0.2
+  },
+  {
+   "id": "s06",
+   "text": "Une seule différence : huit heures et demie au lit… ou cinq heures et demie.",
+   "pause": 0.4
+  },
+  {
+   "id": "s07",
+   "text": "Sur la balance, presque le même poids perdu.",
+   "pause": 0.25
+  },
+  {
+   "id": "s08",
+   "text": "Mais regarde ce qui a vraiment fondu.",
+   "pause": 0.35
+  },
+  {
+   "id": "s09",
+   "text": "Avec les nuits courtes : 55 % de graisse perdue en moins.",
+   "pause": 0.3
+  },
+  {
+   "id": "s10",
+   "text": "Et 60 % de masse maigre perdue en plus, celle qui contient tes muscles.",
+   "pause": 0.35
+  },
+  {
+   "id": "s11",
+   "text": "Tu maigris… mais du mauvais côté.",
+   "pause": 0.5
+  },
+  {
+   "id": "s12",
+   "text": "Et le pire, c'est la faim.",
+   "pause": 0.35
+  },
+  {
+   "id": "s13",
+   "text": "Une autre étude : deux nuits de quatre heures seulement.",
+   "pause": 0.25
+  },
+  {
+   "id": "s14",
+   "text": "La leptine, l'hormone qui te dit « stop, j'ai assez mangé », chute de 18 %.",
+   "pause": 0.3
+  },
+  {
+   "id": "s15",
+   "text": "La ghréline, celle qui crie « j'ai faim », grimpe de 28 %.",
+   "pause": 0.3
+  },
+  {
+   "id": "s16",
+   "text": "Et l'envie de sucré, de salé et de féculents ? Jusqu'à 45 % de plus.",
+   "pause": 0.4
+  },
+  {
+   "id": "s17",
+   "text": "Ce n'est pas qu'une question de volonté. Ce sont tes hormones.",
+   "pause": 0.45
+  },
+  {
+   "id": "s18",
+   "text": "La règle : au moins sept heures par nuit, c'est la recommandation des experts du sommeil.",
+   "pause": 0.35
+  },
+  {
+   "id": "s19",
+   "text": "Et dans CaliBodi, tu suis tes nuits juste à côté de tes repas et de tes séances.",
+   "pause": 0.3
+  },
+  {
+   "id": "s20",
+   "text": "Mets un like si tu dors moins de sept heures, et partage à quelqu'un qui se couche toujours trop tard.",
+   "pause": 0.15
+  },
+  {
+   "id": "s21",
+   "text": "Abonne-toi : chaque jour, un nouveau fait fitness vérifié.",
+   "pause": 0.15
+  },
+  {
+   "id": "s22",
+   "text": "Merci, ça nous donne beaucoup de force !",
+   "pause": 0.0
+  }
+ ]
+}

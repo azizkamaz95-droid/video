@@ -78,5 +78,10 @@
   "source": "avatar/calix/source/calix-fatigue.jpg",
   "use": "Sommeil, récupération",
   "original_name": "Bâille, fatigué.png"
+ },
+ "endormi": {
+  "source": "avatar/calix/source/calix-endormi.png",
+  "use": "Sommeil, nuit (scène au lit : grand autocollant)",
+  "original_name": "calix-endormi.png (damier incrusté, détouré par key_checker.py)"
  }
 }

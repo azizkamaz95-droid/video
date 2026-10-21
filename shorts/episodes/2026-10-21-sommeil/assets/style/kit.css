@@ -1,0 +1,117 @@
+/* CaliBodi shorts v2 — shared kit (linked from every composition) */
+:root {
+  --bg: #0a0a0f;
+  --panel: #15151f;
+  --line: #2a2a3a;
+  --fg: #f4f1ec;
+  --heat: #ff6b35;
+  --red: #ff2d55;
+  --water: #00d4ff;
+  --green: #00ff87;
+}
+
+.scene {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  perspective: 1600px;
+  perspective-origin: 50% 40%;
+}
+.p3d {
+  transform-style: preserve-3d;
+}
+.abs {
+  position: absolute;
+}
+
+/* display type: League Gothic, extruded with a stepped text-shadow (light from upper-left) */
+.disp {
+  font-family: "League Gothic", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 0.86;
+  letter-spacing: -0.005em;
+  color: var(--fg);
+  white-space: nowrap;
+}
+.ex {
+  text-shadow:
+    1px 1px 0 var(--ex), 2px 2px 0 var(--ex), 3px 3px 0 var(--ex), 4px 4px 0 var(--ex), 5px 5px 0 var(--ex),
+    6px 6px 0 var(--ex), 7px 7px 0 var(--ex), 8px 8px 0 var(--ex), 9px 9px 0 var(--ex), 10px 10px 0 var(--ex),
+    14px 18px 26px rgba(0, 0, 0, 0.55);
+}
+.ex-sm {
+  text-shadow:
+    1px 1px 0 var(--ex), 2px 2px 0 var(--ex), 3px 3px 0 var(--ex), 4px 4px 0 var(--ex), 5px 5px 0 var(--ex),
+    8px 10px 16px rgba(0, 0, 0, 0.5);
+}
+.c-white { color: var(--fg); --ex: #3b3a46; }
+.c-wheat { color: var(--fg); --ex: #b8481f; }
+.c-heat { color: var(--heat); --ex: #8a2d10; }
+.c-red { color: var(--red); --ex: #6e0a20; }
+.c-water { color: var(--water); --ex: #00586e; }
+.c-wwater { color: var(--fg); --ex: #007a96; }
+.c-green { color: var(--green); --ex: #00703a; }
+
+/* labels */
+.mono {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg);
+  white-space: nowrap;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 22px;
+  border: 3px solid currentColor;
+  border-radius: 999px;
+  background: rgba(10, 10, 15, 0.72);
+}
+.dot {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.sub {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--fg);
+}
+.ghost {
+  font-family: "League Gothic", sans-serif;
+  text-transform: uppercase;
+  line-height: 0.85;
+  color: rgba(244, 241, 236, 0.07);
+  -webkit-text-stroke: 3px rgba(244, 241, 236, 0.16);
+  white-space: nowrap;
+}
+.card {
+  border-radius: 34px;
+  background: var(--panel);
+  border: 3px solid var(--line);
+  box-shadow: 0 40px 90px rgba(0, 0, 0, 0.55);
+  overflow: hidden;
+}
+.media-fill {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tag-sci {
+  color: var(--water);
+}
+
+/* sleep episode: night colour */
+:root { --night: #8b7bff; }
+.c-night { color: var(--night); --ex: #2a1f6e; }
+.c-wnight { color: var(--fg); --ex: #4a3bb8; }

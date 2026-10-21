@@ -17,3 +17,9 @@ python3 clean_cutout.py source/calix-<pose>.jpg /tmp/union.png cutout/calix-<pos
 ```
 
 `--dark-objects` pour la gourde et le téléphone (objets non blancs) ; sans l'option pour l'assiette blanche.
+
+Pose dont le « fond transparent » est un damier dessiné dans l'image (ex. `calix-endormi`, dans son lit) :
+
+```bash
+python3 key_checker.py source/calix-endormi.png cutout/calix-endormi.png 90   # rayon des coins arrondis
+```
