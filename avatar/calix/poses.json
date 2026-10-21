@@ -87,11 +87,16 @@
  "crunch": {
   "source": "avatar/calix/source/calix-crunch.png",
   "use": "Abdos, gainage, exercice au sol",
-  "original_name": "crunch au sol.png (fond salle de sport, détouré au modèle + contour de jambe tracé à la main)"
+  "original_name": "crunch au sol (2).png (fond blanc, tapis retiré)"
  },
  "abdos": {
   "source": "avatar/calix/source/calix-abdos.png",
   "use": "Abdos visibles, résultat, perte de gras",
   "original_name": "t-shirt relevé.png"
+ },
+ "crunch-salle": {
+  "source": "avatar/calix/source/calix-crunch-salle.png",
+  "use": "Abdos en salle (variante)",
+  "original_name": "crunch au sol.png (fond salle de sport, contour de jambe tracé à la main)"
  }
 }
