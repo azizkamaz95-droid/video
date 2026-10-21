@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f06-t { position: absolute; left: 70px; top: 220px; }
+        #f06-pol { left: 610px; top: 350px; width: 400px; height: 540px; rotate: 4deg; }
+        #f06-pol .ph { width: 356px; height: 432px; }
+        #f06-pol .tape { left: 115px; top: -22px; rotate: -4deg; }
+        #f06-q { position: absolute; left: 850px; top: 390px; font-size: 230px; color: var(--red); rotate: 12deg; }
+        .f06-lab { position: absolute; left: 70px; font-size: 56px; }
+        #f06-l1 { top: 420px; } #f06-l2 { top: 640px; }
+        .f06-rule { position: absolute; left: 70px; width: 440px; height: 92px; overflow: visible; }
+        #f06-r1 { top: 492px; } #f06-r2 { top: 712px; }
+        #f06-eq { position: absolute; left: 488px; top: 606px; width: 110px; height: 90px; overflow: visible; }
+        #f06-big { position: absolute; left: 60px; top: 972px; }
+      </style>
+      <div id="root" data-composition-id="f06-taille" data-width="1080" data-height="1920" data-duration="2.42">
+        <div class="scene" id="f06">
+          <div id="f06-t" class="h2" data-fit="940">Et le tour de taille ?</div>
+          <div class="polaroid" id="f06-pol">
+            <i class="tape"></i>
+            <div class="ph"><img src="assets/photos/tape.jpg" alt="mètre ruban autour de la taille" /></div>
+            <div class="cap">tour de taille</div>
+          </div>
+          <div id="f06-q" class="hand">?</div>
+          <div class="f06-lab h3" id="f06-l1">AVANT</div>
+          <svg class="f06-rule" id="f06-r1" viewBox="0 0 440 92"><rect class="f06-tp" x="4" y="14" width="400" height="64" rx="8" fill="#FFF2C4" stroke="#141414" stroke-width="6" /><path class="f06-tk" d="M44 14 V40 M84 14 V52 M124 14 V40 M164 14 V52 M204 14 V40 M244 14 V52 M284 14 V40 M324 14 V52 M364 14 V40" stroke="#141414" stroke-width="5" stroke-linecap="round" /></svg>
+          <div class="f06-lab h3" id="f06-l2">APRÈS</div>
+          <svg class="f06-rule" id="f06-r2" viewBox="0 0 440 92"><rect class="f06-tp" x="4" y="14" width="400" height="64" rx="8" fill="#FFF2C4" stroke="#141414" stroke-width="6" /><path class="f06-tk" d="M44 14 V40 M84 14 V52 M124 14 V40 M164 14 V52 M204 14 V40 M244 14 V52 M284 14 V40 M324 14 V52 M364 14 V40" stroke="#141414" stroke-width="5" stroke-linecap="round" /></svg>
+          <svg id="f06-eq" viewBox="0 0 110 90"><path id="f06-eqp" class="doodle red" style="stroke-width:12" d="M14 30 C 40 26, 70 32, 96 28 M14 62 C 40 58, 70 64, 96 60" /></svg>
+          <div id="f06-big" class="h1" data-fit="960"><span class="mk" id="f06-mk"><i></i><span>PAS BOUGÉ.</span></span></div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f06-taille", at = K3.T(24.28);
+          const build = () => {
+            const R = document.getElementById("f06");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f06", 24.28);
+            K3.drop(tl, at, "#f06-pol", 24.36, 0, { y: -260 });
+            // « Et le tour de taille ? »
+            K3.words(tl, at, document.getElementById("f06-t"), [24.52, 24.53, 24.66, 24.82, 24.9, 25.0]);
+            K3.write(tl, at, "#f06-q", 25.0, 0.3);
+            K3.wobble(tl, at, "#f06-q", 25.32, 6, 3);
+            // « Il n'a pas bougé. » : two identical tape measures
+            K3.pop(tl, at, "#f06-l1", 25.6, { from: 0.6, r0: -6 });
+            tl.fromTo("#f06-r1", { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.2, ease: "power3.out" }, at(25.64));
+            K3.pop(tl, at, "#f06-l2", 25.74, { from: 0.6, r0: 6 });
+            tl.fromTo("#f06-r2", { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.2, ease: "power3.out" }, at(25.78));
+            K3.draw(tl, at, "#f06-eqp", 25.87, 0.18);
+            K3.slam(tl, at, "#f06-big", 26.03, { from: 2.4, r: -2 });
+            K3.marker(tl, at, "#f06-mk", 26.15, 0.16);
+            tl.fromTo("#f06-pol", { scale: 1 }, { scale: 1.05, duration: 2.1, ease: "none", immediateRender: false }, at(24.8));
+            K3.exit(tl, at, "#f06", 26.46);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

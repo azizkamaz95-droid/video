@@ -1,0 +1,120 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Sadachbia",
+ "rate": 1.1,
+ "lead": 0.15,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Je parie que tu ne savais pas ça.",
+   "pause": 0.3
+  },
+  {
+   "id": "s02",
+   "text": "Faire des abdos… ne fait pas fondre la graisse de ton ventre.",
+   "pause": 0.3
+  },
+  {
+   "id": "s03",
+   "text": "Même des milliers d'abdos. Et je vais te le prouver.",
+   "pause": 0.35
+  },
+  {
+   "id": "s04",
+   "text": "En 1984, des chercheurs américains ont fait suivre à treize hommes un programme d'abdos de vingt-sept jours.",
+   "pause": 0.25
+  },
+  {
+   "id": "s05",
+   "text": "Au total ? 5 004 abdos.",
+   "pause": 0.35,
+   "say": "Au total ? Cinq mille quatre abdos."
+  },
+  {
+   "id": "s06",
+   "text": "Ensuite, ils ont prélevé de la graisse sur le ventre, le dos… et les fesses.",
+   "pause": 0.3
+  },
+  {
+   "id": "s07",
+   "text": "Résultat : les cellules graisseuses ont rétréci… mais autant sur le dos et les fesses que sur le ventre.",
+   "pause": 0.3
+  },
+  {
+   "id": "s08",
+   "text": "Et le tour de taille ? Il n'a pas bougé.",
+   "pause": 0.4
+  },
+  {
+   "id": "s09",
+   "text": "Et c'est encore plus fou.",
+   "pause": 0.3
+  },
+  {
+   "id": "s10",
+   "text": "Une autre étude a fait travailler une seule jambe pendant douze semaines.",
+   "pause": 0.2
+  },
+  {
+   "id": "s11",
+   "text": "Jusqu'à 1 200 répétitions par séance.",
+   "pause": 0.35,
+   "say": "Jusqu'à mille deux cents répétitions par séance."
+  },
+  {
+   "id": "s12",
+   "text": "La graisse de cette jambe ? Aucun changement significatif.",
+   "pause": 0.35
+  },
+  {
+   "id": "s13",
+   "text": "Par contre… les bras ont perdu 10 % de leur graisse.",
+   "pause": 0.25,
+   "say": "Par contre… les bras ont perdu dix pour cent de leur graisse."
+  },
+  {
+   "id": "s14",
+   "text": "Les bras !",
+   "pause": 0.4
+  },
+  {
+   "id": "s15",
+   "text": "Quand ton corps brûle de la graisse, il puise dans tes réserves de partout. Pas forcément là où tu forces.",
+   "pause": 0.35
+  },
+  {
+   "id": "s16",
+   "text": "Une méta-analyse de 2022 le confirme : travailler une zone ne fait pas fondre sa graisse.",
+   "pause": 0.4
+  },
+  {
+   "id": "s17",
+   "text": "Donc les abdos, ça te rend plus fort… mais ça ne fait pas apparaître tes abdos.",
+   "pause": 0.4
+  },
+  {
+   "id": "s18",
+   "text": "Ce qui fait fondre ton ventre ? Un léger déficit calorique, de la muscu sur tout le corps… et du sommeil.",
+   "pause": 0.35
+  },
+  {
+   "id": "s19",
+   "text": "Dans CaliBodi, tu suis tes calories et ton programme au même endroit.",
+   "pause": 0.3
+  },
+  {
+   "id": "s20",
+   "text": "Mets un like si tu y croyais encore… et partage à quelqu'un qui en fait cent par soir.",
+   "pause": 0.2
+  },
+  {
+   "id": "s21",
+   "text": "Abonne-toi : chaque jour, un nouveau fait fitness vérifié.",
+   "pause": 0.15
+  },
+  {
+   "id": "s22",
+   "text": "Merci, ça nous donne beaucoup de force !",
+   "pause": 0.0
+  }
+ ]
+}

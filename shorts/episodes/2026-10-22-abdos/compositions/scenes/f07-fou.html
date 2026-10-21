@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f07 .h1, #f07 .h2 { color: #fff; }
+        #f07-l1 { position: absolute; left: 70px; top: 330px; }
+        #f07-l2 { position: absolute; left: 56px; top: 460px; font-size: 230px; }
+        #f07-l3 { position: absolute; left: 56px; top: 720px; }
+        #f07-l3 .mk > i { background: var(--red); }
+        #f07-burst { position: absolute; left: 820px; top: 640px; width: 220px; height: 220px; overflow: visible; }
+        #f07-burst path { stroke: #fff; }
+      </style>
+      <div id="root" data-composition-id="f07-fou" data-width="1080" data-height="1920" data-duration="1.1">
+        <div class="scene" id="f07">
+          <div id="f07-l1" class="h2">Et c'est</div>
+          <div id="f07-l2" class="h1" data-fit="960">ENCORE</div>
+          <div id="f07-l3" class="h1" data-fit="940"><span class="w">PLUS </span><span class="mk" id="f07-mk"><i></i><span>FOU.</span></span></div>
+          <svg id="f07-burst" viewBox="0 0 220 220"><path class="doodle f07-b" d="M40 150 L10 190" /><path class="doodle f07-b" d="M90 110 L80 40" /><path class="doodle f07-b" d="M140 140 L200 90" /></svg>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f07-fou", at = K3.T(26.70);
+          const build = () => {
+            const R = document.getElementById("f07");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            // hard cut to black: no push-in, the words just hit
+            K3.words(tl, at, document.getElementById("f07-l1"), [26.74, 26.83]);
+            K3.slam(tl, at, "#f07-l2", 26.93, { from: 2.6, r: -2 });
+            K3.words(tl, at, document.getElementById("f07-l3"), [27.23, 27.39], { y: 0, s: 2.2, r: 0 });
+            K3.marker(tl, at, "#f07-mk", 27.42, 0.12);
+            K3.draw(tl, at, ".f07-b", 27.44, 0.14);
+            // camera shake on « fou »
+            tl.fromTo("#f07", { x: 0, y: 0 }, { x: 14, y: -10, duration: 0.04, ease: "none", yoyo: true, repeat: 5, immediateRender: false }, at(27.4));
+            tl.fromTo("#f07", { scale: 1 }, { scale: 1.06, duration: 0.4, ease: "power2.out", immediateRender: false }, at(27.39));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

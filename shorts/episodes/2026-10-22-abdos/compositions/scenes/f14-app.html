@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f14-logo { position: absolute; left: 70px; top: 214px; width: 124px; height: 124px; border-radius: 28px; box-shadow: 0 10px 24px rgba(0,0,0,.2); }
+        #f14-name { position: absolute; left: 220px; top: 226px; }
+        .f14-ph { position: absolute; top: 400px; width: 352px; height: 690px; padding: 14px; background: #141414; border-radius: 52px; box-shadow: 0 24px 50px rgba(0,0,0,.28); }
+        .f14-ph img { width: 324px; height: 640px; border-radius: 40px; object-fit: cover; object-position: top; display: block; }
+        #f14-p1 { left: 120px; rotate: -5deg; } #f14-p2 { left: 590px; rotate: 5deg; top: 380px; }
+        .f14-st { position: absolute; padding: 6px 22px 10px; background: var(--paper); border-radius: 8px; box-shadow: 0 8px 18px rgba(0,0,0,.18); font-size: 64px; color: var(--red); white-space: nowrap; }
+        #f14-s1 { left: 90px; top: 960px; rotate: -6deg; } #f14-s2 { left: 560px; top: 940px; rotate: 4deg; }
+        #f14-loop { position: absolute; left: 40px; top: 350px; width: 1000px; height: 790px; overflow: visible; }
+      </style>
+      <div id="root" data-composition-id="f14-app" data-width="1080" data-height="1920" data-duration="3.26">
+        <div class="scene" id="f14">
+          <img id="f14-logo" src="assets/brand/icon-512.png" alt="CaliBodi" />
+          <div id="f14-name" class="h2">CaliBodi</div>
+          <div class="f14-ph" id="f14-p1"><img src="assets/app/nutrition.jpg" alt="écran nutrition" /></div>
+          <div class="f14-ph" id="f14-p2"><img src="assets/app/fitness.jpg" alt="écran programme" /></div>
+          <svg id="f14-loop" viewBox="0 0 1000 790" preserveAspectRatio="none"><path id="f14-lp" class="doodle red" style="stroke-width:10" d="M120 60 C 300 0, 760 0, 930 70 C 1010 200, 1000 560, 930 720 C 760 790, 260 790, 80 720 C 0 560, 0 200, 80 90 C 100 70, 140 56, 190 50" /></svg>
+          <div class="f14-st hand" id="f14-s1">tes calories</div>
+          <div class="f14-st hand" id="f14-s2">ton programme</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f14-app", at = K3.T(60.48);
+          const build = () => {
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f14", 60.48);
+            // « Dans CaliBodi, »
+            K3.pop(tl, at, "#f14-logo", 60.7, { from: 0.2, r0: -30 });
+            K3.slam(tl, at, "#f14-name", 60.84, { from: 2.2, r: 0 });
+            // « tu suis tes calories et ton programme au même endroit. »
+            tl.fromTo("#f14-p1", { y: 900, rotation: -10 }, { y: 0, rotation: 0, duration: 0.45, ease: "back.out(1.2)" }, at(61.3));
+            tl.fromTo("#f14-p2", { y: 900, rotation: 10 }, { y: 0, rotation: 0, duration: 0.45, ease: "back.out(1.2)" }, at(61.45));
+            K3.pop(tl, at, "#f14-s1", 61.84, { from: 0.4, r0: -16 });
+            tl.fromTo("#f14-p1", { scale: 1 }, { scale: 1.05, duration: 0.14, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(61.84));
+            K3.pop(tl, at, "#f14-s2", 62.59, { from: 0.4, r0: 16 });
+            tl.fromTo("#f14-p2", { scale: 1 }, { scale: 1.05, duration: 0.14, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(62.59));
+            K3.draw(tl, at, "#f14-lp", 63.0, 0.42);
+            K3.exit(tl, at, "#f14", 63.5);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

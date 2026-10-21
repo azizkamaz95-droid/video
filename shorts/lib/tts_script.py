@@ -2,7 +2,8 @@
 """Narrate a script with Google TTS, one sentence at a time, with controlled pauses.
 
 usage: tts_script.py <episode_dir>
-Reads  source/script.json {"voice", "rate", "lead", "sentences": [{"id", "text", "pause"}]}
+Reads  source/script.json {"voice", "rate", "lead", "sentences": [{"id", "text", "pause", "say"?, "rate"?}]}
+       ("say" overrides what is spoken, "rate" overrides the speaking rate of one sentence)
 Writes assets/voice/voice.wav (48 kHz mono, -16 LUFS), assets/voice/segments.json (start/end per sentence)
 and a words.json skeleton (script words, timed later by align_words.py --transcript ...).
 Key: GOOGLE_CLOUD_API_KEY in the environment.
@@ -25,11 +26,12 @@ cache = os.path.join(EP, "source/tts-cache")
 os.makedirs(cache, exist_ok=True)
 
 
-def synth(text):
-    name = os.path.join(cache, hashlib.sha1(f"{S['voice']}|{S['rate']}|{text}".encode()).hexdigest()[:16] + ".wav")
+def synth(text, rate=None):
+    rate = rate or S["rate"]
+    name = os.path.join(cache, hashlib.sha1(f"{S['voice']}|{rate}|{text}".encode()).hexdigest()[:16] + ".wav")
     if not os.path.exists(name):
         body = {"input": {"text": text}, "voice": {"languageCode": "fr-FR", "name": S["voice"]},
-                "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": SR, "speakingRate": S["rate"]}}
+                "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": SR, "speakingRate": rate}}
         req = urllib.request.Request(f"https://texttospeech.googleapis.com/v1/text:synthesize?key={key}",
                                      data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
         open(name, "wb").write(base64.b64decode(json.loads(urllib.request.urlopen(req).read())["audioContent"]))
@@ -48,7 +50,7 @@ def synth(text):
 
 parts, segs, t = [np.zeros(int(S.get("lead", 0.2) * SR))], [], S.get("lead", 0.2)
 for s in S["sentences"]:
-    x = synth(s["text"])
+    x = synth(s.get("say", s["text"]), s.get("rate"))  # "say" = what the voice reads (numbers spelled out), "text" = captions
     segs.append({"id": s["id"], "text": s["text"], "start": round(t, 3), "end": round(t + len(x) / SR, 3)})
     parts += [x, np.zeros(int(s["pause"] * SR))]
     t += len(x) / SR + s["pause"]

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f13-l1 { position: absolute; left: 70px; top: 215px; }
+        #f13-l2 { position: absolute; left: 60px; top: 325px; }
+        .f13-p { top: 520px; width: 316px; height: 450px; }
+        .f13-p .ph { width: 272px; height: 342px; }
+        .f13-p .cap { font-size: 50px; }
+        #f13-p1 { left: 40px; rotate: -5deg; } #f13-p2 { left: 382px; rotate: 2deg; top: 500px; } #f13-p3 { left: 724px; rotate: 6deg; }
+        .f13-n { position: absolute; left: -18px; top: -22px; width: 78px; height: 78px; border-radius: 50%; background: var(--red); color: #fff; font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 46px; line-height: 78px; text-align: center; box-shadow: 0 6px 14px rgba(0,0,0,.2); }
+        #f13-night { position: absolute; inset: 0; background: #1E2547; }
+        #f13-night svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+        #f13-zz { position: absolute; left: 150px; top: 40px; font-size: 64px; color: #fff; rotate: -8deg; }
+      </style>
+      <div id="root" data-composition-id="f13-solution" data-width="1080" data-height="1920" data-duration="5.96">
+        <div class="scene" id="f13">
+          <div id="f13-l1" class="h2" data-fit="940">Ce qui fait fondre</div>
+          <div id="f13-l2" class="h1" data-fit="940"><span class="w">ton </span><span class="mk" id="f13-mk"><i></i><span>ventre ?</span></span></div>
+          <div class="polaroid f13-p" id="f13-p1">
+            <div class="ph"><img src="assets/photos/meal.jpg" alt="assiette équilibrée" /></div>
+            <div class="cap">déficit léger</div>
+            <div class="f13-n">1</div>
+          </div>
+          <div class="polaroid f13-p" id="f13-p2">
+            <div class="ph"><video id="f13-vid" class="clip" src="assets/clips/gym.mp4" muted playsinline data-start="3.7" data-duration="2.26" data-track-index="0"></video></div>
+            <div class="cap">muscu complète</div>
+            <div class="f13-n">2</div>
+          </div>
+          <div class="polaroid f13-p" id="f13-p3">
+            <div class="ph"><div id="f13-night">
+              <svg viewBox="0 0 272 342"><path d="M170 92 C 128 98, 104 140, 116 182 C 128 222, 176 238, 210 216 C 166 214, 140 180, 146 142 C 150 116, 162 100, 170 92 Z" fill="#FFE07A" stroke="#141414" stroke-width="4" stroke-linejoin="round" />
+                <g fill="#fff"><circle cx="60" cy="80" r="4" /><circle cx="226" cy="58" r="3" /><circle cx="84" cy="250" r="3" /><circle cx="210" cy="292" r="4" /><circle cx="40" cy="190" r="3" /></g></svg>
+              <div id="f13-zz" class="hand">z z z</div>
+            </div></div>
+            <div class="cap">sommeil</div>
+            <div class="f13-n">3</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f13-solution", at = K3.T(54.52);
+          const build = () => {
+            const R = document.getElementById("f13");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f13", 54.52);
+            // « Ce qui fait fondre ton ventre ? »
+            K3.words(tl, at, document.getElementById("f13-l1"), [54.69, 54.85, 54.93, 55.09]);
+            K3.words(tl, at, document.getElementById("f13-l2"), [55.41, 55.56]);
+            K3.marker(tl, at, "#f13-mk", 55.66, 0.18);
+            K3.wobble(tl, at, "#f13-l2", 55.9, 2, 3);
+            // three answers, three photos thrown on the table
+            K3.drop(tl, at, "#f13-p1", 56.87, 0, { y: -320 });
+            K3.pop(tl, at, "#f13-p1 .f13-n", 57.18, { from: 0.2, r0: -40 });
+            tl.fromTo("#f13-p1 .ph img", { scale: 1.12 }, { scale: 1, duration: 3.4, ease: "none" }, at(56.87));
+            K3.drop(tl, at, "#f13-p2", 58.3, 0, { y: -320 });
+            K3.pop(tl, at, "#f13-p2 .f13-n", 58.51, { from: 0.2, r0: 40 });
+            K3.drop(tl, at, "#f13-p3", 59.68, 0, { y: -320 });
+            K3.pop(tl, at, "#f13-p3 .f13-n", 59.91, { from: 0.2, r0: -40 });
+            K3.write(tl, at, "#f13-zz", 60.0, 0.3);
+            // the previous photo steps back when the next one lands
+            tl.fromTo("#f13-p1", { scale: 1 }, { scale: 0.96, duration: 0.3, ease: "power2.out", immediateRender: false }, at(58.3));
+            tl.fromTo("#f13-p2", { scale: 1 }, { scale: 0.96, duration: 0.3, ease: "power2.out", immediateRender: false }, at(59.68));
+            K3.exit(tl, at, "#f13", 60.24);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

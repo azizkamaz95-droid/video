@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+        #root { position: absolute; inset: 0; overflow: hidden; }
+
+        #cx-pos { position:absolute; left:-40px; top:1286px; width:740px; height:740px; transform-origin:50% 100%; }
+        #cx-pop { position:absolute; inset:0; transform-origin:45% 80%; }
+        .pose { position:absolute; inset:0; width:100%; height:100%; opacity:0; }
+
+      </style>
+      <div id="root" data-composition-id="calix" data-width="1080" data-height="1920" data-duration="74.0">
+        <div id="cx-pos" data-layout-allow-overflow><div id="cx-pop"><img class="pose" id="cx-abdos" src="assets/calix/calix-abdos.png" alt="" /><img class="pose" id="cx-app" src="assets/calix/calix-app.png" alt="" /><img class="pose" id="cx-biceps" src="assets/calix/calix-biceps.png" alt="" /><img class="pose" id="cx-choc" src="assets/calix/calix-choc.png" alt="" /><img class="pose" id="cx-curieux" src="assets/calix/calix-curieux.png" alt="" /><img class="pose" id="cx-endormi" src="assets/calix/calix-endormi.png" alt="" /><img class="pose" id="cx-explique" src="assets/calix/calix-explique.png" alt="" /><img class="pose" id="cx-non" src="assets/calix/calix-non.png" alt="" /><img class="pose" id="cx-nutrition" src="assets/calix/calix-nutrition.png" alt="" /><img class="pose" id="cx-pointe" src="assets/calix/calix-pointe.png" alt="" /><img class="pose" id="cx-pouce" src="assets/calix/calix-pouce.png" alt="" /><img class="pose" id="cx-sceptique" src="assets/calix/calix-sceptique.png" alt="" /></div></div>
+      </div>
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+          tl.set("#cx-pointe",{opacity:1},0.19);
+          tl.fromTo("#cx-pos",{y:820,rotation:10},{y:0,rotation:-3,duration:.42,ease:"back.out(1.6)",immediateRender:true},0.16);
+          tl.fromTo("#cx-pos",{y:0,rotation:-3},{y:820,rotation:8,duration:.3,ease:"power3.in",immediateRender:false},1.85);
+          tl.set("#cx-pointe",{opacity:0},5.99);
+          tl.set("#cx-pointe",{opacity:1},5.99);
+          tl.fromTo("#cx-pos",{y:820,rotation:10},{y:0,rotation:-3,duration:.42,ease:"back.out(1.6)",immediateRender:false},5.96);
+          tl.set("#cx-pointe",{opacity:0},7.35);tl.set("#cx-explique",{opacity:1},7.35);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},7.35);
+          tl.set("#cx-explique",{opacity:0},13.95);tl.set("#cx-choc",{opacity:1},13.95);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},13.95);
+          tl.set("#cx-choc",{opacity:0},15.37);tl.set("#cx-curieux",{opacity:1},15.37);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},15.37);
+          tl.set("#cx-curieux",{opacity:0},22.09);tl.set("#cx-explique",{opacity:1},22.09);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},22.09);
+          tl.set("#cx-explique",{opacity:0},24.52);tl.set("#cx-sceptique",{opacity:1},24.52);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},24.52);
+          tl.set("#cx-sceptique",{opacity:0},25.64);tl.set("#cx-non",{opacity:1},25.64);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},25.64);
+          tl.fromTo("#cx-pos",{y:0,rotation:-3},{y:820,rotation:8,duration:.3,ease:"power3.in",immediateRender:false},26.66);
+          tl.set("#cx-non",{opacity:0},27.88);
+          tl.set("#cx-explique",{opacity:1},27.88);
+          tl.fromTo("#cx-pos",{y:820,rotation:10},{y:0,rotation:-3,duration:.42,ease:"back.out(1.6)",immediateRender:false},27.85);
+          tl.set("#cx-explique",{opacity:0},33.57);tl.set("#cx-sceptique",{opacity:1},33.57);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},33.57);
+          tl.set("#cx-sceptique",{opacity:0},35.28);tl.set("#cx-non",{opacity:1},35.28);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},35.28);
+          tl.set("#cx-non",{opacity:0},37.03);tl.set("#cx-curieux",{opacity:1},37.03);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},37.03);
+          tl.set("#cx-curieux",{opacity:0},39.62);tl.set("#cx-choc",{opacity:1},39.62);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},39.62);
+          tl.set("#cx-choc",{opacity:0},40.56);tl.set("#cx-explique",{opacity:1},40.56);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},40.56);
+          tl.set("#cx-explique",{opacity:0},45.95);tl.set("#cx-pointe",{opacity:1},45.95);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},45.95);
+          tl.set("#cx-pointe",{opacity:0},48.75);tl.set("#cx-non",{opacity:1},48.75);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},48.75);
+          tl.set("#cx-non",{opacity:0},51.08);tl.set("#cx-biceps",{opacity:1},51.08);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},51.08);
+          tl.set("#cx-biceps",{opacity:0},52.68);tl.set("#cx-non",{opacity:1},52.68);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},52.68);
+          tl.set("#cx-non",{opacity:0},54.69);tl.set("#cx-curieux",{opacity:1},54.69);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},54.69);
+          tl.set("#cx-curieux",{opacity:0},56.87);tl.set("#cx-nutrition",{opacity:1},56.87);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},56.87);
+          tl.set("#cx-nutrition",{opacity:0},58.3);tl.set("#cx-biceps",{opacity:1},58.3);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},58.3);
+          tl.set("#cx-biceps",{opacity:0},59.68);tl.set("#cx-endormi",{opacity:1},59.68);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},59.68);
+          tl.set("#cx-endormi",{opacity:0},60.1);tl.set("#cx-abdos",{opacity:1},60.1);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},60.1);
+          tl.set("#cx-abdos",{opacity:0},61.43);tl.set("#cx-app",{opacity:1},61.43);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},61.43);
+          tl.set("#cx-app",{opacity:0},63.92);tl.set("#cx-pouce",{opacity:1},63.92);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},63.92);
+          tl.set("#cx-pouce",{opacity:0},65.77);tl.set("#cx-pointe",{opacity:1},65.77);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},65.77);
+          tl.set("#cx-pointe",{opacity:0},67.87);tl.set("#cx-explique",{opacity:1},67.87);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:5},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},67.87);
+          tl.set("#cx-explique",{opacity:0},70.99);tl.set("#cx-biceps",{opacity:1},70.99);
+          tl.fromTo("#cx-pop",{scale:1.1,rotation:-6},{scale:1,rotation:0,duration:.28,ease:"back.out(2.4)",immediateRender:false},70.99);
+          window.__timelines["calix"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f08-card { left: 70px; top: 214px; width: 430px; height: 140px; rotate: -3deg; }
+        #f08-card .tape { left: 130px; top: -22px; rotate: 4deg; width: 130px; }
+        #f08-lab { position: absolute; left: 30px; top: 22px; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 26px; letter-spacing: .24em; color: var(--red); }
+        #f08-yr { position: absolute; left: 24px; top: 52px; font-size: 84px; }
+        #f08-who { position: absolute; left: 560px; top: 250px; font-size: 66px; rotate: -4deg; }
+        #f08-legs { position: absolute; left: 90px; top: 400px; width: 420px; height: 640px; overflow: visible; }
+        #f08-one { position: absolute; left: 520px; top: 905px; font-size: 70px; color: var(--red); rotate: -5deg; }
+        #f08-colA { position: absolute; left: 560px; top: 380px; width: 470px; height: 500px; }
+        #f08-wk { position: absolute; left: 0; top: 0; padding: 10px 26px; background: var(--ink); color: #fff; border-radius: 12px; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 56px; letter-spacing: -.02em; rotate: 3deg; }
+        #f08-upto { position: absolute; left: 6px; top: 140px; font-size: 64px; }
+        #f08-num { position: absolute; left: 0; top: 200px; font-size: 176px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+        #f08-rep { position: absolute; left: 6px; top: 370px; }
+        #f08-colB { position: absolute; left: 560px; top: 400px; width: 470px; height: 500px; }
+        #f08-q1 { position: absolute; left: 0; top: 0; }
+        #f08-q2 { position: absolute; left: 0; top: 72px; }
+        #f08-no { position: absolute; left: -10px; top: 190px; }
+        #f08-chg { position: absolute; left: 0; top: 310px; }
+        #f08-sig { position: absolute; left: 8px; top: 390px; font-size: 76px; color: var(--red); rotate: -3deg; }
+        #f08-src { position: absolute; left: 70px; top: 1098px; }
+      </style>
+      <div id="root" data-composition-id="f08-jambe" data-width="1080" data-height="1920" data-duration="9.14">
+        <div class="scene" id="f08">
+          <div class="paper" id="f08-card"><i class="tape"></i><div id="f08-lab">ÉTUDE</div><div id="f08-yr" class="h1">2013</div></div>
+          <div id="f08-who" class="hand">11 participants</div>
+          <svg id="f08-legs" viewBox="0 0 420 640">
+            <defs>
+              <path id="f08-lg" d="M58 196 C 52 290, 72 372, 84 420 C 96 480, 94 552, 98 600 L 178 600 C 176 540, 182 470, 188 420 C 198 356, 206 280, 206 206 Z" />
+              <path id="f08-ft" d="M96 598 C 92 616, 94 628, 104 630 L 206 630 C 212 616, 196 604, 178 598 Z" />
+            </defs>
+            <g id="f08-lL"><use href="#f08-lg" fill="#FFF2C4" stroke="#141414" stroke-width="6" stroke-linejoin="round" /><use href="#f08-ft" fill="#141414" /></g>
+            <g id="f08-lR"><g transform="translate(420 0) scale(-1 1)"><use href="#f08-lg" fill="#FFF2C4" stroke="#141414" stroke-width="6" stroke-linejoin="round" /><use id="f08-hot" href="#f08-lg" fill="#E63946" fill-opacity=".42" opacity="0" /><use href="#f08-ft" fill="#141414" /></g>
+              <g id="f08-cellg"><circle id="f08-cell" cx="290" cy="300" r="34" fill="#FFD66B" stroke="#141414" stroke-width="5" /><circle cx="280" cy="290" r="8" fill="#fff6d6" /></g>
+            </g>
+            <path d="M52 40 L368 40 C 380 40, 386 52, 384 70 L 372 214 L 222 222 L 210 150 L 198 222 L 48 214 L 36 70 C 34 52, 40 40, 52 40 Z" fill="#141414" />
+            <path id="f08-arr" class="doodle red" d="M396 470 C 410 420, 380 380, 350 360 M350 360 L 356 398 M350 360 L 386 366" />
+          </svg>
+          <div id="f08-one" class="hand">← 1 seule jambe</div>
+          <div id="f08-colA">
+            <div id="f08-wk">12 semaines</div>
+            <div id="f08-upto" class="hand">jusqu'à</div>
+            <div id="f08-num" class="h1">0</div>
+            <div id="f08-rep" class="h3" data-fit="460">répétitions / séance</div>
+          </div>
+          <div id="f08-colB">
+            <div id="f08-q1" class="h3">La graisse de</div>
+            <div id="f08-q2" class="h3">cette jambe ?</div>
+            <div id="f08-no" class="h1" data-fit="470"><span class="mk" id="f08-mk"><i></i><span>AUCUN</span></span></div>
+            <div id="f08-chg" class="h3">changement</div>
+            <div id="f08-sig" class="hand">significatif.</div>
+          </div>
+          <div id="f08-src" class="foot">Source : Ramírez-Campillo et al., J Strength Cond Res, 2013 · 11 participants</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f08-jambe", at = K3.T(27.80);
+          const build = () => {
+            const R = document.getElementById("f08");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f08", 27.80);
+            // « Une autre étude a fait travailler une seule jambe pendant douze semaines. »
+            K3.drop(tl, at, "#f08-card", 27.92, 0);
+            K3.write(tl, at, "#f08-who", 28.3, 0.5);
+            K3.write(tl, at, "#f08-src", 28.6, 0.6);
+            tl.fromTo("#f08-legs", { y: 700, opacity: 0 }, { y: 0, opacity: 1, duration: 0.42, ease: "back.out(1.3)" }, at(28.6));
+            tl.fromTo("#f08-hot", { opacity: 0 }, { opacity: 1, duration: 0.12, ease: "none" }, at(29.24));
+            tl.fromTo("#f08-lR", { scale: 1, svgOrigin: "300 320" }, { scale: 1.08, duration: 0.1, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(29.24));
+            K3.draw(tl, at, "#f08-arr", 29.3, 0.25);
+            K3.write(tl, at, "#f08-one", 29.4, 0.4);
+            K3.pop(tl, at, "#f08-wk", 29.96, { from: 0.3, r0: -10, r: 3 });
+            // « Jusqu'à 1 200 répétitions par séance. » : the trained leg pumps
+            K3.write(tl, at, "#f08-upto", 30.93, 0.35);
+            tl.fromTo("#f08-num", { opacity: 0, scale: 0.6, transformOrigin: "0% 50%" }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2)" }, at(30.95));
+            K3.count(tl, at, document.getElementById("f08-num"), 0, 1200, 30.98, 0.72);
+            tl.fromTo("#f08-num", { scale: 1 }, { scale: 1.1, duration: 0.07, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(31.68));
+            K3.words(tl, at, document.getElementById("f08-rep"), [31.92, 32.45, 32.56]);
+            tl.fromTo("#f08-lR", { y: 0 }, { y: -26, duration: 0.17, ease: "sine.inOut", yoyo: true, repeat: 9, immediateRender: false }, at(31.0));
+            // « La graisse de cette jambe ? » : column swap, push in on the leg
+            tl.fromTo("#f08-colA", { y: 0, opacity: 1 }, { y: -160, opacity: 0, duration: 0.22, ease: "power3.in", immediateRender: false }, at(33.42));
+            tl.fromTo(["#f08-one", "#f08-arr"], { opacity: 1 }, { opacity: 0, duration: 0.15, ease: "none", immediateRender: false }, at(33.42));
+            K3.words(tl, at, document.getElementById("f08-q1"), [33.57, 33.65, 33.98]);
+            K3.words(tl, at, document.getElementById("f08-q2"), [34.06, 34.30, 34.40]);
+            tl.fromTo("#f08-legs", { scale: 1, transformOrigin: "70% 50%" }, { scale: 1.12, duration: 1.4, ease: "power2.inOut", immediateRender: false }, at(33.6));
+            tl.fromTo("#f08-cellg", { scale: 0, opacity: 0, svgOrigin: "290 300" }, { scale: 1, opacity: 1, duration: 0.3, ease: "back.out(2.4)" }, at(34.3));
+            // « Aucun changement significatif. » : the fat cell shakes its head
+            K3.slam(tl, at, "#f08-no", 35.28, { from: 2.4, r: -2 });
+            K3.marker(tl, at, "#f08-mk", 35.4, 0.16);
+            tl.fromTo("#f08-cellg", { x: 0 }, { x: 10, duration: 0.06, ease: "sine.inOut", yoyo: true, repeat: 5, immediateRender: false }, at(35.32));
+            K3.words(tl, at, document.getElementById("f08-chg"), [35.5]);
+            K3.write(tl, at, "#f08-sig", 35.9, 0.5);
+            K3.exit(tl, at, "#f08", 36.7);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

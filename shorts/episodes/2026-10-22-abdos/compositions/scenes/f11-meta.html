@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        .f11-sh { left: 90px; top: 250px; width: 900px; height: 840px; }
+        #f11-s3 .tape { left: 365px; top: -24px; rotate: -3deg; }
+        #f11-lab { position: absolute; left: 56px; top: 54px; font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 34px; letter-spacing: .26em; color: var(--red); }
+        #f11-yr { position: absolute; left: 46px; top: 100px; font-size: 210px; }
+        #f11-ck { position: absolute; left: 560px; top: 90px; width: 220px; height: 200px; overflow: visible; }
+        #f11-pool { position: absolute; left: 600px; top: 262px; width: 280px; font-size: 54px; rotate: -4deg; }
+        #f11-ln { position: absolute; left: 56px; top: 392px; width: 790px; height: 4px; background: rgba(20,20,20,.12); }
+        #f11-a { position: absolute; left: 56px; top: 430px; }
+        #f11-neq { position: absolute; left: 56px; top: 520px; width: 150px; height: 120px; overflow: visible; }
+        #f11-b { position: absolute; left: 220px; top: 535px; }
+        #f11-src { position: absolute; left: 56px; top: 712px; }
+        #f11-alt { position: absolute; left: 56px; top: 750px; width: 790px; color: #777; }
+      </style>
+      <div id="root" data-composition-id="f11-meta" data-width="1080" data-height="1920" data-duration="5.12">
+        <div class="scene" id="f11">
+          <div class="paper f11-sh" id="f11-s1"></div>
+          <div class="paper f11-sh" id="f11-s2"></div>
+          <div class="paper f11-sh" id="f11-s3">
+            <i class="tape"></i>
+            <div id="f11-lab">MÉTA-ANALYSE</div>
+            <div id="f11-yr" class="h1">2022</div>
+            <svg id="f11-ck" viewBox="0 0 220 200"><path id="f11-ckp" class="doodle red" style="stroke-width:16" d="M20 110 L 80 170 L 200 24" /></svg>
+            <div id="f11-pool" class="hand">plusieurs études réunies</div>
+            <div id="f11-ln"></div>
+            <div id="f11-a" class="h3">Travailler une zone</div>
+            <svg id="f11-neq" viewBox="0 0 150 120"><path id="f11-nq" class="doodle red" style="stroke-width:12" d="M18 44 C 50 40, 90 46, 132 42 M18 82 C 50 78, 90 84, 132 80 M100 10 L 50 112" /></svg>
+            <div id="f11-b" class="h2" data-fit="600"><span class="w">fondre </span><span class="w">sa </span><span class="mk" id="f11-mk"><i></i><span>graisse</span></span></div>
+            <div id="f11-src" class="foot">Source : Ramírez-Campillo et al., Human Movement, 2022</div>
+            <div id="f11-alt" class="foot">À noter : une petite étude de 2023 (16 hommes) trouve un léger effet local, à confirmer.</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f11-meta", at = K3.T(45.74);
+          const build = () => {
+            const R = document.getElementById("f11");
+            K3.fit(R);
+            document.getElementById("f11-mk").querySelector(":scope > i").style.background = "#FFC93C";
+            const tl = gsap.timeline({ paused: true });
+            // a pile of studies lands on the table
+            K3.drop(tl, at, "#f11-s1", 45.78, 5, { d: 0.36 });
+            K3.drop(tl, at, "#f11-s2", 45.88, -4, { d: 0.36 });
+            K3.drop(tl, at, "#f11-s3", 45.98, -1, { d: 0.4 });
+            // « Une méta-analyse de 2022 le confirme : »
+            tl.fromTo("#f11-lab", { opacity: 0, x: -60, scaleX: 1.4, transformOrigin: "0% 50%" }, { opacity: 1, x: 0, scaleX: 1, duration: 0.4, ease: "power3.out" }, at(46.02));
+            K3.slam(tl, at, "#f11-yr", 46.9, { from: 2.2, r: 0 });
+            K3.write(tl, at, "#f11-pool", 47.1, 0.6);
+            K3.draw(tl, at, "#f11-ckp", 47.54, 0.26);
+            tl.fromTo("#f11-ck", { scale: 1 }, { scale: 1.15, duration: 0.1, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(47.78));
+            tl.fromTo("#f11-ln", { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.4, ease: "power2.inOut" }, at(48.1));
+            K3.write(tl, at, "#f11-src", 48.2, 0.5);
+            K3.write(tl, at, "#f11-alt", 48.45, 0.6);
+            // « travailler une zone ne fait pas fondre sa graisse. »
+            K3.words(tl, at, document.getElementById("f11-a"), [48.75, 49.09, 49.23]);
+            K3.draw(tl, at, "#f11-nq", 49.55, 0.3);
+            K3.words(tl, at, document.getElementById("f11-b"), [49.79, 50.11, 50.27]);
+            K3.marker(tl, at, "#f11-mk", 50.36, 0.16);
+            tl.fromTo("#f11-s3", { scale: 1 }, { scale: 1.04, duration: 4.4, ease: "none", immediateRender: false }, at(46.2));
+            K3.exit(tl, at, "#f11", 50.62);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

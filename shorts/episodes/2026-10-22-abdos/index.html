@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Calix #3 — Les abdos ne font pas fondre ton ventre</title>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="assets/style/kit3.js"></script>
+    <link rel="stylesheet" href="assets/style/kit3.css" />
+    <style>
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1080px; height:1920px; overflow:hidden; background:#FFC93C; }
+      #root { position:relative; width:100%; height:100%; overflow:hidden; background:#FFC93C; }
+      #cam { position:absolute; inset:0; transform-origin:50% 42%; }
+      [data-composition-id="main"] div[data-composition-src] { position:absolute; inset:0; }
+      .hf-font-a { font-family:"Montserrat"; font-weight:900; } .hf-font-b { font-family:"Caveat"; font-weight:700; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="74.0" data-width="1080" data-height="1920">
+      <div id="el-bg" data-composition-id="bg" data-composition-src="compositions/bg.html" data-start="0" data-duration="74.0" data-track-index="0" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="cam">
+        <div id="el-f01-hook" data-composition-id="f01-hook" data-composition-src="compositions/scenes/f01-hook.html" data-start="0.0" data-duration="4.3" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f02-milliers" data-composition-id="f02-milliers" data-composition-src="compositions/scenes/f02-milliers.html" data-start="4.3" data-duration="2.9" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f03-etude" data-composition-id="f03-etude" data-composition-src="compositions/scenes/f03-etude.html" data-start="7.2" data-duration="5.12" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f04-total" data-composition-id="f04-total" data-composition-src="compositions/scenes/f04-total.html" data-start="12.32" data-duration="2.9" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f05-zones" data-composition-id="f05-zones" data-composition-src="compositions/scenes/f05-zones.html" data-start="15.22" data-duration="9.06" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f06-taille" data-composition-id="f06-taille" data-composition-src="compositions/scenes/f06-taille.html" data-start="24.28" data-duration="2.42" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f07-fou" data-composition-id="f07-fou" data-composition-src="compositions/scenes/f07-fou.html" data-start="26.7" data-duration="1.1" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f08-jambe" data-composition-id="f08-jambe" data-composition-src="compositions/scenes/f08-jambe.html" data-start="27.8" data-duration="9.14" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f09-bras" data-composition-id="f09-bras" data-composition-src="compositions/scenes/f09-bras.html" data-start="36.94" data-duration="3.48" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f10-partout" data-composition-id="f10-partout" data-composition-src="compositions/scenes/f10-partout.html" data-start="40.42" data-duration="5.32" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f11-meta" data-composition-id="f11-meta" data-composition-src="compositions/scenes/f11-meta.html" data-start="45.74" data-duration="5.12" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f12-abdos" data-composition-id="f12-abdos" data-composition-src="compositions/scenes/f12-abdos.html" data-start="50.86" data-duration="3.66" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f13-solution" data-composition-id="f13-solution" data-composition-src="compositions/scenes/f13-solution.html" data-start="54.52" data-duration="5.96" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f14-app" data-composition-id="f14-app" data-composition-src="compositions/scenes/f14-app.html" data-start="60.48" data-duration="3.26" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-f15-cta" data-composition-id="f15-cta" data-composition-src="compositions/scenes/f15-cta.html" data-start="63.74" data-duration="10.26" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-calix" data-composition-id="calix" data-composition-src="compositions/calix.html" data-start="0" data-duration="74.0" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      </div>
+      <div id="el-captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="74.0" data-track-index="4" data-track-kind="captions" data-width="1080" data-height="1920"></div>
+      <div id="el-fx" data-composition-id="fx" data-composition-src="compositions/fx.html" data-start="0" data-duration="74.0" data-track-index="5" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <audio id="voice" src="assets/voice/voice.wav" data-start="0" data-duration="72.9" data-track-index="10" data-volume="1"></audio>
+      <audio id="music" src="assets/audio/music.wav" data-start="0" data-duration="74.0" data-track-index="11" data-volume="1"></audio>
+      <audio id="sfx" src="assets/audio/sfx.wav" data-start="0" data-duration="74.0" data-track-index="12" data-volume="1"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#cam",{scale:1},{scale:1.09,duration:.11,ease:"power2.out",immediateRender:false},1.27);
+      tl.fromTo("#cam",{scale:1.09},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},1.42);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.11,ease:"power2.out",immediateRender:false},2.96);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},3.11);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.11,ease:"power2.out",immediateRender:false},5.12);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},5.27);
+      tl.fromTo("#cam",{scale:1},{scale:1.1,duration:.11,ease:"power2.out",immediateRender:false},13.95);
+      tl.fromTo("#cam",{scale:1.1},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},14.1);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.11,ease:"power2.out",immediateRender:false},18.53);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},18.68);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.11,ease:"power2.out",immediateRender:false},26.0);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},26.15);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.11,ease:"power2.out",immediateRender:false},35.25);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},35.4);
+      tl.fromTo("#cam",{scale:1},{scale:1.12,duration:.11,ease:"power2.out",immediateRender:false},39.81);
+      tl.fromTo("#cam",{scale:1.12},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},39.96);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.11,ease:"power2.out",immediateRender:false},43.18);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},43.33);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.11,ease:"power2.out",immediateRender:false},47.51);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},47.66);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.11,ease:"power2.out",immediateRender:false},53.87);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},54.02);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.11,ease:"power2.out",immediateRender:false},59.88);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},60.03);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.11,ease:"power2.out",immediateRender:false},64.1);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},64.25);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.11,ease:"power2.out",immediateRender:false},70.96);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.75,ease:"power2.inOut",immediateRender:false},71.11);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

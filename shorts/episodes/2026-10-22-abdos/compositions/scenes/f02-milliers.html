@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f02-a { position: absolute; left: 0; top: 0; width: 1080px; height: 1150px; }
+        #f02-l1 { position: absolute; left: 70px; top: 220px; }
+        #f02-l2 { position: absolute; left: 60px; top: 330px; font-size: 200px; }
+        #f02-l3 { position: absolute; left: 70px; top: 560px; }
+        #f02-tally { position: absolute; left: 70px; top: 700px; width: 940px; height: 420px; }
+        #f02-b { position: absolute; left: 0; top: 0; width: 1080px; height: 1150px; }
+        #f02-b1 { position: absolute; left: 70px; top: 330px; }
+        #f02-b2 { position: absolute; left: 60px; top: 450px; font-size: 230px; }
+        #f02-note { position: absolute; left: 600px; top: 780px; font-size: 84px; color: var(--red); rotate: -6deg; }
+        #f02-arr { position: absolute; left: 500px; top: 800px; width: 120px; height: 250px; }
+      </style>
+      <div id="root" data-composition-id="f02-milliers" data-width="1080" data-height="1920" data-duration="2.9">
+        <div class="scene" id="f02">
+          <div id="f02-a">
+            <div id="f02-l1" class="h2">Même des</div>
+            <div id="f02-l2" class="h1"><span class="mk" id="f02-mk"><i></i><span>milliers</span></span></div>
+            <div id="f02-l3" class="h2">d'abdos.</div>
+            <svg id="f02-tally" viewBox="0 0 940 420"></svg>
+          </div>
+          <div id="f02-b">
+            <div id="f02-b1" class="h2" data-fit="940">Et je vais te le</div>
+            <div id="f02-b2" class="h1" data-fit="900"><span class="mk" id="f02-mk2"><i></i><span>PROUVER.</span></span></div>
+            <svg id="f02-arr" viewBox="0 0 120 250"><path id="f02-arp" class="doodle red" d="M70 10 C 30 80, 100 140, 60 236 M30 196 L60 238 L96 200" /></svg>
+            <div id="f02-note" class="hand">preuves ↓</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f02-milliers", at = K3.T(4.30);
+          const build = () => {
+            const R = document.getElementById("f02");
+            K3.fit(R);
+            // 24 hand-drawn tally groups (deterministic jitter)
+            const svg = document.getElementById("f02-tally");
+            const groups = [];
+            for (let g = 0; g < 24; g++) {
+              const cx = (g % 6) * 156 + 8, cy = Math.floor(g / 6) * 104 + 6;
+              const j = (k) => ((g * 37 + k * 13) % 9) - 4;
+              const d = [0, 1, 2, 3].map((k) => `M${cx + 12 + k * 26 + j(k)} ${cy + 8} L${cx + 14 + k * 26 - j(k + 1)} ${cy + 86}`).join(" ") + ` M${cx} ${cy + 72 + j(5)} L${cx + 112} ${cy + 16 + j(6)}`;
+              const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
+              p.setAttribute("d", d);
+              p.setAttribute("class", "doodle");
+              p.setAttribute("style", "stroke-width:7");
+              svg.appendChild(p);
+              groups.push(p);
+            }
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f02", 4.30);
+            K3.words(tl, at, document.getElementById("f02-l1"), [4.49, 4.65]);
+            K3.slam(tl, at, "#f02-l2", 4.72, { from: 2.2, r: -3 });
+            K3.marker(tl, at, "#f02-mk", 4.86, 0.2);
+            K3.words(tl, at, document.getElementById("f02-l3"), [5.13]);
+            groups.forEach((p, g) => K3.draw(tl, at, p, 4.85 + g * 0.045, 0.16, "none"));
+            // everything clears, the promise lands
+            tl.fromTo("#f02-a", { y: 0, opacity: 1 }, { y: -500, opacity: 0, duration: 0.24, ease: "power3.in", immediateRender: false }, at(5.92));
+            K3.words(tl, at, document.getElementById("f02-b1"), [6.03, 6.10, 6.21, 6.34, 6.42]);
+            K3.slam(tl, at, "#f02-b2", 6.42, { from: 2.4, r: -3 });
+            K3.marker(tl, at, "#f02-mk2", 6.58, 0.18);
+            K3.draw(tl, at, "#f02-arp", 6.7, 0.3);
+            K3.write(tl, at, "#f02-note", 6.66, 0.3);
+            K3.exit(tl, at, "#f02", 6.98);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>
