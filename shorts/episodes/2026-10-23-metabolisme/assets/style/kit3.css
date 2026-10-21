@@ -1,12 +1,14 @@
-/* CaliBodi shorts v3 — "human editor" kit: flat colour, ink type, paper, marker, hand-drawn notes */
+/* CaliBodi shorts v3.1 — "human editor" kit on Cobalt: flat colour + real footage windows, white type, yellow marker, paper, hand-drawn notes */
 :root {
-  --bg: #ffc93c;        /* this episode: Soleil */
-  --ink: #141414;
+  --bg: #2b59c3;        /* this episode: Cobalt */
+  --ink: #ffffff;       /* type on the background colour */
+  --dark: #141414;      /* type on paper and inside the marker */
   --paper: #fffdf6;
-  --hl: #ffffff;        /* marker highlight on the background colour */
-  --red: #cb323e;
+  --hl: #ffc93c;        /* marker highlight (Soleil) */
+  --red: #ff5a4e;
+  --yel: #ffc93c;
   --blue: #2b59c3;
-  --soft: rgba(20, 20, 20, 0.62);
+  --soft: rgba(255, 255, 255, 0.72);
 }
 .scene { position: absolute; inset: 0; overflow: hidden; }
 .abs { position: absolute; }
@@ -16,17 +18,37 @@
 .h3 { font-weight: 800; font-size: 64px; letter-spacing: -0.02em; line-height: 1.05; }
 .body { font-family: "Montserrat", sans-serif; font-weight: 600; font-size: 34px; color: var(--ink); line-height: 1.2; }
 .hand { font-family: "Caveat", cursive; font-weight: 700; color: var(--ink); line-height: 0.95; }
-.foot { font-family: "Montserrat", sans-serif; font-weight: 500; font-size: 24px; color: #555; letter-spacing: 0; }
+.foot { font-family: "Montserrat", sans-serif; font-weight: 500; font-size: 24px; color: rgba(255,255,255,.78); letter-spacing: 0; }
 .w { display: inline-block; white-space: pre; }
 .mk { position: relative; display: inline-block; padding: 0 0.12em; }
 .mk > i { position: absolute; left: 0; right: 0; top: 0.06em; bottom: 0.02em; background: var(--hl); border-radius: 0.08em; transform-origin: 0% 50%; z-index: 0; }
-.mk > span { position: relative; z-index: 1; }
+.mk > span { position: relative; z-index: 1; color: var(--dark); }
 .paper { position: absolute; background: var(--paper); border-radius: 10px; box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(0, 0, 0, 0.04); }
 .tape { position: absolute; width: 170px; height: 48px; background: rgba(255, 255, 255, 0.62); border: 1px solid rgba(0, 0, 0, 0.06); }
 .polaroid { position: absolute; background: #fff; padding: 22px 22px 86px; border-radius: 6px; box-shadow: 0 22px 46px rgba(0, 0, 0, 0.25); }
 .polaroid .ph { position: relative; width: 100%; height: 100%; overflow: hidden; background: #ddd; }
 .polaroid .ph > img, .polaroid .ph > video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.polaroid .cap { position: absolute; left: 0; right: 0; bottom: 14px; text-align: center; font-family: "Caveat", cursive; font-weight: 700; font-size: 54px; color: var(--ink); }
+.polaroid .cap { position: absolute; left: 0; right: 0; bottom: 14px; text-align: center; font-family: "Caveat", cursive; font-weight: 700; font-size: 54px; color: var(--dark); }
 .doodle { fill: none; stroke: var(--ink); stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
 .doodle.red { stroke: var(--red); }
+.doodle.yel { stroke: var(--yel); }
 .tag { position: absolute; font-family: "Caveat", cursive; font-weight: 700; font-size: 44px; color: var(--soft); }
+
+/* type on paper stays dark */
+.paper .h1, .paper .h2, .paper .h3, .paper .hand, .paper .body { color: var(--dark); }
+.paper .foot { color: #555; }
+.paper .doodle { stroke: var(--dark); }
+.paper .doodle.red { stroke: #d63a2f; }
+/* footage windows (real video / photo in a white frame) */
+.win { position: absolute; overflow: hidden; border-radius: 26px; border: 10px solid #fff; background: #000; box-shadow: 0 28px 60px rgba(0, 0, 0, 0.35); }
+.win.round { border-radius: 50%; }
+.win .kb { position: absolute; inset: 0; }
+.win video, .win img, .full video, .full img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.full { position: absolute; inset: 0; overflow: hidden; background: #000; }
+.full .kb { position: absolute; inset: 0; }
+/* labels on footage: yellow or white boxes with dark type */
+.lab { position: absolute; display: inline-block; padding: 0.06em 0.24em 0.1em; border-radius: 0.12em; background: var(--yel); color: var(--dark); font-family: "Montserrat", sans-serif; font-weight: 900; letter-spacing: -0.03em; line-height: 1; white-space: nowrap; box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3); }
+.lab.white { background: #fff; }
+.badge { position: absolute; width: 120px; height: 120px; border-radius: 50%; background: var(--red); color: #fff; font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 74px; line-height: 120px; text-align: center; box-shadow: 0 12px 26px rgba(0, 0, 0, 0.3); }
+.stk { position: absolute; }
+.stk img { width: 100%; height: 100%; display: block; }

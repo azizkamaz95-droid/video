@@ -110,5 +110,27 @@ window.K3 = (function () {
     tl.fromTo(sel, { rotation: 0 }, { rotation: amp, duration: 0.06, ease: "sine.inOut", yoyo: true, repeat: n, immediateRender: false }, at(t));
   }
 
-  return { T, fit, split, words, pop, slam, slide, marker, draw, write, fmtInt, count, drop, enter, exit, wobble };
+
+  // slow Ken Burns push on a footage layer
+  function kb(tl, at, sel, t0, t1, s0 = 1.14, s1 = 1.0, x0 = 0, x1 = 0) {
+    tl.fromTo(sel, { scale: s0, x: x0 }, { scale: s1, x: x1, duration: Math.max(0.1, t1 - t0), ease: "none" }, at(t0));
+  }
+
+  // gentle floating for stickers between t0 and t1
+  function bob(tl, at, sel, t0, t1, amp = 14, half = 0.9) {
+    const n = Math.max(1, Math.floor((t1 - t0) / half) - 1);
+    tl.fromTo(sel, { y: 0 }, { y: -amp, duration: half, ease: "sine.inOut", yoyo: true, repeat: n, immediateRender: false }, at(t0));
+  }
+
+  // hard cut: show / hide instantly
+  function cut(tl, at, sel, t, on = true) {
+    tl.set(sel, { opacity: on ? 1 : 0 }, at(t));
+  }
+
+  // sticker thrown in from off-frame with a spin
+  function toss(tl, at, sel, t, o = {}) {
+    tl.fromTo(sel, { x: o.dx ?? 700, y: o.dy ?? 200, rotation: o.r0 ?? 40, scale: 0.6, opacity: 0 }, { x: 0, y: 0, rotation: o.r ?? 0, scale: 1, opacity: 1, duration: o.d ?? 0.45, ease: "back.out(1.6)" }, at(t));
+  }
+
+  return { T, fit, split, words, pop, slam, slide, marker, draw, write, fmtInt, count, drop, enter, exit, wobble, kb, bob, cut, toss };
 })();
