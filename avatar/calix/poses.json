@@ -98,5 +98,10 @@
   "source": "avatar/calix/source/calix-crunch-salle.png",
   "use": "Abdos en salle (variante)",
   "original_name": "crunch au sol.png (fond salle de sport, contour de jambe tracé à la main)"
+ },
+ "deshydrate": {
+  "source": "avatar/calix/source/calix-deshydrate.png",
+  "use": "Déshydratation, soif, chaleur, eau",
+  "original_name": "calix deshydraté.png (bouteille gardée, ombre du fond retirée)"
  }
 }
