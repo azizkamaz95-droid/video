@@ -50,7 +50,9 @@ for h in hits[:count]:
     else:
         # smallest rendition that still covers a 1080x1920 frame (4K is ~10x heavier for nothing)
         rends = [r for r in h["videos"].values() if r.get("url")]
-        good = [r for r in rends if min(r["width"], r["height"]) >= 1080]
+        # PX_MIN=1920 asks for a rendition whose short side covers a full-bleed vertical crop of a landscape clip (sharper)
+        need = int(os.environ.get("PX_MIN", "1080")) if h["videos"]["medium"]["width"] > h["videos"]["medium"]["height"] else 1080
+        good = [r for r in rends if min(r["width"], r["height"]) >= need]
         v = min(good, key=lambda r: r["width"] * r["height"]) if good else max(rends, key=lambda r: r["width"] * r["height"])
         src, ext = v["url"], ".mp4"
     name = f"pixabay-{kind}-{h['id']}{ext}"

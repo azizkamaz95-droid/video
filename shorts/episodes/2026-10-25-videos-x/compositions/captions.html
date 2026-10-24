@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        .cg { position: absolute; left: 60px; width: 960px; top: 1040px; height: 240px; display: flex; align-items: center; justify-content: center; opacity: 0; }
+        .cg p { width: 100%; text-align: center; font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 104px; line-height: 1.02; letter-spacing: -.03em;
+                color: #fff; -webkit-text-stroke: 12px #141414; paint-order: stroke fill; text-shadow: 0 10px 34px rgba(0,0,0,.6); }
+        .cw { display: inline-block; margin: 0 .1em; color: #fff; }
+      </style>
+      <div id="root" data-composition-id="captions" data-width="1080" data-height="1920" data-duration="12.4">
+        <div id="capwrap"><div class="cg" id="cg0"><p><span class="cw" id="cw0">VIDÉOS</span><span class="cw kw" id="cw1">X,</span></p></div><div class="cg" id="cg1"><p><span class="cw kw" id="cw2">MASTURBATION.</span></p></div><div class="cg" id="cg2"><p><span class="cw kw" id="cw3">TROIS</span><span class="cw" id="cw4">FAITS</span></p></div><div class="cg" id="cg3"><p><span class="cw" id="cw5">QUE</span><span class="cw" id="cw6">PRESQUE</span></p></div><div class="cg" id="cg4"><p><span class="cw kw" id="cw7">PERSONNE</span><span class="cw" id="cw8">NE</span></p></div><div class="cg" id="cg5"><p><span class="cw" id="cw9">TE</span><span class="cw" id="cw10">DIT.</span></p></div><div class="cg" id="cg6"><p><span class="cw" id="cw11">LE</span><span class="cw" id="cw12">TROISIÈME</span></p></div><div class="cg" id="cg7"><p><span class="cw" id="cw13">VA</span><span class="cw" id="cw14">TE</span></p></div><div class="cg" id="cg8"><p><span class="cw kw" id="cw15">SURPRENDRE.</span></p></div><div class="cg" id="cg9"><p><span class="cw" id="cw16">RESTE</span><span class="cw" id="cw17">JUSQU'AU</span></p></div><div class="cg" id="cg10"><p><span class="cw kw" id="cw18">BOUT.</span></p></div><div class="cg" id="cg11"><p><span class="cw" id="cw19">FAIT</span><span class="cw" id="cw20">NUMÉRO</span></p></div><div class="cg" id="cg12"><p><span class="cw kw" id="cw21">UN.</span></p></div><div class="cg" id="cg13"><p><span class="cw" id="cw22">PERDRE</span><span class="cw" id="cw23">LE</span></p></div><div class="cg" id="cg14"><p><span class="cw kw" id="cw24">CONTRÔLE,</span></p></div><div class="cg" id="cg15"><p><span class="cw" id="cw25">ÇA</span><span class="cw" id="cw26">EXISTE</span></p></div><div class="cg" id="cg16"><p><span class="cw kw" id="cw27">VRAIMENT.</span></p></div><div class="cg" id="cg17"><p><span class="cw" id="cw28">L'OMS</span></p></div></div>
+      </div>
+      <script>
+        (function () {
+          const build = () => {
+            const tl = gsap.timeline({ paused: true });
+            tl.set("#cg0",{opacity:1},0.226);tl.fromTo("#cg0",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},0.226);tl.set("#cg0",{opacity:0},1.589);
+            tl.fromTo("#cw0",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},0.256);
+            tl.fromTo("#cw0",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},0.316);
+            tl.fromTo("#cw0",{color:"#FFC93C"},{color:"#FFFFFF",duration:.05,ease:"none",immediateRender:false},0.753);
+            tl.fromTo("#cw1",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},0.753);
+            tl.fromTo("#cw1",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},0.813);
+            tl.set("#cg1",{opacity:1},1.589);tl.fromTo("#cg1",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},1.589);tl.set("#cg1",{opacity:0},2.871);
+            tl.fromTo("#cw2",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},1.619);
+            tl.fromTo("#cw2",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},1.679);
+            tl.set("#cg2",{opacity:1},2.871);tl.fromTo("#cg2",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},2.871);tl.set("#cg2",{opacity:0},3.352);
+            tl.fromTo("#cw3",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},2.901);
+            tl.fromTo("#cw3",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},2.961);
+            tl.fromTo("#cw4",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},3.142);
+            tl.fromTo("#cw4",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},3.202);
+            tl.set("#cg3",{opacity:1},3.352);tl.fromTo("#cg3",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},3.352);tl.set("#cg3",{opacity:0},3.913);
+            tl.fromTo("#cw5",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},3.382);
+            tl.fromTo("#cw5",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},3.442);
+            tl.fromTo("#cw5",{color:"#FFC93C"},{color:"#FFFFFF",duration:.05,ease:"none",immediateRender:false},3.542);
+            tl.fromTo("#cw6",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},3.542);
+            tl.fromTo("#cw6",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},3.602);
+            tl.set("#cg4",{opacity:1},3.913);tl.fromTo("#cg4",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},3.913);tl.set("#cg4",{opacity:0},4.474);
+            tl.fromTo("#cw7",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},3.943);
+            tl.fromTo("#cw7",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},4.003);
+            tl.fromTo("#cw8",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},4.344);
+            tl.fromTo("#cw8",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},4.404);
+            tl.set("#cg5",{opacity:1},4.474);tl.fromTo("#cg5",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},4.474);tl.set("#cg5",{opacity:0},5.116);
+            tl.fromTo("#cw9",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},4.504);
+            tl.fromTo("#cw9",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},4.564);
+            tl.fromTo("#cw9",{color:"#FFC93C"},{color:"#FFFFFF",duration:.05,ease:"none",immediateRender:false},4.665);
+            tl.fromTo("#cw10",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},4.665);
+            tl.fromTo("#cw10",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},4.725);
+            tl.set("#cg6",{opacity:1},5.116);tl.fromTo("#cg6",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},5.116);tl.set("#cg6",{opacity:0},5.757);
+            tl.fromTo("#cw11",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},5.146);
+            tl.fromTo("#cw11",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},5.206);
+            tl.fromTo("#cw11",{color:"#FFC93C"},{color:"#FFFFFF",duration:.05,ease:"none",immediateRender:false},5.306);
+            tl.fromTo("#cw12",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},5.306);
+            tl.fromTo("#cw12",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},5.366);
+            tl.set("#cg7",{opacity:1},5.757);tl.fromTo("#cg7",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},5.757);tl.set("#cg7",{opacity:0},6.077);
+            tl.fromTo("#cw13",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},5.787);
+            tl.fromTo("#cw13",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},5.847);
+            tl.fromTo("#cw13",{color:"#FFC93C"},{color:"#FFFFFF",duration:.05,ease:"none",immediateRender:false},5.947);
+            tl.fromTo("#cw14",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},5.947);
+            tl.fromTo("#cw14",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},6.007);
+            tl.set("#cg8",{opacity:1},6.077);tl.fromTo("#cg8",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},6.077);tl.set("#cg8",{opacity:0},7.156);
+            tl.fromTo("#cw15",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},6.107);
+            tl.fromTo("#cw15",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},6.167);
+            tl.set("#cg9",{opacity:1},7.2);tl.fromTo("#cg9",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},7.2);tl.set("#cg9",{opacity:0},7.921);
+            tl.fromTo("#cw16",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},7.23);
+            tl.fromTo("#cw16",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},7.29);
+            tl.fromTo("#cw16",{color:"#FFC93C"},{color:"#FFFFFF",duration:.05,ease:"none",immediateRender:false},7.63);
+            tl.fromTo("#cw17",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},7.63);
+            tl.fromTo("#cw17",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},7.69);
+            tl.set("#cg10",{opacity:1},7.921);tl.fromTo("#cg10",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},7.921);tl.set("#cg10",{opacity:0},8.679);
+            tl.fromTo("#cw18",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},7.951);
+            tl.fromTo("#cw18",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},8.011);
+            tl.set("#cg11",{opacity:1},8.723);tl.fromTo("#cg11",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},8.723);tl.set("#cg11",{opacity:0},9.3);
+            tl.fromTo("#cw19",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},8.753);
+            tl.fromTo("#cw19",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},8.813);
+            tl.fromTo("#cw19",{color:"#FFC93C"},{color:"#FFFFFF",duration:.05,ease:"none",immediateRender:false},8.865);
+            tl.fromTo("#cw20",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},8.865);
+            tl.fromTo("#cw20",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},8.925);
+            tl.set("#cg12",{opacity:1},9.3);tl.fromTo("#cg12",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},9.3);tl.set("#cg12",{opacity:0},9.925);
+            tl.fromTo("#cw21",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},9.33);
+            tl.fromTo("#cw21",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},9.39);
+            tl.set("#cg13",{opacity:1},9.925);tl.fromTo("#cg13",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},9.925);tl.set("#cg13",{opacity:0},10.406);
+            tl.fromTo("#cw22",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},9.955);
+            tl.fromTo("#cw22",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},10.015);
+            tl.fromTo("#cw22",{color:"#FFC93C"},{color:"#FFFFFF",duration:.05,ease:"none",immediateRender:false},10.276);
+            tl.fromTo("#cw23",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},10.276);
+            tl.fromTo("#cw23",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},10.336);
+            tl.set("#cg14",{opacity:1},10.406);tl.fromTo("#cg14",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},10.406);tl.set("#cg14",{opacity:0},10.807);
+            tl.fromTo("#cw24",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},10.436);
+            tl.fromTo("#cw24",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},10.496);
+            tl.set("#cg15",{opacity:1},10.807);tl.fromTo("#cg15",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},10.807);tl.set("#cg15",{opacity:0},11.368);
+            tl.fromTo("#cw25",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},10.837);
+            tl.fromTo("#cw25",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},10.897);
+            tl.fromTo("#cw25",{color:"#FFC93C"},{color:"#FFFFFF",duration:.05,ease:"none",immediateRender:false},11.013);
+            tl.fromTo("#cw26",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},11.013);
+            tl.fromTo("#cw26",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},11.073);
+            tl.set("#cg16",{opacity:1},11.368);tl.fromTo("#cg16",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},11.368);tl.set("#cg16",{opacity:0},12.16);
+            tl.fromTo("#cw27",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},11.398);
+            tl.fromTo("#cw27",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},11.458);
+            tl.set("#cg17",{opacity:1},12.16);tl.fromTo("#cg17",{scale:.7,y:30},{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false},12.16);tl.set("#cg17",{opacity:0},12.35);
+            tl.fromTo("#cw28",{color:"#FFFFFF",scale:1},{color:"#FFC93C",scale:1.12,duration:.06,ease:"power2.out",immediateRender:false},12.19);
+            tl.fromTo("#cw28",{scale:1.12},{scale:1,duration:.18,ease:"back.out(2)",immediateRender:false},12.25);
+            window.__timelines["captions"] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

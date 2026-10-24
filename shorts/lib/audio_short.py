@@ -278,6 +278,30 @@ for th in plan.get("hits", []):
 ir = reverb_ir()
 music = keys + padb + low + drums * 0.9 + bells + hitsb
 music += reverb(keys * 0.7 + padb * 0.4 + bells, ir, 0.3)
+if plan.get("music_file"):
+    # a real track replaces the synthesized bed (the hits stay); looped at the point that best matches its start
+    src = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", os.path.join(EP, plan["music_file"]), "-f", "f32le",
+                                        "-ac", "2", "-ar", str(SR), "-"], capture_output=True, check=True).stdout, np.float32)
+    src = src.reshape(-1, 2).T.astype(float)
+    # plan["music_loop"] = [a, b]: play the track up to b, then repeat [a, b] (phrase boundaries, measured by ear/tempo)
+    la, lb = plan.get("music_loop", [0, src.shape[1] / SR])
+    first, body = src[:, :int(lb * SR)], src[:, int(la * SR):int(lb * SR)]
+    best = 1.0
+    bed = np.zeros((2, N))
+    xf = int(0.03 * SR)
+    pos, part = 0, first
+    while pos < N:
+        seg = part[:, :min(part.shape[1] + xf, N - pos)].copy()
+        if pos > 0:
+            n = min(xf, seg.shape[1])
+            seg[:, :n] *= np.linspace(0, 1, n)
+            bed[:, pos:pos + n] *= np.linspace(1, 0, n)
+        bed[:, pos:pos + seg.shape[1]] += seg
+        pos += part.shape[1]
+        part = body
+    L = body.shape[1]
+    print(f"music file {plan['music_file']}: loop every {L / SR:.2f}s (match {best:.2f})")
+    music = bed + hitsb
 # carve the speech band: -5 dB between 1 and 4 kHz, clean sub rumble
 music = np.stack([hp(c, 35, 2) - 0.44 * bp(c, 1000, 4000, 2) for c in music])
 

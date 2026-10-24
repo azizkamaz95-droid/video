@@ -1,0 +1,103 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Sadachbia",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Vidéos X, masturbation.",
+   "pause": 0.4,
+   "rate": 0.95
+  },
+  {
+   "id": "s02",
+   "text": "Trois faits que presque personne ne te dit.",
+   "pause": 0.3
+  },
+  {
+   "id": "s03",
+   "text": "Le troisième va te surprendre. Reste jusqu'au bout.",
+   "pause": 0.55
+  },
+  {
+   "id": "s04",
+   "text": "Fait numéro un. Perdre le contrôle, ça existe vraiment.",
+   "pause": 0.35
+  },
+  {
+   "id": "s05",
+   "text": "L'OMS reconnaît le trouble du comportement sexuel compulsif.",
+   "pause": 0.35
+  },
+  {
+   "id": "s06",
+   "text": "Dans une enquête américaine, environ un homme sur dix disait avoir du mal à contrôler ses envies sexuelles. Au point d'en souffrir.",
+   "pause": 0.55
+  },
+  {
+   "id": "s07",
+   "text": "Fait numéro deux. Ça peut toucher ton couple.",
+   "pause": 0.35
+  },
+  {
+   "id": "s08",
+   "text": "Des chercheurs ont rassemblé les études sur la masturbation en solo.",
+   "pause": 0.3
+  },
+  {
+   "id": "s09",
+   "text": "Chez les hommes, environ sept études sur dix trouvent le même lien : plus de masturbation, moins de satisfaction au lit.",
+   "pause": 0.55
+  },
+  {
+   "id": "s10",
+   "text": "Fait numéro trois. Celui que je t'ai promis.",
+   "pause": 0.45
+  },
+  {
+   "id": "s11",
+   "text": "Une étude a interrogé environ 2 000 hommes jeunes.",
+   "pause": 0.35,
+   "say": "Une étude a interrogé environ deux mille hommes jeunes."
+  },
+  {
+   "id": "s12",
+   "text": "Le plus lié aux problèmes d'érection, ce n'était pas la masturbation. C'était une consommation de vidéos X incontrôlée.",
+   "pause": 0.55
+  },
+  {
+   "id": "s13",
+   "text": "Attention : ce sont des liens. Pas des preuves.",
+   "pause": 0.3,
+   "rate": 0.92
+  },
+  {
+   "id": "s14",
+   "text": "Mais si tu sens que tu perds le contrôle, parles-en à un médecin.",
+   "pause": 0.55
+  },
+  {
+   "id": "s15",
+   "text": "Selon toi, les vidéos X, c'est un vrai problème chez les jeunes ? Réponds oui ou non.",
+   "pause": 0.45
+  },
+  {
+   "id": "s16",
+   "text": "Partage cette vidéo à quelqu'un qui doit l'entendre.",
+   "pause": 0.3
+  },
+  {
+   "id": "s17",
+   "text": "Et abonne-toi : une nouvelle vidéo chaque jour à 18h.",
+   "pause": 0.3,
+   "say": "Et abonne-toi : une nouvelle vidéo chaque jour à dix-huit heures."
+  },
+  {
+   "id": "s18",
+   "text": "Pour suivre tes entraînements, ton sommeil et ton alimentation, découvre CaliBodi sur calibodi.com.",
+   "pause": 0.0,
+   "say": "Pour suivre tes entraînements, ton sommeil et ton alimentation, découvre CaliBodi sur calibodi point com."
+  }
+ ]
+}
