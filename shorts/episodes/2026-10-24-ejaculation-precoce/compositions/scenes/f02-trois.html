@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f02-t { position: absolute; left: 70px; top: 200px; font-size: 190px; }
+        #f02-sub { position: absolute; left: 76px; top: 400px; font-size: 76px; }
+        .f02-c { top: 540px; width: 300px; height: 400px; }
+        #f02-c1 { left: 50px; rotate: -5deg; } #f02-c2 { left: 390px; rotate: 2deg; top: 520px; } #f02-c3 { left: 730px; rotate: 6deg; }
+        .f02-c .h1 { position: absolute; left: 0; right: 0; top: 70px; text-align: center; font-size: 200px; }
+        .f02-c svg { position: absolute; left: 70px; top: 270px; width: 160px; height: 110px; overflow: visible; }
+        #f02-q { position: absolute; inset: 0; border-radius: 10px; background: var(--yel); opacity: 0; }
+        #f02-q .h1 { top: 60px; font-size: 260px; }
+        #f02-sur { left: 470px; top: 960px; font-size: 64px; background: #fff; rotate: -6deg; }
+        #f02-bar { position: absolute; left: 70px; top: 1060px; width: 940px; height: 26px; border-radius: 13px; background: rgba(255,255,255,.3); overflow: hidden; }
+        #f02-fill { position: absolute; inset: 0; background: #fff; transform-origin: 0% 50%; transform: scaleX(0); }
+        #f02-end { position: absolute; left: 600px; top: 960px; font-size: 70px; }
+      </style>
+      <div id="root" data-composition-id="f02-trois" data-width="1080" data-height="1920" data-duration="7.4">
+        <div class="scene" id="f02">
+          <div id="f02-t" class="h1"><span class="mk" id="f02-mk"><i></i><span>3</span></span> FAITS</div>
+          <div id="f02-sub" class="hand">que presque personne ne te dit…</div>
+          <div class="paper f02-c" id="f02-c1"><div class="h1">1</div><svg viewBox="0 0 160 110"><path id="f02-k1" class="doodle" style="stroke:#1F3FA0;stroke-width:16" d="M14 58 L 58 100 L 146 10" /></svg></div>
+          <div class="paper f02-c" id="f02-c2"><div class="h1">2</div><svg viewBox="0 0 160 110"><path id="f02-k2" class="doodle" style="stroke:#1F3FA0;stroke-width:16" d="M14 58 L 58 100 L 146 10" /></svg></div>
+          <div class="paper f02-c" id="f02-c3"><div class="h1">3</div><div id="f02-q" data-layout-allow-overlap><div class="h1">?</div></div></div>
+          <div class="lab" id="f02-sur">va te surprendre</div>
+          <div id="f02-bar"><div id="f02-fill"></div></div>
+          <div id="f02-end" class="hand">jusqu'au bout →</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f02-trois", at = K3.T(1.85);
+          const W = (id) => document.getElementById(id);
+          const build = () => {
+            const R = document.getElementById("f02");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.slam(tl, at, "#f02-t", 1.94, { from: 2.4, r: -3 });
+            K3.marker(tl, at, "#f02-mk", 2.1, 0.14);
+            K3.write(tl, at, "#f02-sub", 2.42, 1.0);
+            K3.drop(tl, at, "#f02-c1", 2.5, 0, { y: -300 });
+            K3.drop(tl, at, "#f02-c2", 2.7, 0, { y: -300 });
+            K3.drop(tl, at, "#f02-c3", 2.9, 0, { y: -300 });
+            // « Les deux premiers vont te rassurer » : 1 and 2 get a tick
+            tl.fromTo(["#f02-c1", "#f02-c2"], { scale: 1 }, { scale: 1.08, duration: 0.14, ease: "power2.out", yoyo: true, repeat: 1, immediateRender: false }, at(4.43));
+            K3.draw(tl, at, "#f02-k1", 5.13, 0.2);
+            K3.draw(tl, at, "#f02-k2", 5.25, 0.2);
+            // « Le troisième va te surprendre » : 3 comes forward, turns yellow
+            tl.fromTo(["#f02-c1", "#f02-c2"], { opacity: 1 }, { opacity: 0.45, duration: 0.2, ease: "none", immediateRender: false }, at(6.1));
+            tl.fromTo("#f02-c3", { scale: 1, x: 0 }, { scale: 1.22, x: -40, duration: 0.3, ease: "back.out(2)", immediateRender: false }, at(6.11));
+            tl.fromTo("#f02-q", { opacity: 0 }, { opacity: 1, duration: 0.08, ease: "none" }, at(6.5));
+            K3.wobble(tl, at, "#f02-c3", 6.6, 4, 5);
+            K3.pop(tl, at, "#f02-sur", 6.79, { from: 0.4, r0: -16, r: -6 });
+            // « Reste jusqu'au bout » : the progress bar runs to the end
+            tl.fromTo("#f02-sur", { opacity: 1 }, { opacity: 0, duration: 0.12, ease: "none", immediateRender: false }, at(7.8));
+            tl.fromTo("#f02-fill", { scaleX: 0 }, { scaleX: 1, duration: 1.1, ease: "power2.inOut" }, at(7.88));
+            K3.write(tl, at, "#f02-end", 8.2, 0.5);
+            K3.exit(tl, at, "#f02", 9.03);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

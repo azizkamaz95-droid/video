@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f16-a { position: absolute; left: 0; top: 0; width: 1080px; height: 1150px; }
+        .f16-row { position: absolute; left: 60px; width: 960px; height: 230px; }
+        #f16-r1 { top: 260px; } #f16-r2 { top: 620px; }
+        .f16-ic { position: absolute; left: 0; top: 10px; width: 180px; height: 180px; border-radius: 50%; background: var(--paper); box-shadow: 0 12px 26px rgba(0,0,0,.25); }
+        .f16-ic svg { position: absolute; left: 28px; top: 28px; width: 124px; height: 124px; overflow: visible; }
+        .f16-ic .doodle { stroke: var(--dark); }
+        .f16-row .h2 { position: absolute; left: 220px; top: 14px; }
+        .f16-row .hand { position: absolute; left: 226px; top: 122px; font-size: 58px; color: var(--yel); white-space: nowrap; }
+        #f16-b { position: absolute; left: 0; top: 0; width: 1080px; height: 1150px; opacity: 0; }
+        .f16-ph { top: 300px; width: 320px; height: 620px; }
+        #f16-p1 { left: 40px; rotate: -6deg; } #f16-p2 { left: 380px; top: 280px; } #f16-p3 { left: 720px; rotate: 6deg; }
+        .f16-pl { position: absolute; top: 950px; width: 360px; text-align: center; font-size: 62px; }
+        #f16-l1 { left: 20px; } #f16-l2 { left: 360px; } #f16-l3 { left: 700px; }
+        #f16-c { position: absolute; left: 0; top: 0; width: 1080px; height: 1150px; opacity: 0; }
+        #f16-logo { position: absolute; left: 400px; top: 230px; width: 280px; height: 280px; border-radius: 62px; box-shadow: 0 18px 40px rgba(0,0,0,.3); }
+        #f16-name { position: absolute; left: 0; width: 1080px; top: 540px; text-align: center; }
+        #f16-url { left: 225px; top: 740px; font-size: 96px; }
+        #f16-st { position: absolute; left: 0; width: 1080px; top: 900px; text-align: center; font-size: 64px; color: #fff; }
+      </style>
+      <div id="root" data-composition-id="f16-cta" data-width="1080" data-height="1920" data-duration="10.85">
+        <div class="scene" id="f16">
+          <div id="f16-a">
+            <div class="f16-row" id="f16-r1">
+              <div class="f16-ic"><svg viewBox="0 0 140 140"><path id="f16-sp" class="doodle" style="stroke-width:9" d="M14 120 C 20 70, 50 44, 104 44 M84 18 L 122 44 L 84 72" /></svg></div>
+              <div class="h2"><span class="mk" id="f16-mk1"><i></i><span>Partage</span></span></div>
+              <div class="hand" id="f16-n1">à quelqu'un qui doit l'entendre</div>
+            </div>
+            <div class="f16-row" id="f16-r2">
+              <div class="f16-ic"><svg viewBox="0 0 140 140"><path id="f16-pl" class="doodle" style="stroke-width:14;stroke:#1F3FA0" d="M70 18 V122 M18 70 H122" /></svg></div>
+              <div class="h2" data-fit="720"><span class="mk" id="f16-mk2"><i></i><span>Abonne-toi</span></span></div>
+              <div class="hand" id="f16-n2">3 faits vérifiés, chaque jour</div>
+            </div>
+          </div>
+          <div id="f16-b">
+            <div class="phone f16-ph" id="f16-p1"><img src="assets/app/fitness.jpg" alt="écran entraînements CaliBodi" /></div>
+            <div class="phone f16-ph" id="f16-p2"><img src="assets/app/sleep.jpg" alt="écran sommeil CaliBodi" /></div>
+            <div class="phone f16-ph" id="f16-p3"><img src="assets/app/nutrition.jpg" alt="écran alimentation CaliBodi" /></div>
+            <div class="hand f16-pl" id="f16-l1">entraînements</div>
+            <div class="hand f16-pl" id="f16-l2">sommeil</div>
+            <div class="hand f16-pl" id="f16-l3">alimentation</div>
+          </div>
+          <div id="f16-c">
+            <img id="f16-logo" src="assets/brand/icon-512.png" alt="CaliBodi" />
+            <div id="f16-name" class="h1">CaliBodi</div>
+            <div class="lab" id="f16-url">calibodi.com</div>
+            <div id="f16-st" class="hand">Play Store · App Store</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f16-cta", at = K3.T(68.35);
+          const W = (id) => document.getElementById(id);
+          const build = () => {
+            const R = document.getElementById("f16");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f16", 68.35);
+            // « Partage cette vidéo à quelqu'un qui doit l'entendre, et abonne-toi. »
+            K3.pop(tl, at, "#f16-r1 .f16-ic", 68.45, { from: 0.3, r0: -20 });
+            K3.draw(tl, at, "#f16-sp", 68.5, 0.3);
+            K3.slam(tl, at, "#f16-r1 .h2", 68.5, { from: 2.2, r: -2 });
+            K3.marker(tl, at, "#f16-mk1", 68.65, 0.18);
+            K3.write(tl, at, "#f16-n1", 69.56, 0.9);
+            tl.fromTo("#f16-r1", { opacity: 1 }, { opacity: 0.4, duration: 0.2, ease: "none", immediateRender: false }, at(70.9));
+            K3.pop(tl, at, "#f16-r2 .f16-ic", 70.95, { from: 0.3, r0: 20 });
+            K3.draw(tl, at, "#f16-pl", 71.0, 0.24);
+            K3.slam(tl, at, "#f16-r2 .h2", 71.02, { from: 2.2, r: -2 });
+            K3.marker(tl, at, "#f16-mk2", 71.15, 0.18);
+            K3.write(tl, at, "#f16-n2", 71.3, 0.6);
+            // « Pour suivre tes entraînements, ton sommeil et ton alimentation… »
+            tl.fromTo("#f16-a", { y: 0, opacity: 1 }, { y: -600, opacity: 0, duration: 0.26, ease: "power3.in", immediateRender: false }, at(71.85));
+            K3.cut(tl, at, "#f16-b", 72.1, true);
+            K3.toss(tl, at, "#f16-p1", 72.6, { dx: -600, dy: 600, r0: -30, r: 0 });
+            K3.write(tl, at, "#f16-l1", 72.77, 0.5);
+            K3.toss(tl, at, "#f16-p2", 73.62, { dx: 0, dy: 900, r0: 20, r: 0 });
+            K3.write(tl, at, "#f16-l2", 73.79, 0.4);
+            K3.toss(tl, at, "#f16-p3", 74.28, { dx: 600, dy: 600, r0: 30, r: 0 });
+            K3.write(tl, at, "#f16-l3", 74.45, 0.5);
+            // « …découvre CaliBodi sur calibodi.com »
+            tl.fromTo("#f16-b", { y: 0, opacity: 1 }, { y: -700, opacity: 0, duration: 0.26, ease: "power3.in", immediateRender: false }, at(75.62));
+            K3.cut(tl, at, "#f16-c", 75.85, true);
+            K3.pop(tl, at, "#f16-logo", 75.9, { from: 0.2, r0: -40, ease: "back.out(2.6)" });
+            K3.slam(tl, at, "#f16-name", 76.25, { from: 2, r: 0 });
+            K3.slam(tl, at, "#f16-url", 77.05, { from: 2.4, r: -3 });
+            K3.write(tl, at, "#f16-st", 77.6, 0.6);
+            tl.fromTo("#f16-c", { scale: 1 }, { scale: 1.05, duration: 3.3, ease: "none", immediateRender: false }, at(75.9));
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

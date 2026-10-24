@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <link rel="stylesheet" href="assets/style/kit3.css" />
+      <style>
+/* fonts:begin */
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* fonts:end */
+        #root { position: absolute; inset: 0; overflow: hidden; }
+        #f03-lab { left: 70px; top: 210px; font-size: 120px; }
+        #f03-q1 { position: absolute; left: 70px; top: 390px; }
+        #f03-q2 { position: absolute; left: 70px; top: 500px; }
+        #f03-win { left: 140px; top: 650px; width: 800px; height: 420px; rotate: -3deg; }
+        #f03-qm { position: absolute; left: 860px; top: 600px; font-size: 200px; color: var(--yel); rotate: 10deg; }
+      </style>
+      <div id="root" data-composition-id="f03-fait1" data-width="1080" data-height="1920" data-duration="2.95">
+        <div class="scene" id="f03">
+          <div class="lab" id="f03-lab">FAIT N°1</div>
+          <div id="f03-q1" class="h2" data-fit="940">Combien de temps</div>
+          <div id="f03-q2" class="h2" data-fit="940">dure un rapport ?</div>
+          <div class="win" id="f03-win"><div class="kb" id="f03-wk"><video id="f03-v1" class="clip" src="assets/clips/clocks.mp4" muted playsinline data-start="0" data-duration="2.95" data-track-index="1"></video></div></div>
+          <div id="f03-qm" class="hand">?</div>
+        </div>
+      </div>
+      <script>
+        (function () {
+          const ID = "f03-fait1", at = K3.T(9.25);
+          const W = (id) => document.getElementById(id);
+          const build = () => {
+            const R = document.getElementById("f03");
+            K3.fit(R);
+            const tl = gsap.timeline({ paused: true });
+            K3.enter(tl, at, "#f03", 9.25);
+            K3.slam(tl, at, "#f03-lab", 9.40, { from: 2.4, r: -3 });
+            K3.toss(tl, at, "#f03-win", 9.75, { dx: 0, dy: 900, r0: -12, r: 0 });
+            K3.kb(tl, at, "#f03-wk", 9.75, 12.2, 1.2, 1.0);
+            K3.words(tl, at, W("f03-q1"), [10.37, 10.72, 10.85]);
+            K3.words(tl, at, W("f03-q2"), [11.09, 11.35, 11.36, 11.4]);
+            K3.pop(tl, at, "#f03-qm", 11.45, { from: 0.3, r0: -30, r: 10 });
+            K3.wobble(tl, at, "#f03-qm", 11.7, 6, 3);
+            K3.exit(tl, at, "#f03", 11.98);
+            window.__timelines[ID] = tl;
+          };
+          document.fonts.ready.then(build);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

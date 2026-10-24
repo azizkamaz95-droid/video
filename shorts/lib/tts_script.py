@@ -26,8 +26,17 @@ cache = os.path.join(EP, "source/tts-cache")
 os.makedirs(cache, exist_ok=True)
 
 
+def spoken(text):
+    # Chirp3 voices derail on French guillemets (« c'est l'âge » came out as gibberish, heard as "le age"):
+    # never send quote marks to the synthesizer, and use the plain apostrophe.
+    for a, b in (("«", ""), ("»", ""), ("“", ""), ("”", ""), ("’", "'"), (" ", " ")):
+        text = text.replace(a, b)
+    return " ".join(text.split())
+
+
 def synth(text, rate=None):
     rate = rate or S["rate"]
+    text = spoken(text)
     name = os.path.join(cache, hashlib.sha1(f"{S['voice']}|{rate}|{text}".encode()).hexdigest()[:16] + ".wav")
     if not os.path.exists(name):
         body = {"input": {"text": text}, "voice": {"languageCode": "fr-FR", "name": S["voice"]},
@@ -42,6 +51,28 @@ def synth(text, rate=None):
     loud = np.where(env > env.max() - 32)[0]
     a, b = max(0, loud[0] - int(0.04 * SR)), min(len(x), loud[-1] + int(0.08 * SR))
     y = x[a:b].copy()
+    # the synthesizer sometimes leaves a long breath inside one call ("Fait numéro deux. … Beaucoup"):
+    # shorten every inner silence longer than max_gap down to max_gap (cut in its middle, short crossfade)
+    gap = S.get("max_gap", 0.5)
+    e = env[a:b]
+    quiet = e < e.max() - 34
+    runs, i = [], 0
+    while i < len(quiet):
+        if quiet[i]:
+            j = i
+            while j < len(quiet) and quiet[j]:
+                j += 1
+            if j - i > gap * SR and i > 0 and j < len(quiet):
+                runs.append((i, j))
+            i = j
+        else:
+            i += 1
+    for i, j in reversed(runs):
+        keep = int(gap * SR / 2)
+        f = int(0.015 * SR)
+        head, tail = y[:i + keep], y[j - keep:]
+        head[-f:] = head[-f:] * np.linspace(1, 0, f) + tail[:f] * np.linspace(0, 1, f)
+        y = np.concatenate([head, tail[f:]])
     n = int(0.01 * SR)
     y[:n] *= np.linspace(0, 1, n)
     y[-n:] *= np.linspace(1, 0, n)
