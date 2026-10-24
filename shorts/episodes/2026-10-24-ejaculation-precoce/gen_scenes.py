@@ -417,11 +417,11 @@ K3.exit(tl, at, "#f10", 40.82);
 
 # ------------------------------------------------------------------ f11 40 men, 12 weeks → 33 out of 40
 scene("f11-quarante", 41.0, 47.95, """
-.f11-l { left: 70px; top: 200px; font-size: 120px; }
+.f11-l { left: 60px; top: 205px; font-size: 100px; }
 #f11-cal { position: absolute; left: 70px; top: 360px; width: 940px; height: 70px; }
 .f11-w { position: absolute; top: 0; width: 66px; height: 66px; border-radius: 10px; background: var(--paper); box-shadow: 0 6px 14px rgba(0,0,0,.2); }
 .f11-w svg { position: absolute; inset: 8px; overflow: visible; }
-#f11-sem { position: absolute; left: 600px; top: 200px; font-size: 80px; rotate: -4deg; }
+#f11-sem { position: absolute; left: 760px; top: 222px; font-size: 68px; rotate: -4deg; }
 #f11-grid { position: absolute; left: 100px; top: 470px; width: 880px; height: 550px; overflow: visible; }
 #f11-ok { position: absolute; left: 70px; top: 360px; font-size: 76px; opacity: 0; }
 #f11-src { position: absolute; left: 70px; top: 1070px; }
