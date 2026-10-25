@@ -56,6 +56,8 @@ SHAKE = [10.44]
 POSES = [(0.20, "choc"), (2.90, "trois"), (5.15, "curieux"), (7.23, "pointe"), (8.75, "un"), (9.96, "explique")]
 KW = {"x", "masturbation", "trois", "personne", "surprendre", "bout", "un", "contrôle", "vraiment"}
 CHAPTERS = [0.0, 8.75]   # fact starts shown as notches on the progress bar (the full video adds 2 and 3)
+if D > 13 and os.path.exists(os.path.join(EP, "shots.py")):   # the full video: shots 4-19 and the extra cues
+    exec(open(os.path.join(EP, "shots.py")).read())
 
 
 def r(x):
@@ -106,6 +108,9 @@ BASE_CSS = """        .big, .tag, .lab { position: absolute; font-family: "Monts
         .shot { position: absolute; inset: 0; overflow: hidden; background: #000; }
         .kb { position: absolute; inset: 0; }
         .kb video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+        .lab.white { background: #fff; }
+        .src { position: absolute; left: 40px; right: 40px; top: 76px; font-family: "Montserrat", sans-serif; font-weight: 600; font-size: 26px; color: rgba(255,255,255,.85); text-shadow: 0 2px 8px rgba(0,0,0,.8); opacity: 0; }
+        .row { position: absolute; left: 0; width: 1080px; overflow: visible; }
         .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%); }"""
 
 
@@ -156,7 +161,7 @@ def build_captions():
     for g, grp in enumerate(groups):
         t0 = grp[0]["start"] - 0.03
         t1 = min(groups[g + 1][0]["start"] - 0.03 if g + 1 < len(groups) else D - 0.05, grp[-1]["end"] + 0.6)
-        spans = "".join(f'<span class="cw{" kw" if norm(w["word"]) in KW else ""}" id="cw{w["i"]}">{esc(w["word"].upper())}</span>' for w in grp)
+        spans = " ".join(f'<span class="cw{" kw" if norm(w["word"]) in KW else ""}" id="cw{w["i"]}">{esc(w["word"].upper())}</span>' for w in grp)
         html.append(f'<div class="cg" id="cg{g}"><p>{spans}</p></div>')
         js.append(f'tl.set("#cg{g}",{{opacity:1}},{r(t0)});tl.fromTo("#cg{g}",{{scale:.7,y:30}},{{scale:1,y:0,duration:.16,ease:"back.out(3)",immediateRender:false}},{r(t0)});tl.set("#cg{g}",{{opacity:0}},{r(t1)});')
         for w in grp:
@@ -169,7 +174,7 @@ def build_captions():
     style = """        .cg { position: absolute; left: 60px; width: 960px; top: 1040px; height: 240px; display: flex; align-items: center; justify-content: center; opacity: 0; }
         .cg p { width: 100%; text-align: center; font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 104px; line-height: 1.02; letter-spacing: -.03em;
                 color: #fff; -webkit-text-stroke: 12px #141414; paint-order: stroke fill; text-shadow: 0 10px 34px rgba(0,0,0,.6); }
-        .cw { display: inline-block; margin: 0 .1em; color: #fff; }"""
+        .cw { display: inline-block; margin: 0 .05em; color: #fff; }"""
     return sub("captions", D, style, '        <div id="capwrap">' + "".join(html) + "</div>", "\n".join("            " + j for j in js)), len(groups)
 
 
@@ -276,7 +281,7 @@ print(f"v4 built · {D}s of {FULL}s · {len(SHOTS)} shots · {ng} caption groups
 # canonical cinema grade on every shot (persisted by the CLI as data-color-grading)
 import subprocess
 GRADE = {"preset": "deep-contrast", "intensity": 0.7, "details": {"vignette": 0.35, "grain": 0.12}}
-LIFT = {"s3": {"exposure": 0.45, "shadows": 0.25}}   # the riverbank silhouette is very dark under the contrast preset
+LIFT = {"s3": {"exposure": 0.45, "shadows": 0.25}, "s7": {"exposure": 0.7, "shadows": 0.45}}   # the riverbank silhouette is very dark under the contrast preset
 for sid, *_ in SHOTS:
     g = dict(GRADE, adjust=LIFT[sid]) if sid in LIFT else GRADE
     subprocess.run(["npx", "--yes", "hyperframes@0.8.181", "media-treatment", "--project", EP, "--file", f"compositions/scenes/{sid}.html",

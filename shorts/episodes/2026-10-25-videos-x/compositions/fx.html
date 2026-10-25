@@ -17,14 +17,14 @@
         #root { position: absolute; inset: 0; overflow: hidden; }
         #fx-grain { position: absolute; inset: 0; background: url(assets/fx/grain.png) repeat; background-size: 512px 512px; opacity: .06; mix-blend-mode: overlay; }
       </style>
-      <div id="root" data-composition-id="fx" data-width="1080" data-height="1920" data-duration="12.4">
+      <div id="root" data-composition-id="fx" data-width="1080" data-height="1920" data-duration="73.52">
         <div id="fx-grain"></div>
       </div>
       <script>
         (function () {
           const build = () => {
             const tl = gsap.timeline({ paused: true });
-            const gp={f:0};tl.fromTo(gp,{f:0},{f:148,duration:12.4,ease:"none",onUpdate:()=>{const k=Math.floor(gp.f);document.getElementById("fx-grain").style.backgroundPosition=((k*7919)%512)+"px "+((k*104729)%512)+"px";}},0);
+            const gp={f:0};tl.fromTo(gp,{f:0},{f:882,duration:73.52,ease:"none",onUpdate:()=>{const k=Math.floor(gp.f);document.getElementById("fx-grain").style.backgroundPosition=((k*7919)%512)+"px "+((k*104729)%512)+"px";}},0);
             window.__timelines["fx"] = tl;
           };
           document.fonts.ready.then(build);
