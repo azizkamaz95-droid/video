@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Miniature physique ou argent</title>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+      .hf-font-a { font-family: "Montserrat"; font-weight: 900; } .hf-font-b { font-family: "Caveat"; font-weight: 700; }
+      .v { position: absolute; inset: 0; opacity: 0; background: #000; }
+      .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.1) 40%, rgba(0,0,0,.2) 60%, rgba(0,0,0,.7) 100%); }
+      .grain { position: absolute; inset: 0; background: url(assets/fx/grain.png) repeat; background-size: 512px 512px; opacity: .08; mix-blend-mode: overlay; }
+      .m { position: absolute; font-family: "Montserrat", sans-serif; font-weight: 900; color: #fff; letter-spacing: -.04em; line-height: .92; white-space: nowrap; text-shadow: 0 14px 44px rgba(0,0,0,.7); }
+      .lab { position: absolute; padding: .06em .22em .1em; border-radius: .1em; background: #FFC93C; color: #141414; font-family: "Montserrat", sans-serif; font-weight: 900; letter-spacing: -.03em; line-height: 1; white-space: nowrap; box-shadow: 0 18px 40px rgba(0,0,0,.5); }
+      .lab.white { background: #fff; }
+      .brand { position: absolute; left: 0; width: 1080px; top: 110px; display: flex; justify-content: center; align-items: center; gap: 16px; }
+      .brand img { width: 70px; height: 70px; border-radius: 16px; }
+      .brand span { font-family: "Montserrat", sans-serif; font-weight: 800; font-size: 50px; color: #fff; }
+      .stk { position: absolute; } .stk img { width: 100%; height: 100%; display: block; }
+      #a1 { left: 0; width: 1080px; top: 220px; text-align: center; font-size: 190px; color: #FFC93C; }
+      #a2 { left: 0; width: 1080px; top: 410px; text-align: center; font-size: 100px; }
+      #a3 { left: 250px; top: 520px; font-size: 130px; rotate: -3deg; }
+      #a-v { left: 200px; top: 760px; font-size: 80px; rotate: -4deg; }
+      #vA .stk { left: -150px; top: 1020px; width: 940px; height: 940px; }
+      #b1 { left: 60px; top: 230px; font-size: 92px; }
+      #b2 { left: 60px; top: 340px; font-size: 120px; }
+      #b3 { left: 60px; top: 520px; font-size: 92px; }
+      #b4 { left: 60px; top: 630px; font-size: 120px; color: #FFC93C; }
+      #vB .stk { left: -130px; top: 1060px; width: 900px; height: 900px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="2" data-width="1080" data-height="1920">
+      <div class="v" id="vA">
+        <img class="bg" src="img/barre.jpg" alt="silhouette d'homme qui soulève une barre" /><div class="shade"></div>
+        <div class="brand"><img src="assets/brand/icon-512.png" alt="" /><span>CaliBodi</span></div>
+        <div class="m" id="a1">PHYSIQUE</div>
+        <div class="m" id="a2">ou</div>
+        <div class="lab white" id="a3">ARGENT ?</div>
+        <div class="lab" id="a-v">C'EST LE PHYSIQUE</div>
+        <div class="stk"><img src="img/calix-pointe.png" alt="Calix montre du doigt" /></div>
+        <div class="grain"></div>
+      </div>
+      <div class="v" id="vB">
+        <img class="bg" src="img/cash.jpg" alt="billets de banque" /><div class="shade"></div>
+        <div class="brand"><img src="assets/brand/icon-512.png" alt="" /><span>CaliBodi</span></div>
+        <div class="m" id="b1">ELLES DISENT</div>
+        <div class="m" id="b2">L'ARGENT…</div>
+        <div class="m" id="b3">ELLES CHOISISSENT</div>
+        <div class="m" id="b4">LE PHYSIQUE</div>
+        <div class="stk"><img src="img/calix-sceptique.png" alt="Calix sceptique" /></div>
+        <div class="grain"></div>
+      </div>
+    </div>
+    <script>
+      (function () {
+        const build = () => {
+          const tl = gsap.timeline({ paused: true });
+          tl.set("#vA", { opacity: 1 }, 0);
+          tl.set("#vA", { opacity: 0 }, 1);
+          tl.set("#vB", { opacity: 1 }, 1);
+          window.__timelines["main"] = tl;
+        };
+        document.fonts.ready.then(build);
+      })();
+    </script>
+  </body>
+</html>

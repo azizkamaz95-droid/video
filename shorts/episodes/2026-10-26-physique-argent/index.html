@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Calix #7 — Physique ou argent ? C'est le physique.</title>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin-ext.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Caveat"; src:url("assets/fonts/Caveat-700-latin.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin-ext.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-500-latin.woff2") format("woff2"); font-weight:500; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin-ext.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-600-latin.woff2") format("woff2"); font-weight:600; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin-ext.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-800-latin.woff2") format("woff2"); font-weight:800; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin-ext.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family:"Montserrat"; src:url("assets/fonts/Montserrat-900-latin.woff2") format("woff2"); font-weight:900; font-style:normal; font-display:block; unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1080px; height:1920px; overflow:hidden; background:#000; }
+      #root { position:relative; width:100%; height:100%; overflow:hidden; background:#000; }
+      #cam { position:absolute; inset:0; transform-origin:50% 45%; }
+      [data-composition-id="main"] div[data-composition-src] { position:absolute; inset:0; }
+      .hf-font-a { font-family:"Montserrat"; font-weight:900; } .hf-font-b { font-family:"Caveat"; font-weight:700; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="75.14" data-width="1080" data-height="1920">
+      <div id="cam">
+        <div id="el-s1" data-composition-id="s1" data-composition-src="compositions/scenes/s1.html" data-start="0" data-duration="2.66" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s2" data-composition-id="s2" data-composition-src="compositions/scenes/s2.html" data-start="2.54" data-duration="2.72" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s3" data-composition-id="s3" data-composition-src="compositions/scenes/s3.html" data-start="5.14" data-duration="3.52" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s4" data-composition-id="s4" data-composition-src="compositions/scenes/s4.html" data-start="8.54" data-duration="3.72" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s5" data-composition-id="s5" data-composition-src="compositions/scenes/s5.html" data-start="12.14" data-duration="4.37" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s6" data-composition-id="s6" data-composition-src="compositions/scenes/s6.html" data-start="16.39" data-duration="2.32" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s7" data-composition-id="s7" data-composition-src="compositions/scenes/s7.html" data-start="18.59" data-duration="2.57" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s8" data-composition-id="s8" data-composition-src="compositions/scenes/s8.html" data-start="21.04" data-duration="4.32" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s9" data-composition-id="s9" data-composition-src="compositions/scenes/s9.html" data-start="25.24" data-duration="4.72" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s10" data-composition-id="s10" data-composition-src="compositions/scenes/s10.html" data-start="29.84" data-duration="3.07" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s11" data-composition-id="s11" data-composition-src="compositions/scenes/s11.html" data-start="32.79" data-duration="2.92" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s12" data-composition-id="s12" data-composition-src="compositions/scenes/s12.html" data-start="35.59" data-duration="5.77" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s13" data-composition-id="s13" data-composition-src="compositions/scenes/s13.html" data-start="41.24" data-duration="2.92" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s14" data-composition-id="s14" data-composition-src="compositions/scenes/s14.html" data-start="44.04" data-duration="3.42" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s15" data-composition-id="s15" data-composition-src="compositions/scenes/s15.html" data-start="47.34" data-duration="6.12" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s16" data-composition-id="s16" data-composition-src="compositions/scenes/s16.html" data-start="53.34" data-duration="4.97" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s17" data-composition-id="s17" data-composition-src="compositions/scenes/s17.html" data-start="58.19" data-duration="3.82" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s18" data-composition-id="s18" data-composition-src="compositions/scenes/s18.html" data-start="61.89" data-duration="6.32" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="el-s19" data-composition-id="s19" data-composition-src="compositions/scenes/s19.html" data-start="68.09" data-duration="7.05" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      </div>
+      <div id="el-fx" data-composition-id="fx" data-composition-src="compositions/fx.html" data-start="0" data-duration="75.14" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-calix" data-composition-id="calix" data-composition-src="compositions/calix.html" data-start="0" data-duration="75.14" data-track-index="4" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="el-captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="75.14" data-track-index="5" data-track-kind="captions" data-width="1080" data-height="1920"></div>
+      <div id="el-hud" data-composition-id="hud" data-composition-src="compositions/hud.html" data-start="0" data-duration="75.14" data-track-index="6" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <audio id="voice" src="assets/voice/voice.wav" data-start="0" data-duration="74.435" data-track-index="10" data-volume="1"></audio>
+      <audio id="music" src="assets/audio/music.wav" data-start="0" data-duration="75.14" data-track-index="11" data-volume="1"></audio>
+      <audio id="sfx" src="assets/audio/sfx.wav" data-start="0" data-duration="75.14" data-track-index="12" data-volume="1"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.1,ease:"power2.out",immediateRender:false},0.15);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},0.28);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.1,ease:"power2.out",immediateRender:false},0.73);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},0.86);
+      tl.fromTo("#cam",{scale:1},{scale:1.08,duration:.1,ease:"power2.out",immediateRender:false},2.91);
+      tl.fromTo("#cam",{scale:1.08},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},3.04);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.1,ease:"power2.out",immediateRender:false},4.16);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},4.29);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.1,ease:"power2.out",immediateRender:false},5.96);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},6.09);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.1,ease:"power2.out",immediateRender:false},8.66);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},8.79);
+      tl.fromTo("#cam",{scale:1},{scale:1.07,duration:.1,ease:"power2.out",immediateRender:false},9.9);
+      tl.fromTo("#cam",{scale:1.07},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},10.03);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.1,ease:"power2.out",immediateRender:false},12.28);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},12.41);
+      tl.fromTo("#cam",{scale:1},{scale:1.07,duration:.1,ease:"power2.out",immediateRender:false},17.74);
+      tl.fromTo("#cam",{scale:1.07},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},17.87);
+      tl.fromTo("#cam",{scale:1},{scale:1.07,duration:.1,ease:"power2.out",immediateRender:false},19.94);
+      tl.fromTo("#cam",{scale:1.07},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},20.07);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.1,ease:"power2.out",immediateRender:false},21.19);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},21.32);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.1,ease:"power2.out",immediateRender:false},26.67);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},26.8);
+      tl.fromTo("#cam",{scale:1},{scale:1.08,duration:.1,ease:"power2.out",immediateRender:false},28.66);
+      tl.fromTo("#cam",{scale:1.08},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},28.79);
+      tl.fromTo("#cam",{scale:1},{scale:1.07,duration:.1,ease:"power2.out",immediateRender:false},30.28);
+      tl.fromTo("#cam",{scale:1.07},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},30.41);
+      tl.fromTo("#cam",{scale:1},{scale:1.1,duration:.1,ease:"power2.out",immediateRender:false},33.39);
+      tl.fromTo("#cam",{scale:1.1},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},33.52);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.1,ease:"power2.out",immediateRender:false},37.94);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},38.07);
+      tl.fromTo("#cam",{scale:1},{scale:1.07,duration:.1,ease:"power2.out",immediateRender:false},42.24);
+      tl.fromTo("#cam",{scale:1.07},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},42.37);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.1,ease:"power2.out",immediateRender:false},45.7);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},45.83);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.1,ease:"power2.out",immediateRender:false},51.35);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},51.48);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.1,ease:"power2.out",immediateRender:false},55.05);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},55.18);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.1,ease:"power2.out",immediateRender:false},59.23);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},59.36);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.1,ease:"power2.out",immediateRender:false},59.71);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},59.84);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.1,ease:"power2.out",immediateRender:false},62.04);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},62.17);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.1,ease:"power2.out",immediateRender:false},65.11);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},65.24);
+      tl.fromTo("#cam",{scale:1},{scale:1.07,duration:.1,ease:"power2.out",immediateRender:false},67.2);
+      tl.fromTo("#cam",{scale:1.07},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},67.33);
+      tl.fromTo("#cam",{scale:1},{scale:1.05,duration:.1,ease:"power2.out",immediateRender:false},72.29);
+      tl.fromTo("#cam",{scale:1.05},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},72.42);
+      tl.fromTo("#cam",{scale:1},{scale:1.06,duration:.1,ease:"power2.out",immediateRender:false},73.09);
+      tl.fromTo("#cam",{scale:1.06},{scale:1,duration:.6,ease:"power2.inOut",immediateRender:false},73.22);
+      tl.fromTo("#cam",{x:0,y:0},{x:14,y:-8,duration:.04,ease:"none",yoyo:true,repeat:7,immediateRender:false},2.94);
+      tl.fromTo("#cam",{x:0,y:0},{x:14,y:-8,duration:.04,ease:"none",yoyo:true,repeat:7,immediateRender:false},33.42);
+      tl.fromTo("#cam",{x:0,y:0},{x:14,y:-8,duration:.04,ease:"none",yoyo:true,repeat:7,immediateRender:false},45.73);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

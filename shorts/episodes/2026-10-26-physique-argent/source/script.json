@@ -1,0 +1,112 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Sadachbia",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Physique ou argent ?",
+   "pause": 0.35
+  },
+  {
+   "id": "s02",
+   "text": "Je vais te le dire.",
+   "pause": 0.25
+  },
+  {
+   "id": "s03",
+   "text": "C'est le physique.",
+   "pause": 0.4
+  },
+  {
+   "id": "s04",
+   "text": "Et j'ai trois preuves. La troisième va te surprendre. Reste jusqu'au bout.",
+   "pause": 0.55
+  },
+  {
+   "id": "s05",
+   "text": "Fait numéro un. Plus de 10 000 personnes ont fait du speed dating.",
+   "pause": 0.3,
+   "say": "Fait numéro un. Plus de dix mille personnes ont fait du speed dating."
+  },
+  {
+   "id": "s06",
+   "text": "Trois minutes par rencontre. Ensuite, chacun disait qui il voulait revoir.",
+   "pause": 0.35
+  },
+  {
+   "id": "s07",
+   "text": "Les femmes ont choisi sur le physique. Le salaire ? Presque aucun effet.",
+   "pause": 0.55
+  },
+  {
+   "id": "s08",
+   "text": "Fait numéro deux. Des chercheurs ont montré des photos de corps d'hommes à des femmes.",
+   "pause": 0.3
+  },
+  {
+   "id": "s09",
+   "text": "Le plus important ? Avoir l'air fort. Ça compte pour plus de 70 %.",
+   "pause": 0.35,
+   "say": "Le plus important ? Avoir l'air fort. Ça compte pour plus de soixante-dix pour cent."
+  },
+  {
+   "id": "s10",
+   "text": "Et aucune femme n'a préféré les hommes plus faibles.",
+   "pause": 0.55
+  },
+  {
+   "id": "s11",
+   "text": "Fait numéro trois. Celui que je t'ai promis.",
+   "pause": 0.4
+  },
+  {
+   "id": "s12",
+   "text": "Avant un speed dating, des femmes ont dit : l'argent, c'est important. Puis elles ont rencontré les hommes.",
+   "pause": 0.3
+  },
+  {
+   "id": "s13",
+   "text": "Et là ? Leurs choix ne suivaient pas ce qu'elles avaient dit.",
+   "pause": 0.3
+  },
+  {
+   "id": "s14",
+   "text": "Elles disent l'argent. Mais elles choisissent avec les yeux.",
+   "pause": 0.55
+  },
+  {
+   "id": "s15",
+   "text": "Bien sûr, pour une relation longue, d'autres choses comptent. Mais le premier pas, c'est le physique.",
+   "pause": 0.45
+  },
+  {
+   "id": "s16",
+   "text": "Bonne nouvelle : le physique, ça se travaille. Entraînement, sommeil, alimentation.",
+   "pause": 0.5
+  },
+  {
+   "id": "s17",
+   "text": "Les filles, c'est vrai ou c'est faux ? Répondez en commentaire.",
+   "pause": 0.45
+  },
+  {
+   "id": "s18",
+   "text": "Partage cette vidéo à un pote qui pense que l'argent suffit.",
+   "pause": 0.3
+  },
+  {
+   "id": "s19",
+   "text": "Et abonne-toi : une nouvelle vidéo chaque jour à 18h.",
+   "pause": 0.3,
+   "say": "Et abonne-toi : une nouvelle vidéo chaque jour à dix-huit heures."
+  },
+  {
+   "id": "s20",
+   "text": "Pour suivre tes entraînements, ton sommeil et ton alimentation, découvre CaliBodi sur calibodi.com.",
+   "pause": 0.0,
+   "say": "Pour suivre tes entraînements, ton sommeil et ton alimentation, découvre CaliBodi sur calibodi point com."
+  }
+ ]
+}

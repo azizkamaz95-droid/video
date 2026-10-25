@@ -1,0 +1,171 @@
+{
+ "title": "Physique ou argent",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_file": "assets/music/the-plan.mp3",
+ "music_loop": [
+  8.0,
+  48.0
+ ],
+ "music_lufs": -25.0,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  2.94,
+  28.69,
+  33.42
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 2.6
+  },
+  {
+   "type": "body",
+   "start": 2.6,
+   "end": 68.15
+  },
+  {
+   "type": "outro",
+   "start": 68.15,
+   "end": 75.14
+  }
+ ],
+ "sfx": [
+  [
+   "whoosh",
+   2.54
+  ],
+  [
+   "whoosh",
+   5.14
+  ],
+  [
+   "whoosh",
+   8.54
+  ],
+  [
+   "whoosh",
+   12.14
+  ],
+  [
+   "whoosh",
+   16.39
+  ],
+  [
+   "whoosh",
+   18.59
+  ],
+  [
+   "whoosh",
+   21.04
+  ],
+  [
+   "whoosh",
+   25.24
+  ],
+  [
+   "whoosh",
+   29.84
+  ],
+  [
+   "whoosh",
+   32.79
+  ],
+  [
+   "whoosh",
+   35.59
+  ],
+  [
+   "whoosh",
+   41.24
+  ],
+  [
+   "whoosh",
+   44.04
+  ],
+  [
+   "whoosh",
+   47.34
+  ],
+  [
+   "whoosh",
+   53.34
+  ],
+  [
+   "whoosh",
+   58.19
+  ],
+  [
+   "whoosh",
+   61.89
+  ],
+  [
+   "whoosh",
+   68.09
+  ],
+  [
+   "stamp",
+   0.18
+  ],
+  [
+   "stamp",
+   0.76
+  ],
+  [
+   "stamp",
+   2.94
+  ],
+  [
+   "stamp",
+   9.93
+  ],
+  [
+   "stamp",
+   12.31
+  ],
+  [
+   "stamp",
+   19.97
+  ],
+  [
+   "stamp",
+   28.69
+  ],
+  [
+   "stamp",
+   30.31
+  ],
+  [
+   "stamp",
+   42.27
+  ],
+  [
+   "stamp",
+   59.26
+  ],
+  [
+   "stamp",
+   59.74
+  ],
+  [
+   "stamp",
+   67.23
+  ],
+  [
+   "stamp",
+   73.12
+  ],
+  [
+   "tick",
+   12.71
+  ],
+  [
+   "thump",
+   33.42
+  ]
+ ]
+}

@@ -34,7 +34,7 @@ def spoken(text):
     # real spelling. Acronyms stay apart (« L'OMS »). Checked by transcription: every word comes back correct.
     for a, b in (("«", ""), ("»", ""), ("“", ""), ("”", ""), ("’", "'"), ("\u00a0", " ")):
         text = text.replace(a, b)
-    text = re.sub(r"\b([cdjlmnstCDJLMNST]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)'(?=[a-zàâäéèêëîïôöùûüœ])", r"\1", text)
+    text = re.sub(r"\b([cdjlmnstCDJLMNST]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)'(?!argent)(?=[a-zàâäéèêëîïôöùûüœ])", r"\1", text)   # « largent » would be read « large »
     return " ".join(text.split())
 
 
