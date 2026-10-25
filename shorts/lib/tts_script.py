@@ -12,6 +12,7 @@ import base64
 import hashlib
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.request
@@ -27,10 +28,13 @@ os.makedirs(cache, exist_ok=True)
 
 
 def spoken(text):
-    # Chirp3 voices derail on French guillemets (« c'est l'âge » came out as gibberish, heard as "le age"):
-    # never send quote marks to the synthesizer, and use the plain apostrophe.
-    for a, b in (("«", ""), ("»", ""), ("“", ""), ("”", ""), ("’", "'"), (" ", " ")):
+    # Chirp3 voices derail on French guillemets (« c'est l'âge » came out as gibberish): never send quote marks.
+    # Elisions: with either apostrophe the voice often leaves a gap before the vowel (« n' était », « l' âge »).
+    # Glue the elided letter to a lowercase next word for the voice only (« nétait », « lâge »); captions keep the
+    # real spelling. Acronyms stay apart (« L'OMS »). Checked by transcription: every word comes back correct.
+    for a, b in (("«", ""), ("»", ""), ("“", ""), ("”", ""), ("’", "'"), ("\u00a0", " ")):
         text = text.replace(a, b)
+    text = re.sub(r"\b([cdjlmnstCDJLMNST]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)'(?=[a-zàâäéèêëîïôöùûüœ])", r"\1", text)
     return " ".join(text.split())
 
 
