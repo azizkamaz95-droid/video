@@ -26,9 +26,9 @@ Sources :
 
 Contenu éducatif : ne remplace pas l'avis d'un médecin.
 
-#santé #fitness #calibodi
+#santé #santémasculine #santémentale #addiction #dopamine #couple #éducationsexuelle #psychologie #développementpersonnel #lesaviezvous #fitness #calibodi
 
 ## Réglages à cocher
 - Contenu généré par IA : oui (voix de synthèse)
 - Pas de son tendance ajouté : la musique « The Plan » (Pixabay) est déjà dans la vidéo. Garde le lien de sa page Pixabay en cas de réclamation YouTube.
-- Miniature : A (« X · VIDÉOS X · 3 FAITS ») ou B (« 1 SUR 10 a du mal à se contrôler »)
+- Miniature choisie : A (« X · VIDÉOS X · 3 FAITS »)
