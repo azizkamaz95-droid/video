@@ -1,0 +1,116 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Sadachbia",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Le petit-déjeuner, le repas le plus important de la journée ?",
+   "pause": 0.3
+  },
+  {
+   "id": "s02",
+   "text": "Non.",
+   "pause": 0.35,
+   "rate": 0.95
+  },
+  {
+   "id": "s03",
+   "text": "Et j'ai trois preuves. La troisième va te surprendre. Reste jusqu'au bout.",
+   "pause": 0.55
+  },
+  {
+   "id": "s04",
+   "text": "Fait numéro un. Des chercheurs ont suivi 309 adultes pendant 16 semaines.",
+   "pause": 0.3,
+   "say": "Fait numéro un. Des chercheurs ont suivi trois cent neuf adultes pendant seize semaines."
+  },
+  {
+   "id": "s05",
+   "text": "Un groupe prenait un petit-déjeuner. Un autre le sautait.",
+   "pause": 0.3
+  },
+  {
+   "id": "s06",
+   "text": "Résultat : aucune différence sur la perte de poids.",
+   "pause": 0.55
+  },
+  {
+   "id": "s07",
+   "text": "Fait numéro deux. 13 études ont été rassemblées.",
+   "pause": 0.3,
+   "say": "Fait numéro deux. Treize études ont été rassemblées."
+  },
+  {
+   "id": "s08",
+   "text": "Ceux qui prennent un petit-déjeuner mangent environ 260 calories de plus par jour.",
+   "pause": 0.3,
+   "say": "Ceux qui prennent un petit-déjeuner mangent environ deux cent soixante calories de plus par jour."
+  },
+  {
+   "id": "s09",
+   "text": "Et ils ne maigrissent pas plus.",
+   "pause": 0.55
+  },
+  {
+   "id": "s10",
+   "text": "Fait numéro trois. Celui que je t'ai promis.",
+   "pause": 0.4
+  },
+  {
+   "id": "s11",
+   "text": "Une grande étude a suivi plus de 6 000 adultes pendant 19 ans.",
+   "pause": 0.3,
+   "say": "Une grande étude a suivi plus de six mille adultes pendant dix-neuf ans."
+  },
+  {
+   "id": "s12",
+   "text": "Ceux qui ne prenaient jamais de petit-déjeuner avaient 87 % de risque en plus de mourir d'une maladie du cœur.",
+   "pause": 0.4,
+   "say": "Ceux qui ne prenaient jamais de petit-déjeuner avaient quatre-vingt-sept pour cent de risque en plus de mourir d'une maladie du cœur."
+  },
+  {
+   "id": "s13",
+   "text": "Choquant ? Pas si vite.",
+   "pause": 0.35
+  },
+  {
+   "id": "s14",
+   "text": "Les chercheurs eux-mêmes disent que ces personnes avaient aussi d'autres habitudes moins saines. Le petit-déjeuner n'est pas la cause.",
+   "pause": 0.5
+  },
+  {
+   "id": "s15",
+   "text": "Attention : ce sont des liens, pas des preuves. Et les études sur le poids sont courtes.",
+   "pause": 0.45
+  },
+  {
+   "id": "s16",
+   "text": "Ce qui compte vraiment : le total de ta journée. Tes calories, ton sommeil, ton entraînement.",
+   "pause": 0.5
+  },
+  {
+   "id": "s17",
+   "text": "Et toi, tu prends un petit-déjeuner tous les matins ? Réponds oui ou non.",
+   "pause": 0.45
+  },
+  {
+   "id": "s18",
+   "text": "Partage cette vidéo à quelqu'un qui ne saute jamais son petit-déjeuner.",
+   "pause": 0.3
+  },
+  {
+   "id": "s19",
+   "text": "Et abonne-toi : une nouvelle vidéo chaque jour à 18h.",
+   "pause": 0.3,
+   "say": "Et abonne-toi : une nouvelle vidéo chaque jour à dix-huit heures."
+  },
+  {
+   "id": "s20",
+   "text": "Pour suivre tes calories, ton sommeil et tes entraînements, découvre CaliBodi sur calibodi.com.",
+   "pause": 0.0,
+   "say": "Pour suivre tes calories, ton sommeil et tes entraînements, découvre CaliBodi sur calibodi point com."
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "title": "Petit-d\u00e9jeuner",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_file": "assets/music/the-plan.mp3",
+ "music_loop": [
+  8.0,
+  48.0
+ ],
+ "music_lufs": -25.0,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  3.71,
+  29.46,
+  37.33
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 3.55
+  },
+  {
+   "type": "body",
+   "start": 3.55,
+   "end": 70.35
+  },
+  {
+   "type": "outro",
+   "start": 70.35,
+   "end": 77.37
+  }
+ ],
+ "sfx": [
+  [
+   "whoosh",
+   3.49
+  ],
+  [
+   "whoosh",
+   5.54
+  ],
+  [
+   "whoosh",
+   8.89
+  ],
+  [
+   "whoosh",
+   13.39
+  ],
+  [
+   "whoosh",
+   16.69
+  ],
+  [
+   "whoosh",
+   19.99
+  ],
+  [
+   "whoosh",
+   22.74
+  ],
+  [
+   "whoosh",
+   26.89
+  ],
+  [
+   "whoosh",
+   28.79
+  ],
+  [
+   "whoosh",
+   31.54
+  ],
+  [
+   "whoosh",
+   35.19
+  ],
+  [
+   "whoosh",
+   38.24
+  ],
+  [
+   "whoosh",
+   40.99
+  ],
+  [
+   "whoosh",
+   42.99
+  ],
+  [
+   "whoosh",
+   45.84
+  ],
+  [
+   "whoosh",
+   47.39
+  ],
+  [
+   "whoosh",
+   49.29
+  ],
+  [
+   "whoosh",
+   54.24
+  ],
+  [
+   "whoosh",
+   57.19
+  ],
+  [
+   "whoosh",
+   59.94
+  ],
+  [
+   "whoosh",
+   63.49
+  ],
+  [
+   "whoosh",
+   70.29
+  ],
+  [
+   "stamp",
+   0.34
+  ],
+  [
+   "stamp",
+   3.71
+  ],
+  [
+   "stamp",
+   4.67
+  ],
+  [
+   "stamp",
+   9.08
+  ],
+  [
+   "stamp",
+   11.25
+  ],
+  [
+   "stamp",
+   12.48
+  ],
+  [
+   "stamp",
+   17.93
+  ],
+  [
+   "stamp",
+   20.27
+  ],
+  [
+   "stamp",
+   21.2
+  ],
+  [
+   "stamp",
+   24.97
+  ],
+  [
+   "stamp",
+   27.38
+  ],
+  [
+   "stamp",
+   33.32
+  ],
+  [
+   "stamp",
+   37.33
+  ],
+  [
+   "stamp",
+   39.9
+  ],
+  [
+   "stamp",
+   42.15
+  ],
+  [
+   "stamp",
+   46.4
+  ],
+  [
+   "stamp",
+   48.49
+  ],
+  [
+   "stamp",
+   51.7
+  ],
+  [
+   "stamp",
+   55.88
+  ],
+  [
+   "stamp",
+   62.71
+  ],
+  [
+   "stamp",
+   62.96
+  ],
+  [
+   "stamp",
+   67.3
+  ],
+  [
+   "stamp",
+   69.53
+  ],
+  [
+   "stamp",
+   75.2
+  ],
+  [
+   "tick",
+   12.66
+  ],
+  [
+   "thump",
+   29.46
+  ]
+ ]
+}
