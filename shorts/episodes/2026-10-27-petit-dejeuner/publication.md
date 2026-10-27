@@ -14,7 +14,7 @@ Attention : ce sont des liens, pas des preuves. Et les études sur le poids sont
 
 👉 Et toi, tu prends un petit-déjeuner tous les matins ? Réponds oui ou non en commentaire.
 
-🔔 Abonne-toi : une nouvelle vidéo chaque jour à 18h.
+🔔 Abonne-toi : une nouvelle vidéo chaque jour.
 
 📲 CaliBodi : tes calories, ton sommeil et tes entraînements au même endroit.
 calibodi.com · Disponible sur Play Store et App Store.

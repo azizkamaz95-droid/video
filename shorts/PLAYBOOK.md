@@ -18,7 +18,7 @@ Guide à suivre à la lettre, d'une session à l'autre. Il résume ce qu'on a ap
 
 ---
 
-## 1. Rythme quotidien (1 vidéo par jour, publiée à 18h heure de Paris)
+## 1. Rythme quotidien (1 vidéo par jour, un horaire par réseau)
 
 | Étape | Qui | Ce qui se passe |
 |---|---|---|
@@ -67,7 +67,7 @@ Toujours **plus d'une minute** (monétisation). Chaque bloc est écrit en phrase
 | 55–62 s | **Nuance honnête** | « Attention : ce sont des liens, pas des preuves. » / « Petite étude. » + « Parle-en à un médecin » si le sujet touche la santé. |
 | 62–68 s | **Bonne nouvelle + pont vers CaliBodi** | Une solution simple et actionnable : « Entraînement, sommeil, alimentation. » |
 | 68–72 s | **Question aux commentaires** | Sur le même sujet. Réponse simple (oui/non, 1-2-3, vrai/faux). Pour un débat : s'adresser directement au camp adverse (« Les filles, c'est vrai ou c'est faux ? »). |
-| 72–78 s | **Appel à l'action** | Partage à quelqu'un qui doit l'entendre → « Abonne-toi : une nouvelle vidéo chaque jour à 18h. » → **CaliBodi** (§9). |
+| 72–78 s | **Appel à l'action** | Partage à quelqu'un qui doit l'entendre → « Abonne-toi : une nouvelle vidéo chaque jour. » (**ne plus jamais dire ni afficher « 18h »** : les réseaux sont publiés à des heures différentes) → **CaliBodi** (§9). |
 
 **Règles d'écriture :**
 - 12 mots maximum par phrase quand c'est possible. Pas de subordonnées longues.
@@ -184,7 +184,7 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 - Les 3 faits résumés en 1 à 2 lignes chacun, avec les chiffres.
 - La nuance honnête (« ce sont des liens, pas des preuves », « petite étude »).
 - La question aux commentaires.
-- « Abonne-toi : une nouvelle vidéo chaque jour à 18h. »
+- « Abonne-toi : une nouvelle vidéo chaque jour. » (**ne plus jamais dire ni afficher « 18h »** : les réseaux sont publiés à des heures différentes)
 - CaliBodi : `calibodi.com · Disponible sur Play Store et App Store.`
 - Sources (auteurs, revue, année).
 - « Vidéo générée par IA. »
@@ -205,6 +205,7 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 }
 ```
 3. `publish_at` est en **UTC** : 18h à Paris = **17:00Z en hiver** (jusqu'au 27 mars 2027), **16:00Z en été** (à partir du 28 mars 2027).
+   **Un horaire par réseau** : déposer la même vidéo en 4 dossiers `queue/AAAA-MM-JJ-nom-<réseau>/`, chacun avec `"networks": ["<réseau>"]` et son `publish_at` (au moins 10 min d'écart, car les publications passent l'une après l'autre). Horaires validés (heure de Paris) : **Facebook 10h, Instagram 12h, YouTube 16h, TikTok 18h**. Sources : Metricool (TikTok, YouTube), articles (Facebook), estimation (Instagram). Vérifier ses propres statistiques après quelques semaines. Ne pas laisser passer un créneau : proposer les horaires avant qu'ils soient dépassés.
 4. Toutes les 5 minutes, `scheduled.yml` déplace la vidéo due dans `videos/` et lance `publish.yml` (YouTube, TikTok, Instagram via Buffer, Facebook via Make), puis nettoie. GitHub peut retarder de quelques minutes.
 5. **Toujours vérifier sur GitHub (Actions) qu'un envoi est réellement parti ou non** avant d'affirmer quoi que ce soit à l'utilisateur.
 
@@ -223,7 +224,7 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 | Instagram « media error » | Vidéo supprimée juste après l'envoi | Attendre 3 min avant le nettoyage (déjà en place) |
 | TikTok « trop d'envois » | Limite quotidienne de Buffer | Réessayer le lendemain, `networks: ["tiktok"]` |
 | Publication bloquée « Installer les dépendances » | Miroir Ubuntu (apt) trop lent | `ffmpeg` installé via `pip` (déjà en place) |
-| Scénario Make inactif | Erreurs consécutives / connexion expirée | Reconnecter Facebook, vérifier l'interrupteur ON avant 18h |
+| Scénario Make inactif | Erreurs consécutives / connexion expirée | Reconnecter Facebook, vérifier l'interrupteur ON avant la 1re publication de la journée |
 | Vidéo publiée en double | Un envoi parti sans que je le voie | Vérifier systématiquement les exécutions sur GitHub |
 | Vidéo noire dans le rendu | `<video>` sans identifiant unique, ou doublon d'`id` | Identifiants uniques |
 
