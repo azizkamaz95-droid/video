@@ -1,6 +1,3 @@
-neutre|fr||Le petit-déjeuner, le repas le plus important de la journée ? Non. Et j'ai trois preuves.
-rire|fr||Tu veux savoir la vérité ? [laughter] Franchement, c'est assez drôle.
-soupir|fr||[sigh] Encore une fois, on t'a menti.
-surprise|fr||Quatre-vingt-sept pour cent de risque en plus ? [surprise-oh] Choquant. Pas si vite.
-chuchote|fr|male, whisper|Reste jusqu'au bout. Le troisième fait va te surprendre.
-grave|fr|male, low pitch|Fait numéro trois. Celui que je t'ai promis.
+demon1|fr|male, very low pitch|Tu pensais être en sécurité ? [laughter] Tu te trompes. Reste jusqu'au bout.
+demon2|fr|male, elderly, very low pitch|Le petit-déjeuner... [laughter] On t'a menti. Et le pire, c'est que tu l'as cru.
+demon3|fr|male, very low pitch, whisper|Je t'attendais... [laughter] Écoute bien. Le troisième fait va te hanter.
