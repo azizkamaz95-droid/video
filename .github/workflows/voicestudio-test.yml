@@ -59,7 +59,7 @@ jobs:
           cp out/*.wav voicetest-out/ 2>/dev/null || true
           git config user.email "noreply@anthropic.com"
           git config user.name "Claude"
-          git add voicetest-out
+          git add --sparse voicetest-out
           git commit -m "Resultats du test VoiceStudio (fichiers audio)" || echo "rien a deposer"
           git push origin HEAD:${{ github.ref_name }} || true
       - uses: actions/upload-artifact@v4
