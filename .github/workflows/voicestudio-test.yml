@@ -25,6 +25,16 @@ jobs:
           pip install --quiet torch torchaudio torchvision --index-url https://download.pytorch.org/whl/cpu
           pip install --quiet "transformers>=5.10.0" accelerate pydub soundfile numpy tensorboardX webdataset huggingface_hub safetensors sentencepiece "setuptools<80" pillow
           pip install --quiet --no-deps -e vs
+          # torchaudio.save demande torchcodec : on enregistre avec soundfile a la place
+          python - <<'PY'
+          import re
+          p = "vs/omnivoice/cli/infer.py"
+          s = open(p).read()
+          old = "torchaudio.save(args.output, audios[0], model.sampling_rate)"
+          assert old in s
+          s = s.replace(old, "import soundfile as sf; sf.write(args.output, audios[0].squeeze().cpu().numpy(), model.sampling_rate)")
+          open(p, "w").write(s)
+          PY
           python -c "import omnivoice; print('omnivoice OK')"
       - name: Generer les phrases
         run: |
@@ -35,7 +45,7 @@ jobs:
             args=(--model k2-fsa/OmniVoice --text "$text" --language "$lang" --output "out/$name.wav" --device cpu --num_step 16)
             [ -n "$instruct" ] && args+=(--instruct "$instruct")
             start=$(date +%s)
-            omnivoice-infer "${args[@]}" 2>&1 | tail -15 || echo "ECHEC : $name"
+            omnivoice-infer "${args[@]}" 2>&1 | tail -8; [ -s "out/$name.wav" ] || echo "ECHEC : $name"
             echo "duree: $(( $(date +%s) - start )) s"
           done < voicetest/phrases.txt
           ls -la out
