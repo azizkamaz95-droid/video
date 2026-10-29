@@ -1,0 +1,6 @@
+neutre|fr||Le petit-déjeuner, le repas le plus important de la journée ? Non. Et j'ai trois preuves.
+rire|fr||Tu veux savoir la vérité ? [laughter] Franchement, c'est assez drôle.
+soupir|fr||[sigh] Encore une fois, on t'a menti.
+surprise|fr||Quatre-vingt-sept pour cent de risque en plus ? [surprise-oh] Choquant. Pas si vite.
+chuchote|fr|male, whisper|Reste jusqu'au bout. Le troisième fait va te surprendre.
+grave|fr|male, low pitch|Fait numéro trois. Celui que je t'ai promis.

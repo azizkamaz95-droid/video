@@ -1,0 +1,50 @@
+# Test ponctuel de VoiceStudio (OmniVoice) : voix, rires, soupirs en français. Aucun secret, aucune publication.
+# Se lance quand on pousse un changement dans voicetest/ sur la branche de travail, ou à la main.
+name: Test VoiceStudio
+on:
+  push:
+    branches: [claude/festive-einstein-2o3wzf]
+    paths: ['voicetest/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: voicetest
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installer VoiceStudio (CPU)
+        run: |
+          git clone --depth 1 https://github.com/debpalash/voicestudio vs
+          pip install --quiet torch torchaudio torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet "transformers>=5.10.0" accelerate pydub soundfile numpy tensorboardX webdataset huggingface_hub safetensors sentencepiece "setuptools<80" pillow
+          pip install --quiet --no-deps -e vs
+          python -c "import omnivoice; print('omnivoice OK')"
+      - name: Generer les phrases
+        run: |
+          mkdir -p out
+          while IFS='|' read -r name lang instruct text; do
+            [ -z "$name" ] && continue
+            echo "=== $name : $text"
+            args=(--model k2-fsa/OmniVoice --text "$text" --language "$lang" --output "out/$name.wav" --device cpu --num_step 16)
+            [ -n "$instruct" ] && args+=(--instruct "$instruct")
+            start=$(date +%s)
+            omnivoice-infer "${args[@]}" 2>&1 | tail -15 || echo "ECHEC : $name"
+            echo "duree: $(( $(date +%s) - start )) s"
+          done < voicetest/phrases.txt
+          ls -la out
+      - name: Resume
+        if: always()
+        run: ls -la out 2>/dev/null || echo "aucun fichier genere"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: voicestudio-test
+          path: out/
+          if-no-files-found: warn
