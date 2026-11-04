@@ -1,0 +1,851 @@
+{
+ "duration": 60.595,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.337
+  },
+  {
+   "word": "fais",
+   "start": 0.337,
+   "end": 0.497
+  },
+  {
+   "word": "du",
+   "start": 0.497,
+   "end": 0.578
+  },
+  {
+   "word": "sport",
+   "start": 0.578,
+   "end": 0.915
+  },
+  {
+   "word": "à",
+   "start": 0.915,
+   "end": 0.979
+  },
+  {
+   "word": "jeun",
+   "start": 0.979,
+   "end": 1.22
+  },
+  {
+   "word": "pour",
+   "start": 1.22,
+   "end": 1.349
+  },
+  {
+   "word": "maigrir",
+   "start": 1.349,
+   "end": 1.686
+  },
+  {
+   "word": "plus",
+   "start": 1.702,
+   "end": 1.863
+  },
+  {
+   "word": "vite?",
+   "start": 1.863,
+   "end": 2.071
+  },
+  {
+   "word": "Ça",
+   "start": 2.666,
+   "end": 2.778
+  },
+  {
+   "word": "ne",
+   "start": 2.778,
+   "end": 2.826
+  },
+  {
+   "word": "marche",
+   "start": 2.826,
+   "end": 3.067
+  },
+  {
+   "word": "pas",
+   "start": 3.067,
+   "end": 3.148
+  },
+  {
+   "word": "mieux.",
+   "start": 3.148,
+   "end": 3.276
+  },
+  {
+   "word": "Je",
+   "start": 3.87,
+   "end": 3.951
+  },
+  {
+   "word": "t'explique",
+   "start": 3.951,
+   "end": 4.449
+  },
+  {
+   "word": "en",
+   "start": 4.449,
+   "end": 4.513
+  },
+  {
+   "word": "3",
+   "start": 4.513,
+   "end": 4.754
+  },
+  {
+   "word": "preuves.",
+   "start": 4.754,
+   "end": 5.011
+  },
+  {
+   "word": "La",
+   "start": 5.637,
+   "end": 5.798
+  },
+  {
+   "word": "dernière",
+   "start": 5.798,
+   "end": 6.119
+  },
+  {
+   "word": "va",
+   "start": 6.119,
+   "end": 6.28
+  },
+  {
+   "word": "te",
+   "start": 6.28,
+   "end": 6.36
+  },
+  {
+   "word": "surprendre.",
+   "start": 6.36,
+   "end": 6.89
+  },
+  {
+   "word": "Première",
+   "start": 7.564,
+   "end": 7.87
+  },
+  {
+   "word": "preuve:",
+   "start": 7.966,
+   "end": 8.319
+  },
+  {
+   "word": "20",
+   "start": 8.93,
+   "end": 9.09
+  },
+  {
+   "word": "jeunes",
+   "start": 9.09,
+   "end": 9.331
+  },
+  {
+   "word": "femmes",
+   "start": 9.331,
+   "end": 9.556
+  },
+  {
+   "word": "ont",
+   "start": 9.588,
+   "end": 9.733
+  },
+  {
+   "word": "fait",
+   "start": 9.733,
+   "end": 9.813
+  },
+  {
+   "word": "du",
+   "start": 9.813,
+   "end": 9.926
+  },
+  {
+   "word": "cardio",
+   "start": 9.926,
+   "end": 10.375
+  },
+  {
+   "word": "pendant",
+   "start": 10.456,
+   "end": 10.696
+  },
+  {
+   "word": "4",
+   "start": 10.696,
+   "end": 11.002
+  },
+  {
+   "word": "semaines.",
+   "start": 11.018,
+   "end": 11.307
+  },
+  {
+   "word": "10",
+   "start": 11.981,
+   "end": 12.319
+  },
+  {
+   "word": "à",
+   "start": 12.319,
+   "end": 12.463
+  },
+  {
+   "word": "jeun,",
+   "start": 12.463,
+   "end": 12.592
+  },
+  {
+   "word": "10",
+   "start": 13.186,
+   "end": 13.379
+  },
+  {
+   "word": "après",
+   "start": 13.604,
+   "end": 13.957
+  },
+  {
+   "word": "un",
+   "start": 14.085,
+   "end": 14.15
+  },
+  {
+   "word": "repas.",
+   "start": 14.15,
+   "end": 14.359
+  },
+  {
+   "word": "Même",
+   "start": 14.953,
+   "end": 15.194
+  },
+  {
+   "word": "régime",
+   "start": 15.194,
+   "end": 15.595
+  },
+  {
+   "word": "pour",
+   "start": 15.595,
+   "end": 15.692
+  },
+  {
+   "word": "toutes.",
+   "start": 15.756,
+   "end": 15.965
+  },
+  {
+   "word": "Résultat:",
+   "start": 16.559,
+   "end": 17.009
+  },
+  {
+   "word": "la",
+   "start": 17.603,
+   "end": 17.715
+  },
+  {
+   "word": "même",
+   "start": 17.715,
+   "end": 17.892
+  },
+  {
+   "word": "perte",
+   "start": 17.924,
+   "end": 18.245
+  },
+  {
+   "word": "de",
+   "start": 18.245,
+   "end": 18.326
+  },
+  {
+   "word": "gras.",
+   "start": 18.406,
+   "end": 18.535
+  },
+  {
+   "word": "Deuxième",
+   "start": 19.289,
+   "end": 19.611
+  },
+  {
+   "word": "preuve:",
+   "start": 19.611,
+   "end": 19.948
+  },
+  {
+   "word": "des",
+   "start": 20.494,
+   "end": 20.606
+  },
+  {
+   "word": "chercheurs",
+   "start": 20.606,
+   "end": 21.072
+  },
+  {
+   "word": "ont",
+   "start": 21.072,
+   "end": 21.136
+  },
+  {
+   "word": "regroupé",
+   "start": 21.136,
+   "end": 21.618
+  },
+  {
+   "word": "5",
+   "start": 21.618,
+   "end": 21.875
+  },
+  {
+   "word": "études,",
+   "start": 21.875,
+   "end": 22.229
+  },
+  {
+   "word": "96",
+   "start": 22.743,
+   "end": 23.385
+  },
+  {
+   "word": "personnes",
+   "start": 23.385,
+   "end": 23.722
+  },
+  {
+   "word": "en",
+   "start": 23.722,
+   "end": 23.787
+  },
+  {
+   "word": "tout.",
+   "start": 23.867,
+   "end": 23.995
+  },
+  {
+   "word": "L'écart",
+   "start": 24.461,
+   "end": 24.815
+  },
+  {
+   "word": "sur",
+   "start": 24.831,
+   "end": 24.991
+  },
+  {
+   "word": "le",
+   "start": 24.991,
+   "end": 25.072
+  },
+  {
+   "word": "gras",
+   "start": 25.072,
+   "end": 25.264
+  },
+  {
+   "word": "est",
+   "start": 25.296,
+   "end": 25.312
+  },
+  {
+   "word": "minuscule.",
+   "start": 25.312,
+   "end": 25.843
+  },
+  {
+   "word": "Troisième",
+   "start": 26.356,
+   "end": 26.74
+  },
+  {
+   "word": "preuve:",
+   "start": 26.757,
+   "end": 27.045
+  },
+  {
+   "word": "oui,",
+   "start": 27.638,
+   "end": 27.766
+  },
+  {
+   "word": "à",
+   "start": 28.055,
+   "end": 28.119
+  },
+  {
+   "word": "jeun",
+   "start": 28.119,
+   "end": 28.279
+  },
+  {
+   "word": "tu",
+   "start": 28.279,
+   "end": 28.439
+  },
+  {
+   "word": "brûles",
+   "start": 28.439,
+   "end": 28.663
+  },
+  {
+   "word": "plus",
+   "start": 28.68,
+   "end": 28.872
+  },
+  {
+   "word": "de",
+   "start": 28.92,
+   "end": 28.952
+  },
+  {
+   "word": "gras",
+   "start": 29.032,
+   "end": 29.24
+  },
+  {
+   "word": "pendant",
+   "start": 29.24,
+   "end": 29.481
+  },
+  {
+   "word": "la",
+   "start": 29.481,
+   "end": 29.593
+  },
+  {
+   "word": "séance.",
+   "start": 29.593,
+   "end": 29.929
+  },
+  {
+   "word": "Mais",
+   "start": 30.602,
+   "end": 30.683
+  },
+  {
+   "word": "de",
+   "start": 30.683,
+   "end": 30.763
+  },
+  {
+   "word": "combien?",
+   "start": 30.843,
+   "end": 31.131
+  },
+  {
+   "word": "Environ",
+   "start": 31.74,
+   "end": 32.125
+  },
+  {
+   "word": "3",
+   "start": 32.125,
+   "end": 32.317
+  },
+  {
+   "word": "grammes.",
+   "start": 32.317,
+   "end": 32.493
+  },
+  {
+   "word": "Moins",
+   "start": 33.166,
+   "end": 33.327
+  },
+  {
+   "word": "qu'une",
+   "start": 33.407,
+   "end": 33.567
+  },
+  {
+   "word": "cuillère",
+   "start": 33.567,
+   "end": 33.823
+  },
+  {
+   "word": "à",
+   "start": 33.823,
+   "end": 33.92
+  },
+  {
+   "word": "café.",
+   "start": 33.92,
+   "end": 34.176
+  },
+  {
+   "word": "Voilà",
+   "start": 34.929,
+   "end": 35.17
+  },
+  {
+   "word": "pourquoi",
+   "start": 35.17,
+   "end": 35.57
+  },
+  {
+   "word": "ça",
+   "start": 35.57,
+   "end": 35.682
+  },
+  {
+   "word": "ne",
+   "start": 35.682,
+   "end": 35.811
+  },
+  {
+   "word": "change",
+   "start": 35.843,
+   "end": 36.163
+  },
+  {
+   "word": "rien",
+   "start": 36.163,
+   "end": 36.468
+  },
+  {
+   "word": "à",
+   "start": 36.468,
+   "end": 36.532
+  },
+  {
+   "word": "la",
+   "start": 36.532,
+   "end": 36.692
+  },
+  {
+   "word": "fin.",
+   "start": 36.692,
+   "end": 36.74
+  },
+  {
+   "word": "Ce",
+   "start": 37.493,
+   "end": 37.573
+  },
+  {
+   "word": "qui",
+   "start": 37.605,
+   "end": 37.734
+  },
+  {
+   "word": "compte,",
+   "start": 37.814,
+   "end": 38.086
+  },
+  {
+   "word": "c'est",
+   "start": 38.375,
+   "end": 38.455
+  },
+  {
+   "word": "ta",
+   "start": 38.455,
+   "end": 38.615
+  },
+  {
+   "word": "journée",
+   "start": 38.615,
+   "end": 38.951
+  },
+  {
+   "word": "entière.",
+   "start": 38.951,
+   "end": 39.304
+  },
+  {
+   "word": "Tes",
+   "start": 39.897,
+   "end": 39.977
+  },
+  {
+   "word": "calories,",
+   "start": 39.977,
+   "end": 40.426
+  },
+  {
+   "word": "ton",
+   "start": 40.778,
+   "end": 40.939
+  },
+  {
+   "word": "sommeil,",
+   "start": 41.019,
+   "end": 41.387
+  },
+  {
+   "word": "ton",
+   "start": 41.419,
+   "end": 41.596
+  },
+  {
+   "word": "entraînement.",
+   "start": 41.596,
+   "end": 42.028
+  },
+  {
+   "word": "À",
+   "start": 42.637,
+   "end": 42.701
+  },
+  {
+   "word": "jeun",
+   "start": 42.701,
+   "end": 42.958
+  },
+  {
+   "word": "ou",
+   "start": 42.958,
+   "end": 43.022
+  },
+  {
+   "word": "non,",
+   "start": 43.022,
+   "end": 43.15
+  },
+  {
+   "word": "choisis",
+   "start": 43.743,
+   "end": 44.063
+  },
+  {
+   "word": "ce",
+   "start": 44.095,
+   "end": 44.224
+  },
+  {
+   "word": "qui",
+   "start": 44.224,
+   "end": 44.384
+  },
+  {
+   "word": "te",
+   "start": 44.384,
+   "end": 44.464
+  },
+  {
+   "word": "convient.",
+   "start": 44.544,
+   "end": 44.833
+  },
+  {
+   "word": "Et",
+   "start": 45.522,
+   "end": 45.586
+  },
+  {
+   "word": "toi,",
+   "start": 45.586,
+   "end": 45.794
+  },
+  {
+   "word": "tu",
+   "start": 45.826,
+   "end": 45.986
+  },
+  {
+   "word": "t'entraînes",
+   "start": 45.986,
+   "end": 46.403
+  },
+  {
+   "word": "à",
+   "start": 46.403,
+   "end": 46.467
+  },
+  {
+   "word": "jeun",
+   "start": 46.467,
+   "end": 46.675
+  },
+  {
+   "word": "ou",
+   "start": 46.707,
+   "end": 46.723
+  },
+  {
+   "word": "après",
+   "start": 46.723,
+   "end": 47.012
+  },
+  {
+   "word": "manger?",
+   "start": 47.012,
+   "end": 47.236
+  },
+  {
+   "word": "Réponds",
+   "start": 47.861,
+   "end": 48.166
+  },
+  {
+   "word": "en",
+   "start": 48.166,
+   "end": 48.23
+  },
+  {
+   "word": "commentaire.",
+   "start": 48.23,
+   "end": 48.759
+  },
+  {
+   "word": "Partage",
+   "start": 49.352,
+   "end": 49.736
+  },
+  {
+   "word": "cette",
+   "start": 49.752,
+   "end": 49.977
+  },
+  {
+   "word": "vidéo",
+   "start": 49.993,
+   "end": 50.329
+  },
+  {
+   "word": "à",
+   "start": 50.329,
+   "end": 50.505
+  },
+  {
+   "word": "un",
+   "start": 50.505,
+   "end": 50.569
+  },
+  {
+   "word": "ami",
+   "start": 50.569,
+   "end": 50.682
+  },
+  {
+   "word": "qui",
+   "start": 50.794,
+   "end": 50.858
+  },
+  {
+   "word": "s'entraîne",
+   "start": 50.858,
+   "end": 51.371
+  },
+  {
+   "word": "à",
+   "start": 51.371,
+   "end": 51.435
+  },
+  {
+   "word": "jeun.",
+   "start": 51.435,
+   "end": 51.563
+  },
+  {
+   "word": "Et",
+   "start": 52.093,
+   "end": 52.125
+  },
+  {
+   "word": "abonne-toi,",
+   "start": 52.173,
+   "end": 52.608
+  },
+  {
+   "word": "une",
+   "start": 52.817,
+   "end": 52.866
+  },
+  {
+   "word": "nouvelle",
+   "start": 52.962,
+   "end": 53.22
+  },
+  {
+   "word": "vidéo",
+   "start": 53.22,
+   "end": 53.526
+  },
+  {
+   "word": "chaque",
+   "start": 53.558,
+   "end": 53.848
+  },
+  {
+   "word": "jour.",
+   "start": 53.848,
+   "end": 53.977
+  },
+  {
+   "word": "Pour",
+   "start": 54.411,
+   "end": 54.572
+  },
+  {
+   "word": "suivre",
+   "start": 54.572,
+   "end": 54.895
+  },
+  {
+   "word": "tes",
+   "start": 54.895,
+   "end": 55.056
+  },
+  {
+   "word": "calories,",
+   "start": 55.056,
+   "end": 55.426
+  },
+  {
+   "word": "ton",
+   "start": 55.78,
+   "end": 55.941
+  },
+  {
+   "word": "sommeil",
+   "start": 55.941,
+   "end": 56.36
+  },
+  {
+   "word": "et",
+   "start": 56.36,
+   "end": 56.392
+  },
+  {
+   "word": "tes",
+   "start": 56.424,
+   "end": 56.553
+  },
+  {
+   "word": "entraînements,",
+   "start": 56.601,
+   "end": 57.036
+  },
+  {
+   "word": "découvre",
+   "start": 57.712,
+   "end": 58.163
+  },
+  {
+   "word": "CaliBodi",
+   "start": 58.163,
+   "end": 58.743
+  },
+  {
+   "word": "sur",
+   "start": 58.759,
+   "end": 58.888
+  },
+  {
+   "word": "calibody.com.",
+   "start": 58.888,
+   "end": 59.854
+  }
+ ],
+ "text": "Tu fais du sport à jeun pour maigrir plus vite? Ça ne marche pas mieux. Je t'explique en 3 preuves. La dernière va te surprendre. Première preuve: 20 jeunes femmes ont fait du cardio pendant 4 semaines. 10 à jeun, 10 après un repas. Même régime pour toutes. Résultat: la même perte de gras. Deuxième preuve: des chercheurs ont regroupé 5 études, 96 personnes en tout. L'écart sur le gras est minuscule. Troisième preuve: oui, à jeun tu brûles plus de gras pendant la séance. Mais de combien? Environ 3 grammes. Moins qu'une cuillère à café. Voilà pourquoi ça ne change rien à la fin. Ce qui compte, c'est ta journée entière. Tes calories, ton sommeil, ton entraînement. À jeun ou non, choisis ce qui te convient. Et toi, tu t'entraînes à jeun ou après manger? Réponds en commentaire. Partage cette vidéo à un ami qui s'entraîne à jeun. Et abonne-toi, une nouvelle vidéo chaque jour. Pour suivre tes calories, ton sommeil et tes entraînements, découvre CaliBodi sur calibody.com."
+}

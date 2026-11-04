@@ -1,0 +1,91 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Sadachbia",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu fais du sport à jeun pour maigrir plus vite ? Ça ne marche pas mieux.",
+   "pause": 0.35
+  },
+  {
+   "id": "s02",
+   "text": "Je t'explique en trois preuves. La dernière va te surprendre.",
+   "pause": 0.5
+  },
+  {
+   "id": "s03",
+   "text": "Première preuve. 20 jeunes femmes ont fait du cardio pendant 4 semaines.",
+   "pause": 0.3,
+   "say": "Première preuve. Vingt jeunes femmes ont fait du cardio pendant quatre semaines."
+  },
+  {
+   "id": "s04",
+   "text": "Dix à jeun. Dix après un repas. Même régime pour toutes.",
+   "pause": 0.4
+  },
+  {
+   "id": "s05",
+   "text": "Résultat : la même perte de gras.",
+   "pause": 0.5
+  },
+  {
+   "id": "s06",
+   "text": "Deuxième preuve. Des chercheurs ont regroupé 5 études. 96 personnes en tout.",
+   "pause": 0.3,
+   "say": "Deuxième preuve. Des chercheurs ont regroupé cinq études. Quatre-vingt-seize personnes en tout."
+  },
+  {
+   "id": "s07",
+   "text": "L'écart sur le gras est minuscule.",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Troisième preuve. Oui, à jeun, tu brûles plus de gras pendant la séance.",
+   "pause": 0.4
+  },
+  {
+   "id": "s09",
+   "text": "Mais de combien ? Environ 3 grammes. Moins qu'une cuillère à café.",
+   "pause": 0.45,
+   "say": "Mais de combien ? Environ trois grammes. Moins qu'une cuillère à café."
+  },
+  {
+   "id": "s10",
+   "text": "Voilà pourquoi ça ne change rien à la fin.",
+   "pause": 0.5
+  },
+  {
+   "id": "s11",
+   "text": "Ce qui compte, c'est ta journée entière. Tes calories, ton sommeil, ton entraînement.",
+   "pause": 0.4
+  },
+  {
+   "id": "s12",
+   "text": "À jeun ou non, choisis ce qui te convient.",
+   "pause": 0.5
+  },
+  {
+   "id": "s13",
+   "text": "Et toi, tu t'entraînes à jeun ou après manger ? Réponds en commentaire.",
+   "pause": 0.45
+  },
+  {
+   "id": "s14",
+   "text": "Partage cette vidéo à un ami qui s'entraîne à jeun.",
+   "pause": 0.3
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : une nouvelle vidéo chaque jour.",
+   "pause": 0.3
+  },
+  {
+   "id": "s16",
+   "text": "Pour suivre tes calories, ton sommeil et tes entraînements, découvre CaliBodi sur calibodi.com.",
+   "pause": 0.3
+  }
+ ]
+}
