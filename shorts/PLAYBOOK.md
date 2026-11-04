@@ -26,8 +26,8 @@ Guide à suivre à la lettre, d'une session à l'autre. Il résume ce qu'on a ap
 | 2 | Utilisateur | Choisit un sujet. |
 | 3 | Claude | Recherche les sources sur le web, écrit le **script** (§3) avec les sources. |
 | 4 | Utilisateur | **Valide le script** (ou demande des changements). Rien ne se produit avant ce « go ». |
-| 5 | Claude | Produit la vidéo (§5 à §8), la miniature (A et B) et la description. |
-| 6 | Utilisateur | **Valide la vidéo** et choisit la miniature. |
+| 5 | Claude | Produit la vidéo (§5 à §8), **choisit lui-même la miniature** (une seule), la colle en 1re image (§10) et écrit la description. |
+| 6 | Utilisateur | **Valide la vidéo** (la miniature est déjà choisie par Claude ; l'utilisateur ne la choisit plus, sauf s'il demande un changement). |
 | 7 | Claude | **Planifie** la publication dans `queue/` (§10). |
 
 Pour économiser les crédits : pas de recherche inutile, on réutilise les modèles et scripts existants (`build_v4.py`, `shots.py`, `lib/*`), on ne vérifie que ce qui est nouveau.
@@ -177,7 +177,7 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 
 ## 10. Description, miniature, publication
 
-**Miniature :** produire **2 versions** (A et B), 1080×1920, avec le logo CaliBodi en haut, un grand titre, Calix, un élément d'image. L'utilisateur choisit.
+**Miniature (décision de l'utilisateur : Claude la choisit, une seule version) :** même style à chaque fois, 1080×1920 : **logo CaliBodi en haut, centré** ; **un titre intrigant** (gros, lisible, 2 à 4 lignes max, un mot ou un chiffre en couleur d'accent) ; **Calix avec une expression intrigante** (sceptique, choqué, curieux selon le sujet) ; **un arrière-plan qui correspond au sujet** (image de la vidéo). Pas de femme, pas de visage, pas de texte qui déborde. Envoyer la miniature avec la vidéo pour information, sans demander de choix.
 
 **Description (même texte pour les 4 réseaux) :**
 - 1re ligne : sujet + promesse.
@@ -194,7 +194,7 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 **Cases à cocher à la main** dans chaque application : « contenu généré par IA ».
 
 **Planifier la publication :**
-0. **Miniature sur la 1re image, pour TOUTES les vidéos et TOUS les réseaux** (décision de l'utilisateur) : après `master_loud.sh`, lancer `shorts/lib/add_cover.sh <master.mp4> <miniature-choisie.jpg> <sortie.mp4>` : la miniature occupe **0,1 s (3 images)**, invisible à l'œil, avec du silence ajouté au son (rien ne se décale). Compresser ensuite cette sortie à la place du master. À faire une fois la miniature choisie (A ou B). Ne pas utiliser `miniature.jpg` dans la file : la miniature est déjà dans la vidéo.
+0. **Miniature sur la 1re image, pour TOUTES les vidéos et TOUS les réseaux** (décision de l'utilisateur) : après `master_loud.sh`, lancer `shorts/lib/add_cover.sh <master.mp4> <miniature-choisie.jpg> <sortie.mp4>` : la miniature occupe **0,1 s (3 images)**, invisible à l'œil, avec du silence ajouté au son (rien ne se décale). Compresser ensuite cette sortie à la place du master. À faire dès que la miniature est faite (celle que Claude a choisie). Ne pas utiliser `miniature.jpg` dans la file : la miniature est déjà dans la vidéo.
 1. Compresser la vidéo à environ **25 Mo** (H.264, 1080×1920, ≤ 90 s). Nom de fichier simple, sans caractères spéciaux ni points de suspension.
 2. Déposer dans le dépôt `azizkamaz95-droid/calibodi-publish`, branche `main`, un dossier `queue/AAAA-MM-JJ-nom/` contenant la vidéo `.mp4` et un `metadata.json` :
 ```json
