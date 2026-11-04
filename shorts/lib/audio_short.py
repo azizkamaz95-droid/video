@@ -424,6 +424,11 @@ BANK = {
     "warn": (sfx_warn, -6), "check": (sfx_check, -8), "shimmer": (sfx_shimmer, -8), "pop": (sfx_pop, -8),
     # client sounds without a synthesized twin (the generator is only a fallback if the file is missing)
     "reveil": (sfx_warn, -8), "ventre": (lambda: sfx_thump(60, 0.5), -6),
+    # client library, second delivery (files in shorts/sfx; see sfx/README.md)
+    "battement-lent": (sfx_warn, -8), "battement-electro": (sfx_warn, -8), "applaudissements": (sfx_pop, -8),
+    "caisse": (sfx_check, -6), "clavier": (lambda: sfx_click(3000, 0.04), -10), "compte-a-rebours": (sfx_warn, -8),
+    "tension-cine": (lambda: sfx_thump(50, 0.6), -8), "impact-montee": (lambda: sfx_thump(50, 0.6), -6), "notification": (sfx_check, -8),
+    "appareil-photo": (lambda: sfx_click(3000, 0.04), -4),
 }
 
 # voice guard: 1 from 80 ms before a word to 40 ms after it (forward masking), smoothed, at sample rate
