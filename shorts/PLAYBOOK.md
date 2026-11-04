@@ -194,6 +194,7 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 **Cases à cocher à la main** dans chaque application : « contenu généré par IA ».
 
 **Planifier la publication :**
+0. **Miniature sur la 1re image** (YouTube, Instagram, TikTok, Facebook prennent souvent la 1re image comme couverture, et notre chaîne ne pose pas de miniature à part) : après `master_loud.sh`, lancer `shorts/lib/add_cover.sh <master.mp4> <miniature-choisie.jpg> <sortie.mp4>` (3 images = 0,1 s, avec du silence : rien ne se décale), puis compresser cette sortie à la place du master. À faire une fois que l'utilisateur a choisi la miniature (A ou B).
 1. Compresser la vidéo à environ **25 Mo** (H.264, 1080×1920, ≤ 90 s). Nom de fichier simple, sans caractères spéciaux ni points de suspension.
 2. Déposer dans le dépôt `azizkamaz95-droid/calibodi-publish`, branche `main`, un dossier `queue/AAAA-MM-JJ-nom/` contenant la vidéo `.mp4` et un `metadata.json` :
 ```json
