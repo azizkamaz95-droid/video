@@ -78,6 +78,15 @@ Toujours **plus d'une minute** (monétisation). Chaque bloc est écrit en phrase
 
 ---
 
+## 3bis. Écrire comme un humain (règle de l'utilisateur, à appliquer à CHAQUE script)
+- Phrases courtes : 12 mots maximum, une seule idée par phrase. Si une phrase a une virgule et un « qui / que / dont », la couper en deux.
+- Écrire pour l'oreille : lire le script à voix haute dans sa tête. Si on reprend son souffle au milieu, c'est trop long.
+- Zéro contradiction : avant de proposer, relire tout le script et vérifier que chaque fait est cohérent avec la prise de position annoncée dans l'accroche et la conclusion (pas de « mais en fait » qui annule ce qu'on vient de dire sans l'assumer).
+- Une seule thèse, dite dès le début, répétée à la fin avec d'autres mots.
+- Mots du quotidien, pas de jargon ; chaque chiffre s'explique par une image simple.
+- Ton parlé : « Regarde », « Imagine », « Et là ». Pas de style « article ».
+- Relecture finale obligatoire : compter les mots de chaque phrase, signaler et réécrire celles de plus de 12 mots avant de montrer le script à l'utilisateur.
+
 ## 4. Rétention : garder les gens jusqu'à la fin
 
 Le signal le plus fort pour TikTok, Instagram et YouTube est que la vidéo soit regardée jusqu'au bout.
