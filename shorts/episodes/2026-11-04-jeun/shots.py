@@ -103,7 +103,7 @@ SHOTS = [
     ("s7", "micro", 24.30, 26.30, "zoom", *acc(
         tag("s7", "a", "L'ÉCART SUR LE GRAS", f"{C} top: 250px; font-size: 74px; color: #fff;", 24.46),
         lab("s7", "m", "MINUSCULE", "left: 170px; top: 400px; font-size: 130px;", 25.31))),
-    ("s8", "tapis3d", 26.30, 30.50, "whip", *acc(
+    ("s8", "neon", 26.30, 30.50, "whip", *acc(
         lab("s8", "f", "PREUVE 3", "left: 70px; top: 230px; font-size: 120px;", 26.36, out=27.5),
         lab("s8", "j", "À JEUN", "left: 70px; top: 250px; font-size: 130px;", 28.12),
         tag("s8", "g", "PLUS DE GRAS BRÛLÉ", f"{C} top: 440px; font-size: 76px; color: #fff;", 28.68),
