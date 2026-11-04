@@ -212,6 +212,23 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 
 ---
 
+## 10bis. Variété et dynamisme (règles de l'utilisateur, à appliquer à CHAQUE vidéo)
+
+**Les vidéos ne doivent pas se ressembler** (les réseaux pénalisent le contenu répétitif) **et doivent être vivantes dès la première seconde.**
+
+**Couleurs : aucune couleur n'est « la » couleur de CaliBodi pour les vidéos.** Choisir un accent différent des deux dernières vidéos : jaune `#FFC93C`, vert menthe `#3DE0C0`, orange `#FF6B35`, cyan `#35C7FF`, magenta `#FF3D81`, vert lime `#B6F23B`, violet `#9B6BFF`, rouge `#FF4D4D`… Le changer partout (`YEL` dans `build_v4.py` et les couleurs de `shots.py`). Varier aussi le fond (sombre, clair, coloré), le grade de couleur et le type d'images. Noter l'accent utilisé dans `publication.md` pour ne pas le répéter.
+
+**Sons : changer le jeu d'effets d'une vidéo à l'autre**, pas toujours les mêmes « whoosh » et « stamp ». Utiliser selon le sujet : clic d'appareil photo (sur un chiffre ou une révélation), caisse enregistreuse, notification, frappe de clavier, battement de cœur, montée (riser), impact grave, glitch, étincelle / ding, rayure de disque, page qui se tourne, tic-tac, applaudissements, pas, vélo… **Si un son manque, le demander à l'utilisateur** (il peut les télécharger sur Pixabay Sound Effects) en donnant la liste précise. Varier aussi le placement de la musique (autre passage, autre filtre) et les effets de mixage.
+
+**Dynamique dès le début (les 2 premières secondes décident) :**
+- Un effet **dans la 1re seconde** : zoom d'entrée (punch-in) ou secousse, un son marqué sur le 1er mot, et le titre ou le chiffre qui apparaît tout de suite (jamais de plan statique).
+- **Un plan toutes les 1,5 à 4 s**, avec des enchaînements variés (zoom, flash, whip, glitch, flash d'appareil photo) ; ne pas répéter le même enchaînement 3 fois de suite.
+- **Zoom (punch-in) sur chaque chiffre clé**, légère secousse sur les moments choc, mouvement lent (Ken Burns) sur les plans plus longs.
+- Un **élément qui bouge à chaque idée** (texte qui claque, barre, compteur, icône) ; des chiffres qui s'animent plutôt que posés.
+- Vérifier au rendu qu'**aucun plan ne reste immobile plus de 2 s** sans texte ni mouvement.
+
+---
+
 ## 11. Problèmes déjà rencontrés (et solutions)
 
 | Symptôme | Cause | Solution |
