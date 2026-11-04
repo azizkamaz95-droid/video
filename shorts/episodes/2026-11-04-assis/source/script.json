@@ -1,0 +1,114 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Sadachbia",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu travailles assis huit heures par jour ? Ton corps est en danger.",
+   "pause": 0.35
+  },
+  {
+   "id": "s02",
+   "text": "Mais il y a une bonne nouvelle.",
+   "pause": 0.45
+  },
+  {
+   "id": "s03",
+   "text": "Et j'ai trois preuves. La troisième va te surprendre. Reste jusqu'au bout.",
+   "pause": 0.55
+  },
+  {
+   "id": "s04",
+   "text": "Fait numéro un. Une grande synthèse a regroupé 47 études.",
+   "pause": 0.3,
+   "say": "Fait numéro un. Une grande synthèse a regroupé quarante-sept études."
+  },
+  {
+   "id": "s05",
+   "text": "Ceux qui restent le plus longtemps assis ont environ 24 % de risque de mourir en plus. Même quand on fait du sport.",
+   "pause": 0.55,
+   "say": "Ceux qui restent le plus longtemps assis ont environ vingt-quatre pour cent de risque de mourir en plus. Même quand on fait du sport."
+  },
+  {
+   "id": "s06",
+   "text": "Fait numéro deux. Des chercheurs ont fait marcher des adultes 2 minutes toutes les 20 minutes.",
+   "pause": 0.3,
+   "say": "Fait numéro deux. Des chercheurs ont fait marcher des adultes deux minutes toutes les vingt minutes."
+  },
+  {
+   "id": "s07",
+   "text": "Résultat : moins de sucre et moins d'insuline dans le sang après le repas.",
+   "pause": 0.35
+  },
+  {
+   "id": "s08",
+   "text": "Petit bémol : l'étude est petite, 19 personnes.",
+   "pause": 0.55,
+   "say": "Petit bémol : l'étude est petite, dix-neuf personnes."
+  },
+  {
+   "id": "s09",
+   "text": "Fait numéro trois. Celui que je t'ai promis.",
+   "pause": 0.3
+  },
+  {
+   "id": "s10",
+   "text": "Plus d'un million de personnes ont été suivies.",
+   "pause": 0.3
+  },
+  {
+   "id": "s11",
+   "text": "60 à 75 minutes d'activité par jour suffisent à annuler le risque des 8 heures assis.",
+   "pause": 0.45,
+   "say": "Soixante à soixante-quinze minutes d'activité par jour suffisent à annuler le risque des huit heures assis."
+  },
+  {
+   "id": "s12",
+   "text": "Choquant ? Pas si vite.",
+   "pause": 0.4
+  },
+  {
+   "id": "s13",
+   "text": "Devant la télé plus de 5 heures par jour, le risque baisse, mais il ne disparaît pas.",
+   "pause": 0.3,
+   "say": "Devant la télé plus de cinq heures par jour, le risque baisse, mais il ne disparaît pas."
+  },
+  {
+   "id": "s14",
+   "text": "Et ce sont des études d'observation : des liens, pas des preuves.",
+   "pause": 0.5
+  },
+  {
+   "id": "s15",
+   "text": "Ce qui compte vraiment : bouger tous les jours.",
+   "pause": 0.3
+  },
+  {
+   "id": "s16",
+   "text": "Une marche rapide ou du vélo, ça compte. Pas besoin de salle.",
+   "pause": 0.5
+  },
+  {
+   "id": "s17",
+   "text": "Et toi, tu es assis combien d'heures par jour ? Réponds en commentaire.",
+   "pause": 0.45
+  },
+  {
+   "id": "s18",
+   "text": "Partage cette vidéo à un collègue qui passe sa journée au bureau.",
+   "pause": 0.3
+  },
+  {
+   "id": "s19",
+   "text": "Et abonne-toi : une nouvelle vidéo chaque jour.",
+   "pause": 0.3
+  },
+  {
+   "id": "s20",
+   "text": "Pour suivre ton activité, tes entraînements et ton sommeil, découvre CaliBodi sur calibodi.com.",
+   "pause": 0.3
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "title": "Assis 8 h par jour",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_file": "assets/music/the-plan.mp3",
+ "music_loop": [
+  8.0,
+  48.0
+ ],
+ "music_lufs": -25.0,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  2.83,
+  33.81,
+  43.84
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 3.6
+  },
+  {
+   "type": "body",
+   "start": 3.6,
+   "end": 70.65
+  },
+  {
+   "type": "outro",
+   "start": 70.65,
+   "end": 78.01
+  }
+ ],
+ "sfx": [
+  [
+   "whoosh",
+   3.54
+  ],
+  [
+   "whoosh",
+   5.24
+  ],
+  [
+   "whoosh",
+   10.24
+  ],
+  [
+   "whoosh",
+   14.04
+  ],
+  [
+   "whoosh",
+   20.44
+  ],
+  [
+   "whoosh",
+   25.29
+  ],
+  [
+   "whoosh",
+   29.09
+  ],
+  [
+   "whoosh",
+   33.19
+  ],
+  [
+   "whoosh",
+   38.29
+  ],
+  [
+   "whoosh",
+   43.69
+  ],
+  [
+   "whoosh",
+   45.59
+  ],
+  [
+   "whoosh",
+   50.29
+  ],
+  [
+   "whoosh",
+   54.69
+  ],
+  [
+   "whoosh",
+   57.29
+  ],
+  [
+   "whoosh",
+   60.89
+  ],
+  [
+   "whoosh",
+   65.29
+  ],
+  [
+   "whoosh",
+   70.59
+  ],
+  [
+   "stamp",
+   0.8
+  ],
+  [
+   "stamp",
+   2.83
+  ],
+  [
+   "stamp",
+   5.8
+  ],
+  [
+   "stamp",
+   12.78
+  ],
+  [
+   "stamp",
+   16.16
+  ],
+  [
+   "stamp",
+   23.55
+  ],
+  [
+   "stamp",
+   31.73
+  ],
+  [
+   "stamp",
+   33.81
+  ],
+  [
+   "stamp",
+   36.38
+  ],
+  [
+   "stamp",
+   38.9
+  ],
+  [
+   "stamp",
+   41.61
+  ],
+  [
+   "stamp",
+   43.84
+  ],
+  [
+   "stamp",
+   46.64
+  ],
+  [
+   "stamp",
+   52.58
+  ],
+  [
+   "stamp",
+   56.03
+  ],
+  [
+   "stamp",
+   61.03
+  ],
+  [
+   "stamp",
+   68.66
+  ],
+  [
+   "stamp",
+   74.8
+  ],
+  [
+   "stamp",
+   75.61
+  ],
+  [
+   "tick",
+   24.35
+  ],
+  [
+   "thump",
+   33.81
+  ]
+ ]
+}
