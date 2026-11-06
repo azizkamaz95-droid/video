@@ -31,6 +31,6 @@ Vidéo générée par IA.
 
 ## Réglages à cocher
 - Contenu généré par IA : oui (voix de synthèse)
-- Pas de son tendance ajouté : la musique « The Plan » (Pixabay) est déjà dans la vidéo
+- Pas de son tendance ajouté : la musique « Documentary Motivation » (audiocoffee, Freesound, licence à confirmer) est déjà dans la vidéo
 - Miniature : déjà collée sur la 1re image (0,1 s), version unique choisie par Claude
 - Accent couleur utilisé : orange #FF6B35 (ne pas le répéter à la suite)

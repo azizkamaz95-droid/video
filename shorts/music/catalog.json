@@ -1,0 +1,10 @@
+{
+ "_note": "Musiques de fond. loop = [a, b] en secondes (lecture jusqu'à b puis reprise à a). Les pistes -loop sont faites pour boucler entièrement.",
+ "tracks": [
+  {"name": "the-plan", "file": "the-plan.mp3", "loop": [8.0, 48.0], "bpm": 123, "character": "énergique, tech", "source": "Pixabay (freesound_community, The Plan)"},
+  {"name": "documentaire-motivation", "file": "documentaire-motivation.mp3", "loop": [0.0, 80.0], "bpm": 117, "character": "doux, documentaire, explications", "source": "Freesound 721052, audiocoffee (licence à confirmer)"},
+  {"name": "corporate-motivation", "file": "corporate-motivation.mp3", "loop": [0.0, 75.0], "bpm": 129, "character": "dynamique, positif, sujets pratiques", "source": "Freesound 720615, audiocoffee (licence à confirmer)"},
+  {"name": "motivation-quotidienne", "file": "motivation-quotidienne.mp3", "loop": [0.0, 48.0], "bpm": 117, "character": "léger, quotidien, habitudes", "source": "Freesound 725013, audiocoffee (licence à confirmer)"},
+  {"name": "epique-trailer", "file": "epique-trailer.mp3", "loop": [0.0, 80.0], "bpm": 96, "character": "dramatique, fort, sujets choc", "source": "Freesound 721944, audiocoffee (licence à confirmer)"}
+ ]
+}

@@ -3,10 +3,10 @@
  "tail": 0.7,
  "bpm": 120,
  "style": "drive",
- "music_file": "assets/music/the-plan.mp3",
+ "music_file": "assets/music/documentaire-motivation.mp3",
  "music_loop": [
-  8.0,
-  48.0
+  0.0,
+  80.0
  ],
  "music_lufs": -25.0,
  "duck_db": -6.0,
