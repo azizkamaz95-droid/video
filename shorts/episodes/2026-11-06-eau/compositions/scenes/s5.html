@@ -36,12 +36,12 @@
         (function () {
           const build = () => {
             const tl = gsap.timeline({ paused: true });
-            const at=(t)=>+Math.max(0,t-15.075).toFixed(3);
+            const at=(t)=>+Math.max(0,t-14.793).toFixed(3);
             tl.fromTo("#s5-kb",{scale:1.0},{scale:1.12,duration:1.75,ease:"none"},0);
             tl.fromTo("#s5",{scale:.55,opacity:0,filter:"blur(18px)"},{scale:1,opacity:1,filter:"blur(0px)",duration:.26,ease:"power3.out"},0);
             tl.fromTo("#s5",{filter:"brightness(1)"},{filter:"brightness(3)",duration:.12,ease:"power2.in",immediateRender:false},1.63);
-            tl.fromTo("#s5-a",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(15.402));
-tl.fromTo("#s5-m",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(15.689));
+            tl.fromTo("#s5-a",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(15.12));
+tl.fromTo("#s5-m",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(15.407));
 
             window.__timelines["s5"] = tl;
           };

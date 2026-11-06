@@ -87,6 +87,7 @@ Toujours **plus d'une minute** (monétisation). Chaque bloc est écrit en phrase
 - Ton parlé : « Regarde », « Imagine », « Et là ». Pas de style « article ».
 - Français correct : une preuve est féminine (« première, deuxième, troisième preuve ») et on ne « t'explique » pas « en trois preuves » : les preuves appuient une affirmation. Dire « J'ai trois preuves. » ou « Voici trois preuves. ».
 - Voix : éviter les phrases où « n'est », « n'y », « qu'un » se suivent ou se collent (la voix lit « ce ness », « il n y »). Préférer une tournure sans ces élisions, puis relire la transcription de CHAQUE phrase avant de monter. Si la voix est régénérée, copier d'abord `assets/voice/segments.json` vers `source/segments-v1.json` : `build_v4.py` recale alors tous les plans (le son `plan.json` se recale à part).
+- **Ponctuation de la voix (règle de l'utilisateur) :** la ponctuation du champ `say` dicte l'intonation. Une affirmation se termine par un point, jamais par « ! » ni « ... » (« La dernière va te surprendre. » sonnait comme une interjection avec « ... !»). Question = « ? ». « ! » seulement pour une vraie exclamation, très rare. L'énergie vient de la voix choisie et du rythme, pas d'une ponctuation forcée. Relire chaque phrase une à une et noter son type (affirmation, question, ordre) avant de générer.
 - Relecture finale obligatoire : compter les mots de chaque phrase, signaler et réécrire celles de plus de 12 mots avant de montrer le script à l'utilisateur.
 
 ## 4. Rétention : garder les gens jusqu'à la fin

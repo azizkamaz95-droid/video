@@ -8,25 +8,25 @@
    "id": "s01",
    "text": "Il faut boire 1,5 litre d'eau par jour. Ou 2 litres. Ou 3.",
    "pause": 0.35,
-   "say": "Il faut boire un litre et demi d'eau par jour ! Ou deux litres ! Ou trois !"
+   "say": "Il faut boire un litre et demi d'eau par jour. Ou deux litres. Ou trois."
   },
   {
    "id": "s02",
    "text": "Aucun de ces chiffres n'est vrai pour tout le monde.",
    "pause": 0.5,
-   "say": "Aucun de ces chiffres n'est vrai pour tout le monde !"
+   "say": "Aucun de ces chiffres n'est vrai pour tout le monde."
   },
   {
    "id": "s03",
    "text": "J'ai trois preuves. La dernière va te surprendre.",
    "pause": 0.5,
-   "say": "J'ai trois preuves. La dernière... va te surprendre !"
+   "say": "J'ai trois preuves. La dernière va te surprendre."
   },
   {
    "id": "s04",
    "text": "Première preuve. En France, l'Anses conseille 1,5 à 2 litres d'eau par jour.",
    "pause": 0.3,
-   "say": "Première preuve ! En France, l'Anses conseille un litre et demi à deux litres d'eau par jour."
+   "say": "Première preuve. En France, l'Anses conseille un litre et demi à deux litres d'eau par jour."
   },
   {
    "id": "s05",
@@ -37,67 +37,67 @@
    "id": "s06",
    "text": "Deuxième preuve. L'Europe, elle, parle de 2 litres pour les femmes.",
    "pause": 0.3,
-   "say": "Deuxième preuve ! L'Europe, elle, parle de deux litres pour les femmes."
+   "say": "Deuxième preuve. L'Europe, elle, parle de deux litres pour les femmes."
   },
   {
    "id": "s07",
    "text": "Et de 2,5 litres pour les hommes.",
    "pause": 0.35,
-   "say": "Et de deux litres et demi pour les hommes !"
+   "say": "Et de deux litres et demi pour les hommes."
   },
   {
    "id": "s08",
    "text": "Et ces litres comptent aussi l'eau de la nourriture.",
    "pause": 0.5,
-   "say": "Et ces litres comptent aussi l'eau de la nourriture !"
+   "say": "Et ces litres comptent aussi l'eau de la nourriture."
   },
   {
    "id": "s09",
    "text": "Troisième preuve. Des chercheurs ont mesuré 5 600 personnes dans 23 pays.",
    "pause": 0.4,
-   "say": "Troisième preuve ! Des chercheurs ont mesuré cinq mille six cents personnes dans vingt-trois pays !"
+   "say": "Troisième preuve. Des chercheurs ont mesuré cinq mille six cents personnes dans vingt-trois pays."
   },
   {
    "id": "s10",
    "text": "Le corps renouvelle de 1 à 6 litres d'eau par jour.",
    "pause": 0.4,
-   "say": "Le corps renouvelle de un à six litres d'eau par jour !"
+   "say": "Le corps renouvelle de un à six litres d'eau par jour."
   },
   {
    "id": "s11",
    "text": "Les sportifs en renouvellent environ 1 litre de plus.",
    "pause": 0.5,
-   "say": "Les sportifs en renouvellent environ un litre de plus !"
+   "say": "Les sportifs en renouvellent environ un litre de plus."
   },
   {
    "id": "s12",
    "text": "Donc non, le chiffre magique n'existe pas.",
    "pause": 0.4,
-   "say": "Donc non ! Le chiffre magique n'existe pas !"
+   "say": "Donc non, le chiffre magique n'existe pas."
   },
   {
    "id": "s13",
    "text": "Ça dépend de toi : ton corps, ton sport, ton climat.",
    "pause": 0.5,
-   "say": "Ça dépend de toi : ton corps, ton sport, ton climat !"
+   "say": "Ça dépend de toi : ton corps, ton sport, ton climat."
   },
   {
    "id": "s14",
    "text": "Et toi, tu bois combien de litres par jour ? Réponds en commentaire.",
    "pause": 0.45,
-   "say": "Et toi, tu bois combien de litres par jour ? Réponds en commentaire !"
+   "say": "Et toi, tu bois combien de litres par jour ? Réponds en commentaire."
   },
   {
    "id": "s15",
    "text": "Partage cette vidéo à quelqu'un qui compte ses litres.",
    "pause": 0.3,
-   "say": "Partage cette vidéo à quelqu'un qui compte ses litres !"
+   "say": "Partage cette vidéo à quelqu'un qui compte ses litres."
   },
   {
    "id": "s16",
    "text": "Et abonne-toi : une nouvelle vidéo chaque jour.",
    "pause": 0.3,
-   "say": "Et abonne-toi : une nouvelle vidéo chaque jour !"
+   "say": "Et abonne-toi : une nouvelle vidéo chaque jour."
   },
   {
    "id": "s17",
