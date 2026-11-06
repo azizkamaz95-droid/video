@@ -85,6 +85,7 @@ Toujours **plus d'une minute** (monétisation). Chaque bloc est écrit en phrase
 - Une seule thèse, dite dès le début, répétée à la fin avec d'autres mots.
 - Mots du quotidien, pas de jargon ; chaque chiffre s'explique par une image simple.
 - Ton parlé : « Regarde », « Imagine », « Et là ». Pas de style « article ».
+- Français correct : une preuve est féminine (« première, deuxième, troisième preuve ») et on ne « t'explique » pas « en trois preuves » : les preuves appuient une affirmation. Dire « J'ai trois preuves. » ou « Voici trois preuves. ».
 - Relecture finale obligatoire : compter les mots de chaque phrase, signaler et réécrire celles de plus de 12 mots avant de montrer le script à l'utilisateur.
 
 ## 4. Rétention : garder les gens jusqu'à la fin
