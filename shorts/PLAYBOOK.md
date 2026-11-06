@@ -253,6 +253,22 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 
 ---
 
+## 10ter. Viralité : méthode ajoutée le 2026-11-06 (idées reprises du skill MIT « instagram-agent-skill », réécrites)
+
+**Constat de départ (données Metricool, TikTok, 17 vidéos) :** toutes les vidéos plafonnent entre 0,93x et 1,32x la médiane (≈ 257 vues), quel que soit le sujet. Le sujet ne décide donc pas de la diffusion ; ce qui compte est l'accroche, la rétention et les partages. Voir `shorts/analytics/report-*.txt`.
+
+**À chaque vidéo, dans cet ordre :**
+1. **Accroche** : proposer à l'utilisateur, avec le script, **3 accroches** (formules de `shorts/hooks/formules.json`, une formule différente de la dernière vidéo si possible), notées par `python3 shorts/lib/hook_check.py --hook "…" --hook "…"`. Garder la meilleure. Outil : repère les accroches faibles (> 12 mots, aucun chiffre, aucun enjeu, salutation), il ne devine pas la gagnante.
+2. **Première seconde** : dès l'image 1, un gros mot ou un chiffre qui bouge (déjà dans le montage v4) ; la première phrase dite = la thèse ou la question, jamais une mise en route.
+3. **Fin en boucle** : la dernière phrase avant l'appel à l'action reprend un mot ou le chiffre de l'accroche (« Aucun chiffre n'est vrai pour tout le monde » → « pas de chiffre magique »), pour donner envie de revoir.
+4. **Fin CaliBodi courte (test sur les deux prochaines vidéos)** : au lieu de la longue phrase, dire « Retrouve CaliBodi sur calibodi.com. » (≈ 3 s) avec les écrans de l'app puis le logo ; viser une fin totale de 4 s au lieu de 7 s. Noter `outro_s` dans `analytics/log.json` et comparer le taux d'interaction.
+5. **Rythme** : après `build_v4.py`, lancer `python3 shorts/lib/check_rhythm.py <épisode>` ; corriger tout plan de plus de 3 s sans nouvel élément à l'écran.
+6. **Légendes par réseau** : TikTok = légende courte (`calibodi-publish/scripts/captions.py` : titre, question, « Vidéo générée par IA. », 3 à 5 hashtags du sujet, jamais de hashtag hors sujet) ; Instagram et Facebook : la phrase d'accroche dans les 125 premiers caractères, 5 hashtags au plus ; YouTube : description complète avec sources.
+7. **Analyse à 48 h** : tirer les chiffres via Metricool (TikTok, YouTube), les enregistrer dans `shorts/analytics/raw/`, lancer `python3 shorts/lib/analytics_report.py <relevé>` et compléter `analytics/log.json` (sujet, formule, énergie, musique, voix, durée, outro). Utiliser le rapport pour proposer les sujets suivants : refaire ce qui dépasse 1,5x la médiane, abandonner ce qui reste sous 1x deux fois de suite.
+8. **Limites à rappeler à l'utilisateur** : Instagram et Facebook ne sont pas reliés à Metricool (pas de chiffres) ; le taux de visionnage complet TikTok est vide ; la viralité n'est jamais garantie.
+
+---
+
 ## 11. Problèmes déjà rencontrés (et solutions)
 
 | Symptôme | Cause | Solution |
@@ -280,6 +296,7 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 - [ ] `check` sans erreur ; chaque plan vérifié en capture ; Calix accordé à chaque phrase
 - [ ] Master fort (≈ -10,5 LUFS), pic < -1 dBFS ; musique « The Plan »
 - [ ] Fin CaliBodi : écrans de l'app, logo, calibodi.com, Play Store · App Store
+- [ ] Accroche notée (`hook_check.py`), rythme contrôlé (`check_rhythm.py`), légende TikTok courte, musique choisie par énergie (`pick_music.py`)
 - [ ] 2 miniatures (A/B) ; description avec 3 hashtags ; sans guillemets droits
 - [ ] Vidéo compressée (≈ 25 Mo), nom simple, `metadata.json` valide, `publish_at` en UTC
 - [ ] Scénario Make sur ON ; mention « contenu IA » rappelée à l'utilisateur

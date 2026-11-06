@@ -1,0 +1,42 @@
+[
+ {
+  "episode": "2026-11-06-eau",
+  "sujet": "Combien de litres d'eau par jour",
+  "formule": "chiffre-faux",
+  "energie": 2,
+  "musique": "documentaire-motivation",
+  "voix": "Iapetus",
+  "duree_s": 62,
+  "outro_s": 7
+ },
+ {
+  "episode": "2026-11-04-jeun",
+  "sujet": "Sport à jeun",
+  "formule": "tu-fais-faux",
+  "energie": 3,
+  "musique": "the-plan",
+  "voix": "Sadachbia",
+  "duree_s": 61,
+  "outro_s": 7
+ },
+ {
+  "episode": "2026-11-04-assis",
+  "sujet": "Assis 8 h par jour",
+  "formule": "danger-bonne-nouvelle",
+  "energie": 4,
+  "musique": "the-plan",
+  "voix": "Sadachbia",
+  "duree_s": 78,
+  "outro_s": 7
+ },
+ {
+  "episode": "2026-10-27-petit-dejeuner",
+  "sujet": "Petit-déjeuner",
+  "formule": "mythe",
+  "energie": 3,
+  "musique": "the-plan",
+  "voix": "Sadachbia",
+  "duree_s": 77,
+  "outro_s": 7
+ }
+]

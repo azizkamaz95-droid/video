@@ -1,0 +1,173 @@
+{
+ "source": "Metricool (TikTok), relevé du 2026-11-06 vers 19h",
+ "champs": [
+  "publie",
+  "titre",
+  "duree_s",
+  "vues",
+  "likes",
+  "commentaires",
+  "partages"
+ ],
+ "videos": [
+  [
+   "2026-11-06",
+   "Combien de litres d'eau par jour",
+   62,
+   158,
+   3,
+   1,
+   0
+  ],
+  [
+   "2026-11-05",
+   "Sport à jeun",
+   61,
+   245,
+   2,
+   1,
+   2
+  ],
+  [
+   "2026-11-04",
+   "Assis 8 h par jour",
+   78,
+   240,
+   2,
+   1,
+   1
+  ],
+  [
+   "2026-11-04",
+   "Petit-déjeuner",
+   77,
+   266,
+   2,
+   1,
+   0
+  ],
+  [
+   "2026-10-28",
+   "(texte seul, sans titre)",
+   0,
+   257,
+   1,
+   0,
+   0
+  ],
+  [
+   "2026-10-27",
+   "Abdos dans l'herbe",
+   8,
+   242,
+   3,
+   0,
+   0
+  ],
+  [
+   "2026-10-26",
+   "Physique ou argent",
+   75,
+   271,
+   4,
+   1,
+   0
+  ],
+  [
+   "2026-10-25",
+   "Vidéos X",
+   71,
+   338,
+   2,
+   1,
+   0
+  ],
+  [
+   "2026-10-24",
+   "Éjaculation précoce",
+   79,
+   295,
+   2,
+   1,
+   0
+  ],
+  [
+   "2026-10-24",
+   "Sommeil",
+   69,
+   256,
+   2,
+   1,
+   1
+  ],
+  [
+   "2026-10-23",
+   "Métabolisme",
+   68,
+   267,
+   3,
+   0,
+   1
+  ],
+  [
+   "2026-10-22",
+   "Abdos 5 004",
+   74,
+   257,
+   2,
+   0,
+   0
+  ],
+  [
+   "2026-10-20",
+   "Transpirer",
+   62,
+   284,
+   5,
+   0,
+   0
+  ],
+  [
+   "2026-10-20",
+   "La muscu c'est facile (nutrition)",
+   15,
+   247,
+   1,
+   0,
+   0
+  ],
+  [
+   "2026-10-19",
+   "Où part la graisse",
+   67,
+   260,
+   9,
+   0,
+   0
+  ],
+  [
+   "2026-10-19",
+   "La muscu c'est facile",
+   8,
+   241,
+   2,
+   0,
+   0
+  ],
+  [
+   "2026-10-19",
+   "Tu veux des résultats",
+   8,
+   243,
+   3,
+   2,
+   0
+  ]
+ ],
+ "squat_tests_2026-10-26": {
+  "nombre": 15,
+  "vues_min": 234,
+  "vues_max": 272
+ },
+ "note": "YouTube : vues vides au relevé. Instagram et Facebook non reliés à Metricool. Taux de visionnage complet TikTok vide."
+}

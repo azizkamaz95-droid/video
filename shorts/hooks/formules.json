@@ -1,0 +1,24 @@
+{
+ "_note": "Formules d'accroche en français pour nos shorts éducatifs. Idée de départ : le skill MIT « instagram-agent-skill » (Jake Schincariol), réécrit et adapté à notre format « mythe démonté, 3 preuves ». Une formule par vidéo, notée dans analytics/log.json.",
+ "formules": [
+  {"id": "mythe", "nom": "Mythe démonté", "modele": "{Idée reçue} ? Non.", "exemple": "Le petit-déjeuner, le repas le plus important ? Non.", "pour": "sujets où l'on contredit une croyance courante"},
+  {"id": "chiffre-faux", "nom": "Chiffres qu'on répète", "modele": "On te dit {chiffre A}, ou {B}, ou {C}. Aucun n'est vrai pour tout le monde.", "exemple": "Il faut boire 1,5 litre d'eau par jour. Ou 2 litres. Ou 3.", "pour": "recommandations chiffrées contradictoires"},
+  {"id": "personne-ne-dit", "nom": "Personne ne te dit", "modele": "Personne ne te dit que {vérité qui dérange}.", "exemple": "Personne ne te dit que ton ventre ne fond pas avec des abdos.", "pour": "vérité gênante liée à l'objectif du spectateur"},
+  {"id": "statistique", "nom": "La statistique choc", "modele": "{N} % des {groupe} {fait surprenant}.", "exemple": "Seulement 6 % des hommes sont vraiment concernés.", "pour": "un chiffre sourcé et surprenant"},
+  {"id": "stop", "nom": "Arrête de", "modele": "Arrête de {geste courant}. Fais {alternative}.", "exemple": "Arrête de compter tes verres. Écoute ton corps.", "pour": "un geste à remplacer"},
+  {"id": "permission", "nom": "Tu n'as pas besoin de", "modele": "Tu n'as pas besoin de {ce que tout le monde dit}.", "exemple": "Tu n'as pas besoin de t'entraîner à jeun pour maigrir.", "pour": "retirer une contrainte"},
+  {"id": "tu-fais-faux", "nom": "Tu le fais mal, et ce n'est pas ta faute", "modele": "Tu {fais X} pour {objectif} ? Ça ne marche pas mieux.", "exemple": "Tu fais du sport à jeun pour maigrir plus vite ? Ça ne marche pas mieux.", "pour": "habitude répandue sans effet prouvé"},
+  {"id": "danger-bonne-nouvelle", "nom": "Danger puis bonne nouvelle", "modele": "{Habitude} ? Ton corps est en danger. Mais il y a une bonne nouvelle.", "exemple": "Tu travailles assis huit heures par jour ? Ton corps est en danger. Mais il y a une bonne nouvelle.", "pour": "risque réel avec une solution simple"},
+  {"id": "cible", "nom": "L'appel à un groupe", "modele": "{Groupe précis}, c'est pour toi.", "exemple": "Tu t'entraînes le matin sans manger ? Écoute ça.", "pour": "interpeller une situation précise"},
+  {"id": "versus", "nom": "A contre B", "modele": "{A} ou {B} ? Les études tranchent.", "exemple": "Cardio ou muscu pour maigrir ? Les études tranchent.", "pour": "comparaisons"},
+  {"id": "objection", "nom": "L'objection", "modele": "« {Phrase qu'on te dit} ». Vérifions.", "exemple": "« Il faut cinq repas par jour ». Vérifions.", "pour": "phrase de coach ou de sagesse populaire"},
+  {"id": "ou-part", "nom": "Où ça va vraiment", "modele": "Où part vraiment {chose} ?", "exemple": "Où part vraiment la graisse que tu perds ?", "pour": "curiosité sur un mécanisme du corps"}
+ ],
+ "regles": [
+  "La première phrase dit déjà la thèse ou pose la question : pas de mise en route.",
+  "Un chiffre ou une chose concrète dans la première phrase si possible.",
+  "Pas de salutation, pas de « dans cette vidéo », pas de « aujourd'hui je vais te montrer ».",
+  "La première image bouge et porte un gros mot ou un chiffre (le montage v4 le fait déjà).",
+  "L'accroche promet quelque chose : le livrer avant la moitié de la vidéo, ou annoncer que la dernière preuve surprend."
+ ]
+}
