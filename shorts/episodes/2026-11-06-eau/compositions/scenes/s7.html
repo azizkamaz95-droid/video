@@ -36,12 +36,12 @@
         (function () {
           const build = () => {
             const tl = gsap.timeline({ paused: true });
-            const at=(t)=>+Math.max(0,t-21.240000000000002).toFixed(3);
+            const at=(t)=>+Math.max(0,t-20.740000000000002).toFixed(3);
             tl.fromTo("#s7-kb",{scale:1.0},{scale:1.12,duration:2.02,ease:"none"},0);
             tl.fromTo("#s7",{x:520,filter:"blur(22px)"},{x:0,filter:"blur(0px)",duration:.24,ease:"power3.out"},0);
             tl.fromTo("#s7",{scale:1,filter:"blur(0px)"},{scale:1.8,filter:"blur(18px)",duration:.12,ease:"power3.in",immediateRender:false},1.9);
-            tl.fromTo("#s7-n",{scale:2.8,opacity:0},{scale:1,opacity:1,duration:.26,ease:"power4.out"},at(21.67));
-tl.fromTo("#s7-h",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(22.64));
+            tl.fromTo("#s7-n",{scale:2.8,opacity:0},{scale:1,opacity:1,duration:.26,ease:"power4.out"},at(21.17));
+tl.fromTo("#s7-h",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(22.14));
 
             window.__timelines["s7"] = tl;
           };

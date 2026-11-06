@@ -86,6 +86,7 @@ Toujours **plus d'une minute** (monétisation). Chaque bloc est écrit en phrase
 - Mots du quotidien, pas de jargon ; chaque chiffre s'explique par une image simple.
 - Ton parlé : « Regarde », « Imagine », « Et là ». Pas de style « article ».
 - Français correct : une preuve est féminine (« première, deuxième, troisième preuve ») et on ne « t'explique » pas « en trois preuves » : les preuves appuient une affirmation. Dire « J'ai trois preuves. » ou « Voici trois preuves. ».
+- Voix : éviter les phrases où « n'est », « n'y », « qu'un » se suivent ou se collent (la voix lit « ce ness », « il n y »). Préférer une tournure sans ces élisions, puis relire la transcription de CHAQUE phrase avant de monter. Si la voix est régénérée, copier d'abord `assets/voice/segments.json` vers `source/segments-v1.json` : `build_v4.py` recale alors tous les plans (le son `plan.json` se recale à part).
 - Relecture finale obligatoire : compter les mots de chaque phrase, signaler et réécrire celles de plus de 12 mots avant de montrer le script à l'utilisateur.
 
 ## 4. Rétention : garder les gens jusqu'à la fin

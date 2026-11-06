@@ -38,14 +38,14 @@
         (function () {
           const build = () => {
             const tl = gsap.timeline({ paused: true });
-            const at=(t)=>+Math.max(0,t-39.839999999999996).toFixed(3);
+            const at=(t)=>+Math.max(0,t-38.846999999999994).toFixed(3);
             tl.fromTo("#s13-kb",{scale:1.0},{scale:1.12,duration:3.82,ease:"none"},0);
             tl.fromTo("#s13",{x:520,filter:"blur(22px)"},{x:0,filter:"blur(0px)",duration:.24,ease:"power3.out"},0);
             tl.fromTo("#s13",{scale:1,filter:"blur(0px)"},{scale:1.8,filter:"blur(18px)",duration:.12,ease:"power3.in",immediateRender:false},3.7);
-            tl.fromTo("#s13-d",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(40.19));
-tl.fromTo("#s13-c",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(41.24));
-tl.fromTo("#s13-s",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(41.72));
-tl.fromTo("#s13-k",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(42.6));
+            tl.fromTo("#s13-d",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(39.197));
+tl.fromTo("#s13-c",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(40.247));
+tl.fromTo("#s13-s",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(40.727));
+tl.fromTo("#s13-k",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(41.607));
 
             window.__timelines["s13"] = tl;
           };

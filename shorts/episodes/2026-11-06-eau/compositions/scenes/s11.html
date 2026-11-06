@@ -36,12 +36,12 @@
         (function () {
           const build = () => {
             const tl = gsap.timeline({ paused: true });
-            const at=(t)=>+Math.max(0,t-34.04).toFixed(3);
+            const at=(t)=>+Math.max(0,t-33.54).toFixed(3);
             tl.fromTo("#s11-kb",{scale:1.0},{scale:1.12,duration:3.22,ease:"none"},0);
             tl.fromTo("#s11",{scale:.55,opacity:0,filter:"blur(18px)"},{scale:1,opacity:1,filter:"blur(0px)",duration:.26,ease:"power3.out"},0);
             tl.fromTo("#s11",{filter:"brightness(1)"},{filter:"brightness(3)",duration:.12,ease:"power2.in",immediateRender:false},3.1);
-            tl.fromTo("#s11-s",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(34.29));
-tl.fromTo("#s11-n",{scale:2.8,opacity:0},{scale:1,opacity:1,duration:.26,ease:"power4.out"},at(35.8));
+            tl.fromTo("#s11-s",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(33.79));
+tl.fromTo("#s11-n",{scale:2.8,opacity:0},{scale:1,opacity:1,duration:.26,ease:"power4.out"},at(35.3));
 
             window.__timelines["s11"] = tl;
           };

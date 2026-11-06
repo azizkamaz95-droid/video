@@ -1,5 +1,5 @@
 {
- "duration": 59.047,
+ "duration": 58.054,
  "segments": [
   {
    "id": "s01",
@@ -27,81 +27,81 @@
   },
   {
    "id": "s05",
-   "text": "Mais ce n'est qu'un repère moyen.",
+   "text": "C'est juste une moyenne.",
    "start": 14.954,
-   "end": 16.554
+   "end": 16.054
   },
   {
    "id": "s06",
    "text": "Deuxième preuve. L'Europe, elle, parle de 2 litres pour les femmes.",
-   "start": 17.054,
-   "end": 21.071
+   "start": 16.554,
+   "end": 20.571
   },
   {
    "id": "s07",
    "text": "Et de 2,5 litres pour les hommes.",
-   "start": 21.371,
-   "end": 22.872
+   "start": 20.871,
+   "end": 22.372
   },
   {
    "id": "s08",
    "text": "Et ces litres comptent aussi l'eau de la nourriture.",
-   "start": 23.222,
-   "end": 25.495
+   "start": 22.722,
+   "end": 24.995
   },
   {
    "id": "s09",
    "text": "Troisième preuve. Des chercheurs ont mesuré 5 600 personnes dans 23 pays.",
-   "start": 25.995,
-   "end": 30.743
+   "start": 25.495,
+   "end": 30.243
   },
   {
    "id": "s10",
    "text": "Le corps renouvelle de 1 à 6 litres d'eau par jour.",
-   "start": 31.143,
-   "end": 33.709
+   "start": 30.643,
+   "end": 33.209
   },
   {
    "id": "s11",
    "text": "Les sportifs en renouvellent environ 1 litre de plus.",
-   "start": 34.109,
-   "end": 36.728
+   "start": 33.609,
+   "end": 36.228
   },
   {
    "id": "s12",
-   "text": "Donc non, il n'y a pas de chiffre magique.",
-   "start": 37.228,
-   "end": 39.561
+   "text": "Donc non, le chiffre magique n'existe pas.",
+   "start": 36.728,
+   "end": 38.568
   },
   {
    "id": "s13",
    "text": "Ça dépend de toi : ton corps, ton sport, ton climat.",
-   "start": 39.961,
-   "end": 43.155
+   "start": 38.968,
+   "end": 42.162
   },
   {
    "id": "s14",
    "text": "Et toi, tu bois combien de litres par jour ? Réponds en commentaire.",
-   "start": 43.655,
-   "end": 47.127
+   "start": 42.662,
+   "end": 46.134
   },
   {
    "id": "s15",
    "text": "Partage cette vidéo à quelqu'un qui compte ses litres.",
-   "start": 47.577,
-   "end": 49.744
+   "start": 46.584,
+   "end": 48.752
   },
   {
    "id": "s16",
    "text": "Et abonne-toi : une nouvelle vidéo chaque jour.",
-   "start": 50.044,
-   "end": 52.548
+   "start": 49.052,
+   "end": 51.555
   },
   {
    "id": "s17",
    "text": "Pour suivre ton hydratation, tes calories et tes entraînements, découvre CaliBodi sur calibodi.com.",
-   "start": 52.848,
-   "end": 58.447
+   "start": 51.855,
+   "end": 57.454
   }
  ]
 }

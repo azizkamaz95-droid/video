@@ -61,11 +61,15 @@ if D > 13 and os.path.exists(os.path.join(EP, "shots.py")):   # the full video: 
 
 # the shot list is written against the first voice (source/words-v1.json); when the voice is regenerated, every cue is
 # carried onto the new voice word by word (piecewise-linear map between the two sets of word starts)
-_old = os.path.join(EP, "source/words-v1.json")
+_old = os.path.join(EP, "source/segments-v1.json")
 if os.path.exists(_old):
     import bisect
     _o = json.load(open(_old))
-    _pairs = [(0.0, 0.0)] + [(a["start"], b["start"]) for a, b in zip(_o["words"], words["words"])] + [(_o["duration"] + 0.7, FULL)]
+    _n = json.load(open(os.path.join(EP, "assets/voice/segments.json")))
+    _pairs = [(0.0, 0.0)]
+    for _a, _b in zip(_o["segments"], _n["segments"]):
+        _pairs += [(_a["start"], _b["start"]), (_a["end"], _b["end"])]
+    _pairs.append((_o["duration"] + 0.7, FULL))
     _xs, _ys = [], []
     for x, y in _pairs:
         if not _xs or (x > _xs[-1] and y >= _ys[-1]):

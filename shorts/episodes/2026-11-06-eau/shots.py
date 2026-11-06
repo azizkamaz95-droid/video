@@ -91,8 +91,8 @@ SHOTS = [
         tag("s4", "j", "PAR JOUR", f"{C} top: 660px; font-size: 80px; color: #fff;", 14.37),
         src("s4", "Anses, fiche « Eau en bouteille ou eau du robinet »", 10.3))),
     ("s5", "rocher", 14.95, 17.0, "zoom", *acc(
-        tag("s5", "a", "UN REPÈRE", f"{C} top: 250px; font-size: 90px; color: #fff;", 15.31),
-        lab("s5", "m", "MOYEN", "left: 300px; top: 400px; font-size: 140px;", 16.16))),
+        tag("s5", "a", "C'EST JUSTE", f"{C} top: 250px; font-size: 90px; color: #fff;", 15.31),
+        lab("s5", "m", "UNE MOYENNE", "left: 130px; top: 400px; font-size: 110px;", 15.7))),
     ("s6", "grotte", 17.0, 21.3, "flash", *acc(
         lab("s6", "f", "PREUVE 2", "left: 70px; top: 230px; font-size: 120px;", 17.18, out=18.3),
         tag("s6", "e", "EN EUROPE : L'EFSA", f"{C} top: 250px; font-size: 74px; color: #fff;", 18.34),
