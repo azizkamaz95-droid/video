@@ -1,0 +1,851 @@
+{
+ "duration": 59.047,
+ "words": [
+  {
+   "word": "Il",
+   "start": 0.016,
+   "end": 0.208
+  },
+  {
+   "word": "faut",
+   "start": 0.336,
+   "end": 0.449
+  },
+  {
+   "word": "boire",
+   "start": 0.497,
+   "end": 0.689
+  },
+  {
+   "word": "1,5",
+   "start": 0.689,
+   "end": 0.817
+  },
+  {
+   "word": "litre",
+   "start": 0.817,
+   "end": 1.058
+  },
+  {
+   "word": "d'eau",
+   "start": 1.09,
+   "end": 1.379
+  },
+  {
+   "word": "par",
+   "start": 1.379,
+   "end": 1.571
+  },
+  {
+   "word": "jour.",
+   "start": 1.571,
+   "end": 1.667
+  },
+  {
+   "word": "Ou",
+   "start": 2.357,
+   "end": 2.421
+  },
+  {
+   "word": "2",
+   "start": 2.421,
+   "end": 2.533
+  },
+  {
+   "word": "litres.",
+   "start": 2.533,
+   "end": 2.79
+  },
+  {
+   "word": "Ou",
+   "start": 3.319,
+   "end": 3.383
+  },
+  {
+   "word": "3.",
+   "start": 3.383,
+   "end": 3.592
+  },
+  {
+   "word": "Aucun",
+   "start": 4.121,
+   "end": 4.426
+  },
+  {
+   "word": "de",
+   "start": 4.426,
+   "end": 4.506
+  },
+  {
+   "word": "ces",
+   "start": 4.506,
+   "end": 4.634
+  },
+  {
+   "word": "chiffres",
+   "start": 4.666,
+   "end": 5.003
+  },
+  {
+   "word": "n'est",
+   "start": 5.003,
+   "end": 5.148
+  },
+  {
+   "word": "vrai",
+   "start": 5.18,
+   "end": 5.388
+  },
+  {
+   "word": "pour",
+   "start": 5.388,
+   "end": 5.5
+  },
+  {
+   "word": "tout",
+   "start": 5.548,
+   "end": 5.597
+  },
+  {
+   "word": "le",
+   "start": 5.629,
+   "end": 5.661
+  },
+  {
+   "word": "monde.",
+   "start": 5.661,
+   "end": 5.917
+  },
+  {
+   "word": "J'ai",
+   "start": 6.671,
+   "end": 6.96
+  },
+  {
+   "word": "3",
+   "start": 6.992,
+   "end": 7.232
+  },
+  {
+   "word": "preuves.",
+   "start": 7.232,
+   "end": 7.521
+  },
+  {
+   "word": "La",
+   "start": 8.114,
+   "end": 8.163
+  },
+  {
+   "word": "dernière",
+   "start": 8.195,
+   "end": 8.596
+  },
+  {
+   "word": "va",
+   "start": 8.596,
+   "end": 8.676
+  },
+  {
+   "word": "te",
+   "start": 8.676,
+   "end": 8.788
+  },
+  {
+   "word": "surprendre.",
+   "start": 8.836,
+   "end": 9.285
+  },
+  {
+   "word": "Première",
+   "start": 9.959,
+   "end": 10.279
+  },
+  {
+   "word": "preuve:",
+   "start": 10.279,
+   "end": 10.648
+  },
+  {
+   "word": "en",
+   "start": 11.178,
+   "end": 11.242
+  },
+  {
+   "word": "France,",
+   "start": 11.242,
+   "end": 11.675
+  },
+  {
+   "word": "l'ANSES",
+   "start": 11.803,
+   "end": 12.284
+  },
+  {
+   "word": "conseille",
+   "start": 12.284,
+   "end": 12.701
+  },
+  {
+   "word": "1,5",
+   "start": 12.701,
+   "end": 12.958
+  },
+  {
+   "word": "litre",
+   "start": 12.958,
+   "end": 13.311
+  },
+  {
+   "word": "à",
+   "start": 13.583,
+   "end": 13.647
+  },
+  {
+   "word": "2",
+   "start": 13.647,
+   "end": 13.776
+  },
+  {
+   "word": "litres",
+   "start": 13.808,
+   "end": 14.032
+  },
+  {
+   "word": "d'eau",
+   "start": 14.048,
+   "end": 14.209
+  },
+  {
+   "word": "par",
+   "start": 14.209,
+   "end": 14.369
+  },
+  {
+   "word": "jour.",
+   "start": 14.369,
+   "end": 14.497
+  },
+  {
+   "word": "Mais",
+   "start": 15.091,
+   "end": 15.171
+  },
+  {
+   "word": "ce",
+   "start": 15.171,
+   "end": 15.315
+  },
+  {
+   "word": "n'est",
+   "start": 15.315,
+   "end": 15.492
+  },
+  {
+   "word": "qu'un",
+   "start": 15.652,
+   "end": 15.764
+  },
+  {
+   "word": "repère",
+   "start": 15.764,
+   "end": 16.117
+  },
+  {
+   "word": "moyen.",
+   "start": 16.165,
+   "end": 16.422
+  },
+  {
+   "word": "Deuxième",
+   "start": 17.176,
+   "end": 17.576
+  },
+  {
+   "word": "preuve:",
+   "start": 17.576,
+   "end": 17.865
+  },
+  {
+   "word": "l'Europe,",
+   "start": 18.17,
+   "end": 18.827
+  },
+  {
+   "word": "elle,",
+   "start": 19.357,
+   "end": 19.469
+  },
+  {
+   "word": "parle",
+   "start": 19.661,
+   "end": 19.902
+  },
+  {
+   "word": "de",
+   "start": 19.902,
+   "end": 19.982
+  },
+  {
+   "word": "2",
+   "start": 20.062,
+   "end": 20.223
+  },
+  {
+   "word": "litres",
+   "start": 20.223,
+   "end": 20.527
+  },
+  {
+   "word": "pour",
+   "start": 20.543,
+   "end": 20.656
+  },
+  {
+   "word": "les",
+   "start": 20.656,
+   "end": 20.784
+  },
+  {
+   "word": "femmes.",
+   "start": 20.784,
+   "end": 20.912
+  },
+  {
+   "word": "Et",
+   "start": 21.522,
+   "end": 21.586
+  },
+  {
+   "word": "de",
+   "start": 21.586,
+   "end": 21.666
+  },
+  {
+   "word": "2,5",
+   "start": 21.666,
+   "end": 22.147
+  },
+  {
+   "word": "litres",
+   "start": 22.147,
+   "end": 22.291
+  },
+  {
+   "word": "pour",
+   "start": 22.308,
+   "end": 22.436
+  },
+  {
+   "word": "les",
+   "start": 22.436,
+   "end": 22.644
+  },
+  {
+   "word": "hommes.",
+   "start": 22.644,
+   "end": 22.676
+  },
+  {
+   "word": "Et",
+   "start": 23.366,
+   "end": 23.43
+  },
+  {
+   "word": "ces",
+   "start": 23.43,
+   "end": 23.59
+  },
+  {
+   "word": "litres",
+   "start": 23.59,
+   "end": 23.879
+  },
+  {
+   "word": "comptent",
+   "start": 24.072,
+   "end": 24.328
+  },
+  {
+   "word": "aussi",
+   "start": 24.328,
+   "end": 24.601
+  },
+  {
+   "word": "l'eau",
+   "start": 24.601,
+   "end": 24.793
+  },
+  {
+   "word": "de",
+   "start": 24.793,
+   "end": 24.906
+  },
+  {
+   "word": "la",
+   "start": 24.906,
+   "end": 24.986
+  },
+  {
+   "word": "nourriture.",
+   "start": 24.986,
+   "end": 25.403
+  },
+  {
+   "word": "Troisième",
+   "start": 25.996,
+   "end": 26.381
+  },
+  {
+   "word": "preuve:",
+   "start": 26.397,
+   "end": 26.75
+  },
+  {
+   "word": "des",
+   "start": 27.36,
+   "end": 27.44
+  },
+  {
+   "word": "chercheurs",
+   "start": 27.44,
+   "end": 27.937
+  },
+  {
+   "word": "ont",
+   "start": 27.937,
+   "end": 27.953
+  },
+  {
+   "word": "mesuré",
+   "start": 27.953,
+   "end": 28.402
+  },
+  {
+   "word": "5600",
+   "start": 28.402,
+   "end": 29.285
+  },
+  {
+   "word": "personnes",
+   "start": 29.285,
+   "end": 29.766
+  },
+  {
+   "word": "dans",
+   "start": 29.766,
+   "end": 29.926
+  },
+  {
+   "word": "23",
+   "start": 29.926,
+   "end": 30.408
+  },
+  {
+   "word": "pays.",
+   "start": 30.408,
+   "end": 30.616
+  },
+  {
+   "word": "Le",
+   "start": 31.21,
+   "end": 31.37
+  },
+  {
+   "word": "corps",
+   "start": 31.37,
+   "end": 31.611
+  },
+  {
+   "word": "renouvelle",
+   "start": 31.611,
+   "end": 32.076
+  },
+  {
+   "word": "de",
+   "start": 32.172,
+   "end": 32.252
+  },
+  {
+   "word": "1",
+   "start": 32.268,
+   "end": 32.333
+  },
+  {
+   "word": "à",
+   "start": 32.429,
+   "end": 32.493
+  },
+  {
+   "word": "6",
+   "start": 32.573,
+   "end": 32.734
+  },
+  {
+   "word": "litres",
+   "start": 32.734,
+   "end": 33.038
+  },
+  {
+   "word": "d'eau",
+   "start": 33.054,
+   "end": 33.215
+  },
+  {
+   "word": "par",
+   "start": 33.215,
+   "end": 33.455
+  },
+  {
+   "word": "jour.",
+   "start": 33.455,
+   "end": 33.584
+  },
+  {
+   "word": "Les",
+   "start": 34.177,
+   "end": 34.29
+  },
+  {
+   "word": "sportifs",
+   "start": 34.29,
+   "end": 34.835
+  },
+  {
+   "word": "en",
+   "start": 34.835,
+   "end": 34.899
+  },
+  {
+   "word": "renouvellent",
+   "start": 34.899,
+   "end": 35.397
+  },
+  {
+   "word": "environ",
+   "start": 35.397,
+   "end": 35.798
+  },
+  {
+   "word": "1",
+   "start": 35.798,
+   "end": 35.862
+  },
+  {
+   "word": "litre",
+   "start": 35.862,
+   "end": 36.167
+  },
+  {
+   "word": "de",
+   "start": 36.183,
+   "end": 36.263
+  },
+  {
+   "word": "plus.",
+   "start": 36.343,
+   "end": 36.471
+  },
+  {
+   "word": "Donc",
+   "start": 37.386,
+   "end": 37.562
+  },
+  {
+   "word": "non,",
+   "start": 37.626,
+   "end": 37.835
+  },
+  {
+   "word": "il",
+   "start": 37.867,
+   "end": 37.915
+  },
+  {
+   "word": "n'y",
+   "start": 38.043,
+   "end": 38.444
+  },
+  {
+   "word": "a",
+   "start": 38.444,
+   "end": 38.476
+  },
+  {
+   "word": "pas",
+   "start": 38.589,
+   "end": 38.669
+  },
+  {
+   "word": "de",
+   "start": 38.669,
+   "end": 38.829
+  },
+  {
+   "word": "chiffre",
+   "start": 38.829,
+   "end": 39.102
+  },
+  {
+   "word": "magique.",
+   "start": 39.102,
+   "end": 39.519
+  },
+  {
+   "word": "Ça",
+   "start": 40.033,
+   "end": 40.193
+  },
+  {
+   "word": "dépend",
+   "start": 40.193,
+   "end": 40.514
+  },
+  {
+   "word": "de",
+   "start": 40.514,
+   "end": 40.594
+  },
+  {
+   "word": "toi,",
+   "start": 40.594,
+   "end": 40.803
+  },
+  {
+   "word": "ton",
+   "start": 41.236,
+   "end": 41.396
+  },
+  {
+   "word": "corps,",
+   "start": 41.476,
+   "end": 41.685
+  },
+  {
+   "word": "ton",
+   "start": 41.717,
+   "end": 41.909
+  },
+  {
+   "word": "sport,",
+   "start": 41.909,
+   "end": 42.182
+  },
+  {
+   "word": "ton",
+   "start": 42.599,
+   "end": 42.76
+  },
+  {
+   "word": "climat.",
+   "start": 42.76,
+   "end": 43.048
+  },
+  {
+   "word": "Et",
+   "start": 43.738,
+   "end": 43.802
+  },
+  {
+   "word": "toi,",
+   "start": 43.882,
+   "end": 44.091
+  },
+  {
+   "word": "tu",
+   "start": 44.203,
+   "end": 44.284
+  },
+  {
+   "word": "bois",
+   "start": 44.284,
+   "end": 44.444
+  },
+  {
+   "word": "combien",
+   "start": 44.444,
+   "end": 44.765
+  },
+  {
+   "word": "de",
+   "start": 44.765,
+   "end": 44.877
+  },
+  {
+   "word": "litres",
+   "start": 44.877,
+   "end": 45.166
+  },
+  {
+   "word": "par",
+   "start": 45.166,
+   "end": 45.358
+  },
+  {
+   "word": "jour?",
+   "start": 45.358,
+   "end": 45.679
+  },
+  {
+   "word": "Réponds",
+   "start": 46.209,
+   "end": 46.513
+  },
+  {
+   "word": "en",
+   "start": 46.513,
+   "end": 46.529
+  },
+  {
+   "word": "commentaire.",
+   "start": 46.61,
+   "end": 47.123
+  },
+  {
+   "word": "Partage",
+   "start": 47.652,
+   "end": 47.989
+  },
+  {
+   "word": "cette",
+   "start": 48.053,
+   "end": 48.214
+  },
+  {
+   "word": "vidéo",
+   "start": 48.214,
+   "end": 48.551
+  },
+  {
+   "word": "à",
+   "start": 48.551,
+   "end": 48.615
+  },
+  {
+   "word": "quelqu'un",
+   "start": 48.615,
+   "end": 49.016
+  },
+  {
+   "word": "qui",
+   "start": 49.016,
+   "end": 49.096
+  },
+  {
+   "word": "compte",
+   "start": 49.176,
+   "end": 49.337
+  },
+  {
+   "word": "ses",
+   "start": 49.337,
+   "end": 49.449
+  },
+  {
+   "word": "litres.",
+   "start": 49.449,
+   "end": 49.77
+  },
+  {
+   "word": "Et",
+   "start": 50.155,
+   "end": 50.219
+  },
+  {
+   "word": "abonne-toi,",
+   "start": 50.315,
+   "end": 50.748
+  },
+  {
+   "word": "une",
+   "start": 51.278,
+   "end": 51.342
+  },
+  {
+   "word": "nouvelle",
+   "start": 51.342,
+   "end": 51.663
+  },
+  {
+   "word": "vidéo",
+   "start": 51.663,
+   "end": 51.983
+  },
+  {
+   "word": "chaque",
+   "start": 51.983,
+   "end": 52.224
+  },
+  {
+   "word": "jour.",
+   "start": 52.224,
+   "end": 52.433
+  },
+  {
+   "word": "Pour",
+   "start": 52.867,
+   "end": 53.014
+  },
+  {
+   "word": "suivre",
+   "start": 53.03,
+   "end": 53.405
+  },
+  {
+   "word": "ton",
+   "start": 53.438,
+   "end": 53.601
+  },
+  {
+   "word": "hydratation,",
+   "start": 53.617,
+   "end": 54.139
+  },
+  {
+   "word": "tes",
+   "start": 54.335,
+   "end": 54.416
+  },
+  {
+   "word": "calories",
+   "start": 54.416,
+   "end": 54.84
+  },
+  {
+   "word": "et",
+   "start": 54.84,
+   "end": 54.905
+  },
+  {
+   "word": "tes",
+   "start": 54.905,
+   "end": 55.085
+  },
+  {
+   "word": "entraînements,",
+   "start": 55.085,
+   "end": 55.525
+  },
+  {
+   "word": "découvre",
+   "start": 56.047,
+   "end": 56.47
+  },
+  {
+   "word": "CaliBodi",
+   "start": 56.503,
+   "end": 57.09
+  },
+  {
+   "word": "sur",
+   "start": 57.106,
+   "end": 57.318
+  },
+  {
+   "word": "calibody.com.",
+   "start": 57.318,
+   "end": 58.296
+  }
+ ],
+ "text": "Il faut boire 1,5 litre d'eau par jour. Ou 2 litres. Ou 3. Aucun de ces chiffres n'est vrai pour tout le monde. J'ai 3 preuves. La dernière va te surprendre. Première preuve: en France, l'ANSES conseille 1,5 litre à 2 litres d'eau par jour. Mais ce n'est qu'un repère moyen. Deuxième preuve: l'Europe, elle, parle de 2 litres pour les femmes. Et de 2,5 litres pour les hommes. Et ces litres comptent aussi l'eau de la nourriture. Troisième preuve: des chercheurs ont mesuré 5600 personnes dans 23 pays. Le corps renouvelle de 1 à 6 litres d'eau par jour. Les sportifs en renouvellent environ 1 litre de plus. Donc non, il n'y a pas de chiffre magique. Ça dépend de toi, ton corps, ton sport, ton climat. Et toi, tu bois combien de litres par jour? Réponds en commentaire. Partage cette vidéo à quelqu'un qui compte ses litres. Et abonne-toi, une nouvelle vidéo chaque jour. Pour suivre ton hydratation, tes calories et tes entraînements, découvre CaliBodi sur calibody.com."
+}

@@ -1,0 +1,211 @@
+{
+ "title": "Combien de litres d'eau par jour",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_file": "assets/music/the-plan.mp3",
+ "music_loop": [
+  8.0,
+  48.0
+ ],
+ "music_lufs": -25.0,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  3.38,
+  8.84,
+  35.8
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 4.05
+  },
+  {
+   "type": "body",
+   "start": 4.05,
+   "end": 52.8
+  },
+  {
+   "type": "outro",
+   "start": 52.8,
+   "end": 59.75
+  }
+ ],
+ "sfx": [
+  [
+   "plinks",
+   0.2
+  ],
+  [
+   "stamp",
+   0.69
+  ],
+  [
+   "stamp",
+   2.42
+  ],
+  [
+   "thump",
+   3.38
+  ],
+  [
+   "whoosh",
+   4.0
+  ],
+  [
+   "tick",
+   4.67
+  ],
+  [
+   "whoosh",
+   6.5
+  ],
+  [
+   "tension-cine",
+   8.0
+  ],
+  [
+   "thump",
+   8.84
+  ],
+  [
+   "whoosh",
+   9.5
+  ],
+  [
+   "tick",
+   12.8
+  ],
+  [
+   "whoosh",
+   14.9
+  ],
+  [
+   "check",
+   16.2
+  ],
+  [
+   "whoosh",
+   16.95
+  ],
+  [
+   "tick",
+   20.06
+  ],
+  [
+   "whoosh",
+   21.25
+  ],
+  [
+   "tick",
+   21.67
+  ],
+  [
+   "whoosh",
+   23.15
+  ],
+  [
+   "caisse",
+   24.6
+  ],
+  [
+   "whoosh",
+   26.0
+  ],
+  [
+   "notification",
+   28.4
+  ],
+  [
+   "tick",
+   29.93
+  ],
+  [
+   "whoosh",
+   31.05
+  ],
+  [
+   "plinks",
+   32.3
+  ],
+  [
+   "whoosh",
+   34.05
+  ],
+  [
+   "battement-electro",
+   35.7
+  ],
+  [
+   "thump",
+   35.8
+  ],
+  [
+   "whoosh",
+   37.15
+  ],
+  [
+   "stamp",
+   37.6
+  ],
+  [
+   "shimmer",
+   38.9
+  ],
+  [
+   "whoosh",
+   39.85
+  ],
+  [
+   "whoosh",
+   43.55
+  ],
+  [
+   "pop",
+   43.74
+  ],
+  [
+   "click",
+   46.61
+  ],
+  [
+   "whoosh",
+   47.45
+  ],
+  [
+   "pop",
+   47.65
+  ],
+  [
+   "whoosh",
+   49.95
+  ],
+  [
+   "click",
+   50.31
+  ],
+  [
+   "whoosh",
+   52.75
+  ],
+  [
+   "pop",
+   53.5
+  ],
+  [
+   "pop",
+   54.4
+  ],
+  [
+   "pop",
+   55.1
+  ],
+  [
+   "shimmer",
+   56.05
+  ]
+ ]
+}
