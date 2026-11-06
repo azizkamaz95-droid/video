@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Choisit la musique de fond d'une vidéo en alternant les pistes de shorts/music/catalog.json.
 
-usage: pick_music.py <episode_dir> [--set <nom>] [--dry]
-Règle : la piste utilisée le moins récemment (jamais utilisée = prioritaire, dans l'ordre du catalogue), jamais celle des
-deux dernières vidéos. Copie le mp3 dans <episode>/assets/music/, met à jour plan.json (music_file, music_loop) et
+usage: pick_music.py <episode_dir> --energy <1-5> [--set <nom>] [--dry]
+Règle : l'énergie de la musique suit le sujet (1 très calme … 5 dramatique, voir PLAYBOOK §8). On garde les pistes à
+±1 niveau de l'énergie demandée (l'écart le plus faible d'abord), jamais celle des deux dernières vidéos, puis la
+piste utilisée le moins récemment (jamais utilisée = prioritaire). Copie le mp3 dans <episode>/assets/music/, met à jour plan.json (music_file, music_loop) et
 enregistre le choix dans music/history.json (à committer).
 """
 import json, os, shutil, sys
@@ -19,12 +20,17 @@ used = [n for _, n in hist["used"]]
 if force:
     name = force
 else:
+    if "--energy" not in sys.argv:
+        sys.exit("indique l'énergie du sujet : --energy 1..5 (voir PLAYBOOK §8)")
+    target = int(sys.argv[sys.argv.index("--energy") + 1])
     last = {n: max([i for i, u in enumerate(used) if u == n], default=-1) for n in cat}
     banned = set(used[-2:])
-    cands = [n for n in cat if n not in banned] or list(cat)
-    name = min(cands, key=lambda n: (last[n], list(cat).index(n)))
+    cands = [n for n in cat if n not in banned and abs(cat[n]["energy"] - target) <= 1]
+    if not cands:                                  # nothing close and fresh: take the closest energy not just used
+        cands = [n for n in cat if n not in banned] or list(cat)
+    name = min(cands, key=lambda n: (abs(cat[n]["energy"] - target), last[n], list(cat).index(n)))
 t = cat[name]
-print(f"musique choisie : {name} ({t['character']}) · boucle {t['loop']} · {t['source']}")
+print(f"musique choisie : {name} (énergie {t['energy']}, {t['mood']}) · boucle {t['loop']} · {t['source']}")
 if dry:
     sys.exit()
 os.makedirs(os.path.join(EP, "assets/music"), exist_ok=True)

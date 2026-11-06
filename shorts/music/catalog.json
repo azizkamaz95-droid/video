@@ -1,10 +1,70 @@
 {
- "_note": "Musiques de fond. loop = [a, b] en secondes (lecture jusqu'à b puis reprise à a). Les pistes -loop sont faites pour boucler entièrement.",
+ "_note": "Musiques de fond. energy = 1 (très calme) à 5 (dramatique). loop = [a, b] en secondes (lecture jusqu'à b puis reprise à a). Les pistes -loop bouclent entièrement.",
  "tracks": [
-  {"name": "the-plan", "file": "the-plan.mp3", "loop": [8.0, 48.0], "bpm": 123, "character": "énergique, tech", "source": "Pixabay (freesound_community, The Plan)"},
-  {"name": "documentaire-motivation", "file": "documentaire-motivation.mp3", "loop": [0.0, 80.0], "bpm": 117, "character": "doux, documentaire, explications", "source": "Freesound 721052, audiocoffee (licence à confirmer)"},
-  {"name": "corporate-motivation", "file": "corporate-motivation.mp3", "loop": [0.0, 75.0], "bpm": 129, "character": "dynamique, positif, sujets pratiques", "source": "Freesound 720615, audiocoffee (licence à confirmer)"},
-  {"name": "motivation-quotidienne", "file": "motivation-quotidienne.mp3", "loop": [0.0, 48.0], "bpm": 117, "character": "léger, quotidien, habitudes", "source": "Freesound 725013, audiocoffee (licence à confirmer)"},
-  {"name": "epique-trailer", "file": "epique-trailer.mp3", "loop": [0.0, 80.0], "bpm": 96, "character": "dramatique, fort, sujets choc", "source": "Freesound 721944, audiocoffee (licence à confirmer)"}
+  {
+   "name": "the-plan",
+   "file": "the-plan.mp3",
+   "loop": [
+    8.0,
+    48.0
+   ],
+   "bpm": 123,
+   "character": "énergique, tech",
+   "source": "Pixabay (freesound_community, The Plan)",
+   "energy": 4,
+   "mood": "énergique, sujets pratiques, rythme soutenu"
+  },
+  {
+   "name": "documentaire-motivation",
+   "file": "documentaire-motivation.mp3",
+   "loop": [
+    0.0,
+    80.0
+   ],
+   "bpm": 117,
+   "character": "doux, documentaire, explications",
+   "source": "Freesound 721052, audiocoffee (licence à confirmer)",
+   "energy": 2,
+   "mood": "calme, explications, science, santé"
+  },
+  {
+   "name": "corporate-motivation",
+   "file": "corporate-motivation.mp3",
+   "loop": [
+    0.0,
+    75.0
+   ],
+   "bpm": 129,
+   "character": "dynamique, positif, sujets pratiques",
+   "source": "Freesound 720615, audiocoffee (licence à confirmer)",
+   "energy": 4,
+   "mood": "dynamique, positif, résultats, performance"
+  },
+  {
+   "name": "motivation-quotidienne",
+   "file": "motivation-quotidienne.mp3",
+   "loop": [
+    0.0,
+    48.0
+   ],
+   "bpm": 117,
+   "character": "léger, quotidien, habitudes",
+   "source": "Freesound 725013, audiocoffee (licence à confirmer)",
+   "energy": 3,
+   "mood": "léger, habitudes, conseils du quotidien"
+  },
+  {
+   "name": "epique-trailer",
+   "file": "epique-trailer.mp3",
+   "loop": [
+    0.0,
+    80.0
+   ],
+   "bpm": 96,
+   "character": "dramatique, fort, sujets choc",
+   "source": "Freesound 721944, audiocoffee (licence à confirmer)",
+   "energy": 5,
+   "mood": "dramatique, danger, révélation choc, sujet fort"
+  }
  ]
 }
