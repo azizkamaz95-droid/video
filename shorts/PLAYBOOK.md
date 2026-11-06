@@ -107,7 +107,7 @@ Le signal le plus fort pour TikTok, Instagram et YouTube est que la vidéo soit 
 
 ## 5. Voix off
 
-- Outil : `shorts/lib/tts_script.py` (Google Chirp3-HD `fr-FR-Chirp3-HD-Sadachbia`, vitesse **1.0**, `max_gap` 0,5 s).
+- Outil : `shorts/lib/tts_script.py` (Google Chirp3-HD, vitesse **1.0**, `max_gap` 0,5 s). **Voix choisie par l'utilisateur le 2026-11-06 : `fr-FR-Chirp3-HD-Iapetus`** (plus d'intonation que Sadachbia, qui était jugée monotone). Écrire le champ `say` avec une ponctuation expressive (« ! », une pause « ... » avant une surprise) sans changer les mots.
 - Écrire les phrases dans `source/script.json`. Regrouper deux phrases très courtes dans la même entrée pour qu'elles gardent une intonation naturelle (sinon la voix les dit trop vite).
 - **Apostrophes :** l'outil colle automatiquement les élisions pour la voix (« nétait », « lâge ») car la voix coupe sinon les mots (« n est »). Exception : **« l'argent »** reste avec apostrophe (collé, il est lu « large »). Si un mot est mal dit, tester les variantes par transcription.
 - **Contrôle obligatoire après génération :** `align_words.py` puis lire `source/transcript-edit-assemblyai.json`. Tous les mots doivent revenir corrects. Corriger tout mot déformé avant de monter.
