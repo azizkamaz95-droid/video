@@ -37,13 +37,13 @@
         (function () {
           const build = () => {
             const tl = gsap.timeline({ paused: true });
-            const at=(t)=>+Math.max(0,t-42.547).toFixed(3);
+            const at=(t)=>+Math.max(0,t-44.349999999999994).toFixed(3);
             tl.fromTo("#s14-kb",{scale:1.12},{scale:1.0,duration:4.02,ease:"none"},0);
             tl.fromTo("#s14",{scale:.55,opacity:0,filter:"blur(18px)"},{scale:1,opacity:1,filter:"blur(0px)",duration:.26,ease:"power3.out"},0);
             tl.fromTo("#s14",{filter:"brightness(1)"},{filter:"brightness(3)",duration:.12,ease:"power2.in",immediateRender:false},3.9);
-            tl.fromTo("#s14-t",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(42.747));
-tl.fromTo("#s14-q",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(43.287));
-tl.fromTo("#s14-c",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(45.617));
+            tl.fromTo("#s14-t",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(44.55));
+tl.fromTo("#s14-q",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(45.09));
+tl.fromTo("#s14-c",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(47.42));
 
             window.__timelines["s14"] = tl;
           };

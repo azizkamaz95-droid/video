@@ -23,6 +23,7 @@ EP = os.path.abspath(sys.argv[1])
 S = json.load(open(os.path.join(EP, "source/script.json")))
 SR = 48000
 key = os.environ["GOOGLE_CLOUD_API_KEY"]
+PRON = {k: v for k, v in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "pronunciations.json"))).items() if not k.startswith("_")}
 cache = os.path.join(EP, "source/tts-cache")
 os.makedirs(cache, exist_ok=True)
 
@@ -34,20 +35,57 @@ def spoken(text):
     # real spelling. Acronyms stay apart (« L'OMS »). Checked by transcription: every word comes back correct.
     for a, b in (("«", ""), ("»", ""), ("“", ""), ("”", ""), ("’", "'"), ("\u00a0", " ")):
         text = text.replace(a, b)
-    text = re.sub(r"\b([cdjlmnstCDJLMNST]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)'(?!argent)(?=[a-zàâäéèêëîïôöùûüœ])", r"\1", text)   # « largent » would be read « large »
+    def _glue(m):
+        if (m.group(0).lower() in LOW) or (m.group(0) in PRON):
+            return m.group(0)                       # handled by an imposed IPA pronunciation (see pronunciations.json)
+        return m.group(1)
+    text = re.sub(r"\b(?:[cdjlmnstCDJLMNST]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)'(?!argent)(?=[a-zàâäéèêëîïôöùûüœ])[\wàâäéèêëîïôöùûüœ]*", lambda m: _glue2(m), text)
     return " ".join(text.split())
+
+
+LOW = {k.lower(): v for k, v in PRON.items()}
+
+
+def _glue2(m):
+    w = m.group(0)
+    if w.lower() in LOW or w in PRON:
+        return w
+    return w.replace("'", "", 1)
+
+
+def pron_list(text):
+    """imposed pronunciations for the elided words present in the text"""
+    out, seen = [], set()
+    for w in re.findall(r"[\wàâäéèêëîïôöùûüœ]+'[\wàâäéèêëîïôöùûüœ]+", text):
+        v = PRON.get(w) or LOW.get(w.lower())
+        if v and w not in seen:
+            seen.add(w)
+            out.append({"phrase": w, "phoneticEncoding": "PHONETIC_ENCODING_IPA", "pronunciation": v})
+    return out
 
 
 def synth(text, rate=None):
     rate = rate or S["rate"]
     text = spoken(text)
-    name = os.path.join(cache, hashlib.sha1(f"{S['voice']}|{rate}|{text}".encode()).hexdigest()[:16] + ".wav")
+    pl = pron_list(text)
+    name = os.path.join(cache, hashlib.sha1(f"{S['voice']}|{rate}|{text}|{json.dumps(pl, sort_keys=True)}".encode()).hexdigest()[:16] + ".wav")
     if not os.path.exists(name):
-        body = {"input": {"text": text}, "voice": {"languageCode": "fr-FR", "name": S["voice"]},
+        inp = {"text": text}
+        if pl:
+            inp["customPronunciations"] = {"pronunciations": pl}
+        body = {"input": inp, "voice": {"languageCode": "fr-FR", "name": S["voice"]},
                 "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": SR, "speakingRate": rate}}
-        req = urllib.request.Request(f"https://texttospeech.googleapis.com/v1/text:synthesize?key={key}",
-                                     data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
-        open(name, "wb").write(base64.b64decode(json.loads(urllib.request.urlopen(req).read())["audioContent"]))
+        def _call(b, ver):
+            req = urllib.request.Request(f"https://texttospeech.googleapis.com/{ver}/text:synthesize?key={key}",
+                                         data=json.dumps(b).encode(), headers={"Content-Type": "application/json"})
+            return urllib.request.urlopen(req).read()
+        try:
+            raw_audio = _call(body, "v1beta1" if pl else "v1")
+        except urllib.error.HTTPError as e:      # an IPA string the API refuses: fall back to the glued spelling
+            print("  ! custom pronunciation refused, glued spelling used:", e.read().decode()[:160].replace("\n", " "))
+            body["input"] = {"text": re.sub(r"\b([cdjlmnstCDJLMNST]|[Qq]u)'(?!argent)(?=[a-zàâäéèêëîïôöùûüœ])", r"\1", text)}
+            raw_audio = _call(body, "v1")
+        open(name, "wb").write(base64.b64decode(json.loads(raw_audio)["audioContent"]))
     x = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", name, "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
                                      capture_output=True, check=True).stdout, np.float32).astype(float)
     # trim the synthesizer's leading / trailing silence and breath noise (keep 40 ms before the voice)

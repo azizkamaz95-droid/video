@@ -112,6 +112,7 @@ Le signal le plus fort pour TikTok, Instagram et YouTube est que la vidéo soit 
 - **Apostrophes :** l'outil colle automatiquement les élisions pour la voix (« nétait », « lâge ») car la voix coupe sinon les mots (« n est »). Exception : **« l'argent »** reste avec apostrophe (collé, il est lu « large »). Si un mot est mal dit, tester les variantes par transcription.
 - **Contrôle obligatoire après génération :** `align_words.py` puis lire `source/transcript-edit-assemblyai.json`. Tous les mots doivent revenir corrects. Corriger tout mot déformé avant de monter.
 - `calibodi.com` se lit « calibodi point com » (champ `say`).
+- **Prononciation des apostrophes (règle de l'utilisateur) :** le collage « nest » était lu « ness ». `tts_script.py` impose maintenant une prononciation IPA aux mots avec apostrophe listés dans `shorts/lib/pronunciations.json` (n'est, c'est, d'eau, l'Anses, qu'un, quelqu'un…). Le fichier utilise `ɛ̃` pour « un » (`œ̃` est refusé par l'API). Tout nouveau mot avec apostrophe doit y être ajouté avec son IPA ; sinon l'ancien collage s'applique. **Avant de monter**, envoyer la voix seule (mp3) à l'utilisateur pour écoute : la transcription ne détecte pas ces défauts.
 - Pas de guillemets « » dans les textes lus.
 
 ---
@@ -119,6 +120,7 @@ Le signal le plus fort pour TikTok, Instagram et YouTube est que la vidéo soit 
 ## 6. Médias (images et vidéos)
 
 - Source : **Pixabay** (licence commerciale). Script : `python3 lib/pixabay.py <épisode> video id:<id>` ; avec `PX_MIN=1920` pour récupérer la version 4K (nette en recadrage vertical).
+- **Analyse obligatoire de CHAQUE clip avant montage (règle de l'utilisateur) :** extraire au moins 5 images réparties sur la durée du clip coupé, à taille lisible, et les regarder. Rejeter : déchets (bouteille plastique abandonnée, ordures), eau sale ou boueuse, bouteilles pouvant évoquer l'alcool, fumée ou scènes menaçantes, femmes, visages, logos. Rechercher les images avec des mots-clés en français (Pixabay indexe en français : « verre d'eau », « robinet eau »…).
 - **Vérifier chaque vidéo image par image** avant de l'utiliser : pas de femme, pas de visage identifiable, pas de logo, pas de maillot de bain. Écarter les vidéos douteuses (ex. plage avec des gens, prise de tension avec un bras ambigu).
 - Recadrer en vertical 1080×1920 avec `ffmpeg` (`crop` + `scale` lanczos), enlever l'audio (`-an -dn`), 30 images/s.
 - Éléments utiles : mains sur un téléphone, ville de nuit, objets (sablier, horloge, billets, alliances, café, livre), silhouettes, mannequins 3D, ciel d'orage (éclair pour le « fait n°3 »), schémas dessinés (pictogrammes d'hommes pour les pourcentages).
