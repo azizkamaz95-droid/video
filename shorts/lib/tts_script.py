@@ -68,9 +68,9 @@ def synth(text, rate=None):
     rate = rate or S["rate"]
     text = spoken(text)
     pl = pron_list(text)
-    name = os.path.join(cache, hashlib.sha1(f"{S['voice']}|{rate}|{text}|{json.dumps(pl, sort_keys=True)}".encode()).hexdigest()[:16] + ".wav")
+    name = os.path.join(cache, hashlib.sha1(f"{S['voice']}|{rate}|{text}|{json.dumps(pl, sort_keys=True)}|{'markup' if '[pause' in text else 'text'}".encode()).hexdigest()[:16] + ".wav")
     if not os.path.exists(name):
-        inp = {"text": text}
+        inp = {"markup": text} if "[pause" in text else {"text": text}   # pause tags only work in markup mode
         if pl:
             inp["customPronunciations"] = {"pronunciations": pl}
         body = {"input": inp, "voice": {"languageCode": "fr-FR", "name": S["voice"]},
@@ -83,7 +83,7 @@ def synth(text, rate=None):
             raw_audio = _call(body, "v1beta1" if pl else "v1")
         except urllib.error.HTTPError as e:      # an IPA string the API refuses: fall back to the glued spelling
             print("  ! custom pronunciation refused, glued spelling used:", e.read().decode()[:160].replace("\n", " "))
-            body["input"] = {"text": re.sub(r"\b([cdjlmnstCDJLMNST]|[Qq]u)'(?!argent)(?=[a-zàâäéèêëîïôöùûüœ])", r"\1", text)}
+            body["input"] = {("markup" if "[pause" in text else "text"): re.sub(r"\b([cdjlmnstCDJLMNST]|[Qq]u)'(?!argent)(?=[a-zàâäéèêëîïôöùûüœ])", r"\1", text)}
             raw_audio = _call(body, "v1")
         open(name, "wb").write(base64.b64decode(json.loads(raw_audio)["audioContent"]))
     x = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", name, "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"],
