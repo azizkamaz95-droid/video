@@ -119,6 +119,15 @@ Le signal le plus fort pour TikTok, Instagram et YouTube est que la vidéo soit 
 
 ---
 
+### Recette de voix validée par l'utilisateur (2026-11-06) : à appliquer à CHAQUE vidéo
+1. Voix `fr-FR-Chirp3-HD-Iapetus`, vitesse 1.0.
+2. Champ `say` écrit phrase par phrase, avec le **type** de chaque phrase relu : affirmation = point ; question = « ? » ; ordre/appel (« Réponds en commentaire », « Partage », « Abonne-toi ») = « ! ». Jamais « ... » ni « ! » sur une affirmation.
+3. **Accentuer** : « : » pour introduire (« Première preuve : »), virgules pour détacher les chiffres, `[pause short]` avant un mot fort ou une surprise (mode markup géré par `tts_script.py`).
+4. Aucun mot ajouté ni retiré par rapport au script validé (les sous-titres viennent du champ `text`).
+5. Apostrophes : IPA imposée via `lib/pronunciations.json` (compléter la liste si un nouveau mot apparaît).
+6. Contrôle : transcription (aucune balise lue, tous les mots corrects) **puis envoi de la voix seule (mp3) à l'utilisateur pour écoute avant le rendu**.
+7. Si la voix est régénérée après le montage : copier `assets/voice/segments.json` vers `source/segments-prev.json` avant, puis recaler `plan.json` (sons) ; `build_v4.py` recale les plans à partir de `source/segments-v1.json`.
+
 ## 6. Médias (images et vidéos)
 
 - Source : **Pixabay** (licence commerciale). Script : `python3 lib/pixabay.py <épisode> video id:<id>` ; avec `PX_MIN=1920` pour récupérer la version 4K (nette en recadrage vertical).
