@@ -328,3 +328,6 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 - Couleurs : fond sombre cinéma ou, pour les épisodes « papier », rotation Soleil / Cobalt / Corail ; jaune `#FFC93C` pour les accents.
 - Dossiers : `shorts/episodes/AAAA-MM-JJ-sujet/` (script dans `source/script.json`, plans dans `shots.py`, montage dans `build_v4.py`, sorties dans `renders/`).
 - Dernier épisode de référence : `2026-10-26-physique-argent` (copier ce dossier comme modèle).
+
+## Règle prononciation (obligatoire, après les erreurs « c'est e » / Manpo-kei)
+Avant TOUTE génération de voix : `python3 lib/voice_preflight.py episodes/<ep>`. Il liste les mots à risque (apostrophes, noms à trait d'union, chiffres). Tout mot « À TESTER » bloque : `--test` fabrique un mp3 d'écoute (plusieurs écritures par mot), l'utilisateur dit la version juste, puis `--set "mot=ipa:…|glue|raw|respell:…"` l'enregistre dans `lib/voice_validated.json`. Jamais de voix lancée avec un mot à risque non validé à l'oreille. Un mot validé le reste pour tous les épisodes.

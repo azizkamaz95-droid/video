@@ -1,0 +1,60 @@
+{
+ "_note": "Mots avec apostrophe ou nom propre étrangers dont la lecture a été VALIDÉE À L'OREILLE par l'utilisateur. mode : raw (texte tel quel), glue (apostrophe collée), ipa (value = IPA), respell (value = écriture remplaçante). Tout mot absent est 'À TESTER' : voice_preflight.py bloque la génération.",
+ "tokens": {
+  "aujourd'hui": {
+   "mode": "raw"
+  },
+  "d'où": {
+   "mode": "ipa",
+   "value": "du"
+  },
+  "d'eau": {
+   "mode": "ipa",
+   "value": "do"
+  },
+  "j'ai": {
+   "mode": "ipa",
+   "value": "ʒɛ"
+  },
+  "l'anses": {
+   "mode": "ipa",
+   "value": "lɑ̃s"
+  },
+  "l'autre": {
+   "mode": "ipa",
+   "value": "lotʁ"
+  },
+  "l'eau": {
+   "mode": "ipa",
+   "value": "lo"
+  },
+  "l'europe": {
+   "mode": "ipa",
+   "value": "løʁɔp"
+  },
+  "l'heure": {
+   "mode": "ipa",
+   "value": "lœʁ"
+  },
+  "n'est": {
+   "mode": "ipa",
+   "value": "nɛ"
+  },
+  "n'existe": {
+   "mode": "ipa",
+   "value": "nɛɡzist"
+  },
+  "qu'on": {
+   "mode": "ipa",
+   "value": "kɔ̃"
+  },
+  "quelqu'un": {
+   "mode": "ipa",
+   "value": "kɛlkɛ̃"
+  },
+  "t'a": {
+   "mode": "ipa",
+   "value": "ta"
+  }
+ }
+}

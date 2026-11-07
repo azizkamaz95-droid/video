@@ -28,39 +28,43 @@ cache = os.path.join(EP, "source/tts-cache")
 os.makedirs(cache, exist_ok=True)
 
 
+VAL = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "voice_validated.json")))["tokens"]
+LOW = {k.lower(): v for k, v in PRON.items()}
+
+
 def spoken(text):
     # Chirp3 voices derail on French guillemets (« c'est l'âge » came out as gibberish): never send quote marks.
     # Elisions: with either apostrophe the voice often leaves a gap before the vowel (« n' était », « l' âge »).
-    # Glue the elided letter to a lowercase next word for the voice only (« nétait », « lâge »); captions keep the
-    # real spelling. Acronyms stay apart (« L'OMS »). Checked by transcription: every word comes back correct.
+    # Words validated by the user (voice_validated.json) follow their validated mode; the others are 'à tester'
+    # (voice_preflight.py blocks them) and fall back to the IPA table, else to gluing the elided letter.
     for a, b in (("«", ""), ("»", ""), ("“", ""), ("”", ""), ("’", "'"), ("\u00a0", " ")):
         text = text.replace(a, b)
-    def _glue(m):
-        if (m.group(0).lower() in LOW) or (m.group(0) in PRON):
-            return m.group(0)                       # handled by an imposed IPA pronunciation (see pronunciations.json)
-        return m.group(1)
-    text = re.sub(r"\b(?:[cdjlmnstCDJLMNST]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)'(?!argent)(?=[a-zàâäéèêëîïôöùûüœ])[\wàâäéèêëîïôöùûüœ]*", lambda m: _glue2(m), text)
+    for k, v in VAL.items():                                   # respell mode: replace the written word
+        if v["mode"] == "respell":
+            text = re.sub(re.escape(k), v["value"], text, flags=re.I)
+    text = re.sub(r"\b(?:[cdjlmnstCDJLMNST]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)'(?!argent)(?=[a-zàâäéèêëîïôöùûüœ])[\wàâäéèêëîïôöùûüœ]*", _glue2, text)
     return " ".join(text.split())
-
-
-LOW = {k.lower(): v for k, v in PRON.items()}
 
 
 def _glue2(m):
     w = m.group(0)
+    v = VAL.get(w.lower())
+    if v:
+        return w if v["mode"] in ("raw", "ipa") else (w.replace("'", "", 1) if v["mode"] == "glue" else w)
     if w.lower() in LOW or w in PRON:
         return w
     return w.replace("'", "", 1)
 
 
 def pron_list(text):
-    """imposed pronunciations for the elided words present in the text"""
+    """imposed pronunciations: validated IPA first, then the (unvalidated) IPA table"""
     out, seen = [], set()
-    for w in re.findall(r"[\wàâäéèêëîïôöùûüœ]+'[\wàâäéèêëîïôöùûüœ]+", text):
-        v = PRON.get(w) or LOW.get(w.lower())
-        if v and w not in seen:
+    for w in re.findall(r"[\wÀ-ÿœ]+['-][\wÀ-ÿœ]+", text):
+        v = VAL.get(w.lower())
+        ipa = v["value"] if (v and v["mode"] == "ipa") else (None if v else (PRON.get(w) or LOW.get(w.lower())))
+        if ipa and w not in seen:
             seen.add(w)
-            out.append({"phrase": w, "phoneticEncoding": "PHONETIC_ENCODING_IPA", "pronunciation": v})
+            out.append({"phrase": w, "phoneticEncoding": "PHONETIC_ENCODING_IPA", "pronunciation": ipa})
     return out
 
 
