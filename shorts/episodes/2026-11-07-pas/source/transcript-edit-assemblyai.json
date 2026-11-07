@@ -1,911 +1,911 @@
 {
- "duration": 66.132,
+ "duration": 63.91,
  "words": [
   {
    "word": "Si",
    "start": 0.176,
-   "end": 0.336
+   "end": 0.337
   },
   {
    "word": "tu",
-   "start": 0.336,
-   "end": 0.497
+   "start": 0.337,
+   "end": 0.498
   },
   {
    "word": "fais",
-   "start": 0.497,
-   "end": 0.657
+   "start": 0.498,
+   "end": 0.658
   },
   {
    "word": "10",
-   "start": 0.657,
-   "end": 0.737
+   "start": 0.658,
+   "end": 0.739
   },
   {
    "word": "000",
-   "start": 0.737,
-   "end": 0.978
+   "start": 0.739,
+   "end": 0.98
   },
   {
    "word": "pas",
-   "start": 0.978,
-   "end": 1.138
+   "start": 0.98,
+   "end": 1.14
   },
   {
    "word": "par",
-   "start": 1.138,
-   "end": 1.331
+   "start": 1.14,
+   "end": 1.253
   },
   {
    "word": "jour",
-   "start": 1.331,
-   "end": 1.635
+   "start": 1.301,
+   "end": 1.51
   },
   {
    "word": "parce",
-   "start": 1.699,
-   "end": 1.94
+   "start": 1.542,
+   "end": 1.783
   },
   {
    "word": "qu'on",
-   "start": 1.94,
-   "end": 2.1
+   "start": 1.783,
+   "end": 1.944
   },
   {
    "word": "t'a",
-   "start": 2.1,
-   "end": 2.261
+   "start": 1.944,
+   "end": 2.104
   },
   {
    "word": "dit",
-   "start": 2.261,
-   "end": 2.421
+   "start": 2.104,
+   "end": 2.185
   },
   {
    "word": "que",
-   "start": 2.421,
-   "end": 2.581
+   "start": 2.265,
+   "end": 2.345
   },
   {
    "word": "c'était",
-   "start": 2.581,
-   "end": 3.223
+   "start": 2.345,
+   "end": 2.586
   },
   {
    "word": "indispensable",
-   "start": 3.48,
-   "end": 4.153
+   "start": 2.763,
+   "end": 3.502
   },
   {
    "word": "pour",
-   "start": 4.265,
-   "end": 4.362
+   "start": 3.551,
+   "end": 3.727
   },
   {
    "word": "être",
-   "start": 4.362,
-   "end": 4.522
+   "start": 3.727,
+   "end": 3.888
   },
   {
    "word": "en",
-   "start": 4.522,
-   "end": 4.666
+   "start": 3.888,
+   "end": 3.952
   },
   {
    "word": "bonne",
-   "start": 4.666,
-   "end": 4.73
+   "start": 3.952,
+   "end": 4.113
   },
   {
    "word": "santé,",
-   "start": 4.827,
-   "end": 5.115
+   "start": 4.113,
+   "end": 4.483
   },
   {
    "word": "j'ai",
-   "start": 5.629,
-   "end": 5.725
+   "start": 5.077,
+   "end": 5.173
   },
   {
    "word": "une",
-   "start": 5.725,
-   "end": 5.869
+   "start": 5.173,
+   "end": 5.318
   },
   {
    "word": "surprise",
-   "start": 5.869,
-   "end": 6.27
+   "start": 5.318,
+   "end": 5.704
   },
   {
    "word": "pour",
-   "start": 6.27,
-   "end": 6.43
+   "start": 5.72,
+   "end": 5.913
   },
   {
    "word": "toi.",
-   "start": 6.43,
-   "end": 6.559
+   "start": 5.913,
+   "end": 6.089
   },
   {
    "word": "Tu",
-   "start": 7.232,
-   "end": 7.393
+   "start": 6.764,
+   "end": 6.877
   },
   {
    "word": "sais",
-   "start": 7.393,
-   "end": 7.553
+   "start": 6.925,
+   "end": 7.069
   },
   {
    "word": "d'où",
-   "start": 7.553,
-   "end": 7.713
+   "start": 7.069,
+   "end": 7.166
   },
   {
    "word": "vient",
-   "start": 7.713,
-   "end": 7.874
+   "start": 7.166,
+   "end": 7.327
   },
   {
    "word": "ce",
-   "start": 7.874,
-   "end": 8.034
+   "start": 7.327,
+   "end": 7.487
   },
   {
    "word": "chiffre?",
-   "start": 8.034,
-   "end": 8.371
+   "start": 7.487,
+   "end": 7.841
   },
   {
    "word": "Du",
-   "start": 8.916,
-   "end": 9.076
+   "start": 8.371,
+   "end": 8.532
   },
   {
    "word": "Japon,",
-   "start": 9.076,
-   "end": 9.365
+   "start": 8.532,
+   "end": 8.901
   },
   {
    "word": "en",
-   "start": 9.814,
-   "end": 9.83
+   "start": 9.271,
+   "end": 9.287
   },
   {
    "word": "1965.",
-   "start": 9.83,
-   "end": 10.808
+   "start": 9.287,
+   "end": 10.428
   },
   {
    "word": "Une",
-   "start": 11.498,
-   "end": 11.658
+   "start": 11.038,
+   "end": 11.119
   },
   {
    "word": "entreprise",
-   "start": 11.658,
-   "end": 12.14
+   "start": 11.119,
+   "end": 11.601
   },
   {
    "word": "a",
-   "start": 12.14,
-   "end": 12.204
+   "start": 11.601,
+   "end": 11.745
   },
   {
    "word": "commercialisé",
-   "start": 12.204,
-   "end": 12.941
+   "start": 11.745,
+   "end": 12.484
   },
   {
    "word": "un",
-   "start": 12.941,
-   "end": 13.006
+   "start": 12.484,
+   "end": 12.549
   },
   {
    "word": "podomètre",
-   "start": 13.006,
-   "end": 13.583
+   "start": 12.549,
+   "end": 13.047
   },
   {
    "word": "appelé",
-   "start": 13.583,
-   "end": 13.968
+   "start": 13.047,
+   "end": 13.384
   },
   {
    "word": "Manpo-kei,",
-   "start": 14.289,
-   "end": 14.978
+   "start": 13.384,
+   "end": 13.947
   },
   {
    "word": "qui",
-   "start": 15.571,
-   "end": 16.774
+   "start": 14.477,
+   "end": 14.557
   },
   {
    "word": "signifie",
-   "start": 16.854,
-   "end": 17.255
+   "start": 14.557,
+   "end": 15.039
   },
   {
    "word": "littéralement",
-   "start": 17.255,
-   "end": 17.897
+   "start": 15.12,
+   "end": 15.875
   },
   {
    "word": "compteur",
-   "start": 18.298,
-   "end": 18.699
+   "start": 16.325,
+   "end": 16.791
   },
   {
    "word": "de",
-   "start": 18.699,
-   "end": 18.779
+   "start": 16.807,
+   "end": 16.887
   },
   {
    "word": "10",
-   "start": 18.859,
-   "end": 18.939
+   "start": 16.967,
+   "end": 17.048
   },
   {
    "word": "000",
-   "start": 18.939,
-   "end": 19.18
+   "start": 17.048,
+   "end": 17.289
   },
   {
    "word": "pas.",
-   "start": 19.18,
-   "end": 19.228
+   "start": 17.289,
+   "end": 17.417
   },
   {
    "word": "C'était",
-   "start": 19.821,
-   "end": 20.623
+   "start": 18.012,
+   "end": 18.253
   },
   {
    "word": "avant",
-   "start": 20.719,
-   "end": 20.944
+   "start": 18.349,
+   "end": 18.574
   },
   {
    "word": "tout",
-   "start": 20.944,
-   "end": 21.12
+   "start": 18.574,
+   "end": 18.687
   },
   {
    "word": "une",
-   "start": 21.12,
-   "end": 21.265
+   "start": 18.687,
+   "end": 18.767
   },
   {
    "word": "campagne",
-   "start": 21.265,
-   "end": 21.633
+   "start": 18.976,
+   "end": 19.346
   },
   {
    "word": "marketing,",
-   "start": 21.633,
-   "end": 22.291
+   "start": 19.346,
+   "end": 20.085
   },
   {
    "word": "pas",
-   "start": 22.868,
-   "end": 23.045
+   "start": 20.583,
+   "end": 20.84
   },
   {
    "word": "une",
-   "start": 23.045,
-   "end": 23.093
+   "start": 20.84,
+   "end": 20.984
   },
   {
    "word": "recommandation",
-   "start": 23.141,
-   "end": 23.782
+   "start": 20.984,
+   "end": 21.547
   },
   {
    "word": "médicale.",
-   "start": 23.782,
-   "end": 24.28
+   "start": 21.547,
+   "end": 21.981
   },
   {
    "word": "Mais",
-   "start": 24.953,
-   "end": 25.114
+   "start": 22.752,
+   "end": 22.913
   },
   {
    "word": "attention,",
-   "start": 25.21,
-   "end": 25.723
+   "start": 23.009,
+   "end": 23.555
   },
   {
-   "word": "Ça",
-   "start": 26.076,
-   "end": 26.188
+   "word": "ça",
+   "start": 23.957,
+   "end": 24.07
   },
   {
    "word": "ne",
-   "start": 26.188,
-   "end": 26.269
+   "start": 24.07,
+   "end": 24.15
   },
   {
    "word": "veut",
-   "start": 26.269,
-   "end": 26.349
+   "start": 24.15,
+   "end": 24.23
   },
   {
    "word": "pas",
-   "start": 26.397,
-   "end": 26.558
+   "start": 24.278,
+   "end": 24.439
   },
   {
    "word": "dire",
-   "start": 26.558,
-   "end": 26.782
+   "start": 24.439,
+   "end": 24.664
   },
   {
    "word": "que",
-   "start": 26.798,
-   "end": 26.879
+   "start": 24.68,
+   "end": 24.76
   },
   {
    "word": "marcher",
-   "start": 26.879,
-   "end": 27.152
+   "start": 24.76,
+   "end": 25.034
   },
   {
    "word": "ne",
-   "start": 27.152,
-   "end": 27.312
+   "start": 25.034,
+   "end": 25.194
   },
   {
    "word": "sert",
-   "start": 27.312,
-   "end": 27.537
+   "start": 25.194,
+   "end": 25.419
   },
   {
    "word": "à",
-   "start": 27.537,
-   "end": 27.682
+   "start": 25.419,
+   "end": 25.564
   },
   {
-   "word": "rien,",
-   "start": 27.682,
-   "end": 27.81
+   "word": "rien!",
+   "start": 25.564,
+   "end": 25.692
   },
   {
-   "word": "bien",
-   "start": 28.404,
-   "end": 28.581
+   "word": "Bien",
+   "start": 26.126,
+   "end": 26.303
   },
   {
    "word": "au",
-   "start": 28.581,
-   "end": 28.645
+   "start": 26.303,
+   "end": 26.367
   },
   {
    "word": "contraire.",
-   "start": 28.645,
-   "end": 29.014
+   "start": 26.367,
+   "end": 26.736
   },
   {
    "word": "Une",
-   "start": 29.705,
-   "end": 29.769
+   "start": 27.427,
+   "end": 27.475
   },
   {
    "word": "grande",
-   "start": 29.769,
-   "end": 30.026
+   "start": 27.571,
+   "end": 27.828
   },
   {
    "word": "étude",
-   "start": 30.026,
-   "end": 30.475
+   "start": 27.828,
+   "end": 28.213
   },
   {
    "word": "publiée",
-   "start": 30.491,
-   "end": 30.861
+   "start": 28.213,
+   "end": 28.663
   },
   {
    "word": "en",
-   "start": 30.925,
-   "end": 30.973
+   "start": 28.711,
+   "end": 28.775
   },
   {
    "word": "2025,",
-   "start": 31.053,
-   "end": 31.969
+   "start": 28.856,
+   "end": 29.707
   },
   {
    "word": "portant",
-   "start": 32.258,
-   "end": 32.579
+   "start": 29.98,
+   "end": 30.381
   },
   {
    "word": "sur",
-   "start": 32.579,
-   "end": 32.788
+   "start": 30.381,
+   "end": 30.526
   },
   {
    "word": "57",
-   "start": 32.82,
-   "end": 33.398
+   "start": 30.542,
+   "end": 31.12
   },
   {
    "word": "études,",
-   "start": 33.398,
-   "end": 33.751
+   "start": 31.12,
+   "end": 31.473
   },
   {
    "word": "montre",
-   "start": 34.104,
-   "end": 34.425
+   "start": 31.907,
+   "end": 32.163
   },
   {
    "word": "que",
-   "start": 34.425,
-   "end": 34.586
+   "start": 32.228,
+   "end": 32.308
   },
   {
    "word": "7000",
-   "start": 34.586,
-   "end": 34.987
+   "start": 32.308,
+   "end": 32.693
   },
   {
    "word": "pas",
-   "start": 34.987,
-   "end": 35.148
+   "start": 32.79,
+   "end": 32.95
   },
   {
    "word": "par",
-   "start": 35.148,
-   "end": 35.389
+   "start": 32.95,
+   "end": 33.063
   },
   {
    "word": "jour",
-   "start": 35.389,
-   "end": 35.565
+   "start": 33.111,
+   "end": 33.336
   },
   {
    "word": "sont",
-   "start": 35.565,
-   "end": 35.79
+   "start": 33.352,
+   "end": 33.512
   },
   {
    "word": "déjà",
-   "start": 35.79,
-   "end": 35.919
+   "start": 33.512,
+   "end": 33.769
   },
   {
    "word": "associés",
-   "start": 35.967,
-   "end": 36.497
+   "start": 33.769,
+   "end": 34.251
   },
   {
    "word": "à",
-   "start": 36.497,
-   "end": 36.513
+   "start": 34.251,
+   "end": 34.315
   },
   {
    "word": "des",
-   "start": 36.513,
-   "end": 36.673
+   "start": 34.315,
+   "end": 34.395
   },
   {
    "word": "bénéfices",
-   "start": 36.673,
-   "end": 37.171
+   "start": 34.395,
+   "end": 34.973
   },
   {
    "word": "importants",
-   "start": 37.251,
-   "end": 37.717
+   "start": 34.973,
+   "end": 35.519
   },
   {
    "word": "pour",
-   "start": 37.717,
-   "end": 37.877
+   "start": 35.519,
+   "end": 35.632
   },
   {
    "word": "la",
-   "start": 37.877,
-   "end": 37.958
+   "start": 35.632,
+   "end": 35.76
   },
   {
    "word": "santé.",
-   "start": 37.958,
-   "end": 38.247
+   "start": 35.76,
+   "end": 36.049
   },
   {
    "word": "Et",
-   "start": 39.017,
-   "end": 39.034
+   "start": 36.74,
+   "end": 36.804
   },
   {
    "word": "les",
-   "start": 39.034,
-   "end": 39.162
+   "start": 36.804,
+   "end": 36.884
   },
   {
    "word": "bénéfices",
-   "start": 39.162,
-   "end": 39.563
+   "start": 36.964,
+   "end": 37.366
   },
   {
    "word": "commencent",
-   "start": 39.563,
-   "end": 39.885
+   "start": 37.366,
+   "end": 37.687
   },
   {
    "word": "même",
-   "start": 39.885,
-   "end": 40.141
+   "start": 37.687,
+   "end": 37.944
   },
   {
    "word": "avant.",
-   "start": 40.141,
-   "end": 40.334
+   "start": 37.944,
+   "end": 38.136
   },
   {
    "word": "Alors,",
-   "start": 41.105,
-   "end": 41.217
+   "start": 38.827,
+   "end": 39.02
   },
   {
    "word": "voici",
-   "start": 41.651,
-   "end": 41.972
+   "start": 39.453,
+   "end": 39.726
   },
   {
    "word": "mon",
-   "start": 41.972,
-   "end": 42.132
+   "start": 39.726,
+   "end": 39.855
   },
   {
    "word": "conseil:",
-   "start": 42.132,
-   "end": 42.47
+   "start": 39.855,
+   "end": 40.224
   },
   {
    "word": "si",
-   "start": 43.096,
-   "end": 43.176
+   "start": 40.818,
+   "end": 40.978
   },
   {
    "word": "tu",
-   "start": 43.176,
-   "end": 43.337
+   "start": 40.978,
+   "end": 41.091
   },
   {
    "word": "fais",
-   "start": 43.337,
-   "end": 43.417
+   "start": 41.091,
+   "end": 41.3
   },
   {
    "word": "2000",
-   "start": 43.497,
-   "end": 43.77
+   "start": 41.3,
+   "end": 41.524
   },
   {
    "word": "pas",
-   "start": 43.818,
-   "end": 43.995
+   "start": 41.621,
+   "end": 41.717
   },
   {
    "word": "aujourd'hui,",
-   "start": 43.995,
-   "end": 44.348
+   "start": 41.717,
+   "end": 42.151
   },
   {
    "word": "ne",
-   "start": 44.782,
-   "end": 44.862
+   "start": 42.584,
+   "end": 42.664
   },
   {
    "word": "cherche",
-   "start": 44.862,
-   "end": 45.183
+   "start": 42.664,
+   "end": 42.905
   },
   {
    "word": "pas",
-   "start": 45.183,
-   "end": 45.247
+   "start": 42.905,
+   "end": 43.002
   },
   {
    "word": "à",
-   "start": 45.247,
-   "end": 45.28
+   "start": 43.002,
+   "end": 43.066
   },
   {
    "word": "en",
-   "start": 45.28,
-   "end": 45.344
+   "start": 43.082,
+   "end": 43.146
   },
   {
    "word": "faire",
-   "start": 45.424,
-   "end": 45.649
+   "start": 43.226,
+   "end": 43.451
   },
   {
    "word": "10000",
-   "start": 45.665,
-   "end": 45.938
+   "start": 43.467,
+   "end": 43.788
   },
   {
    "word": "demain.",
-   "start": 45.986,
-   "end": 46.195
+   "start": 43.788,
+   "end": 43.997
   },
   {
    "word": "Augmente",
-   "start": 46.805,
-   "end": 47.351
+   "start": 44.607,
+   "end": 45.073
   },
   {
    "word": "progressivement.",
-   "start": 47.351,
-   "end": 48.025
+   "start": 45.073,
+   "end": 45.763
   },
   {
    "word": "Marche",
-   "start": 48.555,
-   "end": 48.796
+   "start": 46.357,
+   "end": 46.598
   },
   {
    "word": "davantage,",
-   "start": 48.796,
-   "end": 49.342
+   "start": 46.598,
+   "end": 47.112
   },
   {
    "word": "prends",
-   "start": 49.438,
-   "end": 49.599
+   "start": 47.16,
+   "end": 47.353
   },
   {
    "word": "les",
-   "start": 49.599,
-   "end": 49.775
+   "start": 47.353,
+   "end": 47.497
   },
   {
    "word": "escaliers,",
-   "start": 49.775,
-   "end": 50.209
+   "start": 47.497,
+   "end": 47.931
   },
   {
    "word": "sors",
-   "start": 50.241,
-   "end": 50.578
+   "start": 47.995,
+   "end": 48.3
   },
   {
    "word": "après",
-   "start": 50.578,
-   "end": 50.755
+   "start": 48.3,
+   "end": 48.557
   },
   {
    "word": "manger.",
-   "start": 50.755,
-   "end": 51.092
+   "start": 48.557,
+   "end": 48.894
   },
   {
    "word": "Et",
-   "start": 51.622,
-   "end": 51.686
+   "start": 49.424,
+   "end": 49.488
   },
   {
    "word": "surtout,",
-   "start": 51.686,
-   "end": 52.056
+   "start": 49.488,
+   "end": 49.858
   },
   {
    "word": "sois",
-   "start": 52.409,
-   "end": 52.602
+   "start": 50.291,
+   "end": 50.484
   },
   {
-   "word": "régulier!",
-   "start": 52.602,
-   "end": 53.02
+   "word": "régulier.",
+   "start": 50.484,
+   "end": 50.901
   },
   {
    "word": "Retiens",
-   "start": 53.775,
-   "end": 54.016
+   "start": 51.496,
+   "end": 51.77
   },
   {
    "word": "bien",
-   "start": 54.016,
-   "end": 54.177
+   "start": 51.77,
+   "end": 51.98
   },
   {
    "word": "ça:",
-   "start": 54.177,
-   "end": 54.386
+   "start": 51.98,
+   "end": 52.109
   },
   {
    "word": "ton",
-   "start": 54.82,
-   "end": 54.98
+   "start": 52.626,
+   "end": 52.787
   },
   {
    "word": "corps",
-   "start": 55.061,
-   "end": 55.253
+   "start": 52.787,
+   "end": 52.997
   },
   {
    "word": "ne",
-   "start": 55.253,
-   "end": 55.382
+   "start": 53.029,
+   "end": 53.191
   },
   {
    "word": "compte",
-   "start": 55.382,
-   "end": 55.623
+   "start": 53.191,
+   "end": 53.368
   },
   {
    "word": "pas",
-   "start": 55.623,
-   "end": 55.784
+   "start": 53.433,
+   "end": 53.546
   },
   {
    "word": "les",
-   "start": 55.784,
-   "end": 55.864
+   "start": 53.546,
+   "end": 53.675
   },
   {
    "word": "chiffres,",
-   "start": 55.864,
-   "end": 56.201
+   "start": 53.675,
+   "end": 53.966
   },
   {
    "word": "il",
-   "start": 56.523,
-   "end": 56.587
+   "start": 54.256,
+   "end": 54.337
   },
   {
    "word": "récompense",
-   "start": 56.587,
-   "end": 57.149
+   "start": 54.337,
+   "end": 54.966
   },
   {
    "word": "tes",
-   "start": 57.149,
-   "end": 57.326
+   "start": 54.966,
+   "end": 55.144
   },
   {
    "word": "efforts!",
-   "start": 57.326,
-   "end": 57.631
+   "start": 55.144,
+   "end": 55.418
   },
   {
    "word": "Alors,",
-   "start": 58.371,
-   "end": 58.58
+   "start": 56.113,
+   "end": 56.387
   },
   {
    "word": "partage",
-   "start": 58.997,
-   "end": 59.335
+   "start": 56.823,
+   "end": 57.114
   },
   {
    "word": "cette",
-   "start": 59.351,
-   "end": 59.56
+   "start": 57.146,
+   "end": 57.34
   },
   {
    "word": "vidéo",
-   "start": 59.56,
-   "end": 59.897
+   "start": 57.34,
+   "end": 57.711
   },
   {
    "word": "avec",
-   "start": 59.897,
-   "end": 60.122
+   "start": 57.727,
+   "end": 57.888
   },
   {
    "word": "quelqu'un",
-   "start": 60.122,
-   "end": 60.524
+   "start": 57.953,
+   "end": 58.276
   },
   {
    "word": "qui",
-   "start": 60.524,
-   "end": 60.684
+   "start": 58.308,
+   "end": 58.437
   },
   {
    "word": "se",
-   "start": 60.684,
-   "end": 60.845
+   "start": 58.437,
+   "end": 58.599
   },
   {
    "word": "force",
-   "start": 60.845,
-   "end": 61.102
+   "start": 58.599,
+   "end": 58.857
   },
   {
    "word": "à",
-   "start": 61.102,
-   "end": 61.166
+   "start": 58.857,
+   "end": 58.922
   },
   {
    "word": "faire",
-   "start": 61.166,
-   "end": 61.391
+   "start": 58.922,
+   "end": 59.067
   },
   {
    "word": "10",
-   "start": 61.408,
-   "end": 61.456
+   "start": 59.164,
+   "end": 59.244
   },
   {
    "word": "000",
-   "start": 61.456,
-   "end": 61.649
+   "start": 59.244,
+   "end": 59.487
   },
   {
    "word": "pas",
-   "start": 61.649,
-   "end": 61.809
+   "start": 59.487,
+   "end": 59.567
   },
   {
    "word": "chaque",
-   "start": 61.809,
-   "end": 62.05
+   "start": 59.6,
+   "end": 59.81
   },
   {
    "word": "jour.",
-   "start": 62.05,
-   "end": 62.098
+   "start": 59.81,
+   "end": 59.939
   },
   {
    "word": "Et",
-   "start": 62.709,
-   "end": 62.773
+   "start": 60.471,
+   "end": 60.536
   },
   {
    "word": "prends",
-   "start": 62.773,
-   "end": 62.934
+   "start": 60.536,
+   "end": 60.778
   },
   {
    "word": "soin",
-   "start": 62.934,
-   "end": 63.175
+   "start": 60.778,
+   "end": 60.94
   },
   {
    "word": "de",
-   "start": 63.175,
-   "end": 63.255
+   "start": 60.94,
+   "end": 61.101
   },
   {
    "word": "toi",
-   "start": 63.255,
-   "end": 63.432
+   "start": 61.101,
+   "end": 61.279
   },
   {
    "word": "avec",
-   "start": 63.432,
-   "end": 63.673
+   "start": 61.279,
+   "end": 61.472
   },
   {
    "word": "Calibody.com.",
-   "start": 63.705,
-   "end": 64.589
+   "start": 61.472,
+   "end": 62.36
   },
   {
    "word": "On",
-   "start": 64.878,
-   "end": 64.943
+   "start": 62.731,
+   "end": 62.812
   },
   {
    "word": "est",
-   "start": 64.959,
-   "end": 65.039
+   "start": 62.812,
+   "end": 62.893
   },
   {
    "word": "ensemble!",
-   "start": 65.039,
-   "end": 65.473
+   "start": 62.893,
+   "end": 63.329
   }
  ],
- "text": "Si tu fais 10 000 pas par jour parce qu'on t'a dit que c'était indispensable pour être en bonne santé, j'ai une surprise pour toi. Tu sais d'où vient ce chiffre? Du Japon, en 1965. Une entreprise a commercialisé un podomètre appelé Manpo-kei, qui signifie littéralement compteur de 10 000 pas. C'était avant tout une campagne marketing, pas une recommandation médicale. Mais attention, Ça ne veut pas dire que marcher ne sert à rien, bien au contraire. Une grande étude publiée en 2025, portant sur 57 études, montre que 7000 pas par jour sont déjà associés à des bénéfices importants pour la santé. Et les bénéfices commencent même avant. Alors, voici mon conseil: si tu fais 2000 pas aujourd'hui, ne cherche pas à en faire 10000 demain. Augmente progressivement. Marche davantage, prends les escaliers, sors après manger. Et surtout, sois régulier! Retiens bien ça: ton corps ne compte pas les chiffres, il récompense tes efforts! Alors, partage cette vidéo avec quelqu'un qui se force à faire 10 000 pas chaque jour. Et prends soin de toi avec Calibody.com. On est ensemble!"
+ "text": "Si tu fais 10 000 pas par jour parce qu'on t'a dit que c'était indispensable pour être en bonne santé, j'ai une surprise pour toi. Tu sais d'où vient ce chiffre? Du Japon, en 1965. Une entreprise a commercialisé un podomètre appelé Manpo-kei, qui signifie littéralement compteur de 10 000 pas. C'était avant tout une campagne marketing, pas une recommandation médicale. Mais attention, ça ne veut pas dire que marcher ne sert à rien! Bien au contraire. Une grande étude publiée en 2025, portant sur 57 études, montre que 7000 pas par jour sont déjà associés à des bénéfices importants pour la santé. Et les bénéfices commencent même avant. Alors, voici mon conseil: si tu fais 2000 pas aujourd'hui, ne cherche pas à en faire 10000 demain. Augmente progressivement. Marche davantage, prends les escaliers, sors après manger. Et surtout, sois régulier. Retiens bien ça: ton corps ne compte pas les chiffres, il récompense tes efforts! Alors, partage cette vidéo avec quelqu'un qui se force à faire 10 000 pas chaque jour. Et prends soin de toi avec Calibody.com. On est ensemble!"
 }
