@@ -1,77 +1,77 @@
 {
- "duration": 66.132,
+ "duration": 65.014,
  "segments": [
   {
    "id": "s01",
    "text": "Si tu fais 10 000 pas par jour parce qu'on t'a dit que c'était indispensable pour être en bonne santé, j'ai une surprise pour toi !",
    "start": 0.15,
-   "end": 6.727
+   "end": 6.573
   },
   {
    "id": "s02",
    "text": "Tu sais d'où vient ce chiffre ? Du Japon, en 1965 !",
-   "start": 7.227,
-   "end": 11.023
+   "start": 7.073,
+   "end": 10.869
   },
   {
    "id": "s03",
    "text": "Une entreprise a commercialisé un podomètre appelé Manpo-kei, qui signifie littéralement compteur de 10 000 pas.",
-   "start": 11.423,
-   "end": 19.378
+   "start": 11.269,
+   "end": 17.881
   },
   {
    "id": "s04",
    "text": "C'était avant tout une campagne marketing ! Pas une recommandation médicale.",
-   "start": 19.778,
-   "end": 24.312
+   "start": 18.281,
+   "end": 23.194
   },
   {
    "id": "s05",
    "text": "Mais attention, ça ne veut pas dire que marcher ne sert à rien ! Bien au contraire.",
-   "start": 24.812,
-   "end": 29.144
+   "start": 23.694,
+   "end": 28.026
   },
   {
    "id": "s06",
    "text": "Une grande étude publiée en 2025, portant sur 57 études, montre que 7 000 pas par jour sont déjà associés à des bénéfices importants pour la santé.",
-   "start": 29.594,
-   "end": 38.414
+   "start": 28.476,
+   "end": 37.296
   },
   {
    "id": "s07",
    "text": "Et les bénéfices commencent même avant !",
-   "start": 38.814,
-   "end": 40.456
+   "start": 37.696,
+   "end": 39.338
   },
   {
    "id": "s08",
    "text": "Alors, voici mon conseil : si tu fais 2 000 pas aujourd'hui, ne cherche pas à en faire 10 000 demain.",
-   "start": 40.956,
-   "end": 46.285
+   "start": 39.838,
+   "end": 45.167
   },
   {
    "id": "s09",
    "text": "Augmente progressivement. Marche davantage, prends les escaliers, sors après manger. Et surtout, sois régulier !",
-   "start": 46.685,
-   "end": 53.175
+   "start": 45.567,
+   "end": 52.057
   },
   {
    "id": "s10",
    "text": "Retiens bien ça : ton corps ne compte pas les chiffres, il récompense tes efforts !",
-   "start": 53.675,
-   "end": 57.814
+   "start": 52.557,
+   "end": 56.695
   },
   {
    "id": "s11",
    "text": "Alors, partage cette vidéo avec quelqu'un qui se force à faire 10 000 pas chaque jour.",
-   "start": 58.264,
-   "end": 62.234
+   "start": 57.145,
+   "end": 61.116
   },
   {
    "id": "s12",
    "text": "Et prends soin de toi avec CaliBodi.com. On est ensemble !",
-   "start": 62.584,
-   "end": 65.532
+   "start": 61.466,
+   "end": 64.414
   }
  ]
 }

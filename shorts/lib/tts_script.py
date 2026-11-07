@@ -43,6 +43,9 @@ def spoken(text):
         if v["mode"] == "respell":
             text = re.sub(re.escape(k), v["value"], text, flags=re.I)
     text = re.sub(r"\b(?:[cdjlmnstCDJLMNST]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)'(?!argent)(?=[a-zàâäéèêëîïôöùûüœ])[\wàâäéèêëîïôöùûüœ]*", _glue2, text)
+    for k, v in VAL.items():                                   # typo mode: typographic apostrophe validated by ear
+        if v["mode"] == "typo":
+            text = re.sub(re.escape(k), lambda m: m.group(0).replace("'", "\u2019"), text, flags=re.I)
     return " ".join(text.split())
 
 
@@ -50,7 +53,7 @@ def _glue2(m):
     w = m.group(0)
     v = VAL.get(w.lower())
     if v:
-        return w if v["mode"] in ("raw", "ipa") else (w.replace("'", "", 1) if v["mode"] == "glue" else w)
+        return w if v["mode"] in ("raw", "ipa", "typo") else (w.replace("'", "", 1) if v["mode"] == "glue" else w)
     if w.lower() in LOW or w in PRON:
         return w
     return w.replace("'", "", 1)

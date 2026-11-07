@@ -55,6 +55,13 @@
   "t'a": {
    "mode": "ipa",
    "value": "ta"
+  },
+  "c'était": {
+   "mode": "typo"
+  },
+  "manpo-kéi": {
+   "mode": "ipa",
+   "value": "mɑ̃pokei"
   }
  }
 }

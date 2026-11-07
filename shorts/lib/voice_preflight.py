@@ -14,7 +14,7 @@ reg = json.load(open(REG))
 if "--set" in sys.argv:
     k, v = sys.argv[sys.argv.index("--set") + 1].split("=", 1)
     mode, _, val = v.partition(":")
-    assert mode in ("raw", "glue", "ipa", "respell"), mode
+    assert mode in ("raw", "glue", "ipa", "respell", "typo"), mode
     reg["tokens"][k.lower()] = {"mode": mode, **({"value": val} if val else {})}
     json.dump(reg, open(REG, "w"), ensure_ascii=False, indent=1)
     print("enregistré :", k.lower(), reg["tokens"][k.lower()])
