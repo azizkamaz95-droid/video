@@ -12,17 +12,17 @@
   {
    "type": "myth",
    "start": 0.0,
-   "end": 4.92
+   "end": 4.84
   },
   {
    "type": "body",
-   "start": 4.92,
-   "end": 61.08
+   "start": 4.84,
+   "end": 60.05
   },
   {
    "type": "outro",
-   "start": 61.08,
-   "end": 65.7
+   "start": 60.05,
+   "end": 64.59
   }
  ],
  "sfx": [],
