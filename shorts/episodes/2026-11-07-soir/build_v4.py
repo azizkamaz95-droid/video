@@ -18,27 +18,27 @@ FULL = round(words["duration"] + 0.7, 2)
 D = float(sys.argv[1]) if len(sys.argv) > 1 else FULL
 WORDS = [w for w in words["words"] if w["start"] < D - 0.05]
 FONTS = open(os.path.join(EP, "assets/style/fonts-inline.css")).read().strip()
-YEL, DARK = "#FF6B35", "#141414"
+YEL, DARK = "#9B6BFF", "#141414"
 
 # shots: (id, clip, start, end, transition into the shot, accent html, accent css, accent js)
 X = 0.06  # overlap kept on each side of a cut so the transition has two pictures to work with
 SHOTS = [
     ("s1", "scroll", 0.00, 2.05, None,
      '<div class="big" id="s1-x">X</div>',
-     "#s1-x { left: 0; width: 1080px; top: 300px; text-align: center; font-size: 780px; color: #FF6B35; opacity: .92; text-shadow: 0 30px 80px rgba(0,0,0,.65); }",
+     "#s1-x { left: 0; width: 1080px; top: 300px; text-align: center; font-size: 780px; color: #9B6BFF; opacity: .92; text-shadow: 0 30px 80px rgba(0,0,0,.65); }",
      'tl.fromTo("#s1-x",{scale:2.4,opacity:0,rotation:-8},{scale:1,opacity:.92,rotation:0,duration:.22,ease:"power4.out"},at(0.75));'
      'tl.fromTo("#s1-x",{scale:1},{scale:1.08,duration:.8,ease:"none",immediateRender:false},at(0.97));'
      'tl.fromTo("#s1-x",{opacity:.92,filter:"blur(0px)"},{opacity:0,filter:"blur(16px)",duration:.25,ease:"power2.in",immediateRender:false},at(1.55));'),
     ("s2", "chambre", 2.05, 5.05, "whip",
      '<div class="big" id="s2-n">3</div><div class="tag" id="s2-t">FAITS</div>',
-     "#s2-n { left: 0; width: 1080px; top: 170px; text-align: center; font-size: 560px; color: #FF6B35; text-shadow: 0 20px 60px rgba(0,0,0,.6); }"
+     "#s2-n { left: 0; width: 1080px; top: 170px; text-align: center; font-size: 560px; color: #9B6BFF; text-shadow: 0 20px 60px rgba(0,0,0,.6); }"
      "#s2-t { left: 0; width: 1080px; top: 720px; text-align: center; font-size: 96px; letter-spacing: .3em; color: #fff; }",
      'tl.fromTo("#s2-n",{scale:3,opacity:0},{scale:1,opacity:1,duration:.25,ease:"power4.out"},at(2.90));'
      'tl.fromTo("#s2-t",{y:60,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(3.14));'
      'tl.fromTo(["#s2-n","#s2-t"],{opacity:1},{opacity:.0,duration:.3,ease:"none",immediateRender:false},at(4.4));'),
     ("s3", "silhouette", 5.05, 8.55, "zoom",
      '<div class="big" id="s3-q">?</div><div class="tag" id="s3-l">N°3</div>',
-     "#s3-q { left: 560px; top: 180px; font-size: 520px; color: #FF6B35; text-shadow: 0 20px 60px rgba(0,0,0,.6); }"
+     "#s3-q { left: 560px; top: 180px; font-size: 520px; color: #9B6BFF; text-shadow: 0 20px 60px rgba(0,0,0,.6); }"
      "#s3-l { left: 120px; top: 360px; font-size: 150px; color: #fff; }",
      'tl.fromTo("#s3-l",{x:-200,opacity:0},{x:0,opacity:1,duration:.3,ease:"power3.out"},at(5.31));'
      'tl.fromTo("#s3-q",{scale:0,rotation:-40},{scale:1,rotation:8,duration:.4,ease:"back.out(2.4)"},at(6.11));'
@@ -131,7 +131,7 @@ def sub(cid, dur, style, body, js):
 
 BASE_CSS = """        .big, .tag, .lab { position: absolute; font-family: "Montserrat", sans-serif; font-weight: 900; letter-spacing: -.04em; line-height: .9; white-space: nowrap; }
         .tag { text-shadow: 0 8px 30px rgba(0,0,0,.7); }
-        .lab { display: inline-block; padding: .06em .22em .1em; border-radius: .1em; background: #FF6B35; color: #141414; box-shadow: 0 18px 40px rgba(0,0,0,.45); }
+        .lab { display: inline-block; padding: .06em .22em .1em; border-radius: .1em; background: #9B6BFF; color: #141414; box-shadow: 0 18px 40px rgba(0,0,0,.45); }
         .shot { position: absolute; inset: 0; overflow: hidden; background: #000; }
         .kb { position: absolute; inset: 0; }
         .kb video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
@@ -231,7 +231,7 @@ def build_hud():
     notches = "".join(f'<i style="left:{c / FULL * 100:.2f}%"></i>' for c in CHAPTERS[1:])
     body = f'        <div id="pb"><div id="pb-fill"></div>{notches}</div>'
     style = """        #pb { position: absolute; left: 40px; right: 40px; top: 46px; height: 10px; border-radius: 5px; background: rgba(255,255,255,.28); overflow: hidden; }
-        #pb-fill { position: absolute; inset: 0; background: #FF6B35; transform-origin: 0% 50%; }
+        #pb-fill { position: absolute; inset: 0; background: #9B6BFF; transform-origin: 0% 50%; }
         #pb i { position: absolute; top: 0; width: 6px; height: 10px; background: rgba(20,20,20,.7); }"""
     js = [f'tl.fromTo("#pb-fill",{{scaleX:0}},{{scaleX:{r(D / FULL)},duration:{r(D)},ease:"none"}},0);']
     return sub("hud", D, style, body, "\n".join("            " + j for j in js))

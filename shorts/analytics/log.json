@@ -1,5 +1,16 @@
 [
  {
+  "episode": "2026-11-07-soir",
+  "sujet": "Manger après 20 h",
+  "formule": "tu-fais-faux",
+  "energie": 3,
+  "musique": "motivation-quotidienne",
+  "voix": "Iapetus",
+  "duree_s": 60,
+  "outro_s": 3.5,
+  "demande_unique": "envoi"
+ },
+ {
   "episode": "2026-11-06-eau",
   "sujet": "Combien de litres d'eau par jour",
   "formule": "chiffre-faux",
