@@ -1,0 +1,781 @@
+{
+ "duration": 59.447,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.288
+  },
+  {
+   "word": "ne",
+   "start": 0.288,
+   "end": 0.417
+  },
+  {
+   "word": "manges",
+   "start": 0.417,
+   "end": 0.61
+  },
+  {
+   "word": "plus",
+   "start": 0.658,
+   "end": 0.834
+  },
+  {
+   "word": "après",
+   "start": 0.834,
+   "end": 1.059
+  },
+  {
+   "word": "20",
+   "start": 1.059,
+   "end": 1.22
+  },
+  {
+   "word": "heures",
+   "start": 1.396,
+   "end": 1.46
+  },
+  {
+   "word": "pour",
+   "start": 1.46,
+   "end": 1.621
+  },
+  {
+   "word": "maigrir,",
+   "start": 1.621,
+   "end": 1.99
+  },
+  {
+   "word": "ça",
+   "start": 2.504,
+   "end": 2.616
+  },
+  {
+   "word": "ne",
+   "start": 2.616,
+   "end": 2.745
+  },
+  {
+   "word": "fait",
+   "start": 2.745,
+   "end": 2.825
+  },
+  {
+   "word": "pas",
+   "start": 2.905,
+   "end": 2.986
+  },
+  {
+   "word": "maigrir",
+   "start": 3.018,
+   "end": 3.387
+  },
+  {
+   "word": "plus.",
+   "start": 3.387,
+   "end": 3.547
+  },
+  {
+   "word": "J'ai",
+   "start": 4.27,
+   "end": 4.35
+  },
+  {
+   "word": "3",
+   "start": 4.35,
+   "end": 4.511
+  },
+  {
+   "word": "preuves,",
+   "start": 4.511,
+   "end": 4.8
+  },
+  {
+   "word": "la",
+   "start": 5.394,
+   "end": 5.474
+  },
+  {
+   "word": "dernière",
+   "start": 5.474,
+   "end": 5.875
+  },
+  {
+   "word": "va",
+   "start": 5.875,
+   "end": 5.956
+  },
+  {
+   "word": "te",
+   "start": 5.956,
+   "end": 6.116
+  },
+  {
+   "word": "surprendre.",
+   "start": 6.116,
+   "end": 6.566
+  },
+  {
+   "word": "Première",
+   "start": 7.24,
+   "end": 7.545
+  },
+  {
+   "word": "preuve:",
+   "start": 7.561,
+   "end": 7.85
+  },
+  {
+   "word": "139",
+   "start": 8.444,
+   "end": 9.022
+  },
+  {
+   "word": "adultes",
+   "start": 9.022,
+   "end": 9.343
+  },
+  {
+   "word": "en",
+   "start": 9.343,
+   "end": 9.504
+  },
+  {
+   "word": "obésité",
+   "start": 9.504,
+   "end": 10.049
+  },
+  {
+   "word": "suivis",
+   "start": 10.21,
+   "end": 10.531
+  },
+  {
+   "word": "pendant",
+   "start": 10.531,
+   "end": 10.852
+  },
+  {
+   "word": "12",
+   "start": 10.852,
+   "end": 11.077
+  },
+  {
+   "word": "mois,",
+   "start": 11.093,
+   "end": 11.221
+  },
+  {
+   "word": "même",
+   "start": 11.735,
+   "end": 11.88
+  },
+  {
+   "word": "limite",
+   "start": 11.976,
+   "end": 12.297
+  },
+  {
+   "word": "de",
+   "start": 12.297,
+   "end": 12.457
+  },
+  {
+   "word": "calories",
+   "start": 12.457,
+   "end": 12.859
+  },
+  {
+   "word": "pour",
+   "start": 12.859,
+   "end": 13.019
+  },
+  {
+   "word": "tous.",
+   "start": 13.019,
+   "end": 13.228
+  },
+  {
+   "word": "Un",
+   "start": 13.918,
+   "end": 13.983
+  },
+  {
+   "word": "groupe",
+   "start": 13.983,
+   "end": 14.239
+  },
+  {
+   "word": "ne",
+   "start": 14.239,
+   "end": 14.336
+  },
+  {
+   "word": "mangeait",
+   "start": 14.336,
+   "end": 14.609
+  },
+  {
+   "word": "que",
+   "start": 14.609,
+   "end": 14.705
+  },
+  {
+   "word": "de",
+   "start": 14.737,
+   "end": 14.882
+  },
+  {
+   "word": "8",
+   "start": 14.882,
+   "end": 15.122
+  },
+  {
+   "word": "heures",
+   "start": 15.122,
+   "end": 15.283
+  },
+  {
+   "word": "à",
+   "start": 15.283,
+   "end": 15.347
+  },
+  {
+   "word": "16",
+   "start": 15.347,
+   "end": 15.604
+  },
+  {
+   "word": "heures.",
+   "start": 15.604,
+   "end": 15.716
+  },
+  {
+   "word": "Résultat:",
+   "start": 16.31,
+   "end": 16.76
+  },
+  {
+   "word": "la",
+   "start": 17.354,
+   "end": 17.514
+  },
+  {
+   "word": "différence",
+   "start": 17.514,
+   "end": 17.916
+  },
+  {
+   "word": "de",
+   "start": 17.916,
+   "end": 18.076
+  },
+  {
+   "word": "poids",
+   "start": 18.076,
+   "end": 18.269
+  },
+  {
+   "word": "n'est",
+   "start": 18.269,
+   "end": 18.397
+  },
+  {
+   "word": "pas",
+   "start": 18.397,
+   "end": 18.558
+  },
+  {
+   "word": "significative.",
+   "start": 18.558,
+   "end": 19.168
+  },
+  {
+   "word": "Deuxième",
+   "start": 20.003,
+   "end": 20.276
+  },
+  {
+   "word": "preuve:",
+   "start": 20.324,
+   "end": 20.581
+  },
+  {
+   "word": "116",
+   "start": 21.207,
+   "end": 21.544
+  },
+  {
+   "word": "adultes",
+   "start": 21.544,
+   "end": 21.865
+  },
+  {
+   "word": "en",
+   "start": 21.865,
+   "end": 21.929
+  },
+  {
+   "word": "surpoids",
+   "start": 21.929,
+   "end": 22.411
+  },
+  {
+   "word": "pendant",
+   "start": 22.491,
+   "end": 22.732
+  },
+  {
+   "word": "12",
+   "start": 22.732,
+   "end": 22.877
+  },
+  {
+   "word": "semaines.",
+   "start": 22.893,
+   "end": 23.182
+  },
+  {
+   "word": "Un",
+   "start": 23.872,
+   "end": 23.936
+  },
+  {
+   "word": "groupe",
+   "start": 23.968,
+   "end": 24.193
+  },
+  {
+   "word": "mangeait",
+   "start": 24.257,
+   "end": 24.53
+  },
+  {
+   "word": "seulement",
+   "start": 24.53,
+   "end": 24.931
+  },
+  {
+   "word": "de",
+   "start": 24.931,
+   "end": 25.06
+  },
+  {
+   "word": "midi",
+   "start": 25.06,
+   "end": 25.397
+  },
+  {
+   "word": "à",
+   "start": 25.397,
+   "end": 25.461
+  },
+  {
+   "word": "20",
+   "start": 25.461,
+   "end": 25.654
+  },
+  {
+   "word": "heures,",
+   "start": 25.718,
+   "end": 25.911
+  },
+  {
+   "word": "l'autre",
+   "start": 26.136,
+   "end": 26.553
+  },
+  {
+   "word": "3",
+   "start": 26.746,
+   "end": 26.938
+  },
+  {
+   "word": "repas",
+   "start": 26.938,
+   "end": 27.226
+  },
+  {
+   "word": "par",
+   "start": 27.226,
+   "end": 27.387
+  },
+  {
+   "word": "jour.",
+   "start": 27.387,
+   "end": 27.595
+  },
+  {
+   "word": "Même",
+   "start": 28.188,
+   "end": 28.349
+  },
+  {
+   "word": "conclusion:",
+   "start": 28.349,
+   "end": 28.797
+  },
+  {
+   "word": "pas",
+   "start": 29.391,
+   "end": 29.551
+  },
+  {
+   "word": "de",
+   "start": 29.551,
+   "end": 29.631
+  },
+  {
+   "word": "différence",
+   "start": 29.631,
+   "end": 30.064
+  },
+  {
+   "word": "significative.",
+   "start": 30.064,
+   "end": 30.801
+  },
+  {
+   "word": "Troisième",
+   "start": 31.555,
+   "end": 31.891
+  },
+  {
+   "word": "preuve:",
+   "start": 31.955,
+   "end": 32.244
+  },
+  {
+   "word": "16",
+   "start": 32.597,
+   "end": 32.853
+  },
+  {
+   "word": "adultes",
+   "start": 32.853,
+   "end": 33.334
+  },
+  {
+   "word": "en",
+   "start": 33.655,
+   "end": 33.671
+  },
+  {
+   "word": "laboratoire.",
+   "start": 33.671,
+   "end": 34.248
+  },
+  {
+   "word": "Mêmes",
+   "start": 34.921,
+   "end": 35.161
+  },
+  {
+   "word": "calories,",
+   "start": 35.161,
+   "end": 35.45
+  },
+  {
+   "word": "même",
+   "start": 35.963,
+   "end": 36.203
+  },
+  {
+   "word": "sommeil,",
+   "start": 36.203,
+   "end": 36.556
+  },
+  {
+   "word": "même",
+   "start": 37.165,
+   "end": 37.31
+  },
+  {
+   "word": "activité.",
+   "start": 37.342,
+   "end": 37.855
+  },
+  {
+   "word": "Quand",
+   "start": 38.448,
+   "end": 38.656
+  },
+  {
+   "word": "ils",
+   "start": 38.704,
+   "end": 38.768
+  },
+  {
+   "word": "mangeaient",
+   "start": 38.768,
+   "end": 39.009
+  },
+  {
+   "word": "tard,",
+   "start": 39.089,
+   "end": 39.217
+  },
+  {
+   "word": "la",
+   "start": 39.89,
+   "end": 40.051
+  },
+  {
+   "word": "faim",
+   "start": 40.051,
+   "end": 40.163
+  },
+  {
+   "word": "montait",
+   "start": 40.163,
+   "end": 40.452
+  },
+  {
+   "word": "et",
+   "start": 41.109,
+   "end": 41.189
+  },
+  {
+   "word": "ils",
+   "start": 41.189,
+   "end": 41.253
+  },
+  {
+   "word": "brûlaient",
+   "start": 41.253,
+   "end": 41.526
+  },
+  {
+   "word": "moins",
+   "start": 41.526,
+   "end": 41.702
+  },
+  {
+   "word": "de",
+   "start": 41.702,
+   "end": 41.814
+  },
+  {
+   "word": "calories.",
+   "start": 41.814,
+   "end": 42.183
+  },
+  {
+   "word": "Petite",
+   "start": 42.776,
+   "end": 43.032
+  },
+  {
+   "word": "étude,",
+   "start": 43.032,
+   "end": 43.305
+  },
+  {
+   "word": "seulement",
+   "start": 43.898,
+   "end": 44.219
+  },
+  {
+   "word": "16",
+   "start": 44.459,
+   "end": 44.684
+  },
+  {
+   "word": "personnes.",
+   "start": 44.7,
+   "end": 45.052
+  },
+  {
+   "word": "Donc",
+   "start": 45.822,
+   "end": 46.094
+  },
+  {
+   "word": "l'heure",
+   "start": 46.094,
+   "end": 46.271
+  },
+  {
+   "word": "ne",
+   "start": 46.303,
+   "end": 46.463
+  },
+  {
+   "word": "décide",
+   "start": 46.463,
+   "end": 46.784
+  },
+  {
+   "word": "pas",
+   "start": 46.784,
+   "end": 47.024
+  },
+  {
+   "word": "le",
+   "start": 47.425,
+   "end": 47.505
+  },
+  {
+   "word": "total",
+   "start": 47.505,
+   "end": 47.761
+  },
+  {
+   "word": "de",
+   "start": 47.761,
+   "end": 47.906
+  },
+  {
+   "word": "ta",
+   "start": 47.906,
+   "end": 48.066
+  },
+  {
+   "word": "journée,",
+   "start": 48.066,
+   "end": 48.306
+  },
+  {
+   "word": "oui,",
+   "start": 48.643,
+   "end": 48.755
+  },
+  {
+   "word": "mais",
+   "start": 49.429,
+   "end": 49.509
+  },
+  {
+   "word": "le",
+   "start": 49.509,
+   "end": 49.589
+  },
+  {
+   "word": "soir,",
+   "start": 49.589,
+   "end": 50.006
+  },
+  {
+   "word": "la",
+   "start": 50.23,
+   "end": 50.39
+  },
+  {
+   "word": "faim",
+   "start": 50.39,
+   "end": 50.551
+  },
+  {
+   "word": "peut",
+   "start": 50.551,
+   "end": 50.663
+  },
+  {
+   "word": "monter.",
+   "start": 50.663,
+   "end": 51.0
+  },
+  {
+   "word": "Fais",
+   "start": 51.593,
+   "end": 51.721
+  },
+  {
+   "word": "attention",
+   "start": 51.721,
+   "end": 52.17
+  },
+  {
+   "word": "au",
+   "start": 52.17,
+   "end": 52.234
+  },
+  {
+   "word": "grignotage.",
+   "start": 52.234,
+   "end": 52.763
+  },
+  {
+   "word": "Envoie",
+   "start": 53.458,
+   "end": 53.685
+  },
+  {
+   "word": "cette",
+   "start": 53.685,
+   "end": 53.848
+  },
+  {
+   "word": "vidéo",
+   "start": 53.848,
+   "end": 54.141
+  },
+  {
+   "word": "à",
+   "start": 54.271,
+   "end": 54.32
+  },
+  {
+   "word": "quelqu'un",
+   "start": 54.32,
+   "end": 54.743
+  },
+  {
+   "word": "qui",
+   "start": 54.743,
+   "end": 54.857
+  },
+  {
+   "word": "ne",
+   "start": 54.857,
+   "end": 54.987
+  },
+  {
+   "word": "mange",
+   "start": 54.987,
+   "end": 55.183
+  },
+  {
+   "word": "plus",
+   "start": 55.232,
+   "end": 55.411
+  },
+  {
+   "word": "après",
+   "start": 55.411,
+   "end": 55.638
+  },
+  {
+   "word": "20",
+   "start": 55.638,
+   "end": 55.899
+  },
+  {
+   "word": "heures.",
+   "start": 55.899,
+   "end": 55.931
+  },
+  {
+   "word": "Retrouve",
+   "start": 56.647,
+   "end": 56.989
+  },
+  {
+   "word": "CaliBodi",
+   "start": 56.989,
+   "end": 57.575
+  },
+  {
+   "word": "sur",
+   "start": 57.673,
+   "end": 57.803
+  },
+  {
+   "word": "calibody.com.",
+   "start": 57.803,
+   "end": 58.779
+  }
+ ],
+ "text": "Tu ne manges plus après 20 heures pour maigrir, ça ne fait pas maigrir plus. J'ai 3 preuves, la dernière va te surprendre. Première preuve: 139 adultes en obésité suivis pendant 12 mois, même limite de calories pour tous. Un groupe ne mangeait que de 8 heures à 16 heures. Résultat: la différence de poids n'est pas significative. Deuxième preuve: 116 adultes en surpoids pendant 12 semaines. Un groupe mangeait seulement de midi à 20 heures, l'autre 3 repas par jour. Même conclusion: pas de différence significative. Troisième preuve: 16 adultes en laboratoire. Mêmes calories, même sommeil, même activité. Quand ils mangeaient tard, la faim montait et ils brûlaient moins de calories. Petite étude, seulement 16 personnes. Donc l'heure ne décide pas le total de ta journée, oui, mais le soir, la faim peut monter. Fais attention au grignotage. Envoie cette vidéo à quelqu'un qui ne mange plus après 20 heures. Retrouve CaliBodi sur calibody.com."
+}

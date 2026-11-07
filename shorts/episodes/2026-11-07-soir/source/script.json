@@ -1,0 +1,105 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu ne manges plus après 20 h pour maigrir ? Ça ne fait pas maigrir plus.",
+   "pause": 0.4,
+   "say": "Tu ne manges plus après vingt heures pour maigrir ? Ça ne fait pas maigrir plus."
+  },
+  {
+   "id": "s02",
+   "text": "J'ai trois preuves. La dernière va te surprendre.",
+   "pause": 0.5,
+   "say": "J'ai trois preuves. [pause short] La dernière va te surprendre."
+  },
+  {
+   "id": "s03",
+   "text": "Première preuve : 139 adultes en obésité, suivis pendant 12 mois.",
+   "pause": 0.35,
+   "say": "Première preuve : [pause short] cent trente-neuf adultes en obésité, suivis pendant douze mois."
+  },
+  {
+   "id": "s04",
+   "text": "Même limite de calories pour tous. Un groupe ne mangeait que de 8 h à 16 h.",
+   "pause": 0.4,
+   "say": "Même limite de calories pour tous. Un groupe ne mangeait que de huit heures à seize heures."
+  },
+  {
+   "id": "s05",
+   "text": "Résultat : la différence de poids n'est pas significative.",
+   "pause": 0.5
+  },
+  {
+   "id": "s06",
+   "text": "Deuxième preuve : 116 adultes en surpoids, pendant 12 semaines.",
+   "pause": 0.35,
+   "say": "Deuxième preuve : [pause short] cent seize adultes en surpoids, pendant douze semaines."
+  },
+  {
+   "id": "s07",
+   "text": "Un groupe mangeait seulement de midi à 20 h. L'autre, trois repas par jour.",
+   "pause": 0.4,
+   "say": "Un groupe mangeait seulement de midi à vingt heures. L'autre, trois repas par jour."
+  },
+  {
+   "id": "s08",
+   "text": "Même conclusion : pas de différence significative.",
+   "pause": 0.5
+  },
+  {
+   "id": "s09",
+   "text": "Troisième preuve : 16 adultes, en laboratoire.",
+   "pause": 0.4,
+   "say": "Troisième preuve : [pause short] seize adultes, en laboratoire."
+  },
+  {
+   "id": "s10",
+   "text": "Mêmes calories, même sommeil, même activité.",
+   "pause": 0.4
+  },
+  {
+   "id": "s11",
+   "text": "Quand ils mangeaient tard, la faim montait.",
+   "pause": 0.4,
+   "say": "Quand ils mangeaient tard, [pause short] la faim montait."
+  },
+  {
+   "id": "s12",
+   "text": "Et ils brûlaient moins de calories.",
+   "pause": 0.4
+  },
+  {
+   "id": "s13",
+   "text": "Petite étude : seulement 16 personnes.",
+   "pause": 0.5,
+   "say": "Petite étude : seulement seize personnes."
+  },
+  {
+   "id": "s14",
+   "text": "Donc l'heure ne décide pas. Le total de ta journée, oui.",
+   "pause": 0.45,
+   "say": "Donc l'heure ne décide pas. [pause short] Le total de ta journée, oui."
+  },
+  {
+   "id": "s15",
+   "text": "Mais le soir, la faim peut monter. Fais attention aux grignotages.",
+   "pause": 0.45
+  },
+  {
+   "id": "s16",
+   "text": "Envoie cette vidéo à quelqu'un qui ne mange plus après 20 h !",
+   "pause": 0.35,
+   "say": "Envoie cette vidéo à quelqu'un qui ne mange plus après vingt heures !"
+  },
+  {
+   "id": "s17",
+   "text": "Retrouve CaliBodi sur calibodi.com.",
+   "pause": 0.3,
+   "say": "Retrouve CaliBodi sur calibodi point com."
+  }
+ ]
+}
