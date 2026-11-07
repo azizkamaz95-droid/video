@@ -100,6 +100,15 @@ Le script est trop « rapporté » et pas assez travaillé quand il récite des 
 5. **Français simple, parlé**, phrases courtes, aucun jargon (« tranche », « significatif », « plafonne » sont à éviter ou à reformuler).
 6. **Fin** : reprendre l'accroche avec l'action à faire (boucle), puis une seule demande (envoi), puis CaliBodi en 3 s.
 
+### Modèle de script validé par l'utilisateur (2026-11-07, « Les 10 000 pas ») : à imiter
+Structure minutée (≈ 60 s), ton de coach enthousiaste, tutoiement :
+1. **0-5 s, accroche en « si »** : « Si tu fais X parce qu'on t'a dit que Y… j'ai une surprise pour toi ! » (la croyance du spectateur + une promesse).
+2. **5-17 s, la révélation** : une question à laquelle on répond tout de suite (« Tu sais d'où vient ce chiffre ? Du Japon, en 1965 ! »), un fait simple et vérifiable, dit avec ses mots (« c'était avant tout une campagne marketing, pas une recommandation médicale »).
+3. **17-35 s, la preuve, sans jargon** : « Mais attention, ça ne veut pas dire que… Bien au contraire. » puis UNE seule étude, énoncée simplement (« une grande étude publiée en 2025, portant sur 57 études, montre que 7 000 pas par jour sont déjà associés à des bénéfices importants »), et une ouverture (« et les bénéfices commencent même avant ! »).
+4. **35-49 s, le conseil du coach** : « voici mon conseil : si tu fais 2 000 pas aujourd'hui, ne cherche pas à en faire 10 000 demain. » Des actions concrètes (« prends les escaliers, sors après manger »), puis « et surtout, sois régulier ! ».
+5. **49-60 s, conclusion, appel, marque** : une phrase à retenir (« ton corps ne compte pas les chiffres, il récompense tes efforts ! »), une seule demande d'envoi à une personne précise, puis la marque (« prends soin de toi avec CaliBodi. On est ensemble ! »).
+Les « ! » et les phrases enthousiastes sont voulus par l'utilisateur dans ce modèle ; l'ellipse « … » de l'accroche se dit avec `[pause short]`. Quand l'utilisateur fournit un script, ne changer aucun mot : seulement l'écriture des nombres, `[pause short]` et « CaliBodi point com ».
+
 ## 4. Rétention : garder les gens jusqu'à la fin
 
 Le signal le plus fort pour TikTok, Instagram et YouTube est que la vidéo soit regardée jusqu'au bout.

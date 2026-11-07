@@ -1,0 +1,76 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Si tu fais 10 000 pas par jour parce qu'on t'a dit que c'était indispensable pour être en bonne santé, j'ai une surprise pour toi !",
+   "pause": 0.5,
+   "say": "Si tu fais dix mille pas par jour parce qu'on t'a dit que c'était indispensable pour être en bonne santé, [pause short] j'ai une surprise pour toi !"
+  },
+  {
+   "id": "s02",
+   "text": "Tu sais d'où vient ce chiffre ? Du Japon, en 1965 !",
+   "pause": 0.4,
+   "say": "Tu sais d'où vient ce chiffre ? Du Japon, en mille neuf cent soixante-cinq !"
+  },
+  {
+   "id": "s03",
+   "text": "Une entreprise a commercialisé un podomètre appelé Manpo-kei, qui signifie littéralement compteur de 10 000 pas.",
+   "pause": 0.4,
+   "say": "Une entreprise a commercialisé un podomètre appelé Manpo-kéi, qui signifie littéralement : compteur de dix mille pas."
+  },
+  {
+   "id": "s04",
+   "text": "C'était avant tout une campagne marketing ! Pas une recommandation médicale.",
+   "pause": 0.5
+  },
+  {
+   "id": "s05",
+   "text": "Mais attention, ça ne veut pas dire que marcher ne sert à rien ! Bien au contraire.",
+   "pause": 0.45
+  },
+  {
+   "id": "s06",
+   "text": "Une grande étude publiée en 2025, portant sur 57 études, montre que 7 000 pas par jour sont déjà associés à des bénéfices importants pour la santé.",
+   "pause": 0.4,
+   "say": "Une grande étude publiée en deux mille vingt-cinq, portant sur cinquante-sept études, montre que sept mille pas par jour sont déjà associés à des bénéfices importants pour la santé."
+  },
+  {
+   "id": "s07",
+   "text": "Et les bénéfices commencent même avant !",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Alors, voici mon conseil : si tu fais 2 000 pas aujourd'hui, ne cherche pas à en faire 10 000 demain.",
+   "pause": 0.4,
+   "say": "Alors, voici mon conseil : [pause short] si tu fais deux mille pas aujourd'hui, ne cherche pas à en faire dix mille demain."
+  },
+  {
+   "id": "s09",
+   "text": "Augmente progressivement. Marche davantage, prends les escaliers, sors après manger. Et surtout, sois régulier !",
+   "pause": 0.5
+  },
+  {
+   "id": "s10",
+   "text": "Retiens bien ça : ton corps ne compte pas les chiffres, il récompense tes efforts !",
+   "pause": 0.45,
+   "say": "Retiens bien ça : [pause short] ton corps ne compte pas les chiffres, il récompense tes efforts !"
+  },
+  {
+   "id": "s11",
+   "text": "Alors, partage cette vidéo avec quelqu'un qui se force à faire 10 000 pas chaque jour.",
+   "pause": 0.35,
+   "say": "Alors, partage cette vidéo avec quelqu'un qui se force à faire dix mille pas chaque jour."
+  },
+  {
+   "id": "s12",
+   "text": "Et prends soin de toi avec CaliBodi.com. On est ensemble !",
+   "pause": 0.3,
+   "say": "Et prends soin de toi avec CaliBodi point com. On est ensemble !"
+  }
+ ]
+}
