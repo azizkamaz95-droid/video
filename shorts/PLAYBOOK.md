@@ -91,6 +91,15 @@ Toujours **plus d'une minute** (monétisation). Chaque bloc est écrit en phrase
 - **Accentuer sans « ! » (règle de l'utilisateur) :** pour donner du relief, utiliser « : » pour introduire (« Première preuve : »), des virgules pour détacher, « ? » pour une vraie question, et des pauses `[pause short]` avant un mot fort. Les balises de pause ne fonctionnent qu'en mode `markup` de l'API (géré par `tts_script.py` dès qu'un `[pause` est présent) ; en mode texte, la voix les lit à voix haute. Toujours vérifier à la transcription que « pause » n'est pas lu.
 - Relecture finale obligatoire : compter les mots de chaque phrase, signaler et réécrire celles de plus de 12 mots avant de montrer le script à l'utilisateur.
 
+## 3ter. Écrire comme un coach (règle de l'utilisateur, 2026-11-07) : prime sur la structure « 3 preuves »
+Le script est trop « rapporté » et pas assez travaillé quand il récite des études. Il doit faire apprendre quelque chose et dire quoi faire.
+1. **Une seule idée par vidéo**, clarifiée du début à la fin. Pas une liste de faits.
+2. **L'accroche apprend déjà quelque chose** (une origine, une cause, un chiffre surprenant). Interdit : une accroche qui ne veut rien dire (« ce n'est pas le chiffre magique »). Test : une personne qui s'arrête à la première phrase a déjà appris un fait précis.
+3. **Parler comme un coach**, en tutoyant : « fais ça », « essaie ça et tu verras », « le mieux, c'est ça, pas ça ». Un circuit : **si tu fais ça, tu obtiens ça** (action concrète, puis résultat chiffré et sourcé).
+4. **Interdits dans la voix** : « j'ai trois preuves », « je t'explique », « première / deuxième / troisième preuve », « ce sont des liens, pas des certitudes », « études d'observation ». Les études restent citées à l'écran ; à voix haute, on dit « des chercheurs ont suivi 226 000 personnes. Résultat : … ». Rester exact : dire « chez ceux qui marchent plus, le risque baisse de 15 % », jamais « ça fait baisser ».
+5. **Français simple, parlé**, phrases courtes, aucun jargon (« tranche », « significatif », « plafonne » sont à éviter ou à reformuler).
+6. **Fin** : reprendre l'accroche avec l'action à faire (boucle), puis une seule demande (envoi), puis CaliBodi en 3 s.
+
 ## 4. Rétention : garder les gens jusqu'à la fin
 
 Le signal le plus fort pour TikTok, Instagram et YouTube est que la vidéo soit regardée jusqu'au bout.
