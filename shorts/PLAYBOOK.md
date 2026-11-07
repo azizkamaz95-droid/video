@@ -331,3 +331,7 @@ Toujours dans les 6 dernières secondes, après la question et l'appel à l'abon
 
 ## Règle prononciation (obligatoire, après les erreurs « c'est e » / Manpo-kei)
 Avant TOUTE génération de voix : `python3 lib/voice_preflight.py episodes/<ep>`. Il liste les mots à risque (apostrophes, noms à trait d'union, chiffres). Tout mot « À TESTER » bloque : `--test` fabrique un mp3 d'écoute (plusieurs écritures par mot), l'utilisateur dit la version juste, puis `--set "mot=ipa:…|glue|raw|respell:…"` l'enregistre dans `lib/voice_validated.json`. Jamais de voix lancée avec un mot à risque non validé à l'oreille. Un mot validé le reste pour tous les épisodes.
+
+
+## Planning de publication (règle de l'utilisateur, 2026-11-08)
+Les heures par réseau et par jour sont dans `shorts/PLANNING.md` : les appliquer sans les redemander. Le script est écrit par l'utilisateur chaque jour ; sa validation de la vidéo vaut accord de publication aux heures du planning. Je produis titre, description et 3 hashtags moi-même.
