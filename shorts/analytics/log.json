@@ -1,5 +1,35 @@
 [
  {
+  "episode": "2026-11-08-abdos500",
+  "sujet": "500 abdos par jour",
+  "formule": "mythe (script de l'utilisateur)",
+  "energie": 3,
+  "musique": "motivation-quotidienne",
+  "voix": "Iapetus",
+  "duree_s": 32,
+  "outro_s": 2.4,
+  "demande_unique": "non : question en commentaire + partage",
+  "publie": "2026-11-08 17h37-18h07 (publié tout de suite à la demande de l'utilisateur)"
+ },
+ {
+  "episode": "2026-11-07-pas",
+  "sujet": "Les 10 000 pas",
+  "formule": "mythe-surprise (script de l'utilisateur)",
+  "energie": 4,
+  "musique": "corporate-motivation",
+  "voix": "Iapetus",
+  "duree_s": 64,
+  "outro_s": 3,
+  "demande_unique": "partage",
+  "publie": "2026-11-08 (FB 10h, TikTok 10h15, IG 11h, YT 16h)",
+  "tiktok_10h": {
+   "vues": 165,
+   "likes": 2,
+   "commentaires": 1,
+   "partages": 0
+  }
+ },
+ {
   "episode": "2026-11-07-soir",
   "sujet": "Manger après 20 h",
   "formule": "tu-fais-faux",
@@ -8,7 +38,14 @@
   "voix": "Iapetus",
   "duree_s": 60,
   "outro_s": 3.5,
-  "demande_unique": "envoi"
+  "demande_unique": "envoi",
+  "tiktok_24h": {
+   "vues": 253,
+   "likes": 3,
+   "commentaires": 1,
+   "partages": 3,
+   "multiple_mediane": 0.98
+  }
  },
  {
   "episode": "2026-11-06-eau",
@@ -18,7 +55,14 @@
   "musique": "documentaire-motivation",
   "voix": "Iapetus",
   "duree_s": 62,
-  "outro_s": 7
+  "outro_s": 7,
+  "tiktok_48h": {
+   "vues": 243,
+   "likes": 4,
+   "commentaires": 1,
+   "partages": 0,
+   "multiple_mediane": 0.95
+  }
  },
  {
   "episode": "2026-11-04-jeun",
