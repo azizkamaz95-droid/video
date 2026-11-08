@@ -338,3 +338,6 @@ Les heures par réseau et par jour sont dans `shorts/PLANNING.md` : les applique
 
 ## Règle images (utilisateur, 2026-11-08) : pas de dessins ni de personnages 3D
 Ne jamais utiliser de clips en 3D, de personnages ou de dessins générés par ordinateur (mannequin 3D sur tapis, schémas 3D, silhouettes animées) : « ça fait mauvaise qualité ». Seulement de vraies images filmées, sans visage, sans femme, sans logo. Si la recherche ne donne rien de propre, utiliser des plans d'ambiance (lieux, objets, mains, nature) plutôt qu'un clip 3D.
+
+## Règle prononciation, mise à jour (utilisateur, 2026-11-08) : ne plus redemander les cas courants
+`voice_preflight.py` valide d'office, comme « tel quel » (raw), toute élision française ordinaire (c'est, d'un, l'obscurité, j'ai…) et tout impératif avec pronom (dis-moi, abonne-toi…). Ne demander à l'utilisateur d'écouter un test que pour un mot vraiment inhabituel (nom propre étranger, sigle, mot à trait d'union non reconnu) ou si l'utilisateur signale une erreur sur un mot ; dans ce cas, `--set` enregistre sa correction. Avant tout envoi à l'utilisateur : générer d'abord, ne poser aucune question de routine.

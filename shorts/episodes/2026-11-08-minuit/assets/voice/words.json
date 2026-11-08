@@ -1,0 +1,893 @@
+{
+ "duration": 48.326,
+ "words": [
+  {
+   "i": 0,
+   "word": "Tu",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 1,
+   "word": "te",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 2,
+   "word": "couches",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 3,
+   "word": "à",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 4,
+   "word": "minuit",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 5,
+   "word": "tous",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 6,
+   "word": "les",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 7,
+   "word": "soirs ?",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 8,
+   "word": "Alors",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 9,
+   "word": "écoute",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 10,
+   "word": "bien",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 11,
+   "word": "ça !",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 12,
+   "word": "Tu",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 13,
+   "word": "as",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 14,
+   "word": "sûrement",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 15,
+   "word": "déjà",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 16,
+   "word": "entendu",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 17,
+   "word": "cette",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 18,
+   "word": "phrase :",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 19,
+   "word": "une",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 20,
+   "word": "heure",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 21,
+   "word": "de",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 22,
+   "word": "sommeil",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 23,
+   "word": "avant",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 24,
+   "word": "minuit",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 25,
+   "word": "vaut",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 26,
+   "word": "deux",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 27,
+   "word": "heures",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 28,
+   "word": "après",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 29,
+   "word": "minuit.",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 30,
+   "word": "C'est",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 31,
+   "word": "faux !",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 32,
+   "word": "Mais",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 33,
+   "word": "attention,",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 34,
+   "word": "il",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 35,
+   "word": "y",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 36,
+   "word": "a",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 37,
+   "word": "quand",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 38,
+   "word": "même",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 39,
+   "word": "une",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 40,
+   "word": "vérité",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 41,
+   "word": "derrière",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 42,
+   "word": "cette",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 43,
+   "word": "croyance.",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 44,
+   "word": "Ton",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 45,
+   "word": "corps",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 46,
+   "word": "possède",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 47,
+   "word": "une",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 48,
+   "word": "horloge",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 49,
+   "word": "biologique",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 50,
+   "word": "qui",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 51,
+   "word": "fonctionne",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 52,
+   "word": "naturellement",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 53,
+   "word": "avec",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 54,
+   "word": "la",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 55,
+   "word": "lumière",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 56,
+   "word": "du",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 57,
+   "word": "jour",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 58,
+   "word": "et",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 59,
+   "word": "l'obscurité.",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 60,
+   "word": "Dormir",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 61,
+   "word": "pendant",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 62,
+   "word": "la",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 63,
+   "word": "journée",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 64,
+   "word": "ne",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 65,
+   "word": "reproduit",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 66,
+   "word": "donc",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 67,
+   "word": "pas",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 68,
+   "word": "parfaitement",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 69,
+   "word": "les",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 70,
+   "word": "conditions",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 71,
+   "word": "d'un",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 72,
+   "word": "sommeil",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 73,
+   "word": "nocturne.",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 74,
+   "word": "Et",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 75,
+   "word": "si",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 76,
+   "word": "tu",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 77,
+   "word": "te",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 78,
+   "word": "couches",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 79,
+   "word": "très",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 80,
+   "word": "tard",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 81,
+   "word": "tout",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 82,
+   "word": "en",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 83,
+   "word": "devant",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 84,
+   "word": "te",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 85,
+   "word": "lever",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 86,
+   "word": "tôt,",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 87,
+   "word": "tu",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 88,
+   "word": "accumules",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 89,
+   "word": "une",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 90,
+   "word": "dette",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 91,
+   "word": "de",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 92,
+   "word": "sommeil",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 93,
+   "word": "qui",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 94,
+   "word": "peut",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 95,
+   "word": "affecter",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 96,
+   "word": "ta",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 97,
+   "word": "récupération,",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 98,
+   "word": "tes",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 99,
+   "word": "hormones",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 100,
+   "word": "et",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 101,
+   "word": "tes",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 102,
+   "word": "performances",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 103,
+   "word": "sportives.",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 104,
+   "word": "Alors,",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 105,
+   "word": "le",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 106,
+   "word": "problème,",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 107,
+   "word": "ce",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 108,
+   "word": "n'est",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 109,
+   "word": "pas",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 110,
+   "word": "précisément",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 111,
+   "word": "minuit :",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 112,
+   "word": "c'est",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 113,
+   "word": "de",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 114,
+   "word": "dormir",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 115,
+   "word": "trop",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 116,
+   "word": "peu",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 117,
+   "word": "et",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 118,
+   "word": "de",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 119,
+   "word": "dérégler",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 120,
+   "word": "ton",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 121,
+   "word": "rythme",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 122,
+   "word": "biologique.",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 123,
+   "word": "Dis-moi",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 124,
+   "word": "en",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 125,
+   "word": "commentaire :",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 126,
+   "word": "à",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 127,
+   "word": "quelle",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 128,
+   "word": "heure",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 129,
+   "word": "tu",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 130,
+   "word": "te",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 131,
+   "word": "couches ?",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 132,
+   "word": "Et",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 133,
+   "word": "partage",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 134,
+   "word": "avec",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 135,
+   "word": "ton",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 136,
+   "word": "ami",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 137,
+   "word": "qui",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 138,
+   "word": "se",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 139,
+   "word": "couche",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 140,
+   "word": "tard.",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 141,
+   "word": "Abonne-toi,",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 142,
+   "word": "une",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 143,
+   "word": "nouvelle",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 144,
+   "word": "vidéo",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 145,
+   "word": "chaque",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 146,
+   "word": "jour.",
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "i": 147,
+   "word": "CaliBodi.com !",
+   "start": 0.0,
+   "end": 0.0
+  }
+ ]
+}

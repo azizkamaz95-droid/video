@@ -68,6 +68,22 @@
   },
   "dis-moi": {
    "mode": "raw"
+  },
+  "c'est": {
+   "mode": "raw",
+   "auto": true
+  },
+  "l'obscurité": {
+   "mode": "raw",
+   "auto": true
+  },
+  "d'un": {
+   "mode": "raw",
+   "auto": true
+  },
+  "abonne-toi": {
+   "mode": "raw",
+   "auto": true
   }
  }
 }

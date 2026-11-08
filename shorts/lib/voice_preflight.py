@@ -34,6 +34,18 @@ for s in S["sentences"]:
     for m in re.finditer(rf"(?<=[a-zà-ÿ,;:] )[A-ZÀ-Ý]{WORD}+", t):
         if m.group(0) not in ("CaliBodi",):
             props.add(m.group(0))
+# Règle de l'utilisateur (2026-11-08) : ne plus redemander les cas courants. Une élision française ordinaire (c'est, d'un, l'obscurité…)
+# et un impératif avec pronom (dis-moi, abonne-toi…) sont lus « tels quels » et enregistrés d'office comme validés.
+# Seuls les mots inhabituels (noms propres étrangers, sigles, mots à trait d'union non reconnus) restent « À TESTER ».
+ELI = re.compile(r"^(?:[cdjlmnst]|qu|jusqu|lorsqu|puisqu)'[a-zàâäéèêëîïôöùûüœ]+$")
+CLI = re.compile(r"^[a-zàâäéèêëîïôöùûüœ]+-(?:moi|toi|lui|leur|nous|vous|le|la|les|y|en|ci|là|t-il|t-elle|t-on)$")
+auto = [w for w in risky if w not in VAL and (ELI.match(w) or CLI.match(w))]
+for w in auto:
+    VAL[w] = {"mode": "raw", "auto": True}
+if auto:
+    reg["tokens"] = VAL
+    json.dump(reg, open(REG, "w"), ensure_ascii=False, indent=1)
+    print("validés d'office (règle de l'utilisateur) :", ", ".join(sorted(auto)))
 bad = [w for w in risky if w not in VAL]
 print(f"{os.path.basename(EP)} : {len(risky)} mot(s) à risque")
 for w in sorted(risky):
