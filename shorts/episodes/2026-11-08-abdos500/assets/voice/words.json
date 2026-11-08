@@ -4,554 +4,922 @@
   {
    "i": 0,
    "word": "Tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.176,
+   "end": 0.336,
+   "google": [
+    0.176,
+    0.336
+   ]
   },
   {
    "i": 1,
    "word": "peux",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.336,
+   "end": 0.385,
+   "google": [
+    0.336,
+    0.385
+   ]
   },
   {
    "i": 2,
    "word": "faire",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.497,
+   "end": 0.657,
+   "google": [
+    0.497,
+    0.657
+   ]
   },
   {
    "i": 3,
    "word": "500",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.657,
+   "end": 1.043,
+   "google": [
+    0.657,
+    1.043
+   ]
   },
   {
    "i": 4,
    "word": "abdos",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.075,
+   "end": 1.299,
+   "google": [
+    1.075,
+    1.299
+   ]
   },
   {
    "i": 5,
    "word": "par",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.379,
+   "end": 1.492,
+   "google": [
+    1.379,
+    1.492
+   ]
   },
   {
    "i": 6,
    "word": "jour…",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.54,
+   "end": 1.765,
+   "google": [
+    1.54,
+    1.765
+   ]
   },
   {
    "i": 7,
    "word": "et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.358,
+   "end": 2.422,
+   "google": [
+    2.358,
+    2.422
+   ]
   },
   {
    "i": 8,
    "word": "garder",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.422,
+   "end": 2.743,
+   "google": [
+    2.422,
+    2.743
+   ]
   },
   {
    "i": 9,
    "word": "exactement",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.92,
+   "end": 3.626,
+   "google": [
+    2.92,
+    3.626
+   ]
   },
   {
    "i": 10,
    "word": "le",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.626,
+   "end": 3.706,
+   "google": [
+    3.626,
+    3.706
+   ]
   },
   {
    "i": 11,
    "word": "même",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.706,
+   "end": 3.851,
+   "google": [
+    3.706,
+    3.851
+   ]
   },
   {
    "i": 12,
    "word": "ventre !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.947,
+   "end": 4.284,
+   "google": [
+    3.947,
+    4.284
+   ]
   },
   {
    "i": 13,
    "word": "Et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.926,
+   "end": 4.99,
+   "google": [
+    4.926,
+    4.99
+   ]
   },
   {
    "i": 14,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.99,
+   "end": 5.15,
+   "google": [
+    4.99,
+    5.15
+   ]
   },
   {
    "i": 15,
    "word": "sais",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.15,
+   "end": 5.231,
+   "google": [
+    5.15,
+    5.231
+   ]
   },
   {
    "i": 16,
    "word": "pourquoi ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.311,
+   "end": 5.584,
+   "google": [
+    5.311,
+    5.584
+   ]
   },
   {
    "i": 17,
    "word": "Parce",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.113,
+   "end": 6.354,
+   "google": [
+    6.113,
+    6.354
+   ]
   },
   {
    "i": 18,
    "word": "que",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.354,
+   "end": 6.514,
+   "google": [
+    6.354,
+    6.514
+   ]
   },
   {
    "i": 19,
    "word": "faire",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.514,
+   "end": 6.659,
+   "google": [
+    6.514,
+    6.659
+   ]
   },
   {
    "i": 20,
    "word": "travailler",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.675,
+   "end": 7.076,
+   "google": [
+    6.675,
+    7.076
+   ]
   },
   {
    "i": 21,
    "word": "tes",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.076,
+   "end": 7.317,
+   "google": [
+    7.076,
+    7.317
+   ]
   },
   {
    "i": 22,
    "word": "abdominaux",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.333,
+   "end": 7.798,
+   "google": [
+    7.333,
+    7.798
+   ]
   },
   {
    "i": 23,
    "word": "ne",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.798,
+   "end": 7.958,
+   "google": [
+    7.798,
+    7.958
+   ]
   },
   {
    "i": 24,
    "word": "signifie",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.958,
+   "end": 8.36,
+   "google": [
+    7.958,
+    8.36
+   ]
   },
   {
    "i": 25,
    "word": "pas",
-   "start": 0.0,
-   "end": 0.0
+   "start": 8.36,
+   "end": 8.6,
+   "google": [
+    8.36,
+    8.6
+   ]
   },
   {
    "i": 26,
    "word": "brûler",
-   "start": 0.0,
-   "end": 0.0
+   "start": 8.6,
+   "end": 8.921,
+   "google": [
+    8.6,
+    8.921
+   ]
   },
   {
    "i": 27,
    "word": "la",
-   "start": 0.0,
-   "end": 0.0
+   "start": 8.921,
+   "end": 9.082,
+   "google": [
+    8.921,
+    9.082
+   ]
   },
   {
    "i": 28,
    "word": "graisse",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.082,
+   "end": 9.306,
+   "google": [
+    9.082,
+    9.306
+   ]
   },
   {
    "i": 29,
    "word": "qui",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.403,
+   "end": 9.483,
+   "google": [
+    9.403,
+    9.483
+   ]
   },
   {
    "i": 30,
    "word": "se",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.563,
+   "end": 9.643,
+   "google": [
+    9.563,
+    9.643
+   ]
   },
   {
    "i": 31,
    "word": "trouve",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.643,
+   "end": 9.884,
+   "google": [
+    9.643,
+    9.884
+   ]
   },
   {
    "i": 32,
    "word": "juste",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.884,
+   "end": 10.141,
+   "google": [
+    9.884,
+    10.141
+   ]
   },
   {
    "i": 33,
    "word": "au-dessus.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.141,
+   "end": 10.494,
+   "google": [
+    10.141,
+    10.494
+   ]
   },
   {
    "i": 34,
    "word": "Tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.087,
+   "end": 11.248,
+   "google": [
+    11.087,
+    11.248
+   ]
   },
   {
    "i": 35,
    "word": "renforces",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.248,
+   "end": 11.649,
+   "google": [
+    11.248,
+    11.649
+   ]
   },
   {
    "i": 36,
    "word": "tes",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.649,
+   "end": 11.745,
+   "google": [
+    11.649,
+    11.745
+   ]
   },
   {
    "i": 37,
    "word": "muscles,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.745,
+   "end": 12.098,
+   "google": [
+    11.745,
+    12.098
+   ]
   },
   {
    "i": 38,
    "word": "mais",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.692,
+   "end": 12.772,
+   "google": [
+    12.692,
+    12.772
+   ]
   },
   {
    "i": 39,
    "word": "ton",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.853,
+   "end": 13.013,
+   "google": [
+    12.853,
+    13.013
+   ]
   },
   {
    "i": 40,
    "word": "corps",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.013,
+   "end": 13.206,
+   "google": [
+    13.013,
+    13.206
+   ]
   },
   {
    "i": 41,
    "word": "ne",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.206,
+   "end": 13.334,
+   "google": [
+    13.206,
+    13.334
+   ]
   },
   {
    "i": 42,
    "word": "choisit",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.366,
+   "end": 13.815,
+   "google": [
+    13.366,
+    13.815
+   ]
   },
   {
    "i": 43,
    "word": "pas",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.815,
+   "end": 14.008,
+   "google": [
+    13.815,
+    14.008
+   ]
   },
   {
    "i": 44,
    "word": "où",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.136,
+   "end": 14.152,
+   "google": [
+    14.136,
+    14.152
+   ]
   },
   {
    "i": 45,
    "word": "il",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.152,
+   "end": 14.297,
+   "google": [
+    14.152,
+    14.297
+   ]
   },
   {
    "i": 46,
    "word": "va",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.297,
+   "end": 14.457,
+   "google": [
+    14.297,
+    14.457
+   ]
   },
   {
    "i": 47,
    "word": "perdre",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.457,
+   "end": 14.666,
+   "google": [
+    14.457,
+    14.666
+   ]
   },
   {
    "i": 48,
    "word": "sa",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.778,
+   "end": 14.939,
+   "google": [
+    14.778,
+    14.939
+   ]
   },
   {
    "i": 49,
    "word": "graisse !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.939,
+   "end": 15.292,
+   "google": [
+    14.939,
+    15.292
+   ]
   },
   {
    "i": 50,
    "word": "Pour",
-   "start": 0.0,
-   "end": 0.0
+   "start": 15.901,
+   "end": 16.014,
+   "google": [
+    15.901,
+    16.014
+   ]
   },
   {
    "i": 51,
    "word": "perdre",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.062,
+   "end": 16.367,
+   "google": [
+    16.062,
+    16.367
+   ]
   },
   {
    "i": 52,
    "word": "du",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.383,
+   "end": 16.495,
+   "google": [
+    16.383,
+    16.495
+   ]
   },
   {
    "i": 53,
    "word": "ventre,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.495,
+   "end": 16.8,
+   "google": [
+    16.495,
+    16.8
+   ]
   },
   {
    "i": 54,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.105,
+   "end": 17.185,
+   "google": [
+    17.105,
+    17.185
+   ]
   },
   {
    "i": 55,
    "word": "dois",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.185,
+   "end": 17.346,
+   "google": [
+    17.185,
+    17.346
+   ]
   },
   {
    "i": 56,
    "word": "réduire",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.346,
+   "end": 17.731,
+   "google": [
+    17.346,
+    17.731
+   ]
   },
   {
    "i": 57,
    "word": "ta",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.747,
+   "end": 17.827,
+   "google": [
+    17.747,
+    17.827
+   ]
   },
   {
    "i": 58,
    "word": "masse",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.827,
+   "end": 18.068,
+   "google": [
+    17.827,
+    18.068
+   ]
   },
   {
    "i": 59,
    "word": "grasse",
-   "start": 0.0,
-   "end": 0.0
+   "start": 18.068,
+   "end": 18.308,
+   "google": [
+    18.068,
+    18.308
+   ]
   },
   {
    "i": 60,
    "word": "globale :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 18.308,
+   "end": 18.677,
+   "google": [
+    18.308,
+    18.677
+   ]
   },
   {
    "i": 61,
    "word": "alimentation",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.127,
+   "end": 19.688,
+   "google": [
+    19.127,
+    19.688
+   ]
   },
   {
    "i": 62,
    "word": "adaptée,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.688,
+   "end": 20.073,
+   "google": [
+    19.688,
+    20.073
+   ]
   },
   {
    "i": 63,
    "word": "musculation",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.186,
+   "end": 20.876,
+   "google": [
+    20.186,
+    20.876
+   ]
   },
   {
    "i": 64,
    "word": "et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.972,
+   "end": 21.036,
+   "google": [
+    20.972,
+    21.036
+   ]
   },
   {
    "i": 65,
    "word": "activité",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.052,
+   "end": 21.518,
+   "google": [
+    21.052,
+    21.518
+   ]
   },
   {
    "i": 66,
    "word": "physique",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.518,
+   "end": 21.839,
+   "google": [
+    21.518,
+    21.839
+   ]
   },
   {
    "i": 67,
    "word": "régulière.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.839,
+   "end": 22.208,
+   "google": [
+    21.839,
+    22.208
+   ]
   },
   {
    "i": 68,
    "word": "Alors,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 22.898,
+   "end": 23.042,
+   "google": [
+    22.898,
+    23.042
+   ]
   },
   {
    "i": 69,
    "word": "dis-moi :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.042,
+   "end": 23.251,
+   "google": [
+    23.042,
+    23.251
+   ]
   },
   {
    "i": 70,
    "word": "combien",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.764,
+   "end": 24.165,
+   "google": [
+    23.764,
+    24.165
+   ]
   },
   {
    "i": 71,
    "word": "d'abdos",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.165,
+   "end": 24.486,
+   "google": [
+    24.165,
+    24.486
+   ]
   },
   {
    "i": 72,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.486,
+   "end": 24.647,
+   "google": [
+    24.486,
+    24.647
+   ]
   },
   {
    "i": 73,
    "word": "fais",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.647,
+   "end": 24.727,
+   "google": [
+    24.647,
+    24.727
+   ]
   },
   {
    "i": 74,
    "word": "par",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.807,
+   "end": 24.935,
+   "google": [
+    24.807,
+    24.935
+   ]
   },
   {
    "i": 75,
    "word": "jour ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.968,
+   "end": 25.096,
+   "google": [
+    24.968,
+    25.096
+   ]
   },
   {
    "i": 76,
    "word": "Et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.706,
+   "end": 25.77,
+   "google": [
+    25.706,
+    25.77
+   ]
   },
   {
    "i": 77,
    "word": "partage",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.77,
+   "end": 26.107,
+   "google": [
+    25.77,
+    26.107
+   ]
   },
   {
    "i": 78,
    "word": "cette",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.171,
+   "end": 26.331,
+   "google": [
+    26.171,
+    26.331
+   ]
   },
   {
    "i": 79,
    "word": "vidéo",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.331,
+   "end": 26.588,
+   "google": [
+    26.331,
+    26.588
+   ]
   },
   {
    "i": 80,
    "word": "avec",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.588,
+   "end": 26.813,
+   "google": [
+    26.588,
+    26.813
+   ]
   },
   {
    "i": 81,
    "word": "ton",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.813,
+   "end": 26.893,
+   "google": [
+    26.813,
+    26.893
+   ]
   },
   {
    "i": 82,
    "word": "pote",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.893,
+   "end": 27.07,
+   "google": [
+    26.893,
+    27.07
+   ]
   },
   {
    "i": 83,
    "word": "qui",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.134,
+   "end": 27.214,
+   "google": [
+    27.134,
+    27.214
+   ]
   },
   {
    "i": 84,
    "word": "fait",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.214,
+   "end": 27.455,
+   "google": [
+    27.214,
+    27.455
+   ]
   },
   {
    "i": 85,
    "word": "200",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.455,
+   "end": 27.744,
+   "google": [
+    27.455,
+    27.744
+   ]
   },
   {
    "i": 86,
    "word": "crunchs",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.744,
+   "end": 28.081,
+   "google": [
+    27.744,
+    28.081
+   ]
   },
   {
    "i": 87,
    "word": "pour",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.097,
+   "end": 28.321,
+   "google": [
+    28.097,
+    28.321
+   ]
   },
   {
    "i": 88,
    "word": "perdre",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.337,
+   "end": 28.562,
+   "google": [
+    28.337,
+    28.562
+   ]
   },
   {
    "i": 89,
    "word": "son",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.578,
+   "end": 28.819,
+   "google": [
+    28.578,
+    28.819
+   ]
   },
   {
    "i": 90,
    "word": "ventre !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.819,
+   "end": 29.107,
+   "google": [
+    28.819,
+    29.107
+   ]
   },
   {
    "i": 91,
    "word": "CaliBodi.com.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 29.589,
+   "end": 30.471,
+   "google": [
+    29.589,
+    30.471
+   ]
   }
  ]
 }

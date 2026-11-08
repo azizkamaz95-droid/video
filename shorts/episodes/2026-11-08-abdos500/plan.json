@@ -7,7 +7,10 @@
  "duck_db": -6.0,
  "science_db": -3.0,
  "science": [],
- "hits": [],
+ "hits": [
+  0.66,
+  14.94
+ ],
  "blocks": [
   {
    "type": "myth",
@@ -25,7 +28,68 @@
    "end": 31.91
   }
  ],
- "sfx": [],
+ "sfx": [
+  [
+   "stamp",
+   0.66
+  ],
+  [
+   "whoosh",
+   4.8
+  ],
+  [
+   "thump",
+   5.31
+  ],
+  [
+   "whoosh",
+   6.0
+  ],
+  [
+   "whoosh",
+   10.9
+  ],
+  [
+   "thump",
+   14.94
+  ],
+  [
+   "whoosh",
+   15.7
+  ],
+  [
+   "whoosh",
+   18.9
+  ],
+  [
+   "whoosh",
+   20.0
+  ],
+  [
+   "whoosh",
+   20.9
+  ],
+  [
+   "whoosh",
+   22.6
+  ],
+  [
+   "whoosh",
+   25.4
+  ],
+  [
+   "stamp",
+   27.45
+  ],
+  [
+   "whoosh",
+   29.3
+  ],
+  [
+   "plinks",
+   29.7
+  ]
+ ],
  "music_file": "assets/music/motivation-quotidienne.mp3",
  "music_loop": [
   0.0,
