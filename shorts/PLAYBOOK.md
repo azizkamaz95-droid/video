@@ -335,3 +335,6 @@ Avant TOUTE génération de voix : `python3 lib/voice_preflight.py episodes/<ep>
 
 ## Planning de publication (règle de l'utilisateur, 2026-11-08)
 Les heures par réseau et par jour sont dans `shorts/PLANNING.md` : les appliquer sans les redemander. Le script est écrit par l'utilisateur chaque jour ; sa validation de la vidéo vaut accord de publication aux heures du planning. Je produis titre, description et 3 hashtags moi-même.
+
+## Règle images (utilisateur, 2026-11-08) : pas de dessins ni de personnages 3D
+Ne jamais utiliser de clips en 3D, de personnages ou de dessins générés par ordinateur (mannequin 3D sur tapis, schémas 3D, silhouettes animées) : « ça fait mauvaise qualité ». Seulement de vraies images filmées, sans visage, sans femme, sans logo. Si la recherche ne donne rien de propre, utiliser des plans d'ambiance (lieux, objets, mains, nature) plutôt qu'un clip 3D.

@@ -73,8 +73,9 @@ if "--test" in sys.argv and bad:
             a, b = w.split("-", 1)
             variants.append(("deux mots", re.sub(re.escape(w), f"{a} {b}", sent, flags=re.I), None))
             variants.append(("collé", re.sub(re.escape(w), a + b, sent, flags=re.I), None))
-            variants.append(("IPA manpokei", sent, [(re.search(re.escape(w), sent, re.I).group(0), "mɑ̃pokei")]))
-            variants.append(("IPA manpokɛ", sent, [(re.search(re.escape(w), sent, re.I).group(0), "mɑ̃pokɛ")]))
+            if "manpo" in w:
+                variants.append(("IPA manpokei", sent, [(re.search(re.escape(w), sent, re.I).group(0), "mɑ̃pokei")]))
+                variants.append(("IPA manpokɛ", sent, [(re.search(re.escape(w), sent, re.I).group(0), "mɑ̃pokɛ")]))
         out += [tts(f"Série {nums[n - 1]}."), gap(0.5)]
         for k, (label, t, pron) in enumerate(variants):
             a = tts(t, pron)

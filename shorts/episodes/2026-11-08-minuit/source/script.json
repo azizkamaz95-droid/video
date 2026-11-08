@@ -1,0 +1,72 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu te couches à minuit tous les soirs ? Alors écoute bien ça !",
+   "pause": 0.5
+  },
+  {
+   "id": "s02",
+   "text": "Tu as sûrement déjà entendu cette phrase : une heure de sommeil avant minuit vaut deux heures après minuit.",
+   "pause": 0.45,
+   "say": "Tu as sûrement déjà entendu cette phrase : [pause short] une heure de sommeil avant minuit vaut deux heures après minuit."
+  },
+  {
+   "id": "s03",
+   "text": "C'est faux !",
+   "pause": 0.45
+  },
+  {
+   "id": "s04",
+   "text": "Mais attention, il y a quand même une vérité derrière cette croyance.",
+   "pause": 0.5
+  },
+  {
+   "id": "s05",
+   "text": "Ton corps possède une horloge biologique qui fonctionne naturellement avec la lumière du jour et l'obscurité.",
+   "pause": 0.4
+  },
+  {
+   "id": "s06",
+   "text": "Dormir pendant la journée ne reproduit donc pas parfaitement les conditions d'un sommeil nocturne.",
+   "pause": 0.5
+  },
+  {
+   "id": "s07",
+   "text": "Et si tu te couches très tard tout en devant te lever tôt, tu accumules une dette de sommeil qui peut affecter ta récupération, tes hormones et tes performances sportives.",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Alors, le problème, ce n'est pas précisément minuit : c'est de dormir trop peu et de dérégler ton rythme biologique.",
+   "pause": 0.5,
+   "say": "Alors, le problème, ce n'est pas précisément minuit : [pause short] c'est de dormir trop peu et de dérégler ton rythme biologique."
+  },
+  {
+   "id": "s09",
+   "text": "Dis-moi en commentaire : à quelle heure tu te couches ?",
+   "pause": 0.4,
+   "say": "Dis-moi en commentaire : [pause short] à quelle heure tu te couches ?"
+  },
+  {
+   "id": "s10",
+   "text": "Et partage avec ton ami qui se couche tard.",
+   "pause": 0.35
+  },
+  {
+   "id": "s11",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour.",
+   "pause": 0.3
+  },
+  {
+   "id": "s12",
+   "text": "CaliBodi.com !",
+   "pause": 0.3,
+   "say": "CaliBodi point com !"
+  }
+ ]
+}
