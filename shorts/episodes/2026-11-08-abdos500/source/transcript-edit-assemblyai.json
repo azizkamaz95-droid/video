@@ -1,0 +1,466 @@
+{
+ "duration": 31.21,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.336
+  },
+  {
+   "word": "peux",
+   "start": 0.336,
+   "end": 0.385
+  },
+  {
+   "word": "faire",
+   "start": 0.497,
+   "end": 0.657
+  },
+  {
+   "word": "500",
+   "start": 0.657,
+   "end": 1.043
+  },
+  {
+   "word": "abdos",
+   "start": 1.075,
+   "end": 1.299
+  },
+  {
+   "word": "par",
+   "start": 1.379,
+   "end": 1.492
+  },
+  {
+   "word": "jour",
+   "start": 1.54,
+   "end": 1.765
+  },
+  {
+   "word": "et",
+   "start": 2.358,
+   "end": 2.422
+  },
+  {
+   "word": "garder",
+   "start": 2.422,
+   "end": 2.743
+  },
+  {
+   "word": "exactement",
+   "start": 2.92,
+   "end": 3.626
+  },
+  {
+   "word": "le",
+   "start": 3.626,
+   "end": 3.706
+  },
+  {
+   "word": "même",
+   "start": 3.706,
+   "end": 3.851
+  },
+  {
+   "word": "ventre.",
+   "start": 3.947,
+   "end": 4.284
+  },
+  {
+   "word": "Et",
+   "start": 4.926,
+   "end": 4.99
+  },
+  {
+   "word": "tu",
+   "start": 4.99,
+   "end": 5.15
+  },
+  {
+   "word": "sais",
+   "start": 5.15,
+   "end": 5.231
+  },
+  {
+   "word": "pourquoi?",
+   "start": 5.311,
+   "end": 5.584
+  },
+  {
+   "word": "Parce",
+   "start": 6.113,
+   "end": 6.354
+  },
+  {
+   "word": "que",
+   "start": 6.354,
+   "end": 6.514
+  },
+  {
+   "word": "faire",
+   "start": 6.514,
+   "end": 6.659
+  },
+  {
+   "word": "travailler",
+   "start": 6.675,
+   "end": 7.076
+  },
+  {
+   "word": "tes",
+   "start": 7.076,
+   "end": 7.317
+  },
+  {
+   "word": "abdominaux",
+   "start": 7.333,
+   "end": 7.798
+  },
+  {
+   "word": "ne",
+   "start": 7.798,
+   "end": 7.958
+  },
+  {
+   "word": "signifie",
+   "start": 7.958,
+   "end": 8.36
+  },
+  {
+   "word": "pas",
+   "start": 8.36,
+   "end": 8.6
+  },
+  {
+   "word": "brûler",
+   "start": 8.6,
+   "end": 8.921
+  },
+  {
+   "word": "la",
+   "start": 8.921,
+   "end": 9.082
+  },
+  {
+   "word": "graisse",
+   "start": 9.082,
+   "end": 9.306
+  },
+  {
+   "word": "qui",
+   "start": 9.403,
+   "end": 9.483
+  },
+  {
+   "word": "se",
+   "start": 9.563,
+   "end": 9.643
+  },
+  {
+   "word": "trouve",
+   "start": 9.643,
+   "end": 9.884
+  },
+  {
+   "word": "juste",
+   "start": 9.884,
+   "end": 10.141
+  },
+  {
+   "word": "au-dessus.",
+   "start": 10.141,
+   "end": 10.494
+  },
+  {
+   "word": "Tu",
+   "start": 11.087,
+   "end": 11.248
+  },
+  {
+   "word": "renforces",
+   "start": 11.248,
+   "end": 11.649
+  },
+  {
+   "word": "tes",
+   "start": 11.649,
+   "end": 11.745
+  },
+  {
+   "word": "muscles,",
+   "start": 11.745,
+   "end": 12.098
+  },
+  {
+   "word": "mais",
+   "start": 12.692,
+   "end": 12.772
+  },
+  {
+   "word": "ton",
+   "start": 12.853,
+   "end": 13.013
+  },
+  {
+   "word": "corps",
+   "start": 13.013,
+   "end": 13.206
+  },
+  {
+   "word": "ne",
+   "start": 13.206,
+   "end": 13.334
+  },
+  {
+   "word": "choisit",
+   "start": 13.366,
+   "end": 13.815
+  },
+  {
+   "word": "pas",
+   "start": 13.815,
+   "end": 14.008
+  },
+  {
+   "word": "où",
+   "start": 14.136,
+   "end": 14.152
+  },
+  {
+   "word": "il",
+   "start": 14.152,
+   "end": 14.297
+  },
+  {
+   "word": "va",
+   "start": 14.297,
+   "end": 14.457
+  },
+  {
+   "word": "perdre",
+   "start": 14.457,
+   "end": 14.666
+  },
+  {
+   "word": "sa",
+   "start": 14.778,
+   "end": 14.939
+  },
+  {
+   "word": "graisse.",
+   "start": 14.939,
+   "end": 15.292
+  },
+  {
+   "word": "Pour",
+   "start": 15.901,
+   "end": 16.014
+  },
+  {
+   "word": "perdre",
+   "start": 16.062,
+   "end": 16.367
+  },
+  {
+   "word": "du",
+   "start": 16.383,
+   "end": 16.495
+  },
+  {
+   "word": "ventre,",
+   "start": 16.495,
+   "end": 16.8
+  },
+  {
+   "word": "tu",
+   "start": 17.105,
+   "end": 17.185
+  },
+  {
+   "word": "dois",
+   "start": 17.185,
+   "end": 17.346
+  },
+  {
+   "word": "réduire",
+   "start": 17.346,
+   "end": 17.731
+  },
+  {
+   "word": "ta",
+   "start": 17.747,
+   "end": 17.827
+  },
+  {
+   "word": "masse",
+   "start": 17.827,
+   "end": 18.068
+  },
+  {
+   "word": "grasse",
+   "start": 18.068,
+   "end": 18.308
+  },
+  {
+   "word": "globale:",
+   "start": 18.308,
+   "end": 18.677
+  },
+  {
+   "word": "alimentation",
+   "start": 19.127,
+   "end": 19.688
+  },
+  {
+   "word": "adaptée,",
+   "start": 19.688,
+   "end": 20.073
+  },
+  {
+   "word": "musculation",
+   "start": 20.186,
+   "end": 20.876
+  },
+  {
+   "word": "et",
+   "start": 20.972,
+   "end": 21.036
+  },
+  {
+   "word": "activité",
+   "start": 21.052,
+   "end": 21.518
+  },
+  {
+   "word": "physique",
+   "start": 21.518,
+   "end": 21.839
+  },
+  {
+   "word": "régulière.",
+   "start": 21.839,
+   "end": 22.208
+  },
+  {
+   "word": "Alors",
+   "start": 22.898,
+   "end": 23.042
+  },
+  {
+   "word": "dis-moi,",
+   "start": 23.042,
+   "end": 23.251
+  },
+  {
+   "word": "combien",
+   "start": 23.764,
+   "end": 24.165
+  },
+  {
+   "word": "d'abdos",
+   "start": 24.165,
+   "end": 24.486
+  },
+  {
+   "word": "tu",
+   "start": 24.486,
+   "end": 24.647
+  },
+  {
+   "word": "fais",
+   "start": 24.647,
+   "end": 24.727
+  },
+  {
+   "word": "par",
+   "start": 24.807,
+   "end": 24.935
+  },
+  {
+   "word": "jour?",
+   "start": 24.968,
+   "end": 25.096
+  },
+  {
+   "word": "Et",
+   "start": 25.706,
+   "end": 25.77
+  },
+  {
+   "word": "partage",
+   "start": 25.77,
+   "end": 26.107
+  },
+  {
+   "word": "cette",
+   "start": 26.171,
+   "end": 26.331
+  },
+  {
+   "word": "vidéo",
+   "start": 26.331,
+   "end": 26.588
+  },
+  {
+   "word": "avec",
+   "start": 26.588,
+   "end": 26.813
+  },
+  {
+   "word": "ton",
+   "start": 26.813,
+   "end": 26.893
+  },
+  {
+   "word": "pote",
+   "start": 26.893,
+   "end": 27.07
+  },
+  {
+   "word": "qui",
+   "start": 27.134,
+   "end": 27.214
+  },
+  {
+   "word": "fait",
+   "start": 27.214,
+   "end": 27.455
+  },
+  {
+   "word": "200",
+   "start": 27.455,
+   "end": 27.744
+  },
+  {
+   "word": "crunchs",
+   "start": 27.744,
+   "end": 28.081
+  },
+  {
+   "word": "pour",
+   "start": 28.097,
+   "end": 28.321
+  },
+  {
+   "word": "perdre",
+   "start": 28.337,
+   "end": 28.562
+  },
+  {
+   "word": "son",
+   "start": 28.578,
+   "end": 28.819
+  },
+  {
+   "word": "ventre!",
+   "start": 28.819,
+   "end": 29.107
+  },
+  {
+   "word": "Calibody.com.",
+   "start": 29.589,
+   "end": 30.471
+  }
+ ],
+ "text": "Tu peux faire 500 abdos par jour et garder exactement le même ventre. Et tu sais pourquoi? Parce que faire travailler tes abdominaux ne signifie pas brûler la graisse qui se trouve juste au-dessus. Tu renforces tes muscles, mais ton corps ne choisit pas où il va perdre sa graisse. Pour perdre du ventre, tu dois réduire ta masse grasse globale: alimentation adaptée, musculation et activité physique régulière. Alors dis-moi, combien d'abdos tu fais par jour? Et partage cette vidéo avec ton pote qui fait 200 crunchs pour perdre son ventre! Calibody.com."
+}
