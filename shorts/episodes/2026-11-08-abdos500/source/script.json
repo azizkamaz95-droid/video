@@ -1,0 +1,53 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu peux faire 500 abdos par jour… et garder exactement le même ventre !",
+   "pause": 0.5,
+   "say": "Tu peux faire cinq cents abdos par jour, [pause short] et garder exactement le même ventre !"
+  },
+  {
+   "id": "s02",
+   "text": "Et tu sais pourquoi ?",
+   "pause": 0.4
+  },
+  {
+   "id": "s03",
+   "text": "Parce que faire travailler tes abdominaux ne signifie pas brûler la graisse qui se trouve juste au-dessus.",
+   "pause": 0.45
+  },
+  {
+   "id": "s04",
+   "text": "Tu renforces tes muscles, mais ton corps ne choisit pas où il va perdre sa graisse !",
+   "pause": 0.5
+  },
+  {
+   "id": "s05",
+   "text": "Pour perdre du ventre, tu dois réduire ta masse grasse globale : alimentation adaptée, musculation et activité physique régulière.",
+   "pause": 0.5,
+   "say": "Pour perdre du ventre, tu dois réduire ta masse grasse globale : [pause short] alimentation adaptée, musculation et activité physique régulière."
+  },
+  {
+   "id": "s06",
+   "text": "Alors, dis-moi : combien d'abdos tu fais par jour ?",
+   "pause": 0.4,
+   "say": "Alors, dis-moi : [pause short] combien d'abdos tu fais par jour ?"
+  },
+  {
+   "id": "s07",
+   "text": "Et partage cette vidéo avec ton pote qui fait 200 crunchs pour perdre son ventre !",
+   "pause": 0.35,
+   "say": "Et partage cette vidéo avec ton pote qui fait deux cents crunchs pour perdre son ventre !"
+  },
+  {
+   "id": "s08",
+   "text": "CaliBodi.com.",
+   "pause": 0.3,
+   "say": "CaliBodi point com."
+  }
+ ]
+}
