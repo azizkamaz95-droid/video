@@ -7,7 +7,10 @@
  "duck_db": -6.0,
  "science_db": -3.0,
  "science": [],
- "hits": [],
+ "hits": [
+  8.76,
+  27.21
+ ],
  "blocks": [
   {
    "type": "myth",
@@ -25,7 +28,84 @@
    "end": 49.03
   }
  ],
- "sfx": [],
+ "sfx": [
+  [
+   "stamp",
+   0.58
+  ],
+  [
+   "whoosh",
+   3.4
+  ],
+  [
+   "whoosh",
+   8.4
+  ],
+  [
+   "thump",
+   8.76
+  ],
+  [
+   "whoosh",
+   9.5
+  ],
+  [
+   "whoosh",
+   13.2
+  ],
+  [
+   "whoosh",
+   16.5
+  ],
+  [
+   "whoosh",
+   18.5
+  ],
+  [
+   "whoosh",
+   23.3
+  ],
+  [
+   "whoosh",
+   26.4
+  ],
+  [
+   "thump",
+   27.21
+  ],
+  [
+   "whoosh",
+   29.5
+  ],
+  [
+   "whoosh",
+   32.0
+  ],
+  [
+   "stamp",
+   33.65
+  ],
+  [
+   "whoosh",
+   34.9
+  ],
+  [
+   "whoosh",
+   38.5
+  ],
+  [
+   "whoosh",
+   41.6
+  ],
+  [
+   "whoosh",
+   44.0
+  ],
+  [
+   "plinks",
+   46.58
+  ]
+ ],
  "music_file": "assets/music/documentaire-motivation.mp3",
  "music_loop": [
   0.0,

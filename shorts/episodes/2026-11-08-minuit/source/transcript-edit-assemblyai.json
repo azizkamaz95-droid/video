@@ -1,0 +1,746 @@
+{
+ "duration": 48.326,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.256
+  },
+  {
+   "word": "te",
+   "start": 0.256,
+   "end": 0.336
+  },
+  {
+   "word": "couches",
+   "start": 0.336,
+   "end": 0.513
+  },
+  {
+   "word": "à",
+   "start": 0.513,
+   "end": 0.577
+  },
+  {
+   "word": "minuit",
+   "start": 0.577,
+   "end": 0.818
+  },
+  {
+   "word": "tous",
+   "start": 0.818,
+   "end": 0.946
+  },
+  {
+   "word": "les",
+   "start": 0.946,
+   "end": 1.058
+  },
+  {
+   "word": "soirs?",
+   "start": 1.058,
+   "end": 1.427
+  },
+  {
+   "word": "Alors",
+   "start": 1.957,
+   "end": 2.133
+  },
+  {
+   "word": "écoute",
+   "start": 2.197,
+   "end": 2.438
+  },
+  {
+   "word": "bien",
+   "start": 2.502,
+   "end": 2.663
+  },
+  {
+   "word": "ça!",
+   "start": 2.695,
+   "end": 2.871
+  },
+  {
+   "word": "Tu",
+   "start": 3.545,
+   "end": 3.721
+  },
+  {
+   "word": "as",
+   "start": 3.721,
+   "end": 3.786
+  },
+  {
+   "word": "sûrement",
+   "start": 3.786,
+   "end": 4.139
+  },
+  {
+   "word": "déjà",
+   "start": 4.139,
+   "end": 4.363
+  },
+  {
+   "word": "entendu",
+   "start": 4.363,
+   "end": 4.668
+  },
+  {
+   "word": "cette",
+   "start": 4.668,
+   "end": 4.86
+  },
+  {
+   "word": "phrase:",
+   "start": 4.86,
+   "end": 5.133
+  },
+  {
+   "word": "une",
+   "start": 5.566,
+   "end": 5.663
+  },
+  {
+   "word": "heure",
+   "start": 5.727,
+   "end": 5.791
+  },
+  {
+   "word": "de",
+   "start": 5.791,
+   "end": 5.951
+  },
+  {
+   "word": "sommeil",
+   "start": 5.951,
+   "end": 6.288
+  },
+  {
+   "word": "avant",
+   "start": 6.288,
+   "end": 6.465
+  },
+  {
+   "word": "minuit",
+   "start": 6.465,
+   "end": 6.914
+  },
+  {
+   "word": "vaut",
+   "start": 6.914,
+   "end": 7.074
+  },
+  {
+   "word": "2",
+   "start": 7.074,
+   "end": 7.203
+  },
+  {
+   "word": "heures",
+   "start": 7.331,
+   "end": 7.411
+  },
+  {
+   "word": "après",
+   "start": 7.411,
+   "end": 7.668
+  },
+  {
+   "word": "minuit.",
+   "start": 7.668,
+   "end": 8.005
+  },
+  {
+   "word": "C'est",
+   "start": 8.598,
+   "end": 8.759
+  },
+  {
+   "word": "faux!",
+   "start": 8.759,
+   "end": 8.887
+  },
+  {
+   "word": "Mais",
+   "start": 9.641,
+   "end": 9.818
+  },
+  {
+   "word": "attention,",
+   "start": 9.818,
+   "end": 10.251
+  },
+  {
+   "word": "il",
+   "start": 10.62,
+   "end": 10.7
+  },
+  {
+   "word": "y",
+   "start": 10.7,
+   "end": 10.828
+  },
+  {
+   "word": "a",
+   "start": 10.828,
+   "end": 10.844
+  },
+  {
+   "word": "quand",
+   "start": 10.925,
+   "end": 11.005
+  },
+  {
+   "word": "même",
+   "start": 11.005,
+   "end": 11.149
+  },
+  {
+   "word": "une",
+   "start": 11.181,
+   "end": 11.229
+  },
+  {
+   "word": "vérité",
+   "start": 11.326,
+   "end": 11.727
+  },
+  {
+   "word": "derrière",
+   "start": 11.727,
+   "end": 11.951
+  },
+  {
+   "word": "cette",
+   "start": 12.048,
+   "end": 12.208
+  },
+  {
+   "word": "croyance.",
+   "start": 12.208,
+   "end": 12.561
+  },
+  {
+   "word": "Ton",
+   "start": 13.331,
+   "end": 13.491
+  },
+  {
+   "word": "corps",
+   "start": 13.491,
+   "end": 13.716
+  },
+  {
+   "word": "possède",
+   "start": 13.732,
+   "end": 14.149
+  },
+  {
+   "word": "une",
+   "start": 14.149,
+   "end": 14.197
+  },
+  {
+   "word": "horloge",
+   "start": 14.31,
+   "end": 14.598
+  },
+  {
+   "word": "biologique",
+   "start": 14.614,
+   "end": 15.096
+  },
+  {
+   "word": "qui",
+   "start": 15.096,
+   "end": 15.256
+  },
+  {
+   "word": "fonctionne",
+   "start": 15.256,
+   "end": 15.641
+  },
+  {
+   "word": "naturellement",
+   "start": 15.737,
+   "end": 16.395
+  },
+  {
+   "word": "avec",
+   "start": 16.395,
+   "end": 16.62
+  },
+  {
+   "word": "la",
+   "start": 16.62,
+   "end": 16.732
+  },
+  {
+   "word": "lumière",
+   "start": 16.732,
+   "end": 17.021
+  },
+  {
+   "word": "du",
+   "start": 17.021,
+   "end": 17.181
+  },
+  {
+   "word": "jour",
+   "start": 17.181,
+   "end": 17.358
+  },
+  {
+   "word": "et",
+   "start": 17.358,
+   "end": 17.406
+  },
+  {
+   "word": "l'obscurité.",
+   "start": 17.406,
+   "end": 18.031
+  },
+  {
+   "word": "Dormir",
+   "start": 18.705,
+   "end": 18.994
+  },
+  {
+   "word": "pendant",
+   "start": 19.106,
+   "end": 19.347
+  },
+  {
+   "word": "la",
+   "start": 19.347,
+   "end": 19.427
+  },
+  {
+   "word": "journée",
+   "start": 19.459,
+   "end": 19.78
+  },
+  {
+   "word": "ne",
+   "start": 19.78,
+   "end": 19.908
+  },
+  {
+   "word": "reproduit",
+   "start": 19.908,
+   "end": 20.342
+  },
+  {
+   "word": "donc",
+   "start": 20.39,
+   "end": 20.502
+  },
+  {
+   "word": "pas",
+   "start": 20.63,
+   "end": 20.791
+  },
+  {
+   "word": "parfaitement",
+   "start": 20.791,
+   "end": 21.304
+  },
+  {
+   "word": "les",
+   "start": 21.304,
+   "end": 21.433
+  },
+  {
+   "word": "conditions",
+   "start": 21.433,
+   "end": 21.914
+  },
+  {
+   "word": "d'un",
+   "start": 21.914,
+   "end": 21.994
+  },
+  {
+   "word": "sommeil",
+   "start": 22.074,
+   "end": 22.347
+  },
+  {
+   "word": "nocturne.",
+   "start": 22.347,
+   "end": 22.764
+  },
+  {
+   "word": "Et",
+   "start": 23.534,
+   "end": 23.598
+  },
+  {
+   "word": "si",
+   "start": 23.598,
+   "end": 23.759
+  },
+  {
+   "word": "tu",
+   "start": 23.759,
+   "end": 23.839
+  },
+  {
+   "word": "te",
+   "start": 23.839,
+   "end": 23.999
+  },
+  {
+   "word": "couches",
+   "start": 23.999,
+   "end": 24.24
+  },
+  {
+   "word": "très",
+   "start": 24.24,
+   "end": 24.4
+  },
+  {
+   "word": "tard,",
+   "start": 24.481,
+   "end": 24.689
+  },
+  {
+   "word": "tout",
+   "start": 24.962,
+   "end": 25.219
+  },
+  {
+   "word": "en",
+   "start": 25.219,
+   "end": 25.283
+  },
+  {
+   "word": "devant",
+   "start": 25.283,
+   "end": 25.523
+  },
+  {
+   "word": "te",
+   "start": 25.523,
+   "end": 25.604
+  },
+  {
+   "word": "lever",
+   "start": 25.62,
+   "end": 25.924
+  },
+  {
+   "word": "tôt,",
+   "start": 25.924,
+   "end": 26.053
+  },
+  {
+   "word": "tu",
+   "start": 26.567,
+   "end": 26.615
+  },
+  {
+   "word": "accumules",
+   "start": 26.663,
+   "end": 26.984
+  },
+  {
+   "word": "une",
+   "start": 26.984,
+   "end": 27.209
+  },
+  {
+   "word": "dette",
+   "start": 27.209,
+   "end": 27.37
+  },
+  {
+   "word": "de",
+   "start": 27.37,
+   "end": 27.531
+  },
+  {
+   "word": "sommeil",
+   "start": 27.531,
+   "end": 27.916
+  },
+  {
+   "word": "qui",
+   "start": 27.933,
+   "end": 28.093
+  },
+  {
+   "word": "peut",
+   "start": 28.093,
+   "end": 28.19
+  },
+  {
+   "word": "affecter",
+   "start": 28.19,
+   "end": 28.575
+  },
+  {
+   "word": "ta",
+   "start": 28.575,
+   "end": 28.736
+  },
+  {
+   "word": "récupération,",
+   "start": 28.736,
+   "end": 29.427
+  },
+  {
+   "word": "tes",
+   "start": 29.62,
+   "end": 29.797
+  },
+  {
+   "word": "hormones",
+   "start": 29.797,
+   "end": 30.086
+  },
+  {
+   "word": "et",
+   "start": 30.359,
+   "end": 30.423
+  },
+  {
+   "word": "tes",
+   "start": 30.423,
+   "end": 30.504
+  },
+  {
+   "word": "performances",
+   "start": 30.504,
+   "end": 30.986
+  },
+  {
+   "word": "sportives.",
+   "start": 30.986,
+   "end": 31.42
+  },
+  {
+   "word": "Alors,",
+   "start": 32.207,
+   "end": 32.432
+  },
+  {
+   "word": "le",
+   "start": 32.753,
+   "end": 32.914
+  },
+  {
+   "word": "problème,",
+   "start": 32.914,
+   "end": 33.364
+  },
+  {
+   "word": "ce",
+   "start": 33.557,
+   "end": 33.653
+  },
+  {
+   "word": "n'est",
+   "start": 33.653,
+   "end": 33.798
+  },
+  {
+   "word": "pas",
+   "start": 33.798,
+   "end": 33.959
+  },
+  {
+   "word": "précisément",
+   "start": 33.959,
+   "end": 34.473
+  },
+  {
+   "word": "minuit,",
+   "start": 34.473,
+   "end": 34.81
+  },
+  {
+   "word": "c'est",
+   "start": 35.244,
+   "end": 35.357
+  },
+  {
+   "word": "de",
+   "start": 35.357,
+   "end": 35.485
+  },
+  {
+   "word": "dormir",
+   "start": 35.485,
+   "end": 35.807
+  },
+  {
+   "word": "trop",
+   "start": 35.807,
+   "end": 36.048
+  },
+  {
+   "word": "peu",
+   "start": 36.048,
+   "end": 36.208
+  },
+  {
+   "word": "et",
+   "start": 36.385,
+   "end": 36.449
+  },
+  {
+   "word": "de",
+   "start": 36.53,
+   "end": 36.691
+  },
+  {
+   "word": "dérégler",
+   "start": 36.691,
+   "end": 37.092
+  },
+  {
+   "word": "ton",
+   "start": 37.092,
+   "end": 37.221
+  },
+  {
+   "word": "rythme",
+   "start": 37.221,
+   "end": 37.558
+  },
+  {
+   "word": "biologique.",
+   "start": 37.574,
+   "end": 38.105
+  },
+  {
+   "word": "Dis-moi",
+   "start": 38.86,
+   "end": 39.197
+  },
+  {
+   "word": "en",
+   "start": 39.197,
+   "end": 39.262
+  },
+  {
+   "word": "commentaire",
+   "start": 39.342,
+   "end": 39.953
+  },
+  {
+   "word": "à",
+   "start": 40.403,
+   "end": 40.467
+  },
+  {
+   "word": "quelle",
+   "start": 40.467,
+   "end": 40.644
+  },
+  {
+   "word": "heure",
+   "start": 40.644,
+   "end": 40.756
+  },
+  {
+   "word": "tu",
+   "start": 40.788,
+   "end": 40.949
+  },
+  {
+   "word": "te",
+   "start": 40.949,
+   "end": 41.029
+  },
+  {
+   "word": "couches",
+   "start": 41.029,
+   "end": 41.222
+  },
+  {
+   "word": "et",
+   "start": 41.929,
+   "end": 41.994
+  },
+  {
+   "word": "partage",
+   "start": 41.994,
+   "end": 42.492
+  },
+  {
+   "word": "avec",
+   "start": 42.492,
+   "end": 42.636
+  },
+  {
+   "word": "ton",
+   "start": 42.636,
+   "end": 42.813
+  },
+  {
+   "word": "ami",
+   "start": 42.813,
+   "end": 43.038
+  },
+  {
+   "word": "qui",
+   "start": 43.038,
+   "end": 43.151
+  },
+  {
+   "word": "se",
+   "start": 43.151,
+   "end": 43.279
+  },
+  {
+   "word": "couche",
+   "start": 43.279,
+   "end": 43.52
+  },
+  {
+   "word": "tard.",
+   "start": 43.52,
+   "end": 43.649
+  },
+  {
+   "word": "Abonne-toi,",
+   "start": 44.34,
+   "end": 44.693
+  },
+  {
+   "word": "une",
+   "start": 44.983,
+   "end": 45.031
+  },
+  {
+   "word": "nouvelle",
+   "start": 45.127,
+   "end": 45.352
+  },
+  {
+   "word": "vidéo",
+   "start": 45.368,
+   "end": 45.69
+  },
+  {
+   "word": "chaque",
+   "start": 45.77,
+   "end": 46.011
+  },
+  {
+   "word": "jour.",
+   "start": 46.011,
+   "end": 46.22
+  },
+  {
+   "word": "Calibody.com.",
+   "start": 46.461,
+   "end": 47.586
+  }
+ ],
+ "text": "Tu te couches à minuit tous les soirs? Alors écoute bien ça! Tu as sûrement déjà entendu cette phrase: une heure de sommeil avant minuit vaut 2 heures après minuit. C'est faux! Mais attention, il y a quand même une vérité derrière cette croyance. Ton corps possède une horloge biologique qui fonctionne naturellement avec la lumière du jour et l'obscurité. Dormir pendant la journée ne reproduit donc pas parfaitement les conditions d'un sommeil nocturne. Et si tu te couches très tard, tout en devant te lever tôt, tu accumules une dette de sommeil qui peut affecter ta récupération, tes hormones et tes performances sportives. Alors, le problème, ce n'est pas précisément minuit, c'est de dormir trop peu et de dérégler ton rythme biologique. Dis-moi en commentaire à quelle heure tu te couches et partage avec ton ami qui se couche tard. Abonne-toi, une nouvelle vidéo chaque jour. Calibody.com."
+}
