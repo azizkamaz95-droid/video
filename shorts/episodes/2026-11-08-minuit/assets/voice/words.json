@@ -4,890 +4,1482 @@
   {
    "i": 0,
    "word": "Tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.176,
+   "end": 0.256,
+   "google": [
+    0.176,
+    0.256
+   ]
   },
   {
    "i": 1,
    "word": "te",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.256,
+   "end": 0.336,
+   "google": [
+    0.256,
+    0.336
+   ]
   },
   {
    "i": 2,
    "word": "couches",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.336,
+   "end": 0.513,
+   "google": [
+    0.336,
+    0.513
+   ]
   },
   {
    "i": 3,
    "word": "à",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.513,
+   "end": 0.577,
+   "google": [
+    0.513,
+    0.577
+   ]
   },
   {
    "i": 4,
    "word": "minuit",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.577,
+   "end": 0.818,
+   "google": [
+    0.577,
+    0.818
+   ]
   },
   {
    "i": 5,
    "word": "tous",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.818,
+   "end": 0.946,
+   "google": [
+    0.818,
+    0.946
+   ]
   },
   {
    "i": 6,
    "word": "les",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.946,
+   "end": 1.058,
+   "google": [
+    0.946,
+    1.058
+   ]
   },
   {
    "i": 7,
    "word": "soirs ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.058,
+   "end": 1.427,
+   "google": [
+    1.058,
+    1.427
+   ]
   },
   {
    "i": 8,
    "word": "Alors",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.957,
+   "end": 2.133,
+   "google": [
+    1.957,
+    2.133
+   ]
   },
   {
    "i": 9,
    "word": "écoute",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.197,
+   "end": 2.438,
+   "google": [
+    2.197,
+    2.438
+   ]
   },
   {
    "i": 10,
    "word": "bien",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.502,
+   "end": 2.663,
+   "google": [
+    2.502,
+    2.663
+   ]
   },
   {
    "i": 11,
    "word": "ça !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.695,
+   "end": 2.871,
+   "google": [
+    2.695,
+    2.871
+   ]
   },
   {
    "i": 12,
    "word": "Tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.545,
+   "end": 3.721,
+   "google": [
+    3.545,
+    3.721
+   ]
   },
   {
    "i": 13,
    "word": "as",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.721,
+   "end": 3.786,
+   "google": [
+    3.721,
+    3.786
+   ]
   },
   {
    "i": 14,
    "word": "sûrement",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.786,
+   "end": 4.139,
+   "google": [
+    3.786,
+    4.139
+   ]
   },
   {
    "i": 15,
    "word": "déjà",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.139,
+   "end": 4.363,
+   "google": [
+    4.139,
+    4.363
+   ]
   },
   {
    "i": 16,
    "word": "entendu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.363,
+   "end": 4.668,
+   "google": [
+    4.363,
+    4.668
+   ]
   },
   {
    "i": 17,
    "word": "cette",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.668,
+   "end": 4.86,
+   "google": [
+    4.668,
+    4.86
+   ]
   },
   {
    "i": 18,
    "word": "phrase :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.86,
+   "end": 5.133,
+   "google": [
+    4.86,
+    5.133
+   ]
   },
   {
    "i": 19,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.566,
+   "end": 5.663,
+   "google": [
+    5.566,
+    5.663
+   ]
   },
   {
    "i": 20,
    "word": "heure",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.727,
+   "end": 5.791,
+   "google": [
+    5.727,
+    5.791
+   ]
   },
   {
    "i": 21,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.791,
+   "end": 5.951,
+   "google": [
+    5.791,
+    5.951
+   ]
   },
   {
    "i": 22,
    "word": "sommeil",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.951,
+   "end": 6.288,
+   "google": [
+    5.951,
+    6.288
+   ]
   },
   {
    "i": 23,
    "word": "avant",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.288,
+   "end": 6.465,
+   "google": [
+    6.288,
+    6.465
+   ]
   },
   {
    "i": 24,
    "word": "minuit",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.465,
+   "end": 6.914,
+   "google": [
+    6.465,
+    6.914
+   ]
   },
   {
    "i": 25,
    "word": "vaut",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.914,
+   "end": 7.074,
+   "google": [
+    6.914,
+    7.074
+   ]
   },
   {
    "i": 26,
    "word": "deux",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.074,
+   "end": 7.203,
+   "google": [
+    7.074,
+    7.203
+   ]
   },
   {
    "i": 27,
    "word": "heures",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.331,
+   "end": 7.411,
+   "google": [
+    7.331,
+    7.411
+   ]
   },
   {
    "i": 28,
    "word": "après",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.411,
+   "end": 7.668,
+   "google": [
+    7.411,
+    7.668
+   ]
   },
   {
    "i": 29,
    "word": "minuit.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.668,
+   "end": 8.005,
+   "google": [
+    7.668,
+    8.005
+   ]
   },
   {
    "i": 30,
    "word": "C'est",
-   "start": 0.0,
-   "end": 0.0
+   "start": 8.598,
+   "end": 8.759,
+   "google": [
+    8.598,
+    8.759
+   ]
   },
   {
    "i": 31,
    "word": "faux !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 8.759,
+   "end": 8.887,
+   "google": [
+    8.759,
+    8.887
+   ]
   },
   {
    "i": 32,
    "word": "Mais",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.641,
+   "end": 9.818,
+   "google": [
+    9.641,
+    9.818
+   ]
   },
   {
    "i": 33,
    "word": "attention,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.818,
+   "end": 10.251,
+   "google": [
+    9.818,
+    10.251
+   ]
   },
   {
    "i": 34,
    "word": "il",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.62,
+   "end": 10.7,
+   "google": [
+    10.62,
+    10.7
+   ]
   },
   {
    "i": 35,
    "word": "y",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.7,
+   "end": 10.828,
+   "google": [
+    10.7,
+    10.828
+   ]
   },
   {
    "i": 36,
    "word": "a",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.828,
+   "end": 10.844,
+   "google": [
+    10.828,
+    10.844
+   ]
   },
   {
    "i": 37,
    "word": "quand",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.925,
+   "end": 11.005,
+   "google": [
+    10.925,
+    11.005
+   ]
   },
   {
    "i": 38,
    "word": "même",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.005,
+   "end": 11.149,
+   "google": [
+    11.005,
+    11.149
+   ]
   },
   {
    "i": 39,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.181,
+   "end": 11.229,
+   "google": [
+    11.181,
+    11.229
+   ]
   },
   {
    "i": 40,
    "word": "vérité",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.326,
+   "end": 11.727,
+   "google": [
+    11.326,
+    11.727
+   ]
   },
   {
    "i": 41,
    "word": "derrière",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.727,
+   "end": 11.951,
+   "google": [
+    11.727,
+    11.951
+   ]
   },
   {
    "i": 42,
    "word": "cette",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.048,
+   "end": 12.208,
+   "google": [
+    12.048,
+    12.208
+   ]
   },
   {
    "i": 43,
    "word": "croyance.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.208,
+   "end": 12.561,
+   "google": [
+    12.208,
+    12.561
+   ]
   },
   {
    "i": 44,
    "word": "Ton",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.331,
+   "end": 13.491,
+   "google": [
+    13.331,
+    13.491
+   ]
   },
   {
    "i": 45,
    "word": "corps",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.491,
+   "end": 13.716,
+   "google": [
+    13.491,
+    13.716
+   ]
   },
   {
    "i": 46,
    "word": "possède",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.732,
+   "end": 14.149,
+   "google": [
+    13.732,
+    14.149
+   ]
   },
   {
    "i": 47,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.149,
+   "end": 14.197,
+   "google": [
+    14.149,
+    14.197
+   ]
   },
   {
    "i": 48,
    "word": "horloge",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.31,
+   "end": 14.598,
+   "google": [
+    14.31,
+    14.598
+   ]
   },
   {
    "i": 49,
    "word": "biologique",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.614,
+   "end": 15.096,
+   "google": [
+    14.614,
+    15.096
+   ]
   },
   {
    "i": 50,
    "word": "qui",
-   "start": 0.0,
-   "end": 0.0
+   "start": 15.096,
+   "end": 15.256,
+   "google": [
+    15.096,
+    15.256
+   ]
   },
   {
    "i": 51,
    "word": "fonctionne",
-   "start": 0.0,
-   "end": 0.0
+   "start": 15.256,
+   "end": 15.641,
+   "google": [
+    15.256,
+    15.641
+   ]
   },
   {
    "i": 52,
    "word": "naturellement",
-   "start": 0.0,
-   "end": 0.0
+   "start": 15.737,
+   "end": 16.395,
+   "google": [
+    15.737,
+    16.395
+   ]
   },
   {
    "i": 53,
    "word": "avec",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.395,
+   "end": 16.62,
+   "google": [
+    16.395,
+    16.62
+   ]
   },
   {
    "i": 54,
    "word": "la",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.62,
+   "end": 16.732,
+   "google": [
+    16.62,
+    16.732
+   ]
   },
   {
    "i": 55,
    "word": "lumière",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.732,
+   "end": 17.021,
+   "google": [
+    16.732,
+    17.021
+   ]
   },
   {
    "i": 56,
    "word": "du",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.021,
+   "end": 17.181,
+   "google": [
+    17.021,
+    17.181
+   ]
   },
   {
    "i": 57,
    "word": "jour",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.181,
+   "end": 17.358,
+   "google": [
+    17.181,
+    17.358
+   ]
   },
   {
    "i": 58,
    "word": "et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.358,
+   "end": 17.406,
+   "google": [
+    17.358,
+    17.406
+   ]
   },
   {
    "i": 59,
    "word": "l'obscurité.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.406,
+   "end": 18.031,
+   "google": [
+    17.406,
+    18.031
+   ]
   },
   {
    "i": 60,
    "word": "Dormir",
-   "start": 0.0,
-   "end": 0.0
+   "start": 18.705,
+   "end": 18.994,
+   "google": [
+    18.705,
+    18.994
+   ]
   },
   {
    "i": 61,
    "word": "pendant",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.106,
+   "end": 19.347,
+   "google": [
+    19.106,
+    19.347
+   ]
   },
   {
    "i": 62,
    "word": "la",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.347,
+   "end": 19.427,
+   "google": [
+    19.347,
+    19.427
+   ]
   },
   {
    "i": 63,
    "word": "journée",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.459,
+   "end": 19.78,
+   "google": [
+    19.459,
+    19.78
+   ]
   },
   {
    "i": 64,
    "word": "ne",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.78,
+   "end": 19.908,
+   "google": [
+    19.78,
+    19.908
+   ]
   },
   {
    "i": 65,
    "word": "reproduit",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.908,
+   "end": 20.342,
+   "google": [
+    19.908,
+    20.342
+   ]
   },
   {
    "i": 66,
    "word": "donc",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.39,
+   "end": 20.502,
+   "google": [
+    20.39,
+    20.502
+   ]
   },
   {
    "i": 67,
    "word": "pas",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.63,
+   "end": 20.791,
+   "google": [
+    20.63,
+    20.791
+   ]
   },
   {
    "i": 68,
    "word": "parfaitement",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.791,
+   "end": 21.304,
+   "google": [
+    20.791,
+    21.304
+   ]
   },
   {
    "i": 69,
    "word": "les",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.304,
+   "end": 21.433,
+   "google": [
+    21.304,
+    21.433
+   ]
   },
   {
    "i": 70,
    "word": "conditions",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.433,
+   "end": 21.914,
+   "google": [
+    21.433,
+    21.914
+   ]
   },
   {
    "i": 71,
    "word": "d'un",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.914,
+   "end": 21.994,
+   "google": [
+    21.914,
+    21.994
+   ]
   },
   {
    "i": 72,
    "word": "sommeil",
-   "start": 0.0,
-   "end": 0.0
+   "start": 22.074,
+   "end": 22.347,
+   "google": [
+    22.074,
+    22.347
+   ]
   },
   {
    "i": 73,
    "word": "nocturne.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 22.347,
+   "end": 22.764,
+   "google": [
+    22.347,
+    22.764
+   ]
   },
   {
    "i": 74,
    "word": "Et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.534,
+   "end": 23.598,
+   "google": [
+    23.534,
+    23.598
+   ]
   },
   {
    "i": 75,
    "word": "si",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.598,
+   "end": 23.759,
+   "google": [
+    23.598,
+    23.759
+   ]
   },
   {
    "i": 76,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.759,
+   "end": 23.839,
+   "google": [
+    23.759,
+    23.839
+   ]
   },
   {
    "i": 77,
    "word": "te",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.839,
+   "end": 23.999,
+   "google": [
+    23.839,
+    23.999
+   ]
   },
   {
    "i": 78,
    "word": "couches",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.999,
+   "end": 24.24,
+   "google": [
+    23.999,
+    24.24
+   ]
   },
   {
    "i": 79,
    "word": "très",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.24,
+   "end": 24.4,
+   "google": [
+    24.24,
+    24.4
+   ]
   },
   {
    "i": 80,
    "word": "tard",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.481,
+   "end": 24.689,
+   "google": [
+    24.481,
+    24.689
+   ]
   },
   {
    "i": 81,
    "word": "tout",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.962,
+   "end": 25.219,
+   "google": [
+    24.962,
+    25.219
+   ]
   },
   {
    "i": 82,
    "word": "en",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.219,
+   "end": 25.283,
+   "google": [
+    25.219,
+    25.283
+   ]
   },
   {
    "i": 83,
    "word": "devant",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.283,
+   "end": 25.523,
+   "google": [
+    25.283,
+    25.523
+   ]
   },
   {
    "i": 84,
    "word": "te",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.523,
+   "end": 25.604,
+   "google": [
+    25.523,
+    25.604
+   ]
   },
   {
    "i": 85,
    "word": "lever",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.62,
+   "end": 25.924,
+   "google": [
+    25.62,
+    25.924
+   ]
   },
   {
    "i": 86,
    "word": "tôt,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.924,
+   "end": 26.053,
+   "google": [
+    25.924,
+    26.053
+   ]
   },
   {
    "i": 87,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.567,
+   "end": 26.615,
+   "google": [
+    26.567,
+    26.615
+   ]
   },
   {
    "i": 88,
    "word": "accumules",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.663,
+   "end": 26.984,
+   "google": [
+    26.663,
+    26.984
+   ]
   },
   {
    "i": 89,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.984,
+   "end": 27.209,
+   "google": [
+    26.984,
+    27.209
+   ]
   },
   {
    "i": 90,
    "word": "dette",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.209,
+   "end": 27.37,
+   "google": [
+    27.209,
+    27.37
+   ]
   },
   {
    "i": 91,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.37,
+   "end": 27.531,
+   "google": [
+    27.37,
+    27.531
+   ]
   },
   {
    "i": 92,
    "word": "sommeil",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.531,
+   "end": 27.916,
+   "google": [
+    27.531,
+    27.916
+   ]
   },
   {
    "i": 93,
    "word": "qui",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.933,
+   "end": 28.093,
+   "google": [
+    27.933,
+    28.093
+   ]
   },
   {
    "i": 94,
    "word": "peut",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.093,
+   "end": 28.19,
+   "google": [
+    28.093,
+    28.19
+   ]
   },
   {
    "i": 95,
    "word": "affecter",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.19,
+   "end": 28.575,
+   "google": [
+    28.19,
+    28.575
+   ]
   },
   {
    "i": 96,
    "word": "ta",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.575,
+   "end": 28.736,
+   "google": [
+    28.575,
+    28.736
+   ]
   },
   {
    "i": 97,
    "word": "récupération,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.736,
+   "end": 29.427,
+   "google": [
+    28.736,
+    29.427
+   ]
   },
   {
    "i": 98,
    "word": "tes",
-   "start": 0.0,
-   "end": 0.0
+   "start": 29.62,
+   "end": 29.797,
+   "google": [
+    29.62,
+    29.797
+   ]
   },
   {
    "i": 99,
    "word": "hormones",
-   "start": 0.0,
-   "end": 0.0
+   "start": 29.797,
+   "end": 30.086,
+   "google": [
+    29.797,
+    30.086
+   ]
   },
   {
    "i": 100,
    "word": "et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.359,
+   "end": 30.423,
+   "google": [
+    30.359,
+    30.423
+   ]
   },
   {
    "i": 101,
    "word": "tes",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.423,
+   "end": 30.504,
+   "google": [
+    30.423,
+    30.504
+   ]
   },
   {
    "i": 102,
    "word": "performances",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.504,
+   "end": 30.986,
+   "google": [
+    30.504,
+    30.986
+   ]
   },
   {
    "i": 103,
    "word": "sportives.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.986,
+   "end": 31.42,
+   "google": [
+    30.986,
+    31.42
+   ]
   },
   {
    "i": 104,
    "word": "Alors,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.207,
+   "end": 32.432,
+   "google": [
+    32.207,
+    32.432
+   ]
   },
   {
    "i": 105,
    "word": "le",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.753,
+   "end": 32.914,
+   "google": [
+    32.753,
+    32.914
+   ]
   },
   {
    "i": 106,
    "word": "problème,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.914,
+   "end": 33.364,
+   "google": [
+    32.914,
+    33.364
+   ]
   },
   {
    "i": 107,
    "word": "ce",
-   "start": 0.0,
-   "end": 0.0
+   "start": 33.557,
+   "end": 33.653,
+   "google": [
+    33.557,
+    33.653
+   ]
   },
   {
    "i": 108,
    "word": "n'est",
-   "start": 0.0,
-   "end": 0.0
+   "start": 33.653,
+   "end": 33.798,
+   "google": [
+    33.653,
+    33.798
+   ]
   },
   {
    "i": 109,
    "word": "pas",
-   "start": 0.0,
-   "end": 0.0
+   "start": 33.798,
+   "end": 33.959,
+   "google": [
+    33.798,
+    33.959
+   ]
   },
   {
    "i": 110,
    "word": "précisément",
-   "start": 0.0,
-   "end": 0.0
+   "start": 33.959,
+   "end": 34.473,
+   "google": [
+    33.959,
+    34.473
+   ]
   },
   {
    "i": 111,
    "word": "minuit :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 34.473,
+   "end": 34.81,
+   "google": [
+    34.473,
+    34.81
+   ]
   },
   {
    "i": 112,
    "word": "c'est",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.244,
+   "end": 35.357,
+   "google": [
+    35.244,
+    35.357
+   ]
   },
   {
    "i": 113,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.357,
+   "end": 35.485,
+   "google": [
+    35.357,
+    35.485
+   ]
   },
   {
    "i": 114,
    "word": "dormir",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.485,
+   "end": 35.807,
+   "google": [
+    35.485,
+    35.807
+   ]
   },
   {
    "i": 115,
    "word": "trop",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.807,
+   "end": 36.048,
+   "google": [
+    35.807,
+    36.048
+   ]
   },
   {
    "i": 116,
    "word": "peu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 36.048,
+   "end": 36.208,
+   "google": [
+    36.048,
+    36.208
+   ]
   },
   {
    "i": 117,
    "word": "et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 36.385,
+   "end": 36.449,
+   "google": [
+    36.385,
+    36.449
+   ]
   },
   {
    "i": 118,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 36.53,
+   "end": 36.691,
+   "google": [
+    36.53,
+    36.691
+   ]
   },
   {
    "i": 119,
    "word": "dérégler",
-   "start": 0.0,
-   "end": 0.0
+   "start": 36.691,
+   "end": 37.092,
+   "google": [
+    36.691,
+    37.092
+   ]
   },
   {
    "i": 120,
    "word": "ton",
-   "start": 0.0,
-   "end": 0.0
+   "start": 37.092,
+   "end": 37.221,
+   "google": [
+    37.092,
+    37.221
+   ]
   },
   {
    "i": 121,
    "word": "rythme",
-   "start": 0.0,
-   "end": 0.0
+   "start": 37.221,
+   "end": 37.558,
+   "google": [
+    37.221,
+    37.558
+   ]
   },
   {
    "i": 122,
    "word": "biologique.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 37.574,
+   "end": 38.105,
+   "google": [
+    37.574,
+    38.105
+   ]
   },
   {
    "i": 123,
    "word": "Dis-moi",
-   "start": 0.0,
-   "end": 0.0
+   "start": 38.86,
+   "end": 39.197,
+   "google": [
+    38.86,
+    39.197
+   ]
   },
   {
    "i": 124,
    "word": "en",
-   "start": 0.0,
-   "end": 0.0
+   "start": 39.197,
+   "end": 39.262,
+   "google": [
+    39.197,
+    39.262
+   ]
   },
   {
    "i": 125,
    "word": "commentaire :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 39.342,
+   "end": 39.953,
+   "google": [
+    39.342,
+    39.953
+   ]
   },
   {
    "i": 126,
    "word": "à",
-   "start": 0.0,
-   "end": 0.0
+   "start": 40.403,
+   "end": 40.467,
+   "google": [
+    40.403,
+    40.467
+   ]
   },
   {
    "i": 127,
    "word": "quelle",
-   "start": 0.0,
-   "end": 0.0
+   "start": 40.467,
+   "end": 40.644,
+   "google": [
+    40.467,
+    40.644
+   ]
   },
   {
    "i": 128,
    "word": "heure",
-   "start": 0.0,
-   "end": 0.0
+   "start": 40.644,
+   "end": 40.756,
+   "google": [
+    40.644,
+    40.756
+   ]
   },
   {
    "i": 129,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 40.788,
+   "end": 40.949,
+   "google": [
+    40.788,
+    40.949
+   ]
   },
   {
    "i": 130,
    "word": "te",
-   "start": 0.0,
-   "end": 0.0
+   "start": 40.949,
+   "end": 41.029,
+   "google": [
+    40.949,
+    41.029
+   ]
   },
   {
    "i": 131,
    "word": "couches ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 41.029,
+   "end": 41.222,
+   "google": [
+    41.029,
+    41.222
+   ]
   },
   {
    "i": 132,
    "word": "Et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 41.929,
+   "end": 41.994,
+   "google": [
+    41.929,
+    41.994
+   ]
   },
   {
    "i": 133,
    "word": "partage",
-   "start": 0.0,
-   "end": 0.0
+   "start": 41.994,
+   "end": 42.492,
+   "google": [
+    41.994,
+    42.492
+   ]
   },
   {
    "i": 134,
    "word": "avec",
-   "start": 0.0,
-   "end": 0.0
+   "start": 42.492,
+   "end": 42.636,
+   "google": [
+    42.492,
+    42.636
+   ]
   },
   {
    "i": 135,
    "word": "ton",
-   "start": 0.0,
-   "end": 0.0
+   "start": 42.636,
+   "end": 42.813,
+   "google": [
+    42.636,
+    42.813
+   ]
   },
   {
    "i": 136,
    "word": "ami",
-   "start": 0.0,
-   "end": 0.0
+   "start": 42.813,
+   "end": 43.038,
+   "google": [
+    42.813,
+    43.038
+   ]
   },
   {
    "i": 137,
    "word": "qui",
-   "start": 0.0,
-   "end": 0.0
+   "start": 43.038,
+   "end": 43.151,
+   "google": [
+    43.038,
+    43.151
+   ]
   },
   {
    "i": 138,
    "word": "se",
-   "start": 0.0,
-   "end": 0.0
+   "start": 43.151,
+   "end": 43.279,
+   "google": [
+    43.151,
+    43.279
+   ]
   },
   {
    "i": 139,
    "word": "couche",
-   "start": 0.0,
-   "end": 0.0
+   "start": 43.279,
+   "end": 43.52,
+   "google": [
+    43.279,
+    43.52
+   ]
   },
   {
    "i": 140,
    "word": "tard.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 43.52,
+   "end": 43.649,
+   "google": [
+    43.52,
+    43.649
+   ]
   },
   {
    "i": 141,
    "word": "Abonne-toi,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 44.34,
+   "end": 44.693,
+   "google": [
+    44.34,
+    44.693
+   ]
   },
   {
    "i": 142,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 44.983,
+   "end": 45.031,
+   "google": [
+    44.983,
+    45.031
+   ]
   },
   {
    "i": 143,
    "word": "nouvelle",
-   "start": 0.0,
-   "end": 0.0
+   "start": 45.127,
+   "end": 45.352,
+   "google": [
+    45.127,
+    45.352
+   ]
   },
   {
    "i": 144,
    "word": "vidéo",
-   "start": 0.0,
-   "end": 0.0
+   "start": 45.368,
+   "end": 45.69,
+   "google": [
+    45.368,
+    45.69
+   ]
   },
   {
    "i": 145,
    "word": "chaque",
-   "start": 0.0,
-   "end": 0.0
+   "start": 45.77,
+   "end": 46.011,
+   "google": [
+    45.77,
+    46.011
+   ]
   },
   {
    "i": 146,
    "word": "jour.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 46.011,
+   "end": 46.22,
+   "google": [
+    46.011,
+    46.22
+   ]
   },
   {
    "i": 147,
    "word": "CaliBodi.com !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 46.58,
+   "end": 47.586,
+   "google": [
+    46.461,
+    47.586
+   ]
   }
  ]
 }
