@@ -4,800 +4,1332 @@
   {
    "i": 0,
    "word": "Tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.176,
+   "end": 0.336,
+   "google": [
+    0.176,
+    0.336
+   ]
   },
   {
    "i": 1,
    "word": "crois",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.336,
+   "end": 0.496,
+   "google": [
+    0.336,
+    0.496
+   ]
   },
   {
    "i": 2,
    "word": "que",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.496,
+   "end": 0.657,
+   "google": [
+    0.496,
+    0.657
+   ]
   },
   {
    "i": 3,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.657,
+   "end": 0.769,
+   "google": [
+    0.657,
+    0.769
+   ]
   },
   {
    "i": 4,
    "word": "manques",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.769,
+   "end": 0.977,
+   "google": [
+    0.769,
+    0.977
+   ]
   },
   {
    "i": 5,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.977,
+   "end": 1.137,
+   "google": [
+    0.977,
+    1.137
+   ]
   },
   {
    "i": 6,
    "word": "volonté",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.137,
+   "end": 1.538,
+   "google": [
+    1.137,
+    1.538
+   ]
   },
   {
    "i": 7,
    "word": "parce",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.858,
+   "end": 2.051,
+   "google": [
+    1.858,
+    2.051
+   ]
   },
   {
    "i": 8,
    "word": "que",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.051,
+   "end": 2.131,
+   "google": [
+    2.051,
+    2.131
+   ]
   },
   {
    "i": 9,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.131,
+   "end": 2.211,
+   "google": [
+    2.131,
+    2.211
+   ]
   },
   {
    "i": 10,
    "word": "n'arrives",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.211,
+   "end": 2.579,
+   "google": [
+    2.211,
+    2.579
+   ]
   },
   {
    "i": 11,
    "word": "pas",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.579,
+   "end": 2.676,
+   "google": [
+    2.579,
+    2.676
+   ]
   },
   {
    "i": 12,
    "word": "à",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.676,
+   "end": 2.756,
+   "google": [
+    2.676,
+    2.756
+   ]
   },
   {
    "i": 13,
    "word": "arrêter",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.756,
+   "end": 3.092,
+   "google": [
+    2.756,
+    3.092
+   ]
   },
   {
    "i": 14,
    "word": "le",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.092,
+   "end": 3.14,
+   "google": [
+    3.092,
+    3.14
+   ]
   },
   {
    "i": 15,
    "word": "sucre ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.14,
+   "end": 3.493,
+   "google": [
+    3.14,
+    3.493
+   ]
   },
   {
    "i": 16,
    "word": "Et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.118,
+   "end": 4.182,
+   "google": [
+    4.118,
+    4.182
+   ]
   },
   {
    "i": 17,
    "word": "si",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.182,
+   "end": 4.342,
+   "google": [
+    4.182,
+    4.342
+   ]
   },
   {
    "i": 18,
    "word": "le",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.342,
+   "end": 4.422,
+   "google": [
+    4.342,
+    4.422
+   ]
   },
   {
    "i": 19,
    "word": "problème",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.422,
+   "end": 4.775,
+   "google": [
+    4.422,
+    4.775
+   ]
   },
   {
    "i": 20,
    "word": "était",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.839,
+   "end": 4.983,
+   "google": [
+    4.839,
+    4.983
+   ]
   },
   {
    "i": 21,
    "word": "plus",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.983,
+   "end": 5.143,
+   "google": [
+    4.983,
+    5.143
+   ]
   },
   {
    "i": 22,
    "word": "compliqué",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.143,
+   "end": 5.496,
+   "google": [
+    5.143,
+    5.496
+   ]
   },
   {
    "i": 23,
    "word": "que",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.496,
+   "end": 5.544,
+   "google": [
+    5.496,
+    5.544
+   ]
   },
   {
    "i": 24,
    "word": "ça ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.544,
+   "end": 5.672,
+   "google": [
+    5.544,
+    5.672
+   ]
   },
   {
    "i": 25,
    "word": "Quand",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.345,
+   "end": 6.505,
+   "google": [
+    6.345,
+    6.505
+   ]
   },
   {
    "i": 26,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.505,
+   "end": 6.618,
+   "google": [
+    6.505,
+    6.618
+   ]
   },
   {
    "i": 27,
    "word": "manges",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.618,
+   "end": 6.81,
+   "google": [
+    6.618,
+    6.81
+   ]
   },
   {
    "i": 28,
    "word": "quelque",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.826,
+   "end": 7.066,
+   "google": [
+    6.826,
+    7.066
+   ]
   },
   {
    "i": 29,
    "word": "chose",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.098,
+   "end": 7.307,
+   "google": [
+    7.098,
+    7.307
+   ]
   },
   {
    "i": 30,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.307,
+   "end": 7.387,
+   "google": [
+    7.307,
+    7.387
+   ]
   },
   {
    "i": 31,
    "word": "très",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.467,
+   "end": 7.627,
+   "google": [
+    7.467,
+    7.627
+   ]
   },
   {
    "i": 32,
    "word": "sucré,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.627,
+   "end": 7.916,
+   "google": [
+    7.627,
+    7.916
+   ]
   },
   {
    "i": 33,
    "word": "ton",
-   "start": 0.0,
-   "end": 0.0
+   "start": 8.348,
+   "end": 8.509,
+   "google": [
+    8.348,
+    8.509
+   ]
   },
   {
    "i": 34,
    "word": "cerveau",
-   "start": 0.0,
-   "end": 0.0
+   "start": 8.509,
+   "end": 8.989,
+   "google": [
+    8.509,
+    8.989
+   ]
   },
   {
    "i": 35,
    "word": "active",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.166,
+   "end": 9.534,
+   "google": [
+    9.166,
+    9.534
+   ]
   },
   {
    "i": 36,
    "word": "son",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.55,
+   "end": 9.71,
+   "google": [
+    9.55,
+    9.71
+   ]
   },
   {
    "i": 37,
    "word": "système",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.71,
+   "end": 10.111,
+   "google": [
+    9.71,
+    10.111
+   ]
   },
   {
    "i": 38,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.111,
+   "end": 10.223,
+   "google": [
+    10.111,
+    10.223
+   ]
   },
   {
    "i": 39,
    "word": "récompense.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.223,
+   "end": 10.8,
+   "google": [
+    10.223,
+    10.8
+   ]
   },
   {
    "i": 40,
    "word": "Tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.473,
+   "end": 11.585,
+   "google": [
+    11.473,
+    11.585
+   ]
   },
   {
    "i": 41,
    "word": "ressens",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.585,
+   "end": 11.89,
+   "google": [
+    11.585,
+    11.89
+   ]
   },
   {
    "i": 42,
    "word": "du",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.89,
+   "end": 12.034,
+   "google": [
+    11.89,
+    12.034
+   ]
   },
   {
    "i": 43,
    "word": "plaisir",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.034,
+   "end": 12.451,
+   "google": [
+    12.034,
+    12.451
+   ]
   },
   {
    "i": 44,
    "word": "et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.451,
+   "end": 12.515,
+   "google": [
+    12.451,
+    12.515
+   ]
   },
   {
    "i": 45,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.515,
+   "end": 12.675,
+   "google": [
+    12.515,
+    12.675
+   ]
   },
   {
    "i": 46,
    "word": "peux",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.675,
+   "end": 12.851,
+   "google": [
+    12.675,
+    12.851
+   ]
   },
   {
    "i": 47,
    "word": "avoir",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.851,
+   "end": 13.092,
+   "google": [
+    12.851,
+    13.092
+   ]
   },
   {
    "i": 48,
    "word": "envie",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.092,
+   "end": 13.316,
+   "google": [
+    13.092,
+    13.316
+   ]
   },
   {
    "i": 49,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.316,
+   "end": 13.348,
+   "google": [
+    13.316,
+    13.348
+   ]
   },
   {
    "i": 50,
    "word": "recommencer.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.348,
+   "end": 13.925,
+   "google": [
+    13.348,
+    13.925
+   ]
   },
   {
    "i": 51,
    "word": "Mais",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.598,
+   "end": 14.774,
+   "google": [
+    14.598,
+    14.774
+   ]
   },
   {
    "i": 52,
    "word": "attention :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.774,
+   "end": 15.207,
+   "google": [
+    14.774,
+    15.207
+   ]
   },
   {
    "i": 53,
    "word": "le",
-   "start": 0.0,
-   "end": 0.0
+   "start": 15.72,
+   "end": 15.8,
+   "google": [
+    15.72,
+    15.8
+   ]
   },
   {
    "i": 54,
    "word": "sucre",
-   "start": 0.0,
-   "end": 0.0
+   "start": 15.832,
+   "end": 16.136,
+   "google": [
+    15.832,
+    16.136
+   ]
   },
   {
    "i": 55,
    "word": "n'est",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.136,
+   "end": 16.281,
+   "google": [
+    16.136,
+    16.281
+   ]
   },
   {
    "i": 56,
    "word": "pas",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.361,
+   "end": 16.537,
+   "google": [
+    16.361,
+    16.537
+   ]
   },
   {
    "i": 57,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.537,
+   "end": 16.601,
+   "google": [
+    16.537,
+    16.601
+   ]
   },
   {
    "i": 58,
    "word": "drogue",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.601,
+   "end": 16.938,
+   "google": [
+    16.601,
+    16.938
+   ]
   },
   {
    "i": 59,
    "word": "au",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.018,
+   "end": 17.034,
+   "google": [
+    17.018,
+    17.034
+   ]
   },
   {
    "i": 60,
    "word": "sens",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.034,
+   "end": 17.322,
+   "google": [
+    17.034,
+    17.322
+   ]
   },
   {
    "i": 61,
    "word": "médical",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.322,
+   "end": 17.707,
+   "google": [
+    17.322,
+    17.707
+   ]
   },
   {
    "i": 62,
    "word": "du",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.723,
+   "end": 17.883,
+   "google": [
+    17.723,
+    17.883
+   ]
   },
   {
    "i": 63,
    "word": "terme.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.883,
+   "end": 18.075,
+   "google": [
+    17.883,
+    18.075
+   ]
   },
   {
    "i": 64,
    "word": "Et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 18.78,
+   "end": 18.844,
+   "google": [
+    18.78,
+    18.844
+   ]
   },
   {
    "i": 65,
    "word": "voici",
-   "start": 0.0,
-   "end": 0.0
+   "start": 18.925,
+   "end": 19.245,
+   "google": [
+    18.925,
+    19.245
+   ]
   },
   {
    "i": 66,
    "word": "ce",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.245,
+   "end": 19.293,
+   "google": [
+    19.245,
+    19.293
+   ]
   },
   {
    "i": 67,
    "word": "que",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.325,
+   "end": 19.405,
+   "google": [
+    19.325,
+    19.405
+   ]
   },
   {
    "i": 68,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.405,
+   "end": 19.566,
+   "google": [
+    19.405,
+    19.566
+   ]
   },
   {
    "i": 69,
    "word": "dois",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.566,
+   "end": 19.726,
+   "google": [
+    19.566,
+    19.726
+   ]
   },
   {
    "i": 70,
    "word": "retenir :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.726,
+   "end": 20.094,
+   "google": [
+    19.726,
+    20.094
+   ]
   },
   {
    "i": 71,
    "word": "plus",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.607,
+   "end": 20.848,
+   "google": [
+    20.607,
+    20.848
+   ]
   },
   {
    "i": 72,
    "word": "ton",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.848,
+   "end": 21.008,
+   "google": [
+    20.848,
+    21.008
+   ]
   },
   {
    "i": 73,
    "word": "alimentation",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.024,
+   "end": 21.665,
+   "google": [
+    21.024,
+    21.665
+   ]
   },
   {
    "i": 74,
    "word": "est",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.665,
+   "end": 21.729,
+   "google": [
+    21.665,
+    21.729
+   ]
   },
   {
    "i": 75,
    "word": "riche",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.729,
+   "end": 21.985,
+   "google": [
+    21.729,
+    21.985
+   ]
   },
   {
    "i": 76,
    "word": "en",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.985,
+   "end": 22.049,
+   "google": [
+    21.985,
+    22.049
+   ]
   },
   {
    "i": 77,
    "word": "produits",
-   "start": 0.0,
-   "end": 0.0
+   "start": 22.049,
+   "end": 22.338,
+   "google": [
+    22.049,
+    22.338
+   ]
   },
   {
    "i": 78,
    "word": "très",
-   "start": 0.0,
-   "end": 0.0
+   "start": 22.37,
+   "end": 22.61,
+   "google": [
+    22.37,
+    22.61
+   ]
   },
   {
    "i": 79,
    "word": "sucrés,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 22.61,
+   "end": 22.963,
+   "google": [
+    22.61,
+    22.963
+   ]
   },
   {
    "i": 80,
    "word": "plus",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.331,
+   "end": 23.508,
+   "google": [
+    23.331,
+    23.508
+   ]
   },
   {
    "i": 81,
    "word": "il",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.508,
+   "end": 23.556,
+   "google": [
+    23.508,
+    23.556
+   ]
   },
   {
    "i": 82,
    "word": "peut",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.572,
+   "end": 23.732,
+   "google": [
+    23.572,
+    23.732
+   ]
   },
   {
    "i": 83,
    "word": "devenir",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.732,
+   "end": 24.02,
+   "google": [
+    23.732,
+    24.02
+   ]
   },
   {
    "i": 84,
    "word": "difficile",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.052,
+   "end": 24.533,
+   "google": [
+    24.052,
+    24.533
+   ]
   },
   {
    "i": 85,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.533,
+   "end": 24.645,
+   "google": [
+    24.533,
+    24.645
+   ]
   },
   {
    "i": 86,
    "word": "résister",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.645,
+   "end": 25.046,
+   "google": [
+    24.645,
+    25.046
+   ]
   },
   {
    "i": 87,
    "word": "à",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.046,
+   "end": 25.126,
+   "google": [
+    25.046,
+    25.126
+   ]
   },
   {
    "i": 88,
    "word": "certaines",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.126,
+   "end": 25.399,
+   "google": [
+    25.126,
+    25.399
+   ]
   },
   {
    "i": 89,
    "word": "envies.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.511,
+   "end": 25.783,
+   "google": [
+    25.511,
+    25.783
+   ]
   },
   {
    "i": 90,
    "word": "Alors,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.377,
+   "end": 26.586,
+   "google": [
+    26.377,
+    26.586
+   ]
   },
   {
    "i": 91,
    "word": "la",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.02,
+   "end": 27.101,
+   "google": [
+    27.02,
+    27.101
+   ]
   },
   {
    "i": 92,
    "word": "prochaine",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.101,
+   "end": 27.422,
+   "google": [
+    27.101,
+    27.422
+   ]
   },
   {
    "i": 93,
    "word": "fois",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.422,
+   "end": 27.583,
+   "google": [
+    27.422,
+    27.583
+   ]
   },
   {
    "i": 94,
    "word": "que",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.583,
+   "end": 27.663,
+   "google": [
+    27.583,
+    27.663
+   ]
   },
   {
    "i": 95,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.663,
+   "end": 27.84,
+   "google": [
+    27.663,
+    27.84
+   ]
   },
   {
    "i": 96,
    "word": "as",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.84,
+   "end": 27.921,
+   "google": [
+    27.84,
+    27.921
+   ]
   },
   {
    "i": 97,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.921,
+   "end": 28.001,
+   "google": [
+    27.921,
+    28.001
+   ]
   },
   {
    "i": 98,
    "word": "envie",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.001,
+   "end": 28.178,
+   "google": [
+    28.001,
+    28.178
+   ]
   },
   {
    "i": 99,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.178,
+   "end": 28.306,
+   "google": [
+    28.178,
+    28.306
+   ]
   },
   {
    "i": 100,
    "word": "sucre,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.306,
+   "end": 28.66,
+   "google": [
+    28.306,
+    28.66
+   ]
   },
   {
    "i": 101,
    "word": "demande-toi :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 29.03,
+   "end": 29.48,
+   "google": [
+    29.03,
+    29.48
+   ]
   },
   {
    "i": 102,
    "word": "est-ce",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.091,
+   "end": 30.188,
+   "google": [
+    30.091,
+    30.188
+   ]
   },
   {
    "i": 103,
    "word": "que",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.188,
+   "end": 30.316,
+   "google": [
+    30.188,
+    30.316
+   ]
   },
   {
    "i": 104,
    "word": "j'ai",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.316,
+   "end": 30.397,
+   "google": [
+    30.316,
+    30.397
+   ]
   },
   {
    "i": 105,
    "word": "vraiment",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.397,
+   "end": 30.718,
+   "google": [
+    30.397,
+    30.718
+   ]
   },
   {
    "i": 106,
    "word": "faim,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.718,
+   "end": 30.927,
+   "google": [
+    30.718,
+    30.927
+   ]
   },
   {
    "i": 107,
    "word": "ou",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.297,
+   "end": 31.361,
+   "google": [
+    31.297,
+    31.361
+   ]
   },
   {
    "i": 108,
    "word": "est-ce",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.377,
+   "end": 31.522,
+   "google": [
+    31.377,
+    31.522
+   ]
   },
   {
    "i": 109,
    "word": "juste",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.522,
+   "end": 31.779,
+   "google": [
+    31.522,
+    31.779
+   ]
   },
   {
    "i": 110,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.779,
+   "end": 31.86,
+   "google": [
+    31.779,
+    31.86
+   ]
   },
   {
    "i": 111,
    "word": "envie ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.86,
+   "end": 32.053,
+   "google": [
+    31.86,
+    32.053
+   ]
   },
   {
    "i": 112,
    "word": "Dis-moi",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.728,
+   "end": 32.985,
+   "google": [
+    32.728,
+    32.985
+   ]
   },
   {
    "i": 113,
    "word": "en",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.985,
+   "end": 33.049,
+   "google": [
+    32.985,
+    33.049
+   ]
   },
   {
    "i": 114,
    "word": "commentaire :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 33.049,
+   "end": 33.58,
+   "google": [
+    33.049,
+    33.58
+   ]
   },
   {
    "i": 115,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 34.014,
+   "end": 34.175,
+   "google": [
+    34.014,
+    34.175
+   ]
   },
   {
    "i": 116,
    "word": "pourrais",
-   "start": 0.0,
-   "end": 0.0
+   "start": 34.175,
+   "end": 34.416,
+   "google": [
+    34.175,
+    34.416
+   ]
   },
   {
    "i": 117,
    "word": "tenir",
-   "start": 0.0,
-   "end": 0.0
+   "start": 34.416,
+   "end": 34.705,
+   "google": [
+    34.416,
+    34.705
+   ]
   },
   {
    "i": 118,
    "word": "7",
-   "start": 0.0,
-   "end": 0.0
+   "start": 34.738,
+   "end": 35.059,
+   "google": [
+    34.738,
+    35.059
+   ]
   },
   {
    "i": 119,
    "word": "jours",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.059,
+   "end": 35.204,
+   "google": [
+    35.059,
+    35.204
+   ]
   },
   {
    "i": 120,
    "word": "sans",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.22,
+   "end": 35.413,
+   "google": [
+    35.22,
+    35.413
+   ]
   },
   {
    "i": 121,
    "word": "manger",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.413,
+   "end": 35.783,
+   "google": [
+    35.413,
+    35.783
+   ]
   },
   {
    "i": 122,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.783,
+   "end": 35.863,
+   "google": [
+    35.783,
+    35.863
+   ]
   },
   {
    "i": 123,
    "word": "sucre",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.863,
+   "end": 36.12,
+   "google": [
+    35.863,
+    36.12
+   ]
   },
   {
    "i": 124,
    "word": "ajouté ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 36.12,
+   "end": 36.474,
+   "google": [
+    36.12,
+    36.474
+   ]
   },
   {
    "i": 125,
    "word": "Abonne-toi,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 37.005,
+   "end": 37.519,
+   "google": [
+    37.005,
+    37.519
+   ]
   },
   {
    "i": 126,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 37.728,
+   "end": 37.776,
+   "google": [
+    37.728,
+    37.776
+   ]
   },
   {
    "i": 127,
    "word": "nouvelle",
-   "start": 0.0,
-   "end": 0.0
+   "start": 37.873,
+   "end": 38.178,
+   "google": [
+    37.873,
+    38.178
+   ]
   },
   {
    "i": 128,
    "word": "vidéo",
-   "start": 0.0,
-   "end": 0.0
+   "start": 38.194,
+   "end": 38.484,
+   "google": [
+    38.194,
+    38.484
+   ]
   },
   {
    "i": 129,
    "word": "chaque",
-   "start": 0.0,
-   "end": 0.0
+   "start": 38.548,
+   "end": 38.837,
+   "google": [
+    38.548,
+    38.837
+   ]
   },
   {
    "i": 130,
    "word": "jour",
-   "start": 0.0,
-   "end": 0.0
+   "start": 38.837,
+   "end": 39.046,
+   "google": [
+    38.837,
+    39.046
+   ]
   },
   {
    "i": 131,
    "word": "sur",
-   "start": 0.0,
-   "end": 0.0
+   "start": 39.079,
+   "end": 39.223,
+   "google": [
+    39.079,
+    39.223
+   ]
   },
   {
    "i": 132,
    "word": "CaliBodi.com !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 39.288,
+   "end": 40.092,
+   "google": [
+    39.288,
+    40.092
+   ]
   }
  ]
 }

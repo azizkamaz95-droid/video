@@ -1,0 +1,671 @@
+{
+ "duration": 40.912,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.336
+  },
+  {
+   "word": "crois",
+   "start": 0.336,
+   "end": 0.496
+  },
+  {
+   "word": "que",
+   "start": 0.496,
+   "end": 0.657
+  },
+  {
+   "word": "tu",
+   "start": 0.657,
+   "end": 0.769
+  },
+  {
+   "word": "manques",
+   "start": 0.769,
+   "end": 0.977
+  },
+  {
+   "word": "de",
+   "start": 0.977,
+   "end": 1.137
+  },
+  {
+   "word": "volonté",
+   "start": 1.137,
+   "end": 1.538
+  },
+  {
+   "word": "parce",
+   "start": 1.858,
+   "end": 2.051
+  },
+  {
+   "word": "que",
+   "start": 2.051,
+   "end": 2.131
+  },
+  {
+   "word": "tu",
+   "start": 2.131,
+   "end": 2.211
+  },
+  {
+   "word": "n'arrives",
+   "start": 2.211,
+   "end": 2.579
+  },
+  {
+   "word": "pas",
+   "start": 2.579,
+   "end": 2.676
+  },
+  {
+   "word": "à",
+   "start": 2.676,
+   "end": 2.756
+  },
+  {
+   "word": "arrêter",
+   "start": 2.756,
+   "end": 3.092
+  },
+  {
+   "word": "le",
+   "start": 3.092,
+   "end": 3.14
+  },
+  {
+   "word": "sucre?",
+   "start": 3.14,
+   "end": 3.493
+  },
+  {
+   "word": "Et",
+   "start": 4.118,
+   "end": 4.182
+  },
+  {
+   "word": "si",
+   "start": 4.182,
+   "end": 4.342
+  },
+  {
+   "word": "le",
+   "start": 4.342,
+   "end": 4.422
+  },
+  {
+   "word": "problème",
+   "start": 4.422,
+   "end": 4.775
+  },
+  {
+   "word": "était",
+   "start": 4.839,
+   "end": 4.983
+  },
+  {
+   "word": "plus",
+   "start": 4.983,
+   "end": 5.143
+  },
+  {
+   "word": "compliqué",
+   "start": 5.143,
+   "end": 5.496
+  },
+  {
+   "word": "que",
+   "start": 5.496,
+   "end": 5.544
+  },
+  {
+   "word": "ça?",
+   "start": 5.544,
+   "end": 5.672
+  },
+  {
+   "word": "Quand",
+   "start": 6.345,
+   "end": 6.505
+  },
+  {
+   "word": "tu",
+   "start": 6.505,
+   "end": 6.618
+  },
+  {
+   "word": "manges",
+   "start": 6.618,
+   "end": 6.81
+  },
+  {
+   "word": "quelque",
+   "start": 6.826,
+   "end": 7.066
+  },
+  {
+   "word": "chose",
+   "start": 7.098,
+   "end": 7.307
+  },
+  {
+   "word": "de",
+   "start": 7.307,
+   "end": 7.387
+  },
+  {
+   "word": "très",
+   "start": 7.467,
+   "end": 7.627
+  },
+  {
+   "word": "sucré,",
+   "start": 7.627,
+   "end": 7.916
+  },
+  {
+   "word": "ton",
+   "start": 8.348,
+   "end": 8.509
+  },
+  {
+   "word": "cerveau",
+   "start": 8.509,
+   "end": 8.989
+  },
+  {
+   "word": "active",
+   "start": 9.166,
+   "end": 9.534
+  },
+  {
+   "word": "son",
+   "start": 9.55,
+   "end": 9.71
+  },
+  {
+   "word": "système",
+   "start": 9.71,
+   "end": 10.111
+  },
+  {
+   "word": "de",
+   "start": 10.111,
+   "end": 10.223
+  },
+  {
+   "word": "récompense.",
+   "start": 10.223,
+   "end": 10.8
+  },
+  {
+   "word": "Tu",
+   "start": 11.473,
+   "end": 11.585
+  },
+  {
+   "word": "ressens",
+   "start": 11.585,
+   "end": 11.89
+  },
+  {
+   "word": "du",
+   "start": 11.89,
+   "end": 12.034
+  },
+  {
+   "word": "plaisir",
+   "start": 12.034,
+   "end": 12.451
+  },
+  {
+   "word": "et",
+   "start": 12.451,
+   "end": 12.515
+  },
+  {
+   "word": "tu",
+   "start": 12.515,
+   "end": 12.675
+  },
+  {
+   "word": "peux",
+   "start": 12.675,
+   "end": 12.851
+  },
+  {
+   "word": "avoir",
+   "start": 12.851,
+   "end": 13.092
+  },
+  {
+   "word": "envie",
+   "start": 13.092,
+   "end": 13.316
+  },
+  {
+   "word": "de",
+   "start": 13.316,
+   "end": 13.348
+  },
+  {
+   "word": "recommencer.",
+   "start": 13.348,
+   "end": 13.925
+  },
+  {
+   "word": "Mais",
+   "start": 14.598,
+   "end": 14.774
+  },
+  {
+   "word": "attention,",
+   "start": 14.774,
+   "end": 15.207
+  },
+  {
+   "word": "le",
+   "start": 15.72,
+   "end": 15.8
+  },
+  {
+   "word": "sucre",
+   "start": 15.832,
+   "end": 16.136
+  },
+  {
+   "word": "n'est",
+   "start": 16.136,
+   "end": 16.281
+  },
+  {
+   "word": "pas",
+   "start": 16.361,
+   "end": 16.537
+  },
+  {
+   "word": "une",
+   "start": 16.537,
+   "end": 16.601
+  },
+  {
+   "word": "drogue",
+   "start": 16.601,
+   "end": 16.938
+  },
+  {
+   "word": "au",
+   "start": 17.018,
+   "end": 17.034
+  },
+  {
+   "word": "sens",
+   "start": 17.034,
+   "end": 17.322
+  },
+  {
+   "word": "médical",
+   "start": 17.322,
+   "end": 17.707
+  },
+  {
+   "word": "du",
+   "start": 17.723,
+   "end": 17.883
+  },
+  {
+   "word": "terme.",
+   "start": 17.883,
+   "end": 18.075
+  },
+  {
+   "word": "Et",
+   "start": 18.78,
+   "end": 18.844
+  },
+  {
+   "word": "voici",
+   "start": 18.925,
+   "end": 19.245
+  },
+  {
+   "word": "ce",
+   "start": 19.245,
+   "end": 19.293
+  },
+  {
+   "word": "que",
+   "start": 19.325,
+   "end": 19.405
+  },
+  {
+   "word": "tu",
+   "start": 19.405,
+   "end": 19.566
+  },
+  {
+   "word": "dois",
+   "start": 19.566,
+   "end": 19.726
+  },
+  {
+   "word": "retenir:",
+   "start": 19.726,
+   "end": 20.094
+  },
+  {
+   "word": "plus",
+   "start": 20.607,
+   "end": 20.848
+  },
+  {
+   "word": "ton",
+   "start": 20.848,
+   "end": 21.008
+  },
+  {
+   "word": "alimentation",
+   "start": 21.024,
+   "end": 21.665
+  },
+  {
+   "word": "est",
+   "start": 21.665,
+   "end": 21.729
+  },
+  {
+   "word": "riche",
+   "start": 21.729,
+   "end": 21.985
+  },
+  {
+   "word": "en",
+   "start": 21.985,
+   "end": 22.049
+  },
+  {
+   "word": "produits",
+   "start": 22.049,
+   "end": 22.338
+  },
+  {
+   "word": "très",
+   "start": 22.37,
+   "end": 22.61
+  },
+  {
+   "word": "sucrés,",
+   "start": 22.61,
+   "end": 22.963
+  },
+  {
+   "word": "plus",
+   "start": 23.331,
+   "end": 23.508
+  },
+  {
+   "word": "il",
+   "start": 23.508,
+   "end": 23.556
+  },
+  {
+   "word": "peut",
+   "start": 23.572,
+   "end": 23.732
+  },
+  {
+   "word": "devenir",
+   "start": 23.732,
+   "end": 24.02
+  },
+  {
+   "word": "difficile",
+   "start": 24.052,
+   "end": 24.533
+  },
+  {
+   "word": "de",
+   "start": 24.533,
+   "end": 24.645
+  },
+  {
+   "word": "résister",
+   "start": 24.645,
+   "end": 25.046
+  },
+  {
+   "word": "à",
+   "start": 25.046,
+   "end": 25.126
+  },
+  {
+   "word": "certaines",
+   "start": 25.126,
+   "end": 25.399
+  },
+  {
+   "word": "envies.",
+   "start": 25.511,
+   "end": 25.783
+  },
+  {
+   "word": "Alors,",
+   "start": 26.377,
+   "end": 26.586
+  },
+  {
+   "word": "la",
+   "start": 27.02,
+   "end": 27.101
+  },
+  {
+   "word": "prochaine",
+   "start": 27.101,
+   "end": 27.422
+  },
+  {
+   "word": "fois",
+   "start": 27.422,
+   "end": 27.583
+  },
+  {
+   "word": "que",
+   "start": 27.583,
+   "end": 27.663
+  },
+  {
+   "word": "tu",
+   "start": 27.663,
+   "end": 27.84
+  },
+  {
+   "word": "as",
+   "start": 27.84,
+   "end": 27.921
+  },
+  {
+   "word": "une",
+   "start": 27.921,
+   "end": 28.001
+  },
+  {
+   "word": "envie",
+   "start": 28.001,
+   "end": 28.178
+  },
+  {
+   "word": "de",
+   "start": 28.178,
+   "end": 28.306
+  },
+  {
+   "word": "sucre,",
+   "start": 28.306,
+   "end": 28.66
+  },
+  {
+   "word": "demande-toi:",
+   "start": 29.03,
+   "end": 29.48
+  },
+  {
+   "word": "est-ce",
+   "start": 30.091,
+   "end": 30.188
+  },
+  {
+   "word": "que",
+   "start": 30.188,
+   "end": 30.316
+  },
+  {
+   "word": "j'ai",
+   "start": 30.316,
+   "end": 30.397
+  },
+  {
+   "word": "vraiment",
+   "start": 30.397,
+   "end": 30.718
+  },
+  {
+   "word": "faim,",
+   "start": 30.718,
+   "end": 30.927
+  },
+  {
+   "word": "ou",
+   "start": 31.297,
+   "end": 31.361
+  },
+  {
+   "word": "est-ce",
+   "start": 31.377,
+   "end": 31.522
+  },
+  {
+   "word": "juste",
+   "start": 31.522,
+   "end": 31.779
+  },
+  {
+   "word": "une",
+   "start": 31.779,
+   "end": 31.86
+  },
+  {
+   "word": "envie?",
+   "start": 31.86,
+   "end": 32.053
+  },
+  {
+   "word": "Dis-moi",
+   "start": 32.728,
+   "end": 32.985
+  },
+  {
+   "word": "en",
+   "start": 32.985,
+   "end": 33.049
+  },
+  {
+   "word": "commentaire:",
+   "start": 33.049,
+   "end": 33.58
+  },
+  {
+   "word": "tu",
+   "start": 34.014,
+   "end": 34.175
+  },
+  {
+   "word": "pourrais",
+   "start": 34.175,
+   "end": 34.416
+  },
+  {
+   "word": "tenir",
+   "start": 34.416,
+   "end": 34.705
+  },
+  {
+   "word": "7",
+   "start": 34.738,
+   "end": 35.059
+  },
+  {
+   "word": "jours",
+   "start": 35.059,
+   "end": 35.204
+  },
+  {
+   "word": "sans",
+   "start": 35.22,
+   "end": 35.413
+  },
+  {
+   "word": "manger",
+   "start": 35.413,
+   "end": 35.783
+  },
+  {
+   "word": "de",
+   "start": 35.783,
+   "end": 35.863
+  },
+  {
+   "word": "sucres",
+   "start": 35.863,
+   "end": 36.12
+  },
+  {
+   "word": "ajoutés?",
+   "start": 36.12,
+   "end": 36.474
+  },
+  {
+   "word": "Abonne-toi,",
+   "start": 37.005,
+   "end": 37.519
+  },
+  {
+   "word": "une",
+   "start": 37.728,
+   "end": 37.776
+  },
+  {
+   "word": "nouvelle",
+   "start": 37.873,
+   "end": 38.178
+  },
+  {
+   "word": "vidéo",
+   "start": 38.194,
+   "end": 38.484
+  },
+  {
+   "word": "chaque",
+   "start": 38.548,
+   "end": 38.837
+  },
+  {
+   "word": "jour",
+   "start": 38.837,
+   "end": 39.046
+  },
+  {
+   "word": "sur",
+   "start": 39.079,
+   "end": 39.223
+  },
+  {
+   "word": "Calibody.com!",
+   "start": 39.288,
+   "end": 40.092
+  }
+ ],
+ "text": "Tu crois que tu manques de volonté parce que tu n'arrives pas à arrêter le sucre? Et si le problème était plus compliqué que ça? Quand tu manges quelque chose de très sucré, ton cerveau active son système de récompense. Tu ressens du plaisir et tu peux avoir envie de recommencer. Mais attention, le sucre n'est pas une drogue au sens médical du terme. Et voici ce que tu dois retenir: plus ton alimentation est riche en produits très sucrés, plus il peut devenir difficile de résister à certaines envies. Alors, la prochaine fois que tu as une envie de sucre, demande-toi: est-ce que j'ai vraiment faim, ou est-ce juste une envie? Dis-moi en commentaire: tu pourrais tenir 7 jours sans manger de sucres ajoutés? Abonne-toi, une nouvelle vidéo chaque jour sur Calibody.com!"
+}

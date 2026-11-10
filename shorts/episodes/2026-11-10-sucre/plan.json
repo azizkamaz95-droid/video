@@ -1,5 +1,5 @@
 {
- "title": "Le sucre et la volonté",
+ "title": "Le sucre et la volont\u00e9",
  "tail": 0.7,
  "bpm": 120,
  "style": "drive",
@@ -7,7 +7,10 @@
  "duck_db": -6.0,
  "science_db": -3.0,
  "science": [],
- "hits": [],
+ "hits": [
+  16.14,
+  34.74
+ ],
  "blocks": [
   {
    "type": "myth",
@@ -25,7 +28,76 @@
    "end": 41.61
   }
  ],
- "sfx": [],
+ "sfx": [
+  [
+   "stamp",
+   1.14
+  ],
+  [
+   "whoosh",
+   3.96
+  ],
+  [
+   "thump",
+   5.54
+  ],
+  [
+   "whoosh",
+   6.21
+  ],
+  [
+   "whoosh",
+   8.2
+  ],
+  [
+   "whoosh",
+   11.34
+  ],
+  [
+   "whoosh",
+   14.43
+  ],
+  [
+   "thump",
+   16.14
+  ],
+  [
+   "whoosh",
+   18.66
+  ],
+  [
+   "whoosh",
+   20.9
+  ],
+  [
+   "whoosh",
+   23.1
+  ],
+  [
+   "whoosh",
+   26.21
+  ],
+  [
+   "whoosh",
+   28.9
+  ],
+  [
+   "whoosh",
+   32.49
+  ],
+  [
+   "stamp",
+   34.74
+  ],
+  [
+   "whoosh",
+   36.79
+  ],
+  [
+   "plinks",
+   39.4
+  ]
+ ],
  "music_file": "assets/music/motivation-quotidienne.mp3",
  "music_loop": [
   0.0,
