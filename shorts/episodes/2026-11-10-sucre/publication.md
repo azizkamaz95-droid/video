@@ -1,7 +1,7 @@
-# Sucre : un manque de volonté ? Pas si simple — textes de publication
+# Le sucre contrôle-t-il ton cerveau ? — textes de publication
 
 ## Titre (YouTube Shorts)
-Tu n'arrives pas à arrêter le sucre : manque de volonté ?
+Le sucre contrôle-t-il ton cerveau ?
 
 ## Description (TikTok, Instagram, YouTube, Facebook)
 Tu crois que tu manques de volonté parce que tu n'arrives pas à arrêter le sucre ? Et si le problème était plus compliqué que ça 👇
