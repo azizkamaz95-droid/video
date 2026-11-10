@@ -1,0 +1,58 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu crois que tu manques de volonté parce que tu n'arrives pas à arrêter le sucre ?",
+   "pause": 0.5
+  },
+  {
+   "id": "s02",
+   "text": "Et si le problème était plus compliqué que ça ?",
+   "pause": 0.5
+  },
+  {
+   "id": "s03",
+   "text": "Quand tu manges quelque chose de très sucré, ton cerveau active son système de récompense.",
+   "pause": 0.45
+  },
+  {
+   "id": "s04",
+   "text": "Tu ressens du plaisir et tu peux avoir envie de recommencer.",
+   "pause": 0.5
+  },
+  {
+   "id": "s05",
+   "text": "Mais attention : le sucre n'est pas une drogue au sens médical du terme.",
+   "pause": 0.5,
+   "say": "Mais attention : [pause short] le sucre n'est pas une drogue au sens médical du terme."
+  },
+  {
+   "id": "s06",
+   "text": "Et voici ce que tu dois retenir : plus ton alimentation est riche en produits très sucrés, plus il peut devenir difficile de résister à certaines envies.",
+   "pause": 0.5,
+   "say": "Et voici ce que tu dois retenir : [pause short] plus ton alimentation est riche en produits très sucrés, plus il peut devenir difficile de résister à certaines envies."
+  },
+  {
+   "id": "s07",
+   "text": "Alors, la prochaine fois que tu as une envie de sucre, demande-toi : est-ce que j'ai vraiment faim, ou est-ce juste une envie ?",
+   "pause": 0.4,
+   "say": "Alors, la prochaine fois que tu as une envie de sucre, demande-toi : [pause short] est-ce que j'ai vraiment faim, ou est-ce juste une envie ?"
+  },
+  {
+   "id": "s08",
+   "text": "Dis-moi en commentaire : tu pourrais tenir 7 jours sans manger de sucre ajouté ?",
+   "pause": 0.35,
+   "say": "Dis-moi en commentaire : [pause short] tu pourrais tenir sept jours sans manger de sucre ajouté ?"
+  },
+  {
+   "id": "s09",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour sur CaliBodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour sur CaliBodi point com !"
+  }
+ ]
+}
