@@ -1,0 +1,122 @@
+{
+ "title": "Musculation ado et croissance",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -25.0,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  22.17,
+  32.9
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 6.36
+  },
+  {
+   "type": "body",
+   "start": 6.36,
+   "end": 33.7
+  },
+  {
+   "type": "outro",
+   "start": 33.7,
+   "end": 38.23
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   1.46
+  ],
+  [
+   "whoosh",
+   3.97
+  ],
+  [
+   "thump",
+   5.17
+  ],
+  [
+   "whoosh",
+   6.26
+  ],
+  [
+   "stamp",
+   8.88
+  ],
+  [
+   "whoosh",
+   11.53
+  ],
+  [
+   "stamp",
+   13.45
+  ],
+  [
+   "whoosh",
+   14.3
+  ],
+  [
+   "whoosh",
+   16.54
+  ],
+  [
+   "stamp",
+   18.23
+  ],
+  [
+   "whoosh",
+   18.7
+  ],
+  [
+   "whoosh",
+   19.9
+  ],
+  [
+   "thump",
+   22.17
+  ],
+  [
+   "whoosh",
+   23.29
+  ],
+  [
+   "whoosh",
+   24.9
+  ],
+  [
+   "stamp",
+   27.21
+  ],
+  [
+   "whoosh",
+   28.3
+  ],
+  [
+   "whoosh",
+   31.2
+  ],
+  [
+   "thump",
+   32.9
+  ],
+  [
+   "whoosh",
+   33.6
+  ],
+  [
+   "plinks",
+   36.0
+  ]
+ ],
+ "music_file": "assets/music/motivation-quotidienne.mp3",
+ "music_loop": [
+  0.0,
+  48.0
+ ]
+}

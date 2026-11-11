@@ -4,680 +4,1132 @@
   {
    "i": 0,
    "word": "On",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.192,
+   "end": 0.256,
+   "google": [
+    0.192,
+    0.256
+   ]
   },
   {
    "i": 1,
    "word": "t'a",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.256,
+   "end": 0.417,
+   "google": [
+    0.256,
+    0.417
+   ]
   },
   {
    "i": 2,
    "word": "déjà",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.417,
+   "end": 0.658,
+   "google": [
+    0.417,
+    0.658
+   ]
   },
   {
    "i": 3,
    "word": "dit",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.658,
+   "end": 0.818,
+   "google": [
+    0.658,
+    0.818
+   ]
   },
   {
    "i": 4,
    "word": "que",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.818,
+   "end": 0.979,
+   "google": [
+    0.818,
+    0.979
+   ]
   },
   {
    "i": 5,
    "word": "soulever",
-   "start": 0.0,
-   "end": 0.0
+   "start": 0.979,
+   "end": 1.3,
+   "google": [
+    0.979,
+    1.3
+   ]
   },
   {
    "i": 6,
    "word": "des",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.3,
+   "end": 1.38,
+   "google": [
+    1.3,
+    1.38
+   ]
   },
   {
    "i": 7,
    "word": "poids",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.46,
+   "end": 1.701,
+   "google": [
+    1.46,
+    1.701
+   ]
   },
   {
    "i": 8,
    "word": "quand",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.701,
+   "end": 1.861,
+   "google": [
+    1.701,
+    1.861
+   ]
   },
   {
    "i": 9,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 1.861,
+   "end": 2.038,
+   "google": [
+    1.861,
+    2.038
+   ]
   },
   {
    "i": 10,
    "word": "es",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.038,
+   "end": 2.086,
+   "google": [
+    2.038,
+    2.086
+   ]
   },
   {
    "i": 11,
    "word": "adolescent",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.086,
+   "end": 2.391,
+   "google": [
+    2.086,
+    2.391
+   ]
   },
   {
    "i": 12,
    "word": "allait",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.439,
+   "end": 2.584,
+   "google": [
+    2.439,
+    2.584
+   ]
   },
   {
    "i": 13,
    "word": "t'empêcher",
-   "start": 0.0,
-   "end": 0.0
+   "start": 2.584,
+   "end": 3.065,
+   "google": [
+    2.584,
+    3.065
+   ]
   },
   {
    "i": 14,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.065,
+   "end": 3.113,
+   "google": [
+    3.065,
+    3.113
+   ]
   },
   {
    "i": 15,
    "word": "grandir ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 3.113,
+   "end": 3.434,
+   "google": [
+    3.113,
+    3.434
+   ]
   },
   {
    "i": 16,
    "word": "Eh",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.125,
+   "end": 4.189,
+   "google": [
+    4.125,
+    4.189
+   ]
   },
   {
    "i": 17,
    "word": "bien,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.269,
+   "end": 4.381,
+   "google": [
+    4.269,
+    4.381
+   ]
   },
   {
    "i": 18,
    "word": "c'est",
-   "start": 0.0,
-   "end": 0.0
+   "start": 4.911,
+   "end": 5.039,
+   "google": [
+    4.911,
+    5.039
+   ]
   },
   {
    "i": 19,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.088,
+   "end": 5.168,
+   "google": [
+    5.088,
+    5.168
+   ]
   },
   {
    "i": 20,
    "word": "idée",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.168,
+   "end": 5.344,
+   "google": [
+    5.168,
+    5.344
+   ]
   },
   {
    "i": 21,
    "word": "reçue !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 5.344,
+   "end": 5.762,
+   "google": [
+    5.344,
+    5.762
+   ]
   },
   {
    "i": 22,
    "word": "La",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.436,
+   "end": 6.484,
+   "google": [
+    6.436,
+    6.484
+   ]
   },
   {
    "i": 23,
    "word": "musculation,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 6.548,
+   "end": 7.126,
+   "google": [
+    6.548,
+    7.126
+   ]
   },
   {
    "i": 24,
    "word": "lorsqu'elle",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.238,
+   "end": 7.576,
+   "google": [
+    7.238,
+    7.576
+   ]
   },
   {
    "i": 25,
    "word": "est",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.576,
+   "end": 7.64,
+   "google": [
+    7.576,
+    7.64
+   ]
   },
   {
    "i": 26,
    "word": "bien",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.64,
+   "end": 7.897,
+   "google": [
+    7.64,
+    7.897
+   ]
   },
   {
    "i": 27,
    "word": "encadrée",
-   "start": 0.0,
-   "end": 0.0
+   "start": 7.897,
+   "end": 8.362,
+   "google": [
+    7.897,
+    8.362
+   ]
   },
   {
    "i": 28,
    "word": "et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 8.539,
+   "end": 8.603,
+   "google": [
+    8.539,
+    8.603
+   ]
   },
   {
    "i": 29,
    "word": "adaptée",
-   "start": 0.0,
-   "end": 0.0
+   "start": 8.88,
+   "end": 9.02,
+   "google": [
+    8.619,
+    9.02
+   ]
   },
   {
    "i": 30,
    "word": "à",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.02,
+   "end": 9.084,
+   "google": [
+    9.02,
+    9.084
+   ]
   },
   {
    "i": 31,
    "word": "ton",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.084,
+   "end": 9.325,
+   "google": [
+    9.084,
+    9.325
+   ]
   },
   {
    "i": 32,
    "word": "âge,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.341,
+   "end": 9.534,
+   "google": [
+    9.341,
+    9.534
+   ]
   },
   {
    "i": 33,
    "word": "ne",
-   "start": 0.0,
-   "end": 0.0
+   "start": 9.967,
+   "end": 10.047,
+   "google": [
+    9.967,
+    10.047
+   ]
   },
   {
    "i": 34,
    "word": "bloque",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.047,
+   "end": 10.288,
+   "google": [
+    10.047,
+    10.288
+   ]
   },
   {
    "i": 35,
    "word": "pas",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.288,
+   "end": 10.449,
+   "google": [
+    10.288,
+    10.449
+   ]
   },
   {
    "i": 36,
    "word": "ta",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.449,
+   "end": 10.529,
+   "google": [
+    10.449,
+    10.529
+   ]
   },
   {
    "i": 37,
    "word": "croissance.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 10.529,
+   "end": 10.978,
+   "google": [
+    10.529,
+    10.978
+   ]
   },
   {
    "i": 38,
    "word": "Au",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.749,
+   "end": 11.813,
+   "google": [
+    11.749,
+    11.813
+   ]
   },
   {
    "i": 39,
    "word": "contraire,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 11.813,
+   "end": 12.182,
+   "google": [
+    11.813,
+    12.182
+   ]
   },
   {
    "i": 40,
    "word": "elle",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.632,
+   "end": 12.712,
+   "google": [
+    12.632,
+    12.712
+   ]
   },
   {
    "i": 41,
    "word": "peut",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.776,
+   "end": 12.888,
+   "google": [
+    12.776,
+    12.888
+   ]
   },
   {
    "i": 42,
    "word": "renforcer",
-   "start": 0.0,
-   "end": 0.0
+   "start": 12.888,
+   "end": 13.338,
+   "google": [
+    12.888,
+    13.338
+   ]
   },
   {
    "i": 43,
    "word": "tes",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.338,
+   "end": 13.45,
+   "google": [
+    13.338,
+    13.45
+   ]
   },
   {
    "i": 44,
    "word": "muscles,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.45,
+   "end": 13.851,
+   "google": [
+    13.45,
+    13.851
+   ]
   },
   {
    "i": 45,
    "word": "tes",
-   "start": 0.0,
-   "end": 0.0
+   "start": 13.98,
+   "end": 14.237,
+   "google": [
+    13.98,
+    14.237
+   ]
   },
   {
    "i": 46,
    "word": "os",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.54,
+   "end": 14.66,
+   "google": [
+    14.237,
+    14.59
+   ]
   },
   {
    "i": 47,
    "word": "et",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.638,
+   "end": 14.67,
+   "google": [
+    14.638,
+    14.67
+   ]
   },
   {
    "i": 48,
    "word": "améliorer",
-   "start": 0.0,
-   "end": 0.0
+   "start": 14.718,
+   "end": 15.184,
+   "google": [
+    14.718,
+    15.184
+   ]
   },
   {
    "i": 49,
    "word": "ta",
-   "start": 0.0,
-   "end": 0.0
+   "start": 15.184,
+   "end": 15.264,
+   "google": [
+    15.184,
+    15.264
+   ]
   },
   {
    "i": 50,
    "word": "condition",
-   "start": 0.0,
-   "end": 0.0
+   "start": 15.264,
+   "end": 15.665,
+   "google": [
+    15.264,
+    15.665
+   ]
   },
   {
    "i": 51,
    "word": "physique.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 15.665,
+   "end": 16.034,
+   "google": [
+    15.665,
+    16.034
+   ]
   },
   {
    "i": 52,
    "word": "Mais",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.789,
+   "end": 16.869,
+   "google": [
+    16.789,
+    16.869
+   ]
   },
   {
    "i": 53,
    "word": "attention !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 16.965,
+   "end": 17.399,
+   "google": [
+    16.965,
+    17.399
+   ]
   },
   {
    "i": 54,
    "word": "Soulever",
-   "start": 0.0,
-   "end": 0.0
+   "start": 17.912,
+   "end": 18.233,
+   "google": [
+    17.912,
+    18.233
+   ]
   },
   {
    "i": 55,
    "word": "trop",
-   "start": 0.0,
-   "end": 0.0
+   "start": 18.233,
+   "end": 18.394,
+   "google": [
+    18.233,
+    18.394
+   ]
   },
   {
    "i": 56,
    "word": "lourd,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 18.394,
+   "end": 18.602,
+   "google": [
+    18.394,
+    18.602
+   ]
   },
   {
    "i": 57,
    "word": "négliger",
-   "start": 0.0,
-   "end": 0.0
+   "start": 18.956,
+   "end": 19.389,
+   "google": [
+    18.956,
+    19.389
+   ]
   },
   {
    "i": 58,
    "word": "la",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.389,
+   "end": 19.517,
+   "google": [
+    19.389,
+    19.517
+   ]
   },
   {
    "i": 59,
    "word": "technique",
-   "start": 0.0,
-   "end": 0.0
+   "start": 19.517,
+   "end": 20.015,
+   "google": [
+    19.517,
+    20.015
+   ]
   },
   {
    "i": 60,
    "word": "ou",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.015,
+   "end": 20.079,
+   "google": [
+    20.015,
+    20.079
+   ]
   },
   {
    "i": 61,
    "word": "vouloir",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.079,
+   "end": 20.416,
+   "google": [
+    20.079,
+    20.416
+   ]
   },
   {
    "i": 62,
    "word": "impressionner",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.416,
+   "end": 20.962,
+   "google": [
+    20.416,
+    20.962
+   ]
   },
   {
    "i": 63,
    "word": "les",
-   "start": 0.0,
-   "end": 0.0
+   "start": 20.962,
+   "end": 21.042,
+   "google": [
+    20.962,
+    21.042
+   ]
   },
   {
    "i": 64,
    "word": "autres",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.138,
+   "end": 21.315,
+   "google": [
+    21.138,
+    21.315
+   ]
   },
   {
    "i": 65,
    "word": "peut",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.443,
+   "end": 21.524,
+   "google": [
+    21.443,
+    21.524
+   ]
   },
   {
    "i": 66,
    "word": "provoquer",
-   "start": 0.0,
-   "end": 0.0
+   "start": 21.524,
+   "end": 22.005,
+   "google": [
+    21.524,
+    22.005
+   ]
   },
   {
    "i": 67,
    "word": "des",
-   "start": 0.0,
-   "end": 0.0
+   "start": 22.005,
+   "end": 22.166,
+   "google": [
+    22.005,
+    22.166
+   ]
   },
   {
    "i": 68,
    "word": "blessures.",
-   "start": 0.0,
-   "end": 0.0
+   "start": 22.166,
+   "end": 22.535,
+   "google": [
+    22.166,
+    22.535
+   ]
   },
   {
    "i": 69,
    "word": "Alors,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.386,
+   "end": 23.658,
+   "google": [
+    23.386,
+    23.658
+   ]
   },
   {
    "i": 70,
    "word": "retiens",
-   "start": 0.0,
-   "end": 0.0
+   "start": 23.851,
+   "end": 24.044,
+   "google": [
+    23.851,
+    24.044
+   ]
   },
   {
    "i": 71,
    "word": "bien",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.044,
+   "end": 24.252,
+   "google": [
+    24.044,
+    24.252
+   ]
   },
   {
    "i": 72,
    "word": "ça :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 24.252,
+   "end": 24.381,
+   "google": [
+    24.252,
+    24.381
+   ]
   },
   {
    "i": 73,
    "word": "ce",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.055,
+   "end": 25.119,
+   "google": [
+    25.055,
+    25.119
+   ]
   },
   {
    "i": 74,
    "word": "n'est",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.119,
+   "end": 25.215,
+   "google": [
+    25.119,
+    25.215
+   ]
   },
   {
    "i": 75,
    "word": "pas",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.215,
+   "end": 25.376,
+   "google": [
+    25.215,
+    25.376
+   ]
   },
   {
    "i": 76,
    "word": "ton",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.376,
+   "end": 25.536,
+   "google": [
+    25.376,
+    25.536
+   ]
   },
   {
    "i": 77,
    "word": "âge",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.633,
+   "end": 25.761,
+   "google": [
+    25.633,
+    25.761
+   ]
   },
   {
    "i": 78,
    "word": "qui",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.777,
+   "end": 25.938,
+   "google": [
+    25.777,
+    25.938
+   ]
   },
   {
    "i": 79,
    "word": "doit",
-   "start": 0.0,
-   "end": 0.0
+   "start": 25.938,
+   "end": 26.098,
+   "google": [
+    25.938,
+    26.098
+   ]
   },
   {
    "i": 80,
    "word": "te",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.098,
+   "end": 26.178,
+   "google": [
+    26.098,
+    26.178
+   ]
   },
   {
    "i": 81,
    "word": "faire",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.178,
+   "end": 26.403,
+   "google": [
+    26.178,
+    26.403
+   ]
   },
   {
    "i": 82,
    "word": "peur,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.419,
+   "end": 26.692,
+   "google": [
+    26.419,
+    26.692
+   ]
   },
   {
    "i": 83,
    "word": "c'est",
-   "start": 0.0,
-   "end": 0.0
+   "start": 26.981,
+   "end": 27.061,
+   "google": [
+    26.981,
+    27.061
+   ]
   },
   {
    "i": 84,
    "word": "de",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.061,
+   "end": 27.141,
+   "google": [
+    27.061,
+    27.141
+   ]
   },
   {
    "i": 85,
    "word": "t'entraîner",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.206,
+   "end": 27.559,
+   "google": [
+    27.206,
+    27.559
+   ]
   },
   {
    "i": 86,
    "word": "n'importe",
-   "start": 0.0,
-   "end": 0.0
+   "start": 27.559,
+   "end": 27.928,
+   "google": [
+    27.559,
+    27.928
+   ]
   },
   {
    "i": 87,
    "word": "comment !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.024,
+   "end": 28.153,
+   "google": [
+    28.024,
+    28.153
+   ]
   },
   {
    "i": 88,
    "word": "Dis-moi",
-   "start": 0.0,
-   "end": 0.0
+   "start": 28.829,
+   "end": 29.088,
+   "google": [
+    28.829,
+    29.088
+   ]
   },
   {
    "i": 89,
    "word": "en",
-   "start": 0.0,
-   "end": 0.0
+   "start": 29.088,
+   "end": 29.12,
+   "google": [
+    29.088,
+    29.12
+   ]
   },
   {
    "i": 90,
    "word": "commentaire :",
-   "start": 0.0,
-   "end": 0.0
+   "start": 29.152,
+   "end": 29.604,
+   "google": [
+    29.152,
+    29.604
+   ]
   },
   {
    "i": 91,
    "word": "toi",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.202,
+   "end": 30.379,
+   "google": [
+    30.202,
+    30.379
+   ]
   },
   {
    "i": 92,
    "word": "aussi,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.379,
+   "end": 30.605,
+   "google": [
+    30.379,
+    30.605
+   ]
   },
   {
    "i": 93,
    "word": "on",
-   "start": 0.0,
-   "end": 0.0
+   "start": 30.945,
+   "end": 31.009,
+   "google": [
+    30.945,
+    31.009
+   ]
   },
   {
    "i": 94,
    "word": "t'a",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.009,
+   "end": 31.122,
+   "google": [
+    31.009,
+    31.122
+   ]
   },
   {
    "i": 95,
    "word": "déjà",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.122,
+   "end": 31.413,
+   "google": [
+    31.122,
+    31.413
+   ]
   },
   {
    "i": 96,
    "word": "interdit",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.429,
+   "end": 31.736,
+   "google": [
+    31.429,
+    31.736
+   ]
   },
   {
    "i": 97,
    "word": "la",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.736,
+   "end": 31.817,
+   "google": [
+    31.736,
+    31.817
+   ]
   },
   {
    "i": 98,
    "word": "musculation",
-   "start": 0.0,
-   "end": 0.0
+   "start": 31.817,
+   "end": 32.382,
+   "google": [
+    31.817,
+    32.382
+   ]
   },
   {
    "i": 99,
    "word": "parce",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.382,
+   "end": 32.543,
+   "google": [
+    32.382,
+    32.543
+   ]
   },
   {
    "i": 100,
    "word": "que",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.543,
+   "end": 32.624,
+   "google": [
+    32.543,
+    32.624
+   ]
   },
   {
    "i": 101,
    "word": "tu",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.624,
+   "end": 32.769,
+   "google": [
+    32.624,
+    32.769
+   ]
   },
   {
    "i": 102,
    "word": "étais",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.769,
+   "end": 32.898,
+   "google": [
+    32.769,
+    32.898
+   ]
   },
   {
    "i": 103,
    "word": "trop",
-   "start": 0.0,
-   "end": 0.0
+   "start": 32.898,
+   "end": 33.108,
+   "google": [
+    32.898,
+    33.108
+   ]
   },
   {
    "i": 104,
    "word": "jeune ?",
-   "start": 0.0,
-   "end": 0.0
+   "start": 33.108,
+   "end": 33.237,
+   "google": [
+    33.108,
+    33.237
+   ]
   },
   {
    "i": 105,
    "word": "Abonne-toi,",
-   "start": 0.0,
-   "end": 0.0
+   "start": 33.851,
+   "end": 34.287,
+   "google": [
+    33.851,
+    34.287
+   ]
   },
   {
    "i": 106,
    "word": "une",
-   "start": 0.0,
-   "end": 0.0
+   "start": 34.497,
+   "end": 34.594,
+   "google": [
+    34.497,
+    34.594
+   ]
   },
   {
    "i": 107,
    "word": "nouvelle",
-   "start": 0.0,
-   "end": 0.0
+   "start": 34.594,
+   "end": 34.852,
+   "google": [
+    34.594,
+    34.852
+   ]
   },
   {
    "i": 108,
    "word": "vidéo",
-   "start": 0.0,
-   "end": 0.0
+   "start": 34.884,
+   "end": 35.207,
+   "google": [
+    34.884,
+    35.207
+   ]
   },
   {
    "i": 109,
    "word": "chaque",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.207,
+   "end": 35.482,
+   "google": [
+    35.207,
+    35.482
+   ]
   },
   {
    "i": 110,
    "word": "jour",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.482,
+   "end": 35.692,
+   "google": [
+    35.482,
+    35.692
+   ]
   },
   {
    "i": 111,
    "word": "sur",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.692,
+   "end": 35.902,
+   "google": [
+    35.692,
+    35.902
+   ]
   },
   {
    "i": 112,
    "word": "CaliBodi.com !",
-   "start": 0.0,
-   "end": 0.0
+   "start": 35.902,
+   "end": 36.79,
+   "google": [
+    35.902,
+    36.79
+   ]
   }
  ]
 }
