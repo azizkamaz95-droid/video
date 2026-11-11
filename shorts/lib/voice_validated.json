@@ -88,6 +88,22 @@
   "n'arrives": {
    "mode": "raw",
    "auto": true
+  },
+  "t'empêcher": {
+   "mode": "raw",
+   "auto": true
+  },
+  "lorsqu'elle": {
+   "mode": "raw",
+   "auto": true
+  },
+  "t'entraîner": {
+   "mode": "raw",
+   "auto": true
+  },
+  "n'importe": {
+   "mode": "raw",
+   "auto": true
   }
  }
 }

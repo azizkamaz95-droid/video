@@ -1,0 +1,16 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {"id": "s01", "text": "On t'a déjà dit que soulever des poids quand tu es adolescent allait t'empêcher de grandir ?", "pause": 0.5},
+  {"id": "s02", "text": "Eh bien, c'est une idée reçue !", "pause": 0.5, "say": "Eh bien, [pause short] c'est une idée reçue."},
+  {"id": "s03", "text": "La musculation, lorsqu'elle est bien encadrée et adaptée à ton âge, ne bloque pas ta croissance.", "pause": 0.5},
+  {"id": "s04", "text": "Au contraire, elle peut renforcer tes muscles, tes os et améliorer ta condition physique.", "pause": 0.5},
+  {"id": "s05", "text": "Mais attention ! Soulever trop lourd, négliger la technique ou vouloir impressionner les autres peut provoquer des blessures.", "pause": 0.5, "say": "Mais attention : [pause short] soulever trop lourd, négliger la technique ou vouloir impressionner les autres peut provoquer des blessures."},
+  {"id": "s06", "text": "Alors, retiens bien ça : ce n'est pas ton âge qui doit te faire peur, c'est de t'entraîner n'importe comment !", "pause": 0.5, "say": "Alors, retiens bien ça : [pause short] ce n'est pas ton âge qui doit te faire peur, c'est de t'entraîner n'importe comment."},
+  {"id": "s07", "text": "Dis-moi en commentaire : toi aussi, on t'a déjà interdit la musculation parce que tu étais trop jeune ?", "pause": 0.35, "say": "Dis-moi en commentaire : [pause short] toi aussi, on t'a déjà interdit la musculation parce que tu étais trop jeune ?"},
+  {"id": "s08", "text": "Abonne-toi, une nouvelle vidéo chaque jour sur CaliBodi.com !", "pause": 0.3, "say": "Abonne-toi, une nouvelle vidéo chaque jour sur CaliBodi point com !"}
+ ]
+}
