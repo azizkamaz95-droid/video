@@ -1,5 +1,5 @@
 {
- "duration": 39.901,
+ "duration": 39.078,
  "words": [
   {
    "word": "Tu",
@@ -9,552 +9,552 @@
   {
    "word": "bois",
    "start": 0.337,
+   "end": 0.497
+  },
+  {
+   "word": "des",
+   "start": 0.497,
    "end": 0.578
   },
   {
-   "word": "des",
-   "start": 0.578,
-   "end": 0.722
-  },
-  {
    "word": "boissons",
-   "start": 0.722,
-   "end": 1.076
+   "start": 0.658,
+   "end": 0.995
   },
   {
    "word": "énergisantes",
-   "start": 1.076,
-   "end": 1.718
+   "start": 0.995,
+   "end": 1.637
   },
   {
    "word": "avant",
-   "start": 1.718,
-   "end": 1.943
+   "start": 1.637,
+   "end": 1.782
   },
   {
    "word": "ta",
-   "start": 1.943,
-   "end": 2.055
+   "start": 1.782,
+   "end": 1.942
   },
   {
    "word": "séance",
-   "start": 2.055,
-   "end": 2.425
+   "start": 1.942,
+   "end": 2.344
   },
   {
    "word": "pour",
-   "start": 2.425,
-   "end": 2.601
+   "start": 2.344,
+   "end": 2.44
   },
   {
    "word": "avoir",
-   "start": 2.601,
-   "end": 2.81
+   "start": 2.44,
+   "end": 2.729
   },
   {
    "word": "plus",
-   "start": 2.906,
-   "end": 3.035
+   "start": 2.745,
+   "end": 2.906
   },
   {
    "word": "d'énergie?",
-   "start": 3.228,
-   "end": 4.239
+   "start": 2.906,
+   "end": 3.195
   },
   {
    "word": "Attention,",
-   "start": 5.01,
-   "end": 5.364
+   "start": 3.965,
+   "end": 4.431
   },
   {
    "word": "tu",
-   "start": 5.878,
-   "end": 6.038
+   "start": 4.913,
+   "end": 4.993
   },
   {
    "word": "pourrais",
-   "start": 6.038,
-   "end": 6.359
+   "start": 4.993,
+   "end": 5.314
   },
   {
    "word": "faire",
-   "start": 6.359,
-   "end": 6.616
+   "start": 5.314,
+   "end": 5.571
   },
   {
    "word": "une",
-   "start": 6.616,
-   "end": 6.777
+   "start": 5.571,
+   "end": 5.732
   },
   {
    "word": "erreur!",
-   "start": 6.777,
-   "end": 7.05
+   "start": 5.732,
+   "end": 6.004
   },
   {
    "word": "Oui,",
-   "start": 7.725,
-   "end": 7.998
+   "start": 6.679,
+   "end": 6.888
   },
   {
    "word": "la",
-   "start": 8.447,
-   "end": 8.528
+   "start": 7.401,
+   "end": 7.562
   },
   {
    "word": "caféine",
-   "start": 8.528,
-   "end": 8.977
+   "start": 7.562,
+   "end": 8.044
   },
   {
    "word": "peut",
-   "start": 9.009,
-   "end": 9.17
+   "start": 8.044,
+   "end": 8.124
   },
   {
    "word": "améliorer",
-   "start": 9.266,
-   "end": 9.732
+   "start": 8.22,
+   "end": 8.686
   },
   {
    "word": "certaines",
-   "start": 9.732,
-   "end": 10.037
+   "start": 8.686,
+   "end": 9.168
   },
   {
    "word": "performances",
-   "start": 10.134,
-   "end": 10.696
+   "start": 9.168,
+   "end": 9.794
   },
   {
    "word": "sportives.",
-   "start": 10.696,
-   "end": 11.226
+   "start": 9.794,
+   "end": 10.243
   },
   {
    "word": "Mais",
-   "start": 11.9,
-   "end": 12.077
+   "start": 10.853,
+   "end": 11.03
   },
   {
    "word": "il",
-   "start": 12.077,
-   "end": 12.157
+   "start": 11.03,
+   "end": 11.11
   },
   {
    "word": "y",
-   "start": 12.157,
-   "end": 12.318
+   "start": 11.11,
+   "end": 11.271
   },
   {
    "word": "a",
-   "start": 12.318,
-   "end": 12.382
+   "start": 11.271,
+   "end": 11.335
   },
   {
    "word": "un",
-   "start": 12.398,
-   "end": 12.462
+   "start": 11.351,
+   "end": 11.415
   },
   {
    "word": "piège",
-   "start": 12.462,
-   "end": 12.735
+   "start": 11.415,
+   "end": 11.753
   },
   {
    "word": "que",
-   "start": 12.816,
-   "end": 12.944
+   "start": 11.817,
+   "end": 11.897
   },
   {
    "word": "beaucoup",
-   "start": 12.944,
-   "end": 13.265
+   "start": 11.897,
+   "end": 12.234
   },
   {
    "word": "ignorent:",
-   "start": 13.281,
-   "end": 13.635
+   "start": 12.234,
+   "end": 12.587
   },
   {
    "word": "en",
-   "start": 14.325,
-   "end": 14.39
+   "start": 13.278,
+   "end": 13.342
   },
   {
    "word": "consommer",
-   "start": 14.39,
-   "end": 14.791
+   "start": 13.342,
+   "end": 13.744
   },
   {
    "word": "trop",
-   "start": 14.791,
-   "end": 14.952
+   "start": 13.824,
+   "end": 13.984
   },
   {
    "word": "peut",
-   "start": 15.032,
-   "end": 15.112
+   "start": 14.065,
+   "end": 14.097
   },
   {
    "word": "provoquer",
-   "start": 15.112,
-   "end": 15.514
+   "start": 14.145,
+   "end": 14.627
   },
   {
    "word": "des",
-   "start": 15.514,
-   "end": 15.674
+   "start": 14.627,
+   "end": 14.707
   },
   {
    "word": "palpitations,",
-   "start": 15.674,
-   "end": 16.285
+   "start": 14.787,
+   "end": 15.397
   },
   {
    "word": "de",
-   "start": 16.638,
-   "end": 16.702
+   "start": 15.59,
+   "end": 15.654
   },
   {
    "word": "l'anxiété",
-   "start": 16.702,
-   "end": 17.2
+   "start": 15.654,
+   "end": 16.312
   },
   {
    "word": "et",
-   "start": 17.457,
-   "end": 17.521
+   "start": 16.489,
+   "end": 16.553
   },
   {
    "word": "surtout,",
-   "start": 17.554,
-   "end": 17.971
+   "start": 16.553,
+   "end": 16.923
   },
   {
    "word": "perturber",
-   "start": 18.405,
-   "end": 18.887
+   "start": 17.436,
+   "end": 17.998
   },
   {
    "word": "ton",
-   "start": 18.887,
-   "end": 19.047
+   "start": 17.998,
+   "end": 18.159
   },
   {
    "word": "sommeil.",
-   "start": 19.047,
-   "end": 19.336
+   "start": 18.159,
+   "end": 18.528
   },
   {
    "word": "Et",
-   "start": 20.027,
-   "end": 20.091
+   "start": 19.138,
+   "end": 19.203
   },
   {
    "word": "c'est",
-   "start": 20.091,
-   "end": 20.204
+   "start": 19.203,
+   "end": 19.363
   },
   {
    "word": "là",
-   "start": 20.204,
-   "end": 20.316
+   "start": 19.363,
+   "end": 19.476
   },
   {
    "word": "que",
-   "start": 20.316,
-   "end": 20.364
+   "start": 19.476,
+   "end": 19.524
   },
   {
    "word": "ça",
-   "start": 20.364,
-   "end": 20.493
+   "start": 19.524,
+   "end": 19.684
   },
   {
    "word": "devient",
-   "start": 20.493,
-   "end": 20.75
+   "start": 19.684,
+   "end": 19.861
   },
   {
    "word": "intéressant:",
-   "start": 20.75,
-   "end": 21.183
+   "start": 19.861,
+   "end": 20.294
   },
   {
    "word": "tu",
-   "start": 21.697,
-   "end": 21.858
+   "start": 20.888,
+   "end": 21.049
   },
   {
    "word": "prends",
-   "start": 21.858,
-   "end": 22.034
+   "start": 21.049,
+   "end": 21.226
   },
   {
    "word": "une",
-   "start": 22.034,
-   "end": 22.179
+   "start": 21.226,
+   "end": 21.354
   },
   {
    "word": "boisson",
-   "start": 22.179,
-   "end": 22.5
+   "start": 21.354,
+   "end": 21.691
   },
   {
    "word": "pour",
-   "start": 22.5,
-   "end": 22.629
+   "start": 21.691,
+   "end": 21.82
   },
   {
    "word": "booster",
-   "start": 22.629,
-   "end": 22.966
+   "start": 21.82,
+   "end": 22.157
   },
   {
    "word": "tes",
-   "start": 22.982,
-   "end": 23.143
+   "start": 22.173,
+   "end": 22.334
   },
   {
    "word": "performances,",
-   "start": 23.143,
-   "end": 23.737
+   "start": 22.334,
+   "end": 22.799
   },
   {
    "word": "mais",
-   "start": 24.026,
-   "end": 24.09
+   "start": 23.217,
+   "end": 23.281
   },
   {
    "word": "tu",
-   "start": 24.09,
-   "end": 24.267
+   "start": 23.281,
+   "end": 23.409
   },
   {
    "word": "risques",
-   "start": 24.267,
-   "end": 24.508
+   "start": 23.409,
+   "end": 23.698
   },
   {
    "word": "de",
-   "start": 24.508,
-   "end": 24.588
+   "start": 23.698,
+   "end": 23.779
   },
   {
    "word": "compromettre",
-   "start": 24.668,
-   "end": 25.07
+   "start": 23.779,
+   "end": 24.244
   },
   {
    "word": "ta",
-   "start": 25.07,
-   "end": 25.182
+   "start": 24.26,
+   "end": 24.373
   },
   {
    "word": "récupération",
-   "start": 25.182,
-   "end": 25.873
+   "start": 24.373,
+   "end": 25.063
   },
   {
    "word": "pendant",
-   "start": 25.873,
-   "end": 26.114
+   "start": 25.063,
+   "end": 25.304
   },
   {
    "word": "la",
-   "start": 26.114,
-   "end": 26.226
+   "start": 25.304,
+   "end": 25.384
   },
   {
    "word": "nuit.",
-   "start": 26.226,
-   "end": 26.403
+   "start": 25.384,
+   "end": 25.513
   },
   {
    "word": "Alors,",
-   "start": 26.933,
-   "end": 27.205
+   "start": 26.124,
+   "end": 26.334
   },
   {
    "word": "avant",
-   "start": 27.334,
-   "end": 27.51
+   "start": 26.528,
+   "end": 26.576
   },
   {
    "word": "de",
-   "start": 27.51,
-   "end": 27.558
+   "start": 26.576,
+   "end": 26.624
   },
   {
    "word": "chercher",
-   "start": 27.558,
-   "end": 27.767
+   "start": 26.753,
+   "end": 27.012
   },
   {
    "word": "un",
-   "start": 27.815,
-   "end": 27.879
+   "start": 27.012,
+   "end": 27.076
   },
   {
    "word": "coup",
-   "start": 27.96,
-   "end": 28.104
+   "start": 27.157,
+   "end": 27.27
   },
   {
    "word": "de",
-   "start": 28.104,
-   "end": 28.168
+   "start": 27.27,
+   "end": 27.302
   },
   {
    "word": "boost,",
-   "start": 28.168,
-   "end": 28.425
+   "start": 27.302,
+   "end": 27.625
   },
   {
    "word": "demande-toi",
-   "start": 28.602,
-   "end": 29.083
+   "start": 27.802,
+   "end": 28.286
   },
   {
    "word": "si",
-   "start": 29.083,
-   "end": 29.244
+   "start": 28.286,
+   "end": 28.447
   },
   {
    "word": "tu",
-   "start": 29.244,
-   "end": 29.324
+   "start": 28.447,
+   "end": 28.528
   },
   {
    "word": "dors",
-   "start": 29.324,
-   "end": 29.468
+   "start": 28.528,
+   "end": 28.689
   },
   {
    "word": "suffisamment",
-   "start": 29.565,
-   "end": 30.046
+   "start": 28.689,
+   "end": 29.334
   },
   {
    "word": "et",
-   "start": 30.142,
-   "end": 30.207
+   "start": 29.351,
+   "end": 29.415
   },
   {
    "word": "si",
-   "start": 30.207,
-   "end": 30.367
+   "start": 29.415,
+   "end": 29.576
   },
   {
    "word": "tu",
-   "start": 30.367,
-   "end": 30.479
+   "start": 29.576,
+   "end": 29.689
   },
   {
    "word": "manges",
-   "start": 30.479,
-   "end": 30.672
+   "start": 29.689,
+   "end": 29.883
   },
   {
    "word": "correctement.",
-   "start": 30.768,
-   "end": 31.137
+   "start": 29.899,
+   "end": 30.351
   },
   {
    "word": "Dis-moi",
-   "start": 31.811,
-   "end": 32.036
+   "start": 31.028,
+   "end": 31.286
   },
   {
    "word": "en",
-   "start": 32.068,
-   "end": 32.132
+   "start": 31.286,
+   "end": 31.351
   },
   {
    "word": "commentaire,",
-   "start": 32.132,
-   "end": 32.582
+   "start": 31.351,
+   "end": 31.803
   },
   {
    "word": "tu",
-   "start": 33.095,
-   "end": 33.256
+   "start": 32.319,
+   "end": 32.432
   },
   {
    "word": "prends",
-   "start": 33.256,
-   "end": 33.416
+   "start": 32.432,
+   "end": 32.641
   },
   {
    "word": "quoi",
-   "start": 33.497,
-   "end": 33.673
+   "start": 32.722,
+   "end": 32.98
   },
   {
    "word": "avant",
-   "start": 33.673,
-   "end": 33.946
+   "start": 32.98,
+   "end": 33.206
   },
   {
    "word": "ta",
-   "start": 33.978,
-   "end": 34.058
+   "start": 33.206,
+   "end": 33.287
   },
   {
    "word": "séance?",
-   "start": 34.058,
-   "end": 34.492
+   "start": 33.287,
+   "end": 33.722
   },
   {
    "word": "Abonne-toi,",
-   "start": 35.117,
-   "end": 35.663
+   "start": 34.351,
+   "end": 34.787
   },
   {
    "word": "une",
-   "start": 35.759,
-   "end": 35.808
+   "start": 34.997,
+   "end": 35.142
   },
   {
    "word": "nouvelle",
-   "start": 35.936,
-   "end": 36.209
+   "start": 35.142,
+   "end": 35.448
   },
   {
    "word": "vidéo",
-   "start": 36.305,
-   "end": 36.626
+   "start": 35.464,
+   "end": 35.868
   },
   {
    "word": "chaque",
-   "start": 36.658,
-   "end": 36.947
+   "start": 35.868,
+   "end": 36.11
   },
   {
    "word": "jour.",
-   "start": 36.947,
-   "end": 37.075
+   "start": 36.11,
+   "end": 36.319
   },
   {
    "word": "Et",
-   "start": 37.525,
-   "end": 37.589
+   "start": 36.771,
+   "end": 36.787
   },
   {
    "word": "retrouve-nous",
-   "start": 37.589,
-   "end": 38.07
+   "start": 36.787,
+   "end": 37.319
   },
   {
    "word": "sur",
-   "start": 38.07,
-   "end": 38.199
+   "start": 37.319,
+   "end": 37.448
   },
   {
    "word": "Calibody.com.",
-   "start": 38.199,
-   "end": 39.162
+   "start": 37.448,
+   "end": 38.352
   }
  ],
  "text": "Tu bois des boissons énergisantes avant ta séance pour avoir plus d'énergie? Attention, tu pourrais faire une erreur! Oui, la caféine peut améliorer certaines performances sportives. Mais il y a un piège que beaucoup ignorent: en consommer trop peut provoquer des palpitations, de l'anxiété et surtout, perturber ton sommeil. Et c'est là que ça devient intéressant: tu prends une boisson pour booster tes performances, mais tu risques de compromettre ta récupération pendant la nuit. Alors, avant de chercher un coup de boost, demande-toi si tu dors suffisamment et si tu manges correctement. Dis-moi en commentaire, tu prends quoi avant ta séance? Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur Calibody.com."

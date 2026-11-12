@@ -1,59 +1,59 @@
 {
- "duration": 39.901,
+ "duration": 39.078,
  "segments": [
   {
    "id": "s01",
    "text": "Tu bois des boissons énergisantes avant ta séance pour avoir plus d'énergie ?",
    "start": 0.15,
-   "end": 4.393
+   "end": 3.371
   },
   {
    "id": "s02",
    "text": "Attention, tu pourrais faire une erreur !",
-   "start": 4.893,
-   "end": 7.082
+   "start": 3.871,
+   "end": 6.06
   },
   {
    "id": "s03",
    "text": "Oui, la caféine peut améliorer certaines performances sportives.",
-   "start": 7.582,
-   "end": 11.273
+   "start": 6.56,
+   "end": 10.251
   },
   {
    "id": "s04",
    "text": "Mais il y a un piège que beaucoup ignorent.",
-   "start": 11.773,
-   "end": 13.666
+   "start": 10.751,
+   "end": 12.644
   },
   {
    "id": "s05",
    "text": "En consommer trop peut provoquer des palpitations, de l'anxiété et surtout perturber ton sommeil.",
-   "start": 14.166,
-   "end": 19.405
+   "start": 13.144,
+   "end": 18.583
   },
   {
    "id": "s06",
    "text": "Et c'est là que ça devient intéressant : tu prends une boisson pour booster tes performances… mais tu risques de compromettre ta récupération pendant la nuit !",
-   "start": 19.905,
-   "end": 26.327
+   "start": 19.083,
+   "end": 25.504
   },
   {
    "id": "s07",
    "text": "Alors, avant de chercher un coup de boost, demande-toi si tu dors suffisamment et si tu manges correctement.",
-   "start": 26.827,
-   "end": 31.294
+   "start": 26.004,
+   "end": 30.472
   },
   {
    "id": "s08",
    "text": "Dis-moi en commentaire : tu prends quoi avant ta séance ?",
-   "start": 31.794,
-   "end": 34.533
+   "start": 30.972,
+   "end": 33.711
   },
   {
    "id": "s09",
    "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
-   "start": 34.883,
-   "end": 39.301
+   "start": 34.061,
+   "end": 38.478
   }
  ]
 }

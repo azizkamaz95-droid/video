@@ -41,7 +41,9 @@ ELI = re.compile(r"^(?:[cdjlmnst]|qu|jusqu|lorsqu|puisqu)'[a-zàâäéèêëîï
 CLI = re.compile(r"^[a-zàâäéèêëîïôöùûüœ]+-(?:moi|toi|lui|leur|nous|vous|le|la|les|y|en|ci|là|t-il|t-elle|t-on)$")
 auto = [w for w in risky if w not in VAL and (ELI.match(w) or CLI.match(w))]
 for w in auto:
-    VAL[w] = {"mode": "raw", "auto": True}
+    # Règle de l'utilisateur (2026-11-12) : l'apostrophe gardée (raw) fait parfois lire « D énergie » (lettre D). Une élision
+    # nouvelle est donc d'office COLLÉE (glue : « dénergie »), la forme qui se lit toujours comme un seul mot ; les traits d'union restent raw.
+    VAL[w] = {"mode": "glue" if ELI.match(w) else "raw", "auto": True}
 if auto:
     reg["tokens"] = VAL
     json.dump(reg, open(REG, "w"), ensure_ascii=False, indent=1)

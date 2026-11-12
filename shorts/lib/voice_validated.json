@@ -106,12 +106,10 @@
    "auto": true
   },
   "d'énergie": {
-   "mode": "ipa",
-   "value": "denɛʁʒi"
+   "mode": "glue"
   },
   "l'anxiété": {
-   "mode": "ipa",
-   "value": "lɑ̃ksjete"
+   "mode": "glue"
   }
  }
 }
