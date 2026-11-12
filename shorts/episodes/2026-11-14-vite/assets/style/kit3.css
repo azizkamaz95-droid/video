@@ -1,0 +1,64 @@
+/* CaliBodi shorts v3.1 — "human editor" kit on Corail: flat colour + real footage windows, white type, yellow marker, paper, hand-drawn notes */
+:root {
+  --bg: #e8553a;        /* this episode: Corail */
+  --ink: #ffffff;       /* type on the background colour */
+  --dark: #141414;      /* type on paper and inside the marker */
+  --paper: #fffdf6;
+  --hl: #ffc93c;        /* marker highlight (Soleil) */
+  --red: #1f3fa0;       /* accent on Corail: deep cobalt (red would vanish on the background) */
+  --yel: #ffc93c;
+  --blue: #2b59c3;
+  --soft: rgba(255, 255, 255, 0.72);
+}
+.scene { position: absolute; inset: 0; overflow: hidden; }
+.abs { position: absolute; }
+.h1, .h2, .h3 { font-family: "Montserrat", sans-serif; color: var(--ink); letter-spacing: -0.035em; line-height: 0.98; }
+.h1 { font-weight: 900; font-size: 150px; }
+.h2 { font-weight: 900; font-size: 104px; }
+.h3 { font-weight: 800; font-size: 64px; letter-spacing: -0.02em; line-height: 1.05; }
+.body { font-family: "Montserrat", sans-serif; font-weight: 600; font-size: 34px; color: var(--ink); line-height: 1.2; }
+.hand { font-family: "Caveat", cursive; font-weight: 700; color: var(--ink); line-height: 0.95; }
+.foot { font-family: "Montserrat", sans-serif; font-weight: 500; font-size: 24px; color: rgba(255,255,255,.78); letter-spacing: 0; }
+.w { display: inline-block; white-space: pre; }
+.mk { position: relative; display: inline-block; padding: 0 0.12em; }
+.mk > i { position: absolute; left: 0; right: 0; top: 0.06em; bottom: 0.02em; background: var(--hl); border-radius: 0.08em; transform-origin: 0% 50%; z-index: 0; }
+.mk > span { position: relative; z-index: 1; color: var(--dark); }
+.paper { position: absolute; background: var(--paper); border-radius: 10px; box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(0, 0, 0, 0.04); }
+.tape { position: absolute; width: 170px; height: 48px; background: rgba(255, 255, 255, 0.62); border: 1px solid rgba(0, 0, 0, 0.06); }
+.polaroid { position: absolute; background: #fff; padding: 22px 22px 86px; border-radius: 6px; box-shadow: 0 22px 46px rgba(0, 0, 0, 0.25); }
+.polaroid .ph { position: relative; width: 100%; height: 100%; overflow: hidden; background: #ddd; }
+.polaroid .ph > img, .polaroid .ph > video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.polaroid .cap { position: absolute; left: 0; right: 0; bottom: 14px; text-align: center; font-family: "Caveat", cursive; font-weight: 700; font-size: 54px; color: var(--dark); }
+.doodle { fill: none; stroke: var(--ink); stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+.doodle.red { stroke: var(--red); }
+.doodle.yel { stroke: var(--yel); }
+.tag { position: absolute; font-family: "Caveat", cursive; font-weight: 700; font-size: 44px; color: var(--soft); }
+
+/* type on paper stays dark */
+.paper .h1, .paper .h2, .paper .h3, .paper .hand, .paper .body { color: var(--dark); }
+.paper .foot { color: #555; }
+.paper .doodle { stroke: var(--dark); }
+.paper .doodle.red { stroke: #d63a2f; }
+/* footage windows (real video / photo in a white frame) */
+.win { position: absolute; overflow: hidden; border-radius: 26px; border: 10px solid #fff; background: #000; box-shadow: 0 28px 60px rgba(0, 0, 0, 0.35); }
+.win.round { border-radius: 50%; }
+.win .kb { position: absolute; inset: 0; }
+.win video, .win img, .full video, .full img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.full { position: absolute; inset: 0; overflow: hidden; background: #000; }
+.full .kb { position: absolute; inset: 0; }
+/* labels on footage: yellow or white boxes with dark type */
+.lab { position: absolute; display: inline-block; padding: 0.06em 0.24em 0.1em; border-radius: 0.12em; background: var(--yel); color: var(--dark); font-family: "Montserrat", sans-serif; font-weight: 900; letter-spacing: -0.03em; line-height: 1; white-space: nowrap; box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3); }
+.lab.white { background: #fff; }
+.badge { position: absolute; width: 120px; height: 120px; border-radius: 50%; background: var(--red); color: #fff; font-family: "Montserrat", sans-serif; font-weight: 900; font-size: 74px; line-height: 120px; text-align: center; box-shadow: 0 12px 26px rgba(0, 0, 0, 0.3); }
+.stk { position: absolute; }
+.stk img { width: 100%; height: 100%; display: block; }
+/* two half-frame slots for the number candles (black stage) */
+.slot { position: absolute; top: 230px; width: 540px; height: 960px; overflow: hidden; background: #000; }
+.slot video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* phone mockup */
+.phone { position: absolute; padding: 14px; background: #141414; border-radius: 52px; box-shadow: 0 24px 50px rgba(0, 0, 0, 0.35); }
+.phone img { display: block; width: 100%; height: 100%; border-radius: 40px; object-fit: cover; object-position: top; }
+/* speech bubble */
+.bubble { position: absolute; background: #fff; border-radius: 40px; padding: 18px 38px 24px; color: var(--dark); font-family: "Montserrat", sans-serif; font-weight: 800; letter-spacing: -0.02em; white-space: nowrap; box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3); }
+.bubble::after { content: ""; position: absolute; left: 70px; bottom: -34px; border: 20px solid transparent; border-top: 22px solid #fff; border-left: 26px solid #fff; }
+.shadowed { text-shadow: 0 6px 30px rgba(0, 0, 0, 0.55); }

@@ -1,0 +1,16 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {"id": "s01", "text": "Il est 20h. Je commence à manger mon plat.", "pause": 0.4, "say": "Il est vingt heures. [pause short] Je commence à manger mon plat."},
+  {"id": "s02", "text": "20h05. Il est déjà fini.", "pause": 0.4, "say": "Vingt heures cinq. [pause short] Il est déjà fini."},
+  {"id": "s03", "text": "20h06, je commence mon yaourt.", "pause": 0.4, "say": "Vingt heures six, je commence mon yaourt."},
+  {"id": "s04", "text": "20h07. Il est vide.", "pause": 0.5, "say": "Vingt heures sept. [pause short] Il est vide."},
+  {"id": "s05", "text": "J'ai tout mangé en 7 minutes. Et c'est ça, le problème.", "pause": 0.5, "say": "J'ai tout mangé en sept minutes. [pause short] Et c'est ça, le problème."},
+  {"id": "s06", "text": "Quand tu manges trop vite, ton cerveau a du mal à enregistrer que tu es rassasié.", "pause": 0.5},
+  {"id": "s07", "text": "Et toi, tu mets combien de temps pour manger ? Dis-le-moi en commentaire.", "pause": 0.35, "say": "Et toi, tu mets combien de temps pour manger ? [pause short] Dis-le-moi en commentaire."},
+  {"id": "s08", "text": "Abonne-toi pour un conseil chaque jour et retrouve-nous sur calibodi.com !", "pause": 0.3, "say": "Abonne-toi pour un conseil chaque jour et retrouve-nous sur CaliBodi point com !"}
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "duration": 25.581,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Il est 20h. Je commence à manger mon plat.",
+   "start": 0.15,
+   "end": 2.584
+  },
+  {
+   "id": "s02",
+   "text": "20h05. Il est déjà fini.",
+   "start": 2.984,
+   "end": 4.752
+  },
+  {
+   "id": "s03",
+   "text": "20h06, je commence mon yaourt.",
+   "start": 5.152,
+   "end": 7.502
+  },
+  {
+   "id": "s04",
+   "text": "20h07. Il est vide.",
+   "start": 7.902,
+   "end": 9.678
+  },
+  {
+   "id": "s05",
+   "text": "J'ai tout mangé en 7 minutes. Et c'est ça, le problème.",
+   "start": 10.178,
+   "end": 13.357
+  },
+  {
+   "id": "s06",
+   "text": "Quand tu manges trop vite, ton cerveau a du mal à enregistrer que tu es rassasié.",
+   "start": 13.857,
+   "end": 17.328
+  },
+  {
+   "id": "s07",
+   "text": "Et toi, tu mets combien de temps pour manger ? Dis-le-moi en commentaire.",
+   "start": 17.828,
+   "end": 20.86
+  },
+  {
+   "id": "s08",
+   "text": "Abonne-toi pour un conseil chaque jour et retrouve-nous sur calibodi.com !",
+   "start": 21.21,
+   "end": 24.981
+  }
+ ]
+}

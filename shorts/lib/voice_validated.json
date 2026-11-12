@@ -118,6 +118,10 @@
   "qu'il": {
    "mode": "glue",
    "auto": true
+  },
+  "dis-le": {
+   "mode": "raw",
+   "auto": true
   }
  }
 }
