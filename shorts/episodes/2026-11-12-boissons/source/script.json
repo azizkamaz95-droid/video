@@ -1,0 +1,17 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {"id": "s01", "text": "Tu bois des boissons énergisantes avant ta séance pour avoir plus d'énergie ?", "pause": 0.5},
+  {"id": "s02", "text": "Attention, tu pourrais faire une erreur !", "pause": 0.5, "say": "Attention, [pause short] tu pourrais faire une erreur."},
+  {"id": "s03", "text": "Oui, la caféine peut améliorer certaines performances sportives.", "pause": 0.5},
+  {"id": "s04", "text": "Mais il y a un piège que beaucoup ignorent.", "pause": 0.5},
+  {"id": "s05", "text": "En consommer trop peut provoquer des palpitations, de l'anxiété et surtout perturber ton sommeil.", "pause": 0.5, "say": "En consommer trop peut provoquer des palpitations, de l'anxiété et surtout, [pause short] perturber ton sommeil."},
+  {"id": "s06", "text": "Et c'est là que ça devient intéressant : tu prends une boisson pour booster tes performances… mais tu risques de compromettre ta récupération pendant la nuit !", "pause": 0.5, "say": "Et c'est là que ça devient intéressant : [pause short] tu prends une boisson pour booster tes performances, mais tu risques de compromettre ta récupération pendant la nuit."},
+  {"id": "s07", "text": "Alors, avant de chercher un coup de boost, demande-toi si tu dors suffisamment et si tu manges correctement.", "pause": 0.5},
+  {"id": "s08", "text": "Dis-moi en commentaire : tu prends quoi avant ta séance ?", "pause": 0.35, "say": "Dis-moi en commentaire : [pause short] tu prends quoi avant ta séance ?"},
+  {"id": "s09", "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !", "pause": 0.3, "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"}
+ ]
+}

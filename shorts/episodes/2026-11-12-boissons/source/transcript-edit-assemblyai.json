@@ -1,0 +1,561 @@
+{
+ "duration": 40.178,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.336
+  },
+  {
+   "word": "bois",
+   "start": 0.336,
+   "end": 0.577
+  },
+  {
+   "word": "des",
+   "start": 0.577,
+   "end": 0.737
+  },
+  {
+   "word": "boissons",
+   "start": 0.737,
+   "end": 1.009
+  },
+  {
+   "word": "énergisantes",
+   "start": 1.009,
+   "end": 1.715
+  },
+  {
+   "word": "avant",
+   "start": 1.715,
+   "end": 1.859
+  },
+  {
+   "word": "ta",
+   "start": 1.859,
+   "end": 2.019
+  },
+  {
+   "word": "séance",
+   "start": 2.019,
+   "end": 2.42
+  },
+  {
+   "word": "pour",
+   "start": 2.42,
+   "end": 2.516
+  },
+  {
+   "word": "avoir",
+   "start": 2.516,
+   "end": 2.805
+  },
+  {
+   "word": "plus",
+   "start": 2.821,
+   "end": 2.949
+  },
+  {
+   "word": "d'énergie?",
+   "start": 3.141,
+   "end": 3.911
+  },
+  {
+   "word": "Attention,",
+   "start": 4.6,
+   "end": 5.033
+  },
+  {
+   "word": "tu",
+   "start": 5.546,
+   "end": 5.706
+  },
+  {
+   "word": "pourrais",
+   "start": 5.706,
+   "end": 5.947
+  },
+  {
+   "word": "faire",
+   "start": 6.027,
+   "end": 6.283
+  },
+  {
+   "word": "une",
+   "start": 6.283,
+   "end": 6.363
+  },
+  {
+   "word": "erreur!",
+   "start": 6.363,
+   "end": 6.716
+  },
+  {
+   "word": "Oui,",
+   "start": 7.389,
+   "end": 7.55
+  },
+  {
+   "word": "la",
+   "start": 8.111,
+   "end": 8.191
+  },
+  {
+   "word": "caféine",
+   "start": 8.191,
+   "end": 8.672
+  },
+  {
+   "word": "peut",
+   "start": 8.672,
+   "end": 8.832
+  },
+  {
+   "word": "améliorer",
+   "start": 8.848,
+   "end": 9.393
+  },
+  {
+   "word": "certaines",
+   "start": 9.393,
+   "end": 9.698
+  },
+  {
+   "word": "performances",
+   "start": 9.794,
+   "end": 10.307
+  },
+  {
+   "word": "sportives.",
+   "start": 10.307,
+   "end": 10.884
+  },
+  {
+   "word": "Mais",
+   "start": 11.557,
+   "end": 11.733
+  },
+  {
+   "word": "il",
+   "start": 11.733,
+   "end": 11.814
+  },
+  {
+   "word": "y",
+   "start": 11.814,
+   "end": 11.974
+  },
+  {
+   "word": "a",
+   "start": 11.974,
+   "end": 12.038
+  },
+  {
+   "word": "un",
+   "start": 12.054,
+   "end": 12.118
+  },
+  {
+   "word": "piège",
+   "start": 12.118,
+   "end": 12.391
+  },
+  {
+   "word": "que",
+   "start": 12.439,
+   "end": 12.599
+  },
+  {
+   "word": "beaucoup",
+   "start": 12.599,
+   "end": 12.936
+  },
+  {
+   "word": "ignorent:",
+   "start": 12.936,
+   "end": 13.288
+  },
+  {
+   "word": "en",
+   "start": 13.897,
+   "end": 14.042
+  },
+  {
+   "word": "consommer",
+   "start": 14.042,
+   "end": 14.523
+  },
+  {
+   "word": "trop",
+   "start": 14.523,
+   "end": 14.763
+  },
+  {
+   "word": "peut",
+   "start": 14.923,
+   "end": 15.084
+  },
+  {
+   "word": "provoquer",
+   "start": 15.084,
+   "end": 15.564
+  },
+  {
+   "word": "des",
+   "start": 15.564,
+   "end": 15.645
+  },
+  {
+   "word": "palpitations,",
+   "start": 15.725,
+   "end": 16.446
+  },
+  {
+   "word": "de",
+   "start": 16.687,
+   "end": 16.751
+  },
+  {
+   "word": "l'anxiété",
+   "start": 16.751,
+   "end": 17.376
+  },
+  {
+   "word": "et",
+   "start": 17.584,
+   "end": 17.648
+  },
+  {
+   "word": "surtout,",
+   "start": 17.648,
+   "end": 18.017
+  },
+  {
+   "word": "perturber",
+   "start": 18.53,
+   "end": 19.011
+  },
+  {
+   "word": "ton",
+   "start": 19.011,
+   "end": 19.171
+  },
+  {
+   "word": "sommeil.",
+   "start": 19.171,
+   "end": 19.54
+  },
+  {
+   "word": "Et",
+   "start": 20.229,
+   "end": 20.293
+  },
+  {
+   "word": "c'est",
+   "start": 20.293,
+   "end": 20.454
+  },
+  {
+   "word": "là",
+   "start": 20.454,
+   "end": 20.502
+  },
+  {
+   "word": "que",
+   "start": 20.566,
+   "end": 20.614
+  },
+  {
+   "word": "ça",
+   "start": 20.614,
+   "end": 20.694
+  },
+  {
+   "word": "devient",
+   "start": 20.726,
+   "end": 20.902
+  },
+  {
+   "word": "intéressant:",
+   "start": 20.951,
+   "end": 21.383
+  },
+  {
+   "word": "tu",
+   "start": 21.976,
+   "end": 22.089
+  },
+  {
+   "word": "prends",
+   "start": 22.089,
+   "end": 22.281
+  },
+  {
+   "word": "une",
+   "start": 22.281,
+   "end": 22.377
+  },
+  {
+   "word": "boisson",
+   "start": 22.377,
+   "end": 22.698
+  },
+  {
+   "word": "pour",
+   "start": 22.778,
+   "end": 22.826
+  },
+  {
+   "word": "booster",
+   "start": 22.826,
+   "end": 23.163
+  },
+  {
+   "word": "tes",
+   "start": 23.259,
+   "end": 23.339
+  },
+  {
+   "word": "performances,",
+   "start": 23.339,
+   "end": 23.948
+  },
+  {
+   "word": "mais",
+   "start": 24.221,
+   "end": 24.381
+  },
+  {
+   "word": "tu",
+   "start": 24.381,
+   "end": 24.493
+  },
+  {
+   "word": "risques",
+   "start": 24.493,
+   "end": 24.782
+  },
+  {
+   "word": "de",
+   "start": 24.782,
+   "end": 24.862
+  },
+  {
+   "word": "compromettre",
+   "start": 24.862,
+   "end": 25.327
+  },
+  {
+   "word": "ta",
+   "start": 25.343,
+   "end": 25.391
+  },
+  {
+   "word": "récupération",
+   "start": 25.391,
+   "end": 26.144
+  },
+  {
+   "word": "pendant",
+   "start": 26.144,
+   "end": 26.337
+  },
+  {
+   "word": "la",
+   "start": 26.337,
+   "end": 26.417
+  },
+  {
+   "word": "nuit.",
+   "start": 26.417,
+   "end": 26.593
+  },
+  {
+   "word": "Alors,",
+   "start": 27.203,
+   "end": 27.412
+  },
+  {
+   "word": "avant",
+   "start": 27.604,
+   "end": 27.781
+  },
+  {
+   "word": "de",
+   "start": 27.781,
+   "end": 27.829
+  },
+  {
+   "word": "chercher",
+   "start": 27.829,
+   "end": 28.166
+  },
+  {
+   "word": "un",
+   "start": 28.166,
+   "end": 28.23
+  },
+  {
+   "word": "coup",
+   "start": 28.23,
+   "end": 28.375
+  },
+  {
+   "word": "de",
+   "start": 28.375,
+   "end": 28.439
+  },
+  {
+   "word": "boost,",
+   "start": 28.439,
+   "end": 28.696
+  },
+  {
+   "word": "demande-toi",
+   "start": 28.873,
+   "end": 29.354
+  },
+  {
+   "word": "si",
+   "start": 29.354,
+   "end": 29.515
+  },
+  {
+   "word": "tu",
+   "start": 29.515,
+   "end": 29.627
+  },
+  {
+   "word": "dors",
+   "start": 29.627,
+   "end": 29.836
+  },
+  {
+   "word": "suffisamment",
+   "start": 29.836,
+   "end": 30.398
+  },
+  {
+   "word": "et",
+   "start": 30.414,
+   "end": 30.478
+  },
+  {
+   "word": "si",
+   "start": 30.478,
+   "end": 30.639
+  },
+  {
+   "word": "tu",
+   "start": 30.639,
+   "end": 30.8
+  },
+  {
+   "word": "manges",
+   "start": 30.8,
+   "end": 30.992
+  },
+  {
+   "word": "correctement.",
+   "start": 31.04,
+   "end": 31.41
+  },
+  {
+   "word": "Dis-moi",
+   "start": 32.084,
+   "end": 32.309
+  },
+  {
+   "word": "en",
+   "start": 32.341,
+   "end": 32.405
+  },
+  {
+   "word": "commentaire,",
+   "start": 32.405,
+   "end": 32.855
+  },
+  {
+   "word": "tu",
+   "start": 33.369,
+   "end": 33.529
+  },
+  {
+   "word": "prends",
+   "start": 33.529,
+   "end": 33.69
+  },
+  {
+   "word": "quoi",
+   "start": 33.77,
+   "end": 33.947
+  },
+  {
+   "word": "avant",
+   "start": 33.947,
+   "end": 34.252
+  },
+  {
+   "word": "ta",
+   "start": 34.252,
+   "end": 34.332
+  },
+  {
+   "word": "séance?",
+   "start": 34.332,
+   "end": 34.766
+  },
+  {
+   "word": "Abonne-toi,",
+   "start": 35.392,
+   "end": 35.906
+  },
+  {
+   "word": "une",
+   "start": 36.034,
+   "end": 36.082
+  },
+  {
+   "word": "nouvelle",
+   "start": 36.211,
+   "end": 36.58
+  },
+  {
+   "word": "vidéo",
+   "start": 36.58,
+   "end": 36.901
+  },
+  {
+   "word": "chaque",
+   "start": 36.933,
+   "end": 37.223
+  },
+  {
+   "word": "jour.",
+   "start": 37.223,
+   "end": 37.351
+  },
+  {
+   "word": "Et",
+   "start": 37.801,
+   "end": 37.865
+  },
+  {
+   "word": "retrouve-nous",
+   "start": 37.865,
+   "end": 38.347
+  },
+  {
+   "word": "sur",
+   "start": 38.347,
+   "end": 38.475
+  },
+  {
+   "word": "Calibody.com!",
+   "start": 38.475,
+   "end": 39.438
+  }
+ ],
+ "text": "Tu bois des boissons énergisantes avant ta séance pour avoir plus d'énergie? Attention, tu pourrais faire une erreur! Oui, la caféine peut améliorer certaines performances sportives. Mais il y a un piège que beaucoup ignorent: en consommer trop peut provoquer des palpitations, de l'anxiété et surtout, perturber ton sommeil. Et c'est là que ça devient intéressant: tu prends une boisson pour booster tes performances, mais tu risques de compromettre ta récupération pendant la nuit. Alors, avant de chercher un coup de boost, demande-toi si tu dors suffisamment et si tu manges correctement. Dis-moi en commentaire, tu prends quoi avant ta séance? Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur Calibody.com!"
+}
