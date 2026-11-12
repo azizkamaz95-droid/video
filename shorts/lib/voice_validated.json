@@ -110,6 +110,14 @@
   },
   "l'anxiété": {
    "mode": "glue"
+  },
+  "n'es": {
+   "mode": "glue",
+   "auto": true
+  },
+  "qu'il": {
+   "mode": "glue",
+   "auto": true
   }
  }
 }

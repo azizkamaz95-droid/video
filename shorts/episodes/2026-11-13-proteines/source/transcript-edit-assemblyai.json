@@ -1,0 +1,661 @@
+{
+ "duration": 40.589,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.256
+  },
+  {
+   "word": "termines",
+   "start": 0.336,
+   "end": 0.657
+  },
+  {
+   "word": "ta",
+   "start": 0.657,
+   "end": 0.818
+  },
+  {
+   "word": "séance",
+   "start": 0.818,
+   "end": 1.235
+  },
+  {
+   "word": "et",
+   "start": 1.235,
+   "end": 1.299
+  },
+  {
+   "word": "tu",
+   "start": 1.299,
+   "end": 1.379
+  },
+  {
+   "word": "te",
+   "start": 1.379,
+   "end": 1.523
+  },
+  {
+   "word": "dépêches",
+   "start": 1.523,
+   "end": 1.94
+  },
+  {
+   "word": "de",
+   "start": 1.94,
+   "end": 2.021
+  },
+  {
+   "word": "prendre",
+   "start": 2.021,
+   "end": 2.245
+  },
+  {
+   "word": "tes",
+   "start": 2.261,
+   "end": 2.422
+  },
+  {
+   "word": "protéines",
+   "start": 2.422,
+   "end": 2.839
+  },
+  {
+   "word": "avant",
+   "start": 2.839,
+   "end": 3.031
+  },
+  {
+   "word": "de",
+   "start": 3.063,
+   "end": 3.144
+  },
+  {
+   "word": "perdre",
+   "start": 3.144,
+   "end": 3.448
+  },
+  {
+   "word": "tes",
+   "start": 3.464,
+   "end": 3.577
+  },
+  {
+   "word": "muscles?",
+   "start": 3.577,
+   "end": 3.898
+  },
+  {
+   "word": "Mais",
+   "start": 4.507,
+   "end": 4.667
+  },
+  {
+   "word": "tu",
+   "start": 4.667,
+   "end": 4.78
+  },
+  {
+   "word": "sais",
+   "start": 4.828,
+   "end": 4.908
+  },
+  {
+   "word": "quoi?",
+   "start": 4.988,
+   "end": 5.117
+  },
+  {
+   "word": "Tu",
+   "start": 5.63,
+   "end": 5.774
+  },
+  {
+   "word": "n'es",
+   "start": 5.774,
+   "end": 5.951
+  },
+  {
+   "word": "peut-être",
+   "start": 5.951,
+   "end": 6.432
+  },
+  {
+   "word": "pas",
+   "start": 6.432,
+   "end": 6.592
+  },
+  {
+   "word": "du",
+   "start": 6.592,
+   "end": 6.753
+  },
+  {
+   "word": "tout",
+   "start": 6.753,
+   "end": 6.913
+  },
+  {
+   "word": "pressé!",
+   "start": 6.913,
+   "end": 7.282
+  },
+  {
+   "word": "On",
+   "start": 7.972,
+   "end": 8.036
+  },
+  {
+   "word": "t'a",
+   "start": 8.036,
+   "end": 8.197
+  },
+  {
+   "word": "souvent",
+   "start": 8.197,
+   "end": 8.517
+  },
+  {
+   "word": "dit",
+   "start": 8.598,
+   "end": 8.758
+  },
+  {
+   "word": "qu'il",
+   "start": 8.758,
+   "end": 8.934
+  },
+  {
+   "word": "fallait",
+   "start": 8.999,
+   "end": 9.191
+  },
+  {
+   "word": "manger",
+   "start": 9.191,
+   "end": 9.56
+  },
+  {
+   "word": "dans",
+   "start": 9.56,
+   "end": 9.72
+  },
+  {
+   "word": "les",
+   "start": 9.72,
+   "end": 9.801
+  },
+  {
+   "word": "30",
+   "start": 9.801,
+   "end": 10.121
+  },
+  {
+   "word": "minutes",
+   "start": 10.121,
+   "end": 10.378
+  },
+  {
+   "word": "après",
+   "start": 10.378,
+   "end": 10.603
+  },
+  {
+   "word": "le",
+   "start": 10.603,
+   "end": 10.683
+  },
+  {
+   "word": "sport",
+   "start": 10.683,
+   "end": 10.988
+  },
+  {
+   "word": "pour",
+   "start": 11.084,
+   "end": 11.228
+  },
+  {
+   "word": "construire",
+   "start": 11.244,
+   "end": 11.629
+  },
+  {
+   "word": "du",
+   "start": 11.645,
+   "end": 11.758
+  },
+  {
+   "word": "muscle.",
+   "start": 11.758,
+   "end": 12.175
+  },
+  {
+   "word": "Pourtant,",
+   "start": 12.768,
+   "end": 13.057
+  },
+  {
+   "word": "ce",
+   "start": 13.57,
+   "end": 13.667
+  },
+  {
+   "word": "n'est",
+   "start": 13.667,
+   "end": 13.811
+  },
+  {
+   "word": "pas",
+   "start": 13.891,
+   "end": 13.987
+  },
+  {
+   "word": "aussi",
+   "start": 13.987,
+   "end": 14.212
+  },
+  {
+   "word": "simple.",
+   "start": 14.212,
+   "end": 14.565
+  },
+  {
+   "word": "Ton",
+   "start": 15.174,
+   "end": 15.335
+  },
+  {
+   "word": "corps",
+   "start": 15.335,
+   "end": 15.543
+  },
+  {
+   "word": "continue",
+   "start": 15.575,
+   "end": 15.944
+  },
+  {
+   "word": "à",
+   "start": 15.993,
+   "end": 16.025
+  },
+  {
+   "word": "utiliser",
+   "start": 16.073,
+   "end": 16.49
+  },
+  {
+   "word": "les",
+   "start": 16.49,
+   "end": 16.618
+  },
+  {
+   "word": "protéines",
+   "start": 16.618,
+   "end": 17.18
+  },
+  {
+   "word": "pour",
+   "start": 17.18,
+   "end": 17.308
+  },
+  {
+   "word": "réparer",
+   "start": 17.34,
+   "end": 17.741
+  },
+  {
+   "word": "et",
+   "start": 17.917,
+   "end": 17.982
+  },
+  {
+   "word": "construire",
+   "start": 18.062,
+   "end": 18.415
+  },
+  {
+   "word": "tes",
+   "start": 18.463,
+   "end": 18.575
+  },
+  {
+   "word": "muscles",
+   "start": 18.575,
+   "end": 18.912
+  },
+  {
+   "word": "bien",
+   "start": 19.024,
+   "end": 19.281
+  },
+  {
+   "word": "après",
+   "start": 19.281,
+   "end": 19.506
+  },
+  {
+   "word": "ta",
+   "start": 19.506,
+   "end": 19.586
+  },
+  {
+   "word": "séance.",
+   "start": 19.586,
+   "end": 19.955
+  },
+  {
+   "word": "Ce",
+   "start": 20.709,
+   "end": 20.789
+  },
+  {
+   "word": "qui",
+   "start": 20.789,
+   "end": 20.869
+  },
+  {
+   "word": "compte",
+   "start": 20.949,
+   "end": 21.11
+  },
+  {
+   "word": "surtout,",
+   "start": 21.11,
+   "end": 21.398
+  },
+  {
+   "word": "c'est",
+   "start": 21.832,
+   "end": 21.944
+  },
+  {
+   "word": "la",
+   "start": 21.944,
+   "end": 22.056
+  },
+  {
+   "word": "quantité",
+   "start": 22.056,
+   "end": 22.553
+  },
+  {
+   "word": "de",
+   "start": 22.553,
+   "end": 22.634
+  },
+  {
+   "word": "protéines",
+   "start": 22.634,
+   "end": 23.035
+  },
+  {
+   "word": "que",
+   "start": 23.035,
+   "end": 23.115
+  },
+  {
+   "word": "tu",
+   "start": 23.115,
+   "end": 23.275
+  },
+  {
+   "word": "consommes",
+   "start": 23.275,
+   "end": 23.628
+  },
+  {
+   "word": "sur",
+   "start": 23.628,
+   "end": 23.821
+  },
+  {
+   "word": "toute",
+   "start": 23.837,
+   "end": 24.013
+  },
+  {
+   "word": "la",
+   "start": 24.013,
+   "end": 24.158
+  },
+  {
+   "word": "journée,",
+   "start": 24.158,
+   "end": 24.366
+  },
+  {
+   "word": "pas",
+   "start": 24.639,
+   "end": 24.799
+  },
+  {
+   "word": "de",
+   "start": 24.799,
+   "end": 24.879
+  },
+  {
+   "word": "courir",
+   "start": 24.879,
+   "end": 25.184
+  },
+  {
+   "word": "vers",
+   "start": 25.2,
+   "end": 25.345
+  },
+  {
+   "word": "ton",
+   "start": 25.361,
+   "end": 25.409
+  },
+  {
+   "word": "shaker",
+   "start": 25.409,
+   "end": 25.826
+  },
+  {
+   "word": "dès",
+   "start": 26.002,
+   "end": 26.098
+  },
+  {
+   "word": "la",
+   "start": 26.098,
+   "end": 26.227
+  },
+  {
+   "word": "dernière",
+   "start": 26.227,
+   "end": 26.564
+  },
+  {
+   "word": "répétition.",
+   "start": 26.564,
+   "end": 27.013
+  },
+  {
+   "word": "Alors,",
+   "start": 27.625,
+   "end": 27.818
+  },
+  {
+   "word": "arrête",
+   "start": 28.432,
+   "end": 28.626
+  },
+  {
+   "word": "de",
+   "start": 28.658,
+   "end": 28.739
+  },
+  {
+   "word": "stresser",
+   "start": 28.739,
+   "end": 29.142
+  },
+  {
+   "word": "pour",
+   "start": 29.142,
+   "end": 29.239
+  },
+  {
+   "word": "les",
+   "start": 29.239,
+   "end": 29.384
+  },
+  {
+   "word": "30",
+   "start": 29.384,
+   "end": 29.627
+  },
+  {
+   "word": "minutes",
+   "start": 29.627,
+   "end": 30.127
+  },
+  {
+   "word": "et",
+   "start": 30.127,
+   "end": 30.192
+  },
+  {
+   "word": "concentre-toi",
+   "start": 30.272,
+   "end": 30.886
+  },
+  {
+   "word": "sur",
+   "start": 30.918,
+   "end": 31.063
+  },
+  {
+   "word": "ta",
+   "start": 31.079,
+   "end": 31.241
+  },
+  {
+   "word": "régularité.",
+   "start": 31.241,
+   "end": 31.854
+  },
+  {
+   "word": "Et",
+   "start": 32.549,
+   "end": 32.613
+  },
+  {
+   "word": "toi,",
+   "start": 32.613,
+   "end": 32.742
+  },
+  {
+   "word": "tu",
+   "start": 32.775,
+   "end": 32.936
+  },
+  {
+   "word": "manges",
+   "start": 32.936,
+   "end": 33.323
+  },
+  {
+   "word": "juste",
+   "start": 33.42,
+   "end": 33.679
+  },
+  {
+   "word": "après",
+   "start": 33.679,
+   "end": 33.905
+  },
+  {
+   "word": "ta",
+   "start": 33.905,
+   "end": 34.066
+  },
+  {
+   "word": "séance?",
+   "start": 34.066,
+   "end": 34.518
+  },
+  {
+   "word": "Ou",
+   "start": 35.051,
+   "end": 35.115
+  },
+  {
+   "word": "tu",
+   "start": 35.115,
+   "end": 35.293
+  },
+  {
+   "word": "attends",
+   "start": 35.293,
+   "end": 35.519
+  },
+  {
+   "word": "plusieurs",
+   "start": 35.519,
+   "end": 36.02
+  },
+  {
+   "word": "heures?",
+   "start": 36.02,
+   "end": 36.133
+  },
+  {
+   "word": "Abonne-toi",
+   "start": 36.665,
+   "end": 37.053
+  },
+  {
+   "word": "pour",
+   "start": 37.053,
+   "end": 37.23
+  },
+  {
+   "word": "un",
+   "start": 37.23,
+   "end": 37.295
+  },
+  {
+   "word": "conseil",
+   "start": 37.295,
+   "end": 37.602
+  },
+  {
+   "word": "chaque",
+   "start": 37.618,
+   "end": 37.86
+  },
+  {
+   "word": "jour",
+   "start": 37.86,
+   "end": 38.151
+  },
+  {
+   "word": "et",
+   "start": 38.28,
+   "end": 38.344
+  },
+  {
+   "word": "retrouve-nous",
+   "start": 38.377,
+   "end": 38.829
+  },
+  {
+   "word": "sur",
+   "start": 38.909,
+   "end": 39.038
+  },
+  {
+   "word": "Calibody.com!",
+   "start": 39.038,
+   "end": 39.926
+  }
+ ],
+ "text": "Tu termines ta séance et tu te dépêches de prendre tes protéines avant de perdre tes muscles? Mais tu sais quoi? Tu n'es peut-être pas du tout pressé! On t'a souvent dit qu'il fallait manger dans les 30 minutes après le sport pour construire du muscle. Pourtant, ce n'est pas aussi simple. Ton corps continue à utiliser les protéines pour réparer et construire tes muscles bien après ta séance. Ce qui compte surtout, c'est la quantité de protéines que tu consommes sur toute la journée, pas de courir vers ton shaker dès la dernière répétition. Alors, arrête de stresser pour les 30 minutes et concentre-toi sur ta régularité. Et toi, tu manges juste après ta séance? Ou tu attends plusieurs heures? Abonne-toi pour un conseil chaque jour et retrouve-nous sur Calibody.com!"
+}

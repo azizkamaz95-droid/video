@@ -1,0 +1,17 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {"id": "s01", "text": "Tu termines ta séance et tu te dépêches de prendre tes protéines avant de perdre tes muscles ?", "pause": 0.5},
+  {"id": "s02", "text": "Mais tu sais quoi ? Tu n'es peut-être pas du tout pressé.", "pause": 0.5, "say": "Mais tu sais quoi ? [pause short] Tu n'es peut-être pas du tout pressé."},
+  {"id": "s03", "text": "On t'a souvent dit qu'il fallait manger dans les 30 minutes après le sport pour construire du muscle.", "pause": 0.5, "say": "On t'a souvent dit qu'il fallait manger dans les trente minutes après le sport pour construire du muscle."},
+  {"id": "s04", "text": "Pourtant, ce n'est pas aussi simple.", "pause": 0.5},
+  {"id": "s05", "text": "Ton corps continue à utiliser les protéines pour réparer et construire tes muscles bien après ta séance.", "pause": 0.5},
+  {"id": "s06", "text": "Ce qui compte surtout, c'est la quantité de protéines que tu consommes sur toute la journée, pas de courir vers ton shaker dès la dernière répétition.", "pause": 0.5, "say": "Ce qui compte surtout, [pause short] c'est la quantité de protéines que tu consommes sur toute la journée, pas de courir vers ton shaker dès la dernière répétition."},
+  {"id": "s07", "text": "Alors, arrête de stresser pour les 30 minutes et concentre-toi sur ta régularité.", "pause": 0.5, "say": "Alors, arrête de stresser pour les trente minutes et concentre-toi sur ta régularité."},
+  {"id": "s08", "text": "Et toi, tu manges juste après ta séance ou tu attends plusieurs heures ?", "pause": 0.35},
+  {"id": "s09", "text": "Abonne-toi pour un conseil chaque jour et retrouve-nous sur calibodi.com !", "pause": 0.3, "say": "Abonne-toi pour un conseil chaque jour et retrouve-nous sur CaliBodi point com !"}
+ ]
+}
