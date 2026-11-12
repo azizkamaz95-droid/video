@@ -1,0 +1,138 @@
+{
+ "title": "Proteines apres la seance",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -25.0,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  9.8,
+  25.41
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 7.88
+  },
+  {
+   "type": "body",
+   "start": 7.88,
+   "end": 36.51
+  },
+  {
+   "type": "outro",
+   "start": 36.51,
+   "end": 41.29
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   0.82
+  ],
+  [
+   "whoosh",
+   2.3
+  ],
+  [
+   "stamp",
+   3.58
+  ],
+  [
+   "whoosh",
+   4.37
+  ],
+  [
+   "thump",
+   6.91
+  ],
+  [
+   "whoosh",
+   7.78
+  ],
+  [
+   "thump",
+   9.8
+  ],
+  [
+   "whoosh",
+   10.2
+  ],
+  [
+   "stamp",
+   11.76
+  ],
+  [
+   "whoosh",
+   12.65
+  ],
+  [
+   "whoosh",
+   15.01
+  ],
+  [
+   "stamp",
+   16.62
+  ],
+  [
+   "whoosh",
+   17.8
+  ],
+  [
+   "stamp",
+   18.57
+  ],
+  [
+   "whoosh",
+   20.51
+  ],
+  [
+   "stamp",
+   21.11
+  ],
+  [
+   "whoosh",
+   23.5
+  ],
+  [
+   "thump",
+   25.41
+  ],
+  [
+   "whoosh",
+   26.94
+  ],
+  [
+   "whoosh",
+   30.1
+  ],
+  [
+   "stamp",
+   31.24
+  ],
+  [
+   "whoosh",
+   32.33
+  ],
+  [
+   "stamp",
+   35.52
+  ],
+  [
+   "whoosh",
+   36.41
+  ],
+  [
+   "plinks",
+   38.6
+  ]
+ ],
+ "music_file": "assets/music/motivation-quotidienne.mp3",
+ "music_loop": [
+  0.0,
+  48.0
+ ]
+}
