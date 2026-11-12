@@ -71,46 +71,46 @@ C = "left: 0; width: 1080px; text-align: center;"
 SH = "text-shadow: 0 20px 60px rgba(0,0,0,.65);"
 ML = "white-space: normal; line-height: 1;"
 # Shot list of « boissons », read by build_v4.py. Global times in seconds (voice of 2026-11-12).
-# Footage: coffee beans and cups, stairs seen from the feet, a night bedroom, an alarm clock, vegetables, a far runner (no women, no faces, no logos).
+# Footage: soda / energy-drink cans (photos with slow zoom), bodybuilder seen from behind, night bedroom, alarm clock, vegetables (no women, no faces, no big logos).
 A = "#FF4D4D"
 SHOTS = [
-    ("s1", "grains", 0.00, 3.87, None, *acc(
+    ("s1", "can1", 0.00, 3.87, None, *acc(
         tag("s1", "a", "TU BOIS DES", f"{C} top: 250px; font-size: 70px; color: #fff;", 0.18),
         lab("s1", "b", "BOISSONS", "left: 180px; top: 340px; font-size: 120px;", 0.66),
         lab("s1", "c", "ÉNERGISANTES", "left: 90px; top: 520px; font-size: 84px;", 0.99, white=True),
         tag("s1", "d", "AVANT TA SÉANCE", f"{C} top: 700px; font-size: 64px; color: #fff;", 1.64),
         lab("s1", "e", "D'ÉNERGIE ?", "left: 120px; top: 820px; font-size: 96px;", 2.91))),
-    ("s2", "tasse", 3.87, 6.68, "whip", *acc(
+    ("s2", "verser", 3.87, 6.68, "whip", *acc(
         tag("s2", "a", "ATTENTION", f"{C} top: 250px; font-size: 96px; color: #fff;", 3.96),
         tag("s2", "b", "TU POURRAIS FAIRE UNE", f"{C} top: 400px; font-size: 52px; color: #fff;", 4.91),
         lab("s2", "c", "ERREUR", "left: 190px; top: 520px; font-size: 150px;", 5.73))),
-    ("s3", "marches", 6.68, 10.85, "zoom", *acc(
+    ("s3", "dosbiceps", 6.68, 10.85, "zoom", *acc(
         lab("s3", "a", "CAFÉINE", "left: 200px; top: 280px; font-size: 140px;", 7.56),
         tag("s3", "b", "PEUT AMÉLIORER", f"{C} top: 480px; font-size: 70px; color: #fff;", 8.22),
         lab("s3", "c", "PERFORMANCES", "left: 100px; top: 600px; font-size: 84px;", 9.17, white=True),
         tag("s3", "d", "SPORTIVES", f"{C} top: 780px; font-size: 80px; color: #fff;", 9.79))),
-    ("s4", "mug", 10.85, 13.28, "flash", *acc(
+    ("s4", "gouttes", 10.85, 13.28, "flash", *acc(
         tag("s4", "a", "MAIS IL Y A UN", f"{C} top: 250px; font-size: 70px; color: #fff;", 10.85),
         lab("s4", "b", "PIÈGE", "left: 280px; top: 380px; font-size: 150px;", 11.41),
         tag("s4", "c", "QUE BEAUCOUP IGNORENT", f"{C} top: 600px; font-size: 52px; color: #fff;", 11.90))),
-    ("s5", "grains2", 13.28, 16.50, "whip", *acc(
+    ("s5", "glacons", 13.28, 16.50, "whip", *acc(
         tag("s5", "a", "EN CONSOMMER TROP", f"{C} top: 250px; font-size: 56px; color: #fff;", 13.34),
         lab("s5", "b", "PALPITATIONS", "left: 90px; top: 400px; font-size: 90px;", 14.79),
         lab("s5", "c", "ANXIÉTÉ", "left: 220px; top: 560px; font-size: 110px;", 15.65, white=True))),
     ("s6", "chambre", 16.50, 19.14, "zoom", *acc(
         tag("s6", "a", "PERTURBER", f"{C} top: 250px; font-size: 90px; color: #fff;", 17.44),
         lab("s6", "b", "TON SOMMEIL", "left: 110px; top: 380px; font-size: 96px;", 18.00))),
-    ("s7", "reveil", 19.14, 23.00, "flash", *acc(
+    ("s7", "epaules", 19.14, 23.00, "flash", *acc(
         tag("s7", "a", "ET C'EST LÀ", f"{C} top: 250px; font-size: 70px; color: #fff;", 19.14),
         lab("s7", "b", "INTÉRESSANT", "left: 100px; top: 380px; font-size: 96px;", 19.86),
         tag("s7", "c", "TU PRENDS UNE BOISSON", f"{C} top: 560px; font-size: 50px; color: #fff;", 20.89),
         lab("s7", "d", "BOOSTER", "left: 200px; top: 680px; font-size: 130px;", 21.82, white=True))),
-    ("s8", "lit", 23.00, 26.00, "whip", *acc(
+    ("s8", "reveil", 23.00, 26.00, "whip", *acc(
         tag("s8", "a", "MAIS TU RISQUES", f"{C} top: 250px; font-size: 70px; color: #fff;", 23.22),
         lab("s8", "b", "COMPROMETTRE", "left: 90px; top: 380px; font-size: 84px;", 23.78),
         lab("s8", "c", "RÉCUPÉRATION", "left: 80px; top: 540px; font-size: 84px;", 24.37, white=True),
         tag("s8", "d", "PENDANT LA NUIT", f"{C} top: 720px; font-size: 64px; color: #fff;", 25.06))),
-    ("s9", "horloge", 26.00, 28.30, "zoom", *acc(
+    ("s9", "languette", 26.00, 28.30, "zoom", *acc(
         tag("s9", "a", "AVANT DE CHERCHER", f"{C} top: 250px; font-size: 60px; color: #fff;", 26.53),
         lab("s9", "b", "UN COUP DE BOOST", "left: 100px; top: 380px; font-size: 62px;", 27.16),
         tag("s9", "c", "DEMANDE-TOI", f"{C} top: 560px; font-size: 90px; color: #fff;", 27.80))),
@@ -119,7 +119,7 @@ SHOTS = [
         lab("s10", "b", "SUFFISAMMENT", "left: 90px; top: 380px; font-size: 86px;", 28.69),
         tag("s10", "c", "ET SI TU MANGES", f"{C} top: 560px; font-size: 66px; color: #fff;", 29.41),
         lab("s10", "d", "CORRECTEMENT", "left: 80px; top: 700px; font-size: 80px;", 29.90, white=True))),
-    ("s11", "coureur", 30.97, 34.06, "whip", *acc(
+    ("s11", "barre", 30.97, 34.06, "whip", *acc(
         tag("s11", "a", "DIS-MOI EN COMMENTAIRE", f"{C} top: 250px; font-size: 50px; color: #fff;", 31.03),
         lab("s11", "b", "TU PRENDS QUOI", "left: 150px; top: 400px; font-size: 70px;", 32.43),
         tag("s11", "c", "AVANT TA SÉANCE ?", f"{C} top: 560px; font-size: 64px; color: #fff;", 32.98))),

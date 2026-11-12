@@ -7,4 +7,5 @@ Points à ne jamais oublier (détail dans le PLAYBOOK) :
 - Aucune femme ni visage identifiable à l'image, aucun logo ; jamais de chiffre inventé (sources affichées à l'écran).
 - Phrases simples, un seul sujet par vidéo, structure « 3 faits, le dernier va te surprendre », fin avec CaliBodi / calibodi.com.
 - Une vidéo par jour, sujets variés ; ne pas refaire ni relire d'anciennes vidéos (crédits limités).
+- Images choisies selon le SUJET exact (boissons énergisantes = canettes ; énergie/effort = musculation, jamais d'escaliers ni de café hors sujet) ; apostrophes toujours lues correctement ; musique « the-plan » retirée (voir `shorts/PLAYBOOK.md` §12).
 - Écrire CaliBodi exactement ainsi. Ne jamais écrire de clé ou mot de passe dans un fichier.

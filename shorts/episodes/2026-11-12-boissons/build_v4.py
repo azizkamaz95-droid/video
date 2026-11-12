@@ -309,7 +309,7 @@ print(f"v4 built · {D}s of {FULL}s · {len(SHOTS)} shots · {ng} caption groups
 # canonical cinema grade on every shot (persisted by the CLI as data-color-grading)
 import subprocess
 GRADE = {"preset": "deep-contrast", "intensity": 0.7, "details": {"vignette": 0.35, "grain": 0.12}}
-LIFT = {"s12": {"exposure": -0.5}}
+LIFT = {"s12": {"exposure": -0.4}}
 for sid, *_ in SHOTS:
     g = dict(GRADE, adjust=LIFT[sid]) if sid in LIFT else GRADE
     subprocess.run(["npx", "--yes", "hyperframes@0.8.181", "media-treatment", "--project", EP, "--file", f"compositions/scenes/{sid}.html",
