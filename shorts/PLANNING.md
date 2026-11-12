@@ -34,3 +34,6 @@ Paris = UTC+1 jusqu'au 27 mars 2027 inclus, puis UTC+2 (à partir du 28 mars 202
 3. Je génère le titre, la description, les 3 hashtags (`publication.md`) et je dépose les 4 dossiers `queue/AAAA-MM-JJ-nom-<réseau>/` avec les heures de ce tableau.
 4. Jour de publication : le lendemain de la validation, ou le jour même si les 4 heures du jour sont encore à plus de 30 minutes. Une seule vidéo par jour : si le jour est déjà pris, le premier jour libre.
 5. Je vérifie sur GitHub (Actions) que chaque envoi est parti, puis je confirme à l'utilisateur.
+
+## Règle « une vidéo par jour, publiée le jour même » (utilisateur, 2026-11-12)
+La vidéo du jour se publie **le jour même**, jamais reportée au lendemain. Quand un créneau du jour est déjà passé (ou à moins de 30 min), la publication de ce réseau part **tout de suite** (dossier `queue/` avec un `publish_at` déjà passé, puis lancement de `scheduled.yml`) ; les créneaux restants gardent leur heure. Une seule publication à la fois (≈ 5 min chacune), dans l'ordre Facebook, TikTok, Instagram, YouTube.
