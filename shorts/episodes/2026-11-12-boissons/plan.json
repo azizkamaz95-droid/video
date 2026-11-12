@@ -1,0 +1,126 @@
+{
+ "title": "Boissons énergisantes et récupération",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -25.0,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  11.41,
+  25.38
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 6.68
+  },
+  {
+   "type": "body",
+   "start": 6.68,
+   "end": 34.06
+  },
+  {
+   "type": "outro",
+   "start": 34.06,
+   "end": 39.78
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   0.66
+  ],
+  [
+   "whoosh",
+   3.77
+  ],
+  [
+   "stamp",
+   5.73
+  ],
+  [
+   "whoosh",
+   6.58
+  ],
+  [
+   "stamp",
+   9.17
+  ],
+  [
+   "whoosh",
+   10.75
+  ],
+  [
+   "thump",
+   11.41
+  ],
+  [
+   "whoosh",
+   13.18
+  ],
+  [
+   "stamp",
+   14.79
+  ],
+  [
+   "whoosh",
+   16.4
+  ],
+  [
+   "thump",
+   18.0
+  ],
+  [
+   "whoosh",
+   19.04
+  ],
+  [
+   "stamp",
+   21.82
+  ],
+  [
+   "whoosh",
+   22.9
+  ],
+  [
+   "stamp",
+   24.37
+  ],
+  [
+   "thump",
+   25.38
+  ],
+  [
+   "whoosh",
+   25.9
+  ],
+  [
+   "whoosh",
+   28.2
+  ],
+  [
+   "whoosh",
+   30.87
+  ],
+  [
+   "stamp",
+   32.43
+  ],
+  [
+   "whoosh",
+   33.96
+  ],
+  [
+   "plinks",
+   36.4
+  ]
+ ],
+ "music_file": "assets/music/the-plan.mp3",
+ "music_loop": [
+  8.0,
+  48.0
+ ]
+}
