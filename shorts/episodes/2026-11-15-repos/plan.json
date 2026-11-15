@@ -1,0 +1,92 @@
+{
+ "title": "Manger trop vite",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -70.0,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  11.0
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 10.18
+  },
+  {
+   "type": "body",
+   "start": 10.18,
+   "end": 21.21
+  },
+  {
+   "type": "outro",
+   "start": 21.21,
+   "end": 26.28
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   0.37
+  ],
+  [
+   "whoosh",
+   2.88
+  ],
+  [
+   "stamp",
+   3.14
+  ],
+  [
+   "whoosh",
+   5.05
+  ],
+  [
+   "stamp",
+   5.23
+  ],
+  [
+   "whoosh",
+   7.8
+  ],
+  [
+   "stamp",
+   8.04
+  ],
+  [
+   "whoosh",
+   10.08
+  ],
+  [
+   "thump",
+   11.0
+  ],
+  [
+   "whoosh",
+   13.76
+  ],
+  [
+   "stamp",
+   15.33
+  ],
+  [
+   "whoosh",
+   17.73
+  ],
+  [
+   "stamp",
+   20.3
+  ],
+  [
+   "whoosh",
+   21.11
+  ],
+  [
+   "plinks",
+   24.0
+  ]
+ ]
+}

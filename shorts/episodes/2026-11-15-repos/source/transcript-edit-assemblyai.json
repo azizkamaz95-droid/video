@@ -1,0 +1,706 @@
+{
+ "duration": 44.267,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.272
+  },
+  {
+   "word": "enchaînes",
+   "start": 0.272,
+   "end": 0.656
+  },
+  {
+   "word": "tes",
+   "start": 0.656,
+   "end": 0.737
+  },
+  {
+   "word": "séries",
+   "start": 0.737,
+   "end": 1.073
+  },
+  {
+   "word": "avec",
+   "start": 1.073,
+   "end": 1.281
+  },
+  {
+   "word": "seulement",
+   "start": 1.297,
+   "end": 1.618
+  },
+  {
+   "word": "30",
+   "start": 1.698,
+   "end": 1.858
+  },
+  {
+   "word": "secondes",
+   "start": 1.858,
+   "end": 2.179
+  },
+  {
+   "word": "de",
+   "start": 2.179,
+   "end": 2.259
+  },
+  {
+   "word": "repos",
+   "start": 2.259,
+   "end": 2.579
+  },
+  {
+   "word": "pour",
+   "start": 2.579,
+   "end": 2.739
+  },
+  {
+   "word": "ne",
+   "start": 2.739,
+   "end": 2.819
+  },
+  {
+   "word": "pas",
+   "start": 2.9,
+   "end": 3.06
+  },
+  {
+   "word": "perdre",
+   "start": 3.06,
+   "end": 3.3
+  },
+  {
+   "word": "de",
+   "start": 3.3,
+   "end": 3.46
+  },
+  {
+   "word": "temps?",
+   "start": 3.46,
+   "end": 3.588
+  },
+  {
+   "word": "Mais",
+   "start": 4.261,
+   "end": 4.342
+  },
+  {
+   "word": "si",
+   "start": 4.342,
+   "end": 4.502
+  },
+  {
+   "word": "je",
+   "start": 4.502,
+   "end": 4.55
+  },
+  {
+   "word": "te",
+   "start": 4.582,
+   "end": 4.662
+  },
+  {
+   "word": "disais",
+   "start": 4.662,
+   "end": 4.902
+  },
+  {
+   "word": "que",
+   "start": 4.902,
+   "end": 4.982
+  },
+  {
+   "word": "tu",
+   "start": 4.982,
+   "end": 5.143
+  },
+  {
+   "word": "pourrais",
+   "start": 5.143,
+   "end": 5.383
+  },
+  {
+   "word": "ralentir",
+   "start": 5.383,
+   "end": 5.864
+  },
+  {
+   "word": "ta",
+   "start": 5.864,
+   "end": 6.024
+  },
+  {
+   "word": "progression",
+   "start": 6.024,
+   "end": 6.521
+  },
+  {
+   "word": "en",
+   "start": 6.521,
+   "end": 6.585
+  },
+  {
+   "word": "voulant",
+   "start": 6.585,
+   "end": 6.841
+  },
+  {
+   "word": "aller",
+   "start": 6.841,
+   "end": 6.985
+  },
+  {
+   "word": "trop",
+   "start": 6.985,
+   "end": 7.145
+  },
+  {
+   "word": "vite?",
+   "start": 7.145,
+   "end": 7.354
+  },
+  {
+   "word": "Contrairement",
+   "start": 7.946,
+   "end": 8.523
+  },
+  {
+   "word": "à",
+   "start": 8.523,
+   "end": 8.539
+  },
+  {
+   "word": "ce",
+   "start": 8.539,
+   "end": 8.7
+  },
+  {
+   "word": "qu'on",
+   "start": 8.7,
+   "end": 8.828
+  },
+  {
+   "word": "croit,",
+   "start": 8.908,
+   "end": 9.116
+  },
+  {
+   "word": "transpirer",
+   "start": 9.629,
+   "end": 10.19
+  },
+  {
+   "word": "davantage",
+   "start": 10.19,
+   "end": 10.766
+  },
+  {
+   "word": "et",
+   "start": 10.766,
+   "end": 10.927
+  },
+  {
+   "word": "enchaîner",
+   "start": 10.927,
+   "end": 11.311
+  },
+  {
+   "word": "rapidement",
+   "start": 11.311,
+   "end": 11.744
+  },
+  {
+   "word": "ne",
+   "start": 11.744,
+   "end": 11.872
+  },
+  {
+   "word": "veut",
+   "start": 11.872,
+   "end": 11.904
+  },
+  {
+   "word": "pas",
+   "start": 12.032,
+   "end": 12.112
+  },
+  {
+   "word": "forcément",
+   "start": 12.112,
+   "end": 12.593
+  },
+  {
+   "word": "dire",
+   "start": 12.593,
+   "end": 12.801
+  },
+  {
+   "word": "mieux",
+   "start": 12.833,
+   "end": 13.074
+  },
+  {
+   "word": "travailler",
+   "start": 13.074,
+   "end": 13.474
+  },
+  {
+   "word": "tes",
+   "start": 13.474,
+   "end": 13.586
+  },
+  {
+   "word": "muscles.",
+   "start": 13.586,
+   "end": 13.923
+  },
+  {
+   "word": "Quand",
+   "start": 14.596,
+   "end": 14.676
+  },
+  {
+   "word": "tu",
+   "start": 14.676,
+   "end": 14.868
+  },
+  {
+   "word": "récupères",
+   "start": 14.868,
+   "end": 15.365
+  },
+  {
+   "word": "trop",
+   "start": 15.397,
+   "end": 15.637
+  },
+  {
+   "word": "peu,",
+   "start": 15.717,
+   "end": 15.845
+  },
+  {
+   "word": "tu",
+   "start": 15.877,
+   "end": 16.07
+  },
+  {
+   "word": "risques",
+   "start": 16.07,
+   "end": 16.438
+  },
+  {
+   "word": "de",
+   "start": 16.438,
+   "end": 16.518
+  },
+  {
+   "word": "perdre",
+   "start": 16.598,
+   "end": 16.903
+  },
+  {
+   "word": "des",
+   "start": 16.919,
+   "end": 17.031
+  },
+  {
+   "word": "répétitions",
+   "start": 17.031,
+   "end": 17.8
+  },
+  {
+   "word": "et",
+   "start": 17.896,
+   "end": 17.96
+  },
+  {
+   "word": "de",
+   "start": 17.96,
+   "end": 18.072
+  },
+  {
+   "word": "moins",
+   "start": 18.072,
+   "end": 18.361
+  },
+  {
+   "word": "bien",
+   "start": 18.361,
+   "end": 18.473
+  },
+  {
+   "word": "réaliser",
+   "start": 18.473,
+   "end": 19.002
+  },
+  {
+   "word": "tes",
+   "start": 19.002,
+   "end": 19.162
+  },
+  {
+   "word": "séries.",
+   "start": 19.162,
+   "end": 19.37
+  },
+  {
+   "word": "Une",
+   "start": 20.139,
+   "end": 20.187
+  },
+  {
+   "word": "méta-analyse",
+   "start": 20.203,
+   "end": 20.908
+  },
+  {
+   "word": "publiée",
+   "start": 21.005,
+   "end": 21.421
+  },
+  {
+   "word": "en",
+   "start": 21.421,
+   "end": 21.485
+  },
+  {
+   "word": "2024",
+   "start": 21.565,
+   "end": 22.35
+  },
+  {
+   "word": "suggère",
+   "start": 22.366,
+   "end": 22.751
+  },
+  {
+   "word": "même",
+   "start": 22.767,
+   "end": 22.911
+  },
+  {
+   "word": "qu'un",
+   "start": 23.007,
+   "end": 23.119
+  },
+  {
+   "word": "repos",
+   "start": 23.119,
+   "end": 23.488
+  },
+  {
+   "word": "supérieur",
+   "start": 23.488,
+   "end": 23.985
+  },
+  {
+   "word": "à",
+   "start": 23.985,
+   "end": 24.033
+  },
+  {
+   "word": "60",
+   "start": 24.049,
+   "end": 24.417
+  },
+  {
+   "word": "secondes",
+   "start": 24.449,
+   "end": 24.962
+  },
+  {
+   "word": "peut",
+   "start": 25.25,
+   "end": 25.363
+  },
+  {
+   "word": "légèrement",
+   "start": 25.363,
+   "end": 25.811
+  },
+  {
+   "word": "favoriser",
+   "start": 25.811,
+   "end": 26.292
+  },
+  {
+   "word": "la",
+   "start": 26.292,
+   "end": 26.34
+  },
+  {
+   "word": "prise",
+   "start": 26.452,
+   "end": 26.692
+  },
+  {
+   "word": "de",
+   "start": 26.692,
+   "end": 26.805
+  },
+  {
+   "word": "muscle",
+   "start": 26.805,
+   "end": 27.205
+  },
+  {
+   "word": "par",
+   "start": 27.253,
+   "end": 27.333
+  },
+  {
+   "word": "rapport",
+   "start": 27.333,
+   "end": 27.67
+  },
+  {
+   "word": "à",
+   "start": 27.67,
+   "end": 27.734
+  },
+  {
+   "word": "des",
+   "start": 27.734,
+   "end": 27.846
+  },
+  {
+   "word": "repos",
+   "start": 27.846,
+   "end": 28.215
+  },
+  {
+   "word": "plus",
+   "start": 28.215,
+   "end": 28.375
+  },
+  {
+   "word": "courts.",
+   "start": 28.375,
+   "end": 28.583
+  },
+  {
+   "word": "Alors",
+   "start": 29.353,
+   "end": 29.482
+  },
+  {
+   "word": "la",
+   "start": 29.498,
+   "end": 29.659
+  },
+  {
+   "word": "prochaine",
+   "start": 29.659,
+   "end": 29.98
+  },
+  {
+   "word": "fois,",
+   "start": 29.98,
+   "end": 30.173
+  },
+  {
+   "word": "ne",
+   "start": 30.189,
+   "end": 30.301
+  },
+  {
+   "word": "regarde",
+   "start": 30.301,
+   "end": 30.703
+  },
+  {
+   "word": "pas",
+   "start": 30.703,
+   "end": 30.864
+  },
+  {
+   "word": "uniquement",
+   "start": 30.96,
+   "end": 31.346
+  },
+  {
+   "word": "le",
+   "start": 31.346,
+   "end": 31.426
+  },
+  {
+   "word": "chrono.",
+   "start": 31.426,
+   "end": 31.635
+  },
+  {
+   "word": "Récupère",
+   "start": 32.31,
+   "end": 32.776
+  },
+  {
+   "word": "suffisamment",
+   "start": 32.792,
+   "end": 33.355
+  },
+  {
+   "word": "pour",
+   "start": 33.355,
+   "end": 33.515
+  },
+  {
+   "word": "faire",
+   "start": 33.515,
+   "end": 33.692
+  },
+  {
+   "word": "une",
+   "start": 33.692,
+   "end": 33.837
+  },
+  {
+   "word": "bonne",
+   "start": 33.837,
+   "end": 33.998
+  },
+  {
+   "word": "série.",
+   "start": 33.998,
+   "end": 34.206
+  },
+  {
+   "word": "Et",
+   "start": 34.897,
+   "end": 34.962
+  },
+  {
+   "word": "toi,",
+   "start": 34.962,
+   "end": 35.09
+  },
+  {
+   "word": "tu",
+   "start": 35.155,
+   "end": 35.283
+  },
+  {
+   "word": "te",
+   "start": 35.283,
+   "end": 35.412
+  },
+  {
+   "word": "reposes",
+   "start": 35.412,
+   "end": 35.717
+  },
+  {
+   "word": "combien",
+   "start": 35.765,
+   "end": 36.087
+  },
+  {
+   "word": "de",
+   "start": 36.167,
+   "end": 36.247
+  },
+  {
+   "word": "temps",
+   "start": 36.328,
+   "end": 36.52
+  },
+  {
+   "word": "entre",
+   "start": 36.52,
+   "end": 36.713
+  },
+  {
+   "word": "tes",
+   "start": 36.729,
+   "end": 36.89
+  },
+  {
+   "word": "séries?",
+   "start": 36.89,
+   "end": 37.179
+  },
+  {
+   "word": "30",
+   "start": 37.694,
+   "end": 37.902
+  },
+  {
+   "word": "secondes,",
+   "start": 37.935,
+   "end": 38.304
+  },
+  {
+   "word": "1",
+   "start": 38.433,
+   "end": 38.497
+  },
+  {
+   "word": "minute",
+   "start": 38.529,
+   "end": 38.915
+  },
+  {
+   "word": "ou",
+   "start": 38.915,
+   "end": 38.979
+  },
+  {
+   "word": "plus?",
+   "start": 38.979,
+   "end": 39.188
+  },
+  {
+   "word": "Abonne-toi",
+   "start": 40.04,
+   "end": 40.425
+  },
+  {
+   "word": "pour",
+   "start": 40.425,
+   "end": 40.602
+  },
+  {
+   "word": "un",
+   "start": 40.602,
+   "end": 40.666
+  },
+  {
+   "word": "conseil",
+   "start": 40.666,
+   "end": 41.052
+  },
+  {
+   "word": "chaque",
+   "start": 41.068,
+   "end": 41.39
+  },
+  {
+   "word": "jour",
+   "start": 41.39,
+   "end": 41.695
+  },
+  {
+   "word": "et",
+   "start": 41.727,
+   "end": 41.791
+  },
+  {
+   "word": "retrouve-nous",
+   "start": 41.872,
+   "end": 42.354
+  },
+  {
+   "word": "sur",
+   "start": 42.354,
+   "end": 42.579
+  },
+  {
+   "word": "Calibody.com.",
+   "start": 42.643,
+   "end": 43.527
+  }
+ ],
+ "text": "Tu enchaînes tes séries avec seulement 30 secondes de repos pour ne pas perdre de temps? Mais si je te disais que tu pourrais ralentir ta progression en voulant aller trop vite? Contrairement à ce qu'on croit, transpirer davantage et enchaîner rapidement ne veut pas forcément dire mieux travailler tes muscles. Quand tu récupères trop peu, tu risques de perdre des répétitions et de moins bien réaliser tes séries. Une méta-analyse publiée en 2024 suggère même qu'un repos supérieur à 60 secondes peut légèrement favoriser la prise de muscle par rapport à des repos plus courts. Alors la prochaine fois, ne regarde pas uniquement le chrono. Récupère suffisamment pour faire une bonne série. Et toi, tu te reposes combien de temps entre tes séries? 30 secondes, 1 minute ou plus? Abonne-toi pour un conseil chaque jour et retrouve-nous sur Calibody.com."
+}

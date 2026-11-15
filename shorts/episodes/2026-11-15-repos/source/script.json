@@ -1,0 +1,16 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {"id": "s01", "text": "Tu enchaînes tes séries avec seulement 30 secondes de repos pour ne pas perdre de temps ?", "pause": 0.5, "say": "Tu enchaînes tes séries avec seulement trente secondes de repos pour ne pas perdre de temps ?"},
+  {"id": "s02", "text": "Mais si je te disais que tu pourrais ralentir ta progression en voulant aller trop vite ?", "pause": 0.5},
+  {"id": "s03", "text": "Contrairement à ce qu'on croit, transpirer davantage et enchaîner rapidement ne veut pas forcément dire mieux travailler tes muscles.", "pause": 0.5},
+  {"id": "s04", "text": "Quand tu récupères trop peu, tu risques de perdre des répétitions et de moins bien réaliser tes séries.", "pause": 0.5},
+  {"id": "s05", "text": "Une méta-analyse publiée en 2024 suggère même qu'un repos supérieur à 60 secondes peut légèrement favoriser la prise de muscle par rapport à des repos plus courts.", "pause": 0.5, "say": "Une méta-analyse publiée en deux mille vingt-quatre suggère même qu'un repos supérieur à soixante secondes peut légèrement favoriser la prise de muscle par rapport à des repos plus courts."},
+  {"id": "s06", "text": "Alors, la prochaine fois, ne regarde pas uniquement le chrono : récupère suffisamment pour faire une bonne série.", "pause": 0.5},
+  {"id": "s07", "text": "Et toi, tu te reposes combien de temps entre tes séries ? 30 secondes, une minute ou plus ?", "pause": 0.35, "say": "Et toi, tu te reposes combien de temps entre tes séries ? [pause short] Trente secondes, une minute ou plus ?"},
+  {"id": "s08", "text": "Abonne-toi pour un conseil chaque jour et retrouve-nous sur calibodi.com !", "pause": 0.3, "say": "Abonne-toi pour un conseil chaque jour et retrouve-nous sur CaliBodi point com !"}
+ ]
+}
