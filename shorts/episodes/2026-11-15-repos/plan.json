@@ -1,92 +1,103 @@
 {
- "title": "Manger trop vite",
+ "title": "Repos entre les séries",
  "tail": 0.7,
  "bpm": 120,
  "style": "drive",
- "music_lufs": -70.0,
+ "music_lufs": -29.5,
  "duck_db": -6.0,
  "science_db": -3.0,
- "science": [],
+ "science": [
+  [
+   20.2,
+   28.7
+  ]
+ ],
  "hits": [
-  11.0
+  16.6,
+  24.05
  ],
  "blocks": [
   {
    "type": "myth",
    "start": 0.0,
-   "end": 10.18
+   "end": 14.25
   },
   {
    "type": "body",
-   "start": 10.18,
-   "end": 21.21
+   "start": 14.25,
+   "end": 34.55
   },
   {
    "type": "outro",
-   "start": 21.21,
-   "end": 26.28
+   "start": 34.55,
+   "end": 44.97
   }
  ],
  "sfx": [
   [
    "stamp",
-   0.37
+   1.7
   ],
   [
    "whoosh",
-   2.88
+   3.95
   ],
   [
    "stamp",
-   3.14
+   5.38
   ],
   [
    "whoosh",
-   5.05
+   7.65
   ],
   [
    "stamp",
-   5.23
+   9.63
   ],
   [
    "whoosh",
-   7.8
-  ],
-  [
-   "stamp",
-   8.04
-  ],
-  [
-   "whoosh",
-   10.08
+   14.2
   ],
   [
    "thump",
-   11.0
+   16.6
   ],
   [
    "whoosh",
-   13.76
+   19.75
   ],
   [
    "stamp",
-   15.33
+   24.05
   ],
   [
    "whoosh",
-   17.73
+   28.95
   ],
   [
    "stamp",
-   20.3
+   30.96
   ],
   [
    "whoosh",
-   21.11
+   34.5
   ],
   [
-   "plinks",
-   24.0
+   "stamp",
+   35.77
+  ],
+  [
+   "whoosh",
+   39.45
+  ],
+  [
+   "stamp",
+   42.64
   ]
+ ],
+ "music_file": "assets/music/corporate-motivation.mp3",
+ "music_loop": [
+  0.0,
+  75.0
  ]
 }

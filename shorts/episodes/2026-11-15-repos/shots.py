@@ -22,7 +22,7 @@ def row(sid, shape, n, hi, cell, y, fill="rgba(255,255,255,.35)"):
     """n icons in a row centred on the frame; the first `hi` light up (ids #sid-i0…)"""
     x0 = (1080 - n * cell) / 2
     g = "".join(f'<g transform="translate({x0 + i * cell:.0f} 0) scale({cell / 100 * .9:.3f})"><g class="ic" id="{sid}-i{i}">{shape(fill)}</g>'
-                f'<g class="ih" id="{sid}-h{i}" opacity="0">{shape("#FF6B35")}</g></g>' for i in range(n))
+                f'<g class="ih" id="{sid}-h{i}" opacity="0">{shape("#B6FF3B")}</g></g>' for i in range(n))
     return f'<svg class="row" id="{sid}-row" viewBox="0 0 1080 {cell}" style="top:{y}px;height:{cell}px">{g}</svg>'
 
 
@@ -70,42 +70,43 @@ def bubble(sid, name, text, css, t):
 C = "left: 0; width: 1080px; text-align: center;"
 SH = "text-shadow: 0 20px 60px rgba(0,0,0,.65);"
 ML = "white-space: normal; line-height: 1;"
-# Shot list of « vite », read by build_v4.py. Global times in seconds (voice of 2026-11-12).
-# Footage: the author's own clips (plate, empty plate, full / empty yoghurt), brand labels cropped out, original sound removed.
-A = "#FF6B35"
-def clk(sid, text, t, out=None):
-    return big(sid, "t", text, f"{C} top: 330px; font-size: 330px; color: {A}; {SH}", t, out)
+# Shot list of « repos » (voix du 2026-11-15). Plans de musculation vus de dos ou sans visage, chrono vert sur fond noir.
+A = "#B6FF3B"
 SHOTS = [
-    ("s1", "plat1", 0.00, 2.98, None, *acc(
-        tag("s1", "a", "IL EST", f"{C} top: 190px; font-size: 64px; color: #fff;", 0.19),
-        clk("s1", "20:00", 0.37),
-        lab("s1", "b", "MON PLAT", "left: 250px; top: 780px; font-size: 110px;", 2.34))),
-    ("s2", "plat2", 2.98, 5.15, "whip", *acc(
-        clk("s2", "20:05", 3.14),
-        tag("s2", "a", "DÉJÀ", f"{C} top: 720px; font-size: 84px; color: #fff;", 4.27),
-        lab("s2", "b", "FINI", "left: 380px; top: 830px; font-size: 130px;", 5.00))),
-    ("s3", "yaourt1", 5.15, 7.90, "flash", *acc(
-        clk("s3", "20:06", 5.23),
-        tag("s3", "a", "JE COMMENCE", f"{C} top: 720px; font-size: 70px; color: #fff;", 6.51),
-        lab("s3", "b", "MON YAOURT", "left: 150px; top: 830px; font-size: 100px;", 7.01))),
-    ("s4", "yaourt2", 7.90, 10.18, "whip", *acc(
-        clk("s4", "20:07", 8.04),
-        lab("s4", "a", "VIDE", "left: 330px; top: 800px; font-size: 150px;", 9.32))),
-    ("s5", "lent1", 10.18, 13.86, "zoom", *acc(
-        tag("s5", "a", "J'AI TOUT MANGÉ EN", f"{C} top: 250px; font-size: 56px; color: #fff;", 10.28),
-        big("s5", "n", "7", f"left: 400px; top: 340px; font-size: 400px; color: {A}; {SH}", 11.00),
-        lab("s5", "m", "MINUTES", "left: 250px; top: 760px; font-size: 110px;", 11.27, white=True),
-        lab("s5", "p", "LE PROBLÈME", "left: 140px; top: 960px; font-size: 90px;", 12.93))),
-    ("s6", "lent2", 13.86, 17.83, "flash", *acc(
-        tag("s6", "a", "TROP VITE", f"{C} top: 250px; font-size: 100px; color: #fff;", 14.19),
-        lab("s6", "b", "CERVEAU", "left: 250px; top: 400px; font-size: 130px;", 15.33),
-        lab("s6", "c", "RASSASIÉ ?", "left: 200px; top: 600px; font-size: 110px;", 16.94, white=True))),
-    ("s7", "lent3", 17.83, 21.21, "whip", *acc(
-        tag("s7", "a", "ET TOI", f"{C} top: 250px; font-size: 100px; color: #fff;", 17.98),
-        lab("s7", "b", "COMBIEN DE TEMPS", "left: 100px; top: 400px; font-size: 72px;", 18.54),
-        tag("s7", "c", "POUR MANGER ?", f"{C} top: 560px; font-size: 76px; color: #fff;", 19.15),
-        lab("s7", "d", "COMMENTAIRE", "left: 120px; top: 720px; font-size: 90px;", 20.30, white=True))),
-    ("s8", "fin", 21.21, D, "flash", *acc(
+    ("s1", "dos", 0.00, 4.00, None, *acc(
+        tag("s1", "a", "TES SÉRIES", f"{C} top: 190px; font-size: 84px; color: #fff;", 0.66),
+        big("s1", "n", "30", f"{C} top: 300px; font-size: 400px; color: {A}; {SH}", 1.70),
+        lab("s1", "b", "SECONDES DE REPOS", "left: 90px; top: 760px; font-size: 80px;", 2.18))),
+    ("s2", "halteres", 4.00, 7.70, "whip", *acc(
+        lab("s2", "a", "RALENTIR", "left: 250px; top: 300px; font-size: 130px;", 5.38),
+        tag("s2", "b", "TA PROGRESSION", f"{C} top: 500px; font-size: 84px; color: #fff;", 6.02),
+        lab("s2", "c", "TROP VITE ?", "left: 220px; top: 650px; font-size: 120px;", 6.99, white=True))),
+    ("s3", "banc", 7.70, 14.25, "zoom", *acc(
+        tag("s3", "a", "CE QU'ON CROIT", f"{C} top: 220px; font-size: 80px; color: #fff;", 8.54, 9.55),
+        lab("s3", "b", "TRANSPIRER", "left: 170px; top: 300px; font-size: 130px;", 9.63, out=11.9),
+        lab("s3", "c", "PAS FORCÉMENT", "left: 110px; top: 560px; font-size: 100px;", 12.03, white=True),
+        tag("s3", "d", "MIEUX TRAVAILLER", f"{C} top: 740px; font-size: 76px; color: #fff;", 12.83))),
+    ("s4", "serie", 14.25, 19.80, "flash", *acc(
+        tag("s4", "a", "RÉCUPÈRES TROP PEU", f"{C} top: 220px; font-size: 70px; color: #fff;", 14.87),
+        lab("s4", "b", "MOINS DE RÉPÉTITIONS", "left: 40px; top: 400px; font-size: 70px;", 16.60),
+        tag("s4", "c", "SÉRIES MOINS BONNES", f"{C} top: 640px; font-size: 68px; color: #fff;", 18.07))),
+    ("s5", "chrono1", 19.80, 29.00, "whip", *acc(
+        src("s5", "Singer et coll., Frontiers in Sports and Active Living, 2024", 20.4),
+        tag("s5", "a", "MÉTA-ANALYSE · 2024", f"{C} top: 190px; font-size: 76px; color: #fff;", 20.20, 23.40),
+        tag("s5", "r", "REPOS SUPÉRIEUR À", f"{C} top: 220px; font-size: 70px; color: #fff;", 23.49),
+        big("s5", "n", "60", f"{C} top: 330px; font-size: 440px; color: {A}; {SH}", 24.05),
+        lab("s5", "m", "SECONDES", "left: 270px; top: 790px; font-size: 100px;", 24.45, white=True),
+        lab("s5", "p", "LÉGÈREMENT + DE MUSCLE", "left: 50px; top: 955px; font-size: 58px;", 25.36))),
+    ("s6", "chrono2", 29.00, 34.55, "flash", *acc(
+        tag("s6", "a", "NE REGARDE PAS", f"{C} top: 220px; font-size: 80px; color: #fff;", 30.19),
+        lab("s6", "b", "QUE LE CHRONO", "left: 150px; top: 380px; font-size: 100px;", 30.96),
+        tag("s6", "c", "RÉCUPÈRE ASSEZ", f"{C} top: 620px; font-size: 80px; color: #fff;", 32.31),
+        lab("s6", "d", "BONNE SÉRIE", "left: 190px; top: 780px; font-size: 110px;", 33.69, white=True))),
+    ("s7", "curl", 34.55, 39.50, "whip", *acc(
+        tag("s7", "a", "ET TOI", f"{C} top: 220px; font-size: 100px; color: #fff;", 34.90),
+        lab("s7", "b", "COMBIEN DE REPOS ?", "left: 90px; top: 380px; font-size: 82px;", 35.77),
+        tag("s7", "c", "30 S · 1 MIN · PLUS", f"{C} top: 620px; font-size: 78px; color: #fff;", 37.69))),
+    ("s8", "fin", 39.50, D, "flash", *acc(
         ('<div id="s8-end"><div class="tag" id="s8-ab">ABONNE-TOI</div><div class="tag" id="s8-nv">UN CONSEIL CHAQUE JOUR</div>'
          '<img id="s8-logo" src="assets/brand/icon-512.png" alt="CaliBodi" /><div class="big" id="s8-name">CaliBodi</div>'
          '<div class="lab" id="s8-url">calibodi.com</div><div class="tag" id="s8-st">Play Store · App Store</div></div>',
@@ -116,17 +117,17 @@ SHOTS = [
          "#s8-name { left: 0; width: 1080px; top: 720px; text-align: center; font-size: 150px; color: #fff; text-shadow: 0 16px 50px rgba(0,0,0,.7); }"
          "#s8-url { left: 230px; top: 880px; font-size: 100px; }"
          "#s8-st { left: 0; width: 1080px; top: 1015px; text-align: center; font-size: 56px; color: #fff; }",
-         'tl.fromTo("#s8-ab",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(21.36));'
-         'tl.fromTo("#s8-nv",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(22.00));'
-         'tl.fromTo("#s8-logo",{scale:0,rotation:-40},{scale:1,rotation:0,duration:.45,ease:"back.out(2.6)"},at(22.60));'
-         'tl.fromTo("#s8-name",{scale:2.4,opacity:0},{scale:1,opacity:1,duration:.26,ease:"power4.out"},at(23.20));'
-         'tl.fromTo("#s8-url",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(23.96));'
-         'tl.fromTo("#s8-st",{y:40,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(24.70));'))),
+         'tl.fromTo("#s8-ab",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(39.84));'
+         'tl.fromTo("#s8-nv",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(40.50));'
+         'tl.fromTo("#s8-logo",{scale:0,rotation:-40},{scale:1,rotation:0,duration:.45,ease:"back.out(2.6)"},at(41.87));'
+         'tl.fromTo("#s8-name",{scale:2.4,opacity:0},{scale:1,opacity:1,duration:.26,ease:"power4.out"},at(42.64));'
+         'tl.fromTo("#s8-url",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(43.30));'
+         'tl.fromTo("#s8-st",{y:40,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(44.00));'))),
 ]
-PUNCH = [(0.37, 1.07), (3.14, 1.07), (5.23, 1.07), (8.04, 1.07), (11.00, 1.09), (15.33, 1.06), (18.54, 1.05), (23.20, 1.05)]
-SHAKE = [11.00]
-POSES = [(0.20, "curieux"), (3.00, "choc"), (5.20, "pointe"), (7.95, "sceptique"), (10.20, "choc"), (13.90, "non"),
-         (17.90, "pointe"), (22.60, "app"), (24.00, "pouce")]
-KW = {"vingt", "heures", "plat", "fini", "yaourt", "vide", "minutes", "problème", "vite", "cerveau", "rassasié", "combien", "temps",
-      "commentaire", "calibodi", "calibodicom", "7"}
-CHAPTERS = [0.0, 10.18, 17.83]
+PUNCH = [(1.70, 1.09), (5.38, 1.07), (9.63, 1.07), (16.60, 1.09), (24.05, 1.09), (30.96, 1.06), (35.77, 1.06), (42.64, 1.05)]
+SHAKE = [16.60]
+POSES = [(0.20, "curieux"), (4.30, "choc"), (8.00, "sceptique"), (14.60, "non"), (20.10, "explique"), (29.30, "pouce"),
+         (34.90, "pointe"), (41.87, "app"), (43.30, "pouce")]
+KW = {"séries", "repos", "30", "60", "secondes", "trop", "vite", "transpirer", "progression", "répétitions", "méta-analyse",
+      "muscle", "chrono", "série", "minute", "calibodi", "calibodicom"}
+CHAPTERS = [0.0, 14.51, 29.23]
