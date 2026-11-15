@@ -3,3 +3,7 @@ voiceovers/*.wav
 __pycache__/
 *.pyc
 .env
+
+shorts/episodes/*/renders/work-*/
+shorts/episodes/*/renders/.raw.hf-transaction-*/
+shorts/episodes/*/renders/*.wav
