@@ -1,0 +1,863 @@
+{
+ "duration": 46.402,
+ "words": [
+  {
+   "i": 0,
+   "word": "Courbatures :",
+   "start": 0.176,
+   "end": 0.705
+  },
+  {
+   "i": 1,
+   "word": "arrête",
+   "start": 1.154,
+   "end": 1.379
+  },
+  {
+   "i": 2,
+   "word": "de",
+   "start": 1.379,
+   "end": 1.491
+  },
+  {
+   "i": 3,
+   "word": "les",
+   "start": 1.491,
+   "end": 1.571
+  },
+  {
+   "i": 4,
+   "word": "rechercher !",
+   "start": 1.571,
+   "end": 1.988
+  },
+  {
+   "i": 5,
+   "word": "Tu",
+   "start": 2.581,
+   "end": 2.661
+  },
+  {
+   "i": 6,
+   "word": "fais",
+   "start": 2.661,
+   "end": 2.758
+  },
+  {
+   "i": 7,
+   "word": "une",
+   "start": 2.758,
+   "end": 2.902
+  },
+  {
+   "i": 8,
+   "word": "grosse",
+   "start": 2.902,
+   "end": 3.062
+  },
+  {
+   "i": 9,
+   "word": "séance,",
+   "start": 3.062,
+   "end": 3.495
+  },
+  {
+   "i": 10,
+   "word": "mais",
+   "start": 3.704,
+   "end": 3.816
+  },
+  {
+   "i": 11,
+   "word": "le",
+   "start": 3.816,
+   "end": 3.944
+  },
+  {
+   "i": 12,
+   "word": "lendemain",
+   "start": 3.944,
+   "end": 4.217
+  },
+  {
+   "i": 13,
+   "word": "tu",
+   "start": 4.265,
+   "end": 4.409
+  },
+  {
+   "i": 14,
+   "word": "n'as",
+   "start": 4.409,
+   "end": 4.602
+  },
+  {
+   "i": 15,
+   "word": "aucune",
+   "start": 4.602,
+   "end": 4.826
+  },
+  {
+   "i": 16,
+   "word": "courbature ?",
+   "start": 4.826,
+   "end": 5.355
+  },
+  {
+   "i": 17,
+   "word": "Tu",
+   "start": 5.868,
+   "end": 5.949
+  },
+  {
+   "i": 18,
+   "word": "te",
+   "start": 5.949,
+   "end": 6.109
+  },
+  {
+   "i": 19,
+   "word": "demandes",
+   "start": 6.109,
+   "end": 6.35
+  },
+  {
+   "i": 20,
+   "word": "si",
+   "start": 6.35,
+   "end": 6.51
+  },
+  {
+   "i": 21,
+   "word": "tu",
+   "start": 6.51,
+   "end": 6.606
+  },
+  {
+   "i": 22,
+   "word": "as",
+   "start": 6.606,
+   "end": 6.654
+  },
+  {
+   "i": 23,
+   "word": "vraiment",
+   "start": 6.67,
+   "end": 6.991
+  },
+  {
+   "i": 24,
+   "word": "travaillé ?",
+   "start": 6.991,
+   "end": 7.36
+  },
+  {
+   "i": 25,
+   "word": "Eh",
+   "start": 8.129,
+   "end": 8.194
+  },
+  {
+   "i": 26,
+   "word": "bien,",
+   "start": 8.194,
+   "end": 8.322
+  },
+  {
+   "i": 27,
+   "word": "voici",
+   "start": 8.915,
+   "end": 9.156
+  },
+  {
+   "i": 28,
+   "word": "ce",
+   "start": 9.156,
+   "end": 9.236
+  },
+  {
+   "i": 29,
+   "word": "que",
+   "start": 9.236,
+   "end": 9.476
+  },
+  {
+   "i": 30,
+   "word": "beaucoup",
+   "start": 9.476,
+   "end": 9.717
+  },
+  {
+   "i": 31,
+   "word": "ignorent :",
+   "start": 9.813,
+   "end": 10.006
+  },
+  {
+   "i": 32,
+   "word": "tu",
+   "start": 10.679,
+   "end": 10.839
+  },
+  {
+   "i": 33,
+   "word": "peux",
+   "start": 10.839,
+   "end": 10.92
+  },
+  {
+   "i": 34,
+   "word": "développer",
+   "start": 10.92,
+   "end": 11.401
+  },
+  {
+   "i": 35,
+   "word": "tes",
+   "start": 11.401,
+   "end": 11.513
+  },
+  {
+   "i": 36,
+   "word": "muscles",
+   "start": 11.513,
+   "end": 11.85
+  },
+  {
+   "i": 37,
+   "word": "sans",
+   "start": 11.882,
+   "end": 12.138
+  },
+  {
+   "i": 38,
+   "word": "avoir",
+   "start": 12.138,
+   "end": 12.267
+  },
+  {
+   "i": 39,
+   "word": "mal",
+   "start": 12.315,
+   "end": 12.475
+  },
+  {
+   "i": 40,
+   "word": "du",
+   "start": 12.523,
+   "end": 12.635
+  },
+  {
+   "i": 41,
+   "word": "tout.",
+   "start": 12.684,
+   "end": 12.812
+  },
+  {
+   "i": 42,
+   "word": "Les",
+   "start": 13.485,
+   "end": 13.646
+  },
+  {
+   "i": 43,
+   "word": "courbatures",
+   "start": 13.646,
+   "end": 14.095
+  },
+  {
+   "i": 44,
+   "word": "sont",
+   "start": 14.127,
+   "end": 14.287
+  },
+  {
+   "i": 45,
+   "word": "surtout",
+   "start": 14.319,
+   "end": 14.688
+  },
+  {
+   "i": 46,
+   "word": "liées",
+   "start": 14.688,
+   "end": 14.816
+  },
+  {
+   "i": 47,
+   "word": "à",
+   "start": 14.816,
+   "end": 14.864
+  },
+  {
+   "i": 48,
+   "word": "un",
+   "start": 14.864,
+   "end": 14.928
+  },
+  {
+   "i": 49,
+   "word": "effort",
+   "start": 15.105,
+   "end": 15.393
+  },
+  {
+   "i": 50,
+   "word": "inhabituel",
+   "start": 15.426,
+   "end": 16.067
+  },
+  {
+   "i": 51,
+   "word": "ou",
+   "start": 16.067,
+   "end": 16.211
+  },
+  {
+   "i": 52,
+   "word": "plus",
+   "start": 16.211,
+   "end": 16.372
+  },
+  {
+   "i": 53,
+   "word": "intense",
+   "start": 16.388,
+   "end": 16.773
+  },
+  {
+   "i": 54,
+   "word": "que",
+   "start": 16.773,
+   "end": 16.853
+  },
+  {
+   "i": 55,
+   "word": "d'habitude.",
+   "start": 16.853,
+   "end": 17.382
+  },
+  {
+   "i": 56,
+   "word": "Elles",
+   "start": 17.911,
+   "end": 17.991
+  },
+  {
+   "i": 57,
+   "word": "ne",
+   "start": 17.991,
+   "end": 18.136
+  },
+  {
+   "i": 58,
+   "word": "mesurent",
+   "start": 18.136,
+   "end": 18.424
+  },
+  {
+   "i": 59,
+   "word": "pas",
+   "start": 18.456,
+   "end": 18.697
+  },
+  {
+   "i": 60,
+   "word": "directement",
+   "start": 18.697,
+   "end": 19.29
+  },
+  {
+   "i": 61,
+   "word": "la",
+   "start": 19.29,
+   "end": 19.402
+  },
+  {
+   "i": 62,
+   "word": "qualité",
+   "start": 19.402,
+   "end": 19.819
+  },
+  {
+   "i": 63,
+   "word": "de",
+   "start": 19.819,
+   "end": 19.98
+  },
+  {
+   "i": 64,
+   "word": "ta",
+   "start": 19.98,
+   "end": 20.092
+  },
+  {
+   "i": 65,
+   "word": "séance",
+   "start": 20.092,
+   "end": 20.445
+  },
+  {
+   "i": 66,
+   "word": "ni",
+   "start": 20.541,
+   "end": 20.621
+  },
+  {
+   "i": 67,
+   "word": "ta",
+   "start": 20.621,
+   "end": 20.781
+  },
+  {
+   "i": 68,
+   "word": "prise",
+   "start": 20.781,
+   "end": 21.006
+  },
+  {
+   "i": 69,
+   "word": "de",
+   "start": 21.022,
+   "end": 21.102
+  },
+  {
+   "i": 70,
+   "word": "muscle.",
+   "start": 21.102,
+   "end": 21.391
+  },
+  {
+   "i": 71,
+   "word": "Et",
+   "start": 22.08,
+   "end": 22.144
+  },
+  {
+   "i": 72,
+   "word": "parfois,",
+   "start": 22.144,
+   "end": 22.513
+  },
+  {
+   "i": 73,
+   "word": "vouloir",
+   "start": 22.786,
+   "end": 23.09
+  },
+  {
+   "i": 74,
+   "word": "absolument",
+   "start": 23.123,
+   "end": 23.523
+  },
+  {
+   "i": 75,
+   "word": "avoir",
+   "start": 23.523,
+   "end": 23.78
+  },
+  {
+   "i": 76,
+   "word": "mal",
+   "start": 23.78,
+   "end": 24.053
+  },
+  {
+   "i": 77,
+   "word": "te",
+   "start": 24.069,
+   "end": 24.149
+  },
+  {
+   "i": 78,
+   "word": "pousse",
+   "start": 24.229,
+   "end": 24.405
+  },
+  {
+   "i": 79,
+   "word": "à",
+   "start": 24.405,
+   "end": 24.486
+  },
+  {
+   "i": 80,
+   "word": "en",
+   "start": 24.486,
+   "end": 24.55
+  },
+  {
+   "i": 81,
+   "word": "faire",
+   "start": 24.63,
+   "end": 24.79
+  },
+  {
+   "i": 82,
+   "word": "trop…",
+   "start": 24.79,
+   "end": 24.999
+  },
+  {
+   "i": 83,
+   "word": "au",
+   "start": 25.528,
+   "end": 25.592
+  },
+  {
+   "i": 84,
+   "word": "détriment",
+   "start": 25.672,
+   "end": 26.153
+  },
+  {
+   "i": 85,
+   "word": "de",
+   "start": 26.153,
+   "end": 26.233
+  },
+  {
+   "i": 86,
+   "word": "ta",
+   "start": 26.233,
+   "end": 26.346
+  },
+  {
+   "i": 87,
+   "word": "récupération.",
+   "start": 26.346,
+   "end": 26.923
+  },
+  {
+   "i": 88,
+   "word": "Le",
+   "start": 27.517,
+   "end": 27.598
+  },
+  {
+   "i": 89,
+   "word": "vrai",
+   "start": 27.598,
+   "end": 27.775
+  },
+  {
+   "i": 90,
+   "word": "indicateur,",
+   "start": 27.775,
+   "end": 28.289
+  },
+  {
+   "i": 91,
+   "word": "c'est",
+   "start": 28.322,
+   "end": 28.482
+  },
+  {
+   "i": 92,
+   "word": "ta",
+   "start": 28.482,
+   "end": 28.563
+  },
+  {
+   "i": 93,
+   "word": "progression :",
+   "start": 28.563,
+   "end": 29.013
+  },
+  {
+   "i": 94,
+   "word": "plus",
+   "start": 29.528,
+   "end": 29.769
+  },
+  {
+   "i": 95,
+   "word": "de",
+   "start": 29.769,
+   "end": 29.882
+  },
+  {
+   "i": 96,
+   "word": "répétitions,",
+   "start": 29.882,
+   "end": 30.461
+  },
+  {
+   "i": 97,
+   "word": "une",
+   "start": 30.911,
+   "end": 31.056
+  },
+  {
+   "i": 98,
+   "word": "meilleure",
+   "start": 31.056,
+   "end": 31.281
+  },
+  {
+   "i": 99,
+   "word": "technique,",
+   "start": 31.378,
+   "end": 31.748
+  },
+  {
+   "i": 100,
+   "word": "davantage",
+   "start": 32.182,
+   "end": 32.649
+  },
+  {
+   "i": 101,
+   "word": "de",
+   "start": 32.665,
+   "end": 32.745
+  },
+  {
+   "i": 102,
+   "word": "force",
+   "start": 32.826,
+   "end": 33.083
+  },
+  {
+   "i": 103,
+   "word": "au",
+   "start": 33.083,
+   "end": 33.147
+  },
+  {
+   "i": 104,
+   "word": "fil",
+   "start": 33.147,
+   "end": 33.34
+  },
+  {
+   "i": 105,
+   "word": "des",
+   "start": 33.34,
+   "end": 33.469
+  },
+  {
+   "i": 106,
+   "word": "semaines.",
+   "start": 33.469,
+   "end": 33.678
+  },
+  {
+   "i": 107,
+   "word": "Alors",
+   "start": 34.45,
+   "end": 34.595
+  },
+  {
+   "i": 108,
+   "word": "retiens",
+   "start": 34.595,
+   "end": 34.917
+  },
+  {
+   "i": 109,
+   "word": "bien",
+   "start": 34.917,
+   "end": 35.078
+  },
+  {
+   "i": 110,
+   "word": "ça :",
+   "start": 35.11,
+   "end": 35.287
+  },
+  {
+   "i": 111,
+   "word": "tu",
+   "start": 35.882,
+   "end": 35.994
+  },
+  {
+   "i": 112,
+   "word": "n'as",
+   "start": 35.994,
+   "end": 36.107
+  },
+  {
+   "i": 113,
+   "word": "pas",
+   "start": 36.123,
+   "end": 36.284
+  },
+  {
+   "i": 114,
+   "word": "besoin",
+   "start": 36.284,
+   "end": 36.525
+  },
+  {
+   "i": 115,
+   "word": "de",
+   "start": 36.525,
+   "end": 36.686
+  },
+  {
+   "i": 116,
+   "word": "souffrir",
+   "start": 36.686,
+   "end": 37.056
+  },
+  {
+   "i": 117,
+   "word": "pour",
+   "start": 37.169,
+   "end": 37.313
+  },
+  {
+   "i": 118,
+   "word": "progresser.",
+   "start": 37.329,
+   "end": 37.78
+  },
+  {
+   "i": 119,
+   "word": "Et",
+   "start": 38.472,
+   "end": 38.616
+  },
+  {
+   "i": 120,
+   "word": "toi,",
+   "start": 38.616,
+   "end": 38.745
+  },
+  {
+   "i": 121,
+   "word": "tu",
+   "start": 38.745,
+   "end": 38.809
+  },
+  {
+   "i": 122,
+   "word": "es",
+   "start": 38.809,
+   "end": 38.873
+  },
+  {
+   "i": 123,
+   "word": "du",
+   "start": 38.938,
+   "end": 39.051
+  },
+  {
+   "i": 124,
+   "word": "genre",
+   "start": 39.051,
+   "end": 39.228
+  },
+  {
+   "i": 125,
+   "word": "à",
+   "start": 39.228,
+   "end": 39.276
+  },
+  {
+   "i": 126,
+   "word": "être",
+   "start": 39.276,
+   "end": 39.405
+  },
+  {
+   "i": 127,
+   "word": "content",
+   "start": 39.421,
+   "end": 39.742
+  },
+  {
+   "i": 128,
+   "word": "quand",
+   "start": 39.742,
+   "end": 39.823
+  },
+  {
+   "i": 129,
+   "word": "tu",
+   "start": 39.823,
+   "end": 39.877
+  },
+  {
+   "i": 130,
+   "word": "as",
+   "start": 39.877,
+   "end": 39.931
+  },
+  {
+   "i": 131,
+   "word": "des",
+   "start": 39.984,
+   "end": 40.064
+  },
+  {
+   "i": 132,
+   "word": "courbatures ?",
+   "start": 40.144,
+   "end": 40.595
+  },
+  {
+   "i": 133,
+   "word": "Abonne-toi,",
+   "start": 41.126,
+   "end": 41.56
+  },
+  {
+   "i": 134,
+   "word": "une",
+   "start": 42.171,
+   "end": 42.22
+  },
+  {
+   "i": 135,
+   "word": "nouvelle",
+   "start": 42.316,
+   "end": 42.573
+  },
+  {
+   "i": 136,
+   "word": "vidéo",
+   "start": 42.638,
+   "end": 42.959
+  },
+  {
+   "i": 137,
+   "word": "chaque",
+   "start": 42.959,
+   "end": 43.201
+  },
+  {
+   "i": 138,
+   "word": "jour.",
+   "start": 43.201,
+   "end": 43.329
+  },
+  {
+   "i": 139,
+   "word": "Et",
+   "start": 43.941,
+   "end": 44.037
+  },
+  {
+   "i": 140,
+   "word": "retrouve-nous",
+   "start": 44.037,
+   "end": 44.568
+  },
+  {
+   "i": 141,
+   "word": "sur",
+   "start": 44.568,
+   "end": 44.713
+  },
+  {
+   "i": 142,
+   "word": "calibodi.com !",
+   "start": 44.777,
+   "end": 45.742
+  }
+ ]
+}

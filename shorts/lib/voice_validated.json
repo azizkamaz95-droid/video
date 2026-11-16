@@ -126,6 +126,14 @@
   "qu'un": {
    "mode": "glue",
    "auto": true
+  },
+  "n'as": {
+   "mode": "glue",
+   "auto": true
+  },
+  "d'habitude": {
+   "mode": "glue",
+   "auto": true
   }
  }
 }
