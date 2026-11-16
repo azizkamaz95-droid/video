@@ -766,5 +766,16 @@
         "attribution": "unversioned"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "0de04917-8d64-4b6f-8908-ccf2d50dfdd3",
+      "completedAt": 1794825261749,
+      "output": "/home/user/video/shorts/episodes/2026-11-16-courbatures/renders/raw.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
