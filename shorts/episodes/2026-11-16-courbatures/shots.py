@@ -22,7 +22,7 @@ def row(sid, shape, n, hi, cell, y, fill="rgba(255,255,255,.35)"):
     """n icons in a row centred on the frame; the first `hi` light up (ids #sid-i0…)"""
     x0 = (1080 - n * cell) / 2
     g = "".join(f'<g transform="translate({x0 + i * cell:.0f} 0) scale({cell / 100 * .9:.3f})"><g class="ic" id="{sid}-i{i}">{shape(fill)}</g>'
-                f'<g class="ih" id="{sid}-h{i}" opacity="0">{shape("#B6FF3B")}</g></g>' for i in range(n))
+                f'<g class="ih" id="{sid}-h{i}" opacity="0">{shape("#4DA3FF")}</g></g>' for i in range(n))
     return f'<svg class="row" id="{sid}-row" viewBox="0 0 1080 {cell}" style="top:{y}px;height:{cell}px">{g}</svg>'
 
 
@@ -70,64 +70,66 @@ def bubble(sid, name, text, css, t):
 C = "left: 0; width: 1080px; text-align: center;"
 SH = "text-shadow: 0 20px 60px rgba(0,0,0,.65);"
 ML = "white-space: normal; line-height: 1;"
-# Shot list of « repos » (voix du 2026-11-15). Plans de musculation vus de dos ou sans visage, chrono vert sur fond noir.
-A = "#B6FF3B"
+# Shot list of « courbatures » (voix du 2026-11-16). Musculation vue de dos / silhouettes, sans visage.
+A = "#4DA3FF"
 SHOTS = [
-    ("s1", "dos", 0.00, 4.00, None, *acc(
-        tag("s1", "a", "TES SÉRIES", f"{C} top: 190px; font-size: 84px; color: #fff;", 0.66),
-        big("s1", "n", "30", f"{C} top: 300px; font-size: 400px; color: {A}; {SH}", 1.70),
-        lab("s1", "b", "SECONDES DE REPOS", "left: 90px; top: 760px; font-size: 80px;", 2.18))),
-    ("s2", "halteres", 4.00, 7.70, "whip", *acc(
-        lab("s2", "a", "RALENTIR", "left: 250px; top: 300px; font-size: 130px;", 5.38),
-        tag("s2", "b", "TA PROGRESSION", f"{C} top: 500px; font-size: 84px; color: #fff;", 6.02),
-        lab("s2", "c", "TROP VITE ?", "left: 220px; top: 650px; font-size: 120px;", 6.99, white=True))),
-    ("s3", "banc", 7.70, 14.25, "zoom", *acc(
-        tag("s3", "a", "CE QU'ON CROIT", f"{C} top: 220px; font-size: 80px; color: #fff;", 8.54, 9.55),
-        lab("s3", "b", "TRANSPIRER", "left: 170px; top: 300px; font-size: 130px;", 9.63, out=11.9),
-        lab("s3", "c", "PAS FORCÉMENT", "left: 110px; top: 560px; font-size: 100px;", 12.03, white=True),
-        tag("s3", "d", "MIEUX TRAVAILLER", f"{C} top: 740px; font-size: 76px; color: #fff;", 12.83))),
-    ("s4", "serie", 14.25, 19.80, "flash", *acc(
-        tag("s4", "a", "RÉCUPÈRES TROP PEU", f"{C} top: 220px; font-size: 70px; color: #fff;", 14.87),
-        lab("s4", "b", "MOINS DE RÉPÉTITIONS", "left: 40px; top: 400px; font-size: 70px;", 16.60),
-        tag("s4", "c", "SÉRIES MOINS BONNES", f"{C} top: 640px; font-size: 68px; color: #fff;", 18.07))),
-    ("s5", "chrono1", 19.80, 29.00, "whip", *acc(
-        src("s5", "Singer et coll., Frontiers in Sports and Active Living, 2024", 20.4),
-        tag("s5", "a", "MÉTA-ANALYSE · 2024", f"{C} top: 190px; font-size: 76px; color: #fff;", 20.20, 23.40),
-        tag("s5", "r", "REPOS SUPÉRIEUR À", f"{C} top: 220px; font-size: 70px; color: #fff;", 23.49),
-        big("s5", "n", "60", f"{C} top: 330px; font-size: 440px; color: {A}; {SH}", 24.05),
-        lab("s5", "m", "SECONDES", "left: 270px; top: 790px; font-size: 100px;", 24.45, white=True),
-        lab("s5", "p", "LÉGÈREMENT + DE MUSCLE", "left: 50px; top: 955px; font-size: 58px;", 25.36))),
-    ("s6", "chrono2", 29.00, 34.55, "flash", *acc(
-        tag("s6", "a", "NE REGARDE PAS", f"{C} top: 220px; font-size: 80px; color: #fff;", 30.19),
-        lab("s6", "b", "QUE LE CHRONO", "left: 150px; top: 380px; font-size: 100px;", 30.96),
-        tag("s6", "c", "RÉCUPÈRE ASSEZ", f"{C} top: 620px; font-size: 80px; color: #fff;", 32.31),
-        lab("s6", "d", "BONNE SÉRIE", "left: 190px; top: 780px; font-size: 110px;", 33.69, white=True))),
-    ("s7", "curl", 34.55, 39.50, "whip", *acc(
-        tag("s7", "a", "ET TOI", f"{C} top: 220px; font-size: 100px; color: #fff;", 34.90),
-        lab("s7", "b", "COMBIEN DE REPOS ?", "left: 90px; top: 380px; font-size: 82px;", 35.77),
-        tag("s7", "c", "30 S · 1 MIN · PLUS", f"{C} top: 620px; font-size: 78px; color: #fff;", 37.69))),
-    ("s8", "fin", 39.50, D, "flash", *acc(
-        ('<div id="s8-end"><div class="tag" id="s8-ab">ABONNE-TOI</div><div class="tag" id="s8-nv">UN CONSEIL CHAQUE JOUR</div>'
-         '<img id="s8-logo" src="assets/brand/icon-512.png" alt="CaliBodi" /><div class="big" id="s8-name">CaliBodi</div>'
-         '<div class="lab" id="s8-url">calibodi.com</div><div class="tag" id="s8-st">Play Store · App Store</div></div>',
-         "#s8-end { position: absolute; inset: 0; }"
-         "#s8-ab { left: 0; width: 1080px; top: 190px; text-align: center; font-size: 84px; color: #fff; }"
-         "#s8-nv { left: 0; width: 1080px; top: 300px; text-align: center; font-size: 52px; color: #fff; }"
-         "#s8-logo { position: absolute; left: 400px; top: 410px; width: 280px; height: 280px; border-radius: 62px; box-shadow: 0 20px 50px rgba(0,0,0,.5); }"
-         "#s8-name { left: 0; width: 1080px; top: 720px; text-align: center; font-size: 150px; color: #fff; text-shadow: 0 16px 50px rgba(0,0,0,.7); }"
-         "#s8-url { left: 230px; top: 880px; font-size: 100px; }"
-         "#s8-st { left: 0; width: 1080px; top: 1015px; text-align: center; font-size: 56px; color: #fff; }",
-         'tl.fromTo("#s8-ab",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(39.84));'
-         'tl.fromTo("#s8-nv",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(40.50));'
-         'tl.fromTo("#s8-logo",{scale:0,rotation:-40},{scale:1,rotation:0,duration:.45,ease:"back.out(2.6)"},at(41.87));'
-         'tl.fromTo("#s8-name",{scale:2.4,opacity:0},{scale:1,opacity:1,duration:.26,ease:"power4.out"},at(42.64));'
-         'tl.fromTo("#s8-url",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(43.30));'
-         'tl.fromTo("#s8-st",{y:40,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(44.00));'))),
+    ("s1", "pull1", 0.00, 3.30, None, *acc(
+        tag("s1", "a", "GROSSE SÉANCE", f"{C} top: 190px; font-size: 88px; color: #fff;", 0.37),
+        lab("s1", "b", "AUCUNE COURBATURE ?", "left: 60px; top: 520px; font-size: 80px;", 2.20))),
+    ("s2", "dos1", 3.30, 5.40, "whip", *acc(
+        lab("s2", "a", "VRAIMENT", "left: 250px; top: 300px; font-size: 120px;", 4.32),
+        tag("s2", "b", "TRAVAILLÉ ?", f"{C} top: 500px; font-size: 100px; color: #fff;", 4.59))),
+    ("s3", "banc1", 5.40, 10.80, "zoom", *acc(
+        tag("s3", "a", "CE QUE BEAUCOUP IGNORENT", f"{C} top: 220px; font-size: 58px; color: #fff;", 7.07),
+        lab("s3", "b", "DES MUSCLES", "left: 170px; top: 380px; font-size: 120px;", 9.00, out=9.70),
+        lab("s3", "c", "SANS MAL", "left: 250px; top: 560px; font-size: 130px;", 9.74, white=True))),
+    ("s4", "halt1", 10.80, 19.40, "flash", *acc(
+        src("s4", "Schoenfeld et Contreras, Strength and Conditioning Journal, 2013", 15.66),
+        tag("s4", "a", "COURBATURES", f"{C} top: 220px; font-size: 100px; color: #fff;", 11.24),
+        lab("s4", "b", "EFFORT INHABITUEL", "left: 80px; top: 400px; font-size: 84px;", 12.70, out=15.40),
+        lab("s4", "c", "NE MESURENT PAS", "left: 100px; top: 420px; font-size: 90px;", 15.66, white=True),
+        tag("s4", "d", "TA SÉANCE", f"{C} top: 640px; font-size: 90px; color: #fff;", 17.74))),
+    ("s5", "dos2", 19.40, 25.00, "whip", *acc(
+        tag("s5", "a", "VOULOIR AVOIR MAL", f"{C} top: 220px; font-size: 70px; color: #fff;", 20.39),
+        big("s5", "n", "TROP", f"{C} top: 330px; font-size: 230px; color: {A}; {SH}", 22.23),
+        lab("s5", "m", "AU DÉTRIMENT", "left: 170px; top: 640px; font-size: 90px;", 23.26, white=True),
+        tag("s5", "p", "DE TA RÉCUPÉRATION", f"{C} top: 800px; font-size: 76px; color: #fff;", 23.95))),
+    ("s6", "pull2", 25.00, 31.70, "flash", *acc(
+        tag("s6", "a", "LE VRAI INDICATEUR", f"{C} top: 220px; font-size: 76px; color: #fff;", 25.28),
+        lab("s6", "b", "PROGRESSION", "left: 150px; top: 360px; font-size: 120px;", 26.24),
+        tag("s6", "c", "+ DE RÉPÉTITIONS", f"{C} top: 560px; font-size: 74px; color: #fff;", 27.13),
+        tag("s6", "d", "+ DE TECHNIQUE", f"{C} top: 670px; font-size: 74px; color: #fff;", 28.51),
+        tag("s6", "e", "+ DE FORCE", f"{C} top: 780px; font-size: 74px; color: #fff;", 29.78))),
+    ("s7", "banc2", 31.70, 35.80, "zoom", *acc(
+        tag("s7", "a", "RETIENS", f"{C} top: 220px; font-size: 110px; color: #fff;", 32.22),
+        lab("s7", "b", "PAS BESOIN DE SOUFFRIR", "left: 60px; top: 400px; font-size: 66px;", 33.49),
+        tag("s7", "c", "POUR PROGRESSER", f"{C} top: 600px; font-size: 84px; color: #fff;", 34.78))),
+    ("s8", "halt2", 35.80, 38.50, "whip", *acc(
+        tag("s8", "a", "ET TOI ?", f"{C} top: 220px; font-size: 110px; color: #fff;", 36.08),
+        tag("s8", "b", "CONTENT AVEC", f"{C} top: 380px; font-size: 84px; color: #fff;", 37.03),
+        lab("s8", "c", "COURBATURES ?", "left: 120px; top: 520px; font-size: 100px;", 37.76))),
+    ("s9", "fin", 38.50, D, "flash", *acc(
+        ('<div id="s9-end"><div class="tag" id="s9-ab">ABONNE-TOI</div><div class="tag" id="s9-nv">UNE NOUVELLE VIDÉO CHAQUE JOUR</div>'
+         '<img id="s9-logo" src="assets/brand/icon-512.png" alt="CaliBodi" /><div class="big" id="s9-name">CaliBodi</div>'
+         '<div class="lab" id="s9-url">calibodi.com</div><div class="tag" id="s9-st">Play Store · App Store</div></div>',
+         "#s9-end { position: absolute; inset: 0; }"
+         "#s9-ab { left: 0; width: 1080px; top: 190px; text-align: center; font-size: 84px; color: #fff; }"
+         "#s9-nv { left: 0; width: 1080px; top: 300px; text-align: center; font-size: 46px; color: #fff; }"
+         "#s9-logo { position: absolute; left: 400px; top: 410px; width: 280px; height: 280px; border-radius: 62px; box-shadow: 0 20px 50px rgba(0,0,0,.5); }"
+         "#s9-name { left: 0; width: 1080px; top: 720px; text-align: center; font-size: 150px; color: #fff; text-shadow: 0 16px 50px rgba(0,0,0,.7); }"
+         "#s9-url { left: 230px; top: 880px; font-size: 100px; }"
+         "#s9-st { left: 0; width: 1080px; top: 1015px; text-align: center; font-size: 56px; color: #fff; }",
+         'tl.fromTo("#s9-ab",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(38.74));'
+         'tl.fromTo("#s9-nv",{y:50,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(39.79));'
+         'tl.fromTo("#s9-logo",{scale:0,rotation:-40},{scale:1,rotation:0,duration:.45,ease:"back.out(2.6)"},at(41.20));'
+         'tl.fromTo("#s9-name",{scale:2.4,opacity:0},{scale:1,opacity:1,duration:.26,ease:"power4.out"},at(42.40));'
+         'tl.fromTo("#s9-url",{scale:2.4,opacity:0,rotation:-6},{scale:1,opacity:1,rotation:-3,duration:.24,ease:"power4.out"},at(42.95));'
+         'tl.fromTo("#s9-st",{y:40,opacity:0},{y:0,opacity:1,duration:.3,ease:"back.out(2)"},at(43.55));'))),
 ]
-PUNCH = [(1.70, 1.09), (5.38, 1.07), (9.63, 1.07), (16.60, 1.09), (24.05, 1.09), (30.96, 1.06), (35.77, 1.06), (42.64, 1.05)]
-SHAKE = [16.60]
-POSES = [(0.20, "curieux"), (4.30, "choc"), (8.00, "sceptique"), (14.60, "non"), (20.10, "explique"), (29.30, "pouce"),
-         (34.90, "pointe"), (41.87, "app"), (43.30, "pouce")]
-KW = {"séries", "repos", "30", "60", "secondes", "trop", "vite", "transpirer", "progression", "répétitions", "méta-analyse",
-      "muscle", "chrono", "série", "minute", "calibodi", "calibodicom"}
-CHAPTERS = [0.0, 14.51, 29.23]
+PUNCH = [(0.37, 1.06), (2.50, 1.08), (4.59, 1.06), (9.91, 1.07), (12.70, 1.06), (15.66, 1.07), (22.41, 1.09), (26.24, 1.07), (33.49, 1.07), (37.76, 1.06), (42.40, 1.05)]
+SHAKE = [22.41]
+POSES = [(0.20, "sceptique"), (3.40, "curieux"), (5.60, "explique"), (11.10, "sceptique"), (19.50, "non"), (25.10, "biceps"),
+         (32.10, "pointe"), (36.10, "curieux"), (41.20, "app"), (43.00, "pouce")]
+KW = {"courbatures", "courbature", "mal", "muscles", "progression", "répétitions", "technique", "force", "récupération", "trop",
+      "souffrir", "progresser", "séance", "travaillé", "calibodi", "calibodicom"}
+CHAPTERS = [0.0, 11.0, 25.0]

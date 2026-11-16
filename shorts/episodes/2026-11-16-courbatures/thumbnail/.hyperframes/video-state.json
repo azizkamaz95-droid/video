@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "historyId": "3b34a5fd-d613-4b46-99b2-655592feef79",
+  "currentRevision": "a8e950ac-d019-44f7-8f99-8b16f04c9912",
+  "pendingChanges": false,
+  "files": {
+    "assets/brand/icon-512.png": {
+      "hash": "1944b8525c899450deff18a23cba1c90734b2d008ea0455f5095532986b17f22",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/19/1944b8525c899450deff18a23cba1c90734b2d008ea0455f5095532986b17f22"
+    },
+    "assets/fonts/Caveat-700-latin-ext.woff2": {
+      "hash": "f97b55783e417e37fce40600ad946b11eb63741a1cfdb2cd3907febc3cd8927f",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/f9/f97b55783e417e37fce40600ad946b11eb63741a1cfdb2cd3907febc3cd8927f"
+    },
+    "assets/fonts/Caveat-700-latin.woff2": {
+      "hash": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/15/15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405"
+    },
+    "assets/fonts/Montserrat-500-latin-ext.woff2": {
+      "hash": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/54/54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    "assets/fonts/Montserrat-500-latin.woff2": {
+      "hash": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/06/06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    "assets/fonts/Montserrat-600-latin-ext.woff2": {
+      "hash": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/54/54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    "assets/fonts/Montserrat-600-latin.woff2": {
+      "hash": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/06/06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    "assets/fonts/Montserrat-800-latin-ext.woff2": {
+      "hash": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/54/54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    "assets/fonts/Montserrat-800-latin.woff2": {
+      "hash": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/06/06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    "assets/fonts/Montserrat-900-latin-ext.woff2": {
+      "hash": "f4fcedc59ae41e24d67bcbd406c7a5f0b6e21ab57d2f4c198e1b1486f3832330",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/f4/f4fcedc59ae41e24d67bcbd406c7a5f0b6e21ab57d2f4c198e1b1486f3832330"
+    },
+    "assets/fonts/Montserrat-900-latin.woff2": {
+      "hash": "5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/5b/5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205"
+    },
+    "assets/fx/grain.png": {
+      "hash": "f31725459f1e6ed1268a65f9e7080751ad0519767014bf4d76c951a6d1b16bce",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/f3/f31725459f1e6ed1268a65f9e7080751ad0519767014bf4d76c951a6d1b16bce"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/92/92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "hyperframes.json": {
+      "hash": "59f217caa367f193d879fd3e5b84dee5b0793b5a617094711df1f4d4de5b30bc",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/59/59f217caa367f193d879fd3e5b84dee5b0793b5a617094711df1f4d4de5b30bc"
+    },
+    "img/calix-sceptique.png": {
+      "hash": "3c16b43591d27f6922f8b12cbd8e2f49ed6aa92c67cf154fe745d92c97b12177",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/3c/3c16b43591d27f6922f8b12cbd8e2f49ed6aa92c67cf154fe745d92c97b12177"
+    },
+    "img/fond.jpg": {
+      "hash": "0d5f8f6b2fd9d92be83ce91812908a7a0ed8cb86a525a550bf2fa25345f2aa8b",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/0d/0d5f8f6b2fd9d92be83ce91812908a7a0ed8cb86a525a550bf2fa25345f2aa8b"
+    },
+    "index.html": {
+      "hash": "2ae52c6d8389c8210d1deb5db176f441534c35bcb3c1028456449073a47bbfbe",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/2a/2ae52c6d8389c8210d1deb5db176f441534c35bcb3c1028456449073a47bbfbe"
+    },
+    "meta.json": {
+      "hash": "1f875f3c9012f8e2048025f3a1602a94310752d3777931ac5959ca867b8f8db8",
+      "content": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/1f/1f875f3c9012f8e2048025f3a1602a94310752d3777931ac5959ca867b8f8db8"
+    }
+  },
+  "revisions": {
+    "a8e950ac-d019-44f7-8f99-8b16f04c9912": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794824242742,
+      "endedAt": 1794824242743,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/89/895e6d2e34ceb808969ab2e3e8a1ab237b1b53201f4ea9af2fa069e6cecd3165",
+          "after": "/root/.cache/hyperframes/history/3b34a5fd-d613-4b46-99b2-655592feef79/blobs/2a/2ae52c6d8389c8210d1deb5db176f441534c35bcb3c1028456449073a47bbfbe"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "a8e950ac-d019-44f7-8f99-8b16f04c9912",
+      "id": "8015dceb-0ff9-4a75-a700-54cfabc043e5-0"
+    },
+    "revisions": {
+      "a8e950ac-d019-44f7-8f99-8b16f04c9912": [
+        {
+          "scope": "full",
+          "id": "8015dceb-0ff9-4a75-a700-54cfabc043e5-0",
+          "image": "/tmp/thumb/frame-00-at-0.3s.png",
+          "time": 0.3,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794824246237,
+          "contentHash": "999fb83de9d3084cd5bd0b2d3bb0b76f45bda877146968ea8e304a5a35de756b",
+          "revision": "a8e950ac-d019-44f7-8f99-8b16f04c9912",
+          "inputFingerprint": "d08283ae29d68cd01b45b719549568980da57abe7ad1ffc31caf4ec75f110a61",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  }
+}
