@@ -4,14 +4,47 @@
  "lead": 0.15,
  "max_gap": 0.5,
  "sentences": [
-  {"id": "s01", "text": "Courbatures : arrête de les rechercher !", "pause": 0.5, "say": "Courbatures : [pause short] arrête de les rechercher !"},
-  {"id": "s02", "text": "Tu fais une grosse séance, mais le lendemain tu n'as aucune courbature ? Tu te demandes si tu as vraiment travaillé ?", "pause": 0.5},
-  {"id": "s03", "text": "Eh bien, voici ce que beaucoup ignorent : tu peux développer tes muscles sans avoir mal du tout.", "pause": 0.5},
-  {"id": "s04", "text": "Les courbatures sont surtout liées à un effort inhabituel ou plus intense que d'habitude. Elles ne mesurent pas directement la qualité de ta séance ni ta prise de muscle.", "pause": 0.5},
-  {"id": "s05", "text": "Et parfois, vouloir absolument avoir mal te pousse à en faire trop… au détriment de ta récupération.", "pause": 0.5, "say": "Et parfois, vouloir absolument avoir mal te pousse à en faire trop, [pause short] au détriment de ta récupération."},
-  {"id": "s06", "text": "Le vrai indicateur, c'est ta progression : plus de répétitions, une meilleure technique, davantage de force au fil des semaines.", "pause": 0.5},
-  {"id": "s07", "text": "Alors retiens bien ça : tu n'as pas besoin de souffrir pour progresser.", "pause": 0.5},
-  {"id": "s08", "text": "Et toi, tu es du genre à être content quand tu as des courbatures ?", "pause": 0.35},
-  {"id": "s09", "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !", "pause": 0.3, "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"}
+  {
+   "id": "s02",
+   "text": "Tu fais une grosse séance, mais le lendemain tu n'as aucune courbature ? Tu te demandes si tu as vraiment travaillé ?",
+   "pause": 0.5
+  },
+  {
+   "id": "s03",
+   "text": "Eh bien, voici ce que beaucoup ignorent : tu peux développer tes muscles sans avoir mal du tout.",
+   "pause": 0.5
+  },
+  {
+   "id": "s04",
+   "text": "Les courbatures sont surtout liées à un effort inhabituel ou plus intense que d'habitude. Elles ne mesurent pas directement la qualité de ta séance ni ta prise de muscle.",
+   "pause": 0.5
+  },
+  {
+   "id": "s05",
+   "text": "Et parfois, vouloir absolument avoir mal te pousse à en faire trop… au détriment de ta récupération.",
+   "pause": 0.5,
+   "say": "Et parfois, vouloir absolument avoir mal te pousse à en faire trop, [pause short] au détriment de ta récupération."
+  },
+  {
+   "id": "s06",
+   "text": "Le vrai indicateur, c'est ta progression : plus de répétitions, une meilleure technique, davantage de force au fil des semaines.",
+   "pause": 0.5
+  },
+  {
+   "id": "s07",
+   "text": "Alors retiens bien ça : tu n'as pas besoin de souffrir pour progresser.",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Et toi, tu es du genre à être content quand tu as des courbatures ?",
+   "pause": 0.35
+  },
+  {
+   "id": "s09",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"
+  }
  ]
 }

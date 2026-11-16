@@ -1,59 +1,53 @@
 {
- "duration": 46.402,
+ "duration": 44.022,
  "segments": [
-  {
-   "id": "s01",
-   "text": "Courbatures : arrête de les rechercher !",
-   "start": 0.15,
-   "end": 2.03
-  },
   {
    "id": "s02",
    "text": "Tu fais une grosse séance, mais le lendemain tu n'as aucune courbature ? Tu te demandes si tu as vraiment travaillé ?",
-   "start": 2.53,
-   "end": 7.524
+   "start": 0.15,
+   "end": 5.144
   },
   {
    "id": "s03",
    "text": "Eh bien, voici ce que beaucoup ignorent : tu peux développer tes muscles sans avoir mal du tout.",
-   "start": 8.024,
-   "end": 12.881
+   "start": 5.644,
+   "end": 10.501
   },
   {
    "id": "s04",
    "text": "Les courbatures sont surtout liées à un effort inhabituel ou plus intense que d'habitude. Elles ne mesurent pas directement la qualité de ta séance ni ta prise de muscle.",
-   "start": 13.381,
-   "end": 21.478
+   "start": 11.001,
+   "end": 19.098
   },
   {
    "id": "s05",
    "text": "Et parfois, vouloir absolument avoir mal te pousse à en faire trop… au détriment de ta récupération.",
-   "start": 21.978,
-   "end": 26.898
+   "start": 19.598,
+   "end": 24.518
   },
   {
    "id": "s06",
    "text": "Le vrai indicateur, c'est ta progression : plus de répétitions, une meilleure technique, davantage de force au fil des semaines.",
-   "start": 27.398,
-   "end": 33.811
+   "start": 25.018,
+   "end": 31.431
   },
   {
    "id": "s07",
    "text": "Alors retiens bien ça : tu n'as pas besoin de souffrir pour progresser.",
-   "start": 34.311,
-   "end": 37.89
+   "start": 31.931,
+   "end": 35.509
   },
   {
    "id": "s08",
    "text": "Et toi, tu es du genre à être content quand tu as des courbatures ?",
-   "start": 38.39,
-   "end": 40.627
+   "start": 36.009,
+   "end": 38.247
   },
   {
    "id": "s09",
    "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
-   "start": 40.977,
-   "end": 45.802
+   "start": 38.597,
+   "end": 43.422
   }
  ]
 }
