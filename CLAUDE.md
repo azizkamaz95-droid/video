@@ -9,3 +9,4 @@ Points à ne jamais oublier (détail dans le PLAYBOOK) :
 - Une vidéo par jour, sujets variés ; ne pas refaire ni relire d'anciennes vidéos (crédits limités).
 - Images choisies selon le SUJET exact (boissons énergisantes = canettes ; énergie/effort = musculation, jamais d'escaliers ni de café hors sujet) ; apostrophes toujours lues correctement ; musique « the-plan » retirée (voir `shorts/PLAYBOOK.md` §12).
 - Écrire CaliBodi exactement ainsi. Ne jamais écrire de clé ou mot de passe dans un fichier.
+- Images : jamais les mêmes clips d'un jour à l'autre, de haute qualité, et qui montrent exactement le mouvement dit dans l'audio (étirements = étirements, pas un développé couché) ; voir `shorts/PLAYBOOK.md` §12 règle 4.
