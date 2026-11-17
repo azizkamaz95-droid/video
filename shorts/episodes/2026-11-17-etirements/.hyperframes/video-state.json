@@ -632,5 +632,16 @@
       ]
     },
     "unversioned": []
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "5033c564-b82d-4a84-a5ea-40532c42de82",
+      "completedAt": 1794905402692,
+      "output": "/home/user/video/shorts/episodes/2026-11-17-etirements/renders/raw.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
