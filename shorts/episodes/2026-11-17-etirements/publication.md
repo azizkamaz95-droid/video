@@ -29,6 +29,6 @@ Vidéo générée par IA.
 - Musique : motivation-quotidienne (énergie 3, Freesound 725013, audiocoffee, licence à confirmer)
 - Miniature : collée sur la 1re image (0,1 s), version unique choisie par Claude
 - Accent couleur utilisé : rose magenta #FF4FA3
-- Images : Pixabay (musculation, homme de dos ou en silhouette) ; aucune femme, aucun visage, logos effacés (barre ATX)
+- Images : Pixabay, nouveaux clips (athlète qui s’échauffe mains sur les genoux, jambes à la corde à sauter, marche rapide en baskets, pieds qui marchent) ; aucun visage identifiable, aucune femme, chaussures floutées (logo)
 - Source affichée à l'écran : Behm et coll., 2016 (résumé seulement lu) ; la baisse temporaire de force maximale vient du script, non confirmée par le résumé lu
 - Publication : mardi 17 novembre, Facebook 10 h, Instagram 12 h, YouTube 16 h, TikTok 18 h (Paris) ; créneaux passés envoyés tout de suite
