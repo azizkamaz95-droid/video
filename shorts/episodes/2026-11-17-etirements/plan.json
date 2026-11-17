@@ -1,5 +1,5 @@
 {
- "title": "Courbatures",
+ "title": "Etirements",
  "tail": 0.7,
  "bpm": 120,
  "style": "drive",
@@ -8,98 +8,102 @@
  "science_db": -3.0,
  "science": [
   [
-   11.0,
-   19.1
+   8.4,
+   19.2
   ]
  ],
  "hits": [
-  22.41
+  18.2
  ],
  "blocks": [
   {
    "type": "myth",
    "start": 0.0,
-   "end": 11.0
+   "end": 8.4
   },
   {
    "type": "body",
-   "start": 11.0,
-   "end": 25.0
+   "start": 8.4,
+   "end": 21.8
   },
   {
    "type": "outro",
-   "start": 25.0,
-   "end": 44.72
+   "start": 21.8,
+   "end": 46.32
   }
  ],
  "sfx": [
   [
    "stamp",
-   2.5
+   3.78
   ],
   [
    "whoosh",
-   3.25
-  ],
-  [
-   "whoosh",
-   5.35
+   6.15
   ],
   [
    "stamp",
-   9.91
+   7.31
   ],
   [
    "whoosh",
-   10.75
+   8.35
   ],
   [
    "stamp",
-   12.7
+   10.35
+  ],
+  [
+   "stamp",
+   12.28
   ],
   [
    "whoosh",
-   19.35
+   14.05
   ],
   [
    "stamp",
-   22.41
+   18.2
   ],
   [
    "thump",
-   22.41
+   18.2
   ],
   [
    "whoosh",
-   24.95
-  ],
-  [
-   "stamp",
-   26.24
+   19.15
   ],
   [
    "whoosh",
-   31.65
+   21.75
   ],
   [
    "stamp",
-   33.49
+   23.25
   ],
   [
    "whoosh",
-   35.75
+   29.35
   ],
   [
    "stamp",
-   37.76
+   32.09
   ],
   [
    "whoosh",
-   38.45
+   37.25
   ],
   [
    "stamp",
-   42.4
+   38.83
+  ],
+  [
+   "whoosh",
+   40.25
+  ],
+  [
+   "stamp",
+   43.84
   ]
  ],
  "music_file": "assets/music/motivation-quotidienne.mp3",
