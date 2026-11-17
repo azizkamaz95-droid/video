@@ -1,0 +1,641 @@
+{
+ "duration": 45.621,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.352
+  },
+  {
+   "word": "arrives",
+   "start": 0.352,
+   "end": 0.544
+  },
+  {
+   "word": "à",
+   "start": 0.592,
+   "end": 0.657
+  },
+  {
+   "word": "ta",
+   "start": 0.657,
+   "end": 0.817
+  },
+  {
+   "word": "séance",
+   "start": 0.817,
+   "end": 1.474
+  },
+  {
+   "word": "et",
+   "start": 1.554,
+   "end": 1.618
+  },
+  {
+   "word": "tu",
+   "start": 1.618,
+   "end": 1.778
+  },
+  {
+   "word": "commences",
+   "start": 1.778,
+   "end": 2.179
+  },
+  {
+   "word": "par",
+   "start": 2.179,
+   "end": 2.419
+  },
+  {
+   "word": "tenir",
+   "start": 2.419,
+   "end": 2.708
+  },
+  {
+   "word": "tes",
+   "start": 2.74,
+   "end": 2.9
+  },
+  {
+   "word": "jambes",
+   "start": 2.9,
+   "end": 3.108
+  },
+  {
+   "word": "tendues",
+   "start": 3.14,
+   "end": 3.461
+  },
+  {
+   "word": "pendant",
+   "start": 3.461,
+   "end": 3.781
+  },
+  {
+   "word": "30",
+   "start": 3.781,
+   "end": 4.022
+  },
+  {
+   "word": "secondes",
+   "start": 4.022,
+   "end": 4.535
+  },
+  {
+   "word": "pour",
+   "start": 4.823,
+   "end": 4.967
+  },
+  {
+   "word": "éviter",
+   "start": 4.999,
+   "end": 5.256
+  },
+  {
+   "word": "de",
+   "start": 5.256,
+   "end": 5.336
+  },
+  {
+   "word": "te",
+   "start": 5.384,
+   "end": 5.544
+  },
+  {
+   "word": "blesser?",
+   "start": 5.544,
+   "end": 5.833
+  },
+  {
+   "word": "Mais",
+   "start": 6.506,
+   "end": 6.682
+  },
+  {
+   "word": "est-ce",
+   "start": 6.682,
+   "end": 6.826
+  },
+  {
+   "word": "que",
+   "start": 6.826,
+   "end": 6.986
+  },
+  {
+   "word": "ça",
+   "start": 6.986,
+   "end": 7.147
+  },
+  {
+   "word": "te",
+   "start": 7.147,
+   "end": 7.227
+  },
+  {
+   "word": "protège",
+   "start": 7.307,
+   "end": 7.788
+  },
+  {
+   "word": "vraiment?",
+   "start": 7.788,
+   "end": 7.996
+  },
+  {
+   "word": "Contrairement",
+   "start": 8.669,
+   "end": 9.118
+  },
+  {
+   "word": "à",
+   "start": 9.166,
+   "end": 9.23
+  },
+  {
+   "word": "ce",
+   "start": 9.23,
+   "end": 9.39
+  },
+  {
+   "word": "qu'on",
+   "start": 9.39,
+   "end": 9.55
+  },
+  {
+   "word": "croit,",
+   "start": 9.55,
+   "end": 9.839
+  },
+  {
+   "word": "les",
+   "start": 10.352,
+   "end": 10.528
+  },
+  {
+   "word": "étirements",
+   "start": 10.528,
+   "end": 10.865
+  },
+  {
+   "word": "statiques",
+   "start": 10.865,
+   "end": 11.329
+  },
+  {
+   "word": "avant",
+   "start": 11.329,
+   "end": 11.473
+  },
+  {
+   "word": "le",
+   "start": 11.473,
+   "end": 11.634
+  },
+  {
+   "word": "sport",
+   "start": 11.634,
+   "end": 11.858
+  },
+  {
+   "word": "ne",
+   "start": 11.954,
+   "end": 12.034
+  },
+  {
+   "word": "sont",
+   "start": 12.066,
+   "end": 12.275
+  },
+  {
+   "word": "pas",
+   "start": 12.275,
+   "end": 12.515
+  },
+  {
+   "word": "une",
+   "start": 12.515,
+   "end": 12.595
+  },
+  {
+   "word": "garantie",
+   "start": 12.595,
+   "end": 12.996
+  },
+  {
+   "word": "contre",
+   "start": 12.996,
+   "end": 13.22
+  },
+  {
+   "word": "les",
+   "start": 13.236,
+   "end": 13.316
+  },
+  {
+   "word": "blessures.",
+   "start": 13.316,
+   "end": 13.685
+  },
+  {
+   "word": "Et",
+   "start": 14.454,
+   "end": 14.502
+  },
+  {
+   "word": "lorsqu'ils",
+   "start": 14.502,
+   "end": 14.839
+  },
+  {
+   "word": "sont",
+   "start": 14.839,
+   "end": 15.031
+  },
+  {
+   "word": "longs",
+   "start": 15.031,
+   "end": 15.175
+  },
+  {
+   "word": "et",
+   "start": 15.175,
+   "end": 15.239
+  },
+  {
+   "word": "réalisés",
+   "start": 15.255,
+   "end": 15.72
+  },
+  {
+   "word": "seuls,",
+   "start": 15.72,
+   "end": 16.009
+  },
+  {
+   "word": "ils",
+   "start": 16.377,
+   "end": 16.489
+  },
+  {
+   "word": "peuvent",
+   "start": 16.521,
+   "end": 16.762
+  },
+  {
+   "word": "même",
+   "start": 16.762,
+   "end": 16.922
+  },
+  {
+   "word": "diminuer",
+   "start": 16.922,
+   "end": 17.403
+  },
+  {
+   "word": "temporairement",
+   "start": 17.403,
+   "end": 18.044
+  },
+  {
+   "word": "ta",
+   "start": 18.044,
+   "end": 18.204
+  },
+  {
+   "word": "force",
+   "start": 18.204,
+   "end": 18.444
+  },
+  {
+   "word": "maximale.",
+   "start": 18.444,
+   "end": 18.893
+  },
+  {
+   "word": "Alors,",
+   "start": 19.582,
+   "end": 19.935
+  },
+  {
+   "word": "que",
+   "start": 20.447,
+   "end": 20.528
+  },
+  {
+   "word": "faire",
+   "start": 20.528,
+   "end": 20.784
+  },
+  {
+   "word": "à",
+   "start": 20.784,
+   "end": 20.8
+  },
+  {
+   "word": "la",
+   "start": 20.8,
+   "end": 20.896
+  },
+  {
+   "word": "place?",
+   "start": 20.928,
+   "end": 21.377
+  },
+  {
+   "word": "Commence",
+   "start": 22.05,
+   "end": 22.451
+  },
+  {
+   "word": "par",
+   "start": 22.451,
+   "end": 22.547
+  },
+  {
+   "word": "quelques",
+   "start": 22.611,
+   "end": 22.851
+  },
+  {
+   "word": "minutes",
+   "start": 22.883,
+   "end": 23.252
+  },
+  {
+   "word": "d'échauffement",
+   "start": 23.252,
+   "end": 23.653
+  },
+  {
+   "word": "progressif:",
+   "start": 23.653,
+   "end": 24.245
+  },
+  {
+   "word": "marche",
+   "start": 24.694,
+   "end": 24.935
+  },
+  {
+   "word": "rapide,",
+   "start": 24.935,
+   "end": 25.223
+  },
+  {
+   "word": "rotation",
+   "start": 25.656,
+   "end": 26.057
+  },
+  {
+   "word": "des",
+   "start": 26.057,
+   "end": 26.137
+  },
+  {
+   "word": "bras,",
+   "start": 26.137,
+   "end": 26.346
+  },
+  {
+   "word": "mouvements",
+   "start": 26.779,
+   "end": 27.1
+  },
+  {
+   "word": "des",
+   "start": 27.1,
+   "end": 27.18
+  },
+  {
+   "word": "jambes",
+   "start": 27.18,
+   "end": 27.437
+  },
+  {
+   "word": "et",
+   "start": 27.598,
+   "end": 27.678
+  },
+  {
+   "word": "exercices",
+   "start": 27.678,
+   "end": 28.159
+  },
+  {
+   "word": "adaptés",
+   "start": 28.159,
+   "end": 28.48
+  },
+  {
+   "word": "à",
+   "start": 28.48,
+   "end": 28.545
+  },
+  {
+   "word": "ta",
+   "start": 28.545,
+   "end": 28.657
+  },
+  {
+   "word": "séance.",
+   "start": 28.657,
+   "end": 28.994
+  },
+  {
+   "word": "Les",
+   "start": 29.748,
+   "end": 29.925
+  },
+  {
+   "word": "étirements",
+   "start": 29.925,
+   "end": 30.31
+  },
+  {
+   "word": "statiques,",
+   "start": 30.31,
+   "end": 30.84
+  },
+  {
+   "word": "eux,",
+   "start": 31.209,
+   "end": 31.241
+  },
+  {
+   "word": "peuvent",
+   "start": 31.674,
+   "end": 31.899
+  },
+  {
+   "word": "être",
+   "start": 31.931,
+   "end": 32.091
+  },
+  {
+   "word": "utiles",
+   "start": 32.091,
+   "end": 32.38
+  },
+  {
+   "word": "pour",
+   "start": 32.476,
+   "end": 32.653
+  },
+  {
+   "word": "améliorer",
+   "start": 32.653,
+   "end": 33.118
+  },
+  {
+   "word": "ta",
+   "start": 33.118,
+   "end": 33.199
+  },
+  {
+   "word": "souplesse,",
+   "start": 33.199,
+   "end": 33.568
+  },
+  {
+   "word": "mais",
+   "start": 34.242,
+   "end": 34.322
+  },
+  {
+   "word": "pas",
+   "start": 34.402,
+   "end": 34.563
+  },
+  {
+   "word": "besoin",
+   "start": 34.563,
+   "end": 34.884
+  },
+  {
+   "word": "d'en",
+   "start": 34.884,
+   "end": 34.964
+  },
+  {
+   "word": "faire",
+   "start": 34.964,
+   "end": 35.205
+  },
+  {
+   "word": "systématiquement",
+   "start": 35.205,
+   "end": 36.103
+  },
+  {
+   "word": "avant",
+   "start": 36.103,
+   "end": 36.328
+  },
+  {
+   "word": "chaque",
+   "start": 36.328,
+   "end": 36.585
+  },
+  {
+   "word": "entraînement.",
+   "start": 36.585,
+   "end": 36.938
+  },
+  {
+   "word": "Et",
+   "start": 37.708,
+   "end": 37.773
+  },
+  {
+   "word": "toi,",
+   "start": 37.773,
+   "end": 37.981
+  },
+  {
+   "word": "tu",
+   "start": 38.094,
+   "end": 38.254
+  },
+  {
+   "word": "t'étires",
+   "start": 38.254,
+   "end": 38.639
+  },
+  {
+   "word": "avant",
+   "start": 38.832,
+   "end": 39.137
+  },
+  {
+   "word": "ou",
+   "start": 39.313,
+   "end": 39.393
+  },
+  {
+   "word": "après",
+   "start": 39.393,
+   "end": 39.618
+  },
+  {
+   "word": "le",
+   "start": 39.618,
+   "end": 39.698
+  },
+  {
+   "word": "sport?",
+   "start": 39.698,
+   "end": 39.907
+  },
+  {
+   "word": "Abonne-toi,",
+   "start": 40.597,
+   "end": 41.143
+  },
+  {
+   "word": "une",
+   "start": 41.319,
+   "end": 41.416
+  },
+  {
+   "word": "nouvelle",
+   "start": 41.416,
+   "end": 41.737
+  },
+  {
+   "word": "vidéo",
+   "start": 41.785,
+   "end": 42.074
+  },
+  {
+   "word": "chaque",
+   "start": 42.218,
+   "end": 42.507
+  },
+  {
+   "word": "jour,",
+   "start": 42.507,
+   "end": 42.716
+  },
+  {
+   "word": "et",
+   "start": 43.165,
+   "end": 43.181
+  },
+  {
+   "word": "retrouve-nous",
+   "start": 43.181,
+   "end": 43.711
+  },
+  {
+   "word": "sur",
+   "start": 43.711,
+   "end": 43.839
+  },
+  {
+   "word": "Calibody.com!",
+   "start": 43.839,
+   "end": 44.882
+  }
+ ],
+ "text": "Tu arrives à ta séance et tu commences par tenir tes jambes tendues pendant 30 secondes pour éviter de te blesser? Mais est-ce que ça te protège vraiment? Contrairement à ce qu'on croit, les étirements statiques avant le sport ne sont pas une garantie contre les blessures. Et lorsqu'ils sont longs et réalisés seuls, ils peuvent même diminuer temporairement ta force maximale. Alors, que faire à la place? Commence par quelques minutes d'échauffement progressif: marche rapide, rotation des bras, mouvements des jambes et exercices adaptés à ta séance. Les étirements statiques, eux, peuvent être utiles pour améliorer ta souplesse, mais pas besoin d'en faire systématiquement avant chaque entraînement. Et toi, tu t'étires avant ou après le sport? Abonne-toi, une nouvelle vidéo chaque jour, et retrouve-nous sur Calibody.com!"
+}

@@ -134,6 +134,22 @@
   "d'habitude": {
    "mode": "glue",
    "auto": true
+  },
+  "lorsqu'ils": {
+   "mode": "glue",
+   "auto": true
+  },
+  "d'échauffement": {
+   "mode": "glue",
+   "auto": true
+  },
+  "d'en": {
+   "mode": "glue",
+   "auto": true
+  },
+  "t'étires": {
+   "mode": "glue",
+   "auto": true
   }
  }
 }

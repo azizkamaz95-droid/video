@@ -1,0 +1,767 @@
+{
+ "duration": 45.621,
+ "words": [
+  {
+   "i": 0,
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.352
+  },
+  {
+   "i": 1,
+   "word": "arrives",
+   "start": 0.352,
+   "end": 0.544
+  },
+  {
+   "i": 2,
+   "word": "à",
+   "start": 0.592,
+   "end": 0.657
+  },
+  {
+   "i": 3,
+   "word": "ta",
+   "start": 0.657,
+   "end": 0.817
+  },
+  {
+   "i": 4,
+   "word": "séance",
+   "start": 0.817,
+   "end": 1.474
+  },
+  {
+   "i": 5,
+   "word": "et",
+   "start": 1.554,
+   "end": 1.618
+  },
+  {
+   "i": 6,
+   "word": "tu",
+   "start": 1.618,
+   "end": 1.778
+  },
+  {
+   "i": 7,
+   "word": "commences",
+   "start": 1.778,
+   "end": 2.179
+  },
+  {
+   "i": 8,
+   "word": "par",
+   "start": 2.179,
+   "end": 2.419
+  },
+  {
+   "i": 9,
+   "word": "tenir",
+   "start": 2.419,
+   "end": 2.708
+  },
+  {
+   "i": 10,
+   "word": "tes",
+   "start": 2.74,
+   "end": 2.9
+  },
+  {
+   "i": 11,
+   "word": "jambes",
+   "start": 2.9,
+   "end": 3.108
+  },
+  {
+   "i": 12,
+   "word": "tendues",
+   "start": 3.14,
+   "end": 3.461
+  },
+  {
+   "i": 13,
+   "word": "pendant",
+   "start": 3.461,
+   "end": 3.781
+  },
+  {
+   "i": 14,
+   "word": "30",
+   "start": 3.781,
+   "end": 4.022
+  },
+  {
+   "i": 15,
+   "word": "secondes",
+   "start": 4.022,
+   "end": 4.535
+  },
+  {
+   "i": 16,
+   "word": "pour",
+   "start": 4.823,
+   "end": 4.967
+  },
+  {
+   "i": 17,
+   "word": "éviter",
+   "start": 4.999,
+   "end": 5.256
+  },
+  {
+   "i": 18,
+   "word": "de",
+   "start": 5.256,
+   "end": 5.336
+  },
+  {
+   "i": 19,
+   "word": "te",
+   "start": 5.384,
+   "end": 5.544
+  },
+  {
+   "i": 20,
+   "word": "blesser ?",
+   "start": 5.544,
+   "end": 5.833
+  },
+  {
+   "i": 21,
+   "word": "Mais",
+   "start": 6.506,
+   "end": 6.682
+  },
+  {
+   "i": 22,
+   "word": "est-ce",
+   "start": 6.682,
+   "end": 6.826
+  },
+  {
+   "i": 23,
+   "word": "que",
+   "start": 6.826,
+   "end": 6.986
+  },
+  {
+   "i": 24,
+   "word": "ça",
+   "start": 6.986,
+   "end": 7.147
+  },
+  {
+   "i": 25,
+   "word": "te",
+   "start": 7.147,
+   "end": 7.227
+  },
+  {
+   "i": 26,
+   "word": "protège",
+   "start": 7.307,
+   "end": 7.788
+  },
+  {
+   "i": 27,
+   "word": "vraiment ?",
+   "start": 7.788,
+   "end": 7.996
+  },
+  {
+   "i": 28,
+   "word": "Contrairement",
+   "start": 8.669,
+   "end": 9.118
+  },
+  {
+   "i": 29,
+   "word": "à",
+   "start": 9.166,
+   "end": 9.23
+  },
+  {
+   "i": 30,
+   "word": "ce",
+   "start": 9.23,
+   "end": 9.39
+  },
+  {
+   "i": 31,
+   "word": "qu'on",
+   "start": 9.39,
+   "end": 9.55
+  },
+  {
+   "i": 32,
+   "word": "croit,",
+   "start": 9.55,
+   "end": 9.839
+  },
+  {
+   "i": 33,
+   "word": "les",
+   "start": 10.352,
+   "end": 10.528
+  },
+  {
+   "i": 34,
+   "word": "étirements",
+   "start": 10.528,
+   "end": 10.865
+  },
+  {
+   "i": 35,
+   "word": "statiques",
+   "start": 10.865,
+   "end": 11.329
+  },
+  {
+   "i": 36,
+   "word": "avant",
+   "start": 11.329,
+   "end": 11.473
+  },
+  {
+   "i": 37,
+   "word": "le",
+   "start": 11.473,
+   "end": 11.634
+  },
+  {
+   "i": 38,
+   "word": "sport",
+   "start": 11.634,
+   "end": 11.858
+  },
+  {
+   "i": 39,
+   "word": "ne",
+   "start": 11.954,
+   "end": 12.034
+  },
+  {
+   "i": 40,
+   "word": "sont",
+   "start": 12.066,
+   "end": 12.275
+  },
+  {
+   "i": 41,
+   "word": "pas",
+   "start": 12.275,
+   "end": 12.515
+  },
+  {
+   "i": 42,
+   "word": "une",
+   "start": 12.515,
+   "end": 12.595
+  },
+  {
+   "i": 43,
+   "word": "garantie",
+   "start": 12.595,
+   "end": 12.996
+  },
+  {
+   "i": 44,
+   "word": "contre",
+   "start": 12.996,
+   "end": 13.22
+  },
+  {
+   "i": 45,
+   "word": "les",
+   "start": 13.236,
+   "end": 13.316
+  },
+  {
+   "i": 46,
+   "word": "blessures.",
+   "start": 13.316,
+   "end": 13.685
+  },
+  {
+   "i": 47,
+   "word": "Et",
+   "start": 14.454,
+   "end": 14.502
+  },
+  {
+   "i": 48,
+   "word": "lorsqu'ils",
+   "start": 14.502,
+   "end": 14.839
+  },
+  {
+   "i": 49,
+   "word": "sont",
+   "start": 14.839,
+   "end": 15.031
+  },
+  {
+   "i": 50,
+   "word": "longs",
+   "start": 15.031,
+   "end": 15.175
+  },
+  {
+   "i": 51,
+   "word": "et",
+   "start": 15.175,
+   "end": 15.239
+  },
+  {
+   "i": 52,
+   "word": "réalisés",
+   "start": 15.255,
+   "end": 15.72
+  },
+  {
+   "i": 53,
+   "word": "seuls,",
+   "start": 15.72,
+   "end": 16.009
+  },
+  {
+   "i": 54,
+   "word": "ils",
+   "start": 16.377,
+   "end": 16.489
+  },
+  {
+   "i": 55,
+   "word": "peuvent",
+   "start": 16.521,
+   "end": 16.762
+  },
+  {
+   "i": 56,
+   "word": "même",
+   "start": 16.762,
+   "end": 16.922
+  },
+  {
+   "i": 57,
+   "word": "diminuer",
+   "start": 16.922,
+   "end": 17.403
+  },
+  {
+   "i": 58,
+   "word": "temporairement",
+   "start": 17.403,
+   "end": 18.044
+  },
+  {
+   "i": 59,
+   "word": "ta",
+   "start": 18.044,
+   "end": 18.204
+  },
+  {
+   "i": 60,
+   "word": "force",
+   "start": 18.204,
+   "end": 18.444
+  },
+  {
+   "i": 61,
+   "word": "maximale.",
+   "start": 18.444,
+   "end": 18.893
+  },
+  {
+   "i": 62,
+   "word": "Alors,",
+   "start": 19.582,
+   "end": 19.935
+  },
+  {
+   "i": 63,
+   "word": "que",
+   "start": 20.447,
+   "end": 20.528
+  },
+  {
+   "i": 64,
+   "word": "faire",
+   "start": 20.528,
+   "end": 20.784
+  },
+  {
+   "i": 65,
+   "word": "à",
+   "start": 20.784,
+   "end": 20.8
+  },
+  {
+   "i": 66,
+   "word": "la",
+   "start": 20.8,
+   "end": 20.896
+  },
+  {
+   "i": 67,
+   "word": "place ?",
+   "start": 20.928,
+   "end": 21.377
+  },
+  {
+   "i": 68,
+   "word": "Commence",
+   "start": 22.05,
+   "end": 22.451
+  },
+  {
+   "i": 69,
+   "word": "par",
+   "start": 22.451,
+   "end": 22.547
+  },
+  {
+   "i": 70,
+   "word": "quelques",
+   "start": 22.611,
+   "end": 22.851
+  },
+  {
+   "i": 71,
+   "word": "minutes",
+   "start": 22.883,
+   "end": 23.252
+  },
+  {
+   "i": 72,
+   "word": "d'échauffement",
+   "start": 23.252,
+   "end": 23.653
+  },
+  {
+   "i": 73,
+   "word": "progressif :",
+   "start": 23.653,
+   "end": 24.245
+  },
+  {
+   "i": 74,
+   "word": "marche",
+   "start": 24.694,
+   "end": 24.935
+  },
+  {
+   "i": 75,
+   "word": "rapide,",
+   "start": 24.935,
+   "end": 25.223
+  },
+  {
+   "i": 76,
+   "word": "rotations",
+   "start": 25.656,
+   "end": 26.057
+  },
+  {
+   "i": 77,
+   "word": "des",
+   "start": 26.057,
+   "end": 26.137
+  },
+  {
+   "i": 78,
+   "word": "bras,",
+   "start": 26.137,
+   "end": 26.346
+  },
+  {
+   "i": 79,
+   "word": "mouvements",
+   "start": 26.779,
+   "end": 27.1
+  },
+  {
+   "i": 80,
+   "word": "des",
+   "start": 27.1,
+   "end": 27.18
+  },
+  {
+   "i": 81,
+   "word": "jambes",
+   "start": 27.18,
+   "end": 27.437
+  },
+  {
+   "i": 82,
+   "word": "et",
+   "start": 27.598,
+   "end": 27.678
+  },
+  {
+   "i": 83,
+   "word": "exercices",
+   "start": 27.678,
+   "end": 28.159
+  },
+  {
+   "i": 84,
+   "word": "adaptés",
+   "start": 28.159,
+   "end": 28.48
+  },
+  {
+   "i": 85,
+   "word": "à",
+   "start": 28.48,
+   "end": 28.545
+  },
+  {
+   "i": 86,
+   "word": "ta",
+   "start": 28.545,
+   "end": 28.657
+  },
+  {
+   "i": 87,
+   "word": "séance.",
+   "start": 28.657,
+   "end": 28.994
+  },
+  {
+   "i": 88,
+   "word": "Les",
+   "start": 29.748,
+   "end": 29.925
+  },
+  {
+   "i": 89,
+   "word": "étirements",
+   "start": 29.925,
+   "end": 30.31
+  },
+  {
+   "i": 90,
+   "word": "statiques,",
+   "start": 30.31,
+   "end": 30.84
+  },
+  {
+   "i": 91,
+   "word": "eux,",
+   "start": 31.209,
+   "end": 31.241
+  },
+  {
+   "i": 92,
+   "word": "peuvent",
+   "start": 31.674,
+   "end": 31.899
+  },
+  {
+   "i": 93,
+   "word": "être",
+   "start": 31.931,
+   "end": 32.091
+  },
+  {
+   "i": 94,
+   "word": "utiles",
+   "start": 32.091,
+   "end": 32.38
+  },
+  {
+   "i": 95,
+   "word": "pour",
+   "start": 32.476,
+   "end": 32.653
+  },
+  {
+   "i": 96,
+   "word": "améliorer",
+   "start": 32.653,
+   "end": 33.118
+  },
+  {
+   "i": 97,
+   "word": "ta",
+   "start": 33.118,
+   "end": 33.199
+  },
+  {
+   "i": 98,
+   "word": "souplesse,",
+   "start": 33.199,
+   "end": 33.568
+  },
+  {
+   "i": 99,
+   "word": "mais",
+   "start": 34.242,
+   "end": 34.322
+  },
+  {
+   "i": 100,
+   "word": "pas",
+   "start": 34.402,
+   "end": 34.563
+  },
+  {
+   "i": 101,
+   "word": "besoin",
+   "start": 34.563,
+   "end": 34.884
+  },
+  {
+   "i": 102,
+   "word": "d'en",
+   "start": 34.884,
+   "end": 34.964
+  },
+  {
+   "i": 103,
+   "word": "faire",
+   "start": 34.964,
+   "end": 35.205
+  },
+  {
+   "i": 104,
+   "word": "systématiquement",
+   "start": 35.205,
+   "end": 36.103
+  },
+  {
+   "i": 105,
+   "word": "avant",
+   "start": 36.103,
+   "end": 36.328
+  },
+  {
+   "i": 106,
+   "word": "chaque",
+   "start": 36.328,
+   "end": 36.585
+  },
+  {
+   "i": 107,
+   "word": "entraînement.",
+   "start": 36.585,
+   "end": 36.938
+  },
+  {
+   "i": 108,
+   "word": "Et",
+   "start": 37.708,
+   "end": 37.773
+  },
+  {
+   "i": 109,
+   "word": "toi,",
+   "start": 37.773,
+   "end": 37.981
+  },
+  {
+   "i": 110,
+   "word": "tu",
+   "start": 38.094,
+   "end": 38.254
+  },
+  {
+   "i": 111,
+   "word": "t'étires",
+   "start": 38.254,
+   "end": 38.639
+  },
+  {
+   "i": 112,
+   "word": "avant",
+   "start": 38.832,
+   "end": 39.137
+  },
+  {
+   "i": 113,
+   "word": "ou",
+   "start": 39.313,
+   "end": 39.393
+  },
+  {
+   "i": 114,
+   "word": "après",
+   "start": 39.393,
+   "end": 39.618
+  },
+  {
+   "i": 115,
+   "word": "le",
+   "start": 39.618,
+   "end": 39.698
+  },
+  {
+   "i": 116,
+   "word": "sport ?",
+   "start": 39.698,
+   "end": 39.907
+  },
+  {
+   "i": 117,
+   "word": "Abonne-toi,",
+   "start": 40.597,
+   "end": 41.143
+  },
+  {
+   "i": 118,
+   "word": "une",
+   "start": 41.319,
+   "end": 41.416
+  },
+  {
+   "i": 119,
+   "word": "nouvelle",
+   "start": 41.416,
+   "end": 41.737
+  },
+  {
+   "i": 120,
+   "word": "vidéo",
+   "start": 41.785,
+   "end": 42.074
+  },
+  {
+   "i": 121,
+   "word": "chaque",
+   "start": 42.218,
+   "end": 42.507
+  },
+  {
+   "i": 122,
+   "word": "jour.",
+   "start": 42.507,
+   "end": 42.716
+  },
+  {
+   "i": 123,
+   "word": "Et",
+   "start": 43.165,
+   "end": 43.181
+  },
+  {
+   "i": 124,
+   "word": "retrouve-nous",
+   "start": 43.181,
+   "end": 43.711
+  },
+  {
+   "i": 125,
+   "word": "sur",
+   "start": 43.711,
+   "end": 43.839
+  },
+  {
+   "i": 126,
+   "word": "calibodi.com !",
+   "start": 43.839,
+   "end": 44.882
+  }
+ ]
+}

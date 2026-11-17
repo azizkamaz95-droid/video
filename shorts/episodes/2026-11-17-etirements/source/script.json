@@ -1,0 +1,17 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {"id": "s01", "text": "Tu arrives à ta séance et tu commences par tenir tes jambes tendues pendant 30 secondes pour éviter de te blesser ?", "pause": 0.5, "say": "Tu arrives à ta séance et tu commences par tenir tes jambes tendues pendant trente secondes pour éviter de te blesser ?"},
+  {"id": "s02", "text": "Mais est-ce que ça te protège vraiment ?", "pause": 0.5},
+  {"id": "s03", "text": "Contrairement à ce qu'on croit, les étirements statiques avant le sport ne sont pas une garantie contre les blessures.", "pause": 0.5},
+  {"id": "s04", "text": "Et lorsqu'ils sont longs et réalisés seuls, ils peuvent même diminuer temporairement ta force maximale.", "pause": 0.5},
+  {"id": "s05", "text": "Alors, que faire à la place ?", "pause": 0.5},
+  {"id": "s06", "text": "Commence par quelques minutes d'échauffement progressif : marche rapide, rotations des bras, mouvements des jambes et exercices adaptés à ta séance.", "pause": 0.5},
+  {"id": "s07", "text": "Les étirements statiques, eux, peuvent être utiles pour améliorer ta souplesse, mais pas besoin d'en faire systématiquement avant chaque entraînement.", "pause": 0.5},
+  {"id": "s08", "text": "Et toi, tu t'étires avant ou après le sport ?", "pause": 0.35},
+  {"id": "s09", "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !", "pause": 0.3, "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"}
+ ]
+}
