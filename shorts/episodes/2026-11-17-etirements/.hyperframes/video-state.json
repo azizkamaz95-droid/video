@@ -698,15 +698,14 @@
   },
   "checks": {
     "latest": {
-      "revision": "dd7546d5-711e-4c24-9630-e766ec151c87",
-      "id": "2e72d955-5b90-4272-b8a4-e34051513ce8"
+      "revision": null,
+      "id": "a776fe85-881c-4850-b648-a8e6deb69280"
     },
     "revisions": {
       "dd7546d5-711e-4c24-9630-e766ec151c87": [
         {
           "id": "2e72d955-5b90-4272-b8a4-e34051513ce8",
           "scope": "project",
-          "report": "/home/user/video/shorts/episodes/2026-11-17-etirements/.hyperframes/artifacts/checks/2e72d955-5b90-4272-b8a4-e34051513ce8.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -728,7 +727,9 @@
           "revision": "dd7546d5-711e-4c24-9630-e766ec151c87",
           "inputFingerprint": "0bc71726372d388beb5b731a42617dc0b5795164274520b8b95c89c8ad43cd44",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "4e4253c2-075c-470c-9b25-48ac00507054"
         }
       ]
     },
@@ -956,13 +957,15 @@
   },
   "renders": {
     "latest": {
-      "id": "5033c564-b82d-4a84-a5ea-40532c42de82",
-      "completedAt": 1794905402692,
+      "id": "4e4253c2-075c-470c-9b25-48ac00507054",
+      "completedAt": 1794915547019,
       "output": "/home/user/video/shorts/episodes/2026-11-17-etirements/renders/raw.mp4",
       "status": "completed",
-      "revision": null
+      "revision": "d37e0cba-33a9-4c5a-a470-b40b8fd45295"
     },
-    "retainedRevisions": []
+    "retainedRevisions": [
+      "d37e0cba-33a9-4c5a-a470-b40b8fd45295"
+    ]
   },
   "pendingArtifactCleanup": []
 }
