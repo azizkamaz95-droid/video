@@ -1,5 +1,5 @@
 {
- "title": "Etirements",
+ "title": "Creatine",
  "tail": 0.7,
  "bpm": 120,
  "style": "drive",
@@ -8,54 +8,62 @@
  "science_db": -3.0,
  "science": [
   [
-   8.4,
-   19.2
+   14.1,
+   24.1
   ]
  ],
  "hits": [
-  18.2
+  4.67
  ],
  "blocks": [
   {
    "type": "myth",
    "start": 0.0,
-   "end": 8.4
+   "end": 9.4
   },
   {
    "type": "body",
-   "start": 8.4,
-   "end": 21.8
+   "start": 9.4,
+   "end": 24.1
   },
   {
    "type": "outro",
-   "start": 21.8,
-   "end": 46.32
+   "start": 24.1,
+   "end": 46.65
   }
  ],
  "sfx": [
   [
    "stamp",
-   3.78
+   1.09
+  ],
+  [
+   "stamp",
+   3.39
   ],
   [
    "whoosh",
-   6.15
+   4.25
   ],
   [
    "stamp",
-   7.31
+   4.67
+  ],
+  [
+   "thump",
+   4.67
   ],
   [
    "whoosh",
-   8.35
+   6.65
+  ],
+  [
+   "whoosh",
+   9.35
   ],
   [
    "stamp",
-   10.35
-  ],
-  [
-   "stamp",
-   12.28
+   10.86
   ],
   [
    "whoosh",
@@ -63,47 +71,47 @@
   ],
   [
    "stamp",
-   18.2
-  ],
-  [
-   "thump",
-   18.2
+   16.72
   ],
   [
    "whoosh",
-   19.15
-  ],
-  [
-   "whoosh",
-   21.75
+   18.95
   ],
   [
    "stamp",
-   23.25
+   20.49
   ],
   [
    "whoosh",
-   29.35
+   24.05
   ],
   [
    "stamp",
-   32.09
+   25.5
   ],
   [
    "whoosh",
-   37.25
+   29.45
   ],
   [
    "stamp",
-   38.83
+   34.39
   ],
   [
    "whoosh",
-   40.25
+   36.65
   ],
   [
    "stamp",
-   43.84
+   38.89
+  ],
+  [
+   "whoosh",
+   40.35
+  ],
+  [
+   "stamp",
+   44.31
   ]
  ],
  "music_file": "assets/music/motivation-quotidienne.mp3",

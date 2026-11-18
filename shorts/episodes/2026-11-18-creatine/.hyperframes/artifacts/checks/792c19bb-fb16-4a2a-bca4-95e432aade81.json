@@ -1,0 +1,951 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 6,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#cw17\" for color between 3.63s and 3.64s.",
+        "selector": "#cw17",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/video/shorts/episodes/2026-11-18-creatine/compositions/captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#cw30\" for color between 7.92s and 7.94s.",
+        "selector": "#cw30",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/video/shorts/episodes/2026-11-18-creatine/compositions/captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#cw56\" for color between 17.47s and 17.52s.",
+        "selector": "#cw56",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/video/shorts/episodes/2026-11-18-creatine/compositions/captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#cw72\" for color between 23.30s and 23.32s.",
+        "selector": "#cw72",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/video/shorts/episodes/2026-11-18-creatine/compositions/captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#cw76\" for color between 25.02s and 25.07s.",
+        "selector": "#cw76",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/video/shorts/episodes/2026-11-18-creatine/compositions/captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      },
+      {
+        "code": "composition_file_too_large",
+        "severity": "warning",
+        "message": "This HTML composition file has 416 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/user/video/shorts/episodes/2026-11-18-creatine/compositions/captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Split this sub-composition further into smaller .html files, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
+      }
+    ],
+    "filesScanned": 15
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "[.WebGL-0x169404be5800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "46.65",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:37375/"
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "[.WebGL-0x169404be5800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "46.65",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:37375/"
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "[.WebGL-0x169404be5800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "46.65",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 2.592,
+        "url": "http://127.0.0.1:37375/"
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "[.WebGL-0x169404be5800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "46.65",
+          "data-width": "1080",
+          "data-height": "1920"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 2.592,
+        "url": "http://127.0.0.1:37375/"
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 14,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 2.592,
+        "selector": "#s1-kb",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -38.12,
+          "top": -67.78,
+          "right": 1118.12,
+          "bottom": 1987.78,
+          "width": 1156.25,
+          "height": 2055.55
+        },
+        "containerSelector": "#s1",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 38.12,
+          "right": 38.12,
+          "top": 67.78,
+          "bottom": 67.78
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-hv4d"
+        },
+        "sourceFile": "compositions/scenes/s1.html",
+        "bbox": {
+          "x": -38.12,
+          "y": -67.78,
+          "width": 1156.25,
+          "height": 2055.55
+        },
+        "firstSeen": 2.592,
+        "lastSeen": 2.592,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          2.592
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 7.775,
+        "selector": "#s3-kb",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -25.87,
+          "top": -45.98,
+          "right": 1105.87,
+          "bottom": 1965.98,
+          "width": 1131.73,
+          "height": 2011.97
+        },
+        "containerSelector": "#s3",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 25.87,
+          "right": 25.87,
+          "top": 45.98,
+          "bottom": 45.98
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-wku3"
+        },
+        "sourceFile": "compositions/scenes/s3.html",
+        "bbox": {
+          "x": -25.87,
+          "y": -45.98,
+          "width": 1131.73,
+          "height": 2011.97
+        },
+        "firstSeen": 7.775,
+        "lastSeen": 7.775,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          7.775
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 12.958,
+        "selector": "#s4-c",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": -140.38,
+          "top": 698.13,
+          "right": 1188.16,
+          "bottom": 959.04,
+          "width": 1328.54,
+          "height": 260.91
+        },
+        "containerSelector": "#root",
+        "text": "MASSE GRAISSEUSE",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 140.38,
+          "right": 108.16
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-fcu7"
+        },
+        "sourceFile": "compositions/scenes/s4.html",
+        "bbox": {
+          "x": -140.38,
+          "y": 698.13,
+          "width": 1328.54,
+          "height": 260.91
+        },
+        "firstSeen": 12.958,
+        "lastSeen": 12.958,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          12.958
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 12.958,
+        "selector": "#s4-c",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": -140.38,
+          "top": 698.13,
+          "right": 1188.16,
+          "bottom": 959.04,
+          "width": 1328.54,
+          "height": 260.91
+        },
+        "containerSelector": "#__hf_color_grading_s4-v",
+        "text": "MASSE GRAISSEUSE",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.19,
+        "dataAttributes": {
+          "data-hf-id": "hf-fcu7"
+        },
+        "sourceFile": "compositions/scenes/s4.html",
+        "bbox": {
+          "x": -140.38,
+          "y": 698.13,
+          "width": 1328.54,
+          "height": 260.91
+        },
+        "firstSeen": 12.958,
+        "lastSeen": 12.958,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          12.958
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 12.958,
+        "selector": "#s4-kb",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -16.47,
+          "top": -29.28,
+          "right": 1096.47,
+          "bottom": 1949.28,
+          "width": 1112.94,
+          "height": 1978.56
+        },
+        "containerSelector": "#s4",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 16.47,
+          "right": 16.47,
+          "top": 29.28,
+          "bottom": 29.28
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-wjme"
+        },
+        "sourceFile": "compositions/scenes/s4.html",
+        "bbox": {
+          "x": -16.47,
+          "y": -29.28,
+          "width": 1112.94,
+          "height": 1978.56
+        },
+        "firstSeen": 12.958,
+        "lastSeen": 12.958,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          12.958
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 12.958,
+        "selector": "#s4-c",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -167.76,
+          "top": 709.73,
+          "right": 1215.96,
+          "bottom": 952.92,
+          "width": 1383.72,
+          "height": 243.19
+        },
+        "containerSelector": "#s4",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 167.76,
+          "right": 135.96
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-fcu7"
+        },
+        "sourceFile": "compositions/scenes/s4.html",
+        "bbox": {
+          "x": -167.76,
+          "y": 709.73,
+          "width": 1383.72,
+          "height": 243.19
+        },
+        "firstSeen": 12.958,
+        "lastSeen": 12.958,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          12.958
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.142,
+        "selector": "#s5-b",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 156.58,
+          "top": 391.21,
+          "right": 926.19,
+          "bottom": 536.11,
+          "width": 769.6,
+          "height": 144.9
+        },
+        "containerSelector": "#__hf_color_grading_s5-v",
+        "text": "STOCKAGE D'EAU",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.22,
+        "dataAttributes": {
+          "data-hf-id": "hf-vekx"
+        },
+        "sourceFile": "compositions/scenes/s5.html",
+        "bbox": {
+          "x": 156.58,
+          "y": 391.21,
+          "width": 769.6,
+          "height": 144.9
+        },
+        "firstSeen": 18.142,
+        "lastSeen": 18.142,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.142
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 18.142,
+        "selector": "#s5-kb",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -52.81,
+          "top": -93.89,
+          "right": 1132.81,
+          "bottom": 2013.89,
+          "width": 1185.62,
+          "height": 2107.78
+        },
+        "containerSelector": "#s5",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 52.81,
+          "right": 52.81,
+          "top": 93.89,
+          "bottom": 93.89
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-5t2h"
+        },
+        "sourceFile": "compositions/scenes/s5.html",
+        "bbox": {
+          "x": -52.81,
+          "y": -93.89,
+          "width": 1185.62,
+          "height": 2107.78
+        },
+        "firstSeen": 18.142,
+        "lastSeen": 18.142,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.142
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 23.325,
+        "selector": "#s6-kb",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -10.69,
+          "top": -19.01,
+          "right": 1090.69,
+          "bottom": 1939.01,
+          "width": 1101.38,
+          "height": 1958.02
+        },
+        "containerSelector": "#s6",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 10.69,
+          "right": 10.69,
+          "top": 19.01,
+          "bottom": 19.01
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-qlas"
+        },
+        "sourceFile": "compositions/scenes/s6.html",
+        "bbox": {
+          "x": -10.69,
+          "y": -19.01,
+          "width": 1101.38,
+          "height": 1958.02
+        },
+        "firstSeen": 23.325,
+        "lastSeen": 23.325,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          23.325
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 28.508,
+        "selector": "#s7-b",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 189.22,
+          "top": 330.41,
+          "right": 946.57,
+          "bottom": 491.6,
+          "width": 757.35,
+          "height": 161.19
+        },
+        "containerSelector": "#__hf_color_grading_s7-v",
+        "text": "MUSCULATION",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.19,
+        "dataAttributes": {
+          "data-hf-id": "hf-8202"
+        },
+        "sourceFile": "compositions/scenes/s7.html",
+        "bbox": {
+          "x": 189.22,
+          "y": 330.41,
+          "width": 757.35,
+          "height": 161.19
+        },
+        "firstSeen": 28.508,
+        "lastSeen": 28.508,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          28.508
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 28.508,
+        "selector": "#s7-kb",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -52.38,
+          "top": -93.12,
+          "right": 1132.38,
+          "bottom": 2013.12,
+          "width": 1184.76,
+          "height": 2106.24
+        },
+        "containerSelector": "#s7",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 52.38,
+          "right": 52.38,
+          "top": 93.12,
+          "bottom": 93.12
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-z2g7"
+        },
+        "sourceFile": "compositions/scenes/s7.html",
+        "bbox": {
+          "x": -52.38,
+          "y": -93.12,
+          "width": 1184.76,
+          "height": 2106.24
+        },
+        "firstSeen": 28.508,
+        "lastSeen": 28.508,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          28.508
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 33.692,
+        "selector": "#s8-kb",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -27.38,
+          "top": -48.67,
+          "right": 1107.38,
+          "bottom": 1968.67,
+          "width": 1134.76,
+          "height": 2017.34
+        },
+        "containerSelector": "#s8",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 27.38,
+          "right": 27.38,
+          "top": 48.67,
+          "bottom": 48.67
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-eeia"
+        },
+        "sourceFile": "compositions/scenes/s8.html",
+        "bbox": {
+          "x": -27.38,
+          "y": -48.67,
+          "width": 1134.76,
+          "height": 2017.34
+        },
+        "firstSeen": 33.692,
+        "lastSeen": 33.692,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          33.692
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 38.875,
+        "selector": "#s9-kb",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -44.22,
+          "top": -77.53,
+          "right": 1124.22,
+          "bottom": 1999.68,
+          "width": 1168.43,
+          "height": 2077.22
+        },
+        "containerSelector": "#s9",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": -6.05,
+          "top": -9.68,
+          "right": 1086.05,
+          "bottom": 1931.83,
+          "width": 1092.1,
+          "height": 1941.5
+        },
+        "overflow": {
+          "left": 38.17,
+          "right": 38.17,
+          "top": 67.85,
+          "bottom": 67.85
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-8vv9"
+        },
+        "sourceFile": "compositions/scenes/s9.html",
+        "bbox": {
+          "x": -44.22,
+          "y": -77.53,
+          "width": 1168.43,
+          "height": 2077.22
+        },
+        "firstSeen": 38.875,
+        "lastSeen": 38.875,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          38.875
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 44.058,
+        "selector": "#s10-kb",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -26.89,
+          "top": -47.81,
+          "right": 1106.89,
+          "bottom": 1967.81,
+          "width": 1133.78,
+          "height": 2015.62
+        },
+        "containerSelector": "#s10",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 26.89,
+          "right": 26.89,
+          "top": 47.81,
+          "bottom": 47.81
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-wrob"
+        },
+        "sourceFile": "compositions/scenes/s10.html",
+        "bbox": {
+          "x": -26.89,
+          "y": -47.81,
+          "width": 1133.78,
+          "height": 2015.62
+        },
+        "firstSeen": 44.058,
+        "lastSeen": 44.058,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          44.058
+        ]
+      }
+    ],
+    "duration": 46.65,
+    "samples": [
+      2.592,
+      7.775,
+      12.958,
+      18.142,
+      23.325,
+      28.508,
+      33.692,
+      38.875,
+      44.058
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 14,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.69:1; WCAG AA requires 3:1.",
+        "text": "BALANCE :",
+        "fg": "rgb(20,20,20)",
+        "bg": "rgb(116,83,68)",
+        "ratio": 2.69,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(172,172,172)",
+        "large": true,
+        "selector": "#cw103",
+        "dataAttributes": {},
+        "sourceFile": "compositions/captions.html",
+        "bbox": {
+          "x": 341.5625,
+          "y": 1106.953125,
+          "width": 578.140625,
+          "height": 106.078125
+        },
+        "time": 33.692,
+        "times": [
+          33.692
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.9:1; WCAG AA requires 3:1.",
+        "text": "RETROUVE-NOUS",
+        "fg": "rgb(91,140,255)",
+        "bg": "rgb(92,66,53)",
+        "ratio": 2.9,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(95,143,255)",
+        "large": true,
+        "selector": "#cw129",
+        "dataAttributes": {},
+        "sourceFile": "compositions/captions.html",
+        "bbox": {
+          "x": 145.484375,
+          "y": 1115.125,
+          "width": 789.015625,
+          "height": 89.75
+        },
+        "time": 44.058,
+        "times": [
+          44.058
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      2.592,
+      12.958,
+      23.325,
+      33.692,
+      44.058
+    ],
+    "checked": 24,
+    "passed": 22
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}
