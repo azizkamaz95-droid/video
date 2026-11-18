@@ -877,5 +877,16 @@
       ]
     },
     "unversioned": []
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "52008c81-0a19-437e-b076-715880e1aed0",
+      "completedAt": 1795001830545,
+      "output": "/home/user/video/shorts/episodes/2026-11-18-creatine/renders/raw.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
