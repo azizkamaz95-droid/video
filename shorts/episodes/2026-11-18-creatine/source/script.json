@@ -1,0 +1,19 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {"id": "s01", "text": "Tu commences à prendre de la créatine, tu montes sur la balance et tu vois un kilo de plus ?", "pause": 0.5},
+  {"id": "s02", "text": "Tu paniques en pensant avoir pris du gras ?", "pause": 0.5},
+  {"id": "s03", "text": "Attends, parce que ce n'est pas forcément le cas !", "pause": 0.6},
+  {"id": "s04", "text": "La créatine peut augmenter ton poids, mais pas nécessairement ta masse graisseuse.", "pause": 0.5},
+  {"id": "s05", "text": "Pourquoi ?", "pause": 0.4},
+  {"id": "s06", "text": "Parce qu'elle favorise notamment le stockage d'eau à l'intérieur des muscles.", "pause": 0.5},
+  {"id": "s07", "text": "Résultat : la balance peut afficher davantage, alors que tu n'as pas pris de graisse.", "pause": 0.5},
+  {"id": "s08", "text": "Et associée à un entraînement de musculation, elle peut aussi favoriser le développement de la masse musculaire.", "pause": 0.5},
+  {"id": "s09", "text": "Alors, ne juge pas tes résultats uniquement avec le chiffre sur la balance : regarde aussi ta progression et ton évolution physique.", "pause": 0.5},
+  {"id": "s10", "text": "Dis-moi en commentaire : tu pensais que la créatine faisait grossir ?", "pause": 0.35},
+  {"id": "s11", "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !", "pause": 0.3, "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"}
+ ]
+}

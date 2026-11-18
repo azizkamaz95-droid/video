@@ -1,0 +1,666 @@
+{
+ "duration": 45.949,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.256
+  },
+  {
+   "word": "commences",
+   "start": 0.256,
+   "end": 0.594
+  },
+  {
+   "word": "à",
+   "start": 0.594,
+   "end": 0.658
+  },
+  {
+   "word": "prendre",
+   "start": 0.658,
+   "end": 0.883
+  },
+  {
+   "word": "de",
+   "start": 0.899,
+   "end": 0.979
+  },
+  {
+   "word": "la",
+   "start": 0.979,
+   "end": 1.092
+  },
+  {
+   "word": "créatine,",
+   "start": 1.092,
+   "end": 1.59
+  },
+  {
+   "word": "tu",
+   "start": 1.782,
+   "end": 1.943
+  },
+  {
+   "word": "montes",
+   "start": 1.943,
+   "end": 2.103
+  },
+  {
+   "word": "sur",
+   "start": 2.103,
+   "end": 2.264
+  },
+  {
+   "word": "la",
+   "start": 2.264,
+   "end": 2.344
+  },
+  {
+   "word": "balance,",
+   "start": 2.344,
+   "end": 2.794
+  },
+  {
+   "word": "et",
+   "start": 3.003,
+   "end": 3.067
+  },
+  {
+   "word": "tu",
+   "start": 3.067,
+   "end": 3.18
+  },
+  {
+   "word": "vois",
+   "start": 3.18,
+   "end": 3.324
+  },
+  {
+   "word": "1",
+   "start": 3.324,
+   "end": 3.388
+  },
+  {
+   "word": "kilo",
+   "start": 3.388,
+   "end": 3.581
+  },
+  {
+   "word": "de",
+   "start": 3.581,
+   "end": 3.629
+  },
+  {
+   "word": "plus?",
+   "start": 3.629,
+   "end": 3.87
+  },
+  {
+   "word": "Tu",
+   "start": 4.513,
+   "end": 4.673
+  },
+  {
+   "word": "paniques",
+   "start": 4.673,
+   "end": 5.091
+  },
+  {
+   "word": "en",
+   "start": 5.091,
+   "end": 5.155
+  },
+  {
+   "word": "pensant",
+   "start": 5.155,
+   "end": 5.492
+  },
+  {
+   "word": "avoir",
+   "start": 5.492,
+   "end": 5.637
+  },
+  {
+   "word": "pris",
+   "start": 5.637,
+   "end": 5.878
+  },
+  {
+   "word": "du",
+   "start": 5.878,
+   "end": 5.958
+  },
+  {
+   "word": "gras?",
+   "start": 5.958,
+   "end": 6.167
+  },
+  {
+   "word": "Attends,",
+   "start": 6.858,
+   "end": 7.05
+  },
+  {
+   "word": "parce",
+   "start": 7.564,
+   "end": 7.805
+  },
+  {
+   "word": "que",
+   "start": 7.805,
+   "end": 7.885
+  },
+  {
+   "word": "ce",
+   "start": 7.885,
+   "end": 7.918
+  },
+  {
+   "word": "n'est",
+   "start": 7.918,
+   "end": 8.046
+  },
+  {
+   "word": "pas",
+   "start": 8.046,
+   "end": 8.207
+  },
+  {
+   "word": "forcément",
+   "start": 8.207,
+   "end": 8.528
+  },
+  {
+   "word": "le",
+   "start": 8.528,
+   "end": 8.608
+  },
+  {
+   "word": "cas.",
+   "start": 8.608,
+   "end": 8.737
+  },
+  {
+   "word": "La",
+   "start": 9.572,
+   "end": 9.732
+  },
+  {
+   "word": "créatine",
+   "start": 9.732,
+   "end": 10.214
+  },
+  {
+   "word": "peut",
+   "start": 10.214,
+   "end": 10.375
+  },
+  {
+   "word": "augmenter",
+   "start": 10.391,
+   "end": 10.776
+  },
+  {
+   "word": "ton",
+   "start": 10.857,
+   "end": 11.017
+  },
+  {
+   "word": "poids,",
+   "start": 11.017,
+   "end": 11.258
+  },
+  {
+   "word": "mais",
+   "start": 11.901,
+   "end": 11.981
+  },
+  {
+   "word": "pas",
+   "start": 12.061,
+   "end": 12.142
+  },
+  {
+   "word": "nécessairement",
+   "start": 12.142,
+   "end": 12.784
+  },
+  {
+   "word": "ta",
+   "start": 12.784,
+   "end": 12.896
+  },
+  {
+   "word": "masse",
+   "start": 12.896,
+   "end": 13.105
+  },
+  {
+   "word": "graisseuse.",
+   "start": 13.105,
+   "end": 13.555
+  },
+  {
+   "word": "Pourquoi?",
+   "start": 14.31,
+   "end": 14.76
+  },
+  {
+   "word": "Parce",
+   "start": 15.273,
+   "end": 15.514
+  },
+  {
+   "word": "qu'elle",
+   "start": 15.514,
+   "end": 15.659
+  },
+  {
+   "word": "favorise",
+   "start": 15.675,
+   "end": 16.157
+  },
+  {
+   "word": "notamment",
+   "start": 16.157,
+   "end": 16.639
+  },
+  {
+   "word": "le",
+   "start": 16.639,
+   "end": 16.719
+  },
+  {
+   "word": "stockage",
+   "start": 16.719,
+   "end": 17.281
+  },
+  {
+   "word": "d'eau",
+   "start": 17.281,
+   "end": 17.458
+  },
+  {
+   "word": "à",
+   "start": 17.458,
+   "end": 17.474
+  },
+  {
+   "word": "l'intérieur",
+   "start": 17.474,
+   "end": 18.084
+  },
+  {
+   "word": "des",
+   "start": 18.084,
+   "end": 18.197
+  },
+  {
+   "word": "muscles.",
+   "start": 18.197,
+   "end": 18.598
+  },
+  {
+   "word": "Résultat:",
+   "start": 19.289,
+   "end": 19.738
+  },
+  {
+   "word": "la",
+   "start": 20.333,
+   "end": 20.381
+  },
+  {
+   "word": "balance",
+   "start": 20.493,
+   "end": 20.815
+  },
+  {
+   "word": "peut",
+   "start": 20.815,
+   "end": 20.975
+  },
+  {
+   "word": "afficher",
+   "start": 20.991,
+   "end": 21.377
+  },
+  {
+   "word": "davantage,",
+   "start": 21.377,
+   "end": 21.923
+  },
+  {
+   "word": "alors",
+   "start": 22.437,
+   "end": 22.645
+  },
+  {
+   "word": "que",
+   "start": 22.662,
+   "end": 22.758
+  },
+  {
+   "word": "tu",
+   "start": 22.758,
+   "end": 22.854
+  },
+  {
+   "word": "n'as",
+   "start": 22.854,
+   "end": 22.983
+  },
+  {
+   "word": "pas",
+   "start": 22.983,
+   "end": 23.095
+  },
+  {
+   "word": "pris",
+   "start": 23.095,
+   "end": 23.256
+  },
+  {
+   "word": "de",
+   "start": 23.256,
+   "end": 23.304
+  },
+  {
+   "word": "graisse.",
+   "start": 23.304,
+   "end": 23.593
+  },
+  {
+   "word": "Et",
+   "start": 24.444,
+   "end": 24.525
+  },
+  {
+   "word": "associée",
+   "start": 24.525,
+   "end": 25.006
+  },
+  {
+   "word": "à",
+   "start": 25.006,
+   "end": 25.023
+  },
+  {
+   "word": "un",
+   "start": 25.023,
+   "end": 25.071
+  },
+  {
+   "word": "entraînement",
+   "start": 25.087,
+   "end": 25.472
+  },
+  {
+   "word": "de",
+   "start": 25.472,
+   "end": 25.504
+  },
+  {
+   "word": "musculation,",
+   "start": 25.504,
+   "end": 26.083
+  },
+  {
+   "word": "Elle",
+   "start": 26.693,
+   "end": 26.773
+  },
+  {
+   "word": "peut",
+   "start": 26.838,
+   "end": 26.95
+  },
+  {
+   "word": "aussi",
+   "start": 26.95,
+   "end": 27.159
+  },
+  {
+   "word": "favoriser",
+   "start": 27.159,
+   "end": 27.674
+  },
+  {
+   "word": "le",
+   "start": 27.674,
+   "end": 27.802
+  },
+  {
+   "word": "développement",
+   "start": 27.802,
+   "end": 28.284
+  },
+  {
+   "word": "de",
+   "start": 28.284,
+   "end": 28.333
+  },
+  {
+   "word": "la",
+   "start": 28.365,
+   "end": 28.397
+  },
+  {
+   "word": "masse",
+   "start": 28.397,
+   "end": 28.686
+  },
+  {
+   "word": "musculaire.",
+   "start": 28.686,
+   "end": 29.056
+  },
+  {
+   "word": "Alors",
+   "start": 29.908,
+   "end": 30.084
+  },
+  {
+   "word": "ne",
+   "start": 30.084,
+   "end": 30.213
+  },
+  {
+   "word": "juge",
+   "start": 30.213,
+   "end": 30.358
+  },
+  {
+   "word": "pas",
+   "start": 30.454,
+   "end": 30.615
+  },
+  {
+   "word": "tes",
+   "start": 30.615,
+   "end": 30.695
+  },
+  {
+   "word": "résultats",
+   "start": 30.695,
+   "end": 31.177
+  },
+  {
+   "word": "uniquement",
+   "start": 31.354,
+   "end": 31.836
+  },
+  {
+   "word": "avec",
+   "start": 31.836,
+   "end": 32.013
+  },
+  {
+   "word": "le",
+   "start": 32.013,
+   "end": 32.142
+  },
+  {
+   "word": "chiffre",
+   "start": 32.142,
+   "end": 32.544
+  },
+  {
+   "word": "sur",
+   "start": 32.544,
+   "end": 32.672
+  },
+  {
+   "word": "la",
+   "start": 32.672,
+   "end": 32.785
+  },
+  {
+   "word": "balance!",
+   "start": 32.785,
+   "end": 33.154
+  },
+  {
+   "word": "Regarde",
+   "start": 33.749,
+   "end": 34.006
+  },
+  {
+   "word": "aussi",
+   "start": 34.006,
+   "end": 34.231
+  },
+  {
+   "word": "ta",
+   "start": 34.231,
+   "end": 34.392
+  },
+  {
+   "word": "progression",
+   "start": 34.392,
+   "end": 34.954
+  },
+  {
+   "word": "et",
+   "start": 35.131,
+   "end": 35.195
+  },
+  {
+   "word": "ton",
+   "start": 35.276,
+   "end": 35.437
+  },
+  {
+   "word": "évolution",
+   "start": 35.453,
+   "end": 35.919
+  },
+  {
+   "word": "physique.",
+   "start": 35.919,
+   "end": 36.288
+  },
+  {
+   "word": "Dis-moi",
+   "start": 37.044,
+   "end": 37.301
+  },
+  {
+   "word": "en",
+   "start": 37.301,
+   "end": 37.365
+  },
+  {
+   "word": "commentaire,",
+   "start": 37.365,
+   "end": 37.896
+  },
+  {
+   "word": "tu",
+   "start": 38.249,
+   "end": 38.41
+  },
+  {
+   "word": "pensais",
+   "start": 38.41,
+   "end": 38.651
+  },
+  {
+   "word": "que",
+   "start": 38.651,
+   "end": 38.812
+  },
+  {
+   "word": "la",
+   "start": 38.812,
+   "end": 38.892
+  },
+  {
+   "word": "créatine",
+   "start": 38.892,
+   "end": 39.374
+  },
+  {
+   "word": "faisait",
+   "start": 39.374,
+   "end": 39.648
+  },
+  {
+   "word": "grossir?",
+   "start": 39.648,
+   "end": 40.065
+  },
+  {
+   "word": "Abonne-toi!",
+   "start": 40.676,
+   "end": 41.11
+  },
+  {
+   "word": "Une",
+   "start": 41.721,
+   "end": 41.769
+  },
+  {
+   "word": "nouvelle",
+   "start": 41.785,
+   "end": 42.091
+  },
+  {
+   "word": "vidéo",
+   "start": 42.107,
+   "end": 42.509
+  },
+  {
+   "word": "chaque",
+   "start": 42.509,
+   "end": 42.75
+  },
+  {
+   "word": "jour.",
+   "start": 42.75,
+   "end": 42.878
+  },
+  {
+   "word": "Et",
+   "start": 43.489,
+   "end": 43.553
+  },
+  {
+   "word": "retrouve-nous",
+   "start": 43.553,
+   "end": 44.116
+  },
+  {
+   "word": "sur",
+   "start": 44.116,
+   "end": 44.309
+  },
+  {
+   "word": "kalibody.com.",
+   "start": 44.309,
+   "end": 45.289
+  }
+ ],
+ "text": "Tu commences à prendre de la créatine, tu montes sur la balance, et tu vois 1 kilo de plus? Tu paniques en pensant avoir pris du gras? Attends, parce que ce n'est pas forcément le cas. La créatine peut augmenter ton poids, mais pas nécessairement ta masse graisseuse. Pourquoi? Parce qu'elle favorise notamment le stockage d'eau à l'intérieur des muscles. Résultat: la balance peut afficher davantage, alors que tu n'as pas pris de graisse. Et associée à un entraînement de musculation, Elle peut aussi favoriser le développement de la masse musculaire. Alors ne juge pas tes résultats uniquement avec le chiffre sur la balance! Regarde aussi ta progression et ton évolution physique. Dis-moi en commentaire, tu pensais que la créatine faisait grossir? Abonne-toi! Une nouvelle vidéo chaque jour. Et retrouve-nous sur kalibody.com."
+}

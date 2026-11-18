@@ -150,6 +150,14 @@
   "t'étires": {
    "mode": "glue",
    "auto": true
+  },
+  "qu'elle": {
+   "mode": "glue",
+   "auto": true
+  },
+  "l'intérieur": {
+   "mode": "glue",
+   "auto": true
   }
  }
 }
