@@ -815,5 +815,16 @@
       ]
     },
     "unversioned": []
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "c341ffde-1afb-42e1-b261-83150749989a",
+      "completedAt": 1795086898382,
+      "output": "/home/user/video/shorts/episodes/2026-11-19-pompes/renders/raw.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
