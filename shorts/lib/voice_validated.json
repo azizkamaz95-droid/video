@@ -158,6 +158,18 @@
   "l'intérieur": {
    "mode": "glue",
    "auto": true
+  },
+  "l'essentiel": {
+   "mode": "glue",
+   "auto": true
+  },
+  "l'effort": {
+   "mode": "glue",
+   "auto": true
+  },
+  "l'amplitude": {
+   "mode": "glue",
+   "auto": true
   }
  }
 }

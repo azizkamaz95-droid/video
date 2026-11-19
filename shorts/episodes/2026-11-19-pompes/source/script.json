@@ -1,0 +1,17 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {"id": "s01", "text": "Tu fais 20, 30 ou même 50 pompes parce que tu veux prendre du muscle ?", "pause": 0.5, "say": "Tu fais vingt, trente ou même cinquante pompes parce que tu veux prendre du muscle ?"},
+  {"id": "s02", "text": "Tu penses que plus tu fais de répétitions, plus ton muscle va grossir ?", "pause": 0.5},
+  {"id": "s03", "text": "Attention, tu passes peut-être à côté de l'essentiel !", "pause": 0.6},
+  {"id": "s04", "text": "Ce qui compte, ce n'est pas simplement le nombre de répétitions. C'est aussi l'effort que tu fournis et ta capacité à progresser.", "pause": 0.5},
+  {"id": "s05", "text": "Faire 30 pompes faciles sans jamais augmenter la difficulté, ça ne te fera pas forcément progresser indéfiniment.", "pause": 0.5, "say": "Faire trente pompes faciles sans jamais augmenter la difficulté, ça ne te fera pas forcément progresser indéfiniment."},
+  {"id": "s06", "text": "Alors, quand un exercice devient trop facile, augmente progressivement la difficulté : ralentis le mouvement, améliore l'amplitude ou choisis une variante plus exigeante.", "pause": 0.5},
+  {"id": "s07", "text": "Ton objectif, ce n'est pas de faire toujours plus. C'est de devenir progressivement plus fort.", "pause": 0.5},
+  {"id": "s08", "text": "Et toi, tu préfères faire 50 pompes faciles ou 15 pompes difficiles ?", "pause": 0.35, "say": "Et toi, tu préfères faire cinquante pompes faciles ou quinze pompes difficiles ?"},
+  {"id": "s09", "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !", "pause": 0.3, "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"}
+ ]
+}

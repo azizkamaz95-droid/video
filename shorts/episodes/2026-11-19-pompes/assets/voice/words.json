@@ -1,0 +1,809 @@
+{
+ "duration": 47.629,
+ "words": [
+  {
+   "i": 0,
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.336
+  },
+  {
+   "i": 1,
+   "word": "fais",
+   "start": 0.336,
+   "end": 0.497
+  },
+  {
+   "i": 2,
+   "word": "20,",
+   "start": 0.561,
+   "end": 0.737
+  },
+  {
+   "i": 3,
+   "word": "30",
+   "start": 0.978,
+   "end": 1.395
+  },
+  {
+   "i": 4,
+   "word": "ou",
+   "start": 1.395,
+   "end": 1.459
+  },
+  {
+   "i": 5,
+   "word": "même",
+   "start": 1.459,
+   "end": 1.603
+  },
+  {
+   "i": 6,
+   "word": "50",
+   "start": 1.7,
+   "end": 2.261
+  },
+  {
+   "i": 7,
+   "word": "pompes",
+   "start": 2.261,
+   "end": 2.502
+  },
+  {
+   "i": 8,
+   "word": "parce",
+   "start": 2.502,
+   "end": 2.742
+  },
+  {
+   "i": 9,
+   "word": "que",
+   "start": 2.742,
+   "end": 2.823
+  },
+  {
+   "i": 10,
+   "word": "tu",
+   "start": 2.823,
+   "end": 2.983
+  },
+  {
+   "i": 11,
+   "word": "veux",
+   "start": 2.983,
+   "end": 3.063
+  },
+  {
+   "i": 12,
+   "word": "prendre",
+   "start": 3.143,
+   "end": 3.304
+  },
+  {
+   "i": 13,
+   "word": "du",
+   "start": 3.304,
+   "end": 3.416
+  },
+  {
+   "i": 14,
+   "word": "muscle ?",
+   "start": 3.416,
+   "end": 3.753
+  },
+  {
+   "i": 15,
+   "word": "Tu",
+   "start": 4.426,
+   "end": 4.587
+  },
+  {
+   "i": 16,
+   "word": "penses",
+   "start": 4.587,
+   "end": 4.908
+  },
+  {
+   "i": 17,
+   "word": "que",
+   "start": 4.908,
+   "end": 5.068
+  },
+  {
+   "i": 18,
+   "word": "plus",
+   "start": 5.068,
+   "end": 5.228
+  },
+  {
+   "i": 19,
+   "word": "tu",
+   "start": 5.228,
+   "end": 5.389
+  },
+  {
+   "i": 20,
+   "word": "fais",
+   "start": 5.389,
+   "end": 5.549
+  },
+  {
+   "i": 21,
+   "word": "de",
+   "start": 5.549,
+   "end": 5.581
+  },
+  {
+   "i": 22,
+   "word": "répétitions,",
+   "start": 5.581,
+   "end": 6.159
+  },
+  {
+   "i": 23,
+   "word": "plus",
+   "start": 6.191,
+   "end": 6.351
+  },
+  {
+   "i": 24,
+   "word": "ton",
+   "start": 6.351,
+   "end": 6.464
+  },
+  {
+   "i": 25,
+   "word": "muscle",
+   "start": 6.464,
+   "end": 6.8
+  },
+  {
+   "i": 26,
+   "word": "va",
+   "start": 6.832,
+   "end": 6.993
+  },
+  {
+   "i": 27,
+   "word": "grossir ?",
+   "start": 6.993,
+   "end": 7.362
+  },
+  {
+   "i": 28,
+   "word": "Attention,",
+   "start": 8.051,
+   "end": 8.485
+  },
+  {
+   "i": 29,
+   "word": "tu",
+   "start": 8.998,
+   "end": 9.158
+  },
+  {
+   "i": 30,
+   "word": "passes",
+   "start": 9.158,
+   "end": 9.319
+  },
+  {
+   "i": 31,
+   "word": "peut-être",
+   "start": 9.319,
+   "end": 9.655
+  },
+  {
+   "i": 32,
+   "word": "à",
+   "start": 9.655,
+   "end": 9.72
+  },
+  {
+   "i": 33,
+   "word": "côté",
+   "start": 9.72,
+   "end": 9.992
+  },
+  {
+   "i": 34,
+   "word": "de",
+   "start": 9.992,
+   "end": 10.04
+  },
+  {
+   "i": 35,
+   "word": "l'essentiel !",
+   "start": 10.04,
+   "end": 10.65
+  },
+  {
+   "i": 36,
+   "word": "Ce",
+   "start": 11.404,
+   "end": 11.564
+  },
+  {
+   "i": 37,
+   "word": "qui",
+   "start": 11.564,
+   "end": 11.725
+  },
+  {
+   "i": 38,
+   "word": "compte,",
+   "start": 11.725,
+   "end": 12.013
+  },
+  {
+   "i": 39,
+   "word": "ce",
+   "start": 12.286,
+   "end": 12.382
+  },
+  {
+   "i": 40,
+   "word": "n'est",
+   "start": 12.382,
+   "end": 12.527
+  },
+  {
+   "i": 41,
+   "word": "pas",
+   "start": 12.527,
+   "end": 12.687
+  },
+  {
+   "i": 42,
+   "word": "simplement",
+   "start": 12.687,
+   "end": 13.088
+  },
+  {
+   "i": 43,
+   "word": "le",
+   "start": 13.088,
+   "end": 13.12
+  },
+  {
+   "i": 44,
+   "word": "nombre",
+   "start": 13.12,
+   "end": 13.441
+  },
+  {
+   "i": 45,
+   "word": "de",
+   "start": 13.441,
+   "end": 13.521
+  },
+  {
+   "i": 46,
+   "word": "répétitions.",
+   "start": 13.521,
+   "end": 14.098
+  },
+  {
+   "i": 47,
+   "word": "C'est",
+   "start": 14.692,
+   "end": 14.868
+  },
+  {
+   "i": 48,
+   "word": "aussi",
+   "start": 14.868,
+   "end": 15.093
+  },
+  {
+   "i": 49,
+   "word": "l'effort",
+   "start": 15.109,
+   "end": 15.478
+  },
+  {
+   "i": 50,
+   "word": "que",
+   "start": 15.494,
+   "end": 15.574
+  },
+  {
+   "i": 51,
+   "word": "tu",
+   "start": 15.606,
+   "end": 15.735
+  },
+  {
+   "i": 52,
+   "word": "fournis",
+   "start": 15.735,
+   "end": 16.055
+  },
+  {
+   "i": 53,
+   "word": "et",
+   "start": 16.071,
+   "end": 16.136
+  },
+  {
+   "i": 54,
+   "word": "ta",
+   "start": 16.136,
+   "end": 16.28
+  },
+  {
+   "i": 55,
+   "word": "capacité",
+   "start": 16.28,
+   "end": 16.793
+  },
+  {
+   "i": 56,
+   "word": "à",
+   "start": 16.793,
+   "end": 16.857
+  },
+  {
+   "i": 57,
+   "word": "progresser.",
+   "start": 16.857,
+   "end": 17.306
+  },
+  {
+   "i": 58,
+   "word": "Faire",
+   "start": 17.98,
+   "end": 18.124
+  },
+  {
+   "i": 59,
+   "word": "30",
+   "start": 18.221,
+   "end": 18.413
+  },
+  {
+   "i": 60,
+   "word": "pompes",
+   "start": 18.461,
+   "end": 18.702
+  },
+  {
+   "i": 61,
+   "word": "faciles",
+   "start": 18.702,
+   "end": 19.103
+  },
+  {
+   "i": 62,
+   "word": "sans",
+   "start": 19.103,
+   "end": 19.263
+  },
+  {
+   "i": 63,
+   "word": "jamais",
+   "start": 19.263,
+   "end": 19.536
+  },
+  {
+   "i": 64,
+   "word": "augmenter",
+   "start": 19.536,
+   "end": 19.905
+  },
+  {
+   "i": 65,
+   "word": "la",
+   "start": 19.905,
+   "end": 19.985
+  },
+  {
+   "i": 66,
+   "word": "difficulté,",
+   "start": 19.985,
+   "end": 20.514
+  },
+  {
+   "i": 67,
+   "word": "ça",
+   "start": 21.108,
+   "end": 21.22
+  },
+  {
+   "i": 68,
+   "word": "ne",
+   "start": 21.22,
+   "end": 21.348
+  },
+  {
+   "i": 69,
+   "word": "te",
+   "start": 21.348,
+   "end": 21.429
+  },
+  {
+   "i": 70,
+   "word": "fera",
+   "start": 21.429,
+   "end": 21.669
+  },
+  {
+   "i": 71,
+   "word": "pas",
+   "start": 21.669,
+   "end": 21.749
+  },
+  {
+   "i": 72,
+   "word": "forcément",
+   "start": 21.749,
+   "end": 22.15
+  },
+  {
+   "i": 73,
+   "word": "progresser",
+   "start": 22.15,
+   "end": 22.567
+  },
+  {
+   "i": 74,
+   "word": "indéfiniment.",
+   "start": 22.567,
+   "end": 23.081
+  },
+  {
+   "i": 75,
+   "word": "Alors,",
+   "start": 23.77,
+   "end": 23.963
+  },
+  {
+   "i": 76,
+   "word": "quand",
+   "start": 24.316,
+   "end": 24.396
+  },
+  {
+   "i": 77,
+   "word": "un",
+   "start": 24.492,
+   "end": 24.653
+  },
+  {
+   "i": 78,
+   "word": "exercice",
+   "start": 24.653,
+   "end": 25.118
+  },
+  {
+   "i": 79,
+   "word": "devient",
+   "start": 25.118,
+   "end": 25.358
+  },
+  {
+   "i": 80,
+   "word": "trop",
+   "start": 25.358,
+   "end": 25.599
+  },
+  {
+   "i": 81,
+   "word": "facile,",
+   "start": 25.599,
+   "end": 26.048
+  },
+  {
+   "i": 82,
+   "word": "augmente",
+   "start": 26.176,
+   "end": 26.642
+  },
+  {
+   "i": 83,
+   "word": "progressivement",
+   "start": 26.642,
+   "end": 27.283
+  },
+  {
+   "i": 84,
+   "word": "la",
+   "start": 27.283,
+   "end": 27.363
+  },
+  {
+   "i": 85,
+   "word": "difficulté :",
+   "start": 27.363,
+   "end": 27.893
+  },
+  {
+   "i": 86,
+   "word": "ralentis",
+   "start": 28.487,
+   "end": 28.89
+  },
+  {
+   "i": 87,
+   "word": "le",
+   "start": 28.89,
+   "end": 28.97
+  },
+  {
+   "i": 88,
+   "word": "mouvement,",
+   "start": 28.97,
+   "end": 29.34
+  },
+  {
+   "i": 89,
+   "word": "améliore",
+   "start": 29.791,
+   "end": 30.129
+  },
+  {
+   "i": 90,
+   "word": "l'amplitude",
+   "start": 30.129,
+   "end": 30.837
+  },
+  {
+   "i": 91,
+   "word": "ou",
+   "start": 31.079,
+   "end": 31.095
+  },
+  {
+   "i": 92,
+   "word": "choisis",
+   "start": 31.095,
+   "end": 31.481
+  },
+  {
+   "i": 93,
+   "word": "une",
+   "start": 31.481,
+   "end": 31.546
+  },
+  {
+   "i": 94,
+   "word": "variante",
+   "start": 31.546,
+   "end": 32.029
+  },
+  {
+   "i": 95,
+   "word": "plus",
+   "start": 32.029,
+   "end": 32.206
+  },
+  {
+   "i": 96,
+   "word": "exigeante.",
+   "start": 32.206,
+   "end": 32.721
+  },
+  {
+   "i": 97,
+   "word": "Ton",
+   "start": 33.397,
+   "end": 33.558
+  },
+  {
+   "i": 98,
+   "word": "objectif,",
+   "start": 33.574,
+   "end": 34.154
+  },
+  {
+   "i": 99,
+   "word": "ce",
+   "start": 34.685,
+   "end": 34.717
+  },
+  {
+   "i": 100,
+   "word": "n'est",
+   "start": 34.717,
+   "end": 34.846
+  },
+  {
+   "i": 101,
+   "word": "pas",
+   "start": 34.927,
+   "end": 35.007
+  },
+  {
+   "i": 102,
+   "word": "de",
+   "start": 35.007,
+   "end": 35.088
+  },
+  {
+   "i": 103,
+   "word": "faire",
+   "start": 35.088,
+   "end": 35.249
+  },
+  {
+   "i": 104,
+   "word": "toujours",
+   "start": 35.249,
+   "end": 35.538
+  },
+  {
+   "i": 105,
+   "word": "plus.",
+   "start": 35.571,
+   "end": 35.812
+  },
+  {
+   "i": 106,
+   "word": "C'est",
+   "start": 36.375,
+   "end": 36.536
+  },
+  {
+   "i": 107,
+   "word": "de",
+   "start": 36.536,
+   "end": 36.617
+  },
+  {
+   "i": 108,
+   "word": "devenir",
+   "start": 36.617,
+   "end": 36.923
+  },
+  {
+   "i": 109,
+   "word": "progressivement",
+   "start": 37.019,
+   "end": 37.663
+  },
+  {
+   "i": 110,
+   "word": "plus",
+   "start": 37.744,
+   "end": 37.873
+  },
+  {
+   "i": 111,
+   "word": "fort.",
+   "start": 37.905,
+   "end": 38.114
+  },
+  {
+   "i": 112,
+   "word": "Et",
+   "start": 38.887,
+   "end": 38.951
+  },
+  {
+   "i": 113,
+   "word": "toi,",
+   "start": 39.032,
+   "end": 39.161
+  },
+  {
+   "i": 114,
+   "word": "tu",
+   "start": 39.193,
+   "end": 39.354
+  },
+  {
+   "i": 115,
+   "word": "préfères",
+   "start": 39.354,
+   "end": 39.756
+  },
+  {
+   "i": 116,
+   "word": "faire",
+   "start": 39.756,
+   "end": 39.901
+  },
+  {
+   "i": 117,
+   "word": "50",
+   "start": 39.917,
+   "end": 40.32
+  },
+  {
+   "i": 118,
+   "word": "pompes",
+   "start": 40.32,
+   "end": 40.529
+  },
+  {
+   "i": 119,
+   "word": "faciles",
+   "start": 40.561,
+   "end": 41.109
+  },
+  {
+   "i": 120,
+   "word": "ou",
+   "start": 41.382,
+   "end": 41.447
+  },
+  {
+   "i": 121,
+   "word": "15",
+   "start": 41.527,
+   "end": 41.752
+  },
+  {
+   "i": 122,
+   "word": "pompes",
+   "start": 41.769,
+   "end": 41.946
+  },
+  {
+   "i": 123,
+   "word": "difficiles ?",
+   "start": 42.01,
+   "end": 42.541
+  },
+  {
+   "i": 124,
+   "word": "Abonne-toi,",
+   "start": 43.073,
+   "end": 43.507
+  },
+  {
+   "i": 125,
+   "word": "une",
+   "start": 43.556,
+   "end": 43.62
+  },
+  {
+   "i": 126,
+   "word": "nouvelle",
+   "start": 43.62,
+   "end": 43.894
+  },
+  {
+   "i": 127,
+   "word": "vidéo",
+   "start": 43.894,
+   "end": 44.216
+  },
+  {
+   "i": 128,
+   "word": "chaque",
+   "start": 44.216,
+   "end": 44.505
+  },
+  {
+   "i": 129,
+   "word": "jour.",
+   "start": 44.505,
+   "end": 44.634
+  },
+  {
+   "i": 130,
+   "word": "Et",
+   "start": 45.246,
+   "end": 45.31
+  },
+  {
+   "i": 131,
+   "word": "retrouve-nous",
+   "start": 45.31,
+   "end": 45.761
+  },
+  {
+   "i": 132,
+   "word": "sur",
+   "start": 45.874,
+   "end": 46.083
+  },
+  {
+   "i": 133,
+   "word": "calibodi.com !",
+   "start": 46.083,
+   "end": 46.968
+  }
+ ]
+}
