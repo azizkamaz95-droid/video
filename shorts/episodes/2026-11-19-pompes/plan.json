@@ -1,5 +1,5 @@
 {
- "title": "Creatine",
+ "title": "Pompes",
  "tail": 0.7,
  "bpm": 120,
  "style": "drive",
@@ -8,115 +8,111 @@
  "science_db": -3.0,
  "science": [
   [
-   14.1,
-   24.1
+   11.2,
+   17.7
   ]
  ],
  "hits": [
-  4.67
+  10.04
  ],
  "blocks": [
   {
    "type": "myth",
    "start": 0.0,
-   "end": 9.4
+   "end": 11.2
   },
   {
    "type": "body",
-   "start": 9.4,
-   "end": 24.1
+   "start": 11.2,
+   "end": 33.1
   },
   {
    "type": "outro",
-   "start": 24.1,
-   "end": 46.65
+   "start": 33.1,
+   "end": 48.33
   }
  ],
  "sfx": [
   [
    "stamp",
-   1.09
+   0.56
   ],
   [
    "stamp",
-   3.39
+   2.26
   ],
   [
    "whoosh",
-   4.25
+   4.15
   ],
   [
    "stamp",
-   4.67
+   5.58
+  ],
+  [
+   "whoosh",
+   7.75
+  ],
+  [
+   "stamp",
+   10.04
   ],
   [
    "thump",
-   4.67
+   10.04
   ],
   [
    "whoosh",
-   6.65
-  ],
-  [
-   "whoosh",
-   9.35
+   11.15
   ],
   [
    "stamp",
-   10.86
+   15.11
   ],
   [
    "whoosh",
-   14.05
+   17.65
   ],
   [
    "stamp",
-   16.72
+   18.46
   ],
   [
    "whoosh",
-   18.95
+   23.45
   ],
   [
    "stamp",
-   20.49
+   26.18
   ],
   [
    "whoosh",
-   24.05
+   33.05
   ],
   [
    "stamp",
-   25.5
+   37.74
   ],
   [
    "whoosh",
-   29.45
+   38.55
   ],
   [
    "stamp",
-   34.39
+   39.92
   ],
   [
    "whoosh",
-   36.65
+   42.75
   ],
   [
    "stamp",
-   38.89
-  ],
-  [
-   "whoosh",
-   40.35
-  ],
-  [
-   "stamp",
-   44.31
+   46.08
   ]
  ],
- "music_file": "assets/music/motivation-quotidienne.mp3",
+ "music_file": "assets/music/corporate-motivation.mp3",
  "music_loop": [
   0.0,
-  48.0
+  75.0
  ]
 }
