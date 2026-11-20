@@ -170,6 +170,14 @@
   "l'amplitude": {
    "mode": "glue",
    "auto": true
+  },
+  "t'entraînes": {
+   "mode": "glue",
+   "auto": true
+  },
+  "t'en": {
+   "mode": "glue",
+   "auto": true
   }
  }
 }
