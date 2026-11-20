@@ -1,0 +1,746 @@
+{
+ "duration": 46.373,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.336
+  },
+  {
+   "word": "t'entraînes",
+   "start": 0.336,
+   "end": 0.738
+  },
+  {
+   "word": "dur,",
+   "start": 0.738,
+   "end": 0.93
+  },
+  {
+   "word": "mais",
+   "start": 0.946,
+   "end": 1.139
+  },
+  {
+   "word": "tu",
+   "start": 1.139,
+   "end": 1.251
+  },
+  {
+   "word": "ne",
+   "start": 1.251,
+   "end": 1.38
+  },
+  {
+   "word": "construis",
+   "start": 1.38,
+   "end": 1.701
+  },
+  {
+   "word": "pas",
+   "start": 1.701,
+   "end": 1.813
+  },
+  {
+   "word": "de",
+   "start": 1.813,
+   "end": 1.893
+  },
+  {
+   "word": "muscles?",
+   "start": 1.893,
+   "end": 2.23
+  },
+  {
+   "word": "Tu",
+   "start": 2.904,
+   "end": 2.984
+  },
+  {
+   "word": "fais",
+   "start": 2.984,
+   "end": 3.145
+  },
+  {
+   "word": "tes",
+   "start": 3.225,
+   "end": 3.305
+  },
+  {
+   "word": "séances",
+   "start": 3.305,
+   "end": 3.626
+  },
+  {
+   "word": "sérieusement,",
+   "start": 3.626,
+   "end": 4.156
+  },
+  {
+   "word": "tu",
+   "start": 4.348,
+   "end": 4.429
+  },
+  {
+   "word": "transpires,",
+   "start": 4.429,
+   "end": 4.958
+  },
+  {
+   "word": "tu",
+   "start": 4.99,
+   "end": 5.151
+  },
+  {
+   "word": "donnes",
+   "start": 5.151,
+   "end": 5.311
+  },
+  {
+   "word": "tout,",
+   "start": 5.311,
+   "end": 5.52
+  },
+  {
+   "word": "mais",
+   "start": 5.873,
+   "end": 6.017
+  },
+  {
+   "word": "ton",
+   "start": 6.017,
+   "end": 6.114
+  },
+  {
+   "word": "physique",
+   "start": 6.114,
+   "end": 6.434
+  },
+  {
+   "word": "ne",
+   "start": 6.434,
+   "end": 6.515
+  },
+  {
+   "word": "change",
+   "start": 6.547,
+   "end": 6.707
+  },
+  {
+   "word": "presque",
+   "start": 6.755,
+   "end": 7.076
+  },
+  {
+   "word": "pas?",
+   "start": 7.076,
+   "end": 7.189
+  },
+  {
+   "word": "Et",
+   "start": 7.895,
+   "end": 7.959
+  },
+  {
+   "word": "si",
+   "start": 7.959,
+   "end": 8.071
+  },
+  {
+   "word": "le",
+   "start": 8.071,
+   "end": 8.2
+  },
+  {
+   "word": "problème",
+   "start": 8.2,
+   "end": 8.505
+  },
+  {
+   "word": "ne",
+   "start": 8.521,
+   "end": 8.665
+  },
+  {
+   "word": "venait",
+   "start": 8.665,
+   "end": 8.842
+  },
+  {
+   "word": "pas",
+   "start": 8.842,
+   "end": 9.002
+  },
+  {
+   "word": "de",
+   "start": 9.002,
+   "end": 9.082
+  },
+  {
+   "word": "ton",
+   "start": 9.082,
+   "end": 9.163
+  },
+  {
+   "word": "entraînement?",
+   "start": 9.259,
+   "end": 9.692
+  },
+  {
+   "word": "On",
+   "start": 10.382,
+   "end": 10.446
+  },
+  {
+   "word": "parle",
+   "start": 10.446,
+   "end": 10.687
+  },
+  {
+   "word": "souvent",
+   "start": 10.687,
+   "end": 10.896
+  },
+  {
+   "word": "des",
+   "start": 10.928,
+   "end": 11.104
+  },
+  {
+   "word": "exercices,",
+   "start": 11.104,
+   "end": 11.602
+  },
+  {
+   "word": "des",
+   "start": 11.73,
+   "end": 11.81
+  },
+  {
+   "word": "séries",
+   "start": 11.81,
+   "end": 12.228
+  },
+  {
+   "word": "et",
+   "start": 12.228,
+   "end": 12.292
+  },
+  {
+   "word": "des",
+   "start": 12.292,
+   "end": 12.452
+  },
+  {
+   "word": "répétitions,",
+   "start": 12.452,
+   "end": 13.062
+  },
+  {
+   "word": "mais",
+   "start": 13.656,
+   "end": 13.768
+  },
+  {
+   "word": "on",
+   "start": 13.768,
+   "end": 13.816
+  },
+  {
+   "word": "oublie",
+   "start": 13.832,
+   "end": 14.153
+  },
+  {
+   "word": "un",
+   "start": 14.153,
+   "end": 14.233
+  },
+  {
+   "word": "élément",
+   "start": 14.233,
+   "end": 14.57
+  },
+  {
+   "word": "essentiel:",
+   "start": 14.57,
+   "end": 15.068
+  },
+  {
+   "word": "ce",
+   "start": 15.581,
+   "end": 15.742
+  },
+  {
+   "word": "que",
+   "start": 15.742,
+   "end": 15.822
+  },
+  {
+   "word": "tu",
+   "start": 15.822,
+   "end": 15.983
+  },
+  {
+   "word": "manges",
+   "start": 15.983,
+   "end": 16.255
+  },
+  {
+   "word": "pour",
+   "start": 16.304,
+   "end": 16.448
+  },
+  {
+   "word": "permettre",
+   "start": 16.544,
+   "end": 16.881
+  },
+  {
+   "word": "à",
+   "start": 16.881,
+   "end": 17.026
+  },
+  {
+   "word": "tes",
+   "start": 17.026,
+   "end": 17.106
+  },
+  {
+   "word": "muscles",
+   "start": 17.106,
+   "end": 17.507
+  },
+  {
+   "word": "de",
+   "start": 17.507,
+   "end": 17.587
+  },
+  {
+   "word": "se",
+   "start": 17.587,
+   "end": 17.796
+  },
+  {
+   "word": "développer.",
+   "start": 17.828,
+   "end": 18.197
+  },
+  {
+   "word": "Ton",
+   "start": 18.791,
+   "end": 19.032
+  },
+  {
+   "word": "corps",
+   "start": 19.032,
+   "end": 19.208
+  },
+  {
+   "word": "a",
+   "start": 19.208,
+   "end": 19.353
+  },
+  {
+   "word": "besoin",
+   "start": 19.353,
+   "end": 19.593
+  },
+  {
+   "word": "de",
+   "start": 19.593,
+   "end": 19.674
+  },
+  {
+   "word": "protéines",
+   "start": 19.674,
+   "end": 20.283
+  },
+  {
+   "word": "pour",
+   "start": 20.476,
+   "end": 20.636
+  },
+  {
+   "word": "réparer",
+   "start": 20.636,
+   "end": 21.198
+  },
+  {
+   "word": "et",
+   "start": 21.294,
+   "end": 21.359
+  },
+  {
+   "word": "construire",
+   "start": 21.359,
+   "end": 21.792
+  },
+  {
+   "word": "les",
+   "start": 21.792,
+   "end": 21.92
+  },
+  {
+   "word": "tissus",
+   "start": 21.92,
+   "end": 22.241
+  },
+  {
+   "word": "musculaires",
+   "start": 22.241,
+   "end": 22.739
+  },
+  {
+   "word": "après",
+   "start": 22.739,
+   "end": 22.979
+  },
+  {
+   "word": "l'effort.",
+   "start": 22.979,
+   "end": 23.252
+  },
+  {
+   "word": "Et",
+   "start": 24.022,
+   "end": 24.119
+  },
+  {
+   "word": "non,",
+   "start": 24.119,
+   "end": 24.247
+  },
+  {
+   "word": "tu",
+   "start": 24.728,
+   "end": 24.793
+  },
+  {
+   "word": "n'as",
+   "start": 24.793,
+   "end": 24.969
+  },
+  {
+   "word": "pas",
+   "start": 24.969,
+   "end": 25.049
+  },
+  {
+   "word": "forcément",
+   "start": 25.049,
+   "end": 25.451
+  },
+  {
+   "word": "besoin",
+   "start": 25.531,
+   "end": 25.772
+  },
+  {
+   "word": "de",
+   "start": 25.772,
+   "end": 25.932
+  },
+  {
+   "word": "poudre",
+   "start": 25.932,
+   "end": 26.237
+  },
+  {
+   "word": "ou",
+   "start": 26.269,
+   "end": 26.333
+  },
+  {
+   "word": "de",
+   "start": 26.333,
+   "end": 26.413
+  },
+  {
+   "word": "compléments.",
+   "start": 26.413,
+   "end": 26.863
+  },
+  {
+   "word": "Les",
+   "start": 27.296,
+   "end": 27.376
+  },
+  {
+   "word": "œufs,",
+   "start": 27.553,
+   "end": 27.585
+  },
+  {
+   "word": "le",
+   "start": 27.729,
+   "end": 27.858
+  },
+  {
+   "word": "poisson,",
+   "start": 27.858,
+   "end": 28.307
+  },
+  {
+   "word": "les",
+   "start": 28.419,
+   "end": 28.58
+  },
+  {
+   "word": "produits",
+   "start": 28.58,
+   "end": 28.852
+  },
+  {
+   "word": "laitiers,",
+   "start": 28.852,
+   "end": 29.269
+  },
+  {
+   "word": "les",
+   "start": 29.542,
+   "end": 29.622
+  },
+  {
+   "word": "légumineuses",
+   "start": 29.622,
+   "end": 30.2
+  },
+  {
+   "word": "et",
+   "start": 30.2,
+   "end": 30.264
+  },
+  {
+   "word": "la",
+   "start": 30.264,
+   "end": 30.409
+  },
+  {
+   "word": "viande",
+   "start": 30.409,
+   "end": 30.633
+  },
+  {
+   "word": "peuvent",
+   "start": 30.665,
+   "end": 30.906
+  },
+  {
+   "word": "déjà",
+   "start": 30.906,
+   "end": 31.227
+  },
+  {
+   "word": "t'en",
+   "start": 31.227,
+   "end": 31.371
+  },
+  {
+   "word": "apporter.",
+   "start": 31.403,
+   "end": 31.837
+  },
+  {
+   "word": "Alors,",
+   "start": 32.526,
+   "end": 32.639
+  },
+  {
+   "word": "avant",
+   "start": 33.008,
+   "end": 33.232
+  },
+  {
+   "word": "de",
+   "start": 33.232,
+   "end": 33.313
+  },
+  {
+   "word": "changer",
+   "start": 33.313,
+   "end": 33.633
+  },
+  {
+   "word": "tout",
+   "start": 33.633,
+   "end": 33.714
+  },
+  {
+   "word": "ton",
+   "start": 33.794,
+   "end": 33.874
+  },
+  {
+   "word": "programme,",
+   "start": 33.874,
+   "end": 34.259
+  },
+  {
+   "word": "regarde",
+   "start": 34.355,
+   "end": 34.692
+  },
+  {
+   "word": "aussi",
+   "start": 34.692,
+   "end": 34.997
+  },
+  {
+   "word": "ce",
+   "start": 34.997,
+   "end": 35.158
+  },
+  {
+   "word": "qu'il",
+   "start": 35.158,
+   "end": 35.334
+  },
+  {
+   "word": "y",
+   "start": 35.334,
+   "end": 35.462
+  },
+  {
+   "word": "a",
+   "start": 35.462,
+   "end": 35.479
+  },
+  {
+   "word": "dans",
+   "start": 35.479,
+   "end": 35.559
+  },
+  {
+   "word": "ton",
+   "start": 35.639,
+   "end": 35.799
+  },
+  {
+   "word": "assiette.",
+   "start": 35.815,
+   "end": 36.168
+  },
+  {
+   "word": "Dis-moi",
+   "start": 36.923,
+   "end": 37.227
+  },
+  {
+   "word": "en",
+   "start": 37.227,
+   "end": 37.243
+  },
+  {
+   "word": "commentaire.",
+   "start": 37.324,
+   "end": 37.773
+  },
+  {
+   "word": "Tu",
+   "start": 38.447,
+   "end": 38.607
+  },
+  {
+   "word": "fais",
+   "start": 38.607,
+   "end": 38.784
+  },
+  {
+   "word": "attention",
+   "start": 38.784,
+   "end": 39.185
+  },
+  {
+   "word": "à",
+   "start": 39.185,
+   "end": 39.249
+  },
+  {
+   "word": "tes",
+   "start": 39.249,
+   "end": 39.409
+  },
+  {
+   "word": "protéines?",
+   "start": 39.409,
+   "end": 39.939
+  },
+  {
+   "word": "Ou",
+   "start": 40.308,
+   "end": 40.372
+  },
+  {
+   "word": "tu",
+   "start": 40.372,
+   "end": 40.532
+  },
+  {
+   "word": "manges",
+   "start": 40.532,
+   "end": 40.789
+  },
+  {
+   "word": "au",
+   "start": 40.789,
+   "end": 40.869
+  },
+  {
+   "word": "hasard?",
+   "start": 40.869,
+   "end": 41.142
+  },
+  {
+   "word": "Abonne-toi,",
+   "start": 41.752,
+   "end": 42.185
+  },
+  {
+   "word": "une",
+   "start": 42.233,
+   "end": 42.378
+  },
+  {
+   "word": "nouvelle",
+   "start": 42.378,
+   "end": 42.57
+  },
+  {
+   "word": "vidéo",
+   "start": 42.57,
+   "end": 42.939
+  },
+  {
+   "word": "chaque",
+   "start": 42.939,
+   "end": 43.18
+  },
+  {
+   "word": "jour.",
+   "start": 43.18,
+   "end": 43.308
+  },
+  {
+   "word": "Et",
+   "start": 43.918,
+   "end": 43.998
+  },
+  {
+   "word": "retrouve-nous",
+   "start": 43.998,
+   "end": 44.544
+  },
+  {
+   "word": "sur",
+   "start": 44.544,
+   "end": 44.688
+  },
+  {
+   "word": "kalibody.com.",
+   "start": 44.752,
+   "end": 45.635
+  }
+ ],
+ "text": "Tu t'entraînes dur, mais tu ne construis pas de muscles? Tu fais tes séances sérieusement, tu transpires, tu donnes tout, mais ton physique ne change presque pas? Et si le problème ne venait pas de ton entraînement? On parle souvent des exercices, des séries et des répétitions, mais on oublie un élément essentiel: ce que tu manges pour permettre à tes muscles de se développer. Ton corps a besoin de protéines pour réparer et construire les tissus musculaires après l'effort. Et non, tu n'as pas forcément besoin de poudre ou de compléments. Les œufs, le poisson, les produits laitiers, les légumineuses et la viande peuvent déjà t'en apporter. Alors, avant de changer tout ton programme, regarde aussi ce qu'il y a dans ton assiette. Dis-moi en commentaire. Tu fais attention à tes protéines? Ou tu manges au hasard? Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur kalibody.com."
+}

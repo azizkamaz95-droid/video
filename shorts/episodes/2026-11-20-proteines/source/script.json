@@ -1,0 +1,54 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu t'entraînes dur, mais tu ne construis pas de muscle ?",
+   "pause": 0.5
+  },
+  {
+   "id": "s02",
+   "text": "Tu fais tes séances sérieusement, tu transpires, tu donnes tout… mais ton physique ne change presque pas ?",
+   "pause": 0.5
+  },
+  {
+   "id": "s03",
+   "text": "Et si le problème ne venait pas de ton entraînement ?",
+   "pause": 0.6
+  },
+  {
+   "id": "s04",
+   "text": "On parle souvent des exercices, des séries et des répétitions. Mais on oublie un élément essentiel : ce que tu manges pour permettre à tes muscles de se développer.",
+   "pause": 0.5
+  },
+  {
+   "id": "s05",
+   "text": "Ton corps a besoin de protéines pour réparer et construire les tissus musculaires après l'effort.",
+   "pause": 0.5
+  },
+  {
+   "id": "s06",
+   "text": "Et non, tu n'as pas forcément besoin de poudres ou de compléments : les œufs, le poisson, les produits laitiers, les légumineuses et la viande peuvent déjà t'en apporter.",
+   "pause": 0.5
+  },
+  {
+   "id": "s07",
+   "text": "Alors, avant de changer tout ton programme, regarde aussi ce qu'il y a dans ton assiette.",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Dis-moi en commentaire : tu fais attention à tes protéines ou tu manges au hasard ?",
+   "pause": 0.35
+  },
+  {
+   "id": "s09",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"
+  }
+ ]
+}

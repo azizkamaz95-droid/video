@@ -1,0 +1,59 @@
+{
+ "duration": 46.373,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Tu t'entraînes dur, mais tu ne construis pas de muscle ?",
+   "start": 0.15,
+   "end": 2.349
+  },
+  {
+   "id": "s02",
+   "text": "Tu fais tes séances sérieusement, tu transpires, tu donnes tout… mais ton physique ne change presque pas ?",
+   "start": 2.849,
+   "end": 7.285
+  },
+  {
+   "id": "s03",
+   "text": "Et si le problème ne venait pas de ton entraînement ?",
+   "start": 7.785,
+   "end": 9.774
+  },
+  {
+   "id": "s04",
+   "text": "On parle souvent des exercices, des séries et des répétitions. Mais on oublie un élément essentiel : ce que tu manges pour permettre à tes muscles de se développer.",
+   "start": 10.374,
+   "end": 18.255
+  },
+  {
+   "id": "s05",
+   "text": "Ton corps a besoin de protéines pour réparer et construire les tissus musculaires après l'effort.",
+   "start": 18.755,
+   "end": 23.396
+  },
+  {
+   "id": "s06",
+   "text": "Et non, tu n'as pas forcément besoin de poudres ou de compléments : les œufs, le poisson, les produits laitiers, les légumineuses et la viande peuvent déjà t'en apporter.",
+   "start": 23.896,
+   "end": 31.955
+  },
+  {
+   "id": "s07",
+   "text": "Alors, avant de changer tout ton programme, regarde aussi ce qu'il y a dans ton assiette.",
+   "start": 32.455,
+   "end": 36.302
+  },
+  {
+   "id": "s08",
+   "text": "Dis-moi en commentaire : tu fais attention à tes protéines ou tu manges au hasard ?",
+   "start": 36.802,
+   "end": 41.305
+  },
+  {
+   "id": "s09",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "start": 41.655,
+   "end": 45.773
+  }
+ ]
+}

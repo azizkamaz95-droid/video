@@ -1,0 +1,893 @@
+{
+ "duration": 46.373,
+ "words": [
+  {
+   "i": 0,
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.336
+  },
+  {
+   "i": 1,
+   "word": "t'entraînes",
+   "start": 0.336,
+   "end": 0.738
+  },
+  {
+   "i": 2,
+   "word": "dur,",
+   "start": 0.738,
+   "end": 0.93
+  },
+  {
+   "i": 3,
+   "word": "mais",
+   "start": 0.946,
+   "end": 1.139
+  },
+  {
+   "i": 4,
+   "word": "tu",
+   "start": 1.139,
+   "end": 1.251
+  },
+  {
+   "i": 5,
+   "word": "ne",
+   "start": 1.251,
+   "end": 1.38
+  },
+  {
+   "i": 6,
+   "word": "construis",
+   "start": 1.38,
+   "end": 1.701
+  },
+  {
+   "i": 7,
+   "word": "pas",
+   "start": 1.701,
+   "end": 1.813
+  },
+  {
+   "i": 8,
+   "word": "de",
+   "start": 1.813,
+   "end": 1.893
+  },
+  {
+   "i": 9,
+   "word": "muscle ?",
+   "start": 1.893,
+   "end": 2.23
+  },
+  {
+   "i": 10,
+   "word": "Tu",
+   "start": 2.904,
+   "end": 2.984
+  },
+  {
+   "i": 11,
+   "word": "fais",
+   "start": 2.984,
+   "end": 3.145
+  },
+  {
+   "i": 12,
+   "word": "tes",
+   "start": 3.225,
+   "end": 3.305
+  },
+  {
+   "i": 13,
+   "word": "séances",
+   "start": 3.305,
+   "end": 3.626
+  },
+  {
+   "i": 14,
+   "word": "sérieusement,",
+   "start": 3.626,
+   "end": 4.156
+  },
+  {
+   "i": 15,
+   "word": "tu",
+   "start": 4.348,
+   "end": 4.429
+  },
+  {
+   "i": 16,
+   "word": "transpires,",
+   "start": 4.429,
+   "end": 4.958
+  },
+  {
+   "i": 17,
+   "word": "tu",
+   "start": 4.99,
+   "end": 5.151
+  },
+  {
+   "i": 18,
+   "word": "donnes",
+   "start": 5.151,
+   "end": 5.311
+  },
+  {
+   "i": 19,
+   "word": "tout…",
+   "start": 5.311,
+   "end": 5.52
+  },
+  {
+   "i": 20,
+   "word": "mais",
+   "start": 5.873,
+   "end": 6.017
+  },
+  {
+   "i": 21,
+   "word": "ton",
+   "start": 6.017,
+   "end": 6.114
+  },
+  {
+   "i": 22,
+   "word": "physique",
+   "start": 6.114,
+   "end": 6.434
+  },
+  {
+   "i": 23,
+   "word": "ne",
+   "start": 6.434,
+   "end": 6.515
+  },
+  {
+   "i": 24,
+   "word": "change",
+   "start": 6.547,
+   "end": 6.707
+  },
+  {
+   "i": 25,
+   "word": "presque",
+   "start": 6.755,
+   "end": 7.076
+  },
+  {
+   "i": 26,
+   "word": "pas ?",
+   "start": 7.076,
+   "end": 7.189
+  },
+  {
+   "i": 27,
+   "word": "Et",
+   "start": 7.895,
+   "end": 7.959
+  },
+  {
+   "i": 28,
+   "word": "si",
+   "start": 7.959,
+   "end": 8.071
+  },
+  {
+   "i": 29,
+   "word": "le",
+   "start": 8.071,
+   "end": 8.2
+  },
+  {
+   "i": 30,
+   "word": "problème",
+   "start": 8.2,
+   "end": 8.505
+  },
+  {
+   "i": 31,
+   "word": "ne",
+   "start": 8.521,
+   "end": 8.665
+  },
+  {
+   "i": 32,
+   "word": "venait",
+   "start": 8.665,
+   "end": 8.842
+  },
+  {
+   "i": 33,
+   "word": "pas",
+   "start": 8.842,
+   "end": 9.002
+  },
+  {
+   "i": 34,
+   "word": "de",
+   "start": 9.002,
+   "end": 9.082
+  },
+  {
+   "i": 35,
+   "word": "ton",
+   "start": 9.082,
+   "end": 9.163
+  },
+  {
+   "i": 36,
+   "word": "entraînement ?",
+   "start": 9.259,
+   "end": 9.692
+  },
+  {
+   "i": 37,
+   "word": "On",
+   "start": 10.382,
+   "end": 10.446
+  },
+  {
+   "i": 38,
+   "word": "parle",
+   "start": 10.446,
+   "end": 10.687
+  },
+  {
+   "i": 39,
+   "word": "souvent",
+   "start": 10.687,
+   "end": 10.896
+  },
+  {
+   "i": 40,
+   "word": "des",
+   "start": 10.928,
+   "end": 11.104
+  },
+  {
+   "i": 41,
+   "word": "exercices,",
+   "start": 11.104,
+   "end": 11.602
+  },
+  {
+   "i": 42,
+   "word": "des",
+   "start": 11.73,
+   "end": 11.81
+  },
+  {
+   "i": 43,
+   "word": "séries",
+   "start": 11.81,
+   "end": 12.228
+  },
+  {
+   "i": 44,
+   "word": "et",
+   "start": 12.228,
+   "end": 12.292
+  },
+  {
+   "i": 45,
+   "word": "des",
+   "start": 12.292,
+   "end": 12.452
+  },
+  {
+   "i": 46,
+   "word": "répétitions.",
+   "start": 12.452,
+   "end": 13.062
+  },
+  {
+   "i": 47,
+   "word": "Mais",
+   "start": 13.656,
+   "end": 13.768
+  },
+  {
+   "i": 48,
+   "word": "on",
+   "start": 13.768,
+   "end": 13.816
+  },
+  {
+   "i": 49,
+   "word": "oublie",
+   "start": 13.832,
+   "end": 14.153
+  },
+  {
+   "i": 50,
+   "word": "un",
+   "start": 14.153,
+   "end": 14.233
+  },
+  {
+   "i": 51,
+   "word": "élément",
+   "start": 14.233,
+   "end": 14.57
+  },
+  {
+   "i": 52,
+   "word": "essentiel :",
+   "start": 14.57,
+   "end": 15.068
+  },
+  {
+   "i": 53,
+   "word": "ce",
+   "start": 15.581,
+   "end": 15.742
+  },
+  {
+   "i": 54,
+   "word": "que",
+   "start": 15.742,
+   "end": 15.822
+  },
+  {
+   "i": 55,
+   "word": "tu",
+   "start": 15.822,
+   "end": 15.983
+  },
+  {
+   "i": 56,
+   "word": "manges",
+   "start": 15.983,
+   "end": 16.255
+  },
+  {
+   "i": 57,
+   "word": "pour",
+   "start": 16.304,
+   "end": 16.448
+  },
+  {
+   "i": 58,
+   "word": "permettre",
+   "start": 16.544,
+   "end": 16.881
+  },
+  {
+   "i": 59,
+   "word": "à",
+   "start": 16.881,
+   "end": 17.026
+  },
+  {
+   "i": 60,
+   "word": "tes",
+   "start": 17.026,
+   "end": 17.106
+  },
+  {
+   "i": 61,
+   "word": "muscles",
+   "start": 17.106,
+   "end": 17.507
+  },
+  {
+   "i": 62,
+   "word": "de",
+   "start": 17.507,
+   "end": 17.587
+  },
+  {
+   "i": 63,
+   "word": "se",
+   "start": 17.587,
+   "end": 17.796
+  },
+  {
+   "i": 64,
+   "word": "développer.",
+   "start": 17.828,
+   "end": 18.197
+  },
+  {
+   "i": 65,
+   "word": "Ton",
+   "start": 18.791,
+   "end": 19.032
+  },
+  {
+   "i": 66,
+   "word": "corps",
+   "start": 19.032,
+   "end": 19.208
+  },
+  {
+   "i": 67,
+   "word": "a",
+   "start": 19.208,
+   "end": 19.353
+  },
+  {
+   "i": 68,
+   "word": "besoin",
+   "start": 19.353,
+   "end": 19.593
+  },
+  {
+   "i": 69,
+   "word": "de",
+   "start": 19.593,
+   "end": 19.674
+  },
+  {
+   "i": 70,
+   "word": "protéines",
+   "start": 19.674,
+   "end": 20.283
+  },
+  {
+   "i": 71,
+   "word": "pour",
+   "start": 20.476,
+   "end": 20.636
+  },
+  {
+   "i": 72,
+   "word": "réparer",
+   "start": 20.636,
+   "end": 21.198
+  },
+  {
+   "i": 73,
+   "word": "et",
+   "start": 21.294,
+   "end": 21.359
+  },
+  {
+   "i": 74,
+   "word": "construire",
+   "start": 21.359,
+   "end": 21.792
+  },
+  {
+   "i": 75,
+   "word": "les",
+   "start": 21.792,
+   "end": 21.92
+  },
+  {
+   "i": 76,
+   "word": "tissus",
+   "start": 21.92,
+   "end": 22.241
+  },
+  {
+   "i": 77,
+   "word": "musculaires",
+   "start": 22.241,
+   "end": 22.739
+  },
+  {
+   "i": 78,
+   "word": "après",
+   "start": 22.739,
+   "end": 22.979
+  },
+  {
+   "i": 79,
+   "word": "l'effort.",
+   "start": 22.979,
+   "end": 23.252
+  },
+  {
+   "i": 80,
+   "word": "Et",
+   "start": 24.022,
+   "end": 24.119
+  },
+  {
+   "i": 81,
+   "word": "non,",
+   "start": 24.119,
+   "end": 24.247
+  },
+  {
+   "i": 82,
+   "word": "tu",
+   "start": 24.728,
+   "end": 24.793
+  },
+  {
+   "i": 83,
+   "word": "n'as",
+   "start": 24.793,
+   "end": 24.969
+  },
+  {
+   "i": 84,
+   "word": "pas",
+   "start": 24.969,
+   "end": 25.049
+  },
+  {
+   "i": 85,
+   "word": "forcément",
+   "start": 25.049,
+   "end": 25.451
+  },
+  {
+   "i": 86,
+   "word": "besoin",
+   "start": 25.531,
+   "end": 25.772
+  },
+  {
+   "i": 87,
+   "word": "de",
+   "start": 25.772,
+   "end": 25.932
+  },
+  {
+   "i": 88,
+   "word": "poudres",
+   "start": 25.932,
+   "end": 26.237
+  },
+  {
+   "i": 89,
+   "word": "ou",
+   "start": 26.269,
+   "end": 26.333
+  },
+  {
+   "i": 90,
+   "word": "de",
+   "start": 26.333,
+   "end": 26.413
+  },
+  {
+   "i": 91,
+   "word": "compléments :",
+   "start": 26.413,
+   "end": 26.863
+  },
+  {
+   "i": 92,
+   "word": "les",
+   "start": 27.296,
+   "end": 27.376
+  },
+  {
+   "i": 93,
+   "word": "œufs,",
+   "start": 27.553,
+   "end": 27.585
+  },
+  {
+   "i": 94,
+   "word": "le",
+   "start": 27.729,
+   "end": 27.858
+  },
+  {
+   "i": 95,
+   "word": "poisson,",
+   "start": 27.858,
+   "end": 28.307
+  },
+  {
+   "i": 96,
+   "word": "les",
+   "start": 28.419,
+   "end": 28.58
+  },
+  {
+   "i": 97,
+   "word": "produits",
+   "start": 28.58,
+   "end": 28.852
+  },
+  {
+   "i": 98,
+   "word": "laitiers,",
+   "start": 28.852,
+   "end": 29.269
+  },
+  {
+   "i": 99,
+   "word": "les",
+   "start": 29.542,
+   "end": 29.622
+  },
+  {
+   "i": 100,
+   "word": "légumineuses",
+   "start": 29.622,
+   "end": 30.2
+  },
+  {
+   "i": 101,
+   "word": "et",
+   "start": 30.2,
+   "end": 30.264
+  },
+  {
+   "i": 102,
+   "word": "la",
+   "start": 30.264,
+   "end": 30.409
+  },
+  {
+   "i": 103,
+   "word": "viande",
+   "start": 30.409,
+   "end": 30.633
+  },
+  {
+   "i": 104,
+   "word": "peuvent",
+   "start": 30.665,
+   "end": 30.906
+  },
+  {
+   "i": 105,
+   "word": "déjà",
+   "start": 30.906,
+   "end": 31.227
+  },
+  {
+   "i": 106,
+   "word": "t'en",
+   "start": 31.227,
+   "end": 31.371
+  },
+  {
+   "i": 107,
+   "word": "apporter.",
+   "start": 31.403,
+   "end": 31.837
+  },
+  {
+   "i": 108,
+   "word": "Alors,",
+   "start": 32.526,
+   "end": 32.639
+  },
+  {
+   "i": 109,
+   "word": "avant",
+   "start": 33.008,
+   "end": 33.232
+  },
+  {
+   "i": 110,
+   "word": "de",
+   "start": 33.232,
+   "end": 33.313
+  },
+  {
+   "i": 111,
+   "word": "changer",
+   "start": 33.313,
+   "end": 33.633
+  },
+  {
+   "i": 112,
+   "word": "tout",
+   "start": 33.633,
+   "end": 33.714
+  },
+  {
+   "i": 113,
+   "word": "ton",
+   "start": 33.794,
+   "end": 33.874
+  },
+  {
+   "i": 114,
+   "word": "programme,",
+   "start": 33.874,
+   "end": 34.259
+  },
+  {
+   "i": 115,
+   "word": "regarde",
+   "start": 34.355,
+   "end": 34.692
+  },
+  {
+   "i": 116,
+   "word": "aussi",
+   "start": 34.692,
+   "end": 34.997
+  },
+  {
+   "i": 117,
+   "word": "ce",
+   "start": 34.997,
+   "end": 35.158
+  },
+  {
+   "i": 118,
+   "word": "qu'il",
+   "start": 35.158,
+   "end": 35.334
+  },
+  {
+   "i": 119,
+   "word": "y",
+   "start": 35.334,
+   "end": 35.462
+  },
+  {
+   "i": 120,
+   "word": "a",
+   "start": 35.462,
+   "end": 35.479
+  },
+  {
+   "i": 121,
+   "word": "dans",
+   "start": 35.479,
+   "end": 35.559
+  },
+  {
+   "i": 122,
+   "word": "ton",
+   "start": 35.639,
+   "end": 35.799
+  },
+  {
+   "i": 123,
+   "word": "assiette.",
+   "start": 35.815,
+   "end": 36.168
+  },
+  {
+   "i": 124,
+   "word": "Dis-moi",
+   "start": 36.923,
+   "end": 37.227
+  },
+  {
+   "i": 125,
+   "word": "en",
+   "start": 37.227,
+   "end": 37.243
+  },
+  {
+   "i": 126,
+   "word": "commentaire :",
+   "start": 37.324,
+   "end": 37.773
+  },
+  {
+   "i": 127,
+   "word": "tu",
+   "start": 38.447,
+   "end": 38.607
+  },
+  {
+   "i": 128,
+   "word": "fais",
+   "start": 38.607,
+   "end": 38.784
+  },
+  {
+   "i": 129,
+   "word": "attention",
+   "start": 38.784,
+   "end": 39.185
+  },
+  {
+   "i": 130,
+   "word": "à",
+   "start": 39.185,
+   "end": 39.249
+  },
+  {
+   "i": 131,
+   "word": "tes",
+   "start": 39.249,
+   "end": 39.409
+  },
+  {
+   "i": 132,
+   "word": "protéines",
+   "start": 39.409,
+   "end": 39.939
+  },
+  {
+   "i": 133,
+   "word": "ou",
+   "start": 40.308,
+   "end": 40.372
+  },
+  {
+   "i": 134,
+   "word": "tu",
+   "start": 40.372,
+   "end": 40.532
+  },
+  {
+   "i": 135,
+   "word": "manges",
+   "start": 40.532,
+   "end": 40.789
+  },
+  {
+   "i": 136,
+   "word": "au",
+   "start": 40.789,
+   "end": 40.869
+  },
+  {
+   "i": 137,
+   "word": "hasard ?",
+   "start": 40.869,
+   "end": 41.142
+  },
+  {
+   "i": 138,
+   "word": "Abonne-toi,",
+   "start": 41.752,
+   "end": 42.185
+  },
+  {
+   "i": 139,
+   "word": "une",
+   "start": 42.233,
+   "end": 42.378
+  },
+  {
+   "i": 140,
+   "word": "nouvelle",
+   "start": 42.378,
+   "end": 42.57
+  },
+  {
+   "i": 141,
+   "word": "vidéo",
+   "start": 42.57,
+   "end": 42.939
+  },
+  {
+   "i": 142,
+   "word": "chaque",
+   "start": 42.939,
+   "end": 43.18
+  },
+  {
+   "i": 143,
+   "word": "jour.",
+   "start": 43.18,
+   "end": 43.308
+  },
+  {
+   "i": 144,
+   "word": "Et",
+   "start": 43.918,
+   "end": 43.998
+  },
+  {
+   "i": 145,
+   "word": "retrouve-nous",
+   "start": 43.998,
+   "end": 44.544
+  },
+  {
+   "i": 146,
+   "word": "sur",
+   "start": 44.544,
+   "end": 44.688
+  },
+  {
+   "i": 147,
+   "word": "calibodi.com !",
+   "start": 44.752,
+   "end": 45.635
+  }
+ ]
+}
