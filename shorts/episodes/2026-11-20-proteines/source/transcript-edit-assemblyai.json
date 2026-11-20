@@ -1,746 +1,751 @@
 {
- "duration": 46.373,
+ "duration": 46.955,
  "words": [
   {
    "word": "Tu",
    "start": 0.176,
-   "end": 0.336
+   "end": 0.337
   },
   {
    "word": "t'entraînes",
-   "start": 0.336,
+   "start": 0.337,
    "end": 0.738
   },
   {
    "word": "dur,",
    "start": 0.738,
-   "end": 0.93
+   "end": 0.931
   },
   {
    "word": "mais",
-   "start": 0.946,
-   "end": 1.139
+   "start": 0.947,
+   "end": 1.14
   },
   {
    "word": "tu",
-   "start": 1.139,
-   "end": 1.251
+   "start": 1.14,
+   "end": 1.252
   },
   {
    "word": "ne",
-   "start": 1.251,
-   "end": 1.38
+   "start": 1.252,
+   "end": 1.381
   },
   {
    "word": "construis",
-   "start": 1.38,
-   "end": 1.701
+   "start": 1.381,
+   "end": 1.702
   },
   {
    "word": "pas",
-   "start": 1.701,
-   "end": 1.813
+   "start": 1.702,
+   "end": 1.815
   },
   {
    "word": "de",
-   "start": 1.813,
-   "end": 1.893
+   "start": 1.815,
+   "end": 1.895
   },
   {
    "word": "muscles?",
-   "start": 1.893,
-   "end": 2.23
+   "start": 1.895,
+   "end": 2.232
   },
   {
    "word": "Tu",
-   "start": 2.904,
-   "end": 2.984
+   "start": 2.907,
+   "end": 2.987
   },
   {
    "word": "fais",
-   "start": 2.984,
-   "end": 3.145
+   "start": 2.987,
+   "end": 3.148
   },
   {
    "word": "tes",
-   "start": 3.225,
-   "end": 3.305
+   "start": 3.228,
+   "end": 3.309
   },
   {
    "word": "séances",
-   "start": 3.305,
-   "end": 3.626
+   "start": 3.309,
+   "end": 3.63
   },
   {
    "word": "sérieusement,",
-   "start": 3.626,
-   "end": 4.156
+   "start": 3.63,
+   "end": 4.16
   },
   {
    "word": "tu",
-   "start": 4.348,
-   "end": 4.429
+   "start": 4.353,
+   "end": 4.433
   },
   {
    "word": "transpires,",
-   "start": 4.429,
-   "end": 4.958
+   "start": 4.433,
+   "end": 4.963
   },
   {
    "word": "tu",
-   "start": 4.99,
-   "end": 5.151
+   "start": 4.995,
+   "end": 5.156
   },
   {
    "word": "donnes",
-   "start": 5.151,
-   "end": 5.311
+   "start": 5.156,
+   "end": 5.316
   },
   {
    "word": "tout,",
-   "start": 5.311,
-   "end": 5.52
+   "start": 5.316,
+   "end": 5.525
   },
   {
    "word": "mais",
-   "start": 5.873,
-   "end": 6.017
+   "start": 5.879,
+   "end": 6.023
   },
   {
    "word": "ton",
-   "start": 6.017,
-   "end": 6.114
+   "start": 6.023,
+   "end": 6.12
   },
   {
    "word": "physique",
-   "start": 6.114,
-   "end": 6.434
+   "start": 6.12,
+   "end": 6.441
   },
   {
    "word": "ne",
-   "start": 6.434,
-   "end": 6.515
+   "start": 6.441,
+   "end": 6.521
   },
   {
    "word": "change",
-   "start": 6.547,
-   "end": 6.707
+   "start": 6.553,
+   "end": 6.714
   },
   {
    "word": "presque",
-   "start": 6.755,
-   "end": 7.076
+   "start": 6.762,
+   "end": 7.083
   },
   {
    "word": "pas?",
-   "start": 7.076,
-   "end": 7.189
+   "start": 7.083,
+   "end": 7.196
   },
   {
    "word": "Et",
-   "start": 7.895,
-   "end": 7.959
+   "start": 7.903,
+   "end": 7.967
   },
   {
    "word": "si",
-   "start": 7.959,
-   "end": 8.071
+   "start": 7.967,
+   "end": 8.079
   },
   {
    "word": "le",
-   "start": 8.071,
-   "end": 8.2
+   "start": 8.079,
+   "end": 8.208
   },
   {
    "word": "problème",
-   "start": 8.2,
-   "end": 8.505
+   "start": 8.208,
+   "end": 8.513
   },
   {
    "word": "ne",
-   "start": 8.521,
-   "end": 8.665
+   "start": 8.529,
+   "end": 8.674
   },
   {
    "word": "venait",
-   "start": 8.665,
-   "end": 8.842
+   "start": 8.674,
+   "end": 8.85
   },
   {
    "word": "pas",
-   "start": 8.842,
-   "end": 9.002
+   "start": 8.85,
+   "end": 9.011
   },
   {
    "word": "de",
-   "start": 9.002,
-   "end": 9.082
+   "start": 9.011,
+   "end": 9.091
   },
   {
    "word": "ton",
-   "start": 9.082,
-   "end": 9.163
+   "start": 9.091,
+   "end": 9.172
   },
   {
    "word": "entraînement?",
-   "start": 9.259,
-   "end": 9.692
+   "start": 9.268,
+   "end": 9.702
   },
   {
    "word": "On",
-   "start": 10.382,
-   "end": 10.446
+   "start": 10.393,
+   "end": 10.457
   },
   {
    "word": "parle",
-   "start": 10.446,
-   "end": 10.687
+   "start": 10.457,
+   "end": 10.698
   },
   {
    "word": "souvent",
-   "start": 10.687,
-   "end": 10.896
+   "start": 10.698,
+   "end": 10.907
   },
   {
    "word": "des",
-   "start": 10.928,
-   "end": 11.104
+   "start": 10.939,
+   "end": 11.115
   },
   {
    "word": "exercices,",
-   "start": 11.104,
-   "end": 11.602
+   "start": 11.115,
+   "end": 11.613
   },
   {
    "word": "des",
-   "start": 11.73,
-   "end": 11.81
+   "start": 11.742,
+   "end": 11.822
   },
   {
    "word": "séries",
-   "start": 11.81,
-   "end": 12.228
+   "start": 11.822,
+   "end": 12.24
   },
   {
    "word": "et",
-   "start": 12.228,
-   "end": 12.292
+   "start": 12.24,
+   "end": 12.304
   },
   {
    "word": "des",
-   "start": 12.292,
-   "end": 12.452
+   "start": 12.304,
+   "end": 12.465
   },
   {
    "word": "répétitions,",
-   "start": 12.452,
-   "end": 13.062
+   "start": 12.465,
+   "end": 13.075
   },
   {
    "word": "mais",
-   "start": 13.656,
-   "end": 13.768
+   "start": 13.669,
+   "end": 13.782
   },
   {
    "word": "on",
-   "start": 13.768,
-   "end": 13.816
+   "start": 13.782,
+   "end": 13.83
   },
   {
    "word": "oublie",
-   "start": 13.832,
-   "end": 14.153
+   "start": 13.846,
+   "end": 14.167
   },
   {
    "word": "un",
-   "start": 14.153,
-   "end": 14.233
+   "start": 14.167,
+   "end": 14.248
   },
   {
    "word": "élément",
-   "start": 14.233,
-   "end": 14.57
+   "start": 14.248,
+   "end": 14.585
   },
   {
    "word": "essentiel:",
-   "start": 14.57,
-   "end": 15.068
+   "start": 14.585,
+   "end": 15.083
   },
   {
    "word": "ce",
-   "start": 15.581,
-   "end": 15.742
+   "start": 15.597,
+   "end": 15.758
   },
   {
    "word": "que",
-   "start": 15.742,
-   "end": 15.822
+   "start": 15.758,
+   "end": 15.838
   },
   {
    "word": "tu",
-   "start": 15.822,
-   "end": 15.983
+   "start": 15.838,
+   "end": 15.999
   },
   {
    "word": "manges",
-   "start": 15.983,
-   "end": 16.255
+   "start": 15.999,
+   "end": 16.272
   },
   {
    "word": "pour",
-   "start": 16.304,
-   "end": 16.448
+   "start": 16.32,
+   "end": 16.464
   },
   {
    "word": "permettre",
-   "start": 16.544,
-   "end": 16.881
+   "start": 16.561,
+   "end": 16.898
   },
   {
    "word": "à",
-   "start": 16.881,
-   "end": 17.026
+   "start": 16.898,
+   "end": 17.043
   },
   {
    "word": "tes",
-   "start": 17.026,
-   "end": 17.106
+   "start": 17.043,
+   "end": 17.123
   },
   {
    "word": "muscles",
-   "start": 17.106,
-   "end": 17.507
+   "start": 17.123,
+   "end": 17.525
   },
   {
    "word": "de",
-   "start": 17.507,
-   "end": 17.587
+   "start": 17.525,
+   "end": 17.605
   },
   {
    "word": "se",
-   "start": 17.587,
-   "end": 17.796
+   "start": 17.605,
+   "end": 17.814
   },
   {
    "word": "développer.",
-   "start": 17.828,
-   "end": 18.197
+   "start": 17.846,
+   "end": 18.215
   },
   {
    "word": "Ton",
-   "start": 18.791,
-   "end": 19.032
+   "start": 18.81,
+   "end": 19.051
   },
   {
    "word": "corps",
-   "start": 19.032,
-   "end": 19.208
+   "start": 19.051,
+   "end": 19.308
   },
   {
    "word": "a",
-   "start": 19.208,
-   "end": 19.353
+   "start": 19.308,
+   "end": 19.372
   },
   {
    "word": "besoin",
-   "start": 19.353,
-   "end": 19.593
+   "start": 19.372,
+   "end": 19.645
   },
   {
    "word": "de",
-   "start": 19.593,
-   "end": 19.674
+   "start": 19.645,
+   "end": 19.774
   },
   {
    "word": "protéines",
-   "start": 19.674,
-   "end": 20.283
+   "start": 19.774,
+   "end": 20.255
   },
   {
    "word": "pour",
-   "start": 20.476,
-   "end": 20.636
+   "start": 20.255,
+   "end": 20.448
   },
   {
    "word": "réparer",
-   "start": 20.636,
-   "end": 21.198
+   "start": 20.448,
+   "end": 20.898
   },
   {
    "word": "et",
-   "start": 21.294,
-   "end": 21.359
+   "start": 20.994,
+   "end": 21.059
   },
   {
    "word": "construire",
-   "start": 21.359,
-   "end": 21.792
+   "start": 21.059,
+   "end": 21.492
   },
   {
    "word": "les",
-   "start": 21.792,
-   "end": 21.92
+   "start": 21.492,
+   "end": 21.621
   },
   {
    "word": "tissus",
-   "start": 21.92,
-   "end": 22.241
+   "start": 21.621,
+   "end": 21.942
   },
   {
    "word": "musculaires",
-   "start": 22.241,
-   "end": 22.739
+   "start": 21.942,
+   "end": 22.44
   },
   {
    "word": "après",
-   "start": 22.739,
-   "end": 22.979
+   "start": 22.44,
+   "end": 22.649
   },
   {
    "word": "l'effort.",
-   "start": 22.979,
-   "end": 23.252
+   "start": 22.649,
+   "end": 22.954
   },
   {
    "word": "Et",
-   "start": 24.022,
-   "end": 24.119
+   "start": 23.725,
+   "end": 23.741
   },
   {
    "word": "non,",
-   "start": 24.119,
-   "end": 24.247
+   "start": 23.741,
+   "end": 23.998
   },
   {
    "word": "tu",
-   "start": 24.728,
-   "end": 24.793
+   "start": 24.432,
+   "end": 24.544
   },
   {
    "word": "n'as",
-   "start": 24.793,
-   "end": 24.969
+   "start": 24.544,
+   "end": 24.673
   },
   {
    "word": "pas",
-   "start": 24.969,
-   "end": 25.049
+   "start": 24.673,
+   "end": 24.834
   },
   {
    "word": "forcément",
-   "start": 25.049,
-   "end": 25.451
+   "start": 24.834,
+   "end": 25.235
   },
   {
    "word": "besoin",
-   "start": 25.531,
-   "end": 25.772
+   "start": 25.235,
+   "end": 25.508
   },
   {
    "word": "de",
-   "start": 25.772,
-   "end": 25.932
+   "start": 25.508,
+   "end": 25.637
   },
   {
    "word": "poudre",
-   "start": 25.932,
-   "end": 26.237
+   "start": 25.637,
+   "end": 26.054
   },
   {
    "word": "ou",
-   "start": 26.269,
-   "end": 26.333
+   "start": 26.054,
+   "end": 26.103
   },
   {
    "word": "de",
-   "start": 26.333,
-   "end": 26.413
+   "start": 26.103,
+   "end": 26.279
   },
   {
    "word": "compléments.",
-   "start": 26.413,
-   "end": 26.863
+   "start": 26.279,
+   "end": 26.729
   },
   {
    "word": "Les",
-   "start": 27.296,
-   "end": 27.376
+   "start": 27.323,
+   "end": 27.436
   },
   {
    "word": "œufs,",
-   "start": 27.553,
-   "end": 27.585
+   "start": 27.436,
+   "end": 27.452
   },
   {
    "word": "le",
-   "start": 27.729,
-   "end": 27.858
+   "start": 27.516,
+   "end": 27.645
+  },
+  {
+   "word": "Le",
+   "start": 27.886,
+   "end": 28.046
   },
   {
    "word": "poisson,",
-   "start": 27.858,
-   "end": 28.307
+   "start": 28.046,
+   "end": 28.447
   },
   {
    "word": "les",
-   "start": 28.419,
-   "end": 28.58
+   "start": 28.768,
+   "end": 28.848
   },
   {
    "word": "produits",
-   "start": 28.58,
-   "end": 28.852
+   "start": 28.848,
+   "end": 29.169
   },
   {
    "word": "laitiers,",
-   "start": 28.852,
-   "end": 29.269
+   "start": 29.169,
+   "end": 29.537
   },
   {
    "word": "les",
-   "start": 29.542,
-   "end": 29.622
+   "start": 29.97,
+   "end": 30.051
   },
   {
    "word": "légumineuses",
-   "start": 29.622,
-   "end": 30.2
+   "start": 30.051,
+   "end": 30.628
   },
   {
    "word": "et",
-   "start": 30.2,
-   "end": 30.264
+   "start": 30.628,
+   "end": 30.692
   },
   {
    "word": "la",
-   "start": 30.264,
-   "end": 30.409
+   "start": 30.692,
+   "end": 30.853
   },
   {
    "word": "viande",
-   "start": 30.409,
-   "end": 30.633
+   "start": 30.853,
+   "end": 31.253
   },
   {
    "word": "peuvent",
-   "start": 30.665,
-   "end": 30.906
+   "start": 31.253,
+   "end": 31.414
   },
   {
    "word": "déjà",
-   "start": 30.906,
-   "end": 31.227
+   "start": 31.414,
+   "end": 31.815
   },
   {
    "word": "t'en",
-   "start": 31.227,
-   "end": 31.371
+   "start": 31.815,
+   "end": 31.991
   },
   {
    "word": "apporter.",
-   "start": 31.403,
-   "end": 31.837
+   "start": 31.991,
+   "end": 32.344
   },
   {
    "word": "Alors,",
-   "start": 32.526,
-   "end": 32.639
+   "start": 33.114,
+   "end": 33.226
   },
   {
    "word": "avant",
-   "start": 33.008,
-   "end": 33.232
+   "start": 33.595,
+   "end": 33.82
   },
   {
    "word": "de",
-   "start": 33.232,
-   "end": 33.313
+   "start": 33.82,
+   "end": 33.9
   },
   {
    "word": "changer",
-   "start": 33.313,
-   "end": 33.633
+   "start": 33.9,
+   "end": 34.22
   },
   {
    "word": "tout",
-   "start": 33.633,
-   "end": 33.714
+   "start": 34.22,
+   "end": 34.301
   },
   {
    "word": "ton",
-   "start": 33.794,
-   "end": 33.874
+   "start": 34.301,
+   "end": 34.461
   },
   {
    "word": "programme,",
-   "start": 33.874,
-   "end": 34.259
+   "start": 34.461,
+   "end": 34.846
   },
   {
    "word": "regarde",
-   "start": 34.355,
-   "end": 34.692
+   "start": 34.942,
+   "end": 35.279
   },
   {
    "word": "aussi",
-   "start": 34.692,
-   "end": 34.997
+   "start": 35.279,
+   "end": 35.584
   },
   {
    "word": "ce",
-   "start": 34.997,
-   "end": 35.158
+   "start": 35.584,
+   "end": 35.744
   },
   {
    "word": "qu'il",
-   "start": 35.158,
-   "end": 35.334
+   "start": 35.744,
+   "end": 35.888
   },
   {
    "word": "y",
-   "start": 35.334,
-   "end": 35.462
+   "start": 35.921,
+   "end": 36.049
   },
   {
    "word": "a",
-   "start": 35.462,
-   "end": 35.479
+   "start": 36.049,
+   "end": 36.065
   },
   {
    "word": "dans",
-   "start": 35.479,
-   "end": 35.559
+   "start": 36.065,
+   "end": 36.145
   },
   {
    "word": "ton",
-   "start": 35.639,
-   "end": 35.799
+   "start": 36.225,
+   "end": 36.386
   },
   {
    "word": "assiette.",
-   "start": 35.815,
-   "end": 36.168
+   "start": 36.402,
+   "end": 36.754
   },
   {
    "word": "Dis-moi",
-   "start": 36.923,
-   "end": 37.227
+   "start": 37.508,
+   "end": 37.765
   },
   {
    "word": "en",
-   "start": 37.227,
-   "end": 37.243
+   "start": 37.765,
+   "end": 37.829
   },
   {
    "word": "commentaire.",
-   "start": 37.324,
-   "end": 37.773
+   "start": 37.909,
+   "end": 38.358
   },
   {
    "word": "Tu",
-   "start": 38.447,
-   "end": 38.607
+   "start": 39.032,
+   "end": 39.192
   },
   {
    "word": "fais",
-   "start": 38.607,
-   "end": 38.784
+   "start": 39.192,
+   "end": 39.369
   },
   {
    "word": "attention",
-   "start": 38.784,
-   "end": 39.185
+   "start": 39.369,
+   "end": 39.818
   },
   {
    "word": "à",
-   "start": 39.185,
-   "end": 39.249
+   "start": 39.818,
+   "end": 39.834
   },
   {
    "word": "tes",
-   "start": 39.249,
-   "end": 39.409
+   "start": 39.834,
+   "end": 39.994
   },
   {
-   "word": "protéines?",
-   "start": 39.409,
-   "end": 39.939
+   "word": "protéines,",
+   "start": 39.994,
+   "end": 40.379
   },
   {
-   "word": "Ou",
-   "start": 40.308,
-   "end": 40.372
+   "word": "ou",
+   "start": 40.892,
+   "end": 40.956
   },
   {
    "word": "tu",
-   "start": 40.372,
-   "end": 40.532
+   "start": 40.956,
+   "end": 41.117
   },
   {
    "word": "manges",
-   "start": 40.532,
-   "end": 40.789
+   "start": 41.117,
+   "end": 41.373
   },
   {
    "word": "au",
-   "start": 40.789,
-   "end": 40.869
+   "start": 41.373,
+   "end": 41.454
   },
   {
    "word": "hasard?",
-   "start": 40.869,
-   "end": 41.142
+   "start": 41.454,
+   "end": 41.726
   },
   {
    "word": "Abonne-toi,",
-   "start": 41.752,
-   "end": 42.185
+   "start": 42.336,
+   "end": 42.769
   },
   {
    "word": "une",
-   "start": 42.233,
-   "end": 42.378
+   "start": 42.817,
+   "end": 42.881
   },
   {
    "word": "nouvelle",
-   "start": 42.378,
-   "end": 42.57
+   "start": 42.881,
+   "end": 43.154
   },
   {
    "word": "vidéo",
-   "start": 42.57,
-   "end": 42.939
+   "start": 43.154,
+   "end": 43.522
   },
   {
    "word": "chaque",
-   "start": 42.939,
-   "end": 43.18
+   "start": 43.522,
+   "end": 43.763
   },
   {
    "word": "jour.",
-   "start": 43.18,
-   "end": 43.308
+   "start": 43.763,
+   "end": 43.891
   },
   {
    "word": "Et",
-   "start": 43.918,
-   "end": 43.998
+   "start": 44.501,
+   "end": 44.565
   },
   {
    "word": "retrouve-nous",
-   "start": 43.998,
-   "end": 44.544
+   "start": 44.565,
+   "end": 45.014
   },
   {
    "word": "sur",
-   "start": 44.544,
-   "end": 44.688
+   "start": 45.126,
+   "end": 45.335
   },
   {
    "word": "kalibody.com.",
-   "start": 44.752,
-   "end": 45.635
+   "start": 45.335,
+   "end": 46.217
   }
  ],
- "text": "Tu t'entraînes dur, mais tu ne construis pas de muscles? Tu fais tes séances sérieusement, tu transpires, tu donnes tout, mais ton physique ne change presque pas? Et si le problème ne venait pas de ton entraînement? On parle souvent des exercices, des séries et des répétitions, mais on oublie un élément essentiel: ce que tu manges pour permettre à tes muscles de se développer. Ton corps a besoin de protéines pour réparer et construire les tissus musculaires après l'effort. Et non, tu n'as pas forcément besoin de poudre ou de compléments. Les œufs, le poisson, les produits laitiers, les légumineuses et la viande peuvent déjà t'en apporter. Alors, avant de changer tout ton programme, regarde aussi ce qu'il y a dans ton assiette. Dis-moi en commentaire. Tu fais attention à tes protéines? Ou tu manges au hasard? Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur kalibody.com."
+ "text": "Tu t'entraînes dur, mais tu ne construis pas de muscles? Tu fais tes séances sérieusement, tu transpires, tu donnes tout, mais ton physique ne change presque pas? Et si le problème ne venait pas de ton entraînement? On parle souvent des exercices, des séries et des répétitions, mais on oublie un élément essentiel: ce que tu manges pour permettre à tes muscles de se développer. Ton corps a besoin de protéines pour réparer et construire les tissus musculaires après l'effort. Et non, tu n'as pas forcément besoin de poudre ou de compléments. Les œufs, le Le poisson, les produits laitiers, les légumineuses et la viande peuvent déjà t'en apporter. Alors, avant de changer tout ton programme, regarde aussi ce qu'il y a dans ton assiette. Dis-moi en commentaire. Tu fais attention à tes protéines, ou tu manges au hasard? Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur kalibody.com."
 }

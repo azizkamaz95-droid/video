@@ -61,6 +61,27 @@ if D > 13 and os.path.exists(os.path.join(EP, "shots.py")):   # the full video: 
 
 # the shot list is written against the first voice (source/words-v1.json); when the voice is regenerated, every cue is
 # carried onto the new voice word by word (piecewise-linear map between the two sets of word starts)
+_oldw = os.path.join(EP, "source/words-v1.json")      # cues written against an earlier voice: carry them word by word onto the new one
+if os.path.exists(_oldw) and not os.path.exists(os.path.join(EP, "source/segments-v1.json")):
+    import bisect
+    _ow = json.load(open(_oldw)); _nw = words
+    _xs, _ys = [0.0], [0.0]
+    for _a, _b in zip(_ow["words"], _nw["words"]):
+        if _a["start"] > _xs[-1] and _b["start"] >= _ys[-1]:
+            _xs.append(_a["start"]); _ys.append(_b["start"])
+    _xs.append(_ow["duration"] + 0.7); _ys.append(FULL)
+
+    def T(t):
+        i = min(max(bisect.bisect_right(_xs, t) - 1, 0), len(_xs) - 2)
+        return round(_ys[i] + (t - _xs[i]) * (_ys[i + 1] - _ys[i]) / (_xs[i + 1] - _xs[i]), 3)
+
+    _at = lambda js: re.sub(r"at\(([\d.]+)\)", lambda m: f"at({T(float(m.group(1)))})", js)
+    SHOTS = [(sid, clip, T(a), (b if b == D else T(b)), tr, h, c, _at(j)) for sid, clip, a, b, tr, h, c, j in SHOTS]
+    PUNCH = [(T(t), k) for t, k in PUNCH]
+    SHAKE = [T(t) for t in SHAKE]
+    POSES = [(T(t), p) for t, p in POSES]
+    CHAPTERS = [T(t) for t in CHAPTERS]
+
 _old = os.path.join(EP, "source/segments-v1.json")
 if os.path.exists(_old):
     import bisect

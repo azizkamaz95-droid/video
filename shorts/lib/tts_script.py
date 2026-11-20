@@ -71,11 +71,11 @@ def pron_list(text):
     return out
 
 
-def synth(text, rate=None):
+def synth(text, rate=None, take=0):
     rate = rate or S["rate"]
     text = spoken(text)
     pl = pron_list(text)
-    name = os.path.join(cache, hashlib.sha1(f"{S['voice']}|{rate}|{text}|{json.dumps(pl, sort_keys=True)}|{'markup' if '[pause' in text else 'text'}".encode()).hexdigest()[:16] + ".wav")
+    name = os.path.join(cache, hashlib.sha1(f"{S['voice']}|{rate}|{text}|{json.dumps(pl, sort_keys=True)}|{'markup' if '[pause' in text else 'text'}{('|take%d' % take) if take else ''}".encode()).hexdigest()[:16] + ".wav")
     if not os.path.exists(name):
         inp = {"markup": text} if "[pause" in text else {"text": text}   # pause tags only work in markup mode
         if pl:
@@ -130,7 +130,7 @@ def synth(text, rate=None):
 
 parts, segs, t = [np.zeros(int(S.get("lead", 0.2) * SR))], [], S.get("lead", 0.2)
 for s in S["sentences"]:
-    x = synth(s.get("say", s["text"]), s.get("rate"))  # "say" = what the voice reads (numbers spelled out), "text" = captions
+    x = synth(s.get("say", s["text"]), s.get("rate"), s.get("take", 0))  # "say" = what the voice reads (numbers spelled out), "text" = captions
     segs.append({"id": s["id"], "text": s["text"], "start": round(t, 3), "end": round(t + len(x) / SR, 3)})
     parts += [x, np.zeros(int(s["pause"] * SR))]
     t += len(x) / SR + s["pause"]

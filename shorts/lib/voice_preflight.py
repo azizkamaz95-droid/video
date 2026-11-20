@@ -43,7 +43,16 @@ auto = [w for w in risky if w not in VAL and (ELI.match(w) or CLI.match(w))]
 for w in auto:
     # Règle de l'utilisateur (2026-11-12) : l'apostrophe gardée (raw) fait parfois lire « D énergie » (lettre D). Une élision
     # nouvelle est donc d'office COLLÉE (glue : « dénergie »), la forme qui se lit toujours comme un seul mot ; les traits d'union restent raw.
-    VAL[w] = {"mode": "glue" if ELI.match(w) else "raw", "auto": True}
+    # Règle de l'utilisateur (2026-11-20) : le collage a fait lire « l'effort » « le fort » et « t'en » « tain ». Une élision nouvelle reçoit donc
+    # d'office sa prononciation IPA calculée (lib/g2p.py, espeak-ng) ; le collage ne reste qu'en secours si l'outil manque.
+    # Dans tous les cas, lib/word_check.py contrôle ensuite le mot dans la voix finale, et le mot reste « à écouter » (auto) tant que l'utilisateur ne l'a pas validé.
+    if ELI.match(w):
+        sys.path.insert(0, HERE)
+        import g2p
+        p = g2p.ipa(w)
+        VAL[w] = {"mode": "ipa", "value": p.replace(" ", ""), "auto": True} if p else {"mode": "glue", "auto": True}
+    else:
+        VAL[w] = {"mode": "raw", "auto": True}
 if auto:
     reg["tokens"] = VAL
     json.dump(reg, open(REG, "w"), ensure_ascii=False, indent=1)

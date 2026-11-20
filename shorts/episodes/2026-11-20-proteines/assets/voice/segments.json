@@ -1,5 +1,5 @@
 {
- "duration": 46.373,
+ "duration": 46.955,
  "segments": [
   {
    "id": "s01",
@@ -29,31 +29,31 @@
    "id": "s05",
    "text": "Ton corps a besoin de protéines pour réparer et construire les tissus musculaires après l'effort.",
    "start": 18.755,
-   "end": 23.396
+   "end": 23.056
   },
   {
    "id": "s06",
    "text": "Et non, tu n'as pas forcément besoin de poudres ou de compléments : les œufs, le poisson, les produits laitiers, les légumineuses et la viande peuvent déjà t'en apporter.",
-   "start": 23.896,
-   "end": 31.955
+   "start": 23.556,
+   "end": 32.537
   },
   {
    "id": "s07",
    "text": "Alors, avant de changer tout ton programme, regarde aussi ce qu'il y a dans ton assiette.",
-   "start": 32.455,
-   "end": 36.302
+   "start": 33.037,
+   "end": 36.884
   },
   {
    "id": "s08",
    "text": "Dis-moi en commentaire : tu fais attention à tes protéines ou tu manges au hasard ?",
-   "start": 36.802,
-   "end": 41.305
+   "start": 37.384,
+   "end": 41.887
   },
   {
    "id": "s09",
    "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
-   "start": 41.655,
-   "end": 45.773
+   "start": 42.237,
+   "end": 46.355
   }
  ]
 }

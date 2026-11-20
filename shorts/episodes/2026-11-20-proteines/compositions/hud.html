@@ -19,14 +19,14 @@
         #pb-fill { position: absolute; inset: 0; background: #FF8A1F; transform-origin: 0% 50%; }
         #pb i { position: absolute; top: 0; width: 6px; height: 10px; background: rgba(20,20,20,.7); }
       </style>
-      <div id="root" data-composition-id="hud" data-width="1080" data-height="1920" data-duration="47.07">
-        <div id="pb"><div id="pb-fill"></div><i style="left:22.03%"></i><i style="left:50.78%"></i></div>
+      <div id="root" data-composition-id="hud" data-width="1080" data-height="1920" data-duration="47.66">
+        <div id="pb"><div id="pb-fill"></div><i style="left:21.78%"></i><i style="left:49.52%"></i></div>
       </div>
       <script>
         (function () {
           const build = () => {
             const tl = gsap.timeline({ paused: true });
-            tl.fromTo("#pb-fill",{scaleX:0},{scaleX:1.0,duration:47.07,ease:"none"},0);
+            tl.fromTo("#pb-fill",{scaleX:0},{scaleX:1.0,duration:47.66,ease:"none"},0);
             window.__timelines["hud"] = tl;
           };
           document.fonts.ready.then(build);

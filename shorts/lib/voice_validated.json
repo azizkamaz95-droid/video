@@ -116,8 +116,7 @@
    "auto": true
   },
   "qu'il": {
-   "mode": "glue",
-   "auto": true
+   "mode": "glue"
   },
   "dis-le": {
    "mode": "raw",
@@ -128,8 +127,7 @@
    "auto": true
   },
   "n'as": {
-   "mode": "glue",
-   "auto": true
+   "mode": "glue"
   },
   "d'habitude": {
    "mode": "glue",
@@ -164,20 +162,19 @@
    "auto": true
   },
   "l'effort": {
-   "mode": "glue",
-   "auto": true
+   "mode": "ipa",
+   "value": "lɛfɔʁ"
   },
   "l'amplitude": {
    "mode": "glue",
    "auto": true
   },
   "t'entraînes": {
-   "mode": "glue",
-   "auto": true
+   "mode": "glue"
   },
   "t'en": {
-   "mode": "glue",
-   "auto": true
+   "mode": "ipa",
+   "value": "tɑ̃n"
   }
  }
 }
