@@ -1,0 +1,49 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu viens de commencer la musculation et, en quelques semaines, tu arrives déjà à soulever plus lourd. Mais tes muscles, eux, n'ont presque pas changé visuellement. Alors, comment c'est possible ?",
+   "pause": 0.6
+  },
+  {
+   "id": "s02",
+   "text": "La réponse se trouve dans ton système nerveux.",
+   "pause": 0.6
+  },
+  {
+   "id": "s03",
+   "text": "Quand tu débutes, ton cerveau et tes nerfs apprennent progressivement à mieux commander tes muscles. Ils améliorent le recrutement des unités motrices, c'est-à-dire les groupes de fibres musculaires activés pour produire un effort.",
+   "pause": 0.5
+  },
+  {
+   "id": "s04",
+   "text": "Résultat : tu deviens capable de produire davantage de force, parfois avant même que tes muscles aient visiblement grossi.",
+   "pause": 0.5
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas une simple théorie. Des chercheurs ont observé ces adaptations après seulement quatre semaines d'entraînement.",
+   "pause": 0.5
+  },
+  {
+   "id": "s06",
+   "text": "Mais attention, cela ne signifie pas que tes muscles ne travaillent pas. Leur développement peut commencer très tôt, en parallèle de ces adaptations nerveuses.",
+   "pause": 0.5
+  },
+  {
+   "id": "s07",
+   "text": "Alors, la prochaine fois que tu soulèves plus lourd, souviens-toi d'une chose : tu ne construis pas seulement tes muscles… tu apprends aussi à mieux les utiliser.",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"
+  }
+ ]
+}

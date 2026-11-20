@@ -175,6 +175,21 @@
   "t'en": {
    "mode": "ipa",
    "value": "tɑ̃n"
+  },
+  "n'ont": {
+   "mode": "ipa",
+   "value": "nɔ̃",
+   "auto": true
+  },
+  "d'entraînement": {
+   "mode": "ipa",
+   "value": "dɑ̃tʁɛnmɑ̃",
+   "auto": true
+  },
+  "d'une": {
+   "mode": "ipa",
+   "value": "dyn",
+   "auto": true
   }
  }
 }

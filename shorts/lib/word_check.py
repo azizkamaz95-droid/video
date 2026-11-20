@@ -69,6 +69,11 @@ for i, x in enumerate(W):
         print(f"court   {raw:18s} {x['start']:6.2f}s  isolé -> « {heard} »   [pas de verdict automatique : à écouter]"); listen.append(w); continue
     ok = (h in {norm(a_) for a_ in ACCEPT[w]}) if w in ACCEPT else False
     ok = ok or (len(norm(stem)) >= 5 and norm(stem) in h)        # radical assez long : il doit être entendu en entier
+    if not ok and w not in ACCEPT and len(norm(stem)) < 5:       # clitique + mot très bref (n'ont, d'une…) : pas de verdict sûr sans contexte
+        if norm(w) in h or norm(stem) in h:
+            ok = True
+        else:
+            print(f"court   {raw:18s} {x['start']:6.2f}s  isolé -> « {heard} »   [mot bref : à écouter, pas de verdict automatique]"); listen.append(w); continue
     # « l'effort » entendu « fort » : le radical « effort » doit y être en entier
     v = REG.get(w, {})
     new = (not v) or v.get("auto") or v.get("mode") in ("glue", "g2p")
