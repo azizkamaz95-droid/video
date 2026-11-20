@@ -1,0 +1,194 @@
+{
+ "title": "Système nerveux",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -29.5,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [
+  [
+   11.39,
+   19.0
+  ]
+ ],
+ "hits": [
+  12.7
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 11.39
+  },
+  {
+   "type": "body",
+   "start": 11.39,
+   "end": 45.9
+  },
+  {
+   "type": "outro",
+   "start": 45.9,
+   "end": 60.1
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   0.34
+  ],
+  [
+   "stamp",
+   1.09
+  ],
+  [
+   "whoosh",
+   3.45
+  ],
+  [
+   "stamp",
+   4.83
+  ],
+  [
+   "whoosh",
+   5.45
+  ],
+  [
+   "stamp",
+   7.4
+  ],
+  [
+   "whoosh",
+   9.05
+  ],
+  [
+   "stamp",
+   9.89
+  ],
+  [
+   "whoosh",
+   11.34
+  ],
+  [
+   "stamp",
+   12.7
+  ],
+  [
+   "thump",
+   12.7
+  ],
+  [
+   "whoosh",
+   13.95
+  ],
+  [
+   "stamp",
+   15.35
+  ],
+  [
+   "stamp",
+   16.02
+  ],
+  [
+   "whoosh",
+   18.95
+  ],
+  [
+   "stamp",
+   19.8
+  ],
+  [
+   "whoosh",
+   21.55
+  ],
+  [
+   "stamp",
+   22.33
+  ],
+  [
+   "whoosh",
+   24.5
+  ],
+  [
+   "stamp",
+   24.68
+  ],
+  [
+   "whoosh",
+   25.51
+  ],
+  [
+   "stamp",
+   28.36
+  ],
+  [
+   "whoosh",
+   28.95
+  ],
+  [
+   "stamp",
+   30.52
+  ],
+  [
+   "whoosh",
+   31.94
+  ],
+  [
+   "stamp",
+   33.01
+  ],
+  [
+   "stamp",
+   36.38
+  ],
+  [
+   "whoosh",
+   37.7
+  ],
+  [
+   "stamp",
+   40.56
+  ],
+  [
+   "whoosh",
+   41.5
+  ],
+  [
+   "stamp",
+   43.04
+  ],
+  [
+   "whoosh",
+   45.6
+  ],
+  [
+   "stamp",
+   48.18
+  ],
+  [
+   "whoosh",
+   49.5
+  ],
+  [
+   "stamp",
+   51.55
+  ],
+  [
+   "stamp",
+   53.28
+  ],
+  [
+   "whoosh",
+   54.4
+  ],
+  [
+   "stamp",
+   57.0
+  ]
+ ],
+ "music_file": "assets/music/documentaire-motivation.mp3",
+ "music_loop": [
+  0.0,
+  80.0
+ ]
+}
