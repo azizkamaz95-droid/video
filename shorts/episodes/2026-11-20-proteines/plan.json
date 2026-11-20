@@ -1,0 +1,197 @@
+{
+ "title": "Protéines",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -29.5,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  14.57
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 10.37
+  },
+  {
+   "type": "body",
+   "start": 10.37,
+   "end": 32.45
+  },
+  {
+   "type": "outro",
+   "start": 32.45,
+   "end": 47.07
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   0.34
+  ],
+  [
+   "stamp",
+   1.38
+  ],
+  [
+   "whoosh",
+   2.8
+  ],
+  [
+   "stamp",
+   3.63
+  ],
+  [
+   "stamp",
+   5.15
+  ],
+  [
+   "stamp",
+   6.75
+  ],
+  [
+   "whoosh",
+   7.74
+  ],
+  [
+   "stamp",
+   9.26
+  ],
+  [
+   "whoosh",
+   10.32
+  ],
+  [
+   "stamp",
+   11.1
+  ],
+  [
+   "stamp",
+   12.45
+  ],
+  [
+   "whoosh",
+   13.5
+  ],
+  [
+   "stamp",
+   14.57
+  ],
+  [
+   "thump",
+   14.57
+  ],
+  [
+   "stamp",
+   15.98
+  ],
+  [
+   "whoosh",
+   17.0
+  ],
+  [
+   "stamp",
+   17.83
+  ],
+  [
+   "whoosh",
+   18.7
+  ],
+  [
+   "stamp",
+   19.67
+  ],
+  [
+   "whoosh",
+   20.55
+  ],
+  [
+   "stamp",
+   21.36
+  ],
+  [
+   "stamp",
+   22.24
+  ],
+  [
+   "whoosh",
+   23.85
+  ],
+  [
+   "stamp",
+   24.12
+  ],
+  [
+   "stamp",
+   25.93
+  ],
+  [
+   "stamp",
+   27.5
+  ],
+  [
+   "stamp",
+   27.86
+  ],
+  [
+   "stamp",
+   28.85
+  ],
+  [
+   "stamp",
+   29.62
+  ],
+  [
+   "stamp",
+   30.41
+  ],
+  [
+   "whoosh",
+   32.4
+  ],
+  [
+   "stamp",
+   33.79
+  ],
+  [
+   "whoosh",
+   34.25
+  ],
+  [
+   "stamp",
+   35.81
+  ],
+  [
+   "whoosh",
+   36.75
+  ],
+  [
+   "stamp",
+   36.92
+  ],
+  [
+   "stamp",
+   39.41
+  ],
+  [
+   "stamp",
+   40.87
+  ],
+  [
+   "whoosh",
+   41.6
+  ],
+  [
+   "stamp",
+   44.55
+  ]
+ ],
+ "music_file": "assets/music/motivation-quotidienne.mp3",
+ "music_loop": [
+  0.0,
+  48.0
+ ]
+}

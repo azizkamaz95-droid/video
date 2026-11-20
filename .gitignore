@@ -7,3 +7,7 @@ __pycache__/
 shorts/episodes/*/renders/work-*/
 shorts/episodes/*/renders/.raw.hf-transaction-*/
 shorts/episodes/*/renders/*.wav
+shorts/episodes/*/renders/.*hf-transaction-*/
+shorts/episodes/*/renders/video-raw*.mp4
+shorts/episodes/*/.hyperframes/
+shorts/episodes/2026-11-20-proteines/assets/stock/
