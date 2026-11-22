@@ -1,0 +1,56 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Et si le meilleur réflexe après ton repas n'était pas de t'installer sur le canapé, mais simplement de marcher ?",
+   "pause": 0.6
+  },
+  {
+   "id": "s02",
+   "text": "Quand tu manges, une partie des glucides est transformée en glucose, qui passe dans ton sang. C'est normal. Mais voici ce qui est intéressant : tes muscles peuvent aider ton corps à utiliser ce glucose.",
+   "pause": 0.5
+  },
+  {
+   "id": "s03",
+   "text": "Et pour ça, ils n'ont pas besoin d'une séance de sport intense.",
+   "pause": 0.5
+  },
+  {
+   "id": "s04",
+   "text": "Lorsqu'ils se contractent pendant la marche, ils facilitent l'entrée du glucose dans les cellules musculaires. Résultat : la hausse du sucre dans le sang après le repas peut être moins importante.",
+   "pause": 0.5
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas juste une théorie. Une méta-analyse publiée en 2023 a regroupé plusieurs essais scientifiques et a constaté que bouger après manger permettait de mieux limiter les pics de glycémie que rester inactif.",
+   "pause": 0.5,
+   "say": "Et ce n'est pas juste une théorie. Une méta-analyse publiée en deux mille vingt-trois a regroupé plusieurs essais scientifiques et a constaté que bouger après manger permettait de mieux limiter les pics de glycémie que rester inactif."
+  },
+  {
+   "id": "s06",
+   "text": "Même une étude publiée en 2025 a observé un effet positif avec seulement dix minutes de marche après une prise de glucose.",
+   "pause": 0.5,
+   "say": "Même une étude publiée en deux mille vingt-cinq a observé un effet positif avec seulement dix minutes de marche après une prise de glucose."
+  },
+  {
+   "id": "s07",
+   "text": "Alors, la prochaine fois que tu termines ton repas, avant de t'installer sur le canapé, pourquoi ne pas faire quelques pas ?",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Ton corps pourrait bien apprécier cette petite habitude.",
+   "pause": 0.5
+  },
+  {
+   "id": "s09",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"
+  }
+ ]
+}

@@ -1,0 +1,1151 @@
+{
+ "duration": 64.38,
+ "words": [
+  {
+   "i": 0,
+   "word": "Et",
+   "start": 0.192,
+   "end": 0.256
+  },
+  {
+   "i": 1,
+   "word": "si",
+   "start": 0.256,
+   "end": 0.497
+  },
+  {
+   "i": 2,
+   "word": "le",
+   "start": 0.497,
+   "end": 0.577
+  },
+  {
+   "i": 3,
+   "word": "meilleur",
+   "start": 0.577,
+   "end": 0.898
+  },
+  {
+   "i": 4,
+   "word": "réflexe",
+   "start": 0.898,
+   "end": 1.395
+  },
+  {
+   "i": 5,
+   "word": "après",
+   "start": 1.395,
+   "end": 1.62
+  },
+  {
+   "i": 6,
+   "word": "ton",
+   "start": 1.62,
+   "end": 1.78
+  },
+  {
+   "i": 7,
+   "word": "repas",
+   "start": 1.78,
+   "end": 2.101
+  },
+  {
+   "i": 8,
+   "word": "n'était",
+   "start": 2.197,
+   "end": 3.064
+  },
+  {
+   "i": 9,
+   "word": "pas",
+   "start": 3.144,
+   "end": 3.224
+  },
+  {
+   "i": 10,
+   "word": "de",
+   "start": 3.224,
+   "end": 3.385
+  },
+  {
+   "i": 11,
+   "word": "t'installer",
+   "start": 3.385,
+   "end": 3.786
+  },
+  {
+   "i": 12,
+   "word": "sur",
+   "start": 3.786,
+   "end": 3.93
+  },
+  {
+   "i": 13,
+   "word": "le",
+   "start": 3.946,
+   "end": 4.026
+  },
+  {
+   "i": 14,
+   "word": "canapé,",
+   "start": 4.026,
+   "end": 4.427
+  },
+  {
+   "i": 15,
+   "word": "mais",
+   "start": 4.909,
+   "end": 4.989
+  },
+  {
+   "i": 16,
+   "word": "simplement",
+   "start": 5.021,
+   "end": 5.55
+  },
+  {
+   "i": 17,
+   "word": "de",
+   "start": 5.55,
+   "end": 5.631
+  },
+  {
+   "i": 18,
+   "word": "marcher ?",
+   "start": 5.631,
+   "end": 5.919
+  },
+  {
+   "i": 19,
+   "word": "Quand",
+   "start": 6.754,
+   "end": 6.834
+  },
+  {
+   "i": 20,
+   "word": "tu",
+   "start": 6.866,
+   "end": 7.026
+  },
+  {
+   "i": 21,
+   "word": "manges,",
+   "start": 7.026,
+   "end": 7.379
+  },
+  {
+   "i": 22,
+   "word": "une",
+   "start": 7.572,
+   "end": 7.636
+  },
+  {
+   "i": 23,
+   "word": "partie",
+   "start": 7.636,
+   "end": 7.957
+  },
+  {
+   "i": 24,
+   "word": "des",
+   "start": 7.957,
+   "end": 8.037
+  },
+  {
+   "i": 25,
+   "word": "glucides",
+   "start": 8.101,
+   "end": 8.454
+  },
+  {
+   "i": 26,
+   "word": "est",
+   "start": 8.454,
+   "end": 8.518
+  },
+  {
+   "i": 27,
+   "word": "transformée",
+   "start": 8.599,
+   "end": 9.096
+  },
+  {
+   "i": 28,
+   "word": "en",
+   "start": 9.096,
+   "end": 9.16
+  },
+  {
+   "i": 29,
+   "word": "glucose,",
+   "start": 9.24,
+   "end": 9.609
+  },
+  {
+   "i": 30,
+   "word": "qui",
+   "start": 9.802,
+   "end": 9.962
+  },
+  {
+   "i": 31,
+   "word": "passe",
+   "start": 9.962,
+   "end": 10.203
+  },
+  {
+   "i": 32,
+   "word": "dans",
+   "start": 10.203,
+   "end": 10.283
+  },
+  {
+   "i": 33,
+   "word": "ton",
+   "start": 10.283,
+   "end": 10.444
+  },
+  {
+   "i": 34,
+   "word": "sang.",
+   "start": 10.476,
+   "end": 10.572
+  },
+  {
+   "i": 35,
+   "word": "C'est",
+   "start": 10.925,
+   "end": 11.037
+  },
+  {
+   "i": 36,
+   "word": "normal.",
+   "start": 11.037,
+   "end": 11.358
+  },
+  {
+   "i": 37,
+   "word": "Mais",
+   "start": 11.968,
+   "end": 12.08
+  },
+  {
+   "i": 38,
+   "word": "voici",
+   "start": 12.128,
+   "end": 12.401
+  },
+  {
+   "i": 39,
+   "word": "ce",
+   "start": 12.401,
+   "end": 12.449
+  },
+  {
+   "i": 40,
+   "word": "qui",
+   "start": 12.449,
+   "end": 12.561
+  },
+  {
+   "i": 41,
+   "word": "est",
+   "start": 12.561,
+   "end": 12.706
+  },
+  {
+   "i": 42,
+   "word": "intéressant :",
+   "start": 12.706,
+   "end": 13.123
+  },
+  {
+   "i": 43,
+   "word": "tes",
+   "start": 13.732,
+   "end": 13.813
+  },
+  {
+   "i": 44,
+   "word": "muscles",
+   "start": 13.813,
+   "end": 14.214
+  },
+  {
+   "i": 45,
+   "word": "peuvent",
+   "start": 14.214,
+   "end": 14.438
+  },
+  {
+   "i": 46,
+   "word": "aider",
+   "start": 14.551,
+   "end": 14.775
+  },
+  {
+   "i": 47,
+   "word": "ton",
+   "start": 14.775,
+   "end": 14.936
+  },
+  {
+   "i": 48,
+   "word": "corps",
+   "start": 14.936,
+   "end": 15.16
+  },
+  {
+   "i": 49,
+   "word": "à",
+   "start": 15.273,
+   "end": 15.337
+  },
+  {
+   "i": 50,
+   "word": "utiliser",
+   "start": 15.353,
+   "end": 15.818
+  },
+  {
+   "i": 51,
+   "word": "ce",
+   "start": 15.818,
+   "end": 15.93
+  },
+  {
+   "i": 52,
+   "word": "glucose.",
+   "start": 15.93,
+   "end": 16.347
+  },
+  {
+   "i": 53,
+   "word": "Et",
+   "start": 17.117,
+   "end": 17.182
+  },
+  {
+   "i": 54,
+   "word": "pour",
+   "start": 17.182,
+   "end": 17.278
+  },
+  {
+   "i": 55,
+   "word": "ça,",
+   "start": 17.342,
+   "end": 17.615
+  },
+  {
+   "i": 56,
+   "word": "ils",
+   "start": 17.759,
+   "end": 17.839
+  },
+  {
+   "i": 57,
+   "word": "n'ont",
+   "start": 17.839,
+   "end": 17.984
+  },
+  {
+   "i": 58,
+   "word": "pas",
+   "start": 18.064,
+   "end": 18.144
+  },
+  {
+   "i": 59,
+   "word": "besoin",
+   "start": 18.144,
+   "end": 18.497
+  },
+  {
+   "i": 60,
+   "word": "d'une",
+   "start": 18.497,
+   "end": 18.706
+  },
+  {
+   "i": 61,
+   "word": "séance",
+   "start": 18.706,
+   "end": 19.027
+  },
+  {
+   "i": 62,
+   "word": "de",
+   "start": 19.027,
+   "end": 19.107
+  },
+  {
+   "i": 63,
+   "word": "sport",
+   "start": 19.139,
+   "end": 19.444
+  },
+  {
+   "i": 64,
+   "word": "intense.",
+   "start": 19.444,
+   "end": 19.716
+  },
+  {
+   "i": 65,
+   "word": "Lorsqu'ils",
+   "start": 20.551,
+   "end": 20.936
+  },
+  {
+   "i": 66,
+   "word": "se",
+   "start": 20.984,
+   "end": 21.192
+  },
+  {
+   "i": 67,
+   "word": "contractent",
+   "start": 21.192,
+   "end": 21.593
+  },
+  {
+   "i": 68,
+   "word": "pendant",
+   "start": 21.593,
+   "end": 21.866
+  },
+  {
+   "i": 69,
+   "word": "la",
+   "start": 21.866,
+   "end": 21.946
+  },
+  {
+   "i": 70,
+   "word": "marche,",
+   "start": 21.946,
+   "end": 22.331
+  },
+  {
+   "i": 71,
+   "word": "ils",
+   "start": 22.813,
+   "end": 22.909
+  },
+  {
+   "i": 72,
+   "word": "facilitent",
+   "start": 22.957,
+   "end": 23.535
+  },
+  {
+   "i": 73,
+   "word": "l'entrée",
+   "start": 23.535,
+   "end": 24.0
+  },
+  {
+   "i": 74,
+   "word": "du",
+   "start": 24.08,
+   "end": 24.16
+  },
+  {
+   "i": 75,
+   "word": "glucose",
+   "start": 24.16,
+   "end": 24.626
+  },
+  {
+   "i": 76,
+   "word": "dans",
+   "start": 24.722,
+   "end": 24.77
+  },
+  {
+   "i": 77,
+   "word": "les",
+   "start": 24.802,
+   "end": 24.882
+  },
+  {
+   "i": 78,
+   "word": "cellules",
+   "start": 24.882,
+   "end": 25.219
+  },
+  {
+   "i": 79,
+   "word": "musculaires.",
+   "start": 25.219,
+   "end": 25.733
+  },
+  {
+   "i": 80,
+   "word": "Résultat :",
+   "start": 26.326,
+   "end": 26.695
+  },
+  {
+   "i": 81,
+   "word": "la",
+   "start": 27.289,
+   "end": 27.466
+  },
+  {
+   "i": 82,
+   "word": "hausse",
+   "start": 27.466,
+   "end": 27.61
+  },
+  {
+   "i": 83,
+   "word": "du",
+   "start": 27.61,
+   "end": 27.771
+  },
+  {
+   "i": 84,
+   "word": "sucre",
+   "start": 27.771,
+   "end": 28.092
+  },
+  {
+   "i": 85,
+   "word": "dans",
+   "start": 28.092,
+   "end": 28.204
+  },
+  {
+   "i": 86,
+   "word": "le",
+   "start": 28.204,
+   "end": 28.332
+  },
+  {
+   "i": 87,
+   "word": "sang",
+   "start": 28.332,
+   "end": 28.493
+  },
+  {
+   "i": 88,
+   "word": "après",
+   "start": 28.669,
+   "end": 28.974
+  },
+  {
+   "i": 89,
+   "word": "le",
+   "start": 28.974,
+   "end": 29.006
+  },
+  {
+   "i": 90,
+   "word": "repas",
+   "start": 29.006,
+   "end": 29.375
+  },
+  {
+   "i": 91,
+   "word": "peut",
+   "start": 29.375,
+   "end": 29.536
+  },
+  {
+   "i": 92,
+   "word": "être",
+   "start": 29.552,
+   "end": 29.761
+  },
+  {
+   "i": 93,
+   "word": "moins",
+   "start": 29.809,
+   "end": 30.114
+  },
+  {
+   "i": 94,
+   "word": "importante.",
+   "start": 30.114,
+   "end": 30.627
+  },
+  {
+   "i": 95,
+   "word": "Et",
+   "start": 31.237,
+   "end": 31.301
+  },
+  {
+   "i": 96,
+   "word": "ce",
+   "start": 31.333,
+   "end": 31.446
+  },
+  {
+   "i": 97,
+   "word": "n'est",
+   "start": 31.446,
+   "end": 31.622
+  },
+  {
+   "i": 98,
+   "word": "pas",
+   "start": 31.622,
+   "end": 31.783
+  },
+  {
+   "i": 99,
+   "word": "juste",
+   "start": 31.783,
+   "end": 32.039
+  },
+  {
+   "i": 100,
+   "word": "une",
+   "start": 32.039,
+   "end": 32.184
+  },
+  {
+   "i": 101,
+   "word": "théorie.",
+   "start": 32.184,
+   "end": 32.473
+  },
+  {
+   "i": 102,
+   "word": "Une",
+   "start": 33.083,
+   "end": 33.131
+  },
+  {
+   "i": 103,
+   "word": "méta-analyse",
+   "start": 33.147,
+   "end": 33.853
+  },
+  {
+   "i": 104,
+   "word": "publiée",
+   "start": 33.949,
+   "end": 34.302
+  },
+  {
+   "i": 105,
+   "word": "en",
+   "start": 34.302,
+   "end": 34.431
+  },
+  {
+   "i": 106,
+   "word": "2023",
+   "start": 34.431,
+   "end": 35.185
+  },
+  {
+   "i": 107,
+   "word": "a",
+   "start": 35.49,
+   "end": 35.554
+  },
+  {
+   "i": 108,
+   "word": "regroupé",
+   "start": 35.554,
+   "end": 35.955
+  },
+  {
+   "i": 109,
+   "word": "plusieurs",
+   "start": 36.035,
+   "end": 36.292
+  },
+  {
+   "i": 110,
+   "word": "essais",
+   "start": 36.372,
+   "end": 36.597
+  },
+  {
+   "i": 111,
+   "word": "scientifiques",
+   "start": 36.597,
+   "end": 37.255
+  },
+  {
+   "i": 112,
+   "word": "et",
+   "start": 37.255,
+   "end": 37.335
+  },
+  {
+   "i": 113,
+   "word": "a",
+   "start": 37.335,
+   "end": 37.4
+  },
+  {
+   "i": 114,
+   "word": "constaté",
+   "start": 37.48,
+   "end": 37.961
+  },
+  {
+   "i": 115,
+   "word": "que",
+   "start": 37.961,
+   "end": 38.122
+  },
+  {
+   "i": 116,
+   "word": "bouger",
+   "start": 38.122,
+   "end": 38.459
+  },
+  {
+   "i": 117,
+   "word": "après",
+   "start": 38.459,
+   "end": 38.635
+  },
+  {
+   "i": 118,
+   "word": "manger",
+   "start": 38.635,
+   "end": 39.052
+  },
+  {
+   "i": 119,
+   "word": "permettait",
+   "start": 39.325,
+   "end": 39.646
+  },
+  {
+   "i": 120,
+   "word": "de",
+   "start": 39.727,
+   "end": 39.807
+  },
+  {
+   "i": 121,
+   "word": "mieux",
+   "start": 39.807,
+   "end": 39.999
+  },
+  {
+   "i": 122,
+   "word": "limiter",
+   "start": 39.999,
+   "end": 40.368
+  },
+  {
+   "i": 123,
+   "word": "les",
+   "start": 40.368,
+   "end": 40.449
+  },
+  {
+   "i": 124,
+   "word": "pics",
+   "start": 40.529,
+   "end": 40.689
+  },
+  {
+   "i": 125,
+   "word": "de",
+   "start": 40.689,
+   "end": 40.77
+  },
+  {
+   "i": 126,
+   "word": "glycémie",
+   "start": 40.77,
+   "end": 41.251
+  },
+  {
+   "i": 127,
+   "word": "que",
+   "start": 41.251,
+   "end": 41.412
+  },
+  {
+   "i": 128,
+   "word": "rester",
+   "start": 41.412,
+   "end": 41.668
+  },
+  {
+   "i": 129,
+   "word": "inactif.",
+   "start": 41.668,
+   "end": 42.166
+  },
+  {
+   "i": 130,
+   "word": "Même",
+   "start": 42.856,
+   "end": 43.0
+  },
+  {
+   "i": 131,
+   "word": "une",
+   "start": 43.032,
+   "end": 43.129
+  },
+  {
+   "i": 132,
+   "word": "étude",
+   "start": 43.193,
+   "end": 43.498
+  },
+  {
+   "i": 133,
+   "word": "publiée",
+   "start": 43.498,
+   "end": 43.867
+  },
+  {
+   "i": 134,
+   "word": "en",
+   "start": 43.915,
+   "end": 44.06
+  },
+  {
+   "i": 135,
+   "word": "2025",
+   "start": 44.06,
+   "end": 44.878
+  },
+  {
+   "i": 136,
+   "word": "a",
+   "start": 44.878,
+   "end": 45.038
+  },
+  {
+   "i": 137,
+   "word": "observé",
+   "start": 45.038,
+   "end": 45.44
+  },
+  {
+   "i": 138,
+   "word": "un",
+   "start": 45.44,
+   "end": 45.584
+  },
+  {
+   "i": 139,
+   "word": "effet",
+   "start": 45.6,
+   "end": 45.825
+  },
+  {
+   "i": 140,
+   "word": "positif",
+   "start": 45.825,
+   "end": 46.483
+  },
+  {
+   "i": 141,
+   "word": "avec",
+   "start": 46.483,
+   "end": 46.707
+  },
+  {
+   "i": 142,
+   "word": "seulement",
+   "start": 46.707,
+   "end": 47.028
+  },
+  {
+   "i": 143,
+   "word": "dix",
+   "start": 47.028,
+   "end": 47.189
+  },
+  {
+   "i": 144,
+   "word": "minutes",
+   "start": 47.189,
+   "end": 47.51
+  },
+  {
+   "i": 145,
+   "word": "de",
+   "start": 47.51,
+   "end": 47.59
+  },
+  {
+   "i": 146,
+   "word": "marche",
+   "start": 47.59,
+   "end": 47.991
+  },
+  {
+   "i": 147,
+   "word": "après",
+   "start": 48.088,
+   "end": 48.328
+  },
+  {
+   "i": 148,
+   "word": "une",
+   "start": 48.328,
+   "end": 48.473
+  },
+  {
+   "i": 149,
+   "word": "prise",
+   "start": 48.473,
+   "end": 48.633
+  },
+  {
+   "i": 150,
+   "word": "de",
+   "start": 48.633,
+   "end": 48.794
+  },
+  {
+   "i": 151,
+   "word": "glucose.",
+   "start": 48.794,
+   "end": 49.163
+  },
+  {
+   "i": 152,
+   "word": "Alors,",
+   "start": 49.933,
+   "end": 50.142
+  },
+  {
+   "i": 153,
+   "word": "la",
+   "start": 50.72,
+   "end": 50.768
+  },
+  {
+   "i": 154,
+   "word": "prochaine",
+   "start": 50.8,
+   "end": 51.04
+  },
+  {
+   "i": 155,
+   "word": "fois",
+   "start": 51.121,
+   "end": 51.281
+  },
+  {
+   "i": 156,
+   "word": "que",
+   "start": 51.281,
+   "end": 51.361
+  },
+  {
+   "i": 157,
+   "word": "tu",
+   "start": 51.361,
+   "end": 51.522
+  },
+  {
+   "i": 158,
+   "word": "termines",
+   "start": 51.522,
+   "end": 51.923
+  },
+  {
+   "i": 159,
+   "word": "ton",
+   "start": 51.923,
+   "end": 52.084
+  },
+  {
+   "i": 160,
+   "word": "repas,",
+   "start": 52.084,
+   "end": 52.372
+  },
+  {
+   "i": 161,
+   "word": "avant",
+   "start": 52.742,
+   "end": 52.967
+  },
+  {
+   "i": 162,
+   "word": "de",
+   "start": 52.967,
+   "end": 53.048
+  },
+  {
+   "i": 163,
+   "word": "t'installer",
+   "start": 53.048,
+   "end": 53.482
+  },
+  {
+   "i": 164,
+   "word": "sur",
+   "start": 53.482,
+   "end": 53.611
+  },
+  {
+   "i": 165,
+   "word": "le",
+   "start": 53.611,
+   "end": 53.691
+  },
+  {
+   "i": 166,
+   "word": "canapé,",
+   "start": 53.772,
+   "end": 54.142
+  },
+  {
+   "i": 167,
+   "word": "pourquoi",
+   "start": 54.657,
+   "end": 54.931
+  },
+  {
+   "i": 168,
+   "word": "ne",
+   "start": 54.931,
+   "end": 54.979
+  },
+  {
+   "i": 169,
+   "word": "pas",
+   "start": 55.06,
+   "end": 55.14
+  },
+  {
+   "i": 170,
+   "word": "faire",
+   "start": 55.14,
+   "end": 55.285
+  },
+  {
+   "i": 171,
+   "word": "quelques",
+   "start": 55.301,
+   "end": 55.543
+  },
+  {
+   "i": 172,
+   "word": "pas ?",
+   "start": 55.623,
+   "end": 55.752
+  },
+  {
+   "i": 173,
+   "word": "Ton",
+   "start": 56.347,
+   "end": 56.508
+  },
+  {
+   "i": 174,
+   "word": "corps",
+   "start": 56.589,
+   "end": 56.734
+  },
+  {
+   "i": 175,
+   "word": "pourrait",
+   "start": 56.911,
+   "end": 57.152
+  },
+  {
+   "i": 176,
+   "word": "bien",
+   "start": 57.152,
+   "end": 57.313
+  },
+  {
+   "i": 177,
+   "word": "apprécier",
+   "start": 57.329,
+   "end": 57.796
+  },
+  {
+   "i": 178,
+   "word": "cette",
+   "start": 57.796,
+   "end": 58.038
+  },
+  {
+   "i": 179,
+   "word": "petite",
+   "start": 58.038,
+   "end": 58.295
+  },
+  {
+   "i": 180,
+   "word": "habitude.",
+   "start": 58.295,
+   "end": 58.73
+  },
+  {
+   "i": 181,
+   "word": "Abonne-toi,",
+   "start": 59.502,
+   "end": 59.937
+  },
+  {
+   "i": 182,
+   "word": "une",
+   "start": 60.146,
+   "end": 60.211
+  },
+  {
+   "i": 183,
+   "word": "nouvelle",
+   "start": 60.211,
+   "end": 60.516
+  },
+  {
+   "i": 184,
+   "word": "vidéo",
+   "start": 60.533,
+   "end": 60.935
+  },
+  {
+   "i": 185,
+   "word": "chaque",
+   "start": 60.935,
+   "end": 61.176
+  },
+  {
+   "i": 186,
+   "word": "jour.",
+   "start": 61.176,
+   "end": 61.386
+  },
+  {
+   "i": 187,
+   "word": "Et",
+   "start": 61.917,
+   "end": 61.981
+  },
+  {
+   "i": 188,
+   "word": "retrouve-nous",
+   "start": 61.981,
+   "end": 62.384
+  },
+  {
+   "i": 189,
+   "word": "sur",
+   "start": 62.464,
+   "end": 62.593
+  },
+  {
+   "i": 190,
+   "word": "calibodi.com !",
+   "start": 62.593,
+   "end": 63.575
+  }
+ ]
+}

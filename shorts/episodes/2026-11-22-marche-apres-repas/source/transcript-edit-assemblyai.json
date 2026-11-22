@@ -1,0 +1,961 @@
+{
+ "duration": 64.38,
+ "words": [
+  {
+   "word": "Et",
+   "start": 0.192,
+   "end": 0.256
+  },
+  {
+   "word": "si",
+   "start": 0.256,
+   "end": 0.497
+  },
+  {
+   "word": "le",
+   "start": 0.497,
+   "end": 0.577
+  },
+  {
+   "word": "meilleur",
+   "start": 0.577,
+   "end": 0.898
+  },
+  {
+   "word": "réflexe",
+   "start": 0.898,
+   "end": 1.395
+  },
+  {
+   "word": "après",
+   "start": 1.395,
+   "end": 1.62
+  },
+  {
+   "word": "ton",
+   "start": 1.62,
+   "end": 1.78
+  },
+  {
+   "word": "repas",
+   "start": 1.78,
+   "end": 2.101
+  },
+  {
+   "word": "n'était",
+   "start": 2.197,
+   "end": 3.064
+  },
+  {
+   "word": "pas",
+   "start": 3.144,
+   "end": 3.224
+  },
+  {
+   "word": "de",
+   "start": 3.224,
+   "end": 3.385
+  },
+  {
+   "word": "t'installer",
+   "start": 3.385,
+   "end": 3.786
+  },
+  {
+   "word": "sur",
+   "start": 3.786,
+   "end": 3.93
+  },
+  {
+   "word": "le",
+   "start": 3.946,
+   "end": 4.026
+  },
+  {
+   "word": "canapé,",
+   "start": 4.026,
+   "end": 4.427
+  },
+  {
+   "word": "mais",
+   "start": 4.909,
+   "end": 4.989
+  },
+  {
+   "word": "simplement",
+   "start": 5.021,
+   "end": 5.55
+  },
+  {
+   "word": "de",
+   "start": 5.55,
+   "end": 5.631
+  },
+  {
+   "word": "marcher?",
+   "start": 5.631,
+   "end": 5.919
+  },
+  {
+   "word": "Quand",
+   "start": 6.754,
+   "end": 6.834
+  },
+  {
+   "word": "tu",
+   "start": 6.866,
+   "end": 7.026
+  },
+  {
+   "word": "manges,",
+   "start": 7.026,
+   "end": 7.379
+  },
+  {
+   "word": "une",
+   "start": 7.572,
+   "end": 7.636
+  },
+  {
+   "word": "partie",
+   "start": 7.636,
+   "end": 7.957
+  },
+  {
+   "word": "des",
+   "start": 7.957,
+   "end": 8.037
+  },
+  {
+   "word": "glucides",
+   "start": 8.101,
+   "end": 8.454
+  },
+  {
+   "word": "est",
+   "start": 8.454,
+   "end": 8.518
+  },
+  {
+   "word": "transformée",
+   "start": 8.599,
+   "end": 9.096
+  },
+  {
+   "word": "en",
+   "start": 9.096,
+   "end": 9.16
+  },
+  {
+   "word": "glucose,",
+   "start": 9.24,
+   "end": 9.609
+  },
+  {
+   "word": "qui",
+   "start": 9.802,
+   "end": 9.962
+  },
+  {
+   "word": "passe",
+   "start": 9.962,
+   "end": 10.203
+  },
+  {
+   "word": "dans",
+   "start": 10.203,
+   "end": 10.283
+  },
+  {
+   "word": "ton",
+   "start": 10.283,
+   "end": 10.444
+  },
+  {
+   "word": "sang.",
+   "start": 10.476,
+   "end": 10.572
+  },
+  {
+   "word": "C'est",
+   "start": 10.925,
+   "end": 11.037
+  },
+  {
+   "word": "normal.",
+   "start": 11.037,
+   "end": 11.358
+  },
+  {
+   "word": "Mais",
+   "start": 11.968,
+   "end": 12.08
+  },
+  {
+   "word": "voici",
+   "start": 12.128,
+   "end": 12.401
+  },
+  {
+   "word": "ce",
+   "start": 12.401,
+   "end": 12.449
+  },
+  {
+   "word": "qui",
+   "start": 12.449,
+   "end": 12.561
+  },
+  {
+   "word": "est",
+   "start": 12.561,
+   "end": 12.706
+  },
+  {
+   "word": "intéressant:",
+   "start": 12.706,
+   "end": 13.123
+  },
+  {
+   "word": "tes",
+   "start": 13.732,
+   "end": 13.813
+  },
+  {
+   "word": "muscles",
+   "start": 13.813,
+   "end": 14.214
+  },
+  {
+   "word": "peuvent",
+   "start": 14.214,
+   "end": 14.438
+  },
+  {
+   "word": "aider",
+   "start": 14.551,
+   "end": 14.775
+  },
+  {
+   "word": "ton",
+   "start": 14.775,
+   "end": 14.936
+  },
+  {
+   "word": "corps",
+   "start": 14.936,
+   "end": 15.16
+  },
+  {
+   "word": "à",
+   "start": 15.273,
+   "end": 15.337
+  },
+  {
+   "word": "utiliser",
+   "start": 15.353,
+   "end": 15.818
+  },
+  {
+   "word": "ce",
+   "start": 15.818,
+   "end": 15.93
+  },
+  {
+   "word": "glucose.",
+   "start": 15.93,
+   "end": 16.347
+  },
+  {
+   "word": "Et",
+   "start": 17.117,
+   "end": 17.182
+  },
+  {
+   "word": "pour",
+   "start": 17.182,
+   "end": 17.278
+  },
+  {
+   "word": "ça,",
+   "start": 17.342,
+   "end": 17.615
+  },
+  {
+   "word": "ils",
+   "start": 17.759,
+   "end": 17.839
+  },
+  {
+   "word": "n'ont",
+   "start": 17.839,
+   "end": 17.984
+  },
+  {
+   "word": "pas",
+   "start": 18.064,
+   "end": 18.144
+  },
+  {
+   "word": "besoin",
+   "start": 18.144,
+   "end": 18.497
+  },
+  {
+   "word": "d'une",
+   "start": 18.497,
+   "end": 18.706
+  },
+  {
+   "word": "séance",
+   "start": 18.706,
+   "end": 19.027
+  },
+  {
+   "word": "de",
+   "start": 19.027,
+   "end": 19.107
+  },
+  {
+   "word": "sport",
+   "start": 19.139,
+   "end": 19.444
+  },
+  {
+   "word": "intense.",
+   "start": 19.444,
+   "end": 19.716
+  },
+  {
+   "word": "Lorsqu'ils",
+   "start": 20.551,
+   "end": 20.936
+  },
+  {
+   "word": "se",
+   "start": 20.984,
+   "end": 21.192
+  },
+  {
+   "word": "contractent",
+   "start": 21.192,
+   "end": 21.593
+  },
+  {
+   "word": "pendant",
+   "start": 21.593,
+   "end": 21.866
+  },
+  {
+   "word": "la",
+   "start": 21.866,
+   "end": 21.946
+  },
+  {
+   "word": "marche,",
+   "start": 21.946,
+   "end": 22.331
+  },
+  {
+   "word": "ils",
+   "start": 22.813,
+   "end": 22.909
+  },
+  {
+   "word": "facilitent",
+   "start": 22.957,
+   "end": 23.535
+  },
+  {
+   "word": "l'entrée",
+   "start": 23.535,
+   "end": 24.0
+  },
+  {
+   "word": "du",
+   "start": 24.08,
+   "end": 24.16
+  },
+  {
+   "word": "glucose",
+   "start": 24.16,
+   "end": 24.626
+  },
+  {
+   "word": "dans",
+   "start": 24.722,
+   "end": 24.77
+  },
+  {
+   "word": "les",
+   "start": 24.802,
+   "end": 24.882
+  },
+  {
+   "word": "cellules",
+   "start": 24.882,
+   "end": 25.219
+  },
+  {
+   "word": "musculaires.",
+   "start": 25.219,
+   "end": 25.733
+  },
+  {
+   "word": "Résultat:",
+   "start": 26.326,
+   "end": 26.695
+  },
+  {
+   "word": "la",
+   "start": 27.289,
+   "end": 27.466
+  },
+  {
+   "word": "hausse",
+   "start": 27.466,
+   "end": 27.61
+  },
+  {
+   "word": "du",
+   "start": 27.61,
+   "end": 27.771
+  },
+  {
+   "word": "sucre",
+   "start": 27.771,
+   "end": 28.092
+  },
+  {
+   "word": "dans",
+   "start": 28.092,
+   "end": 28.204
+  },
+  {
+   "word": "le",
+   "start": 28.204,
+   "end": 28.332
+  },
+  {
+   "word": "sang",
+   "start": 28.332,
+   "end": 28.493
+  },
+  {
+   "word": "après",
+   "start": 28.669,
+   "end": 28.974
+  },
+  {
+   "word": "le",
+   "start": 28.974,
+   "end": 29.006
+  },
+  {
+   "word": "repas",
+   "start": 29.006,
+   "end": 29.375
+  },
+  {
+   "word": "peut",
+   "start": 29.375,
+   "end": 29.536
+  },
+  {
+   "word": "être",
+   "start": 29.552,
+   "end": 29.761
+  },
+  {
+   "word": "moins",
+   "start": 29.809,
+   "end": 30.114
+  },
+  {
+   "word": "importante.",
+   "start": 30.114,
+   "end": 30.627
+  },
+  {
+   "word": "Et",
+   "start": 31.237,
+   "end": 31.301
+  },
+  {
+   "word": "ce",
+   "start": 31.333,
+   "end": 31.446
+  },
+  {
+   "word": "n'est",
+   "start": 31.446,
+   "end": 31.622
+  },
+  {
+   "word": "pas",
+   "start": 31.622,
+   "end": 31.783
+  },
+  {
+   "word": "juste",
+   "start": 31.783,
+   "end": 32.039
+  },
+  {
+   "word": "une",
+   "start": 32.039,
+   "end": 32.184
+  },
+  {
+   "word": "théorie.",
+   "start": 32.184,
+   "end": 32.473
+  },
+  {
+   "word": "Une",
+   "start": 33.083,
+   "end": 33.131
+  },
+  {
+   "word": "méta-analyse",
+   "start": 33.147,
+   "end": 33.853
+  },
+  {
+   "word": "publiée",
+   "start": 33.949,
+   "end": 34.302
+  },
+  {
+   "word": "en",
+   "start": 34.302,
+   "end": 34.431
+  },
+  {
+   "word": "2023",
+   "start": 34.431,
+   "end": 35.185
+  },
+  {
+   "word": "a",
+   "start": 35.49,
+   "end": 35.554
+  },
+  {
+   "word": "regroupé",
+   "start": 35.554,
+   "end": 35.955
+  },
+  {
+   "word": "plusieurs",
+   "start": 36.035,
+   "end": 36.292
+  },
+  {
+   "word": "essais",
+   "start": 36.372,
+   "end": 36.597
+  },
+  {
+   "word": "scientifiques",
+   "start": 36.597,
+   "end": 37.255
+  },
+  {
+   "word": "et",
+   "start": 37.255,
+   "end": 37.335
+  },
+  {
+   "word": "a",
+   "start": 37.335,
+   "end": 37.4
+  },
+  {
+   "word": "constaté",
+   "start": 37.48,
+   "end": 37.961
+  },
+  {
+   "word": "que",
+   "start": 37.961,
+   "end": 38.122
+  },
+  {
+   "word": "bouger",
+   "start": 38.122,
+   "end": 38.459
+  },
+  {
+   "word": "après",
+   "start": 38.459,
+   "end": 38.635
+  },
+  {
+   "word": "manger",
+   "start": 38.635,
+   "end": 39.052
+  },
+  {
+   "word": "permettait",
+   "start": 39.325,
+   "end": 39.646
+  },
+  {
+   "word": "de",
+   "start": 39.727,
+   "end": 39.807
+  },
+  {
+   "word": "mieux",
+   "start": 39.807,
+   "end": 39.999
+  },
+  {
+   "word": "limiter",
+   "start": 39.999,
+   "end": 40.368
+  },
+  {
+   "word": "les",
+   "start": 40.368,
+   "end": 40.449
+  },
+  {
+   "word": "pics",
+   "start": 40.529,
+   "end": 40.689
+  },
+  {
+   "word": "de",
+   "start": 40.689,
+   "end": 40.77
+  },
+  {
+   "word": "glycémie",
+   "start": 40.77,
+   "end": 41.251
+  },
+  {
+   "word": "que",
+   "start": 41.251,
+   "end": 41.412
+  },
+  {
+   "word": "rester",
+   "start": 41.412,
+   "end": 41.668
+  },
+  {
+   "word": "inactif.",
+   "start": 41.668,
+   "end": 42.166
+  },
+  {
+   "word": "Même",
+   "start": 42.856,
+   "end": 43.0
+  },
+  {
+   "word": "une",
+   "start": 43.032,
+   "end": 43.129
+  },
+  {
+   "word": "étude",
+   "start": 43.193,
+   "end": 43.498
+  },
+  {
+   "word": "publiée",
+   "start": 43.498,
+   "end": 43.867
+  },
+  {
+   "word": "en",
+   "start": 43.915,
+   "end": 44.06
+  },
+  {
+   "word": "2025",
+   "start": 44.06,
+   "end": 44.878
+  },
+  {
+   "word": "a",
+   "start": 44.878,
+   "end": 45.038
+  },
+  {
+   "word": "observé",
+   "start": 45.038,
+   "end": 45.44
+  },
+  {
+   "word": "un",
+   "start": 45.44,
+   "end": 45.584
+  },
+  {
+   "word": "effet",
+   "start": 45.6,
+   "end": 45.825
+  },
+  {
+   "word": "positif",
+   "start": 45.825,
+   "end": 46.483
+  },
+  {
+   "word": "avec",
+   "start": 46.483,
+   "end": 46.707
+  },
+  {
+   "word": "seulement",
+   "start": 46.707,
+   "end": 47.028
+  },
+  {
+   "word": "10",
+   "start": 47.028,
+   "end": 47.189
+  },
+  {
+   "word": "minutes",
+   "start": 47.189,
+   "end": 47.51
+  },
+  {
+   "word": "de",
+   "start": 47.51,
+   "end": 47.59
+  },
+  {
+   "word": "marche",
+   "start": 47.59,
+   "end": 47.991
+  },
+  {
+   "word": "après",
+   "start": 48.088,
+   "end": 48.328
+  },
+  {
+   "word": "une",
+   "start": 48.328,
+   "end": 48.473
+  },
+  {
+   "word": "prise",
+   "start": 48.473,
+   "end": 48.633
+  },
+  {
+   "word": "de",
+   "start": 48.633,
+   "end": 48.794
+  },
+  {
+   "word": "glucose.",
+   "start": 48.794,
+   "end": 49.163
+  },
+  {
+   "word": "Alors,",
+   "start": 49.933,
+   "end": 50.142
+  },
+  {
+   "word": "la",
+   "start": 50.72,
+   "end": 50.768
+  },
+  {
+   "word": "prochaine",
+   "start": 50.8,
+   "end": 51.04
+  },
+  {
+   "word": "fois",
+   "start": 51.121,
+   "end": 51.281
+  },
+  {
+   "word": "que",
+   "start": 51.281,
+   "end": 51.361
+  },
+  {
+   "word": "tu",
+   "start": 51.361,
+   "end": 51.522
+  },
+  {
+   "word": "termines",
+   "start": 51.522,
+   "end": 51.923
+  },
+  {
+   "word": "ton",
+   "start": 51.923,
+   "end": 52.084
+  },
+  {
+   "word": "repas,",
+   "start": 52.084,
+   "end": 52.372
+  },
+  {
+   "word": "Avant",
+   "start": 52.742,
+   "end": 52.967
+  },
+  {
+   "word": "de",
+   "start": 52.967,
+   "end": 53.048
+  },
+  {
+   "word": "t'installer",
+   "start": 53.048,
+   "end": 53.482
+  },
+  {
+   "word": "sur",
+   "start": 53.482,
+   "end": 53.611
+  },
+  {
+   "word": "le",
+   "start": 53.611,
+   "end": 53.691
+  },
+  {
+   "word": "canapé,",
+   "start": 53.772,
+   "end": 54.142
+  },
+  {
+   "word": "pourquoi",
+   "start": 54.657,
+   "end": 54.931
+  },
+  {
+   "word": "ne",
+   "start": 54.931,
+   "end": 54.979
+  },
+  {
+   "word": "pas",
+   "start": 55.06,
+   "end": 55.14
+  },
+  {
+   "word": "faire",
+   "start": 55.14,
+   "end": 55.285
+  },
+  {
+   "word": "quelques",
+   "start": 55.301,
+   "end": 55.543
+  },
+  {
+   "word": "pas?",
+   "start": 55.623,
+   "end": 55.752
+  },
+  {
+   "word": "Ton",
+   "start": 56.347,
+   "end": 56.508
+  },
+  {
+   "word": "corps",
+   "start": 56.589,
+   "end": 56.734
+  },
+  {
+   "word": "pourrait",
+   "start": 56.911,
+   "end": 57.152
+  },
+  {
+   "word": "bien",
+   "start": 57.152,
+   "end": 57.313
+  },
+  {
+   "word": "apprécier",
+   "start": 57.329,
+   "end": 57.796
+  },
+  {
+   "word": "cette",
+   "start": 57.796,
+   "end": 58.038
+  },
+  {
+   "word": "petite",
+   "start": 58.038,
+   "end": 58.295
+  },
+  {
+   "word": "habitude.",
+   "start": 58.295,
+   "end": 58.73
+  },
+  {
+   "word": "Abonne-toi,",
+   "start": 59.502,
+   "end": 59.937
+  },
+  {
+   "word": "une",
+   "start": 60.146,
+   "end": 60.211
+  },
+  {
+   "word": "nouvelle",
+   "start": 60.211,
+   "end": 60.516
+  },
+  {
+   "word": "vidéo",
+   "start": 60.533,
+   "end": 60.935
+  },
+  {
+   "word": "chaque",
+   "start": 60.935,
+   "end": 61.176
+  },
+  {
+   "word": "jour.",
+   "start": 61.176,
+   "end": 61.386
+  },
+  {
+   "word": "Et",
+   "start": 61.917,
+   "end": 61.981
+  },
+  {
+   "word": "retrouve-nous",
+   "start": 61.981,
+   "end": 62.384
+  },
+  {
+   "word": "sur",
+   "start": 62.464,
+   "end": 62.593
+  },
+  {
+   "word": "Calibody.com!",
+   "start": 62.593,
+   "end": 63.575
+  }
+ ],
+ "text": "Et si le meilleur réflexe après ton repas n'était pas de t'installer sur le canapé, mais simplement de marcher? Quand tu manges, une partie des glucides est transformée en glucose, qui passe dans ton sang. C'est normal. Mais voici ce qui est intéressant: tes muscles peuvent aider ton corps à utiliser ce glucose. Et pour ça, ils n'ont pas besoin d'une séance de sport intense. Lorsqu'ils se contractent pendant la marche, ils facilitent l'entrée du glucose dans les cellules musculaires. Résultat: la hausse du sucre dans le sang après le repas peut être moins importante. Et ce n'est pas juste une théorie. Une méta-analyse publiée en 2023 a regroupé plusieurs essais scientifiques et a constaté que bouger après manger permettait de mieux limiter les pics de glycémie que rester inactif. Même une étude publiée en 2025 a observé un effet positif avec seulement 10 minutes de marche après une prise de glucose. Alors, la prochaine fois que tu termines ton repas, Avant de t'installer sur le canapé, pourquoi ne pas faire quelques pas? Ton corps pourrait bien apprécier cette petite habitude. Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur Calibody.com!"
+}

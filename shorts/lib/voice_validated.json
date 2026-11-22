@@ -134,7 +134,8 @@
    "auto": true
   },
   "lorsqu'ils": {
-   "mode": "glue",
+   "mode": "ipa",
+   "value": "loʁskil",
    "auto": true
   },
   "d'échauffement": {
@@ -189,6 +190,21 @@
   "d'une": {
    "mode": "ipa",
    "value": "dyn",
+   "auto": true
+  },
+  "n'était": {
+   "mode": "ipa",
+   "value": "netɛ",
+   "auto": true
+  },
+  "t'installer": {
+   "mode": "ipa",
+   "value": "tɛ̃stale",
+   "auto": true
+  },
+  "l'entrée": {
+   "mode": "ipa",
+   "value": "lɑ̃tʁe",
    "auto": true
   }
  }
