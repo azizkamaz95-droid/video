@@ -1,0 +1,226 @@
+{
+ "title": "Marche après le repas",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -29.5,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [
+  [
+   29.5,
+   41.0
+  ],
+  [
+   41.0,
+   45.4
+  ]
+ ],
+ "hits": [
+  8.04
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 15.85
+  },
+  {
+   "type": "body",
+   "start": 15.85,
+   "end": 47.95
+  },
+  {
+   "type": "outro",
+   "start": 47.95,
+   "end": 62.82
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   1.48
+  ],
+  [
+   "stamp",
+   3.31
+  ],
+  [
+   "whoosh",
+   3.4
+  ],
+  [
+   "stamp",
+   4.85
+  ],
+  [
+   "whoosh",
+   5.6
+  ],
+  [
+   "stamp",
+   7.0
+  ],
+  [
+   "whoosh",
+   7.9
+  ],
+  [
+   "stamp",
+   8.04
+  ],
+  [
+   "thump",
+   8.04
+  ],
+  [
+   "whoosh",
+   9.95
+  ],
+  [
+   "stamp",
+   10.05
+  ],
+  [
+   "whoosh",
+   12.75
+  ],
+  [
+   "stamp",
+   13.42
+  ],
+  [
+   "whoosh",
+   15.8
+  ],
+  [
+   "stamp",
+   16.88
+  ],
+  [
+   "stamp",
+   18.18
+  ],
+  [
+   "whoosh",
+   18.6
+  ],
+  [
+   "stamp",
+   20.33
+  ],
+  [
+   "whoosh",
+   21.4
+  ],
+  [
+   "stamp",
+   22.57
+  ],
+  [
+   "whoosh",
+   24.55
+  ],
+  [
+   "stamp",
+   24.66
+  ],
+  [
+   "whoosh",
+   26.95
+  ],
+  [
+   "stamp",
+   28.11
+  ],
+  [
+   "whoosh",
+   29.45
+  ],
+  [
+   "stamp",
+   30.6
+  ],
+  [
+   "stamp",
+   32.77
+  ],
+  [
+   "whoosh",
+   35.65
+  ],
+  [
+   "stamp",
+   36.54
+  ],
+  [
+   "stamp",
+   38.17
+  ],
+  [
+   "whoosh",
+   38.8
+  ],
+  [
+   "stamp",
+   40.09
+  ],
+  [
+   "whoosh",
+   40.95
+  ],
+  [
+   "stamp",
+   42.4
+  ],
+  [
+   "whoosh",
+   45.35
+  ],
+  [
+   "stamp",
+   45.45
+  ],
+  [
+   "whoosh",
+   47.9
+  ],
+  [
+   "stamp",
+   49.7
+  ],
+  [
+   "whoosh",
+   50.35
+  ],
+  [
+   "stamp",
+   51.38
+  ],
+  [
+   "whoosh",
+   52.1
+  ],
+  [
+   "stamp",
+   52.99
+  ],
+  [
+   "whoosh",
+   53.95
+  ],
+  [
+   "stamp",
+   55.11
+  ],
+  [
+   "stamp",
+   59.73
+  ]
+ ],
+ "music_file": "assets/music/motivation-quotidienne.mp3",
+ "music_loop": [
+  0.0,
+  48.0
+ ]
+}
