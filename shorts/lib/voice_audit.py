@@ -51,9 +51,9 @@ def asr(wav):
 def check(i):
     x = W[i]; raw = x["word"]
     exp = raw.lower().strip(".,;:!?…«»\"() ").replace("’", "'")
-    a, b = max(0, x["start"] - 0.03), x["end"] + 0.03
-    if re.search(r"['’]", exp) and "-" not in exp and i + 1 < len(W):      # élision : on garde le mot suivant pour que « N était » soit visible
-        b = W[i + 1]["end"] + 0.03
+    # fenêtre = le mot ET le suivant (un mot isolé de 0,15 s fait « deviner » n'importe quoi au transcripteur : « peuvent » -> « par exemple »)
+    nxt = W[i + 1] if i + 1 < len(W) else None
+    a, b = max(0, x["start"] - 0.06), (nxt["end"] if nxt else x["end"]) + 0.04
     c = os.path.join(T, f"{i}.wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", WAV, "-ss", f"{a:.3f}", "-to", f"{b:.3f}", c], check=True)
     heard = asr(c)
@@ -63,25 +63,52 @@ def check(i):
     if clit and re.match(rf"^\W*{re.escape(clit)}\s+[a-zàâäéèêëîïôöùûüœ]", h) and not re.match(rf"^\W*{re.escape(clit)}['’]", h):
         r["flag"] = "LETTRE"; return r
     e, hh = norm(exp), norm(heard)
-    if b > x["end"] + 0.1:                                  # token + mot suivant
-        e = norm(exp) + norm(W[i + 1]["word"].lower().strip(".,;:!?…«»\"() "))
     if not e:
         return r
-    ratio = difflib.SequenceMatcher(None, e, hh).ratio()
+    nxt_w = norm(nxt["word"].lower().strip(".,;:!?…«»\"() ")) if nxt else ""
+    ratio = difflib.SequenceMatcher(None, e + nxt_w, hh).ratio()
     contains = e in hh
     r["ratio"] = round(ratio, 2)
     short = len(e) < 4 or r["dur"] < 0.12
-    if not contains and ratio < MINR:
+    if not contains and ratio < 0.62:
         r["flag"] = "COURT" if short else "ECART"
     return r
 
 
 with cf.ThreadPoolExecutor(TH) as ex:
     res = list(ex.map(check, range(len(W))))
+
+
+def recheck(r):
+    """2e chance des mots signalés : fenêtre élargie (mot précédent -> mot suivant). Les écarts dus à un minutage serré disparaissent ;
+    ceux qui restent (« l'effort » -> « fort ») sont de vraies erreurs de voix."""
+    i = r["i"]
+    p = W[i - 1] if i > 0 else None
+    n = W[i + 1] if i + 1 < len(W) else None
+    a = max(0, (p["start"] if p else W[i]["start"]) - 0.05)
+    b = (n["end"] if n else W[i]["end"]) + 0.05
+    c = os.path.join(T, f"re{i}.wav")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", WAV, "-ss", f"{a:.3f}", "-to", f"{b:.3f}", c], check=True)
+    heard = asr(c)
+    e = norm(W[i]["word"].lower().strip(".,;:!?…«»\"() ").replace("’", "'"))
+    r["heard_wide"] = heard
+    if e and e in norm(heard):
+        r["flag"] = None
+    return r
+
+
+with cf.ThreadPoolExecutor(TH) as ex:
+    res = [r if r.get("flag") not in ("ECART",) else r for r in res]
+    flagged = [r for r in res if r.get("flag") == "ECART"]
+    list(ex.map(recheck, flagged))
 json.dump(res, open(os.path.join(EP, "renders/audit-voix.json"), "w"), ensure_ascii=False, indent=1)
 bad = [r for r in res if r.get("flag") in ("LETTRE", "ECART")]
 short = [r for r in res if r.get("flag") == "COURT"]
 for r in bad:
-    print(f"{r['flag']:7s} {r['t']:6.2f}s  {r['word']:18s} -> « {r['heard']} »")
+    print(f"{r['flag']:7s} {r['t']:6.2f}s  {r['word']:18s} -> « {r['heard']} »   (fenêtre large : « {r.get('heard_wide', '')} »)")
 print(f"\n{len(W)} mots réécoutés : {len(bad)} à corriger, {len(short)} mots brefs douteux (sans verdict sûr)" + (": " + ", ".join(f"{r['word']}@{r['t']}" for r in short) if short else ""))
+REG = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "voice_validated.json")))["tokens"]
+listen = sorted({re.sub(r"[^\w'’-]", "", x["word"].lower()).replace("’", "'") for x in W
+                 if re.search(r"['’]|-", x["word"]) and (not REG.get(re.sub(r"[^\w'’-]", "", x["word"].lower()).replace("’", "'")) or REG[re.sub(r"[^\w'’-]", "", x["word"].lower()).replace("’", "'")].get("auto"))})
+print("À ÉCOUTER par l'utilisateur (jamais validés à l'oreille) :", ", ".join(listen) if listen else "aucun")
 sys.exit(1 if bad else 0)

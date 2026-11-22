@@ -1,0 +1,1550 @@
+[
+ {
+  "i": 0,
+  "word": "Et",
+  "t": 0.19,
+  "dur": 0.06,
+  "heard": "Et si le",
+  "ratio": 0.8
+ },
+ {
+  "i": 1,
+  "word": "si",
+  "t": 0.26,
+  "dur": 0.24,
+  "heard": "Et si le",
+  "ratio": 0.8
+ },
+ {
+  "i": 2,
+  "word": "le",
+  "t": 0.5,
+  "dur": 0.08,
+  "heard": "Le meilleur",
+  "ratio": 1.0
+ },
+ {
+  "i": 3,
+  "word": "meilleur",
+  "t": 0.58,
+  "dur": 0.4,
+  "heard": "Le meilleur réflexe à prendre",
+  "ratio": 0.75
+ },
+ {
+  "i": 4,
+  "word": "réflexe",
+  "t": 0.98,
+  "dur": 0.5,
+  "heard": "Réflexe après ton",
+  "ratio": 0.89
+ },
+ {
+  "i": 5,
+  "word": "après",
+  "t": 1.48,
+  "dur": 0.22,
+  "heard": "Après ton retour,",
+  "ratio": 0.73
+ },
+ {
+  "i": 6,
+  "word": "ton",
+  "t": 1.7,
+  "dur": 0.13,
+  "heard": "Ton repas",
+  "ratio": 1.0
+ },
+ {
+  "i": 7,
+  "word": "repas",
+  "t": 1.83,
+  "dur": 0.23,
+  "heard": "Mon repas n'était pas",
+  "ratio": 0.79
+ },
+ {
+  "i": 8,
+  "word": "n'était",
+  "t": 2.06,
+  "dur": 0.29,
+  "heard": "Le",
+  "ratio": 0.18,
+  "flag": null,
+  "heard_wide": "Mon repas n'était pas de"
+ },
+ {
+  "i": 9,
+  "word": "pas",
+  "t": 2.34,
+  "dur": 0.11,
+  "heard": "pas de",
+  "ratio": 1.0
+ },
+ {
+  "i": 10,
+  "word": "de",
+  "t": 2.46,
+  "dur": 0.13,
+  "heard": "de t'installer",
+  "ratio": 1.0
+ },
+ {
+  "i": 11,
+  "word": "t'installer",
+  "t": 2.58,
+  "dur": 0.4,
+  "heard": "t'installer sur le",
+  "ratio": 0.93
+ },
+ {
+  "i": 12,
+  "word": "sur",
+  "t": 3.02,
+  "dur": 0.13,
+  "heard": "sur le cas",
+  "ratio": 0.77
+ },
+ {
+  "i": 13,
+  "word": "le",
+  "t": 3.15,
+  "dur": 0.16,
+  "heard": "le canapé.",
+  "ratio": 1.0
+ },
+ {
+  "i": 14,
+  "word": "canapé,",
+  "t": 3.31,
+  "dur": 0.37,
+  "heard": "canapé, mais",
+  "ratio": 1.0
+ },
+ {
+  "i": 15,
+  "word": "mais",
+  "t": 4.19,
+  "dur": 0.08,
+  "heard": "Mais simplement de",
+  "ratio": 0.93
+ },
+ {
+  "i": 16,
+  "word": "simplement",
+  "t": 4.3,
+  "dur": 0.45,
+  "heard": "simplement de me",
+  "ratio": 0.92
+ },
+ {
+  "i": 17,
+  "word": "de",
+  "t": 4.75,
+  "dur": 0.08,
+  "heard": "de marché.",
+  "ratio": 0.94
+ },
+ {
+  "i": 18,
+  "word": "marcher ?",
+  "t": 4.85,
+  "dur": 0.27,
+  "heard": "marché. Quand tu",
+  "ratio": 0.88
+ },
+ {
+  "i": 19,
+  "word": "Quand",
+  "t": 5.8,
+  "dur": 0.24,
+  "heard": "Quand tu",
+  "ratio": 1.0
+ },
+ {
+  "i": 20,
+  "word": "tu",
+  "t": 6.04,
+  "dur": 0.08,
+  "heard": "Tu manges",
+  "ratio": 1.0
+ },
+ {
+  "i": 21,
+  "word": "manges,",
+  "t": 6.12,
+  "dur": 0.21,
+  "heard": "Tu manges une",
+  "ratio": 0.9
+ },
+ {
+  "i": 22,
+  "word": "une",
+  "t": 6.37,
+  "dur": 0.05,
+  "heard": "Une partie des",
+  "ratio": 0.86
+ },
+ {
+  "i": 23,
+  "word": "partie",
+  "t": 6.52,
+  "dur": 0.32,
+  "heard": "Une partie des",
+  "ratio": 0.86
+ },
+ {
+  "i": 24,
+  "word": "des",
+  "t": 6.84,
+  "dur": 0.08,
+  "heard": "des glucides",
+  "ratio": 1.0
+ },
+ {
+  "i": 25,
+  "word": "glucides",
+  "t": 7.0,
+  "dur": 0.34,
+  "heard": "Glucides et",
+  "ratio": 0.95
+ },
+ {
+  "i": 26,
+  "word": "est",
+  "t": 7.34,
+  "dur": 0.07,
+  "heard": "des transformés en",
+  "ratio": 0.87
+ },
+ {
+  "i": 27,
+  "word": "transformée",
+  "t": 7.4,
+  "dur": 0.58,
+  "heard": "transformé en glucose.",
+  "ratio": 0.75
+ },
+ {
+  "i": 28,
+  "word": "en",
+  "t": 7.98,
+  "dur": 0.06,
+  "heard": "glucose.",
+  "ratio": 0.88
+ },
+ {
+  "i": 29,
+  "word": "glucose,",
+  "t": 8.04,
+  "dur": 0.5,
+  "heard": "glucose qui passe",
+  "ratio": 0.8
+ },
+ {
+  "i": 30,
+  "word": "qui",
+  "t": 8.77,
+  "dur": 0.16,
+  "heard": "Qui passe dans",
+  "ratio": 0.8
+ },
+ {
+  "i": 31,
+  "word": "passe",
+  "t": 8.93,
+  "dur": 0.24,
+  "heard": "Il passe dans ton",
+  "ratio": 0.78
+ },
+ {
+  "i": 32,
+  "word": "dans",
+  "t": 9.17,
+  "dur": 0.08,
+  "heard": "dans ton",
+  "ratio": 1.0
+ },
+ {
+  "i": 33,
+  "word": "ton",
+  "t": 9.25,
+  "dur": 0.16,
+  "heard": "ton sang.",
+  "ratio": 1.0
+ },
+ {
+  "i": 34,
+  "word": "sang.",
+  "t": 9.41,
+  "dur": 0.19,
+  "heard": "C'est non.",
+  "ratio": 0.53,
+  "flag": null,
+  "heard_wide": "ton sang, c'est normal."
+ },
+ {
+  "i": 35,
+  "word": "C'est",
+  "t": 10.05,
+  "dur": 0.11,
+  "heard": "C'est normal.",
+  "ratio": 1.0
+ },
+ {
+  "i": 36,
+  "word": "normal.",
+  "t": 10.16,
+  "dur": 0.42,
+  "heard": "normal, mais vous",
+  "ratio": 0.83
+ },
+ {
+  "i": 37,
+  "word": "Mais",
+  "t": 11.18,
+  "dur": 0.11,
+  "heard": "Mais voici ce",
+  "ratio": 0.9
+ },
+ {
+  "i": 38,
+  "word": "voici",
+  "t": 11.34,
+  "dur": 0.24,
+  "heard": "Et voici ce qui est",
+  "ratio": 0.64
+ },
+ {
+  "i": 39,
+  "word": "ce",
+  "t": 11.58,
+  "dur": 0.08,
+  "heard": "ce qui est",
+  "ratio": 0.77
+ },
+ {
+  "i": 40,
+  "word": "qui",
+  "t": 11.66,
+  "dur": 0.1,
+  "heard": "Ce qui est",
+  "ratio": 0.86
+ },
+ {
+  "i": 41,
+  "word": "est",
+  "t": 11.75,
+  "dur": 0.08,
+  "heard": "intéressant.",
+  "ratio": 0.88
+ },
+ {
+  "i": 42,
+  "word": "intéressant :",
+  "t": 11.83,
+  "dur": 0.51,
+  "heard": "intéressant. T'es mieux",
+  "ratio": 0.85
+ },
+ {
+  "i": 43,
+  "word": "tes",
+  "t": 12.86,
+  "dur": 0.16,
+  "heard": "Tes muscles peuvent",
+  "ratio": 0.74
+ },
+ {
+  "i": 44,
+  "word": "muscles",
+  "t": 13.02,
+  "dur": 0.4,
+  "heard": "Les muscles peuvent",
+  "ratio": 0.9
+ },
+ {
+  "i": 45,
+  "word": "peuvent",
+  "t": 13.42,
+  "dur": 0.14,
+  "heard": "peuvent aider ton",
+  "ratio": 0.89
+ },
+ {
+  "i": 46,
+  "word": "aider",
+  "t": 13.6,
+  "dur": 0.22,
+  "heard": "Vider ton corps.",
+  "ratio": 0.67
+ },
+ {
+  "i": 47,
+  "word": "ton",
+  "t": 13.82,
+  "dur": 0.16,
+  "heard": "Ton corps est",
+  "ratio": 0.84
+ },
+ {
+  "i": 48,
+  "word": "corps",
+  "t": 13.98,
+  "dur": 0.13,
+  "heard": "Encore un",
+  "ratio": 0.43,
+  "flag": null,
+  "heard_wide": "Ton corps a eu"
+ },
+ {
+  "i": 49,
+  "word": "à",
+  "t": 14.11,
+  "dur": 0.03,
+  "heard": "à utiliser ce",
+  "ratio": 0.9
+ },
+ {
+  "i": 50,
+  "word": "utiliser",
+  "t": 14.16,
+  "dur": 0.5,
+  "heard": "utiliser ce glitch.",
+  "ratio": 0.77
+ },
+ {
+  "i": 51,
+  "word": "ce",
+  "t": 14.66,
+  "dur": 0.13,
+  "heard": "ce glucose.",
+  "ratio": 1.0
+ },
+ {
+  "i": 52,
+  "word": "glucose.",
+  "t": 14.79,
+  "dur": 0.43,
+  "heard": "glucose. Et pour",
+  "ratio": 0.82
+ },
+ {
+  "i": 53,
+  "word": "Et",
+  "t": 15.93,
+  "dur": 0.06,
+  "heard": "Et pour ça,",
+  "ratio": 0.86
+ },
+ {
+  "i": 54,
+  "word": "pour",
+  "t": 15.99,
+  "dur": 0.18,
+  "heard": "C'est pour ça, il",
+  "ratio": 0.67
+ },
+ {
+  "i": 55,
+  "word": "ça,",
+  "t": 16.23,
+  "dur": 0.13,
+  "heard": "seigneur.",
+  "ratio": 0.15,
+  "flag": "COURT"
+ },
+ {
+  "i": 56,
+  "word": "ils",
+  "t": 16.41,
+  "dur": 0.08,
+  "heard": "Ils n'ont",
+  "ratio": 1.0
+ },
+ {
+  "i": 57,
+  "word": "n'ont",
+  "t": 16.49,
+  "dur": 0.14,
+  "heard": "Ils n'ont pas besoin",
+  "ratio": 0.61
+ },
+ {
+  "i": 58,
+  "word": "pas",
+  "t": 16.8,
+  "dur": 0.08,
+  "heard": "Pas besoin d'une",
+  "ratio": 0.82
+ },
+ {
+  "i": 59,
+  "word": "besoin",
+  "t": 16.88,
+  "dur": 0.4,
+  "heard": "besoin d'une",
+  "ratio": 1.0
+ },
+ {
+  "i": 60,
+  "word": "d'une",
+  "t": 17.28,
+  "dur": 0.24,
+  "heard": "d'une séance de",
+  "ratio": 0.91
+ },
+ {
+  "i": 61,
+  "word": "séance",
+  "t": 17.52,
+  "dur": 0.24,
+  "heard": "séance de sport.",
+  "ratio": 0.76
+ },
+ {
+  "i": 62,
+  "word": "de",
+  "t": 17.76,
+  "dur": 0.16,
+  "heard": "de sport intensif.",
+  "ratio": 0.64
+ },
+ {
+  "i": 63,
+  "word": "sport",
+  "t": 17.92,
+  "dur": 0.26,
+  "heard": "sport intense.",
+  "ratio": 1.0
+ },
+ {
+  "i": 64,
+  "word": "intense.",
+  "t": 18.18,
+  "dur": 0.43,
+  "heard": "intenses lorsqu'ils se",
+  "ratio": 0.91
+ },
+ {
+  "i": 65,
+  "word": "Lorsqu'ils",
+  "t": 19.28,
+  "dur": 0.4,
+  "heard": "Lorsqu'il se",
+  "ratio": 0.95
+ },
+ {
+  "i": 66,
+  "word": "se",
+  "t": 19.68,
+  "dur": 0.16,
+  "heard": "contracte pendant",
+  "ratio": 0.76
+ },
+ {
+  "i": 67,
+  "word": "contractent",
+  "t": 19.84,
+  "dur": 0.48,
+  "heard": "contracte pendant la",
+  "ratio": 0.89
+ },
+ {
+  "i": 68,
+  "word": "pendant",
+  "t": 20.33,
+  "dur": 0.24,
+  "heard": "Bon, dans la",
+  "ratio": 0.67
+ },
+ {
+  "i": 69,
+  "word": "la",
+  "t": 20.57,
+  "dur": 0.05,
+  "heard": "la marche.",
+  "ratio": 1.0
+ },
+ {
+  "i": 70,
+  "word": "marche,",
+  "t": 20.65,
+  "dur": 0.45,
+  "heard": "marche, il faut",
+  "ratio": 0.76
+ },
+ {
+  "i": 71,
+  "word": "ils",
+  "t": 21.47,
+  "dur": 0.1,
+  "heard": "Il facilite l'entretien",
+  "ratio": 0.73
+ },
+ {
+  "i": 72,
+  "word": "facilitent",
+  "t": 21.61,
+  "dur": 0.43,
+  "heard": "Facilite l'entrée du",
+  "ratio": 0.88
+ },
+ {
+  "i": 73,
+  "word": "l'entrée",
+  "t": 22.05,
+  "dur": 0.37,
+  "heard": "L'entrée du glucose",
+  "ratio": 0.72
+ },
+ {
+  "i": 74,
+  "word": "du",
+  "t": 22.41,
+  "dur": 0.16,
+  "heard": "du glucose dans",
+  "ratio": 0.82
+ },
+ {
+  "i": 75,
+  "word": "glucose",
+  "t": 22.57,
+  "dur": 0.4,
+  "heard": "Glucose dans les",
+  "ratio": 0.88
+ },
+ {
+  "i": 76,
+  "word": "dans",
+  "t": 22.98,
+  "dur": 0.11,
+  "heard": "dans les",
+  "ratio": 1.0
+ },
+ {
+  "i": 77,
+  "word": "les",
+  "t": 23.09,
+  "dur": 0.13,
+  "heard": "Les cellules musculaires",
+  "ratio": 0.67
+ },
+ {
+  "i": 78,
+  "word": "cellules",
+  "t": 23.22,
+  "dur": 0.4,
+  "heard": "cellules musculaires.",
+  "ratio": 1.0
+ },
+ {
+  "i": 79,
+  "word": "musculaires.",
+  "t": 23.62,
+  "dur": 0.37,
+  "heard": "musculaire. Résultat.",
+  "ratio": 0.97
+ },
+ {
+  "i": 80,
+  "word": "Résultat :",
+  "t": 24.66,
+  "dur": 0.45,
+  "heard": "Résultat la hausse",
+  "ratio": 0.77
+ },
+ {
+  "i": 81,
+  "word": "la",
+  "t": 25.55,
+  "dur": 0.18,
+  "heard": "La hausse du",
+  "ratio": 0.89
+ },
+ {
+  "i": 82,
+  "word": "hausse",
+  "t": 25.72,
+  "dur": 0.14,
+  "heard": "La hausse du",
+  "ratio": 0.89
+ },
+ {
+  "i": 83,
+  "word": "du",
+  "t": 25.87,
+  "dur": 0.16,
+  "heard": "du sucre dans",
+  "ratio": 0.78
+ },
+ {
+  "i": 84,
+  "word": "sucre",
+  "t": 26.03,
+  "dur": 0.32,
+  "heard": "sucres dans le",
+  "ratio": 0.86
+ },
+ {
+  "i": 85,
+  "word": "dans",
+  "t": 26.35,
+  "dur": 0.08,
+  "heard": "dans le",
+  "ratio": 1.0
+ },
+ {
+  "i": 86,
+  "word": "le",
+  "t": 26.43,
+  "dur": 0.11,
+  "heard": "le sang.",
+  "ratio": 1.0
+ },
+ {
+  "i": 87,
+  "word": "sang",
+  "t": 26.54,
+  "dur": 0.21,
+  "heard": "sang après le",
+  "ratio": 0.9
+ },
+ {
+  "i": 88,
+  "word": "après",
+  "t": 27.01,
+  "dur": 0.23,
+  "heard": "Après le",
+  "ratio": 1.0
+ },
+ {
+  "i": 89,
+  "word": "le",
+  "t": 27.23,
+  "dur": 0.08,
+  "heard": "le repas.",
+  "ratio": 1.0
+ },
+ {
+  "i": 90,
+  "word": "repas",
+  "t": 27.31,
+  "dur": 0.4,
+  "heard": "le repas peut",
+  "ratio": 0.9
+ },
+ {
+  "i": 91,
+  "word": "peut",
+  "t": 27.71,
+  "dur": 0.05,
+  "heard": "Peut-être moins",
+  "ratio": 0.76
+ },
+ {
+  "i": 92,
+  "word": "être",
+  "t": 27.89,
+  "dur": 0.22,
+  "heard": "Peut-être moins",
+  "ratio": 0.82
+ },
+ {
+  "i": 93,
+  "word": "moins",
+  "t": 28.11,
+  "dur": 0.26,
+  "heard": "moins importantes.",
+  "ratio": 0.97
+ },
+ {
+  "i": 94,
+  "word": "importante.",
+  "t": 28.37,
+  "dur": 0.59,
+  "heard": "importante. Et ce",
+  "ratio": 0.92
+ },
+ {
+  "i": 95,
+  "word": "Et",
+  "t": 29.65,
+  "dur": 0.06,
+  "heard": "Et c'est",
+  "ratio": 0.8
+ },
+ {
+  "i": 96,
+  "word": "ce",
+  "t": 29.72,
+  "dur": 0.1,
+  "heard": "Ce n'est",
+  "ratio": 1.0
+ },
+ {
+  "i": 97,
+  "word": "n'est",
+  "t": 29.81,
+  "dur": 0.14,
+  "heard": "Ce n'est pas",
+  "ratio": 0.88
+ },
+ {
+  "i": 98,
+  "word": "pas",
+  "t": 29.96,
+  "dur": 0.16,
+  "heard": "pas juste une",
+  "ratio": 0.84
+ },
+ {
+  "i": 99,
+  "word": "juste",
+  "t": 30.12,
+  "dur": 0.26,
+  "heard": "Juste une tête.",
+  "ratio": 0.8
+ },
+ {
+  "i": 100,
+  "word": "une",
+  "t": 30.38,
+  "dur": 0.22,
+  "heard": "une théorie.",
+  "ratio": 1.0
+ },
+ {
+  "i": 101,
+  "word": "théorie.",
+  "t": 30.6,
+  "dur": 0.29,
+  "heard": "Une méthode",
+  "ratio": 0.3,
+  "flag": null,
+  "heard_wide": "C'est une théorie, une méthode"
+ },
+ {
+  "i": 102,
+  "word": "Une",
+  "t": 31.42,
+  "dur": 0.14,
+  "heard": "Une méta-analyse publiée",
+  "ratio": 0.8
+ },
+ {
+  "i": 103,
+  "word": "méta-analyse",
+  "t": 31.56,
+  "dur": 0.72,
+  "heard": "Une méta-analyse publiée en",
+  "ratio": 0.88
+ },
+ {
+  "i": 104,
+  "word": "publiée",
+  "t": 32.29,
+  "dur": 0.42,
+  "heard": "Publié en",
+  "ratio": 0.94
+ },
+ {
+  "i": 105,
+  "word": "en",
+  "t": 32.7,
+  "dur": 0.06,
+  "heard": "2023.",
+  "ratio": 0.8
+ },
+ {
+  "i": 106,
+  "word": "2023",
+  "t": 32.77,
+  "dur": 0.72,
+  "heard": "2023, a",
+  "ratio": 1.0
+ },
+ {
+  "i": 107,
+  "word": "a",
+  "t": 33.91,
+  "dur": 0.02,
+  "heard": "Regrouper plusieurs",
+  "ratio": 0.59,
+  "flag": "COURT"
+ },
+ {
+  "i": 108,
+  "word": "regroupé",
+  "t": 33.92,
+  "dur": 0.45,
+  "heard": "Regrouper plusieurs éléments.",
+  "ratio": 0.79
+ },
+ {
+  "i": 109,
+  "word": "plusieurs",
+  "t": 34.37,
+  "dur": 0.34,
+  "heard": "Plusieurs essais",
+  "ratio": 1.0
+ },
+ {
+  "i": 110,
+  "word": "essais",
+  "t": 34.71,
+  "dur": 0.22,
+  "heard": "essais scientifiques et",
+  "ratio": 0.95
+ },
+ {
+  "i": 111,
+  "word": "scientifiques",
+  "t": 34.97,
+  "dur": 0.63,
+  "heard": "scientifique et à",
+  "ratio": 0.93
+ },
+ {
+  "i": 112,
+  "word": "et",
+  "t": 35.67,
+  "dur": 0.08,
+  "heard": "Et à quoi",
+  "ratio": 0.6
+ },
+ {
+  "i": 113,
+  "word": "a",
+  "t": 35.75,
+  "dur": 0.06,
+  "heard": "constater que",
+  "ratio": 0.76
+ },
+ {
+  "i": 114,
+  "word": "constaté",
+  "t": 35.82,
+  "dur": 0.56,
+  "heard": "On a constaté que",
+  "ratio": 0.88
+ },
+ {
+  "i": 115,
+  "word": "que",
+  "t": 36.38,
+  "dur": 0.16,
+  "heard": "que bouger à",
+  "ratio": 0.95
+ },
+ {
+  "i": 116,
+  "word": "bouger",
+  "t": 36.54,
+  "dur": 0.26,
+  "heard": "bouger après manger.",
+  "ratio": 0.79
+ },
+ {
+  "i": 117,
+  "word": "après",
+  "t": 36.8,
+  "dur": 0.23,
+  "heard": "après manger.",
+  "ratio": 1.0
+ },
+ {
+  "i": 118,
+  "word": "manger",
+  "t": 37.02,
+  "dur": 0.43,
+  "heard": "manger permettait de",
+  "ratio": 0.94
+ },
+ {
+  "i": 119,
+  "word": "permettait",
+  "t": 37.66,
+  "dur": 0.4,
+  "heard": "Permettez de mieux",
+  "ratio": 0.64
+ },
+ {
+  "i": 120,
+  "word": "de",
+  "t": 38.06,
+  "dur": 0.08,
+  "heard": "de mieux limiter",
+  "ratio": 0.67
+ },
+ {
+  "i": 121,
+  "word": "mieux",
+  "t": 38.17,
+  "dur": 0.21,
+  "heard": "mieux limiter les",
+  "ratio": 0.89
+ },
+ {
+  "i": 122,
+  "word": "limiter",
+  "t": 38.38,
+  "dur": 0.35,
+  "heard": "On peut limiter les pertes",
+  "ratio": 0.62
+ },
+ {
+  "i": 123,
+  "word": "les",
+  "t": 38.74,
+  "dur": 0.13,
+  "heard": "Les pics de",
+  "ratio": 0.88
+ },
+ {
+  "i": 124,
+  "word": "pics",
+  "t": 38.87,
+  "dur": 0.16,
+  "heard": "Et puis",
+  "ratio": 0.5,
+  "flag": null,
+  "heard_wide": "Les pics de glisse."
+ },
+ {
+  "i": 125,
+  "word": "de",
+  "t": 39.03,
+  "dur": 0.16,
+  "heard": "de glycémie que",
+  "ratio": 0.87
+ },
+ {
+  "i": 126,
+  "word": "glycémie",
+  "t": 39.19,
+  "dur": 0.48,
+  "heard": "Glycémie que",
+  "ratio": 1.0
+ },
+ {
+  "i": 127,
+  "word": "que",
+  "t": 39.67,
+  "dur": 0.11,
+  "heard": "que rester ici.",
+  "ratio": 0.86
+ },
+ {
+  "i": 128,
+  "word": "rester",
+  "t": 39.78,
+  "dur": 0.26,
+  "heard": "rester inactif.",
+  "ratio": 1.0
+ },
+ {
+  "i": 129,
+  "word": "inactif.",
+  "t": 40.09,
+  "dur": 0.43,
+  "heard": "inactif. Même une",
+  "ratio": 0.88
+ },
+ {
+  "i": 130,
+  "word": "Même",
+  "t": 41.19,
+  "dur": 0.26,
+  "heard": "Même une",
+  "ratio": 1.0
+ },
+ {
+  "i": 131,
+  "word": "une",
+  "t": 41.45,
+  "dur": 0.05,
+  "heard": "Une étude publiée",
+  "ratio": 0.7
+ },
+ {
+  "i": 132,
+  "word": "étude",
+  "t": 41.53,
+  "dur": 0.3,
+  "heard": "Une étude publiée en",
+  "ratio": 0.83
+ },
+ {
+  "i": 133,
+  "word": "publiée",
+  "t": 41.83,
+  "dur": 0.37,
+  "heard": "Publié en",
+  "ratio": 0.94
+ },
+ {
+  "i": 134,
+  "word": "en",
+  "t": 42.25,
+  "dur": 0.14,
+  "heard": "en 2025 à",
+  "ratio": 0.92
+ },
+ {
+  "i": 135,
+  "word": "2025",
+  "t": 42.4,
+  "dur": 0.82,
+  "heard": "2025 à",
+  "ratio": 1.0
+ },
+ {
+  "i": 136,
+  "word": "a",
+  "t": 43.22,
+  "dur": 0.03,
+  "heard": "Car à observer un",
+  "ratio": 0.73
+ },
+ {
+  "i": 137,
+  "word": "observé",
+  "t": 43.5,
+  "dur": 0.42,
+  "heard": "On a observé un effet",
+  "ratio": 0.69
+ },
+ {
+  "i": 138,
+  "word": "un",
+  "t": 43.95,
+  "dur": 0.03,
+  "heard": "En effet, peu",
+  "ratio": 0.71
+ },
+ {
+  "i": 139,
+  "word": "effet",
+  "t": 44.02,
+  "dur": 0.22,
+  "heard": "effets positifs.",
+  "ratio": 0.92
+ },
+ {
+  "i": 140,
+  "word": "positif",
+  "t": 44.24,
+  "dur": 0.5,
+  "heard": "positif avec ce",
+  "ratio": 0.92
+ },
+ {
+  "i": 141,
+  "word": "avec",
+  "t": 44.74,
+  "dur": 0.26,
+  "heard": "Avec seulement 10",
+  "ratio": 0.93
+ },
+ {
+  "i": 142,
+  "word": "seulement",
+  "t": 45.04,
+  "dur": 0.32,
+  "heard": "Avec seulement 10 minutes",
+  "ratio": 0.59
+ },
+ {
+  "i": 143,
+  "word": "dix",
+  "t": 45.45,
+  "dur": 0.11,
+  "heard": "Diminuez donc",
+  "ratio": 0.64
+ },
+ {
+  "i": 144,
+  "word": "minutes",
+  "t": 45.56,
+  "dur": 0.22,
+  "heard": "minutes de marche.",
+  "ratio": 0.75
+ },
+ {
+  "i": 145,
+  "word": "de",
+  "t": 45.85,
+  "dur": 0.11,
+  "heard": "de marche à",
+  "ratio": 0.94
+ },
+ {
+  "i": 146,
+  "word": "marche",
+  "t": 45.96,
+  "dur": 0.46,
+  "heard": "après une",
+  "ratio": 0.53,
+  "flag": null,
+  "heard_wide": "de marche après une"
+ },
+ {
+  "i": 147,
+  "word": "après",
+  "t": 46.42,
+  "dur": 0.26,
+  "heard": "Après une prise",
+  "ratio": 0.76
+ },
+ {
+  "i": 148,
+  "word": "une",
+  "t": 46.68,
+  "dur": 0.13,
+  "heard": "Une prise de",
+  "ratio": 0.89
+ },
+ {
+  "i": 149,
+  "word": "prise",
+  "t": 46.81,
+  "dur": 0.18,
+  "heard": "Prise de glucose.",
+  "ratio": 0.67
+ },
+ {
+  "i": 150,
+  "word": "de",
+  "t": 47.05,
+  "dur": 0.08,
+  "heard": "glucose.",
+  "ratio": 0.88
+ },
+ {
+  "i": 151,
+  "word": "glucose.",
+  "t": 47.13,
+  "dur": 0.37,
+  "heard": "Alors, la première chose à savoir,",
+  "ratio": 0.26,
+  "flag": null,
+  "heard_wide": "glucose. Alors la"
+ },
+ {
+  "i": 152,
+  "word": "Alors,",
+  "t": 48.27,
+  "dur": 0.18,
+  "heard": "Alors la première",
+  "ratio": 0.64
+ },
+ {
+  "i": 153,
+  "word": "la",
+  "t": 48.49,
+  "dur": 0.08,
+  "heard": "À la prochaine fois",
+  "ratio": 0.81
+ },
+ {
+  "i": 154,
+  "word": "prochaine",
+  "t": 48.58,
+  "dur": 0.32,
+  "heard": "Prochaine fois que",
+  "ratio": 0.9
+ },
+ {
+  "i": 155,
+  "word": "fois",
+  "t": 48.9,
+  "dur": 0.16,
+  "heard": "Une fois que tu",
+  "ratio": 0.74
+ },
+ {
+  "i": 156,
+  "word": "que",
+  "t": 49.06,
+  "dur": 0.16,
+  "heard": "que tu t'es",
+  "ratio": 0.77
+ },
+ {
+  "i": 157,
+  "word": "tu",
+  "t": 49.22,
+  "dur": 0.08,
+  "heard": "termines ton rang.",
+  "ratio": 0.64
+ },
+ {
+  "i": 158,
+  "word": "termines",
+  "t": 49.3,
+  "dur": 0.4,
+  "heard": "Détermine ton revenu.",
+  "ratio": 0.69
+ },
+ {
+  "i": 159,
+  "word": "ton",
+  "t": 49.7,
+  "dur": 0.08,
+  "heard": "repas.",
+  "ratio": 0.77
+ },
+ {
+  "i": 160,
+  "word": "repas,",
+  "t": 49.78,
+  "dur": 0.32,
+  "heard": "repas avant de",
+  "ratio": 0.91
+ },
+ {
+  "i": 161,
+  "word": "avant",
+  "t": 50.44,
+  "dur": 0.15,
+  "heard": "Avant de teindre",
+  "ratio": 0.67
+ },
+ {
+  "i": 162,
+  "word": "de",
+  "t": 50.58,
+  "dur": 0.16,
+  "heard": "de t'installer sur",
+  "ratio": 0.89
+ },
+ {
+  "i": 163,
+  "word": "t'installer",
+  "t": 50.74,
+  "dur": 0.48,
+  "heard": "installé sur le",
+  "ratio": 0.85
+ },
+ {
+  "i": 164,
+  "word": "sur",
+  "t": 51.22,
+  "dur": 0.14,
+  "heard": "Sur le cas",
+  "ratio": 0.77
+ },
+ {
+  "i": 165,
+  "word": "le",
+  "t": 51.38,
+  "dur": 0.08,
+  "heard": "canapé.",
+  "ratio": 0.86
+ },
+ {
+  "i": 166,
+  "word": "canapé,",
+  "t": 51.46,
+  "dur": 0.45,
+  "heard": "canapé, pourquoi ne",
+  "ratio": 0.93
+ },
+ {
+  "i": 167,
+  "word": "pourquoi",
+  "t": 52.19,
+  "dur": 0.27,
+  "heard": "Pourquoi ne pas",
+  "ratio": 0.87
+ },
+ {
+  "i": 168,
+  "word": "ne",
+  "t": 52.46,
+  "dur": 0.13,
+  "heard": "ne pas faire.",
+  "ratio": 0.67
+ },
+ {
+  "i": 169,
+  "word": "pas",
+  "t": 52.59,
+  "dur": 0.16,
+  "heard": "pas faire",
+  "ratio": 1.0
+ },
+ {
+  "i": 170,
+  "word": "faire",
+  "t": 52.75,
+  "dur": 0.23,
+  "heard": "faire quelque part.",
+  "ratio": 0.83
+ },
+ {
+  "i": 171,
+  "word": "quelques",
+  "t": 52.99,
+  "dur": 0.32,
+  "heard": "quelque part.",
+  "ratio": 0.82
+ },
+ {
+  "i": 172,
+  "word": "pas ?",
+  "t": 53.32,
+  "dur": 0.13,
+  "heard": "pas. Ton corps",
+  "ratio": 0.71
+ },
+ {
+  "i": 173,
+  "word": "Ton",
+  "t": 54.13,
+  "dur": 0.16,
+  "heard": "Ton corps peut",
+  "ratio": 0.8
+ },
+ {
+  "i": 174,
+  "word": "corps",
+  "t": 54.29,
+  "dur": 0.31,
+  "heard": "encore pourrait",
+  "ratio": 0.81
+ },
+ {
+  "i": 175,
+  "word": "pourrait",
+  "t": 54.61,
+  "dur": 0.24,
+  "heard": "Pourrait bien",
+  "ratio": 1.0
+ },
+ {
+  "i": 176,
+  "word": "bien",
+  "t": 54.85,
+  "dur": 0.26,
+  "heard": "bien apprécier cette",
+  "ratio": 0.84
+ },
+ {
+  "i": 177,
+  "word": "apprécier",
+  "t": 55.11,
+  "dur": 0.47,
+  "heard": "Appréciez cette petite",
+  "ratio": 0.76
+ },
+ {
+  "i": 178,
+  "word": "cette",
+  "t": 55.58,
+  "dur": 0.16,
+  "heard": "Cette petite habitude",
+  "ratio": 0.73
+ },
+ {
+  "i": 179,
+  "word": "petite",
+  "t": 55.74,
+  "dur": 0.34,
+  "heard": "petite habitude.",
+  "ratio": 1.0
+ },
+ {
+  "i": 180,
+  "word": "habitude.",
+  "t": 56.09,
+  "dur": 0.34,
+  "heard": "habitudes. Abonne-toi!",
+  "ratio": 0.97
+ },
+ {
+  "i": 181,
+  "word": "Abonne-toi,",
+  "t": 57.22,
+  "dur": 0.55,
+  "heard": "Abonne-toi, une nouvelle",
+  "ratio": 0.75
+ },
+ {
+  "i": 182,
+  "word": "une",
+  "t": 57.95,
+  "dur": 0.05,
+  "heard": "nouvelle vidéo.",
+  "ratio": 0.67
+ },
+ {
+  "i": 183,
+  "word": "nouvelle",
+  "t": 58.01,
+  "dur": 0.32,
+  "heard": "nouvelle vidéo chaque",
+  "ratio": 0.81
+ },
+ {
+  "i": 184,
+  "word": "vidéo",
+  "t": 58.33,
+  "dur": 0.32,
+  "heard": "chaque jour.",
+  "ratio": 0.57,
+  "flag": null,
+  "heard_wide": "nouvelle vidéo chaque jour."
+ },
+ {
+  "i": 185,
+  "word": "chaque",
+  "t": 58.66,
+  "dur": 0.26,
+  "heard": "chaque jour.",
+  "ratio": 1.0
+ },
+ {
+  "i": 186,
+  "word": "jour.",
+  "t": 58.92,
+  "dur": 0.19,
+  "heard": "Et",
+  "ratio": 0.5,
+  "flag": null,
+  "heard_wide": "chaque jour et"
+ },
+ {
+  "i": 187,
+  "word": "Et",
+  "t": 59.65,
+  "dur": 0.06,
+  "heard": "Et retrouve-nous sur",
+  "ratio": 0.9
+ },
+ {
+  "i": 188,
+  "word": "retrouve-nous",
+  "t": 59.73,
+  "dur": 0.47,
+  "heard": "Retrouve-nous sur",
+  "ratio": 1.0
+ },
+ {
+  "i": 189,
+  "word": "sur",
+  "t": 60.2,
+  "dur": 0.16,
+  "heard": "sur calibody.com.",
+  "ratio": 0.93
+ },
+ {
+  "i": 190,
+  "word": "calibodi.com !",
+  "t": 60.41,
+  "dur": 0.97,
+  "heard": "kali-body.com.",
+  "ratio": 0.82
+ }
+]
