@@ -65,6 +65,9 @@ for i, x in enumerate(W):
     heard = asr(c)
     h = norm(heard)
     stem = re.sub(r"^(?:[cdjlmnst]|qu|jusqu|lorsqu|puisqu)'", "", w)           # l'effort -> effort
+    clit = re.split(r"['’]", w, maxsplit=1)[0] if re.search(r"['’]", w) else None
+    if clit and re.match(rf"^\W*{re.escape(clit)}\s+[a-zàâäéèêëîïôöùûüœ]", heard.lower()) and not re.match(rf"^\W*{re.escape(clit)}['’]", heard.lower()):
+        print(f"SUSPECT {raw:18s} {x['start']:6.2f}s  isolé -> « {heard} »   [LETTRE LUE SEULE : « {clit.upper()} » dit à part]"); bad.append((raw, x["start"])); continue
     if w in ACCEPT and ACCEPT[w] is None:                       # clitique trop bref pour un verdict sans contexte : à écouter
         print(f"court   {raw:18s} {x['start']:6.2f}s  isolé -> « {heard} »   [pas de verdict automatique : à écouter]"); listen.append(w); continue
     ok = (h in {norm(a_) for a_ in ACCEPT[w]}) if w in ACCEPT else False
