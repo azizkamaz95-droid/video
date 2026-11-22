@@ -95,6 +95,9 @@ def one_take(sentence, tok, variant, pron):
             return None, "(mot suivant introuvable)"
         b = aw[j2]["start"] / 1000 + 0.02
     c = os.path.join(T, "c.wav")
+    # le mot ET le suivant : avec le mot suivant, le transcripteur rend « N était pas » (lettre lue seule) ou « n'était pas » (correct)
+    j3 = next((k for k, x in enumerate(nw) if x == next_w and aw[k]["start"] / 1000 >= a), None) if next_w else None
+    b = (aw[j3]["end"] / 1000 + 0.03) if j3 is not None else None
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", f, "-ss", str(max(0, a))] + (["-to", str(b)] if b else []) + [c]
     subprocess.run(cmd, check=True)
     heard = (asr(c).get("text") or "").strip()
@@ -103,11 +106,13 @@ def one_take(sentence, tok, variant, pron):
     letter_read = bool(re.match(rf"^\W*{re.escape(clit)}\s+[a-zàâäéèêëîïôöùûüœ]", h)) and not re.match(rf"^\W*{re.escape(clit)}['’]", h)
     if letter_read:
         return False, heard
+    first = norm(heard.split()[0]) if heard.split() else ""
     if tok.lower() in ACCEPT:
-        return norm(heard) in {norm(x) for x in ACCEPT[tok.lower()]}, heard
-    if len(norm(stem)) >= 5:
-        return norm(stem) in norm(heard), heard
-    return True, heard
+        return first in {norm(x) for x in ACCEPT[tok.lower()]}, heard
+    expected = norm(clit + stem) + (next_w or "")
+    import difflib
+    ratio = difflib.SequenceMatcher(None, expected, norm(heard)).ratio()
+    return ratio >= 0.8, heard
 
 
 todo = {}

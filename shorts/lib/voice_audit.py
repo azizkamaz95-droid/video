@@ -52,6 +52,8 @@ def check(i):
     x = W[i]; raw = x["word"]
     exp = raw.lower().strip(".,;:!?…«»\"() ").replace("’", "'")
     a, b = max(0, x["start"] - 0.03), x["end"] + 0.03
+    if re.search(r"['’]", exp) and "-" not in exp and i + 1 < len(W):      # élision : on garde le mot suivant pour que « N était » soit visible
+        b = W[i + 1]["end"] + 0.03
     c = os.path.join(T, f"{i}.wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", WAV, "-ss", f"{a:.3f}", "-to", f"{b:.3f}", c], check=True)
     heard = asr(c)
@@ -61,6 +63,8 @@ def check(i):
     if clit and re.match(rf"^\W*{re.escape(clit)}\s+[a-zàâäéèêëîïôöùûüœ]", h) and not re.match(rf"^\W*{re.escape(clit)}['’]", h):
         r["flag"] = "LETTRE"; return r
     e, hh = norm(exp), norm(heard)
+    if b > x["end"] + 0.1:                                  # token + mot suivant
+        e = norm(exp) + norm(W[i + 1]["word"].lower().strip(".,;:!?…«»\"() "))
     if not e:
         return r
     ratio = difflib.SequenceMatcher(None, e, hh).ratio()
