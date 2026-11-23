@@ -67,10 +67,18 @@ def check(i):
         return r
     nxt_w = norm(nxt["word"].lower().strip(".,;:!?…«»\"() ")) if nxt else ""
     ratio = difflib.SequenceMatcher(None, e + nxt_w, hh).ratio()
-    contains = e in hh
+    contains = e in hh or (e.endswith("s") and len(e) > 4 and e[:-1] in hh)       # « légers » / « léger » : le s final ne s'entend pas
     r["ratio"] = round(ratio, 2)
     short = len(e) < 4 or r["dur"] < 0.12
-    if not contains and ratio < 0.62:
+    is_eli = bool(re.search(r"['’]", exp)) and "-" not in exp
+    if is_eli:
+        # une élision doit être entendue en entier : « c'est là » ne doit pas devenir « cette là » (le ratio seul serait trop indulgent)
+        # (h muet : « l'haltère » se dit « l'altère », on compare donc sans les h)
+        e0, h0 = e.replace("h", ""), hh.replace("h", "")
+        if e0 not in h0 and difflib.SequenceMatcher(None, e0, h0[:len(e0) + 1]).ratio() < 0.85:
+            r["flag"] = "ECART"
+            r["eli"] = not re.search(r"['’]h", exp)     # « l'haltère » (h muet) : le transcripteur l'écrit « l'alter » ; la fenêtre élargie tranche
+    elif not contains and ratio < 0.62:
         r["flag"] = "COURT" if short else "ECART"
     return r
 
@@ -92,7 +100,10 @@ def recheck(r):
     heard = asr(c)
     e = norm(W[i]["word"].lower().strip(".,;:!?…«»\"() ").replace("’", "'"))
     r["heard_wide"] = heard
-    if e and e in norm(heard):
+    if r.get("eli"):
+        return r
+    ee = e[:-1] if e.endswith("s") and len(e) > 4 else e
+    if e and (e in norm(heard) or ee in norm(heard) or e.replace("h", "") in norm(heard).replace("h", "")):
         r["flag"] = None
     return r
 

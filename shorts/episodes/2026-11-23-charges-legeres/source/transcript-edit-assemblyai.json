@@ -1,5 +1,5 @@
 {
- "duration": 61.714,
+ "duration": 61.542,
  "words": [
   {
    "word": "Et",
@@ -189,11 +189,11 @@
   {
    "word": "scientifiques",
    "start": 9.967,
-   "end": 10.465
+   "end": 10.529
   },
   {
    "word": "racontent",
-   "start": 10.465,
+   "start": 10.529,
    "end": 10.866
   },
   {
@@ -289,7 +289,7 @@
   {
    "word": "celle",
    "start": 16.789,
-   "end": 16.998
+   "end": 17.046
   },
   {
    "word": "obtenue",
@@ -309,7 +309,7 @@
   {
    "word": "charges",
    "start": 17.784,
-   "end": 18.218
+   "end": 18.169
   },
   {
    "word": "lourdes.",
@@ -374,11 +374,11 @@
   {
    "word": "faciles",
    "start": 23.611,
-   "end": 23.964
+   "end": 24.012
   },
   {
    "word": "ne",
-   "start": 23.964,
+   "start": 24.012,
    "end": 24.092
   },
   {
@@ -498,454 +498,454 @@
   },
   {
    "word": "Et",
-   "start": 31.733,
+   "start": 31.732,
    "end": 31.797
   },
   {
    "word": "c'est",
    "start": 31.797,
-   "end": 32.15
+   "end": 31.957
   },
   {
    "word": "là",
-   "start": 32.198,
-   "end": 32.342
+   "start": 31.957,
+   "end": 32.117
   },
   {
    "word": "que",
-   "start": 32.342,
-   "end": 32.407
+   "start": 32.117,
+   "end": 32.278
   },
   {
    "word": "ça",
-   "start": 32.439,
-   "end": 32.519
+   "start": 32.278,
+   "end": 32.358
   },
   {
    "word": "devient",
-   "start": 32.519,
-   "end": 32.728
+   "start": 32.358,
+   "end": 32.615
   },
   {
    "word": "intéressant.",
-   "start": 32.776,
-   "end": 33.209
+   "start": 32.615,
+   "end": 33.048
   },
   {
    "word": "Ton",
-   "start": 33.562,
-   "end": 33.755
+   "start": 33.642,
+   "end": 33.754
   },
   {
    "word": "muscle",
-   "start": 33.755,
-   "end": 34.268
+   "start": 33.754,
+   "end": 34.075
   },
   {
    "word": "ne",
-   "start": 34.525,
-   "end": 34.638
+   "start": 34.075,
+   "end": 34.203
   },
   {
    "word": "regarde",
-   "start": 34.638,
-   "end": 35.103
+   "start": 34.203,
+   "end": 34.604
   },
   {
    "word": "pas",
-   "start": 35.167,
-   "end": 35.328
+   "start": 34.604,
+   "end": 34.717
   },
   {
    "word": "le",
-   "start": 35.328,
-   "end": 35.488
+   "start": 34.717,
+   "end": 34.845
   },
   {
    "word": "poids",
-   "start": 35.488,
-   "end": 35.697
+   "start": 34.845,
+   "end": 34.957
   },
   {
    "word": "écrit",
-   "start": 35.906,
-   "end": 36.21
+   "start": 34.957,
+   "end": 35.246
   },
   {
    "word": "sur",
-   "start": 36.21,
-   "end": 36.339
+   "start": 35.246,
+   "end": 35.39
   },
   {
    "word": "l'haltère.",
-   "start": 36.339,
-   "end": 36.74
+   "start": 35.39,
+   "end": 35.695
   },
   {
    "word": "Il",
-   "start": 37.109,
-   "end": 37.254
+   "start": 36.305,
+   "end": 36.465
   },
   {
    "word": "réagit",
-   "start": 37.254,
-   "end": 37.607
+   "start": 36.465,
+   "end": 36.802
   },
   {
    "word": "notamment",
-   "start": 37.607,
-   "end": 38.056
+   "start": 36.802,
+   "end": 37.267
   },
   {
    "word": "à",
-   "start": 38.056,
-   "end": 38.136
+   "start": 37.267,
+   "end": 37.332
   },
   {
    "word": "la",
-   "start": 38.136,
-   "end": 38.185
+   "start": 37.332,
+   "end": 37.412
   },
   {
    "word": "tension",
-   "start": 38.217,
-   "end": 38.538
+   "start": 37.412,
+   "end": 37.733
   },
   {
    "word": "mécanique",
-   "start": 38.538,
-   "end": 39.115
+   "start": 37.733,
+   "end": 38.23
   },
   {
    "word": "et",
-   "start": 39.115,
-   "end": 39.196
+   "start": 38.23,
+   "end": 38.246
   },
   {
    "word": "à",
-   "start": 39.196,
-   "end": 39.244
+   "start": 38.246,
+   "end": 38.31
   },
   {
    "word": "l'effort",
-   "start": 39.244,
-   "end": 39.741
+   "start": 38.31,
+   "end": 38.679
   },
   {
    "word": "qu'il",
-   "start": 39.741,
-   "end": 39.822
+   "start": 38.695,
+   "end": 38.808
   },
   {
    "word": "doit",
-   "start": 39.822,
-   "end": 39.982
+   "start": 38.856,
+   "end": 38.968
   },
   {
    "word": "produire.",
-   "start": 40.014,
-   "end": 40.432
+   "start": 38.968,
+   "end": 39.305
   },
   {
    "word": "En",
-   "start": 41.202,
-   "end": 41.266
+   "start": 40.075,
+   "end": 40.139
   },
   {
    "word": "revanche,",
-   "start": 41.266,
-   "end": 41.683
+   "start": 40.139,
+   "end": 40.556
   },
   {
    "word": "si",
-   "start": 42.149,
-   "end": 42.229
+   "start": 41.022,
+   "end": 41.102
   },
   {
    "word": "ton",
-   "start": 42.229,
-   "end": 42.39
+   "start": 41.102,
+   "end": 41.278
   },
   {
    "word": "objectif",
-   "start": 42.406,
-   "end": 42.887
+   "start": 41.278,
+   "end": 41.76
   },
   {
    "word": "est",
-   "start": 42.887,
-   "end": 42.951
+   "start": 41.76,
+   "end": 41.776
   },
   {
    "word": "de",
-   "start": 42.951,
-   "end": 43.032
+   "start": 41.824,
+   "end": 41.904
   },
   {
    "word": "devenir",
-   "start": 43.032,
-   "end": 43.321
+   "start": 41.904,
+   "end": 42.193
   },
   {
    "word": "beaucoup",
-   "start": 43.433,
-   "end": 43.674
+   "start": 42.305,
+   "end": 42.546
   },
   {
    "word": "plus",
-   "start": 43.674,
-   "end": 43.802
+   "start": 42.546,
+   "end": 42.706
   },
   {
    "word": "fort",
-   "start": 43.834,
-   "end": 43.995
+   "start": 42.706,
+   "end": 42.899
   },
   {
    "word": "sur",
-   "start": 43.995,
-   "end": 44.251
+   "start": 42.899,
+   "end": 43.123
   },
   {
    "word": "un",
-   "start": 44.251,
-   "end": 44.267
+   "start": 43.123,
+   "end": 43.139
   },
   {
    "word": "mouvement",
-   "start": 44.267,
-   "end": 44.637
+   "start": 43.139,
+   "end": 43.508
   },
   {
    "word": "précis,",
-   "start": 44.637,
-   "end": 44.958
+   "start": 43.508,
+   "end": 43.877
   },
   {
    "word": "les",
-   "start": 45.519,
-   "end": 45.6
+   "start": 44.391,
+   "end": 44.471
   },
   {
    "word": "charges",
-   "start": 45.6,
-   "end": 45.905
+   "start": 44.471,
+   "end": 44.808
   },
   {
    "word": "lourdes",
-   "start": 45.937,
-   "end": 46.242
+   "start": 44.824,
+   "end": 45.113
   },
   {
    "word": "gardent",
-   "start": 46.242,
-   "end": 46.418
+   "start": 45.113,
+   "end": 45.289
   },
   {
    "word": "un",
-   "start": 46.418,
-   "end": 46.579
+   "start": 45.289,
+   "end": 45.353
   },
   {
    "word": "avantage.",
-   "start": 46.579,
-   "end": 47.012
+   "start": 45.45,
+   "end": 45.867
   },
   {
    "word": "Alors,",
-   "start": 47.782,
-   "end": 47.991
+   "start": 46.653,
+   "end": 46.926
   },
   {
    "word": "retiens",
-   "start": 48.408,
-   "end": 48.729
+   "start": 47.599,
+   "end": 47.92
   },
   {
    "word": "ceci:",
-   "start": 48.729,
-   "end": 49.018
+   "start": 47.92,
+   "end": 48.241
   },
   {
    "word": "pour",
-   "start": 49.532,
-   "end": 49.676
+   "start": 48.803,
+   "end": 48.915
   },
   {
    "word": "construire",
-   "start": 49.773,
-   "end": 50.077
+   "start": 48.963,
+   "end": 49.348
   },
   {
    "word": "du",
-   "start": 50.094,
-   "end": 50.206
+   "start": 49.364,
+   "end": 49.525
   },
   {
    "word": "muscle,",
-   "start": 50.206,
-   "end": 50.607
+   "start": 49.525,
+   "end": 49.878
   },
   {
    "word": "soulever",
-   "start": 51.057,
-   "end": 51.378
+   "start": 50.407,
+   "end": 50.728
   },
   {
    "word": "toujours",
-   "start": 51.378,
-   "end": 51.586
+   "start": 50.728,
+   "end": 51.113
   },
   {
    "word": "plus",
-   "start": 51.618,
-   "end": 51.731
+   "start": 51.129,
+   "end": 51.289
   },
   {
    "word": "lourd",
-   "start": 51.731,
-   "end": 51.843
+   "start": 51.289,
+   "end": 51.466
   },
   {
    "word": "n'est",
-   "start": 51.843,
-   "end": 51.939
+   "start": 51.466,
+   "end": 51.69
   },
   {
    "word": "pas",
-   "start": 52.02,
-   "end": 52.1
+   "start": 51.69,
+   "end": 51.803
   },
   {
    "word": "la",
-   "start": 52.1,
-   "end": 52.148
+   "start": 51.803,
+   "end": 51.931
   },
   {
    "word": "seule",
-   "start": 52.18,
-   "end": 52.373
+   "start": 51.931,
+   "end": 52.108
   },
   {
    "word": "solution.",
-   "start": 52.373,
-   "end": 52.71
+   "start": 52.108,
+   "end": 52.541
   },
   {
    "word": "Ce",
-   "start": 53.223,
-   "end": 53.303
+   "start": 53.054,
+   "end": 53.215
   },
   {
    "word": "qui",
-   "start": 53.303,
-   "end": 53.464
+   "start": 53.215,
+   "end": 53.375
   },
   {
    "word": "compte,",
-   "start": 53.464,
-   "end": 53.753
+   "start": 53.375,
+   "end": 53.664
   },
   {
    "word": "c'est",
-   "start": 54.266,
-   "end": 54.587
+   "start": 54.097,
+   "end": 54.257
   },
   {
    "word": "de",
-   "start": 54.587,
-   "end": 54.668
+   "start": 54.257,
+   "end": 54.338
   },
   {
    "word": "donner",
-   "start": 54.668,
-   "end": 54.925
+   "start": 54.418,
+   "end": 54.594
   },
   {
    "word": "à",
-   "start": 54.925,
-   "end": 54.989
+   "start": 54.594,
+   "end": 54.642
   },
   {
    "word": "tes",
-   "start": 54.989,
-   "end": 55.101
+   "start": 54.739,
+   "end": 54.851
   },
   {
    "word": "muscles",
-   "start": 55.101,
-   "end": 55.406
+   "start": 54.851,
+   "end": 55.172
   },
   {
    "word": "une",
-   "start": 55.406,
-   "end": 55.454
+   "start": 55.172,
+   "end": 55.252
   },
   {
    "word": "raison",
-   "start": 55.631,
-   "end": 55.759
+   "start": 55.332,
+   "end": 55.573
   },
   {
    "word": "de",
-   "start": 55.759,
-   "end": 55.823
+   "start": 55.573,
+   "end": 55.685
   },
   {
    "word": "s'adapter.",
-   "start": 55.823,
-   "end": 56.241
+   "start": 55.685,
+   "end": 56.07
   },
   {
    "word": "Abonne-toi!",
-   "start": 57.011,
-   "end": 57.364
+   "start": 56.76,
+   "end": 57.193
   },
   {
    "word": "Une",
-   "start": 57.653,
-   "end": 57.765
+   "start": 57.482,
+   "end": 57.578
   },
   {
    "word": "nouvelle",
-   "start": 57.797,
-   "end": 57.99
+   "start": 57.627,
+   "end": 57.771
   },
   {
    "word": "vidéo",
-   "start": 57.99,
-   "end": 58.279
+   "start": 57.819,
+   "end": 58.108
   },
   {
    "word": "chaque",
-   "start": 58.279,
-   "end": 58.52
+   "start": 58.108,
+   "end": 58.348
   },
   {
    "word": "jour!",
-   "start": 58.52,
-   "end": 58.889
+   "start": 58.348,
+   "end": 58.701
   },
   {
    "word": "Et",
-   "start": 59.418,
-   "end": 59.434
+   "start": 59.247,
+   "end": 59.311
   },
   {
    "word": "retrouve-nous",
-   "start": 59.434,
-   "end": 59.964
+   "start": 59.311,
+   "end": 59.712
   },
   {
    "word": "sur",
-   "start": 59.964,
-   "end": 60.06
+   "start": 59.744,
+   "end": 59.857
   },
   {
-   "word": "kalibody.com!",
-   "start": 60.093,
-   "end": 60.991
+   "word": "Calibody.com!",
+   "start": 59.921,
+   "end": 60.803
   }
  ],
- "text": "Et si je te disais que tu pouvais développer tes muscles avec des haltères que tu trouves presque trop légers? On imagine souvent que pour prendre du muscle, il faut soulever toujours plus lourd. Pourtant, les recherches scientifiques racontent une autre histoire. Des études ont montré que des charges légères peuvent provoquer une croissance musculaire comparable à celle obtenue avec des charges lourdes. Mais attention, il y a une condition importante. Faire quelques répétitions faciles ne suffit pas. Avec une charge légère, tu dois généralement pousser tes séries suffisamment près de tes limites musculaires pour stimuler efficacement tes muscles. Et c'est là que ça devient intéressant. Ton muscle ne regarde pas le poids écrit sur l'haltère. Il réagit notamment à la tension mécanique et à l'effort qu'il doit produire. En revanche, si ton objectif est de devenir beaucoup plus fort sur un mouvement précis, les charges lourdes gardent un avantage. Alors, retiens ceci: pour construire du muscle, soulever toujours plus lourd n'est pas la seule solution. Ce qui compte, c'est de donner à tes muscles une raison de s'adapter. Abonne-toi! Une nouvelle vidéo chaque jour! Et retrouve-nous sur kalibody.com!"
+ "text": "Et si je te disais que tu pouvais développer tes muscles avec des haltères que tu trouves presque trop légers? On imagine souvent que pour prendre du muscle, il faut soulever toujours plus lourd. Pourtant, les recherches scientifiques racontent une autre histoire. Des études ont montré que des charges légères peuvent provoquer une croissance musculaire comparable à celle obtenue avec des charges lourdes. Mais attention, il y a une condition importante. Faire quelques répétitions faciles ne suffit pas. Avec une charge légère, tu dois généralement pousser tes séries suffisamment près de tes limites musculaires pour stimuler efficacement tes muscles. Et c'est là que ça devient intéressant. Ton muscle ne regarde pas le poids écrit sur l'haltère. Il réagit notamment à la tension mécanique et à l'effort qu'il doit produire. En revanche, si ton objectif est de devenir beaucoup plus fort sur un mouvement précis, les charges lourdes gardent un avantage. Alors, retiens ceci: pour construire du muscle, soulever toujours plus lourd n'est pas la seule solution. Ce qui compte, c'est de donner à tes muscles une raison de s'adapter. Abonne-toi! Une nouvelle vidéo chaque jour! Et retrouve-nous sur Calibody.com!"
 }

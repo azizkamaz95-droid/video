@@ -42,7 +42,8 @@
   {
    "id": "s08",
    "text": "Alors, retiens ceci : pour construire du muscle, soulever toujours plus lourd n'est pas la seule solution. Ce qui compte, c'est de donner à tes muscles une raison de s'adapter.",
-   "pause": 0.5
+   "pause": 0.5,
+   "take": 1
   },
   {
    "id": "s09",

@@ -70,10 +70,10 @@
    "mode": "raw"
   },
   "c'est": {
-   "mode": "respell",
-   "value": "Cest",
+   "mode": "ipa",
+   "value": "sɛ",
    "auto": true,
-   "tested": "collé 3/3"
+   "tested": "ipa 4/4 (contexte c'est là) ; la forme collée « Cest » faisait lire « cette là »"
   },
   "l'obscurité": {
    "mode": "raw",
@@ -137,7 +137,7 @@
   },
   "lorsqu'ils": {
    "mode": "respell",
-   "value": "Lorsquils",
+   "value": "lorsquils",
    "auto": true,
    "tested": "collé 3/3"
   },
