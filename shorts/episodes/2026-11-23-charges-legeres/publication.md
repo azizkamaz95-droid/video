@@ -30,7 +30,7 @@ Vidéo générée par IA.
 - Musique : corporate-motivation (énergie 4, Freesound 720615, audiocoffee, licence à confirmer)
 - Miniature : collée sur la 1re image (0,1 s), version unique choisie par Claude (disque de barre, titre « HALTÈRES LÉGERS / INUTILES ? », Calix sceptique)
 - Accent couleur utilisé : rose saumon #FF8FA3
-- Images (nouvelles, Pixabay, aucun clip repris des vidéos précédentes) : kettlebells et barre de musculation vus de loin ou recadrés sous le visage (12741, 8765, 13356, 12698, 15399, 30417), microscope 3D (5456), anatomie et squelette 3D (302326, 286933, 119967) ; aucune femme, aucun visage identifiable, aucun logo
+- Images (nouvelles, Pixabay, aucun clip repris des vidéos précédentes) : kettlebells vus de loin ou recadrés, barre à disques recadrée (12741, 13356, 12698, 15399, 30417 ; plans de gym revérifiés image par image : aucune femme, y compris en arrière-plan), microscope 3D (5456), anatomie et squelette 3D (302326, 286933, 119967) ; aucune femme, aucun visage identifiable, aucun logo
 - Limites honnêtes : Pixabay n'a presque aucune vidéo propre d'haltères sans femme ni visage ; « haltères » est montré avec des kettlebells et une barre à disques recadrée ; « recherches » avec un microscope 3D ; « muscles » avec de l'anatomie 3D
 - Source affichée à l'écran : Schoenfeld et coll., J Strength Cond Res, 2017 (méta-analyse charges légères / lourdes) ; aucun chiffre dans le script
 - Voix : prise 3 de la phrase 8 après revue complète (voice_review : 2 transcripteurs, 189 mots, 0 écart phrase par phrase, 0 anomalie acoustique) ; reste « à écouter » : c'est là, l'haltère, l'effort qu'il, n'est pas, c'est de, s'adapter ; fin « Abonne-toi… calibodi.com » ajoutée par Claude
