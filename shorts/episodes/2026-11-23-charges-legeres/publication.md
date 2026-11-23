@@ -34,4 +34,4 @@ Vidéo générée par IA.
 - Limites honnêtes : Pixabay n'a presque aucune vidéo propre d'haltères sans femme ni visage ; « haltères » est montré avec des kettlebells et une barre à disques recadrée ; « recherches » avec un microscope 3D ; « muscles » avec de l'anatomie 3D
 - Source affichée à l'écran : Schoenfeld et coll., J Strength Cond Res, 2017 (méta-analyse charges légères / lourdes) ; aucun chiffre dans le script
 - Voix : prise 3 de la phrase 8 après revue complète (voice_review : 2 transcripteurs, 189 mots, 0 écart phrase par phrase, 0 anomalie acoustique) ; reste « à écouter » : c'est là, l'haltère, l'effort qu'il, n'est pas, c'est de, s'adapter ; fin « Abonne-toi… calibodi.com » ajoutée par Claude
-- Publication : à planifier après accord (lundi 23 novembre : Facebook 10 h, TikTok 18 h, Instagram 12 h, YouTube 16 h, heure de Paris)
+- Publication (lundi 23 novembre, heure de Paris) : Facebook envoyé à 12 h 15 (Buffer sent), Instagram à 12 h 22 après reconnexion du canal (Buffer sent), YouTube à 16 h 06 (https://youtube.com/watch?v=fN9G6aOdwPE), TikTok à 18 h (voir suite)
