@@ -226,6 +226,18 @@
    "value": "sadapter",
    "auto": true,
    "tested": "collé 0/3"
+  },
+  "s'appelle": {
+   "mode": "respell",
+   "value": "sappelle",
+   "auto": true,
+   "tested": "collé 3/3"
+  },
+  "l'entraînement": {
+   "mode": "respell",
+   "value": "lentraînement",
+   "auto": true,
+   "tested": "collé 3/3"
   }
  }
 }

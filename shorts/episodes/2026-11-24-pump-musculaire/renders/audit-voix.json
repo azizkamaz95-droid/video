@@ -1,0 +1,1453 @@
+[
+ {
+  "i": 0,
+  "word": "Tu",
+  "t": 0.18,
+  "dur": 0.16,
+  "heard": "Tu termines",
+  "ratio": 1.0
+ },
+ {
+  "i": 1,
+  "word": "termines",
+  "t": 0.34,
+  "dur": 0.32,
+  "heard": "Tu termines ta",
+  "ratio": 0.91
+ },
+ {
+  "i": 2,
+  "word": "ta",
+  "t": 0.66,
+  "dur": 0.16,
+  "heard": "séance.",
+  "ratio": 0.86
+ },
+ {
+  "i": 3,
+  "word": "séance,",
+  "t": 0.82,
+  "dur": 0.37,
+  "heard": "séance sur le",
+  "ratio": 0.74
+ },
+ {
+  "i": 4,
+  "word": "tu",
+  "t": 1.54,
+  "dur": 0.11,
+  "heard": "Sur Gert",
+  "ratio": 0.47,
+  "flag": "COURT"
+ },
+ {
+  "i": 5,
+  "word": "regardes",
+  "t": 1.65,
+  "dur": 0.22,
+  "heard": "Regardez-moi",
+  "ratio": 0.64
+ },
+ {
+  "i": 6,
+  "word": "tes",
+  "t": 1.88,
+  "dur": 0.14,
+  "heard": "Tes bras",
+  "ratio": 1.0
+ },
+ {
+  "i": 7,
+  "word": "bras",
+  "t": 2.02,
+  "dur": 0.13,
+  "heard": "bras dans la",
+  "ratio": 0.89
+ },
+ {
+  "i": 8,
+  "word": "dans",
+  "t": 2.21,
+  "dur": 0.08,
+  "heard": "Donc",
+  "ratio": 0.4,
+  "flag": "COURT"
+ },
+ {
+  "i": 9,
+  "word": "le",
+  "t": 2.29,
+  "dur": 0.05,
+  "heard": "miroir.",
+  "ratio": 0.86
+ },
+ {
+  "i": 10,
+  "word": "miroir…",
+  "t": 2.34,
+  "dur": 0.45,
+  "heard": "miroir et là",
+  "ratio": 0.89
+ },
+ {
+  "i": 11,
+  "word": "et",
+  "t": 3.32,
+  "dur": 0.06,
+  "heard": "Et là,",
+  "ratio": 1.0
+ },
+ {
+  "i": 12,
+  "word": "là,",
+  "t": 3.38,
+  "dur": 0.13,
+  "heard": "Et là, surprise",
+  "ratio": 0.91
+ },
+ {
+  "i": 13,
+  "word": "surprise :",
+  "t": 3.54,
+  "dur": 0.45,
+  "heard": "À ma surprise, il",
+  "ratio": 0.83
+ },
+ {
+  "i": 14,
+  "word": "ils",
+  "t": 4.68,
+  "dur": 0.06,
+  "heard": "Il paraît beaucoup",
+  "ratio": 0.55,
+  "flag": "COURT"
+ },
+ {
+  "i": 15,
+  "word": "paraissent",
+  "t": 4.74,
+  "dur": 0.4,
+  "heard": "Il paraît beaucoup plus",
+  "ratio": 0.74
+ },
+ {
+  "i": 16,
+  "word": "beaucoup",
+  "t": 5.14,
+  "dur": 0.16,
+  "heard": "Beaucoup plus",
+  "ratio": 1.0
+ },
+ {
+  "i": 17,
+  "word": "plus",
+  "t": 5.38,
+  "dur": 0.08,
+  "heard": "plus gros.",
+  "ratio": 1.0
+ },
+ {
+  "i": 18,
+  "word": "gros !",
+  "t": 5.47,
+  "dur": 0.16,
+  "heard": "Mais le",
+  "ratio": 0.57,
+  "flag": null,
+  "heard_wide": "plus gros, mais le"
+ },
+ {
+  "i": 19,
+  "word": "Mais",
+  "t": 6.51,
+  "dur": 0.08,
+  "heard": "Mais le",
+  "ratio": 1.0
+ },
+ {
+  "i": 20,
+  "word": "le",
+  "t": 6.59,
+  "dur": 0.08,
+  "heard": "Et le lendemain,",
+  "ratio": 0.92
+ },
+ {
+  "i": 21,
+  "word": "lendemain,",
+  "t": 6.67,
+  "dur": 0.37,
+  "heard": "Le lendemain, sa",
+  "ratio": 0.72
+ },
+ {
+  "i": 22,
+  "word": "cet",
+  "t": 7.47,
+  "dur": 0.18,
+  "heard": "Cet effet a",
+  "ratio": 0.94
+ },
+ {
+  "i": 23,
+  "word": "effet",
+  "t": 7.65,
+  "dur": 0.29,
+  "heard": "fait après.",
+  "ratio": 0.4,
+  "flag": null,
+  "heard_wide": "Cet effet a pris"
+ },
+ {
+  "i": 24,
+  "word": "a",
+  "t": 7.93,
+  "dur": 0.1,
+  "heard": "Il y a presque des",
+  "ratio": 0.73
+ },
+ {
+  "i": 25,
+  "word": "presque",
+  "t": 8.03,
+  "dur": 0.32,
+  "heard": "presque disparu.",
+  "ratio": 1.0
+ },
+ {
+  "i": 26,
+  "word": "disparu.",
+  "t": 8.35,
+  "dur": 0.45,
+  "heard": "disparu. Alors",
+  "ratio": 1.0
+ },
+ {
+  "i": 27,
+  "word": "Alors,",
+  "t": 9.41,
+  "dur": 0.19,
+  "heard": "Alors, tu as",
+  "ratio": 0.88
+ },
+ {
+  "i": 28,
+  "word": "tu",
+  "t": 10.11,
+  "dur": 0.18,
+  "heard": "Tu as pu",
+  "ratio": 0.8
+ },
+ {
+  "i": 29,
+  "word": "as",
+  "t": 10.29,
+  "dur": 0.07,
+  "heard": "Tu as perdu tes",
+  "ratio": 0.74
+ },
+ {
+  "i": 30,
+  "word": "perdu",
+  "t": 10.36,
+  "dur": 0.32,
+  "heard": "perdu tes muscles.",
+  "ratio": 0.7
+ },
+ {
+  "i": 31,
+  "word": "tes",
+  "t": 10.68,
+  "dur": 0.11,
+  "heard": "muscles.",
+  "ratio": 0.82
+ },
+ {
+  "i": 32,
+  "word": "muscles",
+  "t": 10.79,
+  "dur": 0.26,
+  "heard": "muscles pendant la",
+  "ratio": 0.93
+ },
+ {
+  "i": 33,
+  "word": "pendant",
+  "t": 11.11,
+  "dur": 0.22,
+  "heard": "pendant l'année.",
+  "ratio": 0.82
+ },
+ {
+  "i": 34,
+  "word": "la",
+  "t": 11.33,
+  "dur": 0.1,
+  "heard": "la nuit.",
+  "ratio": 1.0
+ },
+ {
+  "i": 35,
+  "word": "nuit ?",
+  "t": 11.43,
+  "dur": 0.18,
+  "heard": "nuit?",
+  "ratio": 0.73
+ },
+ {
+  "i": 36,
+  "word": "Pas",
+  "t": 12.36,
+  "dur": 0.05,
+  "heard": "Pas du tout.",
+  "ratio": 0.71
+ },
+ {
+  "i": 37,
+  "word": "du",
+  "t": 12.47,
+  "dur": 0.13,
+  "heard": "du tout.",
+  "ratio": 1.0
+ },
+ {
+  "i": 38,
+  "word": "tout !",
+  "t": 12.6,
+  "dur": 0.13,
+  "heard": "tout. Ce fait",
+  "ratio": 0.75
+ },
+ {
+  "i": 39,
+  "word": "Ce",
+  "t": 13.32,
+  "dur": 0.16,
+  "heard": "Ce phénomène",
+  "ratio": 1.0
+ },
+ {
+  "i": 40,
+  "word": "phénomène",
+  "t": 13.48,
+  "dur": 0.34,
+  "heard": "Ce phénomène s'appelle",
+  "ratio": 0.94
+ },
+ {
+  "i": 41,
+  "word": "s'appelle",
+  "t": 13.82,
+  "dur": 0.42,
+  "heard": "s'appelle le",
+  "ratio": 1.0
+ },
+ {
+  "i": 42,
+  "word": "le",
+  "t": 14.28,
+  "dur": 0.05,
+  "heard": "Le pump",
+  "ratio": 1.0
+ },
+ {
+  "i": 43,
+  "word": "pump",
+  "t": 14.33,
+  "dur": 0.42,
+  "heard": "pump musculaire.",
+  "ratio": 1.0
+ },
+ {
+  "i": 44,
+  "word": "musculaire.",
+  "t": 14.76,
+  "dur": 0.37,
+  "heard": "musculaire pendant l'entraînement.",
+  "ratio": 0.72
+ },
+ {
+  "i": 45,
+  "word": "Pendant",
+  "t": 15.96,
+  "dur": 0.22,
+  "heard": "Pendant l'entraînement,",
+  "ratio": 1.0
+ },
+ {
+  "i": 46,
+  "word": "l'entraînement,",
+  "t": 16.19,
+  "dur": 0.46,
+  "heard": "l'entraînement, le",
+  "ratio": 1.0
+ },
+ {
+  "i": 47,
+  "word": "le",
+  "t": 17.09,
+  "dur": 0.08,
+  "heard": "Le sang infusé",
+  "ratio": 0.67
+ },
+ {
+  "i": 48,
+  "word": "sang",
+  "t": 17.17,
+  "dur": 0.26,
+  "heard": "Je sens un flux d'air",
+  "ratio": 0.38,
+  "flag": null,
+  "heard_wide": "Le sang afflue"
+ },
+ {
+  "i": 49,
+  "word": "afflue",
+  "t": 17.42,
+  "dur": 0.22,
+  "heard": "Fluent davantage vers",
+  "ratio": 0.76
+ },
+ {
+  "i": 50,
+  "word": "davantage",
+  "t": 17.65,
+  "dur": 0.55,
+  "heard": "davantage vers le",
+  "ratio": 0.93
+ },
+ {
+  "i": 51,
+  "word": "vers",
+  "t": 18.21,
+  "dur": 0.06,
+  "heard": "vers les",
+  "ratio": 1.0
+ },
+ {
+  "i": 52,
+  "word": "les",
+  "t": 18.29,
+  "dur": 0.11,
+  "heard": "Les muscles sont",
+  "ratio": 0.83
+ },
+ {
+  "i": 53,
+  "word": "muscles",
+  "t": 18.4,
+  "dur": 0.34,
+  "heard": "muscles sollicités.",
+  "ratio": 1.0
+ },
+ {
+  "i": 54,
+  "word": "sollicités.",
+  "t": 18.77,
+  "dur": 0.45,
+  "heard": "sollicité. Cela augmente",
+  "ratio": 0.74
+ },
+ {
+  "i": 55,
+  "word": "Cela",
+  "t": 19.89,
+  "dur": 0.19,
+  "heard": "Cela augmentant",
+  "ratio": 0.85
+ },
+ {
+  "i": 56,
+  "word": "augmente",
+  "t": 20.09,
+  "dur": 0.29,
+  "heard": "Augmente temporairement leur",
+  "ratio": 0.92
+ },
+ {
+  "i": 57,
+  "word": "temporairement",
+  "t": 20.37,
+  "dur": 0.59,
+  "heard": "temporairement leur",
+  "ratio": 1.0
+ },
+ {
+  "i": 58,
+  "word": "leur",
+  "t": 20.97,
+  "dur": 0.11,
+  "heard": "leur volume.",
+  "ratio": 1.0
+ },
+ {
+  "i": 59,
+  "word": "volume",
+  "t": 21.16,
+  "dur": 0.24,
+  "heard": "volume et leur",
+  "ratio": 0.8
+ },
+ {
+  "i": 60,
+  "word": "et",
+  "t": 21.83,
+  "dur": 0.06,
+  "heard": "Et lors d'un",
+  "ratio": 0.53
+ },
+ {
+  "i": 61,
+  "word": "leur",
+  "t": 21.9,
+  "dur": 0.16,
+  "heard": "Et lors d'un",
+  "ratio": 0.33,
+  "flag": null,
+  "heard_wide": "Et leur donne cette"
+ },
+ {
+  "i": 62,
+  "word": "donne",
+  "t": 22.06,
+  "dur": 0.16,
+  "heard": "C'est un",
+  "ratio": 0.43,
+  "flag": null,
+  "heard_wide": "Il ordonne cette"
+ },
+ {
+  "i": 63,
+  "word": "cet",
+  "t": 22.22,
+  "dur": 0.18,
+  "heard": "cet aspect.",
+  "ratio": 1.0
+ },
+ {
+  "i": 64,
+  "word": "aspect",
+  "t": 22.39,
+  "dur": 0.32,
+  "heard": "Cet aspect plus grand",
+  "ratio": 0.71
+ },
+ {
+  "i": 65,
+  "word": "plus",
+  "t": 22.78,
+  "dur": 0.16,
+  "heard": "plus gonflé.",
+  "ratio": 1.0
+ },
+ {
+  "i": 66,
+  "word": "gonflé.",
+  "t": 22.94,
+  "dur": 0.29,
+  "heard": "gonflé, mais à",
+  "ratio": 0.95
+ },
+ {
+  "i": 67,
+  "word": "Mais",
+  "t": 23.9,
+  "dur": 0.08,
+  "heard": "Mais attention!",
+  "ratio": 1.0
+ },
+ {
+  "i": 68,
+  "word": "attention,",
+  "t": 24.04,
+  "dur": 0.3,
+  "heard": "Attention, ce n'est",
+  "ratio": 0.85
+ },
+ {
+  "i": 69,
+  "word": "ce",
+  "t": 24.94,
+  "dur": 0.03,
+  "heard": "Ce n'est pas",
+  "ratio": 0.8
+ },
+ {
+  "i": 70,
+  "word": "n'est",
+  "t": 24.97,
+  "dur": 0.16,
+  "heard": "Ce n'est pas une",
+  "ratio": 0.74
+ },
+ {
+  "i": 71,
+  "word": "pas",
+  "t": 25.18,
+  "dur": 0.18,
+  "heard": "C'est pas une croix.",
+  "ratio": 0.57
+ },
+ {
+  "i": 72,
+  "word": "une",
+  "t": 25.36,
+  "dur": 0.14,
+  "heard": "une croissance musculaire",
+  "ratio": 0.72
+ },
+ {
+  "i": 73,
+  "word": "croissance",
+  "t": 25.5,
+  "dur": 0.4,
+  "heard": "croissance musculaire.",
+  "ratio": 1.0
+ },
+ {
+  "i": 74,
+  "word": "musculaire",
+  "t": 25.9,
+  "dur": 0.42,
+  "heard": "musculaire instantanée.",
+  "ratio": 1.0
+ },
+ {
+  "i": 75,
+  "word": "instantanée.",
+  "t": 26.32,
+  "dur": 0.51,
+  "heard": "instantanée. La",
+  "ratio": 1.0
+ },
+ {
+  "i": 76,
+  "word": "La",
+  "t": 27.59,
+  "dur": 0.08,
+  "heard": "La véritable hypothèse",
+  "ratio": 0.71
+ },
+ {
+  "i": 77,
+  "word": "véritable",
+  "t": 27.67,
+  "dur": 0.5,
+  "heard": "véritable hypertrophie.",
+  "ratio": 1.0
+ },
+ {
+  "i": 78,
+  "word": "hypertrophie,",
+  "t": 28.16,
+  "dur": 0.51,
+  "heard": "l'hypertrophie, c'est-à-dire",
+  "ratio": 0.98
+ },
+ {
+  "i": 79,
+  "word": "c'est-à-dire",
+  "t": 29.03,
+  "dur": 0.37,
+  "heard": "C'est-à-dire le",
+  "ratio": 1.0
+ },
+ {
+  "i": 80,
+  "word": "le",
+  "t": 29.43,
+  "dur": 0.16,
+  "heard": "Le développement de",
+  "ratio": 0.94
+ },
+ {
+  "i": 81,
+  "word": "développement",
+  "t": 29.59,
+  "dur": 0.43,
+  "heard": "développement de",
+  "ratio": 1.0
+ },
+ {
+  "i": 82,
+  "word": "de",
+  "t": 30.02,
+  "dur": 0.13,
+  "heard": "de thèmes.",
+  "ratio": 0.77
+ },
+ {
+  "i": 83,
+  "word": "tes",
+  "t": 30.15,
+  "dur": 0.11,
+  "heard": "tes muscles.",
+  "ratio": 1.0
+ },
+ {
+  "i": 84,
+  "word": "muscles,",
+  "t": 30.26,
+  "dur": 0.42,
+  "heard": "muscles, ce que",
+  "ratio": 0.76
+ },
+ {
+  "i": 85,
+  "word": "se",
+  "t": 31.03,
+  "dur": 0.16,
+  "heard": "Se construit",
+  "ratio": 1.0
+ },
+ {
+  "i": 86,
+  "word": "construit",
+  "t": 31.19,
+  "dur": 0.4,
+  "heard": "construit progressivement.",
+  "ratio": 1.0
+ },
+ {
+  "i": 87,
+  "word": "progressivement",
+  "t": 31.59,
+  "dur": 0.72,
+  "heard": "progressivement grâce à",
+  "ratio": 0.98
+ },
+ {
+  "i": 88,
+  "word": "grâce",
+  "t": 32.35,
+  "dur": 0.22,
+  "heard": "Grâce à des",
+  "ratio": 0.8
+ },
+ {
+  "i": 89,
+  "word": "à",
+  "t": 32.57,
+  "dur": 0.06,
+  "heard": "Ça dépend",
+  "ratio": 0.5
+ },
+ {
+  "i": 90,
+  "word": "des",
+  "t": 32.63,
+  "dur": 0.18,
+  "heard": "des entraînements réguliers.",
+  "ratio": 0.78
+ },
+ {
+  "i": 91,
+  "word": "entraînements",
+  "t": 32.81,
+  "dur": 0.38,
+  "heard": "entraînements réguliers.",
+  "ratio": 1.0
+ },
+ {
+  "i": 92,
+  "word": "réguliers,",
+  "t": 33.2,
+  "dur": 0.45,
+  "heard": "régulier, une",
+  "ratio": 0.96
+ },
+ {
+  "i": 93,
+  "word": "une",
+  "t": 34.17,
+  "dur": 0.1,
+  "heard": "Une récupération sans",
+  "ratio": 0.88
+ },
+ {
+  "i": 94,
+  "word": "récupération",
+  "t": 34.33,
+  "dur": 0.7,
+  "heard": "récupération suffisante.",
+  "ratio": 1.0
+ },
+ {
+  "i": 95,
+  "word": "suffisante",
+  "t": 35.04,
+  "dur": 0.74,
+  "heard": "suffisante et une",
+  "ratio": 0.89
+ },
+ {
+  "i": 96,
+  "word": "et",
+  "t": 35.94,
+  "dur": 0.08,
+  "heard": "Et une",
+  "ratio": 1.0
+ },
+ {
+  "i": 97,
+  "word": "une",
+  "t": 36.02,
+  "dur": 0.08,
+  "heard": "Une alimentation adaptée",
+  "ratio": 0.81
+ },
+ {
+  "i": 98,
+  "word": "alimentation",
+  "t": 36.1,
+  "dur": 0.56,
+  "heard": "Une alimentation adaptée.",
+  "ratio": 0.93
+ },
+ {
+  "i": 99,
+  "word": "adaptée.",
+  "t": 36.66,
+  "dur": 0.35,
+  "heard": "adaptées.",
+  "ratio": 0.82
+ },
+ {
+  "i": 100,
+  "word": "Et",
+  "t": 37.7,
+  "dur": 0.06,
+  "heard": "Et voici ce",
+  "ratio": 0.88
+ },
+ {
+  "i": 101,
+  "word": "voici",
+  "t": 37.79,
+  "dur": 0.29,
+  "heard": "Et voici ce que",
+  "ratio": 0.74
+ },
+ {
+  "i": 102,
+  "word": "ce",
+  "t": 38.08,
+  "dur": 0.08,
+  "heard": "Qu'est-ce qui",
+  "ratio": 0.67
+ },
+ {
+  "i": 103,
+  "word": "qui",
+  "t": 38.16,
+  "dur": 0.11,
+  "heard": "qui est un",
+  "ratio": 0.86
+ },
+ {
+  "i": 104,
+  "word": "est",
+  "t": 38.27,
+  "dur": 0.14,
+  "heard": "est intéressant.",
+  "ratio": 1.0
+ },
+ {
+  "i": 105,
+  "word": "intéressant :",
+  "t": 38.42,
+  "dur": 0.51,
+  "heard": "intéressant.",
+  "ratio": 0.92
+ },
+ {
+  "i": 106,
+  "word": "le",
+  "t": 39.45,
+  "dur": 0.08,
+  "heard": "Le pump.",
+  "ratio": 1.0
+ },
+ {
+  "i": 107,
+  "word": "pump",
+  "t": 39.57,
+  "dur": 0.34,
+  "heard": "Le pump peut être",
+  "ratio": 0.73
+ },
+ {
+  "i": 108,
+  "word": "peut",
+  "t": 39.93,
+  "dur": 0.16,
+  "heard": "Peut-être même",
+  "ratio": 0.8
+ },
+ {
+  "i": 109,
+  "word": "être",
+  "t": 40.1,
+  "dur": 0.18,
+  "heard": "être motivant.",
+  "ratio": 1.0
+ },
+ {
+  "i": 110,
+  "word": "motivant,",
+  "t": 40.28,
+  "dur": 0.42,
+  "heard": "motivant, mais",
+  "ratio": 1.0
+ },
+ {
+  "i": 111,
+  "word": "mais",
+  "t": 40.97,
+  "dur": 0.08,
+  "heard": "Mais ce",
+  "ratio": 1.0
+ },
+ {
+  "i": 112,
+  "word": "ce",
+  "t": 41.08,
+  "dur": 0.08,
+  "heard": "Ce n'est",
+  "ratio": 1.0
+ },
+ {
+  "i": 113,
+  "word": "n'est",
+  "t": 41.16,
+  "dur": 0.13,
+  "heard": "Ce n'est pas un",
+  "ratio": 0.78
+ },
+ {
+  "i": 114,
+  "word": "pas",
+  "t": 41.37,
+  "dur": 0.18,
+  "heard": "pas un",
+  "ratio": 1.0
+ },
+ {
+  "i": 115,
+  "word": "un",
+  "t": 41.54,
+  "dur": 0.06,
+  "heard": "indicateur financier.",
+  "ratio": 0.65
+ },
+ {
+  "i": 116,
+  "word": "indicateur",
+  "t": 41.62,
+  "dur": 0.53,
+  "heard": "Indicateur fiable de",
+  "ratio": 0.94
+ },
+ {
+  "i": 117,
+  "word": "fiable",
+  "t": 42.17,
+  "dur": 0.32,
+  "heard": "fiable de la",
+  "ratio": 0.89
+ },
+ {
+  "i": 118,
+  "word": "de",
+  "t": 42.49,
+  "dur": 0.11,
+  "heard": "de la carte.",
+  "ratio": 0.62
+ },
+ {
+  "i": 119,
+  "word": "la",
+  "t": 42.6,
+  "dur": 0.13,
+  "heard": "La qualité de",
+  "ratio": 0.9
+ },
+ {
+  "i": 120,
+  "word": "qualité",
+  "t": 42.73,
+  "dur": 0.4,
+  "heard": "La qualité de ta",
+  "ratio": 0.82
+ },
+ {
+  "i": 121,
+  "word": "de",
+  "t": 43.13,
+  "dur": 0.08,
+  "heard": "de ta",
+  "ratio": 1.0
+ },
+ {
+  "i": 122,
+  "word": "ta",
+  "t": 43.21,
+  "dur": 0.16,
+  "heard": "ta séance ni",
+  "ratio": 0.89
+ },
+ {
+  "i": 123,
+  "word": "séance",
+  "t": 43.37,
+  "dur": 0.48,
+  "heard": "séance ni de",
+  "ratio": 0.89
+ },
+ {
+  "i": 124,
+  "word": "ni",
+  "t": 43.85,
+  "dur": 0.08,
+  "heard": "de",
+  "ratio": 0.67
+ },
+ {
+  "i": 125,
+  "word": "de",
+  "t": 43.93,
+  "dur": 0.08,
+  "heard": "de tes fesses.",
+  "ratio": 0.62
+ },
+ {
+  "i": 126,
+  "word": "tes",
+  "t": 44.09,
+  "dur": 0.08,
+  "heard": "Et",
+  "ratio": 0.18,
+  "flag": "COURT"
+ },
+ {
+  "i": 127,
+  "word": "futurs",
+  "t": 44.17,
+  "dur": 0.32,
+  "heard": "futurs résultats.",
+  "ratio": 1.0
+ },
+ {
+  "i": 128,
+  "word": "résultats.",
+  "t": 44.49,
+  "dur": 0.37,
+  "heard": "résultats. Alors",
+  "ratio": 1.0
+ },
+ {
+  "i": 129,
+  "word": "Alors,",
+  "t": 45.63,
+  "dur": 0.19,
+  "heard": "Alors la première",
+  "ratio": 0.64
+ },
+ {
+  "i": 130,
+  "word": "la",
+  "t": 45.94,
+  "dur": 0.08,
+  "heard": "La prochaine fois,",
+  "ratio": 0.85
+ },
+ {
+  "i": 131,
+  "word": "prochaine",
+  "t": 46.02,
+  "dur": 0.22,
+  "heard": "La prochaine fois que",
+  "ratio": 0.84
+ },
+ {
+  "i": 132,
+  "word": "fois",
+  "t": 46.34,
+  "dur": 0.16,
+  "heard": "Une fois que",
+  "ratio": 0.82
+ },
+ {
+  "i": 133,
+  "word": "que",
+  "t": 46.5,
+  "dur": 0.03,
+  "heard": "que tes bras",
+  "ratio": 0.75
+ },
+ {
+  "i": 134,
+  "word": "tes",
+  "t": 46.58,
+  "dur": 0.16,
+  "heard": "tes bras.",
+  "ratio": 1.0
+ },
+ {
+  "i": 135,
+  "word": "bras",
+  "t": 46.74,
+  "dur": 0.16,
+  "heard": "Les bras semblent énormes.",
+  "ratio": 0.71
+ },
+ {
+  "i": 136,
+  "word": "semblent",
+  "t": 46.9,
+  "dur": 0.42,
+  "heard": "Ça semble énorme à",
+  "ratio": 0.8
+ },
+ {
+  "i": 137,
+  "word": "énormes",
+  "t": 47.31,
+  "dur": 0.32,
+  "heard": "Les normes après les",
+  "ratio": 0.83
+ },
+ {
+  "i": 138,
+  "word": "après",
+  "t": 47.63,
+  "dur": 0.18,
+  "heard": "Après les ponts.",
+  "ratio": 0.76
+ },
+ {
+  "i": 139,
+  "word": "les",
+  "t": 47.81,
+  "dur": 0.13,
+  "heard": "les pompes.",
+  "ratio": 1.0
+ },
+ {
+  "i": 140,
+  "word": "pompes,",
+  "t": 47.94,
+  "dur": 0.27,
+  "heard": "pompes profitent du",
+  "ratio": 0.87
+ },
+ {
+  "i": 141,
+  "word": "profite",
+  "t": 48.42,
+  "dur": 0.4,
+  "heard": "Profite du",
+  "ratio": 1.0
+ },
+ {
+  "i": 142,
+  "word": "du",
+  "t": 48.82,
+  "dur": 0.08,
+  "heard": "du miroir.",
+  "ratio": 1.0
+ },
+ {
+  "i": 143,
+  "word": "miroir…",
+  "t": 48.9,
+  "dur": 0.45,
+  "heard": "miroir, mais nous",
+  "ratio": 0.83
+ },
+ {
+  "i": 144,
+  "word": "mais",
+  "t": 49.78,
+  "dur": 0.08,
+  "heard": "Mais ne",
+  "ratio": 1.0
+ },
+ {
+  "i": 145,
+  "word": "ne",
+  "t": 49.86,
+  "dur": 0.16,
+  "heard": "Et ne confonds pas",
+  "ratio": 0.8
+ },
+ {
+  "i": 146,
+  "word": "confonds",
+  "t": 50.02,
+  "dur": 0.32,
+  "heard": "Ne confonds pas cette",
+  "ratio": 0.76
+ },
+ {
+  "i": 147,
+  "word": "pas",
+  "t": 50.34,
+  "dur": 0.16,
+  "heard": "Pas cette",
+  "ratio": 0.86
+ },
+ {
+  "i": 148,
+  "word": "cet",
+  "t": 50.5,
+  "dur": 0.18,
+  "heard": "Cet effet",
+  "ratio": 1.0
+ },
+ {
+  "i": 149,
+  "word": "effet",
+  "t": 50.68,
+  "dur": 0.23,
+  "heard": "C'est",
+  "ratio": 0.21,
+  "flag": null,
+  "heard_wide": "Cet effet temporaire avait"
+ },
+ {
+  "i": 150,
+  "word": "temporaire",
+  "t": 50.9,
+  "dur": 0.5,
+  "heard": "temporaire avec du",
+  "ratio": 0.93
+ },
+ {
+  "i": 151,
+  "word": "avec",
+  "t": 51.4,
+  "dur": 0.22,
+  "heard": "Avec du",
+  "ratio": 1.0
+ },
+ {
+  "i": 152,
+  "word": "du",
+  "t": 51.62,
+  "dur": 0.1,
+  "heard": "Du muscle gain.",
+  "ratio": 0.8
+ },
+ {
+  "i": 153,
+  "word": "muscle",
+  "t": 51.72,
+  "dur": 0.34,
+  "heard": "muscle gagné.",
+  "ratio": 1.0
+ },
+ {
+  "i": 154,
+  "word": "gagné !",
+  "t": 52.06,
+  "dur": 0.26,
+  "heard": "gagner. Le",
+  "ratio": 0.93
+ },
+ {
+  "i": 155,
+  "word": "Le",
+  "t": 53.07,
+  "dur": 0.03,
+  "heard": "Le muscle se",
+  "ratio": 0.89
+ },
+ {
+  "i": 156,
+  "word": "muscle",
+  "t": 53.1,
+  "dur": 0.45,
+  "heard": "Le muscle se",
+  "ratio": 0.89
+ },
+ {
+  "i": 157,
+  "word": "se",
+  "t": 53.55,
+  "dur": 0.16,
+  "heard": "se construit à",
+  "ratio": 0.96
+ },
+ {
+  "i": 158,
+  "word": "construit",
+  "t": 53.71,
+  "dur": 0.42,
+  "heard": "construit avec le",
+  "ratio": 0.93
+ },
+ {
+  "i": 159,
+  "word": "avec",
+  "t": 54.13,
+  "dur": 0.31,
+  "heard": "Avec le temps.",
+  "ratio": 0.71
+ },
+ {
+  "i": 160,
+  "word": "le",
+  "t": 54.44,
+  "dur": 0.16,
+  "heard": "le temps.",
+  "ratio": 1.0
+ },
+ {
+  "i": 161,
+  "word": "temps,",
+  "t": 54.6,
+  "dur": 0.13,
+  "heard": "temps.",
+  "ratio": 0.77
+ },
+ {
+  "i": 162,
+  "word": "pas",
+  "t": 55.16,
+  "dur": 0.1,
+  "heard": "Parle",
+  "ratio": 0.6,
+  "flag": "COURT"
+ },
+ {
+  "i": 163,
+  "word": "en",
+  "t": 55.26,
+  "dur": 0.1,
+  "heard": "En quelques minutes.",
+  "ratio": 0.74
+ },
+ {
+  "i": 164,
+  "word": "quelques",
+  "t": 55.41,
+  "dur": 0.27,
+  "heard": "quelques minutes de",
+  "ratio": 0.94
+ },
+ {
+  "i": 165,
+  "word": "minutes",
+  "t": 55.68,
+  "dur": 0.45,
+  "heard": "minutes devant le",
+  "ratio": 0.93
+ },
+ {
+  "i": 166,
+  "word": "devant",
+  "t": 56.13,
+  "dur": 0.32,
+  "heard": "Devant le",
+  "ratio": 1.0
+ },
+ {
+  "i": 167,
+  "word": "le",
+  "t": 56.45,
+  "dur": 0.03,
+  "heard": "le miroir.",
+  "ratio": 1.0
+ },
+ {
+  "i": 168,
+  "word": "miroir.",
+  "t": 56.49,
+  "dur": 0.34,
+  "heard": "miroir. Abonne-toi et",
+  "ratio": 0.94
+ },
+ {
+  "i": 169,
+  "word": "Abonne-toi,",
+  "t": 57.76,
+  "dur": 0.44,
+  "heard": "Abonne-toi et n'oublie pas",
+  "ratio": 0.67
+ },
+ {
+  "i": 170,
+  "word": "une",
+  "t": 58.24,
+  "dur": 0.06,
+  "heard": "nouvelle vidéo.",
+  "ratio": 0.67
+ },
+ {
+  "i": 171,
+  "word": "nouvelle",
+  "t": 58.31,
+  "dur": 0.27,
+  "heard": "nouvelle vidéo.",
+  "ratio": 1.0
+ },
+ {
+  "i": 172,
+  "word": "vidéo",
+  "t": 58.63,
+  "dur": 0.32,
+  "heard": "vidéos chaque jour.",
+  "ratio": 0.81
+ },
+ {
+  "i": 173,
+  "word": "chaque",
+  "t": 58.95,
+  "dur": 0.24,
+  "heard": "chaque jour.",
+  "ratio": 1.0
+ },
+ {
+  "i": 174,
+  "word": "jour.",
+  "t": 59.2,
+  "dur": 0.21,
+  "heard": "Hérodote",
+  "ratio": 0.29,
+  "flag": null,
+  "heard_wide": "chaque jour."
+ },
+ {
+  "i": 175,
+  "word": "Et",
+  "t": 59.94,
+  "dur": 0.06,
+  "heard": "Et retrouve-nous sur",
+  "ratio": 0.9
+ },
+ {
+  "i": 176,
+  "word": "retrouve-nous",
+  "t": 60.0,
+  "dur": 0.48,
+  "heard": "Retrouve-nous sur",
+  "ratio": 1.0
+ },
+ {
+  "i": 177,
+  "word": "sur",
+  "t": 60.48,
+  "dur": 0.15,
+  "heard": "sur calibody.com.",
+  "ratio": 0.93
+ },
+ {
+  "i": 178,
+  "word": "calibodi.com !",
+  "t": 60.69,
+  "dur": 0.97,
+  "heard": "kali-body.com.",
+  "ratio": 0.82
+ }
+]

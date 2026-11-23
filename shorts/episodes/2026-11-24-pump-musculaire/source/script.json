@@ -1,0 +1,60 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu termines ta séance, tu regardes tes bras dans le miroir… et là, surprise : ils paraissent beaucoup plus gros !",
+   "pause": 0.6
+  },
+  {
+   "id": "s02",
+   "text": "Mais le lendemain, cet effet a presque disparu. Alors, tu as perdu tes muscles pendant la nuit ?",
+   "pause": 0.6,
+   "take": 1
+  },
+  {
+   "id": "s03",
+   "text": "Pas du tout ! Ce phénomène s'appelle le pump musculaire.",
+   "pause": 0.6
+  },
+  {
+   "id": "s04",
+   "text": "Pendant l'entraînement, le sang afflue davantage vers les muscles sollicités. Cela augmente temporairement leur volume et leur donne cet aspect plus gonflé.",
+   "pause": 0.5
+  },
+  {
+   "id": "s05",
+   "text": "Mais attention, ce n'est pas une croissance musculaire instantanée.",
+   "pause": 0.6
+  },
+  {
+   "id": "s06",
+   "text": "La véritable hypertrophie, c'est-à-dire le développement de tes muscles, se construit progressivement grâce à des entraînements réguliers, une récupération suffisante et une alimentation adaptée.",
+   "pause": 0.5
+  },
+  {
+   "id": "s07",
+   "text": "Et voici ce qui est intéressant : le pump peut être motivant, mais ce n'est pas un indicateur fiable de la qualité de ta séance ni de tes futurs résultats.",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Alors, la prochaine fois que tes bras semblent énormes après les pompes, profite du miroir… mais ne confonds pas cet effet temporaire avec du muscle gagné !",
+   "pause": 0.5
+  },
+  {
+   "id": "s09",
+   "text": "Le muscle se construit avec le temps, pas en quelques minutes devant le miroir.",
+   "pause": 0.5
+  },
+  {
+   "id": "s10",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"
+  }
+ ]
+}

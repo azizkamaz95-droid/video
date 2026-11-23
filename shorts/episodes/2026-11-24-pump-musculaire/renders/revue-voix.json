@@ -1,0 +1,1796 @@
+{
+ "mots": [
+  {
+   "i": 0,
+   "word": "Tu",
+   "t": 0.18,
+   "aai": "Tu termines",
+   "google": "tu",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 1,
+   "word": "termines",
+   "t": 0.34,
+   "aai": "Tu termines ta",
+   "google": "je terme",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 2,
+   "word": "ta",
+   "t": 0.66,
+   "aai": "séance.",
+   "google": "ta",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 3,
+   "word": "séance,",
+   "t": 0.82,
+   "aai": "séance sur le",
+   "google": "toute la séance",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 4,
+   "word": "tu",
+   "t": 1.54,
+   "aai": "Sur Gert",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 5,
+   "word": "regardes",
+   "t": 1.65,
+   "aai": "Regardez-moi",
+   "google": "tu regardes",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 6,
+   "word": "tes",
+   "t": 1.88,
+   "aai": "Tes bras",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 7,
+   "word": "bras",
+   "t": 2.02,
+   "aai": "bras dans la",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 8,
+   "word": "dans",
+   "t": 2.21,
+   "aai": "Donc",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 9,
+   "word": "le",
+   "t": 2.29,
+   "aai": "miroir.",
+   "google": "dans le miroir",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 10,
+   "word": "miroir…",
+   "t": 2.34,
+   "aai": "miroir et là",
+   "google": "dans le miroir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 11,
+   "word": "et",
+   "t": 3.32,
+   "aai": "Et là,",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 12,
+   "word": "là,",
+   "t": 3.38,
+   "aai": "Et là, surprise",
+   "google": "et là surprise",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 13,
+   "word": "surprise :",
+   "t": 3.54,
+   "aai": "À ma surprise, il",
+   "google": "la surprise",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 14,
+   "word": "ils",
+   "t": 4.68,
+   "aai": "Il paraît beaucoup",
+   "google": "il paraît",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 15,
+   "word": "paraissent",
+   "t": 4.74,
+   "aai": "Il paraît beaucoup",
+   "google": "il paraissent",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 16,
+   "word": "beaucoup",
+   "t": 5.14,
+   "aai": "Beaucoup plus",
+   "google": "beaucoup",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 17,
+   "word": "plus",
+   "t": 5.38,
+   "aai": "plus gros.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 18,
+   "word": "gros !",
+   "t": 5.47,
+   "aai": "Mais le",
+   "google": "le plus gros",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 19,
+   "word": "Mais",
+   "t": 6.51,
+   "aai": "Mais le",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 20,
+   "word": "le",
+   "t": 6.59,
+   "aai": "Et le lendemain,",
+   "google": "et le",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 21,
+   "word": "lendemain,",
+   "t": 6.67,
+   "aai": "Le lendemain, sa",
+   "google": "le lendemain",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 22,
+   "word": "cet",
+   "t": 7.47,
+   "aai": "Cet effet a",
+   "google": "cet",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 23,
+   "word": "effet",
+   "t": 7.65,
+   "aai": "fait après.",
+   "google": "à été",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 24,
+   "word": "a",
+   "t": 7.93,
+   "aai": "Il y a presque des",
+   "google": "à presque",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 25,
+   "word": "presque",
+   "t": 8.03,
+   "aai": "presque disparu.",
+   "google": "presque disparu",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 26,
+   "word": "disparu.",
+   "t": 8.35,
+   "aai": "disparu. Alors",
+   "google": "j'ai disparu alors",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 27,
+   "word": "Alors,",
+   "t": 9.41,
+   "aai": "Alors, tu as",
+   "google": "alors",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 28,
+   "word": "tu",
+   "t": 10.11,
+   "aai": "Tu as pu",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 29,
+   "word": "as",
+   "t": 10.29,
+   "aai": "Tu as perdu tes",
+   "google": "tu as",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 30,
+   "word": "perdu",
+   "t": 10.36,
+   "aai": "perdu tes",
+   "google": "tu as perdu",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 31,
+   "word": "tes",
+   "t": 10.68,
+   "aai": "muscles.",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 32,
+   "word": "muscles",
+   "t": 10.79,
+   "aai": "muscles pendant la",
+   "google": "des muscles pendant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 33,
+   "word": "pendant",
+   "t": 11.11,
+   "aai": "pendant l'année.",
+   "google": "ce",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 34,
+   "word": "la",
+   "t": 11.33,
+   "aai": "la nuit.",
+   "google": "dans",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 35,
+   "word": "nuit ?",
+   "t": 11.43,
+   "aai": "nuit?",
+   "google": "dans la nuit",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 36,
+   "word": "Pas",
+   "t": 12.36,
+   "aai": "Pas du tout.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 37,
+   "word": "du",
+   "t": 12.47,
+   "aai": "du tout.",
+   "google": "pas",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 38,
+   "word": "tout !",
+   "t": 12.6,
+   "aai": "tout. Ce fait",
+   "google": "pas du tout",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 39,
+   "word": "Ce",
+   "t": 13.32,
+   "aai": "Ce phénomène",
+   "google": "ce phénom",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 40,
+   "word": "phénomène",
+   "t": 13.48,
+   "aai": "Ce phénomène s'appelle",
+   "google": "le phénomène s'appelle",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 41,
+   "word": "s'appelle",
+   "t": 13.82,
+   "aai": "s'appelle le",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 42,
+   "word": "le",
+   "t": 14.28,
+   "aai": "Le pump",
+   "google": "le",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 43,
+   "word": "pump",
+   "t": 14.33,
+   "aai": "pump musculaire.",
+   "google": "le pump mus",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 44,
+   "word": "musculaire.",
+   "t": 14.76,
+   "aai": "musculaire. Pendant l'entraînement,",
+   "google": "musculaire pendant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 45,
+   "word": "Pendant",
+   "t": 15.96,
+   "aai": "Pendant l'entraînement,",
+   "google": "pendant l'entraînement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 46,
+   "word": "l'entraînement,",
+   "t": 16.19,
+   "aai": "l'entraînement, le",
+   "google": "pour l'entraînement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 47,
+   "word": "le",
+   "t": 17.09,
+   "aai": "Le sang infusé",
+   "google": "le",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 48,
+   "word": "sang",
+   "t": 17.17,
+   "aai": "Je sens un flux d'air",
+   "google": "je me sens",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 49,
+   "word": "afflue",
+   "t": 17.42,
+   "aai": "Fluent davantage vers",
+   "google": "un flux davantage",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "ERREUR"
+  },
+  {
+   "i": 50,
+   "word": "davantage",
+   "t": 17.65,
+   "aai": "davantage vers le",
+   "google": "davantage",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 51,
+   "word": "vers",
+   "t": 18.21,
+   "aai": "vers les",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 52,
+   "word": "les",
+   "t": 18.29,
+   "aai": "Les muscles sont",
+   "google": "vers les muscles",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 53,
+   "word": "muscles",
+   "t": 18.4,
+   "aai": "muscles sollicités.",
+   "google": "les muscles sollic",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 54,
+   "word": "sollicités.",
+   "t": 18.77,
+   "aai": "sollicité. Cela augmente",
+   "google": "de solliciter cela",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 55,
+   "word": "Cela",
+   "t": 19.89,
+   "aai": "Cela augmentant",
+   "google": "cela",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 56,
+   "word": "augmente",
+   "t": 20.09,
+   "aai": "Augmente temporairement leur",
+   "google": "augmente temporairement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 57,
+   "word": "temporairement",
+   "t": 20.37,
+   "aai": "temporairement leur",
+   "google": "temporairement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 58,
+   "word": "leur",
+   "t": 20.97,
+   "aai": "leur volume.",
+   "google": "dans l'Eure",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 59,
+   "word": "volume",
+   "t": 21.16,
+   "aai": "volume et leur",
+   "google": "le volume",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 60,
+   "word": "et",
+   "t": 21.83,
+   "aai": "Et lors d'un",
+   "google": "et",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 61,
+   "word": "leur",
+   "t": 21.9,
+   "aai": "Et lors d'un",
+   "google": "et",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 62,
+   "word": "donne",
+   "t": 22.06,
+   "aai": "C'est un",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 63,
+   "word": "cet",
+   "t": 22.22,
+   "aai": "cet aspect.",
+   "google": "cet",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 64,
+   "word": "aspect",
+   "t": 22.39,
+   "aai": "Cet aspect plus grand",
+   "google": "cet aspect",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 65,
+   "word": "plus",
+   "t": 22.78,
+   "aai": "plus gonflé.",
+   "google": "plus",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 66,
+   "word": "gonflé.",
+   "t": 22.94,
+   "aai": "gonflé, mais à",
+   "google": "gonflé",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 67,
+   "word": "Mais",
+   "t": 23.9,
+   "aai": "Mais attention!",
+   "google": "mais attention",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 68,
+   "word": "attention,",
+   "t": 24.04,
+   "aai": "Attention, ce n'est",
+   "google": "extension",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 69,
+   "word": "ce",
+   "t": 24.94,
+   "aai": "Ce n'est pas",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 70,
+   "word": "n'est",
+   "t": 24.97,
+   "aai": "Ce n'est pas une",
+   "google": "ce",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 71,
+   "word": "pas",
+   "t": 25.18,
+   "aai": "C'est pas une croix.",
+   "google": "n'est pas",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 72,
+   "word": "une",
+   "t": 25.36,
+   "aai": "une croissance musculaire",
+   "google": "une croissance",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 73,
+   "word": "croissance",
+   "t": 25.5,
+   "aai": "croissance musculaire.",
+   "google": "la croissance musculaire",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 74,
+   "word": "musculaire",
+   "t": 25.9,
+   "aai": "musculaire instantanée.",
+   "google": "musculaire instant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 75,
+   "word": "instantanée.",
+   "t": 26.32,
+   "aai": "instantanée. La",
+   "google": "instantané",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 76,
+   "word": "La",
+   "t": 27.59,
+   "aai": "La véritable hypothèse",
+   "google": "la véritable",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 77,
+   "word": "véritable",
+   "t": 27.67,
+   "aai": "véritable hypertrophie.",
+   "google": "la véritable hypert",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 78,
+   "word": "hypertrophie,",
+   "t": 28.16,
+   "aai": "l'hypertrophie, c'est-à-dire",
+   "google": "l'hypertrophie c'est",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 79,
+   "word": "c'est-à-dire",
+   "t": 29.03,
+   "aai": "C'est-à-dire le",
+   "google": "c'est à dire",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 80,
+   "word": "le",
+   "t": 29.43,
+   "aai": "Le développement de",
+   "google": "vers le développement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 81,
+   "word": "développement",
+   "t": 29.59,
+   "aai": "développement de",
+   "google": "le développement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 82,
+   "word": "de",
+   "t": 30.02,
+   "aai": "de thèmes.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 83,
+   "word": "tes",
+   "t": 30.15,
+   "aai": "tes muscles.",
+   "google": "de tes muscles",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 84,
+   "word": "muscles,",
+   "t": 30.26,
+   "aai": "muscles, ce que",
+   "google": "tes muscles",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 85,
+   "word": "se",
+   "t": 31.03,
+   "aai": "Se construit",
+   "google": "ce",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 86,
+   "word": "construit",
+   "t": 31.19,
+   "aai": "se construit progressivement.",
+   "google": "se construit progressivement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 87,
+   "word": "progressivement",
+   "t": 31.59,
+   "aai": "progressivement grâce à",
+   "google": "progressivement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 88,
+   "word": "grâce",
+   "t": 32.35,
+   "aai": "Grâce à des",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 89,
+   "word": "à",
+   "t": 32.57,
+   "aai": "Ça dépend",
+   "google": "grâce",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 90,
+   "word": "des",
+   "t": 32.63,
+   "aai": "des entraînements réguliers.",
+   "google": "grâce à des entraînements",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 91,
+   "word": "entraînements",
+   "t": 32.81,
+   "aai": "entraînements réguliers.",
+   "google": "des entraînements réguliers",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 92,
+   "word": "réguliers,",
+   "t": 33.2,
+   "aai": "régulier, une",
+   "google": "régulier",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 93,
+   "word": "une",
+   "t": 34.17,
+   "aai": "Une récupération sans",
+   "google": "une récupération",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 94,
+   "word": "récupération",
+   "t": 34.33,
+   "aai": "récupération suffisante.",
+   "google": "une récupération suffisante",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 95,
+   "word": "suffisante",
+   "t": 35.04,
+   "aai": "suffisante et une",
+   "google": "suffisante et",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 96,
+   "word": "et",
+   "t": 35.94,
+   "aai": "Et une",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 97,
+   "word": "une",
+   "t": 36.02,
+   "aai": "Une alimentation adaptée",
+   "google": "une alimentation",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 98,
+   "word": "alimentation",
+   "t": 36.1,
+   "aai": "Une alimentation adaptée.",
+   "google": "une alimentation AD",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 99,
+   "word": "adaptée.",
+   "t": 36.66,
+   "aai": "adaptées.",
+   "google": "sont adaptés",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 100,
+   "word": "Et",
+   "t": 37.7,
+   "aai": "Et voici ce",
+   "google": "et voici",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 101,
+   "word": "voici",
+   "t": 37.79,
+   "aai": "Et voici ce que",
+   "google": "et voici",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 102,
+   "word": "ce",
+   "t": 38.08,
+   "aai": "Qu'est-ce qui",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 103,
+   "word": "qui",
+   "t": 38.16,
+   "aai": "qui est un",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 104,
+   "word": "est",
+   "t": 38.27,
+   "aai": "est intéressant.",
+   "google": "ce qui est intéressant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 105,
+   "word": "intéressant :",
+   "t": 38.42,
+   "aai": "intéressant.",
+   "google": "ce qui est intéressant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 106,
+   "word": "le",
+   "t": 39.45,
+   "aai": "Le pump.",
+   "google": "le pus",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 107,
+   "word": "pump",
+   "t": 39.57,
+   "aai": "Le pump peut être",
+   "google": "le pump",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 108,
+   "word": "peut",
+   "t": 39.93,
+   "aai": "Peut-être même",
+   "google": "peut-être",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 109,
+   "word": "être",
+   "t": 40.1,
+   "aai": "être motivant.",
+   "google": "peuvent être mot",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 110,
+   "word": "motivant,",
+   "t": 40.28,
+   "aai": "motivant, mais",
+   "google": "être motivant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 111,
+   "word": "mais",
+   "t": 40.97,
+   "aai": "Mais ce",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 112,
+   "word": "ce",
+   "t": 41.08,
+   "aai": "Ce n'est",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 113,
+   "word": "n'est",
+   "t": 41.16,
+   "aai": "Ce n'est pas un",
+   "google": "ce",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 114,
+   "word": "pas",
+   "t": 41.37,
+   "aai": "pas un",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 115,
+   "word": "un",
+   "t": 41.54,
+   "aai": "indicateur financier.",
+   "google": "propose un indicateur",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 116,
+   "word": "indicateur",
+   "t": 41.62,
+   "aai": "Indicateur fiable de",
+   "google": "un indicateur fiable",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 117,
+   "word": "fiable",
+   "t": 42.17,
+   "aai": "fiable de la",
+   "google": "fiable",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 118,
+   "word": "de",
+   "t": 42.49,
+   "aai": "de la carte.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 119,
+   "word": "la",
+   "t": 42.6,
+   "aai": "La qualité de",
+   "google": "de la qualité",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 120,
+   "word": "qualité",
+   "t": 42.73,
+   "aai": "La qualité de ta",
+   "google": "la qualité",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 121,
+   "word": "de",
+   "t": 43.13,
+   "aai": "de ta",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 122,
+   "word": "ta",
+   "t": 43.21,
+   "aai": "ta séance ni",
+   "google": "de ta séance",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 123,
+   "word": "séance",
+   "t": 43.37,
+   "aai": "séance ni de",
+   "google": "une séance",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 124,
+   "word": "ni",
+   "t": 43.85,
+   "aai": "ni de",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 125,
+   "word": "de",
+   "t": 43.93,
+   "aai": "de tes fesses.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 126,
+   "word": "tes",
+   "t": 44.09,
+   "aai": "Et",
+   "google": "côté",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 127,
+   "word": "futurs",
+   "t": 44.17,
+   "aai": "futurs résultats.",
+   "google": "des futurs résultats",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 128,
+   "word": "résultats.",
+   "t": 44.49,
+   "aai": "résultats. Alors",
+   "google": "le résultat alors",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 129,
+   "word": "Alors,",
+   "t": 45.63,
+   "aai": "Alors la première",
+   "google": "alors",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 130,
+   "word": "la",
+   "t": 45.94,
+   "aai": "La prochaine fois,",
+   "google": "la",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 131,
+   "word": "prochaine",
+   "t": 46.02,
+   "aai": "La prochaine fois que",
+   "google": "la prochaine fois",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 132,
+   "word": "fois",
+   "t": 46.34,
+   "aai": "Une fois que",
+   "google": "une",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 133,
+   "word": "que",
+   "t": 46.5,
+   "aai": "que tes bras",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 134,
+   "word": "tes",
+   "t": 46.58,
+   "aai": "tes bras.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 135,
+   "word": "bras",
+   "t": 46.74,
+   "aai": "Les bras semblent énormes.",
+   "google": "les bras semblent",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 136,
+   "word": "semblent",
+   "t": 46.9,
+   "aai": "Ça semble énorme à",
+   "google": "rassemble énorme",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 137,
+   "word": "énormes",
+   "t": 47.31,
+   "aai": "Les normes après les",
+   "google": "énorme",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 138,
+   "word": "après",
+   "t": 47.63,
+   "aai": "Après les ponts.",
+   "google": "après",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 139,
+   "word": "les",
+   "t": 47.81,
+   "aai": "les pompes.",
+   "google": "que",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 140,
+   "word": "pompes,",
+   "t": 47.94,
+   "aai": "pompes profitent du",
+   "google": "une pompe prof",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 141,
+   "word": "profite",
+   "t": 48.42,
+   "aai": "Profite du",
+   "google": "profite",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 142,
+   "word": "du",
+   "t": 48.82,
+   "aai": "du miroir.",
+   "google": "du miroir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 143,
+   "word": "miroir…",
+   "t": 48.9,
+   "aai": "miroir, mais nous",
+   "google": "du miroir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 144,
+   "word": "mais",
+   "t": 49.78,
+   "aai": "Mais ne",
+   "google": "mets",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 145,
+   "word": "ne",
+   "t": 49.86,
+   "aai": "Et ne confonds pas",
+   "google": "et ne",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 146,
+   "word": "confonds",
+   "t": 50.02,
+   "aai": "Ne confonds pas cette",
+   "google": "ne conf",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 147,
+   "word": "pas",
+   "t": 50.34,
+   "aai": "Pas cette",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 148,
+   "word": "cet",
+   "t": 50.5,
+   "aai": "Cet effet",
+   "google": "pas",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 149,
+   "word": "effet",
+   "t": 50.68,
+   "aai": "C'est",
+   "google": "tout est fait temporaire",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 150,
+   "word": "temporaire",
+   "t": 50.9,
+   "aai": "temporaire avec du",
+   "google": "est temporaire avec",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 151,
+   "word": "avec",
+   "t": 51.4,
+   "aai": "Avec du",
+   "google": "avec",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 152,
+   "word": "du",
+   "t": 51.62,
+   "aai": "Du muscle gain.",
+   "google": "avec du muscle",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 153,
+   "word": "muscle",
+   "t": 51.72,
+   "aai": "muscle gagné.",
+   "google": "du muscle gagn",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 154,
+   "word": "gagné !",
+   "t": 52.06,
+   "aai": "gagner. Le",
+   "google": "de gagner",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 155,
+   "word": "Le",
+   "t": 53.07,
+   "aai": "Le muscle se",
+   "google": "le muscle",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 156,
+   "word": "muscle",
+   "t": 53.1,
+   "aai": "Le muscle se",
+   "google": "le muscle",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 157,
+   "word": "se",
+   "t": 53.55,
+   "aai": "se construire.",
+   "google": "de ce",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 158,
+   "word": "construit",
+   "t": 53.71,
+   "aai": "construit avec le",
+   "google": "de construit avec",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 159,
+   "word": "avec",
+   "t": 54.13,
+   "aai": "Avec le temps.",
+   "google": "compris avec le",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 160,
+   "word": "le",
+   "t": 54.44,
+   "aai": "le temps.",
+   "google": "avec",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 161,
+   "word": "temps,",
+   "t": 54.6,
+   "aai": "Par",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 162,
+   "word": "pas",
+   "t": 55.16,
+   "aai": "Parle",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 163,
+   "word": "en",
+   "t": 55.26,
+   "aai": "En quelques minutes.",
+   "google": "sais pas",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 164,
+   "word": "quelques",
+   "t": 55.41,
+   "aai": "quelques minutes de",
+   "google": "en quelques minutes",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 165,
+   "word": "minutes",
+   "t": 55.68,
+   "aai": "minutes devant le",
+   "google": "quelques minutes devant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 166,
+   "word": "devant",
+   "t": 56.13,
+   "aai": "Devant le",
+   "google": "devant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 167,
+   "word": "le",
+   "t": 56.45,
+   "aai": "le miroir.",
+   "google": "dans le",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 168,
+   "word": "miroir.",
+   "t": 56.49,
+   "aai": "miroir. Abonne-toi et",
+   "google": "dans le miroir abonnes",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 169,
+   "word": "Abonne-toi,",
+   "t": 57.76,
+   "aai": "Abonne-toi et n'oublie pas",
+   "google": "abonne-toi",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 170,
+   "word": "une",
+   "t": 58.24,
+   "aai": "nouvelle vidéo.",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 171,
+   "word": "nouvelle",
+   "t": 58.31,
+   "aai": "nouvelle vidéo.",
+   "google": "une nouvelle vidéo",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 172,
+   "word": "vidéo",
+   "t": 58.63,
+   "aai": "vidéos chaque jour.",
+   "google": "cette vidéo",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 173,
+   "word": "chaque",
+   "t": 58.95,
+   "aai": "chaque jour.",
+   "google": "chaque",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 174,
+   "word": "jour.",
+   "t": 59.2,
+   "aai": "Hérodote",
+   "google": "les jours",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 175,
+   "word": "Et",
+   "t": 59.94,
+   "aai": "Et retrouve-nous sur",
+   "google": "et retrouve nous",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 176,
+   "word": "retrouve-nous",
+   "t": 60.0,
+   "aai": "Retrouve-nous sur",
+   "google": "retrouve nous",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 177,
+   "word": "sur",
+   "t": 60.48,
+   "aai": "sur calibody.com.",
+   "google": "sur Kali body.com",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 178,
+   "word": "calibodi.com !",
+   "t": 60.69,
+   "aai": "kali-body.com.",
+   "google": "Kalib body.com",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "ERREUR"
+  }
+ ],
+ "phrases": [],
+ "anomalies": []
+}
