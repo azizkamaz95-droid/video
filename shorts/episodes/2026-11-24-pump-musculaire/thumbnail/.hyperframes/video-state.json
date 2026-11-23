@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "historyId": "76892196-1cd9-4cfc-b2bc-f335b2caa215",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/brand/icon-512.png": {
+      "hash": "1944b8525c899450deff18a23cba1c90734b2d008ea0455f5095532986b17f22",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/19/1944b8525c899450deff18a23cba1c90734b2d008ea0455f5095532986b17f22"
+    },
+    "assets/fonts/Caveat-700-latin-ext.woff2": {
+      "hash": "f97b55783e417e37fce40600ad946b11eb63741a1cfdb2cd3907febc3cd8927f",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/f9/f97b55783e417e37fce40600ad946b11eb63741a1cfdb2cd3907febc3cd8927f"
+    },
+    "assets/fonts/Caveat-700-latin.woff2": {
+      "hash": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/15/15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405"
+    },
+    "assets/fonts/Montserrat-500-latin-ext.woff2": {
+      "hash": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/54/54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    "assets/fonts/Montserrat-500-latin.woff2": {
+      "hash": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/06/06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    "assets/fonts/Montserrat-600-latin-ext.woff2": {
+      "hash": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/54/54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    "assets/fonts/Montserrat-600-latin.woff2": {
+      "hash": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/06/06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    "assets/fonts/Montserrat-800-latin-ext.woff2": {
+      "hash": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/54/54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    "assets/fonts/Montserrat-800-latin.woff2": {
+      "hash": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/06/06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    "assets/fonts/Montserrat-900-latin-ext.woff2": {
+      "hash": "f4fcedc59ae41e24d67bcbd406c7a5f0b6e21ab57d2f4c198e1b1486f3832330",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/f4/f4fcedc59ae41e24d67bcbd406c7a5f0b6e21ab57d2f4c198e1b1486f3832330"
+    },
+    "assets/fonts/Montserrat-900-latin.woff2": {
+      "hash": "5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/5b/5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205"
+    },
+    "assets/fx/grain.png": {
+      "hash": "f31725459f1e6ed1268a65f9e7080751ad0519767014bf4d76c951a6d1b16bce",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/f3/f31725459f1e6ed1268a65f9e7080751ad0519767014bf4d76c951a6d1b16bce"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/92/92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "hyperframes.json": {
+      "hash": "59f217caa367f193d879fd3e5b84dee5b0793b5a617094711df1f4d4de5b30bc",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/59/59f217caa367f193d879fd3e5b84dee5b0793b5a617094711df1f4d4de5b30bc"
+    },
+    "img/calix-sceptique.png": {
+      "hash": "3c16b43591d27f6922f8b12cbd8e2f49ed6aa92c67cf154fe745d92c97b12177",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/3c/3c16b43591d27f6922f8b12cbd8e2f49ed6aa92c67cf154fe745d92c97b12177"
+    },
+    "img/fond.jpg": {
+      "hash": "f798482de2f522986204b9fee3527e0bd9d8efccf7a85a7d6863e2d79d223309",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/f7/f798482de2f522986204b9fee3527e0bd9d8efccf7a85a7d6863e2d79d223309"
+    },
+    "index.html": {
+      "hash": "85de0394d0bd2372d63476877385631dc7592971d6a4c17bccbcf27ef40d7eb1",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/85/85de0394d0bd2372d63476877385631dc7592971d6a4c17bccbcf27ef40d7eb1"
+    },
+    "meta.json": {
+      "hash": "1f875f3c9012f8e2048025f3a1602a94310752d3777931ac5959ca867b8f8db8",
+      "content": "/root/.cache/hyperframes/history/76892196-1cd9-4cfc-b2bc-f335b2caa215/blobs/1f/1f875f3c9012f8e2048025f3a1602a94310752d3777931ac5959ca867b8f8db8"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "450b4a7d-33a5-407c-9cff-2c4362df7d98-0"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "450b4a7d-33a5-407c-9cff-2c4362df7d98-0",
+        "image": "/tmp/scratch/th2/frame-00-at-0s.png",
+        "time": 0,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795470508806,
+        "contentHash": "a43f2be187cc0363e7bd8ac3425b212a5771fb7dc9c7843a8bfddacc177806f5",
+        "revision": null,
+        "inputFingerprint": "090a8095b4c14091e33ba9671bb32261c7b3d4410d3f90d9ed32f662a5951c20",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  }
+}

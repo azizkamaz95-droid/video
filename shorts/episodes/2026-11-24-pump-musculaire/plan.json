@@ -1,0 +1,221 @@
+{
+ "title": "Pump musculaire",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -29.5,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  3.54
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 12.3
+  },
+  {
+   "type": "body",
+   "start": 12.3,
+   "end": 57.6
+  },
+  {
+   "type": "outro",
+   "start": 57.6,
+   "end": 63.1
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   2.34
+  ],
+  [
+   "whoosh",
+   3.25
+  ],
+  [
+   "stamp",
+   3.54
+  ],
+  [
+   "thump",
+   3.54
+  ],
+  [
+   "stamp",
+   5.47
+  ],
+  [
+   "whoosh",
+   6.25
+  ],
+  [
+   "stamp",
+   7.65
+  ],
+  [
+   "whoosh",
+   9.35
+  ],
+  [
+   "stamp",
+   10.79
+  ],
+  [
+   "whoosh",
+   12.25
+  ],
+  [
+   "stamp",
+   14.33
+  ],
+  [
+   "whoosh",
+   15.85
+  ],
+  [
+   "stamp",
+   17.42
+  ],
+  [
+   "whoosh",
+   19.8
+  ],
+  [
+   "stamp",
+   21.16
+  ],
+  [
+   "stamp",
+   22.94
+  ],
+  [
+   "whoosh",
+   23.65
+  ],
+  [
+   "stamp",
+   25.5
+  ],
+  [
+   "stamp",
+   26.32
+  ],
+  [
+   "whoosh",
+   27.45
+  ],
+  [
+   "stamp",
+   28.16
+  ],
+  [
+   "stamp",
+   30.26
+  ],
+  [
+   "whoosh",
+   30.95
+  ],
+  [
+   "stamp",
+   32.81
+  ],
+  [
+   "stamp",
+   33.2
+  ],
+  [
+   "whoosh",
+   34.05
+  ],
+  [
+   "stamp",
+   34.33
+  ],
+  [
+   "whoosh",
+   35.95
+  ],
+  [
+   "stamp",
+   36.1
+  ],
+  [
+   "whoosh",
+   37.6
+  ],
+  [
+   "stamp",
+   39.57
+  ],
+  [
+   "stamp",
+   40.28
+  ],
+  [
+   "whoosh",
+   41.95
+  ],
+  [
+   "stamp",
+   42.17
+  ],
+  [
+   "stamp",
+   44.17
+  ],
+  [
+   "whoosh",
+   45.45
+  ],
+  [
+   "stamp",
+   46.74
+  ],
+  [
+   "stamp",
+   48.9
+  ],
+  [
+   "whoosh",
+   49.75
+  ],
+  [
+   "stamp",
+   50.68
+  ],
+  [
+   "stamp",
+   51.72
+  ],
+  [
+   "whoosh",
+   52.95
+  ],
+  [
+   "stamp",
+   54.6
+  ],
+  [
+   "stamp",
+   56.49
+  ],
+  [
+   "whoosh",
+   57.55
+  ],
+  [
+   "stamp",
+   60.6
+  ]
+ ],
+ "music_file": "assets/music/motivation-quotidienne.mp3",
+ "music_loop": [
+  0.0,
+  48.0
+ ]
+}

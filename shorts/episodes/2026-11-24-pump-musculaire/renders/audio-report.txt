@@ -1,0 +1,50 @@
+duration 63.1s · bpm 120 · 76 kicks
+  sfx stamp        2.34 ->   2.46  -13.2 dB vs voice (lowered -13.2 dB) · own file
+  sfx whoosh       3.25 ->   3.16   -6.0 dB vs voice · in a breath · own file
+  sfx stamp        3.54 ->   3.69  -10.5 dB vs voice (lowered -10.5 dB, word attack) · own file
+  sfx thump        3.54 ->   3.68   -7.9 dB vs voice (lowered -5.9 dB, word attack) · own file
+  sfx stamp        5.47 ->   5.62  dropped (would mask a word) · own file
+  sfx whoosh       6.25 ->   6.25   -6.0 dB vs voice · in a breath · own file
+  sfx stamp        7.65 ->   7.69  -11.2 dB vs voice (lowered -11.2 dB) · own file
+  sfx whoosh       9.35 ->   9.25  dropped (would mask a word) · in a breath · own file
+  sfx stamp       10.79 ->  10.90  -13.4 dB vs voice (lowered -13.4 dB) · own file
+  sfx whoosh      12.25 ->  12.22   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       14.33 ->  14.34  -11.0 dB vs voice (lowered -11.0 dB) · own file
+  sfx whoosh      15.85 ->  15.82   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       17.42 ->  17.43   -9.8 dB vs voice (lowered -9.8 dB) · own file
+  sfx whoosh      19.80 ->  19.70   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       21.16 ->  21.06  dropped (would mask a word) · own file
+  sfx stamp       22.94 ->  23.03  dropped (would mask a word) · own file
+  sfx whoosh      23.65 ->  23.65   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       25.50 ->  25.40  -11.6 dB vs voice (lowered -11.6 dB, word attack) · own file
+  sfx stamp       26.32 ->  26.33  -11.3 dB vs voice (lowered -11.3 dB) · own file
+  sfx whoosh      27.45 ->  27.39   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       28.16 ->  28.31  -12.8 dB vs voice (lowered -12.8 dB) · own file
+  sfx stamp       30.26 ->  30.16  dropped (would mask a word) · own file
+  sfx whoosh      30.95 ->  30.85   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       32.81 ->  32.86  -13.8 dB vs voice (lowered -13.8 dB) · own file
+  sfx stamp       33.20 ->  33.31  dropped (would mask a word) · own file
+  sfx whoosh      34.05 ->  34.04   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       34.33 ->  34.43  -14.0 dB vs voice (lowered -14.0 dB, word attack) · own file
+  sfx whoosh      35.95 ->  35.85  dropped (would mask a word) · own file
+  sfx stamp       36.10 ->  36.25   -9.4 dB vs voice (lowered -9.4 dB) · own file
+  sfx whoosh      37.60 ->  37.54   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       39.57 ->  39.72  -12.5 dB vs voice (lowered -12.5 dB) · own file
+  sfx stamp       40.28 ->  40.39  -14.1 dB vs voice (lowered -14.1 dB) · own file
+  sfx whoosh      41.95 ->  42.10  -10.0 dB vs voice (lowered -4.0 dB, word attack) · in a breath · own file
+  sfx stamp       42.17 ->  42.09  dropped (would mask a word) · in a breath · own file
+  sfx stamp       44.17 ->  44.13  dropped (would mask a word) · own file
+  sfx whoosh      45.45 ->  45.41   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       46.74 ->  46.86  -13.4 dB vs voice (lowered -13.4 dB, word attack) · own file
+  sfx stamp       48.90 ->  49.00  -14.5 dB vs voice (lowered -14.5 dB) · own file
+  sfx whoosh      49.75 ->  49.65   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       50.68 ->  50.83  dropped (would mask a word) · own file
+  sfx stamp       51.72 ->  51.83  -12.8 dB vs voice (lowered -12.8 dB) · own file
+  sfx whoosh      52.95 ->  52.85   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       54.60 ->  54.75  dropped (would mask a word) · own file
+  sfx stamp       56.49 ->  56.64  dropped (would mask a word) · own file
+  sfx whoosh      57.55 ->  57.52   -6.0 dB vs voice · in a breath · own file
+  sfx stamp       60.60 ->  60.57   -7.6 dB vs voice (lowered -7.6 dB) · own file
+voice -13.5 LUFS · music -29.5 LUFS · sfx -29.7 LUFS · mix -13.5 LUFS
+speech band (300-3400 Hz) while talking: voice is 20.8 dB above the music
+music in pauses: -30.3 dBFS · voice while talking: -14.9 dBFS
