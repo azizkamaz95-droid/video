@@ -1,5 +1,5 @@
 {
- "duration": 61.542,
+ "duration": 61.218,
  "segments": [
   {
    "id": "s01",
@@ -47,13 +47,13 @@
    "id": "s08",
    "text": "Alors, retiens ceci : pour construire du muscle, soulever toujours plus lourd n'est pas la seule solution. Ce qui compte, c'est de donner à tes muscles une raison de s'adapter.",
    "start": 46.556,
-   "end": 56.148
+   "end": 55.824
   },
   {
    "id": "s09",
    "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
-   "start": 56.648,
-   "end": 60.942
+   "start": 56.324,
+   "end": 60.618
   }
  ]
 }

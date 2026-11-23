@@ -1,0 +1,1903 @@
+{
+ "mots": [
+  {
+   "i": 0,
+   "word": "Et",
+   "t": 0.19,
+   "aai": "Et si je",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 1,
+   "word": "si",
+   "t": 0.26,
+   "aai": "Et si je",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 2,
+   "word": "je",
+   "t": 0.37,
+   "aai": "étudier",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 3,
+   "word": "te",
+   "t": 0.42,
+   "aai": "Si je te disais",
+   "google": "si je te",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 4,
+   "word": "disais",
+   "t": 0.58,
+   "aai": "disais que tu",
+   "google": "comme je disais",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 5,
+   "word": "que",
+   "t": 0.8,
+   "aai": "que tu peux",
+   "google": "disait",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 6,
+   "word": "tu",
+   "t": 0.93,
+   "aai": "Tu pouvais donner",
+   "google": "que tu",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 7,
+   "word": "pouvais",
+   "t": 1.06,
+   "aai": "Tu pouvais développer",
+   "google": "que tu pouvais",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 8,
+   "word": "développer",
+   "t": 1.3,
+   "aai": "Développer tes",
+   "google": "pouvez développer",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 9,
+   "word": "tes",
+   "t": 1.78,
+   "aai": "C'était Muscle",
+   "google": "à été",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 10,
+   "word": "muscles",
+   "t": 1.86,
+   "aai": "muscles avec des",
+   "google": "tes muscles",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 11,
+   "word": "avec",
+   "t": 2.2,
+   "aai": "Avec des allers-retours",
+   "google": "avec",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 12,
+   "word": "des",
+   "t": 2.34,
+   "aai": "des haltères que",
+   "google": "avec des Hal",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 13,
+   "word": "haltères",
+   "t": 2.6,
+   "aai": "Alors,",
+   "google": "les Hal",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "ERREUR"
+  },
+  {
+   "i": 14,
+   "word": "que",
+   "t": 2.9,
+   "aai": "Que tu trouves",
+   "google": "veut dire",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 15,
+   "word": "tu",
+   "t": 2.98,
+   "aai": "que tu trouves.",
+   "google": "que tu",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 16,
+   "word": "trouves",
+   "t": 3.15,
+   "aai": "Je trouve presque trop",
+   "google": "que tu trouves presque",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 17,
+   "word": "presque",
+   "t": 3.39,
+   "aai": "Presque trop laid.",
+   "google": "presque",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 18,
+   "word": "trop",
+   "t": 3.79,
+   "aai": "trop léger.",
+   "google": "trop",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 19,
+   "word": "légers ?",
+   "t": 3.98,
+   "aai": "On y mettra",
+   "google": "trop léger",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 20,
+   "word": "On",
+   "t": 5.02,
+   "aai": "On imagine",
+   "google": "on",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 21,
+   "word": "imagine",
+   "t": 5.09,
+   "aai": "On imagine souvent que",
+   "google": "on imagine souvent",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 22,
+   "word": "souvent",
+   "t": 5.39,
+   "aai": "Souvent que",
+   "google": "comprenne souvent",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 23,
+   "word": "que",
+   "t": 5.79,
+   "aai": "Que pour",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 24,
+   "word": "pour",
+   "t": 5.87,
+   "aai": "Pour prendre du",
+   "google": "que pour prendre",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 25,
+   "word": "prendre",
+   "t": 6.04,
+   "aai": "Prendre du",
+   "google": "pour prendre",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 26,
+   "word": "du",
+   "t": 6.36,
+   "aai": "du muscle.",
+   "google": "perdre du",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 27,
+   "word": "muscle,",
+   "t": 6.47,
+   "aai": "muscle, il faut",
+   "google": "du muscle",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 28,
+   "word": "il",
+   "t": 7.09,
+   "aai": "Il faut se",
+   "google": "il",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 29,
+   "word": "faut",
+   "t": 7.24,
+   "aai": "Il faut soulever tout",
+   "google": "il faut sou",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 30,
+   "word": "soulever",
+   "t": 7.4,
+   "aai": "soulever toujours plus.",
+   "google": "soulevé toujours",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 31,
+   "word": "toujours",
+   "t": 7.72,
+   "aai": "toujours plus lourd.",
+   "google": "peut-être toujours plus",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 32,
+   "word": "plus",
+   "t": 8.04,
+   "aai": "plus lourd.",
+   "google": "plus",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 33,
+   "word": "lourd.",
+   "t": 8.2,
+   "aai": "lourd. Pourtant,",
+   "google": "plus lourd pour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 34,
+   "word": "Pourtant,",
+   "t": 8.84,
+   "aai": "Pourtant, les",
+   "google": "pourtant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 35,
+   "word": "les",
+   "t": 9.49,
+   "aai": "Les recherches scientifiques",
+   "google": "les recherches",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 36,
+   "word": "recherches",
+   "t": 9.6,
+   "aai": "Les recherches scientifiques révèlent",
+   "google": "des recherches scientifiques",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 37,
+   "word": "scientifiques",
+   "t": 9.97,
+   "aai": "scientifique raconte une",
+   "google": "scientifiques",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 38,
+   "word": "racontent",
+   "t": 10.53,
+   "aai": "Il y a",
+   "google": "raconte",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 39,
+   "word": "une",
+   "t": 10.87,
+   "aai": "autre histoire.",
+   "google": "est",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 40,
+   "word": "autre",
+   "t": 11.03,
+   "aai": "histoire.",
+   "google": "une autre histoire",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 41,
+   "word": "histoire.",
+   "t": 11.19,
+   "aai": "histoire.",
+   "google": "notre histoire",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 42,
+   "word": "Des",
+   "t": 12.21,
+   "aai": "Des études ont",
+   "google": "des études",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 43,
+   "word": "études",
+   "t": 12.39,
+   "aai": "études en",
+   "google": "les",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 44,
+   "word": "ont",
+   "t": 12.63,
+   "aai": "montrer que",
+   "google": "ont montré",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 45,
+   "word": "montré",
+   "t": 12.73,
+   "aai": "montrer que des",
+   "google": "vous montrer",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 46,
+   "word": "que",
+   "t": 13.26,
+   "aai": "que des",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 47,
+   "word": "des",
+   "t": 13.42,
+   "aai": "décharge lente.",
+   "google": "la D",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 48,
+   "word": "charges",
+   "t": 13.5,
+   "aai": "charges légères peuvent",
+   "google": "des charges légères",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 49,
+   "word": "légères",
+   "t": 13.9,
+   "aai": "Légères peuvent provoquer",
+   "google": "légère peuvent",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 50,
+   "word": "peuvent",
+   "t": 14.38,
+   "aai": "peuvent provoquer une",
+   "google": "peuvent provoquer",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 51,
+   "word": "provoquer",
+   "t": 14.62,
+   "aai": "Provoquer une",
+   "google": "provoquer",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 52,
+   "word": "une",
+   "t": 15.04,
+   "aai": "Une croissance musculaire",
+   "google": "une croissance",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 53,
+   "word": "croissance",
+   "t": 15.1,
+   "aai": "croissance musculaire",
+   "google": "une croissance musculaire",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 54,
+   "word": "musculaire",
+   "t": 15.66,
+   "aai": "musculaire comparable à",
+   "google": "masse musculaire comparable",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 55,
+   "word": "comparable",
+   "t": 16.23,
+   "aai": "comparable à ça.",
+   "google": "comparable",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 56,
+   "word": "à",
+   "t": 16.74,
+   "aai": "la scène opérationnelle.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 57,
+   "word": "celle",
+   "t": 16.79,
+   "aai": "celle obtenue avec",
+   "google": "la seule obtenue",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 58,
+   "word": "obtenue",
+   "t": 17.05,
+   "aai": "obtenus avec des",
+   "google": "obtenu avec",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 59,
+   "word": "avec",
+   "t": 17.45,
+   "aai": "Avec des choses",
+   "google": "avec",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 60,
+   "word": "des",
+   "t": 17.67,
+   "aai": "charges lourdes.",
+   "google": "des",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 61,
+   "word": "charges",
+   "t": 17.78,
+   "aai": "charges lourdes.",
+   "google": "décharge lourd",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 62,
+   "word": "lourdes.",
+   "t": 18.23,
+   "aai": "lourde. Mais à",
+   "google": "lourdes",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 63,
+   "word": "Mais",
+   "t": 19.36,
+   "aai": "Mais attention!",
+   "google": "mais attention",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 64,
+   "word": "attention,",
+   "t": 19.45,
+   "aai": "Mais attention, il y a",
+   "google": "mais attention il",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 65,
+   "word": "il",
+   "t": 20.5,
+   "aai": "Il y a une",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 66,
+   "word": "y",
+   "t": 20.58,
+   "aai": "Bien que",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 67,
+   "word": "a",
+   "t": 20.7,
+   "aai": "Quoi",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 68,
+   "word": "une",
+   "t": 20.74,
+   "aai": "Une condition importante.",
+   "google": "une condition",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 69,
+   "word": "condition",
+   "t": 20.8,
+   "aai": "condition importante.",
+   "google": "bonnes conditions importantes",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 70,
+   "word": "importante.",
+   "t": 21.3,
+   "aai": "Faire quelques",
+   "google": "importante",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 71,
+   "word": "Faire",
+   "t": 22.57,
+   "aai": "faire quelques réponses.",
+   "google": "de faire quelques",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 72,
+   "word": "quelques",
+   "t": 22.73,
+   "aai": "Quelques répétitions faciles.",
+   "google": "quelques répétitions",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 73,
+   "word": "répétitions",
+   "t": 23.05,
+   "aai": "Répétition facile ne",
+   "google": "de répétitions faciles",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 74,
+   "word": "faciles",
+   "t": 23.61,
+   "aai": "Facile ne",
+   "google": "facile",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 75,
+   "word": "ne",
+   "t": 24.01,
+   "aai": "suffit pas.",
+   "google": "ne",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 76,
+   "word": "suffit",
+   "t": 24.09,
+   "aai": "suffit pas.",
+   "google": "ne suff",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 77,
+   "word": "pas.",
+   "t": 24.41,
+   "aai": "Avec une",
+   "google": "pas avec",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 78,
+   "word": "Avec",
+   "t": 25.07,
+   "aai": "Avec une chaîne",
+   "google": "avec",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 79,
+   "word": "une",
+   "t": 25.31,
+   "aai": "une charge légère.",
+   "google": "aucune",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 80,
+   "word": "charge",
+   "t": 25.46,
+   "aai": "charges légères.",
+   "google": "recharge lég",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 81,
+   "word": "légère,",
+   "t": 25.7,
+   "aai": "Légère, tu dois",
+   "google": "légère",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 82,
+   "word": "tu",
+   "t": 26.1,
+   "aai": "Tu dois générer",
+   "google": "tu",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 83,
+   "word": "dois",
+   "t": 26.21,
+   "aai": "Il doit généralement",
+   "google": "doit généralement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 84,
+   "word": "généralement",
+   "t": 26.42,
+   "aai": "Généralement, pousser tes",
+   "google": "généralement poussé",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 85,
+   "word": "pousser",
+   "t": 26.98,
+   "aai": "C'est",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 86,
+   "word": "tes",
+   "t": 27.3,
+   "aai": "séries sur",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 87,
+   "word": "séries",
+   "t": 27.38,
+   "aai": "séries suffisamment près.",
+   "google": "la série suffisamment",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 88,
+   "word": "suffisamment",
+   "t": 27.7,
+   "aai": "suffisamment près de",
+   "google": "suffisamment près",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 89,
+   "word": "près",
+   "t": 28.35,
+   "aai": "près de tes lèvres.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 90,
+   "word": "de",
+   "t": 28.51,
+   "aai": "de tes lignes.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 91,
+   "word": "tes",
+   "t": 28.67,
+   "aai": "C'est limite, monsieur.",
+   "google": "les",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 92,
+   "word": "limites",
+   "t": 28.75,
+   "aai": "limites musculaires.",
+   "google": "les limites musculaires",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 93,
+   "word": "musculaires",
+   "t": 29.07,
+   "aai": "musculaire pour stimuler",
+   "google": "musculaire pour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 94,
+   "word": "pour",
+   "t": 29.55,
+   "aai": "pour stimuler efficacement",
+   "google": "pour stimuler",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 95,
+   "word": "stimuler",
+   "t": 29.71,
+   "aai": "stimuler efficacement tes muscles.",
+   "google": "stimuler efficacement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 96,
+   "word": "efficacement",
+   "t": 30.21,
+   "aai": "efficacement tes muscles.",
+   "google": "efficacement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 97,
+   "word": "tes",
+   "t": 30.83,
+   "aai": "muscles.",
+   "google": "des",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 98,
+   "word": "muscles.",
+   "t": 30.91,
+   "aai": "muscles.",
+   "google": "les muscles",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 99,
+   "word": "Et",
+   "t": 31.73,
+   "aai": "Et c'est",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 100,
+   "word": "c'est",
+   "t": 31.8,
+   "aai": "Et c'est là",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 101,
+   "word": "là",
+   "t": 31.96,
+   "aai": "C'est là que ça",
+   "google": "c'est",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 102,
+   "word": "que",
+   "t": 32.12,
+   "aai": "que ça",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 103,
+   "word": "ça",
+   "t": 32.28,
+   "aai": "Ça devient",
+   "google": "que",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 104,
+   "word": "devient",
+   "t": 32.36,
+   "aai": "ça devient intéressant.",
+   "google": "ça devient intéressant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 105,
+   "word": "intéressant :",
+   "t": 32.62,
+   "aai": "intéressant.",
+   "google": "ce qui est bien intéressant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 106,
+   "word": "ton",
+   "t": 33.64,
+   "aai": "Ton muscle ne",
+   "google": "ton",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 107,
+   "word": "muscle",
+   "t": 33.75,
+   "aai": "muscles neuronaux.",
+   "google": "mon muscle",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 108,
+   "word": "ne",
+   "t": 34.08,
+   "aai": "ne regarde pas",
+   "google": "je ne regarde",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 109,
+   "word": "regarde",
+   "t": 34.2,
+   "aai": "ne regarde pas le",
+   "google": "ne regarde",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 110,
+   "word": "pas",
+   "t": 34.6,
+   "aai": "C'est pas le problème.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 111,
+   "word": "le",
+   "t": 34.72,
+   "aai": "Le point",
+   "google": "pas",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 112,
+   "word": "poids",
+   "t": 34.84,
+   "aai": "Le poids écrit sur",
+   "google": "le",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 113,
+   "word": "écrit",
+   "t": 34.96,
+   "aai": "Écrit sur la",
+   "google": "pourquoi écrit",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 114,
+   "word": "sur",
+   "t": 35.25,
+   "aai": "sur la terre.",
+   "google": "cliquez sur",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 115,
+   "word": "l'haltère.",
+   "t": 35.39,
+   "aai": "l'alter. Il rit.",
+   "google": "sur la terre",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "ERREUR"
+  },
+  {
+   "i": 116,
+   "word": "Il",
+   "t": 36.3,
+   "aai": "Il réagit",
+   "google": "il",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 117,
+   "word": "réagit",
+   "t": 36.47,
+   "aai": "Il réagit notamment à",
+   "google": "j'ai réagi notamment",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 118,
+   "word": "notamment",
+   "t": 36.8,
+   "aai": "Notamment à la",
+   "google": "s'agit notamment",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 119,
+   "word": "à",
+   "t": 37.27,
+   "aai": "À la",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 120,
+   "word": "la",
+   "t": 37.33,
+   "aai": "La tension maximale",
+   "google": "la",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 121,
+   "word": "tension",
+   "t": 37.41,
+   "aai": "La tension mécanique est",
+   "google": "la tension mécanique",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 122,
+   "word": "mécanique",
+   "t": 37.73,
+   "aai": "mécanique et",
+   "google": "mets",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 123,
+   "word": "et",
+   "t": 38.23,
+   "aai": "Quelle",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 124,
+   "word": "à",
+   "t": 38.25,
+   "aai": "À l'effort qu'il",
+   "google": "qui est à",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 125,
+   "word": "l'effort",
+   "t": 38.31,
+   "aai": "À l'effort qu'il",
+   "google": "et à Leffe",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 126,
+   "word": "qu'il",
+   "t": 38.7,
+   "aai": "Qu'il doit",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 127,
+   "word": "doit",
+   "t": 38.86,
+   "aai": "doit produire.",
+   "google": "doit",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 128,
+   "word": "produire.",
+   "t": 38.97,
+   "aai": "produire. En revanche,",
+   "google": "doit produire",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 129,
+   "word": "En",
+   "t": 40.08,
+   "aai": "En revanche,",
+   "google": "en revanche",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 130,
+   "word": "revanche,",
+   "t": 40.14,
+   "aai": "En revanche, si tu",
+   "google": "en revanche",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 131,
+   "word": "si",
+   "t": 41.02,
+   "aai": "Si ton",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 132,
+   "word": "ton",
+   "t": 41.1,
+   "aai": "Si ton objectif est de",
+   "google": "si ton objectif",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 133,
+   "word": "objectif",
+   "t": 41.28,
+   "aai": "Mon objectif est de",
+   "google": "mon objectif",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 134,
+   "word": "est",
+   "t": 41.76,
+   "aai": "de 2",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 135,
+   "word": "de",
+   "t": 41.82,
+   "aai": "de devenir beaucoup",
+   "google": "de devenir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 136,
+   "word": "devenir",
+   "t": 41.9,
+   "aai": "Devenir beaucoup plus",
+   "google": "de devenir beaucoup",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 137,
+   "word": "beaucoup",
+   "t": 42.3,
+   "aai": "Beaucoup plus fort.",
+   "google": "beaucoup",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 138,
+   "word": "plus",
+   "t": 42.55,
+   "aai": "plus fort sur",
+   "google": "beaucoup plus",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 139,
+   "word": "fort",
+   "t": 42.71,
+   "aai": "fort sur un",
+   "google": "plus fort",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 140,
+   "word": "sur",
+   "t": 42.9,
+   "aai": "sur un",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 141,
+   "word": "un",
+   "t": 43.12,
+   "aai": "Un mouvement",
+   "google": "sur un",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 142,
+   "word": "mouvement",
+   "t": 43.14,
+   "aai": "mouvement précis.",
+   "google": "un mouvement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 143,
+   "word": "précis,",
+   "t": 43.51,
+   "aai": "précis, les",
+   "google": "précis",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 144,
+   "word": "les",
+   "t": 44.39,
+   "aai": "Les charges lourdes",
+   "google": "les",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 145,
+   "word": "charges",
+   "t": 44.47,
+   "aai": "Les charges lourdes gardent",
+   "google": "décharge lourd",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 146,
+   "word": "lourdes",
+   "t": 44.82,
+   "aai": "Lourdes garde un",
+   "google": "un peu lourdes",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 147,
+   "word": "gardent",
+   "t": 45.11,
+   "aai": "Garde en",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 148,
+   "word": "un",
+   "t": 45.29,
+   "aai": "d'un avantage.",
+   "google": "d'un avantage",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 149,
+   "word": "avantage.",
+   "t": 45.45,
+   "aai": "Alors,",
+   "google": "un avantage alors",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 150,
+   "word": "Alors,",
+   "t": 46.65,
+   "aai": "Alors retiens ces",
+   "google": "alors rate",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 151,
+   "word": "retiens",
+   "t": 47.6,
+   "aai": "Retiens ceci.",
+   "google": "retient ce",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 152,
+   "word": "ceci :",
+   "t": 47.92,
+   "aai": "ceci. Pourquoi?",
+   "google": "ceci",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 153,
+   "word": "pour",
+   "t": 48.8,
+   "aai": "Pour construire du",
+   "google": "pour construire",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 154,
+   "word": "construire",
+   "t": 48.96,
+   "aai": "Construire du mieux",
+   "google": "de construire",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 155,
+   "word": "du",
+   "t": 49.36,
+   "aai": "du muscle.",
+   "google": "du muscle",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 156,
+   "word": "muscle,",
+   "t": 49.52,
+   "aai": "muscles, soulevez tout",
+   "google": "les muscles sou",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 157,
+   "word": "soulever",
+   "t": 50.41,
+   "aai": "Soulevez toujours plus",
+   "google": "soulevé toujours",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 158,
+   "word": "toujours",
+   "t": 50.73,
+   "aai": "toujours plus lourd.",
+   "google": "toujours plus",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 159,
+   "word": "plus",
+   "t": 51.13,
+   "aai": "plus lourds.",
+   "google": "plus",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 160,
+   "word": "lourd",
+   "t": 51.29,
+   "aai": "Lourd n'est pas",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 161,
+   "word": "n'est",
+   "t": 51.47,
+   "aai": "n'est pas la",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 162,
+   "word": "pas",
+   "t": 51.69,
+   "aai": "pas la seule",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 163,
+   "word": "la",
+   "t": 51.8,
+   "aai": "Alors, c'est le seul",
+   "google": "pas",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 164,
+   "word": "seule",
+   "t": 51.93,
+   "aai": "seule solution.",
+   "google": "la seule solution",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 165,
+   "word": "solution.",
+   "t": 52.11,
+   "aai": "solution, ce qui",
+   "google": "de solutions",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 166,
+   "word": "Ce",
+   "t": 53.05,
+   "aai": "Ce qui compte,",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 167,
+   "word": "qui",
+   "t": 53.22,
+   "aai": "qui compte.",
+   "google": "qui",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 168,
+   "word": "compte,",
+   "t": 53.38,
+   "aai": "Ce qui compte, c'est de",
+   "google": "qui compte",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 169,
+   "word": "c'est",
+   "t": 54.1,
+   "aai": "C'est de donner",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 170,
+   "word": "de",
+   "t": 54.26,
+   "aai": "de donner à",
+   "google": "de",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 171,
+   "word": "donner",
+   "t": 54.42,
+   "aai": "Donnez attention",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 172,
+   "word": "à",
+   "t": 54.59,
+   "aai": "À tes murs.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 173,
+   "word": "tes",
+   "t": 54.74,
+   "aai": "musculaire.",
+   "google": "tes",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 174,
+   "word": "muscles",
+   "t": 54.85,
+   "aai": "muscles une",
+   "google": "les",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 175,
+   "word": "une",
+   "t": 55.17,
+   "aai": "C'est une raison de",
+   "google": "à aucune",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 176,
+   "word": "raison",
+   "t": 55.33,
+   "aai": "Raison de sa",
+   "google": "une raison",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 177,
+   "word": "de",
+   "t": 55.57,
+   "aai": "de s'adapter.",
+   "google": "de sadap",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 178,
+   "word": "s'adapter.",
+   "t": 55.69,
+   "aai": "s'adapter. Abonne-toi!",
+   "google": "s'adapter abonne-toi",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 179,
+   "word": "Abonne-toi,",
+   "t": 56.76,
+   "aai": "Abonne-toi, une nouvelle",
+   "google": "abonne-toi",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 180,
+   "word": "une",
+   "t": 57.48,
+   "aai": "Une nouvelle vidéo",
+   "google": "une",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 181,
+   "word": "nouvelle",
+   "t": 57.63,
+   "aai": "vidéo.",
+   "google": "une nouvelle vidéo",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 182,
+   "word": "vidéo",
+   "t": 57.82,
+   "aai": "vidéos chaque jour.",
+   "google": "cette vidéo chaque",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 183,
+   "word": "chaque",
+   "t": 58.11,
+   "aai": "chaque jour.",
+   "google": "chaque jour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 184,
+   "word": "jour.",
+   "t": 58.35,
+   "aai": "jours et",
+   "google": "chaque jour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 185,
+   "word": "Et",
+   "t": 59.25,
+   "aai": "Retrouve-nous sur",
+   "google": "et retrouve",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 186,
+   "word": "retrouve-nous",
+   "t": 59.31,
+   "aai": "Retrouve-nous sur",
+   "google": "retrouve-nous",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 187,
+   "word": "sur",
+   "t": 59.74,
+   "aai": "calibody.com.",
+   "google": "sur quel body.com",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 188,
+   "word": "calibodi.com !",
+   "t": 59.92,
+   "aai": "calibody.com.",
+   "google": "Kaly body.com",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  }
+ ],
+ "phrases": [
+  {
+   "phrase": 8,
+   "par": "Google",
+   "attendu": "n est",
+   "entendu": "et"
+  }
+ ],
+ "anomalies": []
+}

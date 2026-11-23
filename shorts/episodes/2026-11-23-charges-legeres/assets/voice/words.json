@@ -1,5 +1,5 @@
 {
- "duration": 61.542,
+ "duration": 61.218,
  "words": [
   {
    "i": 0,
@@ -347,7 +347,7 @@
    "i": 57,
    "word": "celle",
    "start": 16.789,
-   "end": 17.046
+   "end": 16.998
   },
   {
    "i": 58,
@@ -640,7 +640,7 @@
   {
    "i": 106,
    "word": "ton",
-   "start": 33.642,
+   "start": 33.641,
    "end": 33.754
   },
   {
@@ -665,12 +665,12 @@
    "i": 110,
    "word": "pas",
    "start": 34.604,
-   "end": 34.717
+   "end": 34.716
   },
   {
    "i": 111,
    "word": "le",
-   "start": 34.717,
+   "start": 34.716,
    "end": 34.845
   },
   {
@@ -695,12 +695,12 @@
    "i": 115,
    "word": "l'haltère.",
    "start": 35.39,
-   "end": 35.695
+   "end": 35.775
   },
   {
    "i": 116,
    "word": "Il",
-   "start": 36.305,
+   "start": 36.304,
    "end": 36.465
   },
   {
@@ -719,36 +719,36 @@
    "i": 119,
    "word": "à",
    "start": 37.267,
-   "end": 37.332
+   "end": 37.331
   },
   {
    "i": 120,
    "word": "la",
-   "start": 37.332,
-   "end": 37.412
+   "start": 37.331,
+   "end": 37.411
   },
   {
    "i": 121,
    "word": "tension",
-   "start": 37.412,
-   "end": 37.733
+   "start": 37.411,
+   "end": 37.732
   },
   {
    "i": 122,
    "word": "mécanique",
-   "start": 37.733,
-   "end": 38.23
+   "start": 37.732,
+   "end": 38.229
   },
   {
    "i": 123,
    "word": "et",
-   "start": 38.23,
-   "end": 38.246
+   "start": 38.229,
+   "end": 38.245
   },
   {
    "i": 124,
    "word": "à",
-   "start": 38.246,
+   "start": 38.245,
    "end": 38.31
   },
   {
@@ -761,379 +761,379 @@
    "i": 126,
    "word": "qu'il",
    "start": 38.695,
-   "end": 38.808
+   "end": 38.807
   },
   {
    "i": 127,
    "word": "doit",
-   "start": 38.856,
-   "end": 38.968
+   "start": 38.855,
+   "end": 38.967
   },
   {
    "i": 128,
    "word": "produire.",
-   "start": 38.968,
-   "end": 39.305
+   "start": 38.967,
+   "end": 39.304
   },
   {
    "i": 129,
    "word": "En",
-   "start": 40.075,
-   "end": 40.139
+   "start": 40.074,
+   "end": 40.138
   },
   {
    "i": 130,
    "word": "revanche,",
-   "start": 40.139,
-   "end": 40.556
+   "start": 40.138,
+   "end": 40.555
   },
   {
    "i": 131,
    "word": "si",
-   "start": 41.022,
-   "end": 41.102
+   "start": 41.021,
+   "end": 41.101
   },
   {
    "i": 132,
    "word": "ton",
-   "start": 41.102,
-   "end": 41.278
+   "start": 41.101,
+   "end": 41.277
   },
   {
    "i": 133,
    "word": "objectif",
-   "start": 41.278,
-   "end": 41.76
+   "start": 41.277,
+   "end": 41.759
   },
   {
    "i": 134,
    "word": "est",
-   "start": 41.76,
-   "end": 41.776
+   "start": 41.759,
+   "end": 41.775
   },
   {
    "i": 135,
    "word": "de",
-   "start": 41.824,
-   "end": 41.904
+   "start": 41.823,
+   "end": 41.903
   },
   {
    "i": 136,
    "word": "devenir",
-   "start": 41.904,
-   "end": 42.193
+   "start": 41.903,
+   "end": 42.192
   },
   {
    "i": 137,
    "word": "beaucoup",
-   "start": 42.305,
-   "end": 42.546
+   "start": 42.304,
+   "end": 42.545
   },
   {
    "i": 138,
    "word": "plus",
-   "start": 42.546,
-   "end": 42.706
+   "start": 42.545,
+   "end": 42.705
   },
   {
    "i": 139,
    "word": "fort",
-   "start": 42.706,
-   "end": 42.899
+   "start": 42.705,
+   "end": 42.898
   },
   {
    "i": 140,
    "word": "sur",
-   "start": 42.899,
-   "end": 43.123
+   "start": 42.898,
+   "end": 43.122
   },
   {
    "i": 141,
    "word": "un",
-   "start": 43.123,
-   "end": 43.139
+   "start": 43.122,
+   "end": 43.138
   },
   {
    "i": 142,
    "word": "mouvement",
-   "start": 43.139,
-   "end": 43.508
+   "start": 43.138,
+   "end": 43.507
   },
   {
    "i": 143,
    "word": "précis,",
-   "start": 43.508,
-   "end": 43.877
+   "start": 43.507,
+   "end": 43.876
   },
   {
    "i": 144,
    "word": "les",
-   "start": 44.391,
-   "end": 44.471
+   "start": 44.389,
+   "end": 44.47
   },
   {
    "i": 145,
    "word": "charges",
-   "start": 44.471,
-   "end": 44.808
+   "start": 44.47,
+   "end": 44.806
   },
   {
    "i": 146,
    "word": "lourdes",
-   "start": 44.824,
-   "end": 45.113
+   "start": 44.823,
+   "end": 45.111
   },
   {
    "i": 147,
    "word": "gardent",
-   "start": 45.113,
-   "end": 45.289
+   "start": 45.111,
+   "end": 45.288
   },
   {
    "i": 148,
    "word": "un",
-   "start": 45.289,
-   "end": 45.353
+   "start": 45.288,
+   "end": 45.352
   },
   {
    "i": 149,
    "word": "avantage.",
-   "start": 45.45,
-   "end": 45.867
+   "start": 45.448,
+   "end": 45.865
   },
   {
    "i": 150,
    "word": "Alors,",
-   "start": 46.653,
-   "end": 46.926
+   "start": 46.651,
+   "end": 46.764
   },
   {
    "i": 151,
    "word": "retiens",
-   "start": 47.599,
-   "end": 47.92
+   "start": 46.892,
+   "end": 47.598
   },
   {
    "i": 152,
    "word": "ceci :",
-   "start": 47.92,
-   "end": 48.241
+   "start": 47.63,
+   "end": 47.919
   },
   {
    "i": 153,
    "word": "pour",
-   "start": 48.803,
-   "end": 48.915
+   "start": 48.4,
+   "end": 48.576
   },
   {
    "i": 154,
    "word": "construire",
-   "start": 48.963,
-   "end": 49.348
+   "start": 48.64,
+   "end": 49.042
   },
   {
    "i": 155,
    "word": "du",
-   "start": 49.364,
-   "end": 49.525
+   "start": 49.042,
+   "end": 49.122
   },
   {
    "i": 156,
    "word": "muscle,",
-   "start": 49.525,
-   "end": 49.878
+   "start": 49.122,
+   "end": 49.491
   },
   {
    "i": 157,
    "word": "soulever",
-   "start": 50.407,
-   "end": 50.728
+   "start": 49.844,
+   "end": 50.164
   },
   {
    "i": 158,
    "word": "toujours",
-   "start": 50.728,
-   "end": 51.113
+   "start": 50.164,
+   "end": 50.405
   },
   {
    "i": 159,
    "word": "plus",
-   "start": 51.129,
-   "end": 51.289
+   "start": 50.405,
+   "end": 50.598
   },
   {
    "i": 160,
    "word": "lourd",
-   "start": 51.289,
-   "end": 51.466
+   "start": 50.598,
+   "end": 50.79
   },
   {
    "i": 161,
    "word": "n'est",
-   "start": 51.466,
-   "end": 51.69
+   "start": 51.079,
+   "end": 51.207
   },
   {
    "i": 162,
    "word": "pas",
-   "start": 51.69,
-   "end": 51.803
+   "start": 51.287,
+   "end": 51.368
   },
   {
    "i": 163,
    "word": "la",
-   "start": 51.803,
-   "end": 51.931
+   "start": 51.368,
+   "end": 51.448
   },
   {
    "i": 164,
    "word": "seule",
-   "start": 51.931,
-   "end": 52.108
+   "start": 51.448,
+   "end": 51.64
   },
   {
    "i": 165,
    "word": "solution.",
-   "start": 52.108,
-   "end": 52.541
+   "start": 51.688,
+   "end": 52.057
   },
   {
    "i": 166,
    "word": "Ce",
-   "start": 53.054,
-   "end": 53.215
+   "start": 52.651,
+   "end": 52.731
   },
   {
    "i": 167,
    "word": "qui",
-   "start": 53.215,
-   "end": 53.375
+   "start": 52.763,
+   "end": 52.892
   },
   {
    "i": 168,
    "word": "compte,",
-   "start": 53.375,
-   "end": 53.664
+   "start": 52.972,
+   "end": 53.261
   },
   {
    "i": 169,
    "word": "c'est",
-   "start": 54.097,
-   "end": 54.257
+   "start": 53.774,
+   "end": 53.934
   },
   {
    "i": 170,
    "word": "de",
-   "start": 54.257,
-   "end": 54.338
+   "start": 53.934,
+   "end": 54.014
   },
   {
    "i": 171,
    "word": "donner",
-   "start": 54.418,
-   "end": 54.594
+   "start": 54.014,
+   "end": 54.271
   },
   {
    "i": 172,
    "word": "à",
-   "start": 54.594,
-   "end": 54.642
+   "start": 54.271,
+   "end": 54.335
   },
   {
    "i": 173,
    "word": "tes",
-   "start": 54.739,
-   "end": 54.851
+   "start": 54.416,
+   "end": 54.496
   },
   {
    "i": 174,
    "word": "muscles",
-   "start": 54.851,
-   "end": 55.172
+   "start": 54.496,
+   "end": 54.833
   },
   {
    "i": 175,
    "word": "une",
-   "start": 55.172,
-   "end": 55.252
+   "start": 54.833,
+   "end": 54.881
   },
   {
    "i": 176,
    "word": "raison",
-   "start": 55.332,
-   "end": 55.573
+   "start": 54.929,
+   "end": 55.218
   },
   {
    "i": 177,
    "word": "de",
-   "start": 55.573,
-   "end": 55.685
+   "start": 55.218,
+   "end": 55.25
   },
   {
    "i": 178,
    "word": "s'adapter.",
-   "start": 55.685,
-   "end": 56.07
+   "start": 55.25,
+   "end": 55.747
   },
   {
    "i": 179,
    "word": "Abonne-toi,",
-   "start": 56.76,
-   "end": 57.193
+   "start": 56.437,
+   "end": 56.87
   },
   {
    "i": 180,
    "word": "une",
-   "start": 57.482,
-   "end": 57.578
+   "start": 57.159,
+   "end": 57.207
   },
   {
    "i": 181,
    "word": "nouvelle",
-   "start": 57.627,
-   "end": 57.771
+   "start": 57.303,
+   "end": 57.447
   },
   {
    "i": 182,
    "word": "vidéo",
-   "start": 57.819,
-   "end": 58.108
+   "start": 57.463,
+   "end": 57.784
   },
   {
    "i": 183,
    "word": "chaque",
-   "start": 58.108,
-   "end": 58.348
+   "start": 57.784,
+   "end": 58.025
   },
   {
    "i": 184,
    "word": "jour.",
-   "start": 58.348,
-   "end": 58.701
+   "start": 58.025,
+   "end": 58.362
   },
   {
    "i": 185,
    "word": "Et",
-   "start": 59.247,
-   "end": 59.311
+   "start": 58.923,
+   "end": 58.987
   },
   {
    "i": 186,
    "word": "retrouve-nous",
-   "start": 59.311,
-   "end": 59.712
+   "start": 58.987,
+   "end": 59.388
   },
   {
    "i": 187,
    "word": "sur",
-   "start": 59.744,
-   "end": 59.857
+   "start": 59.388,
+   "end": 59.533
   },
   {
    "i": 188,
    "word": "calibodi.com !",
-   "start": 59.921,
-   "end": 60.803
+   "start": 59.597,
+   "end": 60.479
   }
  ]
 }
