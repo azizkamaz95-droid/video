@@ -1,0 +1,54 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Et si je te disais que tu pouvais développer tes muscles avec des haltères que tu trouves presque trop légers ?",
+   "pause": 0.6
+  },
+  {
+   "id": "s02",
+   "text": "On imagine souvent que pour prendre du muscle, il faut soulever toujours plus lourd. Pourtant, les recherches scientifiques racontent une autre histoire.",
+   "pause": 0.5
+  },
+  {
+   "id": "s03",
+   "text": "Des études ont montré que des charges légères peuvent provoquer une croissance musculaire comparable à celle obtenue avec des charges lourdes.",
+   "pause": 0.6
+  },
+  {
+   "id": "s04",
+   "text": "Mais attention, il y a une condition importante.",
+   "pause": 0.6
+  },
+  {
+   "id": "s05",
+   "text": "Faire quelques répétitions faciles ne suffit pas. Avec une charge légère, tu dois généralement pousser tes séries suffisamment près de tes limites musculaires pour stimuler efficacement tes muscles.",
+   "pause": 0.5
+  },
+  {
+   "id": "s06",
+   "text": "Et c'est là que ça devient intéressant : ton muscle ne regarde pas le poids écrit sur l'haltère. Il réagit notamment à la tension mécanique et à l'effort qu'il doit produire.",
+   "pause": 0.5
+  },
+  {
+   "id": "s07",
+   "text": "En revanche, si ton objectif est de devenir beaucoup plus fort sur un mouvement précis, les charges lourdes gardent un avantage.",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Alors, retiens ceci : pour construire du muscle, soulever toujours plus lourd n'est pas la seule solution. Ce qui compte, c'est de donner à tes muscles une raison de s'adapter.",
+   "pause": 0.5
+  },
+  {
+   "id": "s09",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"
+  }
+ ]
+}

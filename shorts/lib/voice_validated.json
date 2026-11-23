@@ -214,6 +214,18 @@
    "value": "lentrée",
    "auto": true,
    "tested": "collé 1/3"
+  },
+  "l'haltère": {
+   "mode": "respell",
+   "value": "lhaltère",
+   "auto": true,
+   "tested": "collé 1/3"
+  },
+  "s'adapter": {
+   "mode": "respell",
+   "value": "sadapter",
+   "auto": true,
+   "tested": "collé 0/3"
   }
  }
 }

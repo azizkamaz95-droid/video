@@ -1,0 +1,1550 @@
+[
+ {
+  "i": 0,
+  "word": "Et",
+  "t": 0.19,
+  "dur": 0.06,
+  "heard": "Et si je",
+  "ratio": 0.8
+ },
+ {
+  "i": 1,
+  "word": "si",
+  "t": 0.26,
+  "dur": 0.11,
+  "heard": "Et si je",
+  "ratio": 0.8
+ },
+ {
+  "i": 2,
+  "word": "je",
+  "t": 0.37,
+  "dur": 0.05,
+  "heard": "étudier",
+  "ratio": 0.55,
+  "flag": "COURT"
+ },
+ {
+  "i": 3,
+  "word": "te",
+  "t": 0.42,
+  "dur": 0.16,
+  "heard": "Si je te disais",
+  "ratio": 0.8
+ },
+ {
+  "i": 4,
+  "word": "disais",
+  "t": 0.58,
+  "dur": 0.23,
+  "heard": "disais que tu",
+  "ratio": 0.9
+ },
+ {
+  "i": 5,
+  "word": "que",
+  "t": 0.8,
+  "dur": 0.13,
+  "heard": "que tu peux",
+  "ratio": 0.71
+ },
+ {
+  "i": 6,
+  "word": "tu",
+  "t": 0.93,
+  "dur": 0.13,
+  "heard": "Tu pouvais donner",
+  "ratio": 0.75
+ },
+ {
+  "i": 7,
+  "word": "pouvais",
+  "t": 1.06,
+  "dur": 0.24,
+  "heard": "Tu pouvais développer",
+  "ratio": 0.94
+ },
+ {
+  "i": 8,
+  "word": "développer",
+  "t": 1.3,
+  "dur": 0.4,
+  "heard": "Développer tes",
+  "ratio": 1.0
+ },
+ {
+  "i": 9,
+  "word": "tes",
+  "t": 1.78,
+  "dur": 0.08,
+  "heard": "C'est",
+  "ratio": 0.29,
+  "flag": "COURT"
+ },
+ {
+  "i": 10,
+  "word": "muscles",
+  "t": 1.86,
+  "dur": 0.34,
+  "heard": "muscles avec des",
+  "ratio": 0.88
+ },
+ {
+  "i": 11,
+  "word": "avec",
+  "t": 2.2,
+  "dur": 0.14,
+  "heard": "Avec des allers-retours",
+  "ratio": 0.52
+ },
+ {
+  "i": 12,
+  "word": "des",
+  "t": 2.34,
+  "dur": 0.26,
+  "heard": "des haltères que",
+  "ratio": 0.88
+ },
+ {
+  "i": 13,
+  "word": "haltères",
+  "t": 2.6,
+  "dur": 0.29,
+  "heard": "Alors,",
+  "ratio": 0.5,
+  "flag": null,
+  "heard_wide": "des haltères que tu"
+ },
+ {
+  "i": 14,
+  "word": "que",
+  "t": 2.9,
+  "dur": 0.08,
+  "heard": "Que tu trouves",
+  "ratio": 0.59
+ },
+ {
+  "i": 15,
+  "word": "tu",
+  "t": 2.98,
+  "dur": 0.16,
+  "heard": "que tu trouves.",
+  "ratio": 0.86
+ },
+ {
+  "i": 16,
+  "word": "trouves",
+  "t": 3.15,
+  "dur": 0.22,
+  "heard": "Je trouve presque trop",
+  "ratio": 0.79
+ },
+ {
+  "i": 17,
+  "word": "presque",
+  "t": 3.39,
+  "dur": 0.4,
+  "heard": "presque trop les",
+  "ratio": 0.88
+ },
+ {
+  "i": 18,
+  "word": "trop",
+  "t": 3.79,
+  "dur": 0.19,
+  "heard": "trop léger.",
+  "ratio": 0.95
+ },
+ {
+  "i": 19,
+  "word": "légers ?",
+  "t": 3.98,
+  "dur": 0.26,
+  "heard": "On y met",
+  "ratio": 0.29,
+  "flag": "ECART",
+  "heard_wide": "trop léger. On imagine"
+ },
+ {
+  "i": 20,
+  "word": "On",
+  "t": 5.02,
+  "dur": 0.05,
+  "heard": "On imagine",
+  "ratio": 1.0
+ },
+ {
+  "i": 21,
+  "word": "imagine",
+  "t": 5.09,
+  "dur": 0.3,
+  "heard": "On imagine souvent que",
+  "ratio": 0.85
+ },
+ {
+  "i": 22,
+  "word": "souvent",
+  "t": 5.39,
+  "dur": 0.32,
+  "heard": "Souvent que",
+  "ratio": 1.0
+ },
+ {
+  "i": 23,
+  "word": "que",
+  "t": 5.79,
+  "dur": 0.08,
+  "heard": "Que pour",
+  "ratio": 1.0
+ },
+ {
+  "i": 24,
+  "word": "pour",
+  "t": 5.87,
+  "dur": 0.16,
+  "heard": "Pour prendre du",
+  "ratio": 0.92
+ },
+ {
+  "i": 25,
+  "word": "prendre",
+  "t": 6.04,
+  "dur": 0.32,
+  "heard": "Prendre du",
+  "ratio": 1.0
+ },
+ {
+  "i": 26,
+  "word": "du",
+  "t": 6.36,
+  "dur": 0.11,
+  "heard": "du muscle.",
+  "ratio": 1.0
+ },
+ {
+  "i": 27,
+  "word": "muscle,",
+  "t": 6.47,
+  "dur": 0.34,
+  "heard": "muscle, il faut",
+  "ratio": 0.8
+ },
+ {
+  "i": 28,
+  "word": "il",
+  "t": 7.09,
+  "dur": 0.1,
+  "heard": "Il faut se",
+  "ratio": 0.86
+ },
+ {
+  "i": 29,
+  "word": "faut",
+  "t": 7.24,
+  "dur": 0.16,
+  "heard": "Il faut soulever tout",
+  "ratio": 0.8
+ },
+ {
+  "i": 30,
+  "word": "soulever",
+  "t": 7.4,
+  "dur": 0.32,
+  "heard": "soulever toujours plus.",
+  "ratio": 0.89
+ },
+ {
+  "i": 31,
+  "word": "toujours",
+  "t": 7.72,
+  "dur": 0.31,
+  "heard": "toujours plus lourd.",
+  "ratio": 0.83
+ },
+ {
+  "i": 32,
+  "word": "plus",
+  "t": 8.04,
+  "dur": 0.16,
+  "heard": "plus lourd.",
+  "ratio": 1.0
+ },
+ {
+  "i": 33,
+  "word": "lourd.",
+  "t": 8.2,
+  "dur": 0.19,
+  "heard": "lourd. Pourtant,",
+  "ratio": 1.0
+ },
+ {
+  "i": 34,
+  "word": "Pourtant,",
+  "t": 8.84,
+  "dur": 0.29,
+  "heard": "Pourtant, les",
+  "ratio": 1.0
+ },
+ {
+  "i": 35,
+  "word": "les",
+  "t": 9.49,
+  "dur": 0.11,
+  "heard": "Les recherches scientifiques",
+  "ratio": 0.67
+ },
+ {
+  "i": 36,
+  "word": "recherches",
+  "t": 9.6,
+  "dur": 0.37,
+  "heard": "recherches scientifiques",
+  "ratio": 1.0
+ },
+ {
+  "i": 37,
+  "word": "scientifiques",
+  "t": 9.97,
+  "dur": 0.5,
+  "heard": "scientifique raconte une",
+  "ratio": 0.91
+ },
+ {
+  "i": 38,
+  "word": "racontent",
+  "t": 10.46,
+  "dur": 0.4,
+  "heard": "Il y a une autre histoire qui raconte une autre",
+  "ratio": 0.4,
+  "flag": null,
+  "heard_wide": "scientifiques racontent une autre"
+ },
+ {
+  "i": 39,
+  "word": "une",
+  "t": 10.87,
+  "dur": 0.16,
+  "heard": "autre histoire.",
+  "ratio": 0.48,
+  "flag": "COURT"
+ },
+ {
+  "i": 40,
+  "word": "autre",
+  "t": 11.03,
+  "dur": 0.16,
+  "heard": "histoire.",
+  "ratio": 0.76
+ },
+ {
+  "i": 41,
+  "word": "histoire.",
+  "t": 11.19,
+  "dur": 0.27,
+  "heard": "histoire.",
+  "ratio": 0.84
+ },
+ {
+  "i": 42,
+  "word": "Des",
+  "t": 12.21,
+  "dur": 0.18,
+  "heard": "Des études ont",
+  "ratio": 0.86
+ },
+ {
+  "i": 43,
+  "word": "études",
+  "t": 12.39,
+  "dur": 0.24,
+  "heard": "dans mon",
+  "ratio": 0.5,
+  "flag": null,
+  "heard_wide": "Des études ont montré"
+ },
+ {
+  "i": 44,
+  "word": "ont",
+  "t": 12.63,
+  "dur": 0.1,
+  "heard": "montrer que",
+  "ratio": 0.63
+ },
+ {
+  "i": 45,
+  "word": "montré",
+  "t": 12.73,
+  "dur": 0.45,
+  "heard": "montrer que des",
+  "ratio": 0.82
+ },
+ {
+  "i": 46,
+  "word": "que",
+  "t": 13.26,
+  "dur": 0.16,
+  "heard": "que des",
+  "ratio": 1.0
+ },
+ {
+  "i": 47,
+  "word": "des",
+  "t": 13.42,
+  "dur": 0.08,
+  "heard": "décharge lente.",
+  "ratio": 0.7
+ },
+ {
+  "i": 48,
+  "word": "charges",
+  "t": 13.5,
+  "dur": 0.38,
+  "heard": "charges légères peuvent",
+  "ratio": 0.8
+ },
+ {
+  "i": 49,
+  "word": "légères",
+  "t": 13.9,
+  "dur": 0.46,
+  "heard": "Légères peuvent provoquer",
+  "ratio": 0.76
+ },
+ {
+  "i": 50,
+  "word": "peuvent",
+  "t": 14.38,
+  "dur": 0.24,
+  "heard": "peuvent provoquer une",
+  "ratio": 0.91
+ },
+ {
+  "i": 51,
+  "word": "provoquer",
+  "t": 14.62,
+  "dur": 0.42,
+  "heard": "Provoquer une",
+  "ratio": 1.0
+ },
+ {
+  "i": 52,
+  "word": "une",
+  "t": 15.04,
+  "dur": 0.06,
+  "heard": "Une croissance musculaire",
+  "ratio": 0.72
+ },
+ {
+  "i": 53,
+  "word": "croissance",
+  "t": 15.1,
+  "dur": 0.56,
+  "heard": "croissance musculaire",
+  "ratio": 1.0
+ },
+ {
+  "i": 54,
+  "word": "musculaire",
+  "t": 15.66,
+  "dur": 0.47,
+  "heard": "musculaire comparable à",
+  "ratio": 0.98
+ },
+ {
+  "i": 55,
+  "word": "comparable",
+  "t": 16.23,
+  "dur": 0.51,
+  "heard": "comparable à ça.",
+  "ratio": 0.92
+ },
+ {
+  "i": 56,
+  "word": "à",
+  "t": 16.74,
+  "dur": 0.05,
+  "heard": "La scène",
+  "ratio": 0.62
+ },
+ {
+  "i": 57,
+  "word": "celle",
+  "t": 16.79,
+  "dur": 0.21,
+  "heard": "celle obtenue avec",
+  "ratio": 0.86
+ },
+ {
+  "i": 58,
+  "word": "obtenue",
+  "t": 17.05,
+  "dur": 0.4,
+  "heard": "obtenus avec des",
+  "ratio": 0.8
+ },
+ {
+  "i": 59,
+  "word": "avec",
+  "t": 17.45,
+  "dur": 0.23,
+  "heard": "Avec des choses",
+  "ratio": 0.7
+ },
+ {
+  "i": 60,
+  "word": "des",
+  "t": 17.67,
+  "dur": 0.11,
+  "heard": "charges lourdes.",
+  "ratio": 0.58
+ },
+ {
+  "i": 61,
+  "word": "charges",
+  "t": 17.78,
+  "dur": 0.43,
+  "heard": "charges lourdes.",
+  "ratio": 1.0
+ },
+ {
+  "i": 62,
+  "word": "lourdes.",
+  "t": 18.23,
+  "dur": 0.37,
+  "heard": "lourde. Mais à",
+  "ratio": 0.91
+ },
+ {
+  "i": 63,
+  "word": "Mais",
+  "t": 19.36,
+  "dur": 0.1,
+  "heard": "Mais attention!",
+  "ratio": 1.0
+ },
+ {
+  "i": 64,
+  "word": "attention,",
+  "t": 19.45,
+  "dur": 0.43,
+  "heard": "Mais attention, il y a",
+  "ratio": 0.79
+ },
+ {
+  "i": 65,
+  "word": "il",
+  "t": 20.5,
+  "dur": 0.08,
+  "heard": "Il y a une",
+  "ratio": 0.6
+ },
+ {
+  "i": 66,
+  "word": "y",
+  "t": 20.58,
+  "dur": 0.13,
+  "heard": "Bien que",
+  "ratio": 0.0,
+  "flag": "COURT"
+ },
+ {
+  "i": 67,
+  "word": "a",
+  "t": 20.7,
+  "dur": 0.03,
+  "heard": "Quoi",
+  "ratio": 0.25,
+  "flag": "COURT"
+ },
+ {
+  "i": 68,
+  "word": "une",
+  "t": 20.74,
+  "dur": 0.06,
+  "heard": "Une condition importante.",
+  "ratio": 0.71
+ },
+ {
+  "i": 69,
+  "word": "condition",
+  "t": 20.8,
+  "dur": 0.5,
+  "heard": "condition importante.",
+  "ratio": 1.0
+ },
+ {
+  "i": 70,
+  "word": "importante.",
+  "t": 21.3,
+  "dur": 0.51,
+  "heard": "Faire quelques",
+  "ratio": 0.36,
+  "flag": null,
+  "heard_wide": "une condition importante faire quelque chose"
+ },
+ {
+  "i": 71,
+  "word": "Faire",
+  "t": 22.57,
+  "dur": 0.14,
+  "heard": "faire quelques réponses.",
+  "ratio": 0.76
+ },
+ {
+  "i": 72,
+  "word": "quelques",
+  "t": 22.73,
+  "dur": 0.32,
+  "heard": "Quelques répétitions faciles.",
+  "ratio": 0.84
+ },
+ {
+  "i": 73,
+  "word": "répétitions",
+  "t": 23.05,
+  "dur": 0.56,
+  "heard": "Répétition facile ne",
+  "ratio": 0.89
+ },
+ {
+  "i": 74,
+  "word": "faciles",
+  "t": 23.61,
+  "dur": 0.35,
+  "heard": "Facile ne",
+  "ratio": 0.94
+ },
+ {
+  "i": 75,
+  "word": "ne",
+  "t": 23.96,
+  "dur": 0.13,
+  "heard": "ne suffit pas.",
+  "ratio": 0.84
+ },
+ {
+  "i": 76,
+  "word": "suffit",
+  "t": 24.09,
+  "dur": 0.32,
+  "heard": "suffit pas.",
+  "ratio": 1.0
+ },
+ {
+  "i": 77,
+  "word": "pas.",
+  "t": 24.41,
+  "dur": 0.11,
+  "heard": "Avec une",
+  "ratio": 0.57,
+  "flag": "COURT"
+ },
+ {
+  "i": 78,
+  "word": "Avec",
+  "t": 25.07,
+  "dur": 0.24,
+  "heard": "Avec une chaîne",
+  "ratio": 0.7
+ },
+ {
+  "i": 79,
+  "word": "une",
+  "t": 25.31,
+  "dur": 0.1,
+  "heard": "une charge légère.",
+  "ratio": 0.75
+ },
+ {
+  "i": 80,
+  "word": "charge",
+  "t": 25.46,
+  "dur": 0.19,
+  "heard": "charges légères.",
+  "ratio": 0.92
+ },
+ {
+  "i": 81,
+  "word": "légère,",
+  "t": 25.7,
+  "dur": 0.29,
+  "heard": "Tu dois",
+  "ratio": 0.29,
+  "flag": null,
+  "heard_wide": "En charge légère, tu dois"
+ },
+ {
+  "i": 82,
+  "word": "tu",
+  "t": 26.1,
+  "dur": 0.11,
+  "heard": "Tu dois générer",
+  "ratio": 0.63
+ },
+ {
+  "i": 83,
+  "word": "dois",
+  "t": 26.21,
+  "dur": 0.21,
+  "heard": "Il doit généralement",
+  "ratio": 0.88
+ },
+ {
+  "i": 84,
+  "word": "généralement",
+  "t": 26.42,
+  "dur": 0.48,
+  "heard": "Généralement, pousser tes",
+  "ratio": 0.93
+ },
+ {
+  "i": 85,
+  "word": "pousser",
+  "t": 26.98,
+  "dur": 0.32,
+  "heard": "C'est",
+  "ratio": 0.29,
+  "flag": null,
+  "heard_wide": "Généralement, pousser tes"
+ },
+ {
+  "i": 86,
+  "word": "tes",
+  "t": 27.3,
+  "dur": 0.08,
+  "heard": "séries sur",
+  "ratio": 0.67
+ },
+ {
+  "i": 87,
+  "word": "séries",
+  "t": 27.38,
+  "dur": 0.32,
+  "heard": "séries suffisamment près.",
+  "ratio": 0.9
+ },
+ {
+  "i": 88,
+  "word": "suffisamment",
+  "t": 27.7,
+  "dur": 0.64,
+  "heard": "suffisamment près de",
+  "ratio": 0.94
+ },
+ {
+  "i": 89,
+  "word": "près",
+  "t": 28.35,
+  "dur": 0.16,
+  "heard": "près de tes lèvres.",
+  "ratio": 0.57
+ },
+ {
+  "i": 90,
+  "word": "de",
+  "t": 28.51,
+  "dur": 0.16,
+  "heard": "de tes lignes.",
+  "ratio": 0.62
+ },
+ {
+  "i": 91,
+  "word": "tes",
+  "t": 28.67,
+  "dur": 0.08,
+  "heard": "C'est limite, monsieur.",
+  "ratio": 0.64
+ },
+ {
+  "i": 92,
+  "word": "limites",
+  "t": 28.75,
+  "dur": 0.32,
+  "heard": "limites musculaires.",
+  "ratio": 1.0
+ },
+ {
+  "i": 93,
+  "word": "musculaires",
+  "t": 29.07,
+  "dur": 0.38,
+  "heard": "musculaire pour stimuler",
+  "ratio": 0.76
+ },
+ {
+  "i": 94,
+  "word": "pour",
+  "t": 29.55,
+  "dur": 0.16,
+  "heard": "pour stimuler efficacement",
+  "ratio": 0.67
+ },
+ {
+  "i": 95,
+  "word": "stimuler",
+  "t": 29.71,
+  "dur": 0.48,
+  "heard": "stimuler efficacement tes muscles.",
+  "ratio": 0.8
+ },
+ {
+  "i": 96,
+  "word": "efficacement",
+  "t": 30.21,
+  "dur": 0.63,
+  "heard": "efficacement tes muscles.",
+  "ratio": 0.81
+ },
+ {
+  "i": 97,
+  "word": "tes",
+  "t": 30.83,
+  "dur": 0.08,
+  "heard": "muscles.",
+  "ratio": 0.82
+ },
+ {
+  "i": 98,
+  "word": "muscles.",
+  "t": 30.91,
+  "dur": 0.29,
+  "heard": "muscles. Et c'est",
+  "ratio": 0.82
+ },
+ {
+  "i": 99,
+  "word": "Et",
+  "t": 31.73,
+  "dur": 0.06,
+  "heard": "Il s'est",
+  "ratio": 0.5,
+  "flag": "COURT"
+ },
+ {
+  "i": 100,
+  "word": "c'est",
+  "t": 31.8,
+  "dur": 0.35,
+  "heard": "Cette lag",
+  "ratio": 0.71
+ },
+ {
+  "i": 101,
+  "word": "là",
+  "t": 32.2,
+  "dur": 0.14,
+  "heard": "l'axe.",
+  "ratio": 0.67
+ },
+ {
+  "i": 102,
+  "word": "que",
+  "t": 32.34,
+  "dur": 0.06,
+  "heard": "Ça",
+  "ratio": 0.57,
+  "flag": "COURT"
+ },
+ {
+  "i": 103,
+  "word": "ça",
+  "t": 32.44,
+  "dur": 0.08,
+  "heard": "Ça devient",
+  "ratio": 1.0
+ },
+ {
+  "i": 104,
+  "word": "devient",
+  "t": 32.52,
+  "dur": 0.21,
+  "heard": "ça devient intéressant.",
+  "ratio": 0.95
+ },
+ {
+  "i": 105,
+  "word": "intéressant :",
+  "t": 32.78,
+  "dur": 0.43,
+  "heard": "intéressant. Ton",
+  "ratio": 1.0
+ },
+ {
+  "i": 106,
+  "word": "ton",
+  "t": 33.56,
+  "dur": 0.19,
+  "heard": "Ton muscle.",
+  "ratio": 1.0
+ },
+ {
+  "i": 107,
+  "word": "muscle",
+  "t": 33.76,
+  "dur": 0.51,
+  "heard": "muscle ne",
+  "ratio": 1.0
+ },
+ {
+  "i": 108,
+  "word": "ne",
+  "t": 34.52,
+  "dur": 0.11,
+  "heard": "Ne regarde pas",
+  "ratio": 0.86
+ },
+ {
+  "i": 109,
+  "word": "regarde",
+  "t": 34.64,
+  "dur": 0.47,
+  "heard": "Ne regarde pas le",
+  "ratio": 0.83
+ },
+ {
+  "i": 110,
+  "word": "pas",
+  "t": 35.17,
+  "dur": 0.16,
+  "heard": "Pas le pire,",
+  "ratio": 0.71
+ },
+ {
+  "i": 111,
+  "word": "le",
+  "t": 35.33,
+  "dur": 0.16,
+  "heard": "Le poids",
+  "ratio": 1.0
+ },
+ {
+  "i": 112,
+  "word": "poids",
+  "t": 35.49,
+  "dur": 0.21,
+  "heard": "Le poids écrit sur",
+  "ratio": 0.8
+ },
+ {
+  "i": 113,
+  "word": "écrit",
+  "t": 35.91,
+  "dur": 0.3,
+  "heard": "Écrit sur les",
+  "ratio": 0.84
+ },
+ {
+  "i": 114,
+  "word": "sur",
+  "t": 36.21,
+  "dur": 0.13,
+  "heard": "sur l'haltère.",
+  "ratio": 1.0
+ },
+ {
+  "i": 115,
+  "word": "l'haltère.",
+  "t": 36.34,
+  "dur": 0.4,
+  "heard": "l'alter. Il",
+  "ratio": 0.89
+ },
+ {
+  "i": 116,
+  "word": "Il",
+  "t": 37.11,
+  "dur": 0.14,
+  "heard": "Il réagit",
+  "ratio": 1.0
+ },
+ {
+  "i": 117,
+  "word": "réagit",
+  "t": 37.25,
+  "dur": 0.35,
+  "heard": "Il réagit notamment à",
+  "ratio": 0.91
+ },
+ {
+  "i": 118,
+  "word": "notamment",
+  "t": 37.61,
+  "dur": 0.45,
+  "heard": "Notamment à la",
+  "ratio": 0.91
+ },
+ {
+  "i": 119,
+  "word": "à",
+  "t": 38.06,
+  "dur": 0.08,
+  "heard": "À la",
+  "ratio": 1.0
+ },
+ {
+  "i": 120,
+  "word": "la",
+  "t": 38.14,
+  "dur": 0.05,
+  "heard": "La tension",
+  "ratio": 1.0
+ },
+ {
+  "i": 121,
+  "word": "tension",
+  "t": 38.22,
+  "dur": 0.32,
+  "heard": "La tension mécanique est",
+  "ratio": 0.86
+ },
+ {
+  "i": 122,
+  "word": "mécanique",
+  "t": 38.54,
+  "dur": 0.58,
+  "heard": "mécanique et à",
+  "ratio": 0.96
+ },
+ {
+  "i": 123,
+  "word": "et",
+  "t": 39.12,
+  "dur": 0.08,
+  "heard": "à l'heure.",
+  "ratio": 0.2,
+  "flag": "COURT"
+ },
+ {
+  "i": 124,
+  "word": "à",
+  "t": 39.2,
+  "dur": 0.05,
+  "heard": "À l'effort qu'il",
+  "ratio": 0.8
+ },
+ {
+  "i": 125,
+  "word": "l'effort",
+  "t": 39.24,
+  "dur": 0.5,
+  "heard": "l'effort qu'il",
+  "ratio": 1.0
+ },
+ {
+  "i": 126,
+  "word": "qu'il",
+  "t": 39.74,
+  "dur": 0.08,
+  "heard": "Qu'il doit",
+  "ratio": 1.0
+ },
+ {
+  "i": 127,
+  "word": "doit",
+  "t": 39.82,
+  "dur": 0.16,
+  "heard": "doit produire.",
+  "ratio": 1.0
+ },
+ {
+  "i": 128,
+  "word": "produire.",
+  "t": 40.01,
+  "dur": 0.42,
+  "heard": "produire. En revanche,",
+  "ratio": 0.71
+ },
+ {
+  "i": 129,
+  "word": "En",
+  "t": 41.2,
+  "dur": 0.06,
+  "heard": "En revanche,",
+  "ratio": 1.0
+ },
+ {
+  "i": 130,
+  "word": "revanche,",
+  "t": 41.27,
+  "dur": 0.42,
+  "heard": "En revanche, si ton",
+  "ratio": 0.8
+ },
+ {
+  "i": 131,
+  "word": "si",
+  "t": 42.15,
+  "dur": 0.08,
+  "heard": "Si ton",
+  "ratio": 1.0
+ },
+ {
+  "i": 132,
+  "word": "ton",
+  "t": 42.23,
+  "dur": 0.16,
+  "heard": "Si ton objectif est de",
+  "ratio": 0.76
+ },
+ {
+  "i": 133,
+  "word": "objectif",
+  "t": 42.41,
+  "dur": 0.48,
+  "heard": "Mon objectif est de",
+  "ratio": 0.81
+ },
+ {
+  "i": 134,
+  "word": "est",
+  "t": 42.89,
+  "dur": 0.06,
+  "heard": "C'est de devenir",
+  "ratio": 0.56
+ },
+ {
+  "i": 135,
+  "word": "de",
+  "t": 42.95,
+  "dur": 0.08,
+  "heard": "de devenir beaucoup",
+  "ratio": 0.69
+ },
+ {
+  "i": 136,
+  "word": "devenir",
+  "t": 43.03,
+  "dur": 0.29,
+  "heard": "Devenir beaucoup plus",
+  "ratio": 0.88
+ },
+ {
+  "i": 137,
+  "word": "beaucoup",
+  "t": 43.43,
+  "dur": 0.24,
+  "heard": "beaucoup plus fort.",
+  "ratio": 0.86
+ },
+ {
+  "i": 138,
+  "word": "plus",
+  "t": 43.67,
+  "dur": 0.13,
+  "heard": "plus fort sur",
+  "ratio": 0.84
+ },
+ {
+  "i": 139,
+  "word": "fort",
+  "t": 43.83,
+  "dur": 0.16,
+  "heard": "fort sur un moment.",
+  "ratio": 0.64
+ },
+ {
+  "i": 140,
+  "word": "sur",
+  "t": 43.99,
+  "dur": 0.26,
+  "heard": "sur un moment",
+  "ratio": 0.62
+ },
+ {
+  "i": 141,
+  "word": "un",
+  "t": 44.25,
+  "dur": 0.02,
+  "heard": "Un mouvement préalable",
+  "ratio": 0.71
+ },
+ {
+  "i": 142,
+  "word": "mouvement",
+  "t": 44.27,
+  "dur": 0.37,
+  "heard": "mouvement précis.",
+  "ratio": 1.0
+ },
+ {
+  "i": 143,
+  "word": "précis,",
+  "t": 44.64,
+  "dur": 0.32,
+  "heard": "précis, les choses",
+  "ratio": 0.75
+ },
+ {
+  "i": 144,
+  "word": "les",
+  "t": 45.52,
+  "dur": 0.08,
+  "heard": "Les charges lourdes",
+  "ratio": 0.74
+ },
+ {
+  "i": 145,
+  "word": "charges",
+  "t": 45.6,
+  "dur": 0.3,
+  "heard": "Les charges lourdes gardent",
+  "ratio": 0.74
+ },
+ {
+  "i": 146,
+  "word": "lourdes",
+  "t": 45.94,
+  "dur": 0.3,
+  "heard": "Lourdes gardent un",
+  "ratio": 0.93
+ },
+ {
+  "i": 147,
+  "word": "gardent",
+  "t": 46.24,
+  "dur": 0.18,
+  "heard": "Garde un avantage",
+  "ratio": 0.58,
+  "flag": null,
+  "heard_wide": "Lourdes gardent un avantage"
+ },
+ {
+  "i": 148,
+  "word": "un",
+  "t": 46.42,
+  "dur": 0.16,
+  "heard": "d'un avantage.",
+  "ratio": 0.95
+ },
+ {
+  "i": 149,
+  "word": "avantage.",
+  "t": 46.58,
+  "dur": 0.43,
+  "heard": "Alors,",
+  "ratio": 0.56,
+  "flag": null,
+  "heard_wide": "d'un avantage. Alors,"
+ },
+ {
+  "i": 150,
+  "word": "Alors,",
+  "t": 47.78,
+  "dur": 0.21,
+  "heard": "Alors, retiens cette",
+  "ratio": 0.83
+ },
+ {
+  "i": 151,
+  "word": "retiens",
+  "t": 48.41,
+  "dur": 0.32,
+  "heard": "Retiens ceci.",
+  "ratio": 1.0
+ },
+ {
+  "i": 152,
+  "word": "ceci :",
+  "t": 48.73,
+  "dur": 0.29,
+  "heard": "ceci. Pourquoi",
+  "ratio": 0.8
+ },
+ {
+  "i": 153,
+  "word": "pour",
+  "t": 49.53,
+  "dur": 0.14,
+  "heard": "Pour construire du",
+  "ratio": 0.93
+ },
+ {
+  "i": 154,
+  "word": "construire",
+  "t": 49.77,
+  "dur": 0.3,
+  "heard": "Construire du mur.",
+  "ratio": 0.89
+ },
+ {
+  "i": 155,
+  "word": "du",
+  "t": 50.09,
+  "dur": 0.11,
+  "heard": "du muscle.",
+  "ratio": 1.0
+ },
+ {
+  "i": 156,
+  "word": "muscle,",
+  "t": 50.21,
+  "dur": 0.4,
+  "heard": "muscle, soulevez toujours",
+  "ratio": 0.78
+ },
+ {
+  "i": 157,
+  "word": "soulever",
+  "t": 51.06,
+  "dur": 0.32,
+  "heard": "Soulevez toujours plus",
+  "ratio": 0.83
+ },
+ {
+  "i": 158,
+  "word": "toujours",
+  "t": 51.38,
+  "dur": 0.21,
+  "heard": "Toujours plus lourd.",
+  "ratio": 0.83
+ },
+ {
+  "i": 159,
+  "word": "plus",
+  "t": 51.62,
+  "dur": 0.11,
+  "heard": "Plus l'on est",
+  "ratio": 0.63
+ },
+ {
+  "i": 160,
+  "word": "lourd",
+  "t": 51.73,
+  "dur": 0.11,
+  "heard": "Le jour n'est pas",
+  "ratio": 0.73
+ },
+ {
+  "i": 161,
+  "word": "n'est",
+  "t": 51.84,
+  "dur": 0.1,
+  "heard": "n'est pas la seule",
+  "ratio": 0.67
+ },
+ {
+  "i": 162,
+  "word": "pas",
+  "t": 52.02,
+  "dur": 0.08,
+  "heard": "la",
+  "ratio": 0.57,
+  "flag": "COURT"
+ },
+ {
+  "i": 163,
+  "word": "la",
+  "t": 52.1,
+  "dur": 0.05,
+  "heard": "à se ressourcer.",
+  "ratio": 0.5,
+  "flag": "COURT"
+ },
+ {
+  "i": 164,
+  "word": "seule",
+  "t": 52.18,
+  "dur": 0.19,
+  "heard": "seule solution.",
+  "ratio": 1.0
+ },
+ {
+  "i": 165,
+  "word": "solution.",
+  "t": 52.37,
+  "dur": 0.34,
+  "heard": "Ce qui",
+  "ratio": 0.27,
+  "flag": null,
+  "heard_wide": "La seule solution, ce qui"
+ },
+ {
+  "i": 166,
+  "word": "Ce",
+  "t": 53.22,
+  "dur": 0.08,
+  "heard": "Ce qui compte,",
+  "ratio": 0.62
+ },
+ {
+  "i": 167,
+  "word": "qui",
+  "t": 53.3,
+  "dur": 0.16,
+  "heard": "qui compte.",
+  "ratio": 1.0
+ },
+ {
+  "i": 168,
+  "word": "compte,",
+  "t": 53.46,
+  "dur": 0.29,
+  "heard": "compte, c'est de",
+  "ratio": 0.91
+ },
+ {
+  "i": 169,
+  "word": "c'est",
+  "t": 54.27,
+  "dur": 0.32,
+  "heard": "C'est de donner",
+  "ratio": 0.67
+ },
+ {
+  "i": 170,
+  "word": "de",
+  "t": 54.59,
+  "dur": 0.08,
+  "heard": "de donner à",
+  "ratio": 0.94
+ },
+ {
+  "i": 171,
+  "word": "donner",
+  "t": 54.67,
+  "dur": 0.26,
+  "heard": "Donner à tes",
+  "ratio": 0.82
+ },
+ {
+  "i": 172,
+  "word": "à",
+  "t": 54.92,
+  "dur": 0.06,
+  "heard": "Mais",
+  "ratio": 0.5
+ },
+ {
+  "i": 173,
+  "word": "tes",
+  "t": 54.99,
+  "dur": 0.11,
+  "heard": "musculaire.",
+  "ratio": 0.6,
+  "flag": "COURT"
+ },
+ {
+  "i": 174,
+  "word": "muscles",
+  "t": 55.1,
+  "dur": 0.3,
+  "heard": "muscles ne",
+  "ratio": 0.95
+ },
+ {
+  "i": 175,
+  "word": "une",
+  "t": 55.41,
+  "dur": 0.05,
+  "heard": "une raison.",
+  "ratio": 1.0
+ },
+ {
+  "i": 176,
+  "word": "raison",
+  "t": 55.63,
+  "dur": 0.13,
+  "heard": "Ça",
+  "ratio": 0.2,
+  "flag": null,
+  "heard_wide": "Une raison de sa"
+ },
+ {
+  "i": 177,
+  "word": "de",
+  "t": 55.76,
+  "dur": 0.06,
+  "heard": "s'adapter.",
+  "ratio": 0.89
+ },
+ {
+  "i": 178,
+  "word": "s'adapter.",
+  "t": 55.82,
+  "dur": 0.42,
+  "heard": "s'adapter. Abonne-toi!",
+  "ratio": 1.0
+ },
+ {
+  "i": 179,
+  "word": "Abonne-toi,",
+  "t": 57.01,
+  "dur": 0.35,
+  "heard": "Abonne-toi, une nouvelle",
+  "ratio": 0.75
+ },
+ {
+  "i": 180,
+  "word": "une",
+  "t": 57.65,
+  "dur": 0.11,
+  "heard": "Une nouvelle vidéo",
+  "ratio": 0.81
+ },
+ {
+  "i": 181,
+  "word": "nouvelle",
+  "t": 57.8,
+  "dur": 0.19,
+  "heard": "vidéo.",
+  "ratio": 0.56,
+  "flag": null,
+  "heard_wide": "Une nouvelle vidéo chaque"
+ },
+ {
+  "i": 182,
+  "word": "vidéo",
+  "t": 57.99,
+  "dur": 0.29,
+  "heard": "vidéos chaque jour.",
+  "ratio": 0.81
+ },
+ {
+  "i": 183,
+  "word": "chaque",
+  "t": 58.28,
+  "dur": 0.24,
+  "heard": "chaque jour.",
+  "ratio": 1.0
+ },
+ {
+  "i": 184,
+  "word": "jour.",
+  "t": 58.52,
+  "dur": 0.37,
+  "heard": "Bonjour et rebonjour.",
+  "ratio": 0.5
+ },
+ {
+  "i": 185,
+  "word": "Et",
+  "t": 59.42,
+  "dur": 0.02,
+  "heard": "Retrouve-nous sur",
+  "ratio": 0.83
+ },
+ {
+  "i": 186,
+  "word": "retrouve-nous",
+  "t": 59.43,
+  "dur": 0.53,
+  "heard": "Retrouve-nous sur",
+  "ratio": 1.0
+ },
+ {
+  "i": 187,
+  "word": "sur",
+  "t": 59.96,
+  "dur": 0.1,
+  "heard": "calibody.com.",
+  "ratio": 0.8
+ },
+ {
+  "i": 188,
+  "word": "calibodi.com !",
+  "t": 60.09,
+  "dur": 0.9,
+  "heard": "calibody.com.",
+  "ratio": 0.91
+ }
+]
