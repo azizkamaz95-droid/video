@@ -1,0 +1,206 @@
+{
+ "title": "Charges légères",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -29.5,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [
+  [
+   12.0,
+   19.25
+  ]
+ ],
+ "hits": [
+  19.45
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 12.0
+  },
+  {
+   "type": "body",
+   "start": 12.0,
+   "end": 56.25
+  },
+  {
+   "type": "outro",
+   "start": 56.25,
+   "end": 61.92
+  }
+ ],
+ "sfx": [
+  [
+   "whoosh",
+   2.25
+  ],
+  [
+   "stamp",
+   2.6
+  ],
+  [
+   "stamp",
+   3.98
+  ],
+  [
+   "whoosh",
+   4.65
+  ],
+  [
+   "stamp",
+   7.72
+  ],
+  [
+   "stamp",
+   8.2
+  ],
+  [
+   "whoosh",
+   8.75
+  ],
+  [
+   "stamp",
+   9.97
+  ],
+  [
+   "whoosh",
+   11.95
+  ],
+  [
+   "stamp",
+   13.9
+  ],
+  [
+   "stamp",
+   15.1
+  ],
+  [
+   "whoosh",
+   15.85
+  ],
+  [
+   "stamp",
+   17.78
+  ],
+  [
+   "whoosh",
+   19.2
+  ],
+  [
+   "stamp",
+   19.45
+  ],
+  [
+   "thump",
+   19.45
+  ],
+  [
+   "stamp",
+   21.3
+  ],
+  [
+   "whoosh",
+   22.35
+  ],
+  [
+   "stamp",
+   23.61
+  ],
+  [
+   "stamp",
+   24.09
+  ],
+  [
+   "whoosh",
+   24.95
+  ],
+  [
+   "stamp",
+   28.35
+  ],
+  [
+   "whoosh",
+   28.95
+  ],
+  [
+   "stamp",
+   30.91
+  ],
+  [
+   "whoosh",
+   31.6
+  ],
+  [
+   "stamp",
+   31.96
+  ],
+  [
+   "stamp",
+   34.84
+  ],
+  [
+   "whoosh",
+   36.2
+  ],
+  [
+   "stamp",
+   38.31
+  ],
+  [
+   "whoosh",
+   39.9
+  ],
+  [
+   "stamp",
+   42.7
+  ],
+  [
+   "whoosh",
+   44.25
+  ],
+  [
+   "stamp",
+   45.45
+  ],
+  [
+   "whoosh",
+   46.45
+  ],
+  [
+   "stamp",
+   49.12
+  ],
+  [
+   "stamp",
+   51.69
+  ],
+  [
+   "whoosh",
+   52.55
+  ],
+  [
+   "stamp",
+   54.93
+  ],
+  [
+   "stamp",
+   55.25
+  ],
+  [
+   "whoosh",
+   56.2
+  ],
+  [
+   "stamp",
+   59.6
+  ]
+ ],
+ "music_file": "assets/music/corporate-motivation.mp3",
+ "music_loop": [
+  0.0,
+  75.0
+ ]
+}
