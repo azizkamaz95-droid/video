@@ -238,6 +238,30 @@
    "value": "lentraînement",
    "auto": true,
    "tested": "collé 3/3"
+  },
+  "t'aide": {
+   "mode": "respell",
+   "value": "taide",
+   "auto": true,
+   "tested": "collé 2/3"
+  },
+  "d'efforts": {
+   "mode": "respell",
+   "value": "defforts",
+   "auto": true,
+   "tested": "collé 3/3"
+  },
+  "d'hypertension": {
+   "mode": "respell",
+   "value": "dhypertension",
+   "auto": true,
+   "tested": "collé 3/3"
+  },
+  "s'entraîner": {
+   "mode": "respell",
+   "value": "sentraîner",
+   "auto": true,
+   "tested": "collé 3/3"
   }
  }
 }

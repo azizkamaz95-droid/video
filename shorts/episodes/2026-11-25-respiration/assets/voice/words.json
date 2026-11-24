@@ -1,0 +1,1121 @@
+{
+ "duration": 66.617,
+ "words": [
+  {
+   "i": 0,
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.288
+  },
+  {
+   "i": 1,
+   "word": "bloques",
+   "start": 0.288,
+   "end": 0.496
+  },
+  {
+   "i": 2,
+   "word": "ta",
+   "start": 0.496,
+   "end": 0.608
+  },
+  {
+   "i": 3,
+   "word": "respiration",
+   "start": 0.608,
+   "end": 1.137
+  },
+  {
+   "i": 4,
+   "word": "pendant",
+   "start": 1.137,
+   "end": 1.377
+  },
+  {
+   "i": 5,
+   "word": "tes",
+   "start": 1.377,
+   "end": 1.458
+  },
+  {
+   "i": 6,
+   "word": "pompes",
+   "start": 1.538,
+   "end": 1.794
+  },
+  {
+   "i": 7,
+   "word": "ou",
+   "start": 1.794,
+   "end": 1.858
+  },
+  {
+   "i": 8,
+   "word": "tes",
+   "start": 1.858,
+   "end": 1.938
+  },
+  {
+   "i": 9,
+   "word": "squats",
+   "start": 1.938,
+   "end": 2.147
+  },
+  {
+   "i": 10,
+   "word": "sans",
+   "start": 2.179,
+   "end": 2.371
+  },
+  {
+   "i": 11,
+   "word": "même",
+   "start": 2.371,
+   "end": 2.659
+  },
+  {
+   "i": 12,
+   "word": "t'en",
+   "start": 2.659,
+   "end": 2.771
+  },
+  {
+   "i": 13,
+   "word": "rendre",
+   "start": 2.771,
+   "end": 3.044
+  },
+  {
+   "i": 14,
+   "word": "compte ?",
+   "start": 3.06,
+   "end": 3.268
+  },
+  {
+   "i": 15,
+   "word": "Attention,",
+   "start": 3.797,
+   "end": 4.23
+  },
+  {
+   "i": 16,
+   "word": "cette",
+   "start": 4.662,
+   "end": 4.838
+  },
+  {
+   "i": 17,
+   "word": "habitude",
+   "start": 4.838,
+   "end": 5.223
+  },
+  {
+   "i": 18,
+   "word": "peut",
+   "start": 5.223,
+   "end": 5.303
+  },
+  {
+   "i": 19,
+   "word": "compliquer",
+   "start": 5.303,
+   "end": 5.704
+  },
+  {
+   "i": 20,
+   "word": "tes",
+   "start": 5.704,
+   "end": 5.88
+  },
+  {
+   "i": 21,
+   "word": "efforts !",
+   "start": 5.88,
+   "end": 6.232
+  },
+  {
+   "i": 22,
+   "word": "Quand",
+   "start": 6.905,
+   "end": 6.985
+  },
+  {
+   "i": 23,
+   "word": "un",
+   "start": 7.082,
+   "end": 7.146
+  },
+  {
+   "i": 24,
+   "word": "exercice",
+   "start": 7.242,
+   "end": 7.626
+  },
+  {
+   "i": 25,
+   "word": "devient",
+   "start": 7.626,
+   "end": 7.947
+  },
+  {
+   "i": 26,
+   "word": "difficile,",
+   "start": 7.947,
+   "end": 8.379
+  },
+  {
+   "i": 27,
+   "word": "beaucoup",
+   "start": 8.908,
+   "end": 9.101
+  },
+  {
+   "i": 28,
+   "word": "de",
+   "start": 9.101,
+   "end": 9.149
+  },
+  {
+   "i": 29,
+   "word": "personnes",
+   "start": 9.149,
+   "end": 9.549
+  },
+  {
+   "i": 30,
+   "word": "retiennent",
+   "start": 9.549,
+   "end": 9.998
+  },
+  {
+   "i": 31,
+   "word": "instinctivement",
+   "start": 10.046,
+   "end": 10.671
+  },
+  {
+   "i": 32,
+   "word": "leur",
+   "start": 10.671,
+   "end": 10.831
+  },
+  {
+   "i": 33,
+   "word": "souffle.",
+   "start": 10.831,
+   "end": 11.2
+  },
+  {
+   "i": 34,
+   "word": "Elles",
+   "start": 11.728,
+   "end": 11.776
+  },
+  {
+   "i": 35,
+   "word": "contractent",
+   "start": 11.872,
+   "end": 12.353
+  },
+  {
+   "i": 36,
+   "word": "tout",
+   "start": 12.353,
+   "end": 12.465
+  },
+  {
+   "i": 37,
+   "word": "leur",
+   "start": 12.465,
+   "end": 12.658
+  },
+  {
+   "i": 38,
+   "word": "corps",
+   "start": 12.674,
+   "end": 12.93
+  },
+  {
+   "i": 39,
+   "word": "et",
+   "start": 12.93,
+   "end": 12.994
+  },
+  {
+   "i": 40,
+   "word": "oublient",
+   "start": 13.09,
+   "end": 13.315
+  },
+  {
+   "i": 41,
+   "word": "complètement",
+   "start": 13.315,
+   "end": 13.827
+  },
+  {
+   "i": 42,
+   "word": "de",
+   "start": 13.827,
+   "end": 13.907
+  },
+  {
+   "i": 43,
+   "word": "respirer.",
+   "start": 13.907,
+   "end": 14.324
+  },
+  {
+   "i": 44,
+   "word": "Pourtant,",
+   "start": 15.077,
+   "end": 15.446
+  },
+  {
+   "i": 45,
+   "word": "dans",
+   "start": 15.798,
+   "end": 15.91
+  },
+  {
+   "i": 46,
+   "word": "la",
+   "start": 15.91,
+   "end": 16.038
+  },
+  {
+   "i": 47,
+   "word": "plupart",
+   "start": 16.038,
+   "end": 16.359
+  },
+  {
+   "i": 48,
+   "word": "des",
+   "start": 16.359,
+   "end": 16.439
+  },
+  {
+   "i": 49,
+   "word": "exercices,",
+   "start": 16.535,
+   "end": 17.048
+  },
+  {
+   "i": 50,
+   "word": "il",
+   "start": 17.176,
+   "end": 17.256
+  },
+  {
+   "i": 51,
+   "word": "existe",
+   "start": 17.256,
+   "end": 17.577
+  },
+  {
+   "i": 52,
+   "word": "une",
+   "start": 17.577,
+   "end": 17.769
+  },
+  {
+   "i": 53,
+   "word": "règle",
+   "start": 17.769,
+   "end": 17.961
+  },
+  {
+   "i": 54,
+   "word": "simple :",
+   "start": 17.961,
+   "end": 18.33
+  },
+  {
+   "i": 55,
+   "word": "expire",
+   "start": 18.778,
+   "end": 19.307
+  },
+  {
+   "i": 56,
+   "word": "pendant",
+   "start": 19.323,
+   "end": 19.563
+  },
+  {
+   "i": 57,
+   "word": "la",
+   "start": 19.563,
+   "end": 19.724
+  },
+  {
+   "i": 58,
+   "word": "phase",
+   "start": 19.724,
+   "end": 19.948
+  },
+  {
+   "i": 59,
+   "word": "où",
+   "start": 19.98,
+   "end": 20.044
+  },
+  {
+   "i": 60,
+   "word": "tu",
+   "start": 20.044,
+   "end": 20.204
+  },
+  {
+   "i": 61,
+   "word": "pousses",
+   "start": 20.204,
+   "end": 20.461
+  },
+  {
+   "i": 62,
+   "word": "ou",
+   "start": 20.461,
+   "end": 20.493
+  },
+  {
+   "i": 63,
+   "word": "tu",
+   "start": 20.557,
+   "end": 20.685
+  },
+  {
+   "i": 64,
+   "word": "soulèves,",
+   "start": 20.685,
+   "end": 21.102
+  },
+  {
+   "i": 65,
+   "word": "puis",
+   "start": 21.486,
+   "end": 21.727
+  },
+  {
+   "i": 66,
+   "word": "inspire",
+   "start": 21.743,
+   "end": 22.095
+  },
+  {
+   "i": 67,
+   "word": "pendant",
+   "start": 22.127,
+   "end": 22.4
+  },
+  {
+   "i": 68,
+   "word": "le",
+   "start": 22.4,
+   "end": 22.528
+  },
+  {
+   "i": 69,
+   "word": "retour.",
+   "start": 22.528,
+   "end": 22.816
+  },
+  {
+   "i": 70,
+   "word": "Par",
+   "start": 23.489,
+   "end": 23.585
+  },
+  {
+   "i": 71,
+   "word": "exemple,",
+   "start": 23.585,
+   "end": 24.018
+  },
+  {
+   "i": 72,
+   "word": "sur",
+   "start": 24.13,
+   "end": 24.306
+  },
+  {
+   "i": 73,
+   "word": "une",
+   "start": 24.306,
+   "end": 24.499
+  },
+  {
+   "i": 74,
+   "word": "pompe,",
+   "start": 24.531,
+   "end": 24.819
+  },
+  {
+   "i": 75,
+   "word": "expire",
+   "start": 24.947,
+   "end": 25.38
+  },
+  {
+   "i": 76,
+   "word": "quand",
+   "start": 25.412,
+   "end": 25.572
+  },
+  {
+   "i": 77,
+   "word": "tu",
+   "start": 25.572,
+   "end": 25.684
+  },
+  {
+   "i": 78,
+   "word": "repousses",
+   "start": 25.684,
+   "end": 26.053
+  },
+  {
+   "i": 79,
+   "word": "le",
+   "start": 26.053,
+   "end": 26.133
+  },
+  {
+   "i": 80,
+   "word": "sol",
+   "start": 26.133,
+   "end": 26.405
+  },
+  {
+   "i": 81,
+   "word": "et",
+   "start": 26.405,
+   "end": 26.533
+  },
+  {
+   "i": 82,
+   "word": "inspire",
+   "start": 26.63,
+   "end": 27.046
+  },
+  {
+   "i": 83,
+   "word": "quand",
+   "start": 27.094,
+   "end": 27.174
+  },
+  {
+   "i": 84,
+   "word": "tu",
+   "start": 27.206,
+   "end": 27.335
+  },
+  {
+   "i": 85,
+   "word": "redescends.",
+   "start": 27.335,
+   "end": 27.623
+  },
+  {
+   "i": 86,
+   "word": "Pourquoi ?",
+   "start": 28.377,
+   "end": 28.666
+  },
+  {
+   "i": 87,
+   "word": "Parce",
+   "start": 29.179,
+   "end": 29.42
+  },
+  {
+   "i": 88,
+   "word": "que",
+   "start": 29.42,
+   "end": 29.532
+  },
+  {
+   "i": 89,
+   "word": "respirer",
+   "start": 29.532,
+   "end": 29.982
+  },
+  {
+   "i": 90,
+   "word": "régulièrement",
+   "start": 30.046,
+   "end": 30.736
+  },
+  {
+   "i": 91,
+   "word": "t'aide",
+   "start": 31.105,
+   "end": 31.362
+  },
+  {
+   "i": 92,
+   "word": "à",
+   "start": 31.362,
+   "end": 31.378
+  },
+  {
+   "i": 93,
+   "word": "mieux",
+   "start": 31.378,
+   "end": 31.587
+  },
+  {
+   "i": 94,
+   "word": "gérer",
+   "start": 31.667,
+   "end": 31.988
+  },
+  {
+   "i": 95,
+   "word": "ton",
+   "start": 31.988,
+   "end": 32.149
+  },
+  {
+   "i": 96,
+   "word": "effort",
+   "start": 32.165,
+   "end": 32.566
+  },
+  {
+   "i": 97,
+   "word": "et",
+   "start": 32.566,
+   "end": 32.646
+  },
+  {
+   "i": 98,
+   "word": "à",
+   "start": 32.646,
+   "end": 32.726
+  },
+  {
+   "i": 99,
+   "word": "éviter",
+   "start": 32.726,
+   "end": 33.112
+  },
+  {
+   "i": 100,
+   "word": "de",
+   "start": 33.112,
+   "end": 33.224
+  },
+  {
+   "i": 101,
+   "word": "retenir",
+   "start": 33.224,
+   "end": 33.577
+  },
+  {
+   "i": 102,
+   "word": "inutilement",
+   "start": 33.609,
+   "end": 34.075
+  },
+  {
+   "i": 103,
+   "word": "ton",
+   "start": 34.075,
+   "end": 34.235
+  },
+  {
+   "i": 104,
+   "word": "souffle.",
+   "start": 34.235,
+   "end": 34.588
+  },
+  {
+   "i": 105,
+   "word": "Attention,",
+   "start": 35.294,
+   "end": 35.728
+  },
+  {
+   "i": 106,
+   "word": "les",
+   "start": 36.081,
+   "end": 36.241
+  },
+  {
+   "i": 107,
+   "word": "pratiquants",
+   "start": 36.241,
+   "end": 36.819
+  },
+  {
+   "i": 108,
+   "word": "expérimentés",
+   "start": 36.819,
+   "end": 37.541
+  },
+  {
+   "i": 109,
+   "word": "utilisent",
+   "start": 37.541,
+   "end": 37.878
+  },
+  {
+   "i": 110,
+   "word": "parfois",
+   "start": 38.007,
+   "end": 38.328
+  },
+  {
+   "i": 111,
+   "word": "volontairement",
+   "start": 38.328,
+   "end": 38.89
+  },
+  {
+   "i": 112,
+   "word": "une",
+   "start": 38.89,
+   "end": 38.97
+  },
+  {
+   "i": 113,
+   "word": "technique",
+   "start": 38.97,
+   "end": 39.387
+  },
+  {
+   "i": 114,
+   "word": "appelée",
+   "start": 39.387,
+   "end": 39.724
+  },
+  {
+   "i": 115,
+   "word": "manœuvre",
+   "start": 39.724,
+   "end": 40.254
+  },
+  {
+   "i": 116,
+   "word": "de",
+   "start": 40.254,
+   "end": 40.334
+  },
+  {
+   "i": 117,
+   "word": "Valsalva",
+   "start": 40.334,
+   "end": 41.008
+  },
+  {
+   "i": 118,
+   "word": "pour",
+   "start": 41.297,
+   "end": 41.442
+  },
+  {
+   "i": 119,
+   "word": "stabiliser",
+   "start": 41.458,
+   "end": 42.019
+  },
+  {
+   "i": 120,
+   "word": "leur",
+   "start": 42.019,
+   "end": 42.164
+  },
+  {
+   "i": 121,
+   "word": "tronc",
+   "start": 42.18,
+   "end": 42.421
+  },
+  {
+   "i": 122,
+   "word": "lors",
+   "start": 42.421,
+   "end": 42.533
+  },
+  {
+   "i": 123,
+   "word": "d'efforts",
+   "start": 42.581,
+   "end": 42.918
+  },
+  {
+   "i": 124,
+   "word": "lourds.",
+   "start": 42.918,
+   "end": 43.111
+  },
+  {
+   "i": 125,
+   "word": "Mais",
+   "start": 43.705,
+   "end": 43.785
+  },
+  {
+   "i": 126,
+   "word": "cette",
+   "start": 43.785,
+   "end": 44.026
+  },
+  {
+   "i": 127,
+   "word": "technique",
+   "start": 44.026,
+   "end": 44.427
+  },
+  {
+   "i": 128,
+   "word": "demande",
+   "start": 44.427,
+   "end": 44.668
+  },
+  {
+   "i": 129,
+   "word": "de",
+   "start": 44.668,
+   "end": 44.78
+  },
+  {
+   "i": 130,
+   "word": "la",
+   "start": 44.78,
+   "end": 44.86
+  },
+  {
+   "i": 131,
+   "word": "maîtrise",
+   "start": 44.86,
+   "end": 45.326
+  },
+  {
+   "i": 132,
+   "word": "et",
+   "start": 45.326,
+   "end": 45.39
+  },
+  {
+   "i": 133,
+   "word": "certaines",
+   "start": 45.39,
+   "end": 45.711
+  },
+  {
+   "i": 134,
+   "word": "précautions,",
+   "start": 45.711,
+   "end": 46.24
+  },
+  {
+   "i": 135,
+   "word": "notamment",
+   "start": 46.433,
+   "end": 46.77
+  },
+  {
+   "i": 136,
+   "word": "en",
+   "start": 46.77,
+   "end": 46.915
+  },
+  {
+   "i": 137,
+   "word": "cas",
+   "start": 46.995,
+   "end": 47.139
+  },
+  {
+   "i": 138,
+   "word": "d'hypertension",
+   "start": 47.139,
+   "end": 47.878
+  },
+  {
+   "i": 139,
+   "word": "ou",
+   "start": 48.215,
+   "end": 48.279
+  },
+  {
+   "i": 140,
+   "word": "de",
+   "start": 48.279,
+   "end": 48.359
+  },
+  {
+   "i": 141,
+   "word": "problèmes",
+   "start": 48.359,
+   "end": 48.696
+  },
+  {
+   "i": 142,
+   "word": "cardiovasculaires.",
+   "start": 48.76,
+   "end": 49.531
+  },
+  {
+   "i": 143,
+   "word": "Alors,",
+   "start": 50.301,
+   "end": 50.413
+  },
+  {
+   "i": 144,
+   "word": "la",
+   "start": 50.526,
+   "end": 50.574
+  },
+  {
+   "i": 145,
+   "word": "prochaine",
+   "start": 50.606,
+   "end": 50.927
+  },
+  {
+   "i": 146,
+   "word": "fois",
+   "start": 50.927,
+   "end": 51.088
+  },
+  {
+   "i": 147,
+   "word": "que",
+   "start": 51.088,
+   "end": 51.248
+  },
+  {
+   "i": 148,
+   "word": "tu",
+   "start": 51.248,
+   "end": 51.328
+  },
+  {
+   "i": 149,
+   "word": "t'entraînes,",
+   "start": 51.328,
+   "end": 51.858
+  },
+  {
+   "i": 150,
+   "word": "ne",
+   "start": 51.89,
+   "end": 52.051
+  },
+  {
+   "i": 151,
+   "word": "compte",
+   "start": 52.051,
+   "end": 52.291
+  },
+  {
+   "i": 152,
+   "word": "pas",
+   "start": 52.291,
+   "end": 52.372
+  },
+  {
+   "i": 153,
+   "word": "seulement",
+   "start": 52.404,
+   "end": 52.773
+  },
+  {
+   "i": 154,
+   "word": "tes",
+   "start": 52.773,
+   "end": 52.853
+  },
+  {
+   "i": 155,
+   "word": "répétitions.",
+   "start": 52.853,
+   "end": 53.383
+  },
+  {
+   "i": 156,
+   "word": "Fais",
+   "start": 53.897,
+   "end": 53.994
+  },
+  {
+   "i": 157,
+   "word": "aussi",
+   "start": 53.994,
+   "end": 54.236
+  },
+  {
+   "i": 158,
+   "word": "attention",
+   "start": 54.236,
+   "end": 54.72
+  },
+  {
+   "i": 159,
+   "word": "à",
+   "start": 54.72,
+   "end": 54.784
+  },
+  {
+   "i": 160,
+   "word": "ta",
+   "start": 54.784,
+   "end": 54.897
+  },
+  {
+   "i": 161,
+   "word": "respiration.",
+   "start": 54.897,
+   "end": 55.477
+  },
+  {
+   "i": 162,
+   "word": "Parce",
+   "start": 56.074,
+   "end": 56.316
+  },
+  {
+   "i": 163,
+   "word": "que",
+   "start": 56.316,
+   "end": 56.525
+  },
+  {
+   "i": 164,
+   "word": "bien",
+   "start": 56.557,
+   "end": 56.654
+  },
+  {
+   "i": 165,
+   "word": "s'entraîner,",
+   "start": 56.654,
+   "end": 57.283
+  },
+  {
+   "i": 166,
+   "word": "ce",
+   "start": 57.605,
+   "end": 57.702
+  },
+  {
+   "i": 167,
+   "word": "n'est",
+   "start": 57.702,
+   "end": 57.847
+  },
+  {
+   "i": 168,
+   "word": "pas",
+   "start": 57.928,
+   "end": 58.04
+  },
+  {
+   "i": 169,
+   "word": "seulement",
+   "start": 58.04,
+   "end": 58.411
+  },
+  {
+   "i": 170,
+   "word": "savoir",
+   "start": 58.411,
+   "end": 58.717
+  },
+  {
+   "i": 171,
+   "word": "pousser…",
+   "start": 58.814,
+   "end": 59.104
+  },
+  {
+   "i": 172,
+   "word": "c'est",
+   "start": 59.137,
+   "end": 59.395
+  },
+  {
+   "i": 173,
+   "word": "aussi",
+   "start": 59.395,
+   "end": 59.62
+  },
+  {
+   "i": 174,
+   "word": "savoir",
+   "start": 59.62,
+   "end": 59.846
+  },
+  {
+   "i": 175,
+   "word": "respirer.",
+   "start": 59.943,
+   "end": 60.313
+  },
+  {
+   "i": 176,
+   "word": "Abonne-toi,",
+   "start": 61.007,
+   "end": 61.442
+  },
+  {
+   "i": 177,
+   "word": "une",
+   "start": 62.054,
+   "end": 62.103
+  },
+  {
+   "i": 178,
+   "word": "nouvelle",
+   "start": 62.119,
+   "end": 62.425
+  },
+  {
+   "i": 179,
+   "word": "vidéo",
+   "start": 62.441,
+   "end": 62.764
+  },
+  {
+   "i": 180,
+   "word": "chaque",
+   "start": 62.764,
+   "end": 63.006
+  },
+  {
+   "i": 181,
+   "word": "jour.",
+   "start": 63.006,
+   "end": 63.215
+  },
+  {
+   "i": 182,
+   "word": "Et",
+   "start": 63.828,
+   "end": 63.973
+  },
+  {
+   "i": 183,
+   "word": "retrouve-nous",
+   "start": 63.973,
+   "end": 64.456
+  },
+  {
+   "i": 184,
+   "word": "sur",
+   "start": 64.489,
+   "end": 64.666
+  },
+  {
+   "i": 185,
+   "word": "calibodi.com !",
+   "start": 64.666,
+   "end": 65.956
+  }
+ ]
+}
