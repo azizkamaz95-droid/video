@@ -32,4 +32,4 @@ Vidéo générée par IA.
 - Limites honnêtes : pas de clip propre de bras dans un miroir sans visage ni femme sur Pixabay, donc « bras » est montré avec de l'anatomie 3D ; « croissance » avec une pousse ; « récupération » avec la lune ; « pompes » avec un squelette 3D
 - Aucun chiffre dans le script, donc aucune source affichée à l'écran
 - Voix : phrase 2 en prise 1 après revue complète (voice_review : 2 transcripteurs, 179 mots, 0 écart phrase par phrase, 0 anomalie acoustique) ; reste « à écouter » : s'appelle, l'entraînement, afflue, c'est-à-dire, n'est, retrouve-nous ; fin « Abonne-toi… calibodi.com » ajoutée par Claude
-- Publication : mardi 24 novembre, Facebook 10 h, TikTok 18 h, Instagram 12 h, YouTube 16 h (Paris), après accord
+- Publication (mardi 24 novembre, heure de Paris) : Facebook envoyé à 11 h 11 (Buffer sent), Instagram à 12 h 04 (Buffer sent), YouTube à 16 h 05 (https://youtube.com/watch?v=rJlFaYYxjG4), TikTok à 18 h 04 (Buffer sent)
