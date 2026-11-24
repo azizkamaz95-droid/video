@@ -1,0 +1,169 @@
+{
+ "title": "Respiration",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -29.5,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  13.09
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 15.0
+  },
+  {
+   "type": "body",
+   "start": 15.0,
+   "end": 61.0
+  },
+  {
+   "type": "outro",
+   "start": 61.0,
+   "end": 67.4
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   0.61
+  ],
+  [
+   "stamp",
+   1.94
+  ],
+  [
+   "whoosh",
+   3.75
+  ],
+  [
+   "stamp",
+   5.7
+  ],
+  [
+   "whoosh",
+   6.85
+  ],
+  [
+   "stamp",
+   9.55
+  ],
+  [
+   "whoosh",
+   11.65
+  ],
+  [
+   "stamp",
+   13.09
+  ],
+  [
+   "thump",
+   13.09
+  ],
+  [
+   "whoosh",
+   14.95
+  ],
+  [
+   "stamp",
+   17.77
+  ],
+  [
+   "whoosh",
+   18.65
+  ],
+  [
+   "stamp",
+   20.2
+  ],
+  [
+   "whoosh",
+   23.35
+  ],
+  [
+   "stamp",
+   24.95
+  ],
+  [
+   "stamp",
+   26.63
+  ],
+  [
+   "whoosh",
+   28.25
+  ],
+  [
+   "stamp",
+   31.38
+  ],
+  [
+   "stamp",
+   32.16
+  ],
+  [
+   "whoosh",
+   35.15
+  ],
+  [
+   "stamp",
+   36.82
+  ],
+  [
+   "whoosh",
+   39.65
+  ],
+  [
+   "stamp",
+   40.33
+  ],
+  [
+   "whoosh",
+   43.55
+  ],
+  [
+   "stamp",
+   45.71
+  ],
+  [
+   "stamp",
+   47.14
+  ],
+  [
+   "whoosh",
+   50.05
+  ],
+  [
+   "stamp",
+   52.4
+  ],
+  [
+   "stamp",
+   54.9
+  ],
+  [
+   "whoosh",
+   55.95
+  ],
+  [
+   "stamp",
+   59.62
+  ],
+  [
+   "whoosh",
+   60.95
+  ],
+  [
+   "stamp",
+   64.67
+  ]
+ ],
+ "music_file": "assets/music/documentaire-motivation.mp3",
+ "music_loop": [
+  0.0,
+  80.0
+ ]
+}
