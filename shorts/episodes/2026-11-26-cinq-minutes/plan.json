@@ -1,0 +1,209 @@
+{
+ "title": "Cinq minutes",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -29.5,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  7.26
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 20.68
+  },
+  {
+   "type": "body",
+   "start": 20.68,
+   "end": 56.74
+  },
+  {
+   "type": "outro",
+   "start": 56.74,
+   "end": 62.38
+  }
+ ],
+ "sfx": [
+  [
+   "stamp",
+   0.66
+  ],
+  [
+   "whoosh",
+   2.7
+  ],
+  [
+   "stamp",
+   3.47
+  ],
+  [
+   "stamp",
+   3.9
+  ],
+  [
+   "whoosh",
+   5.75
+  ],
+  [
+   "stamp",
+   6.76
+  ],
+  [
+   "stamp",
+   7.26
+  ],
+  [
+   "thump",
+   7.26
+  ],
+  [
+   "whoosh",
+   8.2
+  ],
+  [
+   "stamp",
+   10.79
+  ],
+  [
+   "whoosh",
+   11.65
+  ],
+  [
+   "stamp",
+   13.05
+  ],
+  [
+   "stamp",
+   14.8
+  ],
+  [
+   "stamp",
+   15.46
+  ],
+  [
+   "whoosh",
+   16.4
+  ],
+  [
+   "stamp",
+   17.95
+  ],
+  [
+   "stamp",
+   19.7
+  ],
+  [
+   "whoosh",
+   20.63
+  ],
+  [
+   "stamp",
+   22.03
+  ],
+  [
+   "whoosh",
+   24.38
+  ],
+  [
+   "stamp",
+   25.64
+  ],
+  [
+   "stamp",
+   27.41
+  ],
+  [
+   "whoosh",
+   29.05
+  ],
+  [
+   "stamp",
+   30.06
+  ],
+  [
+   "stamp",
+   30.7
+  ],
+  [
+   "whoosh",
+   31.89
+  ],
+  [
+   "stamp",
+   34.74
+  ],
+  [
+   "whoosh",
+   36.68
+  ],
+  [
+   "stamp",
+   39.12
+  ],
+  [
+   "whoosh",
+   40.15
+  ],
+  [
+   "stamp",
+   40.84
+  ],
+  [
+   "stamp",
+   41.7
+  ],
+  [
+   "whoosh",
+   43.25
+  ],
+  [
+   "stamp",
+   44.09
+  ],
+  [
+   "stamp",
+   44.78
+  ],
+  [
+   "whoosh",
+   46.44
+  ],
+  [
+   "stamp",
+   48.34
+  ],
+  [
+   "stamp",
+   49.02
+  ],
+  [
+   "whoosh",
+   51.37
+  ],
+  [
+   "stamp",
+   52.44
+  ],
+  [
+   "stamp",
+   55.76
+  ],
+  [
+   "whoosh",
+   56.69
+  ],
+  [
+   "stamp",
+   59.97
+  ]
+ ],
+ "music_file": "assets/music/motivation-quotidienne.mp3",
+ "music_loop": [
+  0.0,
+  48.0
+ ]
+}
