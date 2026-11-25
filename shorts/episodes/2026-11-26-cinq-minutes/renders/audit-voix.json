@@ -1,0 +1,1696 @@
+[
+ {
+  "i": 0,
+  "word": "Tu",
+  "t": 0.18,
+  "dur": 0.11,
+  "heard": "Tu repousses tout",
+  "ratio": 0.85
+ },
+ {
+  "i": 1,
+  "word": "repousses",
+  "t": 0.29,
+  "dur": 0.37,
+  "heard": "Tu repousses toujours la",
+  "ratio": 0.89
+ },
+ {
+  "i": 2,
+  "word": "toujours",
+  "t": 0.66,
+  "dur": 0.29,
+  "heard": "Toujours les",
+  "ratio": 1.0
+ },
+ {
+  "i": 3,
+  "word": "les",
+  "t": 0.98,
+  "dur": 0.08,
+  "heard": "Les choses",
+  "ratio": 1.0
+ },
+ {
+  "i": 4,
+  "word": "choses",
+  "t": 1.06,
+  "dur": 0.22,
+  "heard": "Les choses que tu",
+  "ratio": 0.78
+ },
+ {
+  "i": 5,
+  "word": "que",
+  "t": 1.3,
+  "dur": 0.08,
+  "heard": "Je pense que tu sais",
+  "ratio": 0.48
+ },
+ {
+  "i": 6,
+  "word": "tu",
+  "t": 1.38,
+  "dur": 0.16,
+  "heard": "que tu sais pas.",
+  "ratio": 0.67
+ },
+ {
+  "i": 7,
+  "word": "sais",
+  "t": 1.54,
+  "dur": 0.16,
+  "heard": "c'est bonne.",
+  "ratio": 0.63
+ },
+ {
+  "i": 8,
+  "word": "bonnes",
+  "t": 1.7,
+  "dur": 0.13,
+  "heard": "bonne pour",
+  "ratio": 0.95
+ },
+ {
+  "i": 9,
+  "word": "pour",
+  "t": 1.94,
+  "dur": 0.06,
+  "heard": "pour toi.",
+  "ratio": 1.0
+ },
+ {
+  "i": 10,
+  "word": "toi ?",
+  "t": 2.06,
+  "dur": 0.18,
+  "heard": "Pour toi, tu te",
+  "ratio": 0.62
+ },
+ {
+  "i": 11,
+  "word": "Tu",
+  "t": 2.75,
+  "dur": 0.16,
+  "heard": "Tu te dis",
+  "ratio": 0.73
+ },
+ {
+  "i": 12,
+  "word": "te",
+  "t": 2.91,
+  "dur": 0.08,
+  "heard": "Tu te dis que",
+  "ratio": 0.67
+ },
+ {
+  "i": 13,
+  "word": "dis",
+  "t": 2.99,
+  "dur": 0.16,
+  "heard": "Je te dis que tu",
+  "ratio": 0.67
+ },
+ {
+  "i": 14,
+  "word": "que",
+  "t": 3.15,
+  "dur": 0.1,
+  "heard": "que tu vas",
+  "ratio": 0.77
+ },
+ {
+  "i": 15,
+  "word": "tu",
+  "t": 3.25,
+  "dur": 0.15,
+  "heard": "Tu vas",
+  "ratio": 1.0
+ },
+ {
+  "i": 16,
+  "word": "vas",
+  "t": 3.39,
+  "dur": 0.08,
+  "heard": "vas marcher.",
+  "ratio": 1.0
+ },
+ {
+  "i": 17,
+  "word": "marcher,",
+  "t": 3.47,
+  "dur": 0.37,
+  "heard": "marcher mieux.",
+  "ratio": 1.0
+ },
+ {
+  "i": 18,
+  "word": "mieux",
+  "t": 3.9,
+  "dur": 0.21,
+  "heard": "Mieux manger ou",
+  "ratio": 0.92
+ },
+ {
+  "i": 19,
+  "word": "manger",
+  "t": 4.14,
+  "dur": 0.39,
+  "heard": "manger ou en",
+  "ratio": 0.89
+ },
+ {
+  "i": 20,
+  "word": "ou",
+  "t": 4.53,
+  "dur": 0.06,
+  "heard": "ou reprendre le",
+  "ratio": 0.92
+ },
+ {
+  "i": 21,
+  "word": "reprendre",
+  "t": 4.59,
+  "dur": 0.43,
+  "heard": "Reprendre le sport.",
+  "ratio": 0.81
+ },
+ {
+  "i": 22,
+  "word": "le",
+  "t": 5.03,
+  "dur": 0.13,
+  "heard": "le sport.",
+  "ratio": 1.0
+ },
+ {
+  "i": 23,
+  "word": "sport…",
+  "t": 5.16,
+  "dur": 0.29,
+  "heard": "sport, mais tu",
+  "ratio": 0.9
+ },
+ {
+  "i": 24,
+  "word": "mais",
+  "t": 5.8,
+  "dur": 0.16,
+  "heard": "Mais tu fais",
+  "ratio": 0.75
+ },
+ {
+  "i": 25,
+  "word": "tu",
+  "t": 5.96,
+  "dur": 0.08,
+  "heard": "Tu finis en",
+  "ratio": 0.88
+ },
+ {
+  "i": 26,
+  "word": "finis",
+  "t": 6.04,
+  "dur": 0.26,
+  "heard": "Tu finis encore par",
+  "ratio": 0.81
+ },
+ {
+  "i": 27,
+  "word": "encore",
+  "t": 6.3,
+  "dur": 0.3,
+  "heard": "encore par eux-mêmes.",
+  "ratio": 0.69
+ },
+ {
+  "i": 28,
+  "word": "par",
+  "t": 6.6,
+  "dur": 0.16,
+  "heard": "par remettre ça",
+  "ratio": 0.92
+ },
+ {
+  "i": 29,
+  "word": "remettre",
+  "t": 6.76,
+  "dur": 0.34,
+  "heard": "Remettre ça à",
+  "ratio": 0.95
+ },
+ {
+  "i": 30,
+  "word": "ça",
+  "t": 7.12,
+  "dur": 0.14,
+  "heard": "Ça a dû",
+  "ratio": 0.75
+ },
+ {
+  "i": 31,
+  "word": "à",
+  "t": 7.26,
+  "dur": 0.06,
+  "heard": "À demain",
+  "ratio": 1.0
+ },
+ {
+  "i": 32,
+  "word": "demain ?",
+  "t": 7.33,
+  "dur": 0.19,
+  "heard": "À demain Et si",
+  "ratio": 0.84
+ },
+ {
+  "i": 33,
+  "word": "Et",
+  "t": 8.31,
+  "dur": 0.07,
+  "heard": "Et si le",
+  "ratio": 0.8
+ },
+ {
+  "i": 34,
+  "word": "si",
+  "t": 8.37,
+  "dur": 0.16,
+  "heard": "Et si le",
+  "ratio": 0.8
+ },
+ {
+  "i": 35,
+  "word": "le",
+  "t": 8.53,
+  "dur": 0.08,
+  "heard": "le problème.",
+  "ratio": 1.0
+ },
+ {
+  "i": 36,
+  "word": "problème,",
+  "t": 8.61,
+  "dur": 0.38,
+  "heard": "Le problème, ce n'est",
+  "ratio": 0.77
+ },
+ {
+  "i": 37,
+  "word": "ce",
+  "t": 9.41,
+  "dur": 0.03,
+  "heard": "Ce n'était pas",
+  "ratio": 0.84
+ },
+ {
+  "i": 38,
+  "word": "n'était",
+  "t": 9.45,
+  "dur": 0.29,
+  "heard": "Ce n'était pas tout.",
+  "ratio": 0.75
+ },
+ {
+  "i": 39,
+  "word": "pas",
+  "t": 9.74,
+  "dur": 0.16,
+  "heard": "C'est pas ton moment.",
+  "ratio": 0.55
+ },
+ {
+  "i": 40,
+  "word": "ton",
+  "t": 9.9,
+  "dur": 0.16,
+  "heard": "On manque de",
+  "ratio": 0.84
+ },
+ {
+  "i": 41,
+  "word": "manque",
+  "t": 10.06,
+  "dur": 0.16,
+  "heard": "Donc",
+  "ratio": 0.17,
+  "flag": null,
+  "heard_wide": "Ton manque de motivation"
+ },
+ {
+  "i": 42,
+  "word": "de",
+  "t": 10.22,
+  "dur": 0.16,
+  "heard": "de motivation.",
+  "ratio": 1.0
+ },
+ {
+  "i": 43,
+  "word": "motivation ?",
+  "t": 10.38,
+  "dur": 0.53,
+  "heard": "motivation. En fait,",
+  "ratio": 0.86
+ },
+ {
+  "i": 44,
+  "word": "En",
+  "t": 11.84,
+  "dur": 0.05,
+  "heard": "En fait,",
+  "ratio": 1.0
+ },
+ {
+  "i": 45,
+  "word": "fait,",
+  "t": 11.89,
+  "dur": 0.1,
+  "heard": "En fait, plus",
+  "ratio": 0.89
+ },
+ {
+  "i": 46,
+  "word": "plus",
+  "t": 12.07,
+  "dur": 0.18,
+  "heard": "Prenez",
+  "ratio": 0.46,
+  "flag": null,
+  "heard_wide": "En fait, plus une"
+ },
+ {
+  "i": 47,
+  "word": "une",
+  "t": 12.24,
+  "dur": 0.05,
+  "heard": "Une tâche de",
+  "ratio": 0.89
+ },
+ {
+  "i": 48,
+  "word": "tâche",
+  "t": 12.39,
+  "dur": 0.24,
+  "heard": "Si cette tâche te paraît",
+  "ratio": 0.52
+ },
+ {
+  "i": 49,
+  "word": "te",
+  "t": 12.63,
+  "dur": 0.16,
+  "heard": "Si tu te parais un peu",
+  "ratio": 0.56
+ },
+ {
+  "i": 50,
+  "word": "paraît",
+  "t": 12.79,
+  "dur": 0.16,
+  "heard": "Il paraît important tout de même",
+  "ratio": 0.74
+ },
+ {
+  "i": 51,
+  "word": "importante",
+  "t": 13.05,
+  "dur": 0.4,
+  "heard": "Il est important de",
+  "ratio": 0.71
+ },
+ {
+  "i": 52,
+  "word": "ou",
+  "t": 13.45,
+  "dur": 0.06,
+  "heard": "difficile.",
+  "ratio": 0.9
+ },
+ {
+  "i": 53,
+  "word": "difficile,",
+  "t": 13.59,
+  "dur": 0.43,
+  "heard": "difficile, plus ton",
+  "ratio": 0.9
+ },
+ {
+  "i": 54,
+  "word": "plus",
+  "t": 14.48,
+  "dur": 0.16,
+  "heard": "Plus ton cerveau",
+  "ratio": 0.67
+ },
+ {
+  "i": 55,
+  "word": "ton",
+  "t": 14.64,
+  "dur": 0.16,
+  "heard": "Ton cerveau peut changer.",
+  "ratio": 0.65
+ },
+ {
+  "i": 56,
+  "word": "cerveau",
+  "t": 14.8,
+  "dur": 0.32,
+  "heard": "cerveau peut changer.",
+  "ratio": 0.76
+ },
+ {
+  "i": 57,
+  "word": "peut",
+  "t": 15.12,
+  "dur": 0.05,
+  "heard": "On peut chercher",
+  "ratio": 0.92
+ },
+ {
+  "i": 58,
+  "word": "chercher",
+  "t": 15.2,
+  "dur": 0.19,
+  "heard": "Je cherchais",
+  "ratio": 0.7
+ },
+ {
+  "i": 59,
+  "word": "à",
+  "t": 15.39,
+  "dur": 0.05,
+  "heard": "à l'éviter.",
+  "ratio": 1.0
+ },
+ {
+  "i": 60,
+  "word": "l'éviter.",
+  "t": 15.46,
+  "dur": 0.43,
+  "heard": "à l'éviter. Il préfère",
+  "ratio": 0.69
+ },
+ {
+  "i": 61,
+  "word": "Il",
+  "t": 16.5,
+  "dur": 0.14,
+  "heard": "Il préfère se",
+  "ratio": 0.9
+ },
+ {
+  "i": 62,
+  "word": "préfère",
+  "t": 16.64,
+  "dur": 0.32,
+  "heard": "Je préfère souvent le",
+  "ratio": 0.88
+ },
+ {
+  "i": 63,
+  "word": "souvent",
+  "t": 16.97,
+  "dur": 0.4,
+  "heard": "Souvent, le",
+  "ratio": 1.0
+ },
+ {
+  "i": 64,
+  "word": "le",
+  "t": 17.37,
+  "dur": 0.08,
+  "heard": "confort.",
+  "ratio": 0.88
+ },
+ {
+  "i": 65,
+  "word": "confort",
+  "t": 17.45,
+  "dur": 0.34,
+  "heard": "confort immédiat.",
+  "ratio": 1.0
+ },
+ {
+  "i": 66,
+  "word": "immédiat",
+  "t": 17.95,
+  "dur": 0.4,
+  "heard": "immédiat avec",
+  "ratio": 0.86
+ },
+ {
+  "i": 67,
+  "word": "à",
+  "t": 18.35,
+  "dur": 0.14,
+  "heard": "Abonnez-vous",
+  "ratio": 0.29
+ },
+ {
+  "i": 68,
+  "word": "un",
+  "t": 18.51,
+  "dur": 0.07,
+  "heard": "Le bénéfice que tu",
+  "ratio": 0.64
+ },
+ {
+  "i": 69,
+  "word": "bénéfice",
+  "t": 18.57,
+  "dur": 0.48,
+  "heard": "Donc,",
+  "ratio": 0.27,
+  "flag": null,
+  "heard_wide": "Le bénéfice que tu"
+ },
+ {
+  "i": 70,
+  "word": "que",
+  "t": 19.06,
+  "dur": 0.08,
+  "heard": "YouTube.",
+  "ratio": 0.5,
+  "flag": "COURT"
+ },
+ {
+  "i": 71,
+  "word": "tu",
+  "t": 19.14,
+  "dur": 0.1,
+  "heard": "Tu obtiendras plus",
+  "ratio": 0.86
+ },
+ {
+  "i": 72,
+  "word": "obtiendras",
+  "t": 19.23,
+  "dur": 0.47,
+  "heard": "obtiendra plus tard.",
+  "ratio": 0.84
+ },
+ {
+  "i": 73,
+  "word": "plus",
+  "t": 19.7,
+  "dur": 0.16,
+  "heard": "plus tard.",
+  "ratio": 1.0
+ },
+ {
+  "i": 74,
+  "word": "tard.",
+  "t": 19.86,
+  "dur": 0.21,
+  "heard": "Alors vous",
+  "ratio": 0.56,
+  "flag": null,
+  "heard_wide": "plus tard. Alors vous"
+ },
+ {
+  "i": 75,
+  "word": "Alors,",
+  "t": 20.84,
+  "dur": 0.13,
+  "heard": "Alors voici une",
+  "ratio": 0.87
+ },
+ {
+  "i": 76,
+  "word": "voici",
+  "t": 21.06,
+  "dur": 0.34,
+  "heard": "Voici une astuce",
+  "ratio": 0.73
+ },
+ {
+  "i": 77,
+  "word": "une",
+  "t": 21.4,
+  "dur": 0.16,
+  "heard": "Une astuce toute",
+  "ratio": 0.78
+ },
+ {
+  "i": 78,
+  "word": "astuce",
+  "t": 21.56,
+  "dur": 0.3,
+  "heard": "Si tu souhaites",
+  "ratio": 0.58,
+  "flag": null,
+  "heard_wide": "une astuce toute simple."
+ },
+ {
+  "i": 79,
+  "word": "toute",
+  "t": 21.87,
+  "dur": 0.16,
+  "heard": "Toute simple que",
+  "ratio": 0.88
+ },
+ {
+  "i": 80,
+  "word": "simple",
+  "t": 22.03,
+  "dur": 0.4,
+  "heard": "Simple que tu",
+  "ratio": 0.9
+ },
+ {
+  "i": 81,
+  "word": "que",
+  "t": 22.43,
+  "dur": 0.03,
+  "heard": "Tu peux",
+  "ratio": 0.36,
+  "flag": "COURT"
+ },
+ {
+  "i": 82,
+  "word": "tu",
+  "t": 22.46,
+  "dur": 0.21,
+  "heard": "Tu peux tester",
+  "ratio": 0.67
+ },
+ {
+  "i": 83,
+  "word": "peux",
+  "t": 22.67,
+  "dur": 0.11,
+  "heard": "tester des",
+  "ratio": 0.63
+ },
+ {
+  "i": 84,
+  "word": "tester",
+  "t": 22.83,
+  "dur": 0.4,
+  "heard": "tester désormais.",
+  "ratio": 0.75
+ },
+ {
+  "i": 85,
+  "word": "dès",
+  "t": 23.23,
+  "dur": 0.08,
+  "heard": "aujourd'hui.",
+  "ratio": 0.87
+ },
+ {
+  "i": 86,
+  "word": "aujourd'hui.",
+  "t": 23.41,
+  "dur": 0.35,
+  "heard": "Aujourd'hui, au lieu",
+  "ratio": 0.86
+ },
+ {
+  "i": 87,
+  "word": "Au",
+  "t": 24.61,
+  "dur": 0.06,
+  "heard": "Au lieu de",
+  "ratio": 0.86
+ },
+ {
+  "i": 88,
+  "word": "lieu",
+  "t": 24.68,
+  "dur": 0.16,
+  "heard": "de",
+  "ratio": 0.5,
+  "flag": null,
+  "heard_wide": "Au lieu de te"
+ },
+ {
+  "i": 89,
+  "word": "de",
+  "t": 24.84,
+  "dur": 0.08,
+  "heard": "te dire.",
+  "ratio": 0.4,
+  "flag": "COURT"
+ },
+ {
+  "i": 90,
+  "word": "te",
+  "t": 24.92,
+  "dur": 0.16,
+  "heard": "te dire.",
+  "ratio": 1.0
+ },
+ {
+  "i": 91,
+  "word": "dire :",
+  "t": 25.08,
+  "dur": 0.21,
+  "heard": "demain.",
+  "ratio": 0.75
+ },
+ {
+  "i": 92,
+  "word": "demain,",
+  "t": 25.64,
+  "dur": 0.21,
+  "heard": "demain.",
+  "ratio": 0.86
+ },
+ {
+  "i": 93,
+  "word": "je",
+  "t": 25.87,
+  "dur": 0.05,
+  "heard": "Je",
+  "ratio": 0.5
+ },
+ {
+  "i": 94,
+  "word": "fais",
+  "t": 26.19,
+  "dur": 0.03,
+  "heard": "Je fais une",
+  "ratio": 0.88
+ },
+ {
+  "i": 95,
+  "word": "une",
+  "t": 26.22,
+  "dur": 0.3,
+  "heard": "Je fais une séance de",
+  "ratio": 0.69
+ },
+ {
+  "i": 96,
+  "word": "séance",
+  "t": 26.53,
+  "dur": 0.32,
+  "heard": "Une séance de",
+  "ratio": 0.84
+ },
+ {
+  "i": 97,
+  "word": "de",
+  "t": 26.85,
+  "dur": 0.11,
+  "heard": "de sport.",
+  "ratio": 1.0
+ },
+ {
+  "i": 98,
+  "word": "sport",
+  "t": 26.96,
+  "dur": 0.29,
+  "heard": "sport de",
+  "ratio": 1.0
+ },
+ {
+  "i": 99,
+  "word": "de",
+  "t": 27.25,
+  "dur": 0.16,
+  "heard": "de 30 minutes.",
+  "ratio": 0.53
+ },
+ {
+  "i": 100,
+  "word": "trente",
+  "t": 27.41,
+  "dur": 0.32,
+  "heard": "30 minutes.",
+  "ratio": 0.64
+ },
+ {
+  "i": 101,
+  "word": "minutes,",
+  "t": 27.73,
+  "dur": 0.29,
+  "heard": "minutes, dis-toi",
+  "ratio": 1.0
+ },
+ {
+  "i": 102,
+  "word": "dis-toi :",
+  "t": 28.37,
+  "dur": 0.37,
+  "heard": "Dis-toi je vais",
+  "ratio": 0.8
+ },
+ {
+  "i": 103,
+  "word": "je",
+  "t": 29.17,
+  "dur": 0.08,
+  "heard": "Je vais",
+  "ratio": 1.0
+ },
+ {
+  "i": 104,
+  "word": "vais",
+  "t": 29.25,
+  "dur": 0.08,
+  "heard": "Je vais juste me",
+  "ratio": 0.82
+ },
+ {
+  "i": 105,
+  "word": "juste",
+  "t": 29.41,
+  "dur": 0.27,
+  "heard": "Je vais juste mettre mes",
+  "ratio": 0.71
+ },
+ {
+  "i": 106,
+  "word": "mettre",
+  "t": 29.69,
+  "dur": 0.24,
+  "heard": "mettre mes chaussures.",
+  "ratio": 0.64
+ },
+ {
+  "i": 107,
+  "word": "mes",
+  "t": 29.93,
+  "dur": 0.13,
+  "heard": "Mes chaussures, elles",
+  "ratio": 0.84
+ },
+ {
+  "i": 108,
+  "word": "chaussures",
+  "t": 30.06,
+  "dur": 0.34,
+  "heard": "chaussures et",
+  "ratio": 1.0
+ },
+ {
+  "i": 109,
+  "word": "et",
+  "t": 30.39,
+  "dur": 0.06,
+  "heard": "et faire ça.",
+  "ratio": 0.88
+ },
+ {
+  "i": 110,
+  "word": "faire",
+  "t": 30.46,
+  "dur": 0.22,
+  "heard": "faire 5 millions",
+  "ratio": 0.61
+ },
+ {
+  "i": 111,
+  "word": "cinq",
+  "t": 30.7,
+  "dur": 0.24,
+  "heard": "5 minutes.",
+  "ratio": 0.74
+ },
+ {
+  "i": 112,
+  "word": "minutes.",
+  "t": 30.94,
+  "dur": 0.29,
+  "heard": "minutes. C'était",
+  "ratio": 0.83
+ },
+ {
+  "i": 113,
+  "word": "C'est",
+  "t": 31.98,
+  "dur": 0.16,
+  "heard": "C'est tout.",
+  "ratio": 1.0
+ },
+ {
+  "i": 114,
+  "word": "tout.",
+  "t": 32.14,
+  "dur": 0.13,
+  "heard": "Pourquoi ça?",
+  "ratio": 0.73
+ },
+ {
+  "i": 115,
+  "word": "Pourquoi",
+  "t": 32.78,
+  "dur": 0.29,
+  "heard": "Pourquoi ça peut",
+  "ratio": 0.83
+ },
+ {
+  "i": 116,
+  "word": "ça",
+  "t": 33.1,
+  "dur": 0.16,
+  "heard": "Ça peut faire",
+  "ratio": 0.71
+ },
+ {
+  "i": 117,
+  "word": "peut",
+  "t": 33.26,
+  "dur": 0.08,
+  "heard": "peut fonctionner.",
+  "ratio": 1.0
+ },
+ {
+  "i": 118,
+  "word": "fonctionner ?",
+  "t": 33.38,
+  "dur": 0.42,
+  "heard": "fonctionner parce que",
+  "ratio": 0.91
+ },
+ {
+  "i": 119,
+  "word": "Parce",
+  "t": 34.31,
+  "dur": 0.24,
+  "heard": "Parce que tu",
+  "ratio": 0.89
+ },
+ {
+  "i": 120,
+  "word": "que",
+  "t": 34.55,
+  "dur": 0.08,
+  "heard": "que tu as",
+  "ratio": 0.83
+ },
+ {
+  "i": 121,
+  "word": "tu",
+  "t": 34.63,
+  "dur": 0.11,
+  "heard": "Tu réduis la",
+  "ratio": 0.89
+ },
+ {
+  "i": 122,
+  "word": "réduis",
+  "t": 34.74,
+  "dur": 0.35,
+  "heard": "Tu réduis la",
+  "ratio": 0.89
+ },
+ {
+  "i": 123,
+  "word": "la",
+  "t": 35.11,
+  "dur": 0.08,
+  "heard": "La difficulté de",
+  "ratio": 0.92
+ },
+ {
+  "i": 124,
+  "word": "difficulté",
+  "t": 35.19,
+  "dur": 0.55,
+  "heard": "difficulté de",
+  "ratio": 1.0
+ },
+ {
+  "i": 125,
+  "word": "de",
+  "t": 35.73,
+  "dur": 0.06,
+  "heard": "départ.",
+  "ratio": 0.86
+ },
+ {
+  "i": 126,
+  "word": "départ.",
+  "t": 35.83,
+  "dur": 0.21,
+  "heard": "départ et",
+  "ratio": 1.0
+ },
+ {
+  "i": 127,
+  "word": "Et",
+  "t": 36.73,
+  "dur": 0.06,
+  "heard": "Et souvent, le",
+  "ratio": 0.9
+ },
+ {
+  "i": 128,
+  "word": "souvent,",
+  "t": 36.79,
+  "dur": 0.37,
+  "heard": "Et souvent, le plus",
+  "ratio": 0.75
+ },
+ {
+  "i": 129,
+  "word": "le",
+  "t": 37.2,
+  "dur": 0.16,
+  "heard": "Le plus dur",
+  "ratio": 0.8
+ },
+ {
+  "i": 130,
+  "word": "plus",
+  "t": 37.35,
+  "dur": 0.16,
+  "heard": "plus dur.",
+  "ratio": 1.0
+ },
+ {
+  "i": 131,
+  "word": "dur,",
+  "t": 37.52,
+  "dur": 0.29,
+  "heard": "plus dur, ce n'est",
+  "ratio": 0.56
+ },
+ {
+  "i": 132,
+  "word": "ce",
+  "t": 38.0,
+  "dur": 0.1,
+  "heard": "Ce n'est pas",
+  "ratio": 0.8
+ },
+ {
+  "i": 133,
+  "word": "n'est",
+  "t": 38.09,
+  "dur": 0.14,
+  "heard": "Ce n'est pas",
+  "ratio": 0.88
+ },
+ {
+  "i": 134,
+  "word": "pas",
+  "t": 38.24,
+  "dur": 0.11,
+  "heard": "pas de quoi",
+  "ratio": 0.71
+ },
+ {
+  "i": 135,
+  "word": "de",
+  "t": 38.35,
+  "dur": 0.08,
+  "heard": "continuer.",
+  "ratio": 0.9
+ },
+ {
+  "i": 136,
+  "word": "continuer…",
+  "t": 38.43,
+  "dur": 0.42,
+  "heard": "Continuer, c'est de",
+  "ratio": 0.93
+ },
+ {
+  "i": 137,
+  "word": "c'est",
+  "t": 38.88,
+  "dur": 0.16,
+  "heard": "C'est de quoi",
+  "ratio": 0.75
+ },
+ {
+  "i": 138,
+  "word": "de",
+  "t": 39.04,
+  "dur": 0.08,
+  "heard": "commencer.",
+  "ratio": 0.9
+ },
+ {
+  "i": 139,
+  "word": "commencer.",
+  "t": 39.12,
+  "dur": 0.37,
+  "heard": "commencer. Et si",
+  "ratio": 0.92
+ },
+ {
+  "i": 140,
+  "word": "Et",
+  "t": 40.34,
+  "dur": 0.06,
+  "heard": "Et si",
+  "ratio": 1.0
+ },
+ {
+  "i": 141,
+  "word": "si",
+  "t": 40.4,
+  "dur": 0.18,
+  "heard": "Ainsi, après",
+  "ratio": 0.82
+ },
+ {
+  "i": 142,
+  "word": "après",
+  "t": 40.58,
+  "dur": 0.26,
+  "heard": "Après 5 minutes,",
+  "ratio": 0.64
+ },
+ {
+  "i": 143,
+  "word": "cinq",
+  "t": 40.84,
+  "dur": 0.29,
+  "heard": "5 minutes.",
+  "ratio": 0.74
+ },
+ {
+  "i": 144,
+  "word": "minutes",
+  "t": 41.12,
+  "dur": 0.32,
+  "heard": "Minute TV.",
+  "ratio": 0.82
+ },
+ {
+  "i": 145,
+  "word": "tu",
+  "t": 41.45,
+  "dur": 0.08,
+  "heard": "Tu vas",
+  "ratio": 0.55
+ },
+ {
+  "i": 146,
+  "word": "veux",
+  "t": 41.53,
+  "dur": 0.13,
+  "heard": "Tu vas arrêter.",
+  "ratio": 0.7
+ },
+ {
+  "i": 147,
+  "word": "arrêter,",
+  "t": 41.7,
+  "dur": 0.35,
+  "heard": "Arrêter, tu peux.",
+  "ratio": 0.82
+ },
+ {
+  "i": 148,
+  "word": "tu",
+  "t": 42.09,
+  "dur": 0.16,
+  "heard": "Tu peux arrêter",
+  "ratio": 0.63
+ },
+ {
+  "i": 149,
+  "word": "peux",
+  "t": 42.25,
+  "dur": 0.18,
+  "heard": "peut arrêter.",
+  "ratio": 0.91
+ },
+ {
+  "i": 150,
+  "word": "arrêter.",
+  "t": 42.42,
+  "dur": 0.27,
+  "heard": "arrêter, mais tu",
+  "ratio": 0.92
+ },
+ {
+  "i": 151,
+  "word": "Mais",
+  "t": 43.29,
+  "dur": 0.06,
+  "heard": "Mais tu auras",
+  "ratio": 0.71
+ },
+ {
+  "i": 152,
+  "word": "tu",
+  "t": 43.35,
+  "dur": 0.18,
+  "heard": "Tu auras des",
+  "ratio": 0.82
+ },
+ {
+  "i": 153,
+  "word": "auras",
+  "t": 43.53,
+  "dur": 0.16,
+  "heard": "Tu auras déjà fait",
+  "ratio": 0.75
+ },
+ {
+  "i": 154,
+  "word": "déjà",
+  "t": 43.69,
+  "dur": 0.24,
+  "heard": "Déjà fait quelques",
+  "ratio": 0.67
+ },
+ {
+  "i": 155,
+  "word": "fait",
+  "t": 43.93,
+  "dur": 0.16,
+  "heard": "fait quelque chose.",
+  "ratio": 0.81
+ },
+ {
+  "i": 156,
+  "word": "quelque",
+  "t": 44.09,
+  "dur": 0.24,
+  "heard": "quelque chose que",
+  "ratio": 0.89
+ },
+ {
+  "i": 157,
+  "word": "chose",
+  "t": 44.33,
+  "dur": 0.19,
+  "heard": "Donc,",
+  "ratio": 0.17,
+  "flag": null,
+  "heard_wide": "Quelque chose que tu"
+ },
+ {
+  "i": 158,
+  "word": "que",
+  "t": 44.57,
+  "dur": 0.08,
+  "heard": "Que tu rentres",
+  "ratio": 0.59
+ },
+ {
+  "i": 159,
+  "word": "tu",
+  "t": 44.65,
+  "dur": 0.13,
+  "heard": "Tu repoussais de",
+  "ratio": 0.92
+ },
+ {
+  "i": 160,
+  "word": "repoussais",
+  "t": 44.78,
+  "dur": 0.43,
+  "heard": "Repoussé depuis plus",
+  "ratio": 0.76
+ },
+ {
+  "i": 161,
+  "word": "depuis",
+  "t": 45.22,
+  "dur": 0.24,
+  "heard": "depuis plusieurs jours.",
+  "ratio": 0.86
+ },
+ {
+  "i": 162,
+  "word": "plusieurs",
+  "t": 45.46,
+  "dur": 0.32,
+  "heard": "plusieurs jours.",
+  "ratio": 1.0
+ },
+ {
+  "i": 163,
+  "word": "jours.",
+  "t": 45.78,
+  "dur": 0.13,
+  "heard": "Alors?",
+  "ratio": 0.67
+ },
+ {
+  "i": 164,
+  "word": "Alors,",
+  "t": 46.59,
+  "dur": 0.19,
+  "heard": "Alors la",
+  "ratio": 1.0
+ },
+ {
+  "i": 165,
+  "word": "la",
+  "t": 46.9,
+  "dur": 0.05,
+  "heard": "La prochaine fois",
+  "ratio": 0.85
+ },
+ {
+  "i": 166,
+  "word": "prochaine",
+  "t": 47.06,
+  "dur": 0.32,
+  "heard": "Prochaine fois que",
+  "ratio": 0.9
+ },
+ {
+  "i": 167,
+  "word": "fois",
+  "t": 47.38,
+  "dur": 0.08,
+  "heard": "Une fois que tu",
+  "ratio": 0.74
+ },
+ {
+  "i": 168,
+  "word": "que",
+  "t": 47.49,
+  "dur": 0.05,
+  "heard": "Tu",
+  "ratio": 0.57,
+  "flag": "COURT"
+ },
+ {
+  "i": 169,
+  "word": "tu",
+  "t": 47.54,
+  "dur": 0.16,
+  "heard": "tu bloques.",
+  "ratio": 1.0
+ },
+ {
+  "i": 170,
+  "word": "bloques,",
+  "t": 47.7,
+  "dur": 0.32,
+  "heard": "bloc ne",
+  "ratio": 0.67
+ },
+ {
+  "i": 171,
+  "word": "ne",
+  "t": 48.26,
+  "dur": 0.08,
+  "heard": "Ne cherche pas",
+  "ratio": 0.86
+ },
+ {
+  "i": 172,
+  "word": "cherche",
+  "t": 48.34,
+  "dur": 0.27,
+  "heard": "cherche pas à te",
+  "ratio": 0.87
+ },
+ {
+  "i": 173,
+  "word": "pas",
+  "t": 48.74,
+  "dur": 0.15,
+  "heard": "À bientôt",
+  "ratio": 0.17,
+  "flag": "COURT"
+ },
+ {
+  "i": 174,
+  "word": "à",
+  "t": 48.89,
+  "dur": 0.02,
+  "heard": "Demain,",
+  "ratio": 0.22
+ },
+ {
+  "i": 175,
+  "word": "te",
+  "t": 48.91,
+  "dur": 0.11,
+  "heard": "te motiver.",
+  "ratio": 1.0
+ },
+ {
+  "i": 176,
+  "word": "motiver",
+  "t": 49.02,
+  "dur": 0.42,
+  "heard": "motiver pour accueillir",
+  "ratio": 0.69
+ },
+ {
+  "i": 177,
+  "word": "pour",
+  "t": 49.55,
+  "dur": 0.18,
+  "heard": "Pour accomplir toutes",
+  "ratio": 0.81
+ },
+ {
+  "i": 178,
+  "word": "accomplir",
+  "t": 49.72,
+  "dur": 0.45,
+  "heard": "Accomplir toute la",
+  "ratio": 0.93
+ },
+ {
+  "i": 179,
+  "word": "toute",
+  "t": 50.19,
+  "dur": 0.16,
+  "heard": "toute la taille.",
+  "ratio": 0.7
+ },
+ {
+  "i": 180,
+  "word": "la",
+  "t": 50.35,
+  "dur": 0.16,
+  "heard": "la tâche.",
+  "ratio": 1.0
+ },
+ {
+  "i": 181,
+  "word": "tâche.",
+  "t": 50.51,
+  "dur": 0.13,
+  "heard": "Renseignements.",
+  "ratio": 0.33,
+  "flag": null,
+  "heard_wide": "la tâche. Renseignements"
+ },
+ {
+  "i": 182,
+  "word": "Rends",
+  "t": 51.57,
+  "dur": 0.14,
+  "heard": "rend simplement le",
+  "ratio": 0.9
+ },
+ {
+  "i": 183,
+  "word": "simplement",
+  "t": 51.71,
+  "dur": 0.56,
+  "heard": "Simplement le premier",
+  "ratio": 0.77
+ },
+ {
+  "i": 184,
+  "word": "le",
+  "t": 52.27,
+  "dur": 0.16,
+  "heard": "Le premier pas",
+  "ratio": 0.86
+ },
+ {
+  "i": 185,
+  "word": "premier",
+  "t": 52.44,
+  "dur": 0.4,
+  "heard": "premier pattern.",
+  "ratio": 0.75
+ },
+ {
+  "i": 186,
+  "word": "pas",
+  "t": 52.84,
+  "dur": 0.19,
+  "heard": "pas tellement facile.",
+  "ratio": 0.8
+ },
+ {
+  "i": 187,
+  "word": "tellement",
+  "t": 53.08,
+  "dur": 0.32,
+  "heard": "tellement facile.",
+  "ratio": 1.0
+ },
+ {
+  "i": 188,
+  "word": "facile",
+  "t": 53.4,
+  "dur": 0.47,
+  "heard": "facile que tu",
+  "ratio": 0.9
+ },
+ {
+  "i": 189,
+  "word": "que",
+  "t": 54.12,
+  "dur": 0.08,
+  "heard": "que tu n'as",
+  "ratio": 0.77
+ },
+ {
+  "i": 190,
+  "word": "tu",
+  "t": 54.2,
+  "dur": 0.11,
+  "heard": "Tu n'as",
+  "ratio": 1.0
+ },
+ {
+  "i": 191,
+  "word": "n'as",
+  "t": 54.31,
+  "dur": 0.18,
+  "heard": "Tu n'as presque plus",
+  "ratio": 0.77
+ },
+ {
+  "i": 192,
+  "word": "presque",
+  "t": 54.52,
+  "dur": 0.4,
+  "heard": "Presque plus de",
+  "ratio": 0.92
+ },
+ {
+  "i": 193,
+  "word": "plus",
+  "t": 54.92,
+  "dur": 0.13,
+  "heard": "plus de raisons",
+  "ratio": 0.63
+ },
+ {
+  "i": 194,
+  "word": "de",
+  "t": 55.16,
+  "dur": 0.11,
+  "heard": "De raison de",
+  "ratio": 0.89
+ },
+ {
+  "i": 195,
+  "word": "raison",
+  "t": 55.27,
+  "dur": 0.29,
+  "heard": "Raison de le",
+  "ratio": 0.89
+ },
+ {
+  "i": 196,
+  "word": "de",
+  "t": 55.56,
+  "dur": 0.11,
+  "heard": "leur route.",
+  "ratio": 0.31,
+  "flag": "COURT"
+ },
+ {
+  "i": 197,
+  "word": "le",
+  "t": 55.68,
+  "dur": 0.08,
+  "heard": "repousser.",
+  "ratio": 0.9
+ },
+ {
+  "i": 198,
+  "word": "repousser.",
+  "t": 55.76,
+  "dur": 0.42,
+  "heard": "repousser. Abonne-toi à",
+  "ratio": 0.97
+ },
+ {
+  "i": 199,
+  "word": "Abonne-toi,",
+  "t": 56.78,
+  "dur": 0.52,
+  "heard": "Abonne-toi, une nouvelle",
+  "ratio": 0.75
+ },
+ {
+  "i": 200,
+  "word": "une",
+  "t": 57.51,
+  "dur": 0.15,
+  "heard": "Une nouvelle",
+  "ratio": 1.0
+ },
+ {
+  "i": 201,
+  "word": "nouvelle",
+  "t": 57.66,
+  "dur": 0.23,
+  "heard": "nouvelle vidéo.",
+  "ratio": 1.0
+ },
+ {
+  "i": 202,
+  "word": "vidéo",
+  "t": 57.9,
+  "dur": 0.29,
+  "heard": "vidéo chaque jour.",
+  "ratio": 0.85
+ },
+ {
+  "i": 203,
+  "word": "chaque",
+  "t": 58.26,
+  "dur": 0.23,
+  "heard": "chaque jour.",
+  "ratio": 1.0
+ },
+ {
+  "i": 204,
+  "word": "jour.",
+  "t": 58.48,
+  "dur": 0.19,
+  "heard": "jour.",
+  "ratio": 0.8
+ },
+ {
+  "i": 205,
+  "word": "Et",
+  "t": 59.29,
+  "dur": 0.06,
+  "heard": "Et retrouve-nous sur",
+  "ratio": 0.9
+ },
+ {
+  "i": 206,
+  "word": "retrouve-nous",
+  "t": 59.35,
+  "dur": 0.41,
+  "heard": "Retrouve-nous sur tous",
+  "ratio": 0.88
+ },
+ {
+  "i": 207,
+  "word": "sur",
+  "t": 59.76,
+  "dur": 0.18,
+  "heard": "sur calibody.com.",
+  "ratio": 0.93
+ },
+ {
+  "i": 208,
+  "word": "calibodi.com !",
+  "t": 59.97,
+  "dur": 0.89,
+  "heard": "calibody.com.",
+  "ratio": 0.91
+ }
+]

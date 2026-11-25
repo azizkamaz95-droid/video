@@ -1,0 +1,1259 @@
+{
+ "duration": 61.684,
+ "words": [
+  {
+   "i": 0,
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.289
+  },
+  {
+   "i": 1,
+   "word": "repousses",
+   "start": 0.289,
+   "end": 0.658
+  },
+  {
+   "i": 2,
+   "word": "toujours",
+   "start": 0.658,
+   "end": 0.947
+  },
+  {
+   "i": 3,
+   "word": "les",
+   "start": 0.98,
+   "end": 1.06
+  },
+  {
+   "i": 4,
+   "word": "choses",
+   "start": 1.06,
+   "end": 1.285
+  },
+  {
+   "i": 5,
+   "word": "que",
+   "start": 1.301,
+   "end": 1.381
+  },
+  {
+   "i": 6,
+   "word": "tu",
+   "start": 1.381,
+   "end": 1.542
+  },
+  {
+   "i": 7,
+   "word": "sais",
+   "start": 1.542,
+   "end": 1.703
+  },
+  {
+   "i": 8,
+   "word": "bonnes",
+   "start": 1.703,
+   "end": 1.831
+  },
+  {
+   "i": 9,
+   "word": "pour",
+   "start": 1.944,
+   "end": 2.008
+  },
+  {
+   "i": 10,
+   "word": "toi ?",
+   "start": 2.056,
+   "end": 2.233
+  },
+  {
+   "i": 11,
+   "word": "Tu",
+   "start": 2.747,
+   "end": 2.908
+  },
+  {
+   "i": 12,
+   "word": "te",
+   "start": 2.908,
+   "end": 2.988
+  },
+  {
+   "i": 13,
+   "word": "dis",
+   "start": 2.988,
+   "end": 3.149
+  },
+  {
+   "i": 14,
+   "word": "que",
+   "start": 3.149,
+   "end": 3.245
+  },
+  {
+   "i": 15,
+   "word": "tu",
+   "start": 3.245,
+   "end": 3.39
+  },
+  {
+   "i": 16,
+   "word": "vas",
+   "start": 3.39,
+   "end": 3.47
+  },
+  {
+   "i": 17,
+   "word": "marcher,",
+   "start": 3.47,
+   "end": 3.84
+  },
+  {
+   "i": 18,
+   "word": "mieux",
+   "start": 3.904,
+   "end": 4.113
+  },
+  {
+   "i": 19,
+   "word": "manger",
+   "start": 4.145,
+   "end": 4.531
+  },
+  {
+   "i": 20,
+   "word": "ou",
+   "start": 4.531,
+   "end": 4.595
+  },
+  {
+   "i": 21,
+   "word": "reprendre",
+   "start": 4.595,
+   "end": 5.029
+  },
+  {
+   "i": 22,
+   "word": "le",
+   "start": 5.029,
+   "end": 5.157
+  },
+  {
+   "i": 23,
+   "word": "sport…",
+   "start": 5.157,
+   "end": 5.446
+  },
+  {
+   "i": 24,
+   "word": "mais",
+   "start": 5.8,
+   "end": 5.961
+  },
+  {
+   "i": 25,
+   "word": "tu",
+   "start": 5.961,
+   "end": 6.041
+  },
+  {
+   "i": 26,
+   "word": "finis",
+   "start": 6.041,
+   "end": 6.298
+  },
+  {
+   "i": 27,
+   "word": "encore",
+   "start": 6.298,
+   "end": 6.603
+  },
+  {
+   "i": 28,
+   "word": "par",
+   "start": 6.603,
+   "end": 6.764
+  },
+  {
+   "i": 29,
+   "word": "remettre",
+   "start": 6.764,
+   "end": 7.101
+  },
+  {
+   "i": 30,
+   "word": "ça",
+   "start": 7.117,
+   "end": 7.262
+  },
+  {
+   "i": 31,
+   "word": "à",
+   "start": 7.262,
+   "end": 7.326
+  },
+  {
+   "i": 32,
+   "word": "demain ?",
+   "start": 7.326,
+   "end": 7.519
+  },
+  {
+   "i": 33,
+   "word": "Et",
+   "start": 8.306,
+   "end": 8.371
+  },
+  {
+   "i": 34,
+   "word": "si",
+   "start": 8.371,
+   "end": 8.531
+  },
+  {
+   "i": 35,
+   "word": "le",
+   "start": 8.531,
+   "end": 8.612
+  },
+  {
+   "i": 36,
+   "word": "problème,",
+   "start": 8.612,
+   "end": 8.997
+  },
+  {
+   "i": 37,
+   "word": "ce",
+   "start": 9.415,
+   "end": 9.447
+  },
+  {
+   "i": 38,
+   "word": "n'était",
+   "start": 9.447,
+   "end": 9.736
+  },
+  {
+   "i": 39,
+   "word": "pas",
+   "start": 9.736,
+   "end": 9.897
+  },
+  {
+   "i": 40,
+   "word": "ton",
+   "start": 9.897,
+   "end": 10.058
+  },
+  {
+   "i": 41,
+   "word": "manque",
+   "start": 10.058,
+   "end": 10.218
+  },
+  {
+   "i": 42,
+   "word": "de",
+   "start": 10.218,
+   "end": 10.379
+  },
+  {
+   "i": 43,
+   "word": "motivation ?",
+   "start": 10.379,
+   "end": 10.909
+  },
+  {
+   "i": 44,
+   "word": "En",
+   "start": 11.841,
+   "end": 11.889
+  },
+  {
+   "i": 45,
+   "word": "fait,",
+   "start": 11.889,
+   "end": 11.986
+  },
+  {
+   "i": 46,
+   "word": "plus",
+   "start": 12.066,
+   "end": 12.243
+  },
+  {
+   "i": 47,
+   "word": "une",
+   "start": 12.243,
+   "end": 12.291
+  },
+  {
+   "i": 48,
+   "word": "tâche",
+   "start": 12.388,
+   "end": 12.629
+  },
+  {
+   "i": 49,
+   "word": "te",
+   "start": 12.629,
+   "end": 12.789
+  },
+  {
+   "i": 50,
+   "word": "paraît",
+   "start": 12.789,
+   "end": 12.95
+  },
+  {
+   "i": 51,
+   "word": "importante",
+   "start": 13.046,
+   "end": 13.448
+  },
+  {
+   "i": 52,
+   "word": "ou",
+   "start": 13.448,
+   "end": 13.512
+  },
+  {
+   "i": 53,
+   "word": "difficile,",
+   "start": 13.593,
+   "end": 14.026
+  },
+  {
+   "i": 54,
+   "word": "plus",
+   "start": 14.476,
+   "end": 14.637
+  },
+  {
+   "i": 55,
+   "word": "ton",
+   "start": 14.637,
+   "end": 14.798
+  },
+  {
+   "i": 56,
+   "word": "cerveau",
+   "start": 14.798,
+   "end": 15.119
+  },
+  {
+   "i": 57,
+   "word": "peut",
+   "start": 15.119,
+   "end": 15.167
+  },
+  {
+   "i": 58,
+   "word": "chercher",
+   "start": 15.199,
+   "end": 15.392
+  },
+  {
+   "i": 59,
+   "word": "à",
+   "start": 15.392,
+   "end": 15.44
+  },
+  {
+   "i": 60,
+   "word": "l'éviter.",
+   "start": 15.456,
+   "end": 15.89
+  },
+  {
+   "i": 61,
+   "word": "Il",
+   "start": 16.501,
+   "end": 16.645
+  },
+  {
+   "i": 62,
+   "word": "préfère",
+   "start": 16.645,
+   "end": 16.967
+  },
+  {
+   "i": 63,
+   "word": "souvent",
+   "start": 16.967,
+   "end": 17.368
+  },
+  {
+   "i": 64,
+   "word": "le",
+   "start": 17.368,
+   "end": 17.449
+  },
+  {
+   "i": 65,
+   "word": "confort",
+   "start": 17.449,
+   "end": 17.786
+  },
+  {
+   "i": 66,
+   "word": "immédiat",
+   "start": 17.947,
+   "end": 18.349
+  },
+  {
+   "i": 67,
+   "word": "à",
+   "start": 18.349,
+   "end": 18.493
+  },
+  {
+   "i": 68,
+   "word": "un",
+   "start": 18.509,
+   "end": 18.574
+  },
+  {
+   "i": 69,
+   "word": "bénéfice",
+   "start": 18.574,
+   "end": 19.056
+  },
+  {
+   "i": 70,
+   "word": "que",
+   "start": 19.056,
+   "end": 19.136
+  },
+  {
+   "i": 71,
+   "word": "tu",
+   "start": 19.136,
+   "end": 19.232
+  },
+  {
+   "i": 72,
+   "word": "obtiendras",
+   "start": 19.232,
+   "end": 19.698
+  },
+  {
+   "i": 73,
+   "word": "plus",
+   "start": 19.698,
+   "end": 19.859
+  },
+  {
+   "i": 74,
+   "word": "tard.",
+   "start": 19.859,
+   "end": 20.068
+  },
+  {
+   "i": 75,
+   "word": "Alors,",
+   "start": 20.839,
+   "end": 20.968
+  },
+  {
+   "i": 76,
+   "word": "voici",
+   "start": 21.064,
+   "end": 21.401
+  },
+  {
+   "i": 77,
+   "word": "une",
+   "start": 21.401,
+   "end": 21.562
+  },
+  {
+   "i": 78,
+   "word": "astuce",
+   "start": 21.562,
+   "end": 21.867
+  },
+  {
+   "i": 79,
+   "word": "toute",
+   "start": 21.867,
+   "end": 22.028
+  },
+  {
+   "i": 80,
+   "word": "simple",
+   "start": 22.028,
+   "end": 22.43
+  },
+  {
+   "i": 81,
+   "word": "que",
+   "start": 22.43,
+   "end": 22.462
+  },
+  {
+   "i": 82,
+   "word": "tu",
+   "start": 22.462,
+   "end": 22.671
+  },
+  {
+   "i": 83,
+   "word": "peux",
+   "start": 22.671,
+   "end": 22.783
+  },
+  {
+   "i": 84,
+   "word": "tester",
+   "start": 22.831,
+   "end": 23.233
+  },
+  {
+   "i": 85,
+   "word": "dès",
+   "start": 23.233,
+   "end": 23.313
+  },
+  {
+   "i": 86,
+   "word": "aujourd'hui.",
+   "start": 23.41,
+   "end": 23.763
+  },
+  {
+   "i": 87,
+   "word": "Au",
+   "start": 24.615,
+   "end": 24.679
+  },
+  {
+   "i": 88,
+   "word": "lieu",
+   "start": 24.679,
+   "end": 24.84
+  },
+  {
+   "i": 89,
+   "word": "de",
+   "start": 24.84,
+   "end": 24.92
+  },
+  {
+   "i": 90,
+   "word": "te",
+   "start": 24.92,
+   "end": 25.081
+  },
+  {
+   "i": 91,
+   "word": "dire :",
+   "start": 25.081,
+   "end": 25.29
+  },
+  {
+   "i": 92,
+   "word": "demain,",
+   "start": 25.643,
+   "end": 25.852
+  },
+  {
+   "i": 93,
+   "word": "je",
+   "start": 25.868,
+   "end": 25.916
+  },
+  {
+   "i": 94,
+   "word": "fais",
+   "start": 26.19,
+   "end": 26.222
+  },
+  {
+   "i": 95,
+   "word": "une",
+   "start": 26.222,
+   "end": 26.526
+  },
+  {
+   "i": 96,
+   "word": "séance",
+   "start": 26.526,
+   "end": 26.847
+  },
+  {
+   "i": 97,
+   "word": "de",
+   "start": 26.847,
+   "end": 26.96
+  },
+  {
+   "i": 98,
+   "word": "sport",
+   "start": 26.96,
+   "end": 27.248
+  },
+  {
+   "i": 99,
+   "word": "de",
+   "start": 27.248,
+   "end": 27.409
+  },
+  {
+   "i": 100,
+   "word": "trente",
+   "start": 27.409,
+   "end": 27.73
+  },
+  {
+   "i": 101,
+   "word": "minutes,",
+   "start": 27.73,
+   "end": 28.018
+  },
+  {
+   "i": 102,
+   "word": "dis-toi :",
+   "start": 28.371,
+   "end": 28.74
+  },
+  {
+   "i": 103,
+   "word": "je",
+   "start": 29.173,
+   "end": 29.254
+  },
+  {
+   "i": 104,
+   "word": "vais",
+   "start": 29.254,
+   "end": 29.334
+  },
+  {
+   "i": 105,
+   "word": "juste",
+   "start": 29.414,
+   "end": 29.687
+  },
+  {
+   "i": 106,
+   "word": "mettre",
+   "start": 29.687,
+   "end": 29.927
+  },
+  {
+   "i": 107,
+   "word": "mes",
+   "start": 29.927,
+   "end": 30.056
+  },
+  {
+   "i": 108,
+   "word": "chaussures",
+   "start": 30.056,
+   "end": 30.393
+  },
+  {
+   "i": 109,
+   "word": "et",
+   "start": 30.393,
+   "end": 30.457
+  },
+  {
+   "i": 110,
+   "word": "faire",
+   "start": 30.457,
+   "end": 30.681
+  },
+  {
+   "i": 111,
+   "word": "cinq",
+   "start": 30.697,
+   "end": 30.938
+  },
+  {
+   "i": 112,
+   "word": "minutes.",
+   "start": 30.938,
+   "end": 31.227
+  },
+  {
+   "i": 113,
+   "word": "C'est",
+   "start": 31.981,
+   "end": 32.141
+  },
+  {
+   "i": 114,
+   "word": "tout.",
+   "start": 32.141,
+   "end": 32.27
+  },
+  {
+   "i": 115,
+   "word": "Pourquoi",
+   "start": 32.783,
+   "end": 33.072
+  },
+  {
+   "i": 116,
+   "word": "ça",
+   "start": 33.104,
+   "end": 33.264
+  },
+  {
+   "i": 117,
+   "word": "peut",
+   "start": 33.264,
+   "end": 33.344
+  },
+  {
+   "i": 118,
+   "word": "fonctionner ?",
+   "start": 33.377,
+   "end": 33.794
+  },
+  {
+   "i": 119,
+   "word": "Parce",
+   "start": 34.307,
+   "end": 34.548
+  },
+  {
+   "i": 120,
+   "word": "que",
+   "start": 34.548,
+   "end": 34.628
+  },
+  {
+   "i": 121,
+   "word": "tu",
+   "start": 34.628,
+   "end": 34.74
+  },
+  {
+   "i": 122,
+   "word": "réduis",
+   "start": 34.74,
+   "end": 35.093
+  },
+  {
+   "i": 123,
+   "word": "la",
+   "start": 35.109,
+   "end": 35.189
+  },
+  {
+   "i": 124,
+   "word": "difficulté",
+   "start": 35.189,
+   "end": 35.735
+  },
+  {
+   "i": 125,
+   "word": "de",
+   "start": 35.735,
+   "end": 35.799
+  },
+  {
+   "i": 126,
+   "word": "départ.",
+   "start": 35.831,
+   "end": 36.04
+  },
+  {
+   "i": 127,
+   "word": "Et",
+   "start": 36.729,
+   "end": 36.794
+  },
+  {
+   "i": 128,
+   "word": "souvent,",
+   "start": 36.794,
+   "end": 37.163
+  },
+  {
+   "i": 129,
+   "word": "le",
+   "start": 37.195,
+   "end": 37.355
+  },
+  {
+   "i": 130,
+   "word": "plus",
+   "start": 37.355,
+   "end": 37.515
+  },
+  {
+   "i": 131,
+   "word": "dur,",
+   "start": 37.515,
+   "end": 37.804
+  },
+  {
+   "i": 132,
+   "word": "ce",
+   "start": 37.997,
+   "end": 38.093
+  },
+  {
+   "i": 133,
+   "word": "n'est",
+   "start": 38.093,
+   "end": 38.237
+  },
+  {
+   "i": 134,
+   "word": "pas",
+   "start": 38.237,
+   "end": 38.35
+  },
+  {
+   "i": 135,
+   "word": "de",
+   "start": 38.35,
+   "end": 38.43
+  },
+  {
+   "i": 136,
+   "word": "continuer…",
+   "start": 38.43,
+   "end": 38.847
+  },
+  {
+   "i": 137,
+   "word": "c'est",
+   "start": 38.879,
+   "end": 39.039
+  },
+  {
+   "i": 138,
+   "word": "de",
+   "start": 39.039,
+   "end": 39.12
+  },
+  {
+   "i": 139,
+   "word": "commencer.",
+   "start": 39.12,
+   "end": 39.489
+  },
+  {
+   "i": 140,
+   "word": "Et",
+   "start": 40.339,
+   "end": 40.403
+  },
+  {
+   "i": 141,
+   "word": "si",
+   "start": 40.403,
+   "end": 40.58
+  },
+  {
+   "i": 142,
+   "word": "après",
+   "start": 40.58,
+   "end": 40.836
+  },
+  {
+   "i": 143,
+   "word": "cinq",
+   "start": 40.836,
+   "end": 41.125
+  },
+  {
+   "i": 144,
+   "word": "minutes",
+   "start": 41.125,
+   "end": 41.446
+  },
+  {
+   "i": 145,
+   "word": "tu",
+   "start": 41.446,
+   "end": 41.526
+  },
+  {
+   "i": 146,
+   "word": "veux",
+   "start": 41.526,
+   "end": 41.654
+  },
+  {
+   "i": 147,
+   "word": "arrêter,",
+   "start": 41.703,
+   "end": 42.055
+  },
+  {
+   "i": 148,
+   "word": "tu",
+   "start": 42.088,
+   "end": 42.248
+  },
+  {
+   "i": 149,
+   "word": "peux",
+   "start": 42.248,
+   "end": 42.424
+  },
+  {
+   "i": 150,
+   "word": "arrêter.",
+   "start": 42.424,
+   "end": 42.697
+  },
+  {
+   "i": 151,
+   "word": "Mais",
+   "start": 43.291,
+   "end": 43.355
+  },
+  {
+   "i": 152,
+   "word": "tu",
+   "start": 43.355,
+   "end": 43.531
+  },
+  {
+   "i": 153,
+   "word": "auras",
+   "start": 43.531,
+   "end": 43.692
+  },
+  {
+   "i": 154,
+   "word": "déjà",
+   "start": 43.692,
+   "end": 43.932
+  },
+  {
+   "i": 155,
+   "word": "fait",
+   "start": 43.932,
+   "end": 44.093
+  },
+  {
+   "i": 156,
+   "word": "quelque",
+   "start": 44.093,
+   "end": 44.334
+  },
+  {
+   "i": 157,
+   "word": "chose",
+   "start": 44.334,
+   "end": 44.526
+  },
+  {
+   "i": 158,
+   "word": "que",
+   "start": 44.574,
+   "end": 44.654
+  },
+  {
+   "i": 159,
+   "word": "tu",
+   "start": 44.654,
+   "end": 44.783
+  },
+  {
+   "i": 160,
+   "word": "repoussais",
+   "start": 44.783,
+   "end": 45.216
+  },
+  {
+   "i": 161,
+   "word": "depuis",
+   "start": 45.216,
+   "end": 45.456
+  },
+  {
+   "i": 162,
+   "word": "plusieurs",
+   "start": 45.456,
+   "end": 45.777
+  },
+  {
+   "i": 163,
+   "word": "jours.",
+   "start": 45.777,
+   "end": 45.906
+  },
+  {
+   "i": 164,
+   "word": "Alors,",
+   "start": 46.595,
+   "end": 46.788
+  },
+  {
+   "i": 165,
+   "word": "la",
+   "start": 46.9,
+   "end": 46.948
+  },
+  {
+   "i": 166,
+   "word": "prochaine",
+   "start": 47.061,
+   "end": 47.382
+  },
+  {
+   "i": 167,
+   "word": "fois",
+   "start": 47.382,
+   "end": 47.462
+  },
+  {
+   "i": 168,
+   "word": "que",
+   "start": 47.494,
+   "end": 47.542
+  },
+  {
+   "i": 169,
+   "word": "tu",
+   "start": 47.542,
+   "end": 47.702
+  },
+  {
+   "i": 170,
+   "word": "bloques,",
+   "start": 47.702,
+   "end": 48.023
+  },
+  {
+   "i": 171,
+   "word": "ne",
+   "start": 48.264,
+   "end": 48.344
+  },
+  {
+   "i": 172,
+   "word": "cherche",
+   "start": 48.344,
+   "end": 48.617
+  },
+  {
+   "i": 173,
+   "word": "pas",
+   "start": 48.745,
+   "end": 48.89
+  },
+  {
+   "i": 174,
+   "word": "à",
+   "start": 48.89,
+   "end": 48.906
+  },
+  {
+   "i": 175,
+   "word": "te",
+   "start": 48.906,
+   "end": 49.018
+  },
+  {
+   "i": 176,
+   "word": "motiver",
+   "start": 49.018,
+   "end": 49.435
+  },
+  {
+   "i": 177,
+   "word": "pour",
+   "start": 49.547,
+   "end": 49.724
+  },
+  {
+   "i": 178,
+   "word": "accomplir",
+   "start": 49.724,
+   "end": 50.173
+  },
+  {
+   "i": 179,
+   "word": "toute",
+   "start": 50.189,
+   "end": 50.349
+  },
+  {
+   "i": 180,
+   "word": "la",
+   "start": 50.349,
+   "end": 50.51
+  },
+  {
+   "i": 181,
+   "word": "tâche.",
+   "start": 50.51,
+   "end": 50.638
+  },
+  {
+   "i": 182,
+   "word": "Rends",
+   "start": 51.569,
+   "end": 51.713
+  },
+  {
+   "i": 183,
+   "word": "simplement",
+   "start": 51.713,
+   "end": 52.275
+  },
+  {
+   "i": 184,
+   "word": "le",
+   "start": 52.275,
+   "end": 52.435
+  },
+  {
+   "i": 185,
+   "word": "premier",
+   "start": 52.435,
+   "end": 52.836
+  },
+  {
+   "i": 186,
+   "word": "pas",
+   "start": 52.836,
+   "end": 53.029
+  },
+  {
+   "i": 187,
+   "word": "tellement",
+   "start": 53.077,
+   "end": 53.397
+  },
+  {
+   "i": 188,
+   "word": "facile",
+   "start": 53.397,
+   "end": 53.863
+  },
+  {
+   "i": 189,
+   "word": "que",
+   "start": 54.119,
+   "end": 54.2
+  },
+  {
+   "i": 190,
+   "word": "tu",
+   "start": 54.2,
+   "end": 54.312
+  },
+  {
+   "i": 191,
+   "word": "n'as",
+   "start": 54.312,
+   "end": 54.488
+  },
+  {
+   "i": 192,
+   "word": "presque",
+   "start": 54.52,
+   "end": 54.922
+  },
+  {
+   "i": 193,
+   "word": "plus",
+   "start": 54.922,
+   "end": 55.05
+  },
+  {
+   "i": 194,
+   "word": "de",
+   "start": 55.162,
+   "end": 55.274
+  },
+  {
+   "i": 195,
+   "word": "raison",
+   "start": 55.274,
+   "end": 55.563
+  },
+  {
+   "i": 196,
+   "word": "de",
+   "start": 55.563,
+   "end": 55.676
+  },
+  {
+   "i": 197,
+   "word": "le",
+   "start": 55.676,
+   "end": 55.756
+  },
+  {
+   "i": 198,
+   "word": "repousser.",
+   "start": 55.756,
+   "end": 56.173
+  },
+  {
+   "i": 199,
+   "word": "Abonne-toi,",
+   "start": 56.785,
+   "end": 57.302
+  },
+  {
+   "i": 200,
+   "word": "une",
+   "start": 57.513,
+   "end": 57.658
+  },
+  {
+   "i": 201,
+   "word": "nouvelle",
+   "start": 57.658,
+   "end": 57.884
+  },
+  {
+   "i": 202,
+   "word": "vidéo",
+   "start": 57.901,
+   "end": 58.192
+  },
+  {
+   "i": 203,
+   "word": "chaque",
+   "start": 58.256,
+   "end": 58.483
+  },
+  {
+   "i": 204,
+   "word": "jour.",
+   "start": 58.483,
+   "end": 58.676
+  },
+  {
+   "i": 205,
+   "word": "Et",
+   "start": 59.291,
+   "end": 59.355
+  },
+  {
+   "i": 206,
+   "word": "retrouve-nous",
+   "start": 59.355,
+   "end": 59.76
+  },
+  {
+   "i": 207,
+   "word": "sur",
+   "start": 59.76,
+   "end": 59.937
+  },
+  {
+   "i": 208,
+   "word": "calibodi.com !",
+   "start": 59.97,
+   "end": 60.859
+  }
+ ]
+}

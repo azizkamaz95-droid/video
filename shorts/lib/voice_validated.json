@@ -262,6 +262,12 @@
    "value": "sentraîner",
    "auto": true,
    "tested": "collé 3/3"
+  },
+  "l'éviter": {
+   "mode": "respell",
+   "value": "léviter",
+   "auto": true,
+   "tested": "collé 3/3"
   }
  }
 }

@@ -1,0 +1,64 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu repousses toujours les choses que tu sais bonnes pour toi ? Tu te dis que tu vas marcher, mieux manger ou reprendre le sport… mais tu finis encore par remettre ça à demain ?",
+   "pause": 0.6
+  },
+  {
+   "id": "s02",
+   "text": "Et si le problème, ce n'était pas ton manque de motivation ?",
+   "pause": 0.7,
+   "take": 2
+  },
+  {
+   "id": "s03",
+   "text": "En fait, plus une tâche te paraît importante ou difficile, plus ton cerveau peut chercher à l'éviter. Il préfère souvent le confort immédiat à un bénéfice que tu obtiendras plus tard.",
+   "pause": 0.6,
+   "take": 3
+  },
+  {
+   "id": "s04",
+   "text": "Alors, voici une astuce toute simple que tu peux tester dès aujourd'hui.",
+   "pause": 0.6,
+   "take": 1
+  },
+  {
+   "id": "s05",
+   "text": "Au lieu de te dire : demain, je fais une séance de sport de trente minutes, dis-toi : je vais juste mettre mes chaussures et faire cinq minutes.",
+   "pause": 0.6
+  },
+  {
+   "id": "s06",
+   "text": "C'est tout. Pourquoi ça peut fonctionner ? Parce que tu réduis la difficulté de départ. Et souvent, le plus dur, ce n'est pas de continuer… c'est de commencer.",
+   "pause": 0.6,
+   "take": 1
+  },
+  {
+   "id": "s07",
+   "text": "Et si après cinq minutes tu veux arrêter, tu peux arrêter. Mais tu auras déjà fait quelque chose que tu repoussais depuis plusieurs jours.",
+   "pause": 0.5,
+   "take": 1
+  },
+  {
+   "id": "s08",
+   "text": "Alors, la prochaine fois que tu bloques, ne cherche pas à te motiver pour accomplir toute la tâche.",
+   "pause": 0.5
+  },
+  {
+   "id": "s09",
+   "text": "Rends simplement le premier pas tellement facile que tu n'as presque plus de raison de le repousser.",
+   "pause": 0.5
+  },
+  {
+   "id": "s10",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"
+  }
+ ]
+}
