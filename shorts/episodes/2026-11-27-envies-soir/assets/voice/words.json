@@ -1,0 +1,1259 @@
+{
+ "duration": 65.083,
+ "words": [
+  {
+   "i": 0,
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.288
+  },
+  {
+   "i": 1,
+   "word": "manges",
+   "start": 0.288,
+   "end": 0.497
+  },
+  {
+   "i": 2,
+   "word": "le",
+   "start": 0.497,
+   "end": 0.577
+  },
+  {
+   "i": 3,
+   "word": "soir,",
+   "start": 0.577,
+   "end": 1.026
+  },
+  {
+   "i": 4,
+   "word": "tu",
+   "start": 1.459,
+   "end": 1.539
+  },
+  {
+   "i": 5,
+   "word": "te",
+   "start": 1.539,
+   "end": 1.651
+  },
+  {
+   "i": 6,
+   "word": "sens",
+   "start": 1.699,
+   "end": 1.86
+  },
+  {
+   "i": 7,
+   "word": "rassasié…",
+   "start": 1.86,
+   "end": 2.309
+  },
+  {
+   "i": 8,
+   "word": "et",
+   "start": 2.918,
+   "end": 2.982
+  },
+  {
+   "i": 9,
+   "word": "pourtant,",
+   "start": 3.062,
+   "end": 3.351
+  },
+  {
+   "i": 10,
+   "word": "une",
+   "start": 3.96,
+   "end": 4.009
+  },
+  {
+   "i": 11,
+   "word": "heure",
+   "start": 4.121,
+   "end": 4.169
+  },
+  {
+   "i": 12,
+   "word": "plus",
+   "start": 4.185,
+   "end": 4.313
+  },
+  {
+   "i": 13,
+   "word": "tard,",
+   "start": 4.425,
+   "end": 4.634
+  },
+  {
+   "i": 14,
+   "word": "tu",
+   "start": 4.907,
+   "end": 5.003
+  },
+  {
+   "i": 15,
+   "word": "as",
+   "start": 5.003,
+   "end": 5.067
+  },
+  {
+   "i": 16,
+   "word": "déjà",
+   "start": 5.067,
+   "end": 5.323
+  },
+  {
+   "i": 17,
+   "word": "envie",
+   "start": 5.323,
+   "end": 5.548
+  },
+  {
+   "i": 18,
+   "word": "de",
+   "start": 5.548,
+   "end": 5.628
+  },
+  {
+   "i": 19,
+   "word": "retourner",
+   "start": 5.628,
+   "end": 5.981
+  },
+  {
+   "i": 20,
+   "word": "dans",
+   "start": 5.981,
+   "end": 6.061
+  },
+  {
+   "i": 21,
+   "word": "la",
+   "start": 6.061,
+   "end": 6.157
+  },
+  {
+   "i": 22,
+   "word": "cuisine ?",
+   "start": 6.189,
+   "end": 6.542
+  },
+  {
+   "i": 23,
+   "word": "Tu",
+   "start": 7.312,
+   "end": 7.472
+  },
+  {
+   "i": 24,
+   "word": "crois",
+   "start": 7.472,
+   "end": 7.633
+  },
+  {
+   "i": 25,
+   "word": "peut-être",
+   "start": 7.633,
+   "end": 8.114
+  },
+  {
+   "i": 26,
+   "word": "que",
+   "start": 8.114,
+   "end": 8.194
+  },
+  {
+   "i": 27,
+   "word": "tu",
+   "start": 8.194,
+   "end": 8.354
+  },
+  {
+   "i": 28,
+   "word": "manques",
+   "start": 8.354,
+   "end": 8.515
+  },
+  {
+   "i": 29,
+   "word": "de",
+   "start": 8.515,
+   "end": 8.627
+  },
+  {
+   "i": 30,
+   "word": "volonté.",
+   "start": 8.627,
+   "end": 8.964
+  },
+  {
+   "i": 31,
+   "word": "Mais",
+   "start": 9.557,
+   "end": 9.669
+  },
+  {
+   "i": 32,
+   "word": "attends,",
+   "start": 9.669,
+   "end": 9.846
+  },
+  {
+   "i": 33,
+   "word": "parce",
+   "start": 10.359,
+   "end": 10.599
+  },
+  {
+   "i": 34,
+   "word": "que",
+   "start": 10.599,
+   "end": 10.68
+  },
+  {
+   "i": 35,
+   "word": "le",
+   "start": 10.68,
+   "end": 10.76
+  },
+  {
+   "i": 36,
+   "word": "problème",
+   "start": 10.76,
+   "end": 11.161
+  },
+  {
+   "i": 37,
+   "word": "pourrait",
+   "start": 11.161,
+   "end": 11.401
+  },
+  {
+   "i": 38,
+   "word": "commencer",
+   "start": 11.401,
+   "end": 11.802
+  },
+  {
+   "i": 39,
+   "word": "bien",
+   "start": 11.802,
+   "end": 12.059
+  },
+  {
+   "i": 40,
+   "word": "avant",
+   "start": 12.059,
+   "end": 12.203
+  },
+  {
+   "i": 41,
+   "word": "le",
+   "start": 12.203,
+   "end": 12.283
+  },
+  {
+   "i": 42,
+   "word": "dîner.",
+   "start": 12.283,
+   "end": 12.492
+  },
+  {
+   "i": 43,
+   "word": "Si",
+   "start": 13.245,
+   "end": 13.406
+  },
+  {
+   "i": 44,
+   "word": "tu",
+   "start": 13.406,
+   "end": 13.502
+  },
+  {
+   "i": 45,
+   "word": "as",
+   "start": 13.502,
+   "end": 13.55
+  },
+  {
+   "i": 46,
+   "word": "passé",
+   "start": 13.566,
+   "end": 13.807
+  },
+  {
+   "i": 47,
+   "word": "ta",
+   "start": 13.807,
+   "end": 13.967
+  },
+  {
+   "i": 48,
+   "word": "journée",
+   "start": 13.967,
+   "end": 14.304
+  },
+  {
+   "i": 49,
+   "word": "à",
+   "start": 14.304,
+   "end": 14.368
+  },
+  {
+   "i": 50,
+   "word": "manger",
+   "start": 14.368,
+   "end": 14.689
+  },
+  {
+   "i": 51,
+   "word": "trop",
+   "start": 14.689,
+   "end": 14.849
+  },
+  {
+   "i": 52,
+   "word": "peu,",
+   "start": 14.929,
+   "end": 15.057
+  },
+  {
+   "i": 53,
+   "word": "à",
+   "start": 15.346,
+   "end": 15.394
+  },
+  {
+   "i": 54,
+   "word": "sauter",
+   "start": 15.41,
+   "end": 15.667
+  },
+  {
+   "i": 55,
+   "word": "un",
+   "start": 15.667,
+   "end": 15.747
+  },
+  {
+   "i": 56,
+   "word": "repas",
+   "start": 15.747,
+   "end": 16.18
+  },
+  {
+   "i": 57,
+   "word": "ou",
+   "start": 16.613,
+   "end": 16.629
+  },
+  {
+   "i": 58,
+   "word": "à",
+   "start": 16.629,
+   "end": 16.645
+  },
+  {
+   "i": 59,
+   "word": "te",
+   "start": 16.693,
+   "end": 16.853
+  },
+  {
+   "i": 60,
+   "word": "contenter",
+   "start": 16.853,
+   "end": 17.334
+  },
+  {
+   "i": 61,
+   "word": "de",
+   "start": 17.334,
+   "end": 17.415
+  },
+  {
+   "i": 62,
+   "word": "petites",
+   "start": 17.415,
+   "end": 17.735
+  },
+  {
+   "i": 63,
+   "word": "portions,",
+   "start": 17.735,
+   "end": 18.104
+  },
+  {
+   "i": 64,
+   "word": "ton",
+   "start": 18.537,
+   "end": 18.698
+  },
+  {
+   "i": 65,
+   "word": "corps",
+   "start": 18.698,
+   "end": 18.922
+  },
+  {
+   "i": 66,
+   "word": "peut",
+   "start": 18.938,
+   "end": 19.018
+  },
+  {
+   "i": 67,
+   "word": "finir",
+   "start": 19.018,
+   "end": 19.339
+  },
+  {
+   "i": 68,
+   "word": "par",
+   "start": 19.339,
+   "end": 19.499
+  },
+  {
+   "i": 69,
+   "word": "réclamer",
+   "start": 19.499,
+   "end": 19.9
+  },
+  {
+   "i": 70,
+   "word": "davantage",
+   "start": 19.98,
+   "end": 20.381
+  },
+  {
+   "i": 71,
+   "word": "d'énergie",
+   "start": 20.381,
+   "end": 20.814
+  },
+  {
+   "i": 72,
+   "word": "le",
+   "start": 20.814,
+   "end": 20.943
+  },
+  {
+   "i": 73,
+   "word": "soir.",
+   "start": 20.943,
+   "end": 21.215
+  },
+  {
+   "i": 74,
+   "word": "Et",
+   "start": 22.001,
+   "end": 22.097
+  },
+  {
+   "i": 75,
+   "word": "le",
+   "start": 22.097,
+   "end": 22.225
+  },
+  {
+   "i": 76,
+   "word": "piège,",
+   "start": 22.225,
+   "end": 22.658
+  },
+  {
+   "i": 77,
+   "word": "c'est",
+   "start": 23.268,
+   "end": 23.348
+  },
+  {
+   "i": 78,
+   "word": "de",
+   "start": 23.348,
+   "end": 23.508
+  },
+  {
+   "i": 79,
+   "word": "vouloir",
+   "start": 23.508,
+   "end": 23.813
+  },
+  {
+   "i": 80,
+   "word": "compenser",
+   "start": 23.829,
+   "end": 24.326
+  },
+  {
+   "i": 81,
+   "word": "en",
+   "start": 24.326,
+   "end": 24.39
+  },
+  {
+   "i": 82,
+   "word": "supprimant",
+   "start": 24.39,
+   "end": 24.968
+  },
+  {
+   "i": 83,
+   "word": "encore",
+   "start": 24.968,
+   "end": 25.176
+  },
+  {
+   "i": 84,
+   "word": "plus",
+   "start": 25.272,
+   "end": 25.433
+  },
+  {
+   "i": 85,
+   "word": "de",
+   "start": 25.433,
+   "end": 25.465
+  },
+  {
+   "i": 86,
+   "word": "nourriture",
+   "start": 25.465,
+   "end": 26.026
+  },
+  {
+   "i": 87,
+   "word": "le",
+   "start": 26.026,
+   "end": 26.154
+  },
+  {
+   "i": 88,
+   "word": "lendemain.",
+   "start": 26.154,
+   "end": 26.363
+  },
+  {
+   "i": 89,
+   "word": "Alors,",
+   "start": 27.213,
+   "end": 27.342
+  },
+  {
+   "i": 90,
+   "word": "voici",
+   "start": 27.438,
+   "end": 27.775
+  },
+  {
+   "i": 91,
+   "word": "une",
+   "start": 27.775,
+   "end": 27.823
+  },
+  {
+   "i": 92,
+   "word": "astuce",
+   "start": 27.856,
+   "end": 28.321
+  },
+  {
+   "i": 93,
+   "word": "toute",
+   "start": 28.321,
+   "end": 28.482
+  },
+  {
+   "i": 94,
+   "word": "simple",
+   "start": 28.482,
+   "end": 28.739
+  },
+  {
+   "i": 95,
+   "word": "à",
+   "start": 28.739,
+   "end": 28.803
+  },
+  {
+   "i": 96,
+   "word": "tester.",
+   "start": 28.803,
+   "end": 29.092
+  },
+  {
+   "i": 97,
+   "word": "Demain,",
+   "start": 29.927,
+   "end": 30.2
+  },
+  {
+   "i": 98,
+   "word": "au",
+   "start": 30.665,
+   "end": 30.73
+  },
+  {
+   "i": 99,
+   "word": "lieu",
+   "start": 30.73,
+   "end": 30.81
+  },
+  {
+   "i": 100,
+   "word": "de",
+   "start": 30.826,
+   "end": 30.971
+  },
+  {
+   "i": 101,
+   "word": "te",
+   "start": 30.971,
+   "end": 31.051
+  },
+  {
+   "i": 102,
+   "word": "concentrer",
+   "start": 31.131,
+   "end": 31.581
+  },
+  {
+   "i": 103,
+   "word": "uniquement",
+   "start": 31.709,
+   "end": 32.095
+  },
+  {
+   "i": 104,
+   "word": "sur",
+   "start": 32.095,
+   "end": 32.255
+  },
+  {
+   "i": 105,
+   "word": "ton",
+   "start": 32.255,
+   "end": 32.416
+  },
+  {
+   "i": 106,
+   "word": "dîner,",
+   "start": 32.416,
+   "end": 32.689
+  },
+  {
+   "i": 107,
+   "word": "regarde",
+   "start": 32.705,
+   "end": 33.058
+  },
+  {
+   "i": 108,
+   "word": "ce",
+   "start": 33.058,
+   "end": 33.138
+  },
+  {
+   "i": 109,
+   "word": "que",
+   "start": 33.138,
+   "end": 33.299
+  },
+  {
+   "i": 110,
+   "word": "tu",
+   "start": 33.299,
+   "end": 33.395
+  },
+  {
+   "i": 111,
+   "word": "manges",
+   "start": 33.395,
+   "end": 33.636
+  },
+  {
+   "i": 112,
+   "word": "à",
+   "start": 33.636,
+   "end": 33.652
+  },
+  {
+   "i": 113,
+   "word": "midi.",
+   "start": 33.652,
+   "end": 33.989
+  },
+  {
+   "i": 114,
+   "word": "Est-ce",
+   "start": 34.519,
+   "end": 34.631
+  },
+  {
+   "i": 115,
+   "word": "que",
+   "start": 34.664,
+   "end": 34.744
+  },
+  {
+   "i": 116,
+   "word": "ton",
+   "start": 34.824,
+   "end": 34.904
+  },
+  {
+   "i": 117,
+   "word": "repas",
+   "start": 34.904,
+   "end": 35.226
+  },
+  {
+   "i": 118,
+   "word": "contient",
+   "start": 35.226,
+   "end": 35.547
+  },
+  {
+   "i": 119,
+   "word": "suffisamment",
+   "start": 35.547,
+   "end": 36.109
+  },
+  {
+   "i": 120,
+   "word": "de",
+   "start": 36.109,
+   "end": 36.189
+  },
+  {
+   "i": 121,
+   "word": "protéines,",
+   "start": 36.189,
+   "end": 36.799
+  },
+  {
+   "i": 122,
+   "word": "des",
+   "start": 37.072,
+   "end": 37.249
+  },
+  {
+   "i": 123,
+   "word": "aliments",
+   "start": 37.249,
+   "end": 37.554
+  },
+  {
+   "i": 124,
+   "word": "riches",
+   "start": 37.554,
+   "end": 37.73
+  },
+  {
+   "i": 125,
+   "word": "en",
+   "start": 37.73,
+   "end": 37.875
+  },
+  {
+   "i": 126,
+   "word": "fibres",
+   "start": 37.875,
+   "end": 38.148
+  },
+  {
+   "i": 127,
+   "word": "et",
+   "start": 38.148,
+   "end": 38.324
+  },
+  {
+   "i": 128,
+   "word": "une",
+   "start": 38.533,
+   "end": 38.678
+  },
+  {
+   "i": 129,
+   "word": "portion",
+   "start": 38.678,
+   "end": 38.999
+  },
+  {
+   "i": 130,
+   "word": "qui",
+   "start": 38.999,
+   "end": 39.079
+  },
+  {
+   "i": 131,
+   "word": "te",
+   "start": 39.159,
+   "end": 39.192
+  },
+  {
+   "i": 132,
+   "word": "rassasie",
+   "start": 39.192,
+   "end": 39.673
+  },
+  {
+   "i": 133,
+   "word": "vraiment ?",
+   "start": 39.673,
+   "end": 39.93
+  },
+  {
+   "i": 134,
+   "word": "Par",
+   "start": 40.685,
+   "end": 40.861
+  },
+  {
+   "i": 135,
+   "word": "exemple,",
+   "start": 40.861,
+   "end": 41.295
+  },
+  {
+   "i": 136,
+   "word": "ajoute",
+   "start": 41.664,
+   "end": 41.969
+  },
+  {
+   "i": 137,
+   "word": "des",
+   "start": 41.969,
+   "end": 42.226
+  },
+  {
+   "i": 138,
+   "word": "œufs,",
+   "start": 42.226,
+   "end": 42.258
+  },
+  {
+   "i": 139,
+   "word": "du",
+   "start": 42.692,
+   "end": 42.772
+  },
+  {
+   "i": 140,
+   "word": "poulet,",
+   "start": 42.772,
+   "end": 43.061
+  },
+  {
+   "i": 141,
+   "word": "des",
+   "start": 43.655,
+   "end": 43.736
+  },
+  {
+   "i": 142,
+   "word": "lentilles",
+   "start": 43.736,
+   "end": 44.314
+  },
+  {
+   "i": 143,
+   "word": "ou",
+   "start": 44.314,
+   "end": 44.378
+  },
+  {
+   "i": 144,
+   "word": "du",
+   "start": 44.378,
+   "end": 44.458
+  },
+  {
+   "i": 145,
+   "word": "tofu,",
+   "start": 44.458,
+   "end": 44.86
+  },
+  {
+   "i": 146,
+   "word": "avec",
+   "start": 45.357,
+   "end": 45.55
+  },
+  {
+   "i": 147,
+   "word": "des",
+   "start": 45.582,
+   "end": 45.743
+  },
+  {
+   "i": 148,
+   "word": "légumes",
+   "start": 45.743,
+   "end": 46.208
+  },
+  {
+   "i": 149,
+   "word": "et",
+   "start": 46.321,
+   "end": 46.353
+  },
+  {
+   "i": 150,
+   "word": "une",
+   "start": 46.401,
+   "end": 46.545
+  },
+  {
+   "i": 151,
+   "word": "source",
+   "start": 46.545,
+   "end": 46.802
+  },
+  {
+   "i": 152,
+   "word": "de",
+   "start": 46.802,
+   "end": 46.947
+  },
+  {
+   "i": 153,
+   "word": "féculents.",
+   "start": 46.947,
+   "end": 47.316
+  },
+  {
+   "i": 154,
+   "word": "Et",
+   "start": 48.007,
+   "end": 48.071
+  },
+  {
+   "i": 155,
+   "word": "surtout,",
+   "start": 48.071,
+   "end": 48.52
+  },
+  {
+   "i": 156,
+   "word": "ne",
+   "start": 48.874,
+   "end": 48.954
+  },
+  {
+   "i": 157,
+   "word": "cherche",
+   "start": 48.986,
+   "end": 49.275
+  },
+  {
+   "i": 158,
+   "word": "pas",
+   "start": 49.275,
+   "end": 49.371
+  },
+  {
+   "i": 159,
+   "word": "à",
+   "start": 49.371,
+   "end": 49.436
+  },
+  {
+   "i": 160,
+   "word": "te",
+   "start": 49.436,
+   "end": 49.596
+  },
+  {
+   "i": 161,
+   "word": "coucher",
+   "start": 49.596,
+   "end": 49.885
+  },
+  {
+   "i": 162,
+   "word": "en",
+   "start": 49.933,
+   "end": 49.998
+  },
+  {
+   "i": 163,
+   "word": "ayant",
+   "start": 50.094,
+   "end": 50.238
+  },
+  {
+   "i": 164,
+   "word": "faim",
+   "start": 50.319,
+   "end": 50.56
+  },
+  {
+   "i": 165,
+   "word": "pour",
+   "start": 50.56,
+   "end": 50.704
+  },
+  {
+   "i": 166,
+   "word": "perdre",
+   "start": 50.8,
+   "end": 51.025
+  },
+  {
+   "i": 167,
+   "word": "du",
+   "start": 51.073,
+   "end": 51.202
+  },
+  {
+   "i": 168,
+   "word": "poids",
+   "start": 51.202,
+   "end": 51.362
+  },
+  {
+   "i": 169,
+   "word": "plus",
+   "start": 51.362,
+   "end": 51.555
+  },
+  {
+   "i": 170,
+   "word": "vite.",
+   "start": 51.555,
+   "end": 51.812
+  },
+  {
+   "i": 171,
+   "word": "Parce",
+   "start": 52.326,
+   "end": 52.487
+  },
+  {
+   "i": 172,
+   "word": "que",
+   "start": 52.487,
+   "end": 52.647
+  },
+  {
+   "i": 173,
+   "word": "parfois,",
+   "start": 52.647,
+   "end": 53.017
+  },
+  {
+   "i": 174,
+   "word": "pour",
+   "start": 53.37,
+   "end": 53.531
+  },
+  {
+   "i": 175,
+   "word": "mieux",
+   "start": 53.531,
+   "end": 53.724
+  },
+  {
+   "i": 176,
+   "word": "gérer",
+   "start": 53.724,
+   "end": 54.013
+  },
+  {
+   "i": 177,
+   "word": "tes",
+   "start": 54.013,
+   "end": 54.19
+  },
+  {
+   "i": 178,
+   "word": "envies",
+   "start": 54.19,
+   "end": 54.414
+  },
+  {
+   "i": 179,
+   "word": "du",
+   "start": 54.414,
+   "end": 54.495
+  },
+  {
+   "i": 180,
+   "word": "soir,",
+   "start": 54.495,
+   "end": 54.864
+  },
+  {
+   "i": 181,
+   "word": "la",
+   "start": 55.378,
+   "end": 55.427
+  },
+  {
+   "i": 182,
+   "word": "solution",
+   "start": 55.459,
+   "end": 55.844
+  },
+  {
+   "i": 183,
+   "word": "n'est",
+   "start": 55.844,
+   "end": 56.021
+  },
+  {
+   "i": 184,
+   "word": "pas",
+   "start": 56.021,
+   "end": 56.182
+  },
+  {
+   "i": 185,
+   "word": "de",
+   "start": 56.182,
+   "end": 56.262
+  },
+  {
+   "i": 186,
+   "word": "manger",
+   "start": 56.262,
+   "end": 56.583
+  },
+  {
+   "i": 187,
+   "word": "moins",
+   "start": 56.583,
+   "end": 56.696
+  },
+  {
+   "i": 188,
+   "word": "le",
+   "start": 56.696,
+   "end": 56.744
+  },
+  {
+   "i": 189,
+   "word": "soir…",
+   "start": 56.744,
+   "end": 57.13
+  },
+  {
+   "i": 190,
+   "word": "mais",
+   "start": 57.547,
+   "end": 57.628
+  },
+  {
+   "i": 191,
+   "word": "de",
+   "start": 57.628,
+   "end": 57.74
+  },
+  {
+   "i": 192,
+   "word": "mieux",
+   "start": 57.74,
+   "end": 57.901
+  },
+  {
+   "i": 193,
+   "word": "nourrir",
+   "start": 57.901,
+   "end": 58.174
+  },
+  {
+   "i": 194,
+   "word": "ton",
+   "start": 58.19,
+   "end": 58.351
+  },
+  {
+   "i": 195,
+   "word": "corps",
+   "start": 58.431,
+   "end": 58.576
+  },
+  {
+   "i": 196,
+   "word": "pendant",
+   "start": 58.672,
+   "end": 58.913
+  },
+  {
+   "i": 197,
+   "word": "la",
+   "start": 58.913,
+   "end": 59.025
+  },
+  {
+   "i": 198,
+   "word": "journée.",
+   "start": 59.025,
+   "end": 59.283
+  },
+  {
+   "i": 199,
+   "word": "Abonne-toi,",
+   "start": 60.134,
+   "end": 60.568
+  },
+  {
+   "i": 200,
+   "word": "une",
+   "start": 60.857,
+   "end": 60.921
+  },
+  {
+   "i": 201,
+   "word": "nouvelle",
+   "start": 60.921,
+   "end": 61.162
+  },
+  {
+   "i": 202,
+   "word": "vidéo",
+   "start": 61.162,
+   "end": 61.484
+  },
+  {
+   "i": 203,
+   "word": "chaque",
+   "start": 61.484,
+   "end": 61.805
+  },
+  {
+   "i": 204,
+   "word": "jour.",
+   "start": 61.805,
+   "end": 62.014
+  },
+  {
+   "i": 205,
+   "word": "Et",
+   "start": 62.785,
+   "end": 62.849
+  },
+  {
+   "i": 206,
+   "word": "retrouve-nous",
+   "start": 62.849,
+   "end": 63.331
+  },
+  {
+   "i": 207,
+   "word": "sur",
+   "start": 63.331,
+   "end": 63.444
+  },
+  {
+   "i": 208,
+   "word": "calibodi.com !",
+   "start": 63.46,
+   "end": 64.343
+  }
+ ]
+}

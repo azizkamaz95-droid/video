@@ -1,0 +1,234 @@
+{
+ "title": "Envies du soir",
+ "tail": 0.7,
+ "bpm": 120,
+ "style": "drive",
+ "music_lufs": -29.5,
+ "duck_db": -6.0,
+ "science_db": -3.0,
+ "science": [],
+ "hits": [
+  22.23,
+  50.09
+ ],
+ "blocks": [
+  {
+   "type": "myth",
+   "start": 0.0,
+   "end": 27.2
+  },
+  {
+   "type": "body",
+   "start": 27.2,
+   "end": 59.9
+  },
+  {
+   "type": "outro",
+   "start": 59.9,
+   "end": 65.78
+  }
+ ],
+ "sfx": [
+  [
+   "whoosh_in",
+   0.12
+  ],
+  [
+   "pop",
+   0.29
+  ],
+  [
+   "whoosh",
+   2.9
+  ],
+  [
+   "pop",
+   3.06
+  ],
+  [
+   "whoosh",
+   5.05
+  ],
+  [
+   "pop",
+   5.07
+  ],
+  [
+   "appareil-photo",
+   7.3
+  ],
+  [
+   "pop",
+   7.47
+  ],
+  [
+   "whoosh",
+   9.5
+  ],
+  [
+   "pop",
+   9.56
+  ],
+  [
+   "whoosh",
+   13.2
+  ],
+  [
+   "pop",
+   13.97
+  ],
+  [
+   "appareil-photo",
+   15.65
+  ],
+  [
+   "pop",
+   15.7
+  ],
+  [
+   "whoosh",
+   18.5
+  ],
+  [
+   "pop",
+   18.7
+  ],
+  [
+   "whoosh",
+   22.0
+  ],
+  [
+   "pop",
+   22.23
+  ],
+  [
+   "thump",
+   22.23
+  ],
+  [
+   "appareil-photo",
+   27.2
+  ],
+  [
+   "pop",
+   27.86
+  ],
+  [
+   "whoosh",
+   29.9
+  ],
+  [
+   "pop",
+   29.93
+  ],
+  [
+   "whoosh",
+   34.5
+  ],
+  [
+   "pop",
+   34.91
+  ],
+  [
+   "check",
+   36.19
+  ],
+  [
+   "appareil-photo",
+   37.85
+  ],
+  [
+   "pop",
+   37.88
+  ],
+  [
+   "whoosh",
+   40.65
+  ],
+  [
+   "pop",
+   40.87
+  ],
+  [
+   "check",
+   42.23
+  ],
+  [
+   "whoosh",
+   42.7
+  ],
+  [
+   "pop",
+   42.78
+  ],
+  [
+   "appareil-photo",
+   43.7
+  ],
+  [
+   "pop",
+   43.74
+  ],
+  [
+   "whoosh",
+   44.4
+  ],
+  [
+   "pop",
+   44.46
+  ],
+  [
+   "whoosh",
+   45.7
+  ],
+  [
+   "pop",
+   45.75
+  ],
+  [
+   "appareil-photo",
+   46.9
+  ],
+  [
+   "pop",
+   46.95
+  ],
+  [
+   "whoosh",
+   48.0
+  ],
+  [
+   "pop",
+   48.07
+  ],
+  [
+   "thump",
+   50.09
+  ],
+  [
+   "whoosh",
+   52.3
+  ],
+  [
+   "pop",
+   52.65
+  ],
+  [
+   "appareil-photo",
+   55.38
+  ],
+  [
+   "pop",
+   55.46
+  ],
+  [
+   "shimmer",
+   62.5
+  ]
+ ],
+ "music_file": "assets/music/documentaire-motivation.mp3",
+ "music_loop": [
+  0.0,
+  80.0
+ ]
+}

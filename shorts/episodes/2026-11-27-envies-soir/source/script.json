@@ -1,0 +1,60 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu manges le soir, tu te sens rassasié… et pourtant, une heure plus tard, tu as déjà envie de retourner dans la cuisine ?",
+   "pause": 0.6
+  },
+  {
+   "id": "s02",
+   "text": "Tu crois peut-être que tu manques de volonté. Mais attends, parce que le problème pourrait commencer bien avant le dîner.",
+   "pause": 0.6
+  },
+  {
+   "id": "s03",
+   "text": "Si tu as passé ta journée à manger trop peu, à sauter un repas ou à te contenter de petites portions, ton corps peut finir par réclamer davantage d'énergie le soir.",
+   "pause": 0.6
+  },
+  {
+   "id": "s04",
+   "text": "Et le piège, c'est de vouloir compenser en supprimant encore plus de nourriture le lendemain.",
+   "pause": 0.6
+  },
+  {
+   "id": "s05",
+   "text": "Alors, voici une astuce toute simple à tester.",
+   "pause": 0.6
+  },
+  {
+   "id": "s06",
+   "text": "Demain, au lieu de te concentrer uniquement sur ton dîner, regarde ce que tu manges à midi. Est-ce que ton repas contient suffisamment de protéines, des aliments riches en fibres et une portion qui te rassasie vraiment ?",
+   "pause": 0.6
+  },
+  {
+   "id": "s07",
+   "text": "Par exemple, ajoute des œufs, du poulet, des lentilles ou du tofu, avec des légumes et une source de féculents.",
+   "pause": 0.5
+  },
+  {
+   "id": "s08",
+   "text": "Et surtout, ne cherche pas à te coucher en ayant faim pour perdre du poids plus vite.",
+   "pause": 0.5,
+   "take": 2
+  },
+  {
+   "id": "s09",
+   "text": "Parce que parfois, pour mieux gérer tes envies du soir, la solution n'est pas de manger moins le soir… mais de mieux nourrir ton corps pendant la journée.",
+   "pause": 0.5
+  },
+  {
+   "id": "s10",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"
+  }
+ ]
+}
