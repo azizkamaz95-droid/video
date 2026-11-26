@@ -1,0 +1,1691 @@
+[
+ {
+  "i": 0,
+  "word": "Tu",
+  "t": 0.18,
+  "dur": 0.11,
+  "heard": "Tu manges le",
+  "ratio": 0.89
+ },
+ {
+  "i": 1,
+  "word": "manges",
+  "t": 0.29,
+  "dur": 0.21,
+  "heard": "Tu manges le",
+  "ratio": 0.89
+ },
+ {
+  "i": 2,
+  "word": "le",
+  "t": 0.5,
+  "dur": 0.08,
+  "heard": "le soir.",
+  "ratio": 1.0
+ },
+ {
+  "i": 3,
+  "word": "soir,",
+  "t": 0.58,
+  "dur": 0.45,
+  "heard": "Le soir, tu te",
+  "ratio": 0.75
+ },
+ {
+  "i": 4,
+  "word": "tu",
+  "t": 1.46,
+  "dur": 0.08,
+  "heard": "Tu te sens",
+  "ratio": 0.67
+ },
+ {
+  "i": 5,
+  "word": "te",
+  "t": 1.54,
+  "dur": 0.11,
+  "heard": "Tu te sens",
+  "ratio": 0.86
+ },
+ {
+  "i": 6,
+  "word": "sens",
+  "t": 1.7,
+  "dur": 0.16,
+  "heard": "sens rassasié.",
+  "ratio": 1.0
+ },
+ {
+  "i": 7,
+  "word": "rassasié…",
+  "t": 1.86,
+  "dur": 0.45,
+  "heard": "rassasié et",
+  "ratio": 1.0
+ },
+ {
+  "i": 8,
+  "word": "et",
+  "t": 2.92,
+  "dur": 0.06,
+  "heard": "Et pourtant,",
+  "ratio": 1.0
+ },
+ {
+  "i": 9,
+  "word": "pourtant,",
+  "t": 3.06,
+  "dur": 0.29,
+  "heard": "Pourtant, une",
+  "ratio": 1.0
+ },
+ {
+  "i": 10,
+  "word": "une",
+  "t": 3.96,
+  "dur": 0.05,
+  "heard": "Une heure",
+  "ratio": 1.0
+ },
+ {
+  "i": 11,
+  "word": "heure",
+  "t": 4.12,
+  "dur": 0.05,
+  "heard": "plus tard.",
+  "ratio": 0.47,
+  "flag": "COURT"
+ },
+ {
+  "i": 12,
+  "word": "plus",
+  "t": 4.18,
+  "dur": 0.13,
+  "heard": "plus tard.",
+  "ratio": 1.0
+ },
+ {
+  "i": 13,
+  "word": "tard,",
+  "t": 4.42,
+  "dur": 0.21,
+  "heard": "Plus tard, tu as",
+  "ratio": 0.67
+ },
+ {
+  "i": 14,
+  "word": "tu",
+  "t": 4.91,
+  "dur": 0.1,
+  "heard": "Tu as",
+  "ratio": 1.0
+ },
+ {
+  "i": 15,
+  "word": "as",
+  "t": 5.0,
+  "dur": 0.06,
+  "heard": "Tu as des gens",
+  "ratio": 0.47
+ },
+ {
+  "i": 16,
+  "word": "déjà",
+  "t": 5.07,
+  "dur": 0.26,
+  "heard": "Tu as déjà envie de",
+  "ratio": 0.75
+ },
+ {
+  "i": 17,
+  "word": "envie",
+  "t": 5.32,
+  "dur": 0.22,
+  "heard": "J'ai envie de",
+  "ratio": 0.82
+ },
+ {
+  "i": 18,
+  "word": "de",
+  "t": 5.55,
+  "dur": 0.08,
+  "heard": "Retourner dans",
+  "ratio": 0.75
+ },
+ {
+  "i": 19,
+  "word": "retourner",
+  "t": 5.63,
+  "dur": 0.35,
+  "heard": "retourner dans la",
+  "ratio": 0.93
+ },
+ {
+  "i": 20,
+  "word": "dans",
+  "t": 5.98,
+  "dur": 0.08,
+  "heard": "Dans la",
+  "ratio": 1.0
+ },
+ {
+  "i": 21,
+  "word": "la",
+  "t": 6.06,
+  "dur": 0.1,
+  "heard": "la cuisine.",
+  "ratio": 1.0
+ },
+ {
+  "i": 22,
+  "word": "cuisine ?",
+  "t": 6.19,
+  "dur": 0.35,
+  "heard": "cuisine, tu cours.",
+  "ratio": 0.78
+ },
+ {
+  "i": 23,
+  "word": "Tu",
+  "t": 7.31,
+  "dur": 0.16,
+  "heard": "Tu crois",
+  "ratio": 1.0
+ },
+ {
+  "i": 24,
+  "word": "crois",
+  "t": 7.47,
+  "dur": 0.16,
+  "heard": "Tu crois peut-être que",
+  "ratio": 0.84
+ },
+ {
+  "i": 25,
+  "word": "peut-être",
+  "t": 7.63,
+  "dur": 0.48,
+  "heard": "Peut-être que tu",
+  "ratio": 0.92
+ },
+ {
+  "i": 26,
+  "word": "que",
+  "t": 8.11,
+  "dur": 0.08,
+  "heard": "que tu manques",
+  "ratio": 0.59
+ },
+ {
+  "i": 27,
+  "word": "tu",
+  "t": 8.19,
+  "dur": 0.16,
+  "heard": "Tu manques de",
+  "ratio": 0.9
+ },
+ {
+  "i": 28,
+  "word": "manques",
+  "t": 8.35,
+  "dur": 0.16,
+  "heard": "Du manque de",
+  "ratio": 0.84
+ },
+ {
+  "i": 29,
+  "word": "de",
+  "t": 8.52,
+  "dur": 0.11,
+  "heard": "de volonté.",
+  "ratio": 1.0
+ },
+ {
+  "i": 30,
+  "word": "volonté.",
+  "t": 8.63,
+  "dur": 0.34,
+  "heard": "volonté. Mais à",
+  "ratio": 0.96
+ },
+ {
+  "i": 31,
+  "word": "Mais",
+  "t": 9.56,
+  "dur": 0.11,
+  "heard": "Mais attends!",
+  "ratio": 1.0
+ },
+ {
+  "i": 32,
+  "word": "attends,",
+  "t": 9.67,
+  "dur": 0.18,
+  "heard": "Mais attends, parce que",
+  "ratio": 0.77
+ },
+ {
+  "i": 33,
+  "word": "parce",
+  "t": 10.36,
+  "dur": 0.24,
+  "heard": "Parce que le",
+  "ratio": 0.89
+ },
+ {
+  "i": 34,
+  "word": "que",
+  "t": 10.6,
+  "dur": 0.08,
+  "heard": "Est-ce que le",
+  "ratio": 0.67
+ },
+ {
+  "i": 35,
+  "word": "le",
+  "t": 10.68,
+  "dur": 0.08,
+  "heard": "le problème",
+  "ratio": 1.0
+ },
+ {
+  "i": 36,
+  "word": "problème",
+  "t": 10.76,
+  "dur": 0.4,
+  "heard": "Le problème pourrait",
+  "ratio": 0.94
+ },
+ {
+  "i": 37,
+  "word": "pourrait",
+  "t": 11.16,
+  "dur": 0.24,
+  "heard": "pourrait commencer",
+  "ratio": 1.0
+ },
+ {
+  "i": 38,
+  "word": "commencer",
+  "t": 11.4,
+  "dur": 0.4,
+  "heard": "commencer bien avant.",
+  "ratio": 0.84
+ },
+ {
+  "i": 39,
+  "word": "bien",
+  "t": 11.8,
+  "dur": 0.26,
+  "heard": "Bien avant le",
+  "ratio": 0.9
+ },
+ {
+  "i": 40,
+  "word": "avant",
+  "t": 12.06,
+  "dur": 0.14,
+  "heard": "Avant de dire",
+  "ratio": 0.67
+ },
+ {
+  "i": 41,
+  "word": "le",
+  "t": 12.2,
+  "dur": 0.08,
+  "heard": "dîner.",
+  "ratio": 0.83
+ },
+ {
+  "i": 42,
+  "word": "dîner.",
+  "t": 12.28,
+  "dur": 0.21,
+  "heard": "dîner. Si tu",
+  "ratio": 0.88
+ },
+ {
+  "i": 43,
+  "word": "Si",
+  "t": 13.24,
+  "dur": 0.16,
+  "heard": "Si tu as",
+  "ratio": 0.8
+ },
+ {
+  "i": 44,
+  "word": "tu",
+  "t": 13.41,
+  "dur": 0.1,
+  "heard": "Si tu as",
+  "ratio": 0.8
+ },
+ {
+  "i": 45,
+  "word": "as",
+  "t": 13.5,
+  "dur": 0.05,
+  "heard": "Tu as passé ta",
+  "ratio": 0.78
+ },
+ {
+  "i": 46,
+  "word": "passé",
+  "t": 13.57,
+  "dur": 0.24,
+  "heard": "Je vais passer ta journée.",
+  "ratio": 0.5
+ },
+ {
+  "i": 47,
+  "word": "ta",
+  "t": 13.81,
+  "dur": 0.16,
+  "heard": "ta journée à",
+  "ratio": 0.95
+ },
+ {
+  "i": 48,
+  "word": "journée",
+  "t": 13.97,
+  "dur": 0.34,
+  "heard": "journée à mon",
+  "ratio": 0.84
+ },
+ {
+  "i": 49,
+  "word": "à",
+  "t": 14.3,
+  "dur": 0.06,
+  "heard": "manger trop.",
+  "ratio": 0.71
+ },
+ {
+  "i": 50,
+  "word": "manger",
+  "t": 14.37,
+  "dur": 0.32,
+  "heard": "manger trop.",
+  "ratio": 1.0
+ },
+ {
+  "i": 51,
+  "word": "trop",
+  "t": 14.69,
+  "dur": 0.16,
+  "heard": "trop peu.",
+  "ratio": 1.0
+ },
+ {
+  "i": 52,
+  "word": "peu,",
+  "t": 14.93,
+  "dur": 0.13,
+  "heard": "peu à",
+  "ratio": 1.0
+ },
+ {
+  "i": 53,
+  "word": "à",
+  "t": 15.35,
+  "dur": 0.05,
+  "heard": "À soutenir",
+  "ratio": 0.75
+ },
+ {
+  "i": 54,
+  "word": "sauter",
+  "t": 15.41,
+  "dur": 0.26,
+  "heard": "À ce terme,",
+  "ratio": 0.5,
+  "flag": null,
+  "heard_wide": "À sauter en haut"
+ },
+ {
+  "i": 55,
+  "word": "un",
+  "t": 15.67,
+  "dur": 0.08,
+  "heard": "un repas.",
+  "ratio": 1.0
+ },
+ {
+  "i": 56,
+  "word": "repas",
+  "t": 15.75,
+  "dur": 0.43,
+  "heard": "un repas ou à",
+  "ratio": 0.82
+ },
+ {
+  "i": 57,
+  "word": "ou",
+  "t": 16.61,
+  "dur": 0.02,
+  "heard": "",
+  "ratio": 0.0,
+  "flag": "COURT"
+ },
+ {
+  "i": 58,
+  "word": "à",
+  "t": 16.63,
+  "dur": 0.02,
+  "heard": "Ou à tout court",
+  "ratio": 0.27
+ },
+ {
+  "i": 59,
+  "word": "te",
+  "t": 16.69,
+  "dur": 0.16,
+  "heard": "te contenter de",
+  "ratio": 0.92
+ },
+ {
+  "i": 60,
+  "word": "contenter",
+  "t": 16.85,
+  "dur": 0.48,
+  "heard": "contenter de peu.",
+  "ratio": 0.88
+ },
+ {
+  "i": 61,
+  "word": "de",
+  "t": 17.33,
+  "dur": 0.08,
+  "heard": "de petites parties",
+  "ratio": 0.72
+ },
+ {
+  "i": 62,
+  "word": "petites",
+  "t": 17.41,
+  "dur": 0.32,
+  "heard": "petites portions.",
+  "ratio": 1.0
+ },
+ {
+  "i": 63,
+  "word": "portions,",
+  "t": 17.73,
+  "dur": 0.37,
+  "heard": "Portion, ton corps",
+  "ratio": 0.77
+ },
+ {
+  "i": 64,
+  "word": "ton",
+  "t": 18.54,
+  "dur": 0.16,
+  "heard": "Ton corps peut",
+  "ratio": 0.8
+ },
+ {
+  "i": 65,
+  "word": "corps",
+  "t": 18.7,
+  "dur": 0.22,
+  "heard": "Votre corps peut",
+  "ratio": 0.78
+ },
+ {
+  "i": 66,
+  "word": "peut",
+  "t": 18.94,
+  "dur": 0.08,
+  "heard": "peut finir par",
+  "ratio": 0.86
+ },
+ {
+  "i": 67,
+  "word": "finir",
+  "t": 19.02,
+  "dur": 0.32,
+  "heard": "finir par",
+  "ratio": 1.0
+ },
+ {
+  "i": 68,
+  "word": "par",
+  "t": 19.34,
+  "dur": 0.16,
+  "heard": "par réclamer",
+  "ratio": 1.0
+ },
+ {
+  "i": 69,
+  "word": "réclamer",
+  "t": 19.5,
+  "dur": 0.4,
+  "heard": "Réclamer davantage des",
+  "ratio": 0.92
+ },
+ {
+  "i": 70,
+  "word": "davantage",
+  "t": 19.98,
+  "dur": 0.4,
+  "heard": "davantage d'énergie le",
+  "ratio": 0.94
+ },
+ {
+  "i": 71,
+  "word": "d'énergie",
+  "t": 20.38,
+  "dur": 0.43,
+  "heard": "d'énergie le soir.",
+  "ratio": 0.83
+ },
+ {
+  "i": 72,
+  "word": "le",
+  "t": 20.81,
+  "dur": 0.13,
+  "heard": "le soir.",
+  "ratio": 1.0
+ },
+ {
+  "i": 73,
+  "word": "soir.",
+  "t": 20.94,
+  "dur": 0.27,
+  "heard": "soir. Et le",
+  "ratio": 0.86
+ },
+ {
+  "i": 74,
+  "word": "Et",
+  "t": 22.0,
+  "dur": 0.1,
+  "heard": "Et le pire,",
+  "ratio": 0.67
+ },
+ {
+  "i": 75,
+  "word": "le",
+  "t": 22.1,
+  "dur": 0.13,
+  "heard": "le piège.",
+  "ratio": 1.0
+ },
+ {
+  "i": 76,
+  "word": "piège,",
+  "t": 22.23,
+  "dur": 0.43,
+  "heard": "Le piège, c'est de",
+  "ratio": 0.82
+ },
+ {
+  "i": 77,
+  "word": "c'est",
+  "t": 23.27,
+  "dur": 0.08,
+  "heard": "C'est de vous",
+  "ratio": 0.75
+ },
+ {
+  "i": 78,
+  "word": "de",
+  "t": 23.35,
+  "dur": 0.16,
+  "heard": "de vouloir comprendre",
+  "ratio": 0.64
+ },
+ {
+  "i": 79,
+  "word": "vouloir",
+  "t": 23.51,
+  "dur": 0.3,
+  "heard": "vouloir compenser en",
+  "ratio": 0.94
+ },
+ {
+  "i": 80,
+  "word": "compenser",
+  "t": 23.83,
+  "dur": 0.5,
+  "heard": "Compenser ensuite",
+  "ratio": 0.81
+ },
+ {
+  "i": 81,
+  "word": "en",
+  "t": 24.33,
+  "dur": 0.06,
+  "heard": "supprimant encore",
+  "ratio": 0.71
+ },
+ {
+  "i": 82,
+  "word": "supprimant",
+  "t": 24.39,
+  "dur": 0.58,
+  "heard": "supprimant encore plus",
+  "ratio": 0.89
+ },
+ {
+  "i": 83,
+  "word": "encore",
+  "t": 24.97,
+  "dur": 0.21,
+  "heard": "Encore plus de",
+  "ratio": 0.91
+ },
+ {
+  "i": 84,
+  "word": "plus",
+  "t": 25.27,
+  "dur": 0.16,
+  "heard": "Plus de",
+  "ratio": 1.0
+ },
+ {
+  "i": 85,
+  "word": "de",
+  "t": 25.43,
+  "dur": 0.03,
+  "heard": "de nourriture, le",
+  "ratio": 0.92
+ },
+ {
+  "i": 86,
+  "word": "nourriture",
+  "t": 25.46,
+  "dur": 0.56,
+  "heard": "nourriture le lendemain.",
+  "ratio": 0.73
+ },
+ {
+  "i": 87,
+  "word": "le",
+  "t": 26.03,
+  "dur": 0.13,
+  "heard": "le lendemain.",
+  "ratio": 1.0
+ },
+ {
+  "i": 88,
+  "word": "lendemain.",
+  "t": 26.15,
+  "dur": 0.21,
+  "heard": "Alors,",
+  "ratio": 0.53,
+  "flag": null,
+  "heard_wide": "le lendemain. Alors"
+ },
+ {
+  "i": 89,
+  "word": "Alors,",
+  "t": 27.21,
+  "dur": 0.13,
+  "heard": "Alors voici une",
+  "ratio": 0.87
+ },
+ {
+  "i": 90,
+  "word": "voici",
+  "t": 27.44,
+  "dur": 0.34,
+  "heard": "Voici une",
+  "ratio": 1.0
+ },
+ {
+  "i": 91,
+  "word": "une",
+  "t": 27.77,
+  "dur": 0.05,
+  "heard": "une astuce tout",
+  "ratio": 0.82
+ },
+ {
+  "i": 92,
+  "word": "astuce",
+  "t": 27.86,
+  "dur": 0.46,
+  "heard": "une astuce toute simple.",
+  "ratio": 0.71
+ },
+ {
+  "i": 93,
+  "word": "toute",
+  "t": 28.32,
+  "dur": 0.16,
+  "heard": "Tout simplement.",
+  "ratio": 0.8
+ },
+ {
+  "i": 94,
+  "word": "simple",
+  "t": 28.48,
+  "dur": 0.26,
+  "heard": "simple à",
+  "ratio": 1.0
+ },
+ {
+  "i": 95,
+  "word": "à",
+  "t": 28.74,
+  "dur": 0.06,
+  "heard": "la tester.",
+  "ratio": 0.93
+ },
+ {
+  "i": 96,
+  "word": "tester.",
+  "t": 28.8,
+  "dur": 0.29,
+  "heard": "tester demain.",
+  "ratio": 1.0
+ },
+ {
+  "i": 97,
+  "word": "Demain,",
+  "t": 29.93,
+  "dur": 0.27,
+  "heard": "Demain, au lieu",
+  "ratio": 0.8
+ },
+ {
+  "i": 98,
+  "word": "au",
+  "t": 30.66,
+  "dur": 0.07,
+  "heard": "Au lieu de",
+  "ratio": 0.86
+ },
+ {
+  "i": 99,
+  "word": "lieu",
+  "t": 30.73,
+  "dur": 0.08,
+  "heard": "Au lieu de te",
+  "ratio": 0.75
+ },
+ {
+  "i": 100,
+  "word": "de",
+  "t": 30.83,
+  "dur": 0.14,
+  "heard": "de tout",
+  "ratio": 0.6
+ },
+ {
+  "i": 101,
+  "word": "te",
+  "t": 30.97,
+  "dur": 0.08,
+  "heard": "te concentrer.",
+  "ratio": 1.0
+ },
+ {
+  "i": 102,
+  "word": "concentrer",
+  "t": 31.13,
+  "dur": 0.45,
+  "heard": "concentrer uniquement sur",
+  "ratio": 0.93
+ },
+ {
+  "i": 103,
+  "word": "uniquement",
+  "t": 31.71,
+  "dur": 0.39,
+  "heard": "Uniquement sur",
+  "ratio": 1.0
+ },
+ {
+  "i": 104,
+  "word": "sur",
+  "t": 32.09,
+  "dur": 0.16,
+  "heard": "Sur ton",
+  "ratio": 1.0
+ },
+ {
+  "i": 105,
+  "word": "ton",
+  "t": 32.26,
+  "dur": 0.16,
+  "heard": "ton dîner.",
+  "ratio": 1.0
+ },
+ {
+  "i": 106,
+  "word": "dîner,",
+  "t": 32.42,
+  "dur": 0.27,
+  "heard": "Regarde ce",
+  "ratio": 0.67
+ },
+ {
+  "i": 107,
+  "word": "regarde",
+  "t": 32.7,
+  "dur": 0.35,
+  "heard": "Regarde ce",
+  "ratio": 1.0
+ },
+ {
+  "i": 108,
+  "word": "ce",
+  "t": 33.06,
+  "dur": 0.08,
+  "heard": "Ce que tu",
+  "ratio": 0.83
+ },
+ {
+  "i": 109,
+  "word": "que",
+  "t": 33.14,
+  "dur": 0.16,
+  "heard": "que tu m'as",
+  "ratio": 0.77
+ },
+ {
+  "i": 110,
+  "word": "tu",
+  "t": 33.3,
+  "dur": 0.1,
+  "heard": "Tu manges jamais",
+  "ratio": 0.73
+ },
+ {
+  "i": 111,
+  "word": "manges",
+  "t": 33.4,
+  "dur": 0.24,
+  "heard": "Tu manges jamais",
+  "ratio": 0.67
+ },
+ {
+  "i": 112,
+  "word": "à",
+  "t": 33.64,
+  "dur": 0.02,
+  "heard": "midi.",
+  "ratio": 0.89
+ },
+ {
+  "i": 113,
+  "word": "midi.",
+  "t": 33.65,
+  "dur": 0.34,
+  "heard": "midi. Est-ce que",
+  "ratio": 0.86
+ },
+ {
+  "i": 114,
+  "word": "Est-ce",
+  "t": 34.52,
+  "dur": 0.11,
+  "heard": "Est-ce que",
+  "ratio": 1.0
+ },
+ {
+  "i": 115,
+  "word": "que",
+  "t": 34.66,
+  "dur": 0.08,
+  "heard": "Est-ce que ton",
+  "ratio": 0.71
+ },
+ {
+  "i": 116,
+  "word": "ton",
+  "t": 34.82,
+  "dur": 0.08,
+  "heard": "Ton repas qu'on",
+  "ratio": 0.8
+ },
+ {
+  "i": 117,
+  "word": "repas",
+  "t": 34.9,
+  "dur": 0.32,
+  "heard": "Si ton repas contient suffisamment",
+  "ratio": 0.6
+ },
+ {
+  "i": 118,
+  "word": "contient",
+  "t": 35.23,
+  "dur": 0.32,
+  "heard": "contient suffisamment de",
+  "ratio": 0.95
+ },
+ {
+  "i": 119,
+  "word": "suffisamment",
+  "t": 35.55,
+  "dur": 0.56,
+  "heard": "suffisamment de",
+  "ratio": 1.0
+ },
+ {
+  "i": 120,
+  "word": "de",
+  "t": 36.11,
+  "dur": 0.08,
+  "heard": "de protéines.",
+  "ratio": 1.0
+ },
+ {
+  "i": 121,
+  "word": "protéines,",
+  "t": 36.19,
+  "dur": 0.61,
+  "heard": "protéines, des aliments",
+  "ratio": 0.75
+ },
+ {
+  "i": 122,
+  "word": "des",
+  "t": 37.07,
+  "dur": 0.18,
+  "heard": "Des aliments riches",
+  "ratio": 0.79
+ },
+ {
+  "i": 123,
+  "word": "aliments",
+  "t": 37.25,
+  "dur": 0.3,
+  "heard": "Les aliments riches en",
+  "ratio": 0.85
+ },
+ {
+  "i": 124,
+  "word": "riches",
+  "t": 37.55,
+  "dur": 0.18,
+  "heard": "Riche en fibres,",
+  "ratio": 0.67
+ },
+ {
+  "i": 125,
+  "word": "en",
+  "t": 37.73,
+  "dur": 0.15,
+  "heard": "en fibre.",
+  "ratio": 0.93
+ },
+ {
+  "i": 126,
+  "word": "fibres",
+  "t": 37.88,
+  "dur": 0.27,
+  "heard": "fibre.",
+  "ratio": 0.77
+ },
+ {
+  "i": 127,
+  "word": "et",
+  "t": 38.15,
+  "dur": 0.18,
+  "heard": "Et une porte",
+  "ratio": 0.67
+ },
+ {
+  "i": 128,
+  "word": "une",
+  "t": 38.53,
+  "dur": 0.14,
+  "heard": "Une portion qui",
+  "ratio": 0.87
+ },
+ {
+  "i": 129,
+  "word": "portion",
+  "t": 38.68,
+  "dur": 0.32,
+  "heard": "Portion qui",
+  "ratio": 1.0
+ },
+ {
+  "i": 130,
+  "word": "qui",
+  "t": 39.0,
+  "dur": 0.08,
+  "heard": "qui te",
+  "ratio": 1.0
+ },
+ {
+  "i": 131,
+  "word": "te",
+  "t": 39.16,
+  "dur": 0.03,
+  "heard": "te rassasiera.",
+  "ratio": 0.91
+ },
+ {
+  "i": 132,
+  "word": "rassasie",
+  "t": 39.19,
+  "dur": 0.48,
+  "heard": "rassasie vraiment.",
+  "ratio": 1.0
+ },
+ {
+  "i": 133,
+  "word": "vraiment ?",
+  "t": 39.67,
+  "dur": 0.26,
+  "heard": "vraiment. Par exemple,",
+  "ratio": 0.76
+ },
+ {
+  "i": 134,
+  "word": "Par",
+  "t": 40.69,
+  "dur": 0.18,
+  "heard": "Par exemple,",
+  "ratio": 1.0
+ },
+ {
+  "i": 135,
+  "word": "exemple,",
+  "t": 40.86,
+  "dur": 0.43,
+  "heard": "Par exemple, ajoute des",
+  "ratio": 0.81
+ },
+ {
+  "i": 136,
+  "word": "ajoute",
+  "t": 41.66,
+  "dur": 0.3,
+  "heard": "Ajoute des œufs.",
+  "ratio": 0.86
+ },
+ {
+  "i": 137,
+  "word": "des",
+  "t": 41.97,
+  "dur": 0.26,
+  "heard": "œufs.",
+  "ratio": 0.67
+ },
+ {
+  "i": 138,
+  "word": "œufs,",
+  "t": 42.23,
+  "dur": 0.03,
+  "heard": "Du coup,",
+  "ratio": 0.36,
+  "flag": "COURT"
+ },
+ {
+  "i": 139,
+  "word": "du",
+  "t": 42.69,
+  "dur": 0.08,
+  "heard": "poulet.",
+  "ratio": 0.86
+ },
+ {
+  "i": 140,
+  "word": "poulet,",
+  "t": 42.77,
+  "dur": 0.29,
+  "heard": "poulet, des langoustines,",
+  "ratio": 0.6
+ },
+ {
+  "i": 141,
+  "word": "des",
+  "t": 43.66,
+  "dur": 0.08,
+  "heard": "Des lentilles ou du",
+  "ratio": 0.86
+ },
+ {
+  "i": 142,
+  "word": "lentilles",
+  "t": 43.74,
+  "dur": 0.58,
+  "heard": "Lentilles ou du",
+  "ratio": 0.92
+ },
+ {
+  "i": 143,
+  "word": "ou",
+  "t": 44.31,
+  "dur": 0.06,
+  "heard": "du tout.",
+  "ratio": 0.4
+ },
+ {
+  "i": 144,
+  "word": "du",
+  "t": 44.38,
+  "dur": 0.08,
+  "heard": "du tofu.",
+  "ratio": 1.0
+ },
+ {
+  "i": 145,
+  "word": "tofu,",
+  "t": 44.46,
+  "dur": 0.4,
+  "heard": "Plutôt fou avec des",
+  "ratio": 0.67
+ },
+ {
+  "i": 146,
+  "word": "avec",
+  "t": 45.36,
+  "dur": 0.19,
+  "heard": "Avec des",
+  "ratio": 1.0
+ },
+ {
+  "i": 147,
+  "word": "des",
+  "t": 45.58,
+  "dur": 0.16,
+  "heard": "des légumes et",
+  "ratio": 0.91
+ },
+ {
+  "i": 148,
+  "word": "légumes",
+  "t": 45.74,
+  "dur": 0.46,
+  "heard": "Légumes et une",
+  "ratio": 0.86
+ },
+ {
+  "i": 149,
+  "word": "et",
+  "t": 46.32,
+  "dur": 0.03,
+  "heard": "Et une solution",
+  "ratio": 0.56
+ },
+ {
+  "i": 150,
+  "word": "une",
+  "t": 46.4,
+  "dur": 0.14,
+  "heard": "Une source de",
+  "ratio": 0.9
+ },
+ {
+  "i": 151,
+  "word": "source",
+  "t": 46.55,
+  "dur": 0.26,
+  "heard": "source de",
+  "ratio": 1.0
+ },
+ {
+  "i": 152,
+  "word": "de",
+  "t": 46.8,
+  "dur": 0.15,
+  "heard": "de féculents.",
+  "ratio": 1.0
+ },
+ {
+  "i": 153,
+  "word": "féculents.",
+  "t": 46.95,
+  "dur": 0.37,
+  "heard": "fécule. Et surtout,",
+  "ratio": 0.69
+ },
+ {
+  "i": 154,
+  "word": "Et",
+  "t": 48.01,
+  "dur": 0.06,
+  "heard": "Et surtout...",
+  "ratio": 1.0
+ },
+ {
+  "i": 155,
+  "word": "surtout,",
+  "t": 48.07,
+  "dur": 0.45,
+  "heard": "Et surtout, ne cherche",
+  "ratio": 0.67
+ },
+ {
+  "i": 156,
+  "word": "ne",
+  "t": 48.87,
+  "dur": 0.08,
+  "heard": "Ne cherche pas à",
+  "ratio": 0.82
+ },
+ {
+  "i": 157,
+  "word": "cherche",
+  "t": 48.99,
+  "dur": 0.29,
+  "heard": "Je cherche pas à",
+  "ratio": 0.87
+ },
+ {
+  "i": 158,
+  "word": "pas",
+  "t": 49.27,
+  "dur": 0.1,
+  "heard": "À tout de suite",
+  "ratio": 0.25,
+  "flag": "COURT"
+ },
+ {
+  "i": 159,
+  "word": "à",
+  "t": 49.37,
+  "dur": 0.06,
+  "heard": "te coucher.",
+  "ratio": 0.33,
+  "flag": "COURT"
+ },
+ {
+  "i": 160,
+  "word": "te",
+  "t": 49.44,
+  "dur": 0.16,
+  "heard": "te coucher en",
+  "ratio": 0.9
+ },
+ {
+  "i": 161,
+  "word": "coucher",
+  "t": 49.6,
+  "dur": 0.29,
+  "heard": "Couché en ayant",
+  "ratio": 0.73
+ },
+ {
+  "i": 162,
+  "word": "en",
+  "t": 49.93,
+  "dur": 0.06,
+  "heard": "en ayant fait",
+  "ratio": 0.78
+ },
+ {
+  "i": 163,
+  "word": "ayant",
+  "t": 50.09,
+  "dur": 0.14,
+  "heard": "Et enfin, pour",
+  "ratio": 0.3,
+  "flag": null,
+  "heard_wide": "en ayant faim pour"
+ },
+ {
+  "i": 164,
+  "word": "faim",
+  "t": 50.32,
+  "dur": 0.24,
+  "heard": "Enfin, pour",
+  "ratio": 0.71
+ },
+ {
+  "i": 165,
+  "word": "pour",
+  "t": 50.56,
+  "dur": 0.14,
+  "heard": "Pour perdre du",
+  "ratio": 0.91
+ },
+ {
+  "i": 166,
+  "word": "perdre",
+  "t": 50.8,
+  "dur": 0.23,
+  "heard": "Perdre du poids.",
+  "ratio": 0.76
+ },
+ {
+  "i": 167,
+  "word": "du",
+  "t": 51.07,
+  "dur": 0.13,
+  "heard": "du poids plus",
+  "ratio": 0.78
+ },
+ {
+  "i": 168,
+  "word": "poids",
+  "t": 51.2,
+  "dur": 0.16,
+  "heard": "plus vite.",
+  "ratio": 0.47,
+  "flag": null,
+  "heard_wide": "du poids plus vite."
+ },
+ {
+  "i": 169,
+  "word": "plus",
+  "t": 51.36,
+  "dur": 0.19,
+  "heard": "plus vite.",
+  "ratio": 1.0
+ },
+ {
+  "i": 170,
+  "word": "vite.",
+  "t": 51.55,
+  "dur": 0.26,
+  "heard": "Parce que",
+  "ratio": 0.59,
+  "flag": null,
+  "heard_wide": "plus vite parce que"
+ },
+ {
+  "i": 171,
+  "word": "Parce",
+  "t": 52.33,
+  "dur": 0.16,
+  "heard": "Parce que par",
+  "ratio": 0.84
+ },
+ {
+  "i": 172,
+  "word": "que",
+  "t": 52.49,
+  "dur": 0.16,
+  "heard": "que parfois,",
+  "ratio": 1.0
+ },
+ {
+  "i": 173,
+  "word": "parfois,",
+  "t": 52.65,
+  "dur": 0.37,
+  "heard": "Parfois, pour",
+  "ratio": 1.0
+ },
+ {
+  "i": 174,
+  "word": "pour",
+  "t": 53.37,
+  "dur": 0.16,
+  "heard": "Pour mieux",
+  "ratio": 1.0
+ },
+ {
+  "i": 175,
+  "word": "mieux",
+  "t": 53.53,
+  "dur": 0.19,
+  "heard": "Pour mieux gérer tes",
+  "ratio": 0.74
+ },
+ {
+  "i": 176,
+  "word": "gérer",
+  "t": 53.72,
+  "dur": 0.29,
+  "heard": "gérer tes enfants.",
+  "ratio": 0.7
+ },
+ {
+  "i": 177,
+  "word": "tes",
+  "t": 54.01,
+  "dur": 0.18,
+  "heard": "tes envies du",
+  "ratio": 0.9
+ },
+ {
+  "i": 178,
+  "word": "envies",
+  "t": 54.19,
+  "dur": 0.22,
+  "heard": "envie du",
+  "ratio": 0.93
+ },
+ {
+  "i": 179,
+  "word": "du",
+  "t": 54.41,
+  "dur": 0.08,
+  "heard": "du soir.",
+  "ratio": 1.0
+ },
+ {
+  "i": 180,
+  "word": "soir,",
+  "t": 54.49,
+  "dur": 0.37,
+  "heard": "soir, la",
+  "ratio": 1.0
+ },
+ {
+  "i": 181,
+  "word": "la",
+  "t": 55.38,
+  "dur": 0.05,
+  "heard": "La solution",
+  "ratio": 1.0
+ },
+ {
+  "i": 182,
+  "word": "solution",
+  "t": 55.46,
+  "dur": 0.38,
+  "heard": "La solution n'est pas",
+  "ratio": 0.83
+ },
+ {
+  "i": 183,
+  "word": "n'est",
+  "t": 55.84,
+  "dur": 0.18,
+  "heard": "n'est pas de",
+  "ratio": 0.88
+ },
+ {
+  "i": 184,
+  "word": "pas",
+  "t": 56.02,
+  "dur": 0.16,
+  "heard": "pas de moi.",
+  "ratio": 0.77
+ },
+ {
+  "i": 185,
+  "word": "de",
+  "t": 56.18,
+  "dur": 0.08,
+  "heard": "de manger moins.",
+  "ratio": 0.76
+ },
+ {
+  "i": 186,
+  "word": "manger",
+  "t": 56.26,
+  "dur": 0.32,
+  "heard": "manger moins lourd.",
+  "ratio": 0.81
+ },
+ {
+  "i": 187,
+  "word": "moins",
+  "t": 56.58,
+  "dur": 0.11,
+  "heard": "on se",
+  "ratio": 0.73
+ },
+ {
+  "i": 188,
+  "word": "le",
+  "t": 56.7,
+  "dur": 0.05,
+  "heard": "le soir.",
+  "ratio": 1.0
+ },
+ {
+  "i": 189,
+  "word": "soir…",
+  "t": 56.74,
+  "dur": 0.39,
+  "heard": "le soir, mais de",
+  "ratio": 0.8
+ },
+ {
+  "i": 190,
+  "word": "mais",
+  "t": 57.55,
+  "dur": 0.08,
+  "heard": "Mais de mieux",
+  "ratio": 0.71
+ },
+ {
+  "i": 191,
+  "word": "de",
+  "t": 57.63,
+  "dur": 0.11,
+  "heard": "Mais de mieux en mieux.",
+  "ratio": 0.56
+ },
+ {
+  "i": 192,
+  "word": "mieux",
+  "t": 57.74,
+  "dur": 0.16,
+  "heard": "mieux nourrir ton",
+  "ratio": 0.89
+ },
+ {
+  "i": 193,
+  "word": "nourrir",
+  "t": 57.9,
+  "dur": 0.27,
+  "heard": "nourrir ton corps.",
+  "ratio": 0.8
+ },
+ {
+  "i": 194,
+  "word": "ton",
+  "t": 58.19,
+  "dur": 0.16,
+  "heard": "ton corps.",
+  "ratio": 1.0
+ },
+ {
+  "i": 195,
+  "word": "corps",
+  "t": 58.43,
+  "dur": 0.15,
+  "heard": "Corps pendant la",
+  "ratio": 0.92
+ },
+ {
+  "i": 196,
+  "word": "pendant",
+  "t": 58.67,
+  "dur": 0.24,
+  "heard": "Pendant la journée,",
+  "ratio": 0.72
+ },
+ {
+  "i": 197,
+  "word": "la",
+  "t": 58.91,
+  "dur": 0.11,
+  "heard": "la journée.",
+  "ratio": 1.0
+ },
+ {
+  "i": 198,
+  "word": "journée.",
+  "t": 59.02,
+  "dur": 0.26,
+  "heard": "journée. Abonne-toi!",
+  "ratio": 1.0
+ },
+ {
+  "i": 199,
+  "word": "Abonne-toi,",
+  "t": 60.13,
+  "dur": 0.43,
+  "heard": "Abonne-toi, une nouvelle",
+  "ratio": 0.75
+ },
+ {
+  "i": 200,
+  "word": "une",
+  "t": 60.86,
+  "dur": 0.06,
+  "heard": "Une nouvelle vie",
+  "ratio": 0.88
+ },
+ {
+  "i": 201,
+  "word": "nouvelle",
+  "t": 60.92,
+  "dur": 0.24,
+  "heard": "Une nouvelle vidéo chaque",
+  "ratio": 0.74
+ },
+ {
+  "i": 202,
+  "word": "vidéo",
+  "t": 61.16,
+  "dur": 0.32,
+  "heard": "vidéos chaque jour.",
+  "ratio": 0.81
+ },
+ {
+  "i": 203,
+  "word": "chaque",
+  "t": 61.48,
+  "dur": 0.32,
+  "heard": "chaque jour.",
+  "ratio": 1.0
+ },
+ {
+  "i": 204,
+  "word": "jour.",
+  "t": 61.8,
+  "dur": 0.21,
+  "heard": "Et",
+  "ratio": 0.5,
+  "flag": null,
+  "heard_wide": "chaque jour et"
+ },
+ {
+  "i": 205,
+  "word": "Et",
+  "t": 62.78,
+  "dur": 0.06,
+  "heard": "Et retrouve-nous sur",
+  "ratio": 0.9
+ },
+ {
+  "i": 206,
+  "word": "retrouve-nous",
+  "t": 62.85,
+  "dur": 0.48,
+  "heard": "Retrouve-nous sur",
+  "ratio": 1.0
+ },
+ {
+  "i": 207,
+  "word": "sur",
+  "t": 63.33,
+  "dur": 0.11,
+  "heard": "sur calibody.com.",
+  "ratio": 0.93
+ },
+ {
+  "i": 208,
+  "word": "calibodi.com !",
+  "t": 63.46,
+  "dur": 0.88,
+  "heard": "calibody.com.",
+  "ratio": 0.91
+ }
+]
