@@ -271,6 +271,18 @@
   },
   "est-ce": {
    "mode": "raw"
+  },
+  "d'heures": {
+   "mode": "respell",
+   "value": "dheures",
+   "auto": true,
+   "tested": "collé 0/3"
+  },
+  "d'autres": {
+   "mode": "respell",
+   "value": "dautres",
+   "auto": true,
+   "tested": "collé 3/3"
   }
  }
 }

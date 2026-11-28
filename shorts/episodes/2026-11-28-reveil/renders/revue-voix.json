@@ -1,0 +1,2321 @@
+{
+ "mots": [
+  {
+   "i": 0,
+   "word": "Tu",
+   "t": 0.18,
+   "aai": "Tu repousses ton",
+   "google": "tu rep",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 1,
+   "word": "repousses",
+   "t": 0.29,
+   "aai": "repousses ton",
+   "google": "tu repousse",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 2,
+   "word": "ton",
+   "t": 0.74,
+   "aai": "Ton réveil.",
+   "google": "ton réveil",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 3,
+   "word": "réveil",
+   "t": 0.82,
+   "aai": "réveil 3 ou",
+   "google": "ton réveil",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 4,
+   "word": "trois",
+   "t": 1.22,
+   "aai": "3 ou 4",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 5,
+   "word": "ou",
+   "t": 1.56,
+   "aai": "ou 4 fois",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 6,
+   "word": "quatre",
+   "t": 1.7,
+   "aai": "4 fois, je",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 7,
+   "word": "fois",
+   "t": 1.86,
+   "aai": "fois chaque mois.",
+   "google": "cette",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 8,
+   "word": "chaque",
+   "t": 2.02,
+   "aai": "chaque matin.",
+   "google": "chaque",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 9,
+   "word": "matin ?",
+   "t": 2.21,
+   "aai": "matin, tu te",
+   "google": "chaque matin",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 10,
+   "word": "Tu",
+   "t": 3.06,
+   "aai": "Tu te",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 11,
+   "word": "te",
+   "t": 3.23,
+   "aai": "Je te dis",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 12,
+   "word": "dis",
+   "t": 3.31,
+   "aai": "Si tu te dis que tu",
+   "google": "je te",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 13,
+   "word": "que",
+   "t": 3.47,
+   "aai": "que tu vas",
+   "google": "dit",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 14,
+   "word": "tu",
+   "t": 3.63,
+   "aai": "Tu vas jouer",
+   "google": "que tu",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 15,
+   "word": "vas",
+   "t": 3.72,
+   "aai": "Tu vas juste dans",
+   "google": "tu vas juste",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 16,
+   "word": "juste",
+   "t": 3.87,
+   "aai": "juste dormir.",
+   "google": "pas juste dormir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 17,
+   "word": "dormir",
+   "t": 4.19,
+   "aai": "dormir 5 minutes.",
+   "google": "que dormir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 18,
+   "word": "cinq",
+   "t": 4.51,
+   "aai": "5 minutes de",
+   "google": "encore",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 19,
+   "word": "minutes",
+   "t": 4.64,
+   "aai": "minutes de",
+   "google": "25 minutes",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 20,
+   "word": "de",
+   "t": 4.91,
+   "aai": "De plus,",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 21,
+   "word": "plus…",
+   "t": 5.07,
+   "aai": "En plus, c'est",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 22,
+   "word": "et",
+   "t": 5.33,
+   "aai": "C'est finalement",
+   "google": "c'est finalement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 23,
+   "word": "finalement,",
+   "t": 5.39,
+   "aai": "Et finalement, tu te",
+   "google": "et finalement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 24,
+   "word": "tu",
+   "t": 5.79,
+   "aai": "Tu te lèves",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 25,
+   "word": "te",
+   "t": 5.95,
+   "aai": "Je te laisse",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 26,
+   "word": "lèves",
+   "t": 6.03,
+   "aai": "lève complètement dans",
+   "google": "se lève complètement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 27,
+   "word": "complètement",
+   "t": 6.19,
+   "aai": "Complètement dans le",
+   "google": "complètement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 28,
+   "word": "dans",
+   "t": 6.68,
+   "aai": "dans le bon",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 29,
+   "word": "le",
+   "t": 6.76,
+   "aai": "le brouillard.",
+   "google": "dans le",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 30,
+   "word": "brouillard ?",
+   "t": 6.84,
+   "aai": "brouillard Et si",
+   "google": "brouillard",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 31,
+   "word": "Et",
+   "t": 7.9,
+   "aai": "Et si le",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 32,
+   "word": "si",
+   "t": 7.96,
+   "aai": "Si le",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 33,
+   "word": "le",
+   "t": 8.07,
+   "aai": "Le problème,",
+   "google": "aussi le problème",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 34,
+   "word": "problème",
+   "t": 8.12,
+   "aai": "Le problème ne venait",
+   "google": "le problème",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 35,
+   "word": "ne",
+   "t": 8.52,
+   "aai": "devenez pas",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 36,
+   "word": "venait",
+   "t": 8.59,
+   "aai": "Ne venez pas sur",
+   "google": "ne dev",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "ERREUR"
+  },
+  {
+   "i": 37,
+   "word": "pas",
+   "t": 8.76,
+   "aai": "pas seulement du",
+   "google": "ce n'est pas seulement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 38,
+   "word": "seulement",
+   "t": 8.92,
+   "aai": "Seulement du nom",
+   "google": "pas seulement",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 39,
+   "word": "du",
+   "t": 9.2,
+   "aai": "du nombre de",
+   "google": "du",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 40,
+   "word": "nombre",
+   "t": 9.32,
+   "aai": "Du nombre d'heures que tu",
+   "google": "du nombre d'heur",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 41,
+   "word": "d'heures",
+   "t": 9.56,
+   "aai": "Donc,",
+   "google": "oeuvres",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "ERREUR"
+  },
+  {
+   "i": 42,
+   "word": "que",
+   "t": 9.89,
+   "aai": "Que tu",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 43,
+   "word": "tu",
+   "t": 9.97,
+   "aai": "tu dors.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 44,
+   "word": "dors ?",
+   "t": 10.05,
+   "aai": "dors. Quand tu",
+   "google": "Judor",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 45,
+   "word": "Quand",
+   "t": 11.09,
+   "aai": "Quand tu te",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 46,
+   "word": "tu",
+   "t": 11.25,
+   "aai": "Quand tu t'arrêtes",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 47,
+   "word": "te",
+   "t": 11.41,
+   "aai": "Tu te réveilles à",
+   "google": "tu te réveilles",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 48,
+   "word": "réveilles",
+   "t": 11.52,
+   "aai": "Je me réveille à des",
+   "google": "le réveil",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 49,
+   "word": "à",
+   "t": 11.91,
+   "aai": "Il y a des",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 50,
+   "word": "des",
+   "t": 11.97,
+   "aai": "des heures.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 51,
+   "word": "heures",
+   "t": 12.15,
+   "aai": "Très difficile.",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 52,
+   "word": "très",
+   "t": 12.37,
+   "aai": "Très différentes choses.",
+   "google": "très",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 53,
+   "word": "différentes",
+   "t": 12.53,
+   "aai": "différente chaque jour.",
+   "google": "très différente chaque",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 54,
+   "word": "chaque",
+   "t": 13.02,
+   "aai": "chaque jour.",
+   "google": "chaque jour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 55,
+   "word": "jour,",
+   "t": 13.26,
+   "aai": "jour, ton ange",
+   "google": "à jour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 56,
+   "word": "ton",
+   "t": 14.06,
+   "aai": "Ton horloge biologique",
+   "google": "ton or",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 57,
+   "word": "horloge",
+   "t": 14.23,
+   "aai": "L'horloge biologique peut",
+   "google": "une horloge biologique",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 58,
+   "word": "biologique",
+   "t": 14.54,
+   "aai": "biologique peut avoir",
+   "google": "biologique",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 59,
+   "word": "peut",
+   "t": 15.02,
+   "aai": "Peut avoir du",
+   "google": "peut avoir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 60,
+   "word": "avoir",
+   "t": 15.2,
+   "aai": "avoir du mal",
+   "google": "peut avoir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 61,
+   "word": "du",
+   "t": 15.5,
+   "aai": "Du mal à",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 62,
+   "word": "mal",
+   "t": 15.58,
+   "aai": "mal à",
+   "google": "du",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 63,
+   "word": "à",
+   "t": 15.84,
+   "aai": "à garder un",
+   "google": "la Gard",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 64,
+   "word": "garder",
+   "t": 15.98,
+   "aai": "Gardez un œil",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 65,
+   "word": "un",
+   "t": 16.32,
+   "aai": "rythme rapide.",
+   "google": "un",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 66,
+   "word": "rythme",
+   "t": 16.35,
+   "aai": "rythme régulier.",
+   "google": "un rythme régul",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 67,
+   "word": "régulier.",
+   "t": 16.79,
+   "aai": "régulier. Résultat",
+   "google": "régulier résultat",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 68,
+   "word": "Résultat :",
+   "t": 17.67,
+   "aai": "Résultat certains malades",
+   "google": "résultat certains",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 69,
+   "word": "certains",
+   "t": 18.71,
+   "aai": "Certains matins, tu",
+   "google": "certains",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 70,
+   "word": "matins,",
+   "t": 18.99,
+   "aai": "Tu peux",
+   "google": "demain matin",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 71,
+   "word": "tu",
+   "t": 19.31,
+   "aai": "Tu peux te",
+   "google": "que tu",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 72,
+   "word": "peux",
+   "t": 19.43,
+   "aai": "Put de",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 73,
+   "word": "te",
+   "t": 19.59,
+   "aai": "sentir beaucoup",
+   "google": "de te sentir",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 74,
+   "word": "sentir",
+   "t": 19.71,
+   "aai": "Vous allez vous sentir beaucoup plus",
+   "google": "ressentir beaucoup",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 75,
+   "word": "beaucoup",
+   "t": 20.16,
+   "aai": "Beaucoup plus facilement.",
+   "google": "beaucoup plus",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 76,
+   "word": "plus",
+   "t": 20.4,
+   "aai": "plus fatigué que",
+   "google": "beaucoup plus fatigué",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 77,
+   "word": "fatigué",
+   "t": 20.56,
+   "aai": "fatigué que d'autres.",
+   "google": "je suis fatigué",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 78,
+   "word": "que",
+   "t": 21.04,
+   "aai": "d'autres.",
+   "google": "que d'autres",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 79,
+   "word": "d'autres.",
+   "t": 21.12,
+   "aai": "d'autres, mais vous",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 80,
+   "word": "Mais",
+   "t": 22.24,
+   "aai": "Mais voici une",
+   "google": "mais voici",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 81,
+   "word": "voici",
+   "t": 22.36,
+   "aai": "Voici une",
+   "google": "voici",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 82,
+   "word": "une",
+   "t": 22.66,
+   "aai": "une astuce que",
+   "google": "une",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 83,
+   "word": "astuce",
+   "t": 22.82,
+   "aai": "C'est une petite astuce que tu peux",
+   "google": "petites astuces que",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 84,
+   "word": "que",
+   "t": 23.16,
+   "aai": "que tu peux",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 85,
+   "word": "tu",
+   "t": 23.29,
+   "aai": "Tu peux tester.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 86,
+   "word": "peux",
+   "t": 23.37,
+   "aai": "peut tester dès",
+   "google": "tu peux test",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 87,
+   "word": "tester",
+   "t": 23.53,
+   "aai": "testé dès 2018.",
+   "google": "de tester",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 88,
+   "word": "dès",
+   "t": 23.93,
+   "aai": "demain.",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 89,
+   "word": "demain.",
+   "t": 24.09,
+   "aai": "Pendant une",
+   "google": "demain pendant",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 90,
+   "word": "Pendant",
+   "t": 25.05,
+   "aai": "Pendant une semaine,",
+   "google": "pendant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 91,
+   "word": "une",
+   "t": 25.31,
+   "aai": "une semaine.",
+   "google": "une semaine",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 92,
+   "word": "semaine,",
+   "t": 25.45,
+   "aai": "semaine, essaye de",
+   "google": "une semaine",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 93,
+   "word": "essaie",
+   "t": 26.35,
+   "aai": "Essaye de te",
+   "google": "essay",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 94,
+   "word": "de",
+   "t": 26.58,
+   "aai": "de te le",
+   "google": "essaye",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 95,
+   "word": "te",
+   "t": 26.74,
+   "aai": "te lever.",
+   "google": "de",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 96,
+   "word": "lever",
+   "t": 26.9,
+   "aai": "Levez à",
+   "google": "ce",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 97,
+   "word": "à",
+   "t": 27.16,
+   "aai": "à peu près",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 98,
+   "word": "peu",
+   "t": 27.22,
+   "aai": "à peu près.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 99,
+   "word": "près",
+   "t": 27.38,
+   "aai": "prêt à la",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 100,
+   "word": "à",
+   "t": 27.56,
+   "aai": "À la",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 101,
+   "word": "la",
+   "t": 27.62,
+   "aai": "À la même",
+   "google": "pas",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 102,
+   "word": "même",
+   "t": 27.7,
+   "aai": "même heure.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 103,
+   "word": "heure,",
+   "t": 27.96,
+   "aai": "Même",
+   "google": "demeure",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 104,
+   "word": "même",
+   "t": 28.58,
+   "aai": "Même le",
+   "google": "même",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 105,
+   "word": "le",
+   "t": 28.82,
+   "aai": "le week-end.",
+   "google": "comme le weekend",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 106,
+   "word": "week-end,",
+   "t": 28.87,
+   "aai": "week-end. En effet,",
+   "google": "le weekend",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 107,
+   "word": "en",
+   "t": 29.96,
+   "aai": "En évitant les",
+   "google": "en évitant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 108,
+   "word": "évitant",
+   "t": 30.12,
+   "aai": "En évitant les gros",
+   "google": "en évitant",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 109,
+   "word": "les",
+   "t": 30.51,
+   "aai": "Les gros dégâts",
+   "google": "les",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 110,
+   "word": "gros",
+   "t": 30.59,
+   "aai": "gros décalages.",
+   "google": "des gros décalages",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 111,
+   "word": "décalages.",
+   "t": 30.83,
+   "aai": "décalage et",
+   "google": "un décalage",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 112,
+   "word": "Et",
+   "t": 32.13,
+   "aai": "Et dès que",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 113,
+   "word": "dès",
+   "t": 32.27,
+   "aai": "Dès que tu",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 114,
+   "word": "que",
+   "t": 32.35,
+   "aai": "que tu te",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 115,
+   "word": "tu",
+   "t": 32.47,
+   "aai": "tu te lèves.",
+   "google": "que",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 116,
+   "word": "te",
+   "t": 32.6,
+   "aai": "te lèves.",
+   "google": "tu",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 117,
+   "word": "lèves,",
+   "t": 32.76,
+   "aai": "lève, ouvre les",
+   "google": "relève",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 118,
+   "word": "ouvre",
+   "t": 33.58,
+   "aai": "Ouvre les volets.",
+   "google": "ouvre",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 119,
+   "word": "les",
+   "t": 33.75,
+   "aai": "les volets.",
+   "google": "ouvre les",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 120,
+   "word": "volets",
+   "t": 33.88,
+   "aai": "voler. Oui.",
+   "google": "les volets",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 121,
+   "word": "ou",
+   "t": 34.52,
+   "aai": "Wix pose-toi la",
+   "google": "ou exposé",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 122,
+   "word": "expose-toi",
+   "t": 34.54,
+   "aai": "Ou expose-toi à la",
+   "google": "ou exposé",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 123,
+   "word": "à",
+   "t": 35.13,
+   "aai": "Voilà les",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 124,
+   "word": "la",
+   "t": 35.16,
+   "aai": "À la lumière du",
+   "google": "pas la lumière",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 125,
+   "word": "lumière",
+   "t": 35.28,
+   "aai": "lumière du jour.",
+   "google": "la lumière",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 126,
+   "word": "du",
+   "t": 35.6,
+   "aai": "du jour.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 127,
+   "word": "jour.",
+   "t": 35.73,
+   "aai": "Cette lumière",
+   "google": "quelques jours",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 128,
+   "word": "Cette",
+   "t": 36.53,
+   "aai": "Cette lumière est",
+   "google": "cette lumière",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 129,
+   "word": "lumière",
+   "t": 36.77,
+   "aai": "La lumière est",
+   "google": "lumière",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 130,
+   "word": "aide",
+   "t": 37.19,
+   "aai": "Aide ton",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 131,
+   "word": "ton",
+   "t": 37.33,
+   "aai": "Ton cerveau",
+   "google": "ton",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 132,
+   "word": "cerveau",
+   "t": 37.49,
+   "aai": "Mon cerveau a compris",
+   "google": "son cerveau",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 133,
+   "word": "à",
+   "t": 37.83,
+   "aai": "À comprendre que.",
+   "google": "faut à comprendre",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 134,
+   "word": "comprendre",
+   "t": 37.97,
+   "aai": "Comprendre que la",
+   "google": "de comprendre que",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 135,
+   "word": "que",
+   "t": 38.45,
+   "aai": "que la joie",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 136,
+   "word": "la",
+   "t": 38.55,
+   "aai": "la journée comme",
+   "google": "de la journée",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 137,
+   "word": "journée",
+   "t": 38.7,
+   "aai": "journée commence.",
+   "google": "la journée commence",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 138,
+   "word": "commence",
+   "t": 39.02,
+   "aai": "commence.",
+   "google": "commence",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 139,
+   "word": "et",
+   "t": 39.91,
+   "aai": "et contribuent à",
+   "google": "et cont",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 140,
+   "word": "contribue",
+   "t": 40.06,
+   "aai": "contribuent à",
+   "google": "contrib",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 141,
+   "word": "à",
+   "t": 40.48,
+   "aai": "à réguler ton",
+   "google": "Dieu à régul",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 142,
+   "word": "réguler",
+   "t": 40.54,
+   "aai": "réguler ton rythme.",
+   "google": "à réguler",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 143,
+   "word": "ton",
+   "t": 40.94,
+   "aai": "Ton rythme va",
+   "google": "ton ryth",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 144,
+   "word": "rythme",
+   "t": 41.07,
+   "aai": "rythme veille-sommeil.",
+   "google": "mon rythme veille",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 145,
+   "word": "veille-sommeil.",
+   "t": 41.42,
+   "aai": "Veille-sommeil. Autre",
+   "google": "le veille sommeil",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 146,
+   "word": "Autre",
+   "t": 42.88,
+   "aai": "Autre petit conseil",
+   "google": "autre petit",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 147,
+   "word": "petit",
+   "t": 43.11,
+   "aai": "Un petit conseil?",
+   "google": "un petit conseil",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 148,
+   "word": "conseil :",
+   "t": 43.35,
+   "aai": "Conseil évite de",
+   "google": "des conseils",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 149,
+   "word": "évite",
+   "t": 44.25,
+   "aai": "Évite de rester",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 150,
+   "word": "de",
+   "t": 44.47,
+   "aai": "de rester 10",
+   "google": "de rester",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 151,
+   "word": "rester",
+   "t": 44.59,
+   "aai": "rester 10 minutes",
+   "google": "de rester",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 152,
+   "word": "dix",
+   "t": 45.03,
+   "aai": "10 minutes avant",
+   "google": "10",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 153,
+   "word": "minutes",
+   "t": 45.16,
+   "aai": "10 minutes avant",
+   "google": "10 minutes",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 154,
+   "word": "à",
+   "t": 45.53,
+   "aai": "repousser ton",
+   "google": "à repousser",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 155,
+   "word": "repousser",
+   "t": 45.6,
+   "aai": "Repousser ton rêve.",
+   "google": "à repousser",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 156,
+   "word": "ton",
+   "t": 46.08,
+   "aai": "ton réveil.",
+   "google": "ton réveil",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 157,
+   "word": "réveil.",
+   "t": 46.19,
+   "aai": "Réveil prépare plus.",
+   "google": "mon réveil",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 158,
+   "word": "Prépare",
+   "t": 47.04,
+   "aai": "Prépare plutôt ta",
+   "google": "prépare",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 159,
+   "word": "plutôt",
+   "t": 47.44,
+   "aai": "Plutôt tes affaires.",
+   "google": "plutôt",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 160,
+   "word": "tes",
+   "t": 47.68,
+   "aai": "Tes affaires là.",
+   "google": "de tes affaires",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 161,
+   "word": "affaires",
+   "t": 47.86,
+   "aai": "à faire la veille.",
+   "google": "des affaires",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 162,
+   "word": "la",
+   "t": 48.16,
+   "aai": "la veille.",
+   "google": "dans la",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 163,
+   "word": "veille",
+   "t": 48.31,
+   "aai": "Et plein",
+   "google": "merveille",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 164,
+   "word": "et",
+   "t": 48.9,
+   "aai": "Place ton",
+   "google": "les",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 165,
+   "word": "place",
+   "t": 48.97,
+   "aai": "Place ton téléphone",
+   "google": "place",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 166,
+   "word": "ton",
+   "t": 49.21,
+   "aai": "Ton téléphone a",
+   "google": "sur ton téléphone",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 167,
+   "word": "téléphone",
+   "t": 49.37,
+   "aai": "téléphone assez loin.",
+   "google": "mon téléphone assez",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 168,
+   "word": "assez",
+   "t": 49.79,
+   "aai": "assez loin pour",
+   "google": "assez",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 169,
+   "word": "loin",
+   "t": 50.01,
+   "aai": "Pour devenir",
+   "google": "besoin",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 170,
+   "word": "pour",
+   "t": 50.25,
+   "aai": "Pour devoir te",
+   "google": "pour de",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 171,
+   "word": "devoir",
+   "t": 50.36,
+   "aai": "devoir te lever.",
+   "google": "son devoir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 172,
+   "word": "te",
+   "t": 50.65,
+   "aai": "te lever.",
+   "google": "pour te",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 173,
+   "word": "lever.",
+   "t": 50.81,
+   "aai": "Tu ne vas pas",
+   "google": "je vais",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 174,
+   "word": "Tu",
+   "t": 51.7,
+   "aai": "Tu ne vas",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 175,
+   "word": "ne",
+   "t": 51.81,
+   "aai": "Il ne va pas",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 176,
+   "word": "vas",
+   "t": 51.86,
+   "aai": "pas forcément",
+   "google": "il va",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 177,
+   "word": "pas",
+   "t": 52.02,
+   "aai": "Forcément devenir",
+   "google": "pas forcément",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 178,
+   "word": "forcément",
+   "t": 52.1,
+   "aai": "Forcément devenir un",
+   "google": "pas forcément devenir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 179,
+   "word": "devenir",
+   "t": 52.58,
+   "aai": "Devenir un champion.",
+   "google": "de devenir",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 180,
+   "word": "un",
+   "t": 52.92,
+   "aai": "Champion du",
+   "google": "un champion",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 181,
+   "word": "champion",
+   "t": 52.98,
+   "aai": "Champion du Rennes.",
+   "google": "le champion",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 182,
+   "word": "du",
+   "t": 53.38,
+   "aai": "réveil du jour.",
+   "google": "du réveil",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 183,
+   "word": "réveil",
+   "t": 53.46,
+   "aai": "Le réveil du jour",
+   "google": "le réveil",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 184,
+   "word": "du",
+   "t": 53.78,
+   "aai": "Du jour au lendemain,",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 185,
+   "word": "jour",
+   "t": 53.86,
+   "aai": "Du jour au lendemain,",
+   "google": "du",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 186,
+   "word": "au",
+   "t": 54.04,
+   "aai": "homme-là.",
+   "google": "au",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 187,
+   "word": "lendemain.",
+   "t": 54.1,
+   "aai": "Mais pour l'instant,",
+   "google": "le lendemain",
+   "ok_aai": false,
+   "ok_google": true,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 188,
+   "word": "Mais",
+   "t": 54.91,
+   "aai": "Mais parfois,",
+   "google": "mais parfois",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 189,
+   "word": "parfois,",
+   "t": 55.07,
+   "aai": "Mais parfois, pour",
+   "google": "mais parfois pour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 190,
+   "word": "pour",
+   "t": 55.55,
+   "aai": "Pour mieux",
+   "google": "pour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 191,
+   "word": "mieux",
+   "t": 55.66,
+   "aai": "Pour mieux commencer ta",
+   "google": "pour mieux commencer",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 192,
+   "word": "commencer",
+   "t": 55.87,
+   "aai": "commencer ta journée.",
+   "google": "mieux commencer",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 193,
+   "word": "ta",
+   "t": 56.35,
+   "aai": "ta journée.",
+   "google": "ta",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 194,
+   "word": "journée,",
+   "t": 56.51,
+   "aai": "journée, tu",
+   "google": "de la journée",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 195,
+   "word": "tu",
+   "t": 57.07,
+   "aai": "Tu n'as pas",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 196,
+   "word": "n'as",
+   "t": 57.19,
+   "aai": "Tu n'as pas besoin",
+   "google": "tu",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 197,
+   "word": "pas",
+   "t": 57.31,
+   "aai": "Il n'y a pas besoin",
+   "google": "on n'a pas besoin",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 198,
+   "word": "besoin",
+   "t": 57.48,
+   "aai": "Je vous dis à très bientôt.",
+   "google": "même pas",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "ERREUR"
+  },
+  {
+   "i": 199,
+   "word": "de",
+   "t": 57.67,
+   "aai": "1, 2, 3,",
+   "google": "",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 200,
+   "word": "te",
+   "t": 57.8,
+   "aai": "te forcer",
+   "google": "de",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 201,
+   "word": "forcer",
+   "t": 57.96,
+   "aai": "forcer davantage.",
+   "google": "renforcer davantage",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 202,
+   "word": "davantage…",
+   "t": 58.23,
+   "aai": "davantage. Tu as",
+   "google": "davantage",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 203,
+   "word": "tu",
+   "t": 59.24,
+   "aai": "Tu as",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 204,
+   "word": "as",
+   "t": 59.34,
+   "aai": "Tu as surtout besoin",
+   "google": "tu as",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 205,
+   "word": "surtout",
+   "t": 59.4,
+   "aai": "Tu as surtout besoin de",
+   "google": "il a surtout besoin",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 206,
+   "word": "besoin",
+   "t": 59.72,
+   "aai": "besoin de",
+   "google": "tu besoin",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 207,
+   "word": "de",
+   "t": 60.05,
+   "aai": "de donner",
+   "google": "afin de",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 208,
+   "word": "donner",
+   "t": 60.12,
+   "aai": "donner à",
+   "google": "de",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  },
+  {
+   "i": 209,
+   "word": "à",
+   "t": 60.4,
+   "aai": "À ton compte.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 210,
+   "word": "ton",
+   "t": 60.53,
+   "aai": "ton corps.",
+   "google": "",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 211,
+   "word": "corps",
+   "t": 60.69,
+   "aai": "encore un",
+   "google": "encore",
+   "ok_aai": false,
+   "ok_google": false,
+   "verdict": "OK"
+  },
+  {
+   "i": 212,
+   "word": "un",
+   "t": 61.1,
+   "aai": "Un rythme plus",
+   "google": "un",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 213,
+   "word": "rythme",
+   "t": 61.14,
+   "aai": "À un rythme plus régulier,",
+   "google": "un rythme",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 214,
+   "word": "plus",
+   "t": 61.49,
+   "aai": "plus régulier.",
+   "google": "plus régul",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 215,
+   "word": "régulier.",
+   "t": 61.65,
+   "aai": "réguliers. Abonne-toi!",
+   "google": "plus régulier abonnes",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 216,
+   "word": "Abonne-toi,",
+   "t": 62.87,
+   "aai": "Abonne-toi, une nouvelle",
+   "google": "abonne-toi",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 217,
+   "word": "une",
+   "t": 63.59,
+   "aai": "Une nouvelle vie",
+   "google": "une",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 218,
+   "word": "nouvelle",
+   "t": 63.66,
+   "aai": "Une nouvelle vidéo chaque",
+   "google": "une nouvelle vidéo",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 219,
+   "word": "vidéo",
+   "t": 63.9,
+   "aai": "vidéos chaque jour.",
+   "google": "une vidéo",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 220,
+   "word": "chaque",
+   "t": 64.22,
+   "aai": "chaque jour.",
+   "google": "pour chaque jour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 221,
+   "word": "jour.",
+   "t": 64.46,
+   "aai": "jour et",
+   "google": "chaque jour",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 222,
+   "word": "Et",
+   "t": 65.52,
+   "aai": "Et retrouve-nous sur",
+   "google": "et retrouve",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 223,
+   "word": "retrouve-nous",
+   "t": 65.58,
+   "aai": "Retrouve-nous sur",
+   "google": "retrouve nous sur",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 224,
+   "word": "sur",
+   "t": 66.07,
+   "aai": "sur calibody.com.",
+   "google": "sur khalib body.com",
+   "ok_aai": true,
+   "ok_google": true,
+   "verdict": "OK"
+  },
+  {
+   "i": 225,
+   "word": "calibodi.com !",
+   "t": 66.19,
+   "aai": "calibody.com.",
+   "google": "Kelly body.com",
+   "ok_aai": true,
+   "ok_google": false,
+   "verdict": "DOUTE"
+  }
+ ],
+ "phrases": [
+  {
+   "phrase": 1,
+   "par": "AssemblyAI",
+   "attendu": "trois",
+   "entendu": "3"
+  },
+  {
+   "phrase": 1,
+   "par": "AssemblyAI",
+   "attendu": "quatre",
+   "entendu": "4"
+  },
+  {
+   "phrase": 1,
+   "par": "AssemblyAI",
+   "attendu": "cinq",
+   "entendu": "5"
+  },
+  {
+   "phrase": 1,
+   "par": "Google",
+   "attendu": "trois",
+   "entendu": "3"
+  },
+  {
+   "phrase": 1,
+   "par": "Google",
+   "attendu": "quatre",
+   "entendu": "4"
+  },
+  {
+   "phrase": 1,
+   "par": "Google",
+   "attendu": "cinq",
+   "entendu": "5"
+  },
+  {
+   "phrase": 6,
+   "par": "Google",
+   "attendu": "a",
+   "entendu": ""
+  },
+  {
+   "phrase": 7,
+   "par": "AssemblyAI",
+   "attendu": "dix",
+   "entendu": "10"
+  },
+  {
+   "phrase": 7,
+   "par": "Google",
+   "attendu": "dix",
+   "entendu": "10"
+  }
+ ],
+ "anomalies": []
+}

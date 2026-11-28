@@ -1,0 +1,59 @@
+{
+ "voice": "fr-FR-Chirp3-HD-Iapetus",
+ "rate": 1.0,
+ "lead": 0.15,
+ "max_gap": 0.5,
+ "sentences": [
+  {
+   "id": "s01",
+   "text": "Tu repousses ton réveil trois ou quatre fois chaque matin ? Tu te dis que tu vas juste dormir cinq minutes de plus… et finalement, tu te lèves complètement dans le brouillard ?",
+   "pause": 0.6
+  },
+  {
+   "id": "s02",
+   "text": "Et si le problème ne venait pas seulement du nombre d'heures que tu dors ?",
+   "pause": 0.7
+  },
+  {
+   "id": "s03",
+   "text": "Quand tu te réveilles à des heures très différentes chaque jour, ton horloge biologique peut avoir du mal à garder un rythme régulier. Résultat : certains matins, tu peux te sentir beaucoup plus fatigué que d'autres.",
+   "pause": 0.6
+  },
+  {
+   "id": "s04",
+   "text": "Mais voici une astuce que tu peux tester dès demain.",
+   "pause": 0.6
+  },
+  {
+   "id": "s05",
+   "text": "Pendant une semaine, essaie de te lever à peu près à la même heure, même le week-end, en évitant les gros décalages.",
+   "pause": 0.6
+  },
+  {
+   "id": "s06",
+   "text": "Et dès que tu te lèves, ouvre les volets ou expose-toi à la lumière du jour. Cette lumière aide ton cerveau à comprendre que la journée commence et contribue à réguler ton rythme veille-sommeil.",
+   "pause": 0.6
+  },
+  {
+   "id": "s07",
+   "text": "Autre petit conseil : évite de rester dix minutes à repousser ton réveil. Prépare plutôt tes affaires la veille et place ton téléphone assez loin pour devoir te lever.",
+   "pause": 0.6
+  },
+  {
+   "id": "s08",
+   "text": "Tu ne vas pas forcément devenir un champion du réveil du jour au lendemain.",
+   "pause": 0.5
+  },
+  {
+   "id": "s09",
+   "text": "Mais parfois, pour mieux commencer ta journée, tu n'as pas besoin de te forcer davantage… tu as surtout besoin de donner à ton corps un rythme plus régulier.",
+   "pause": 0.5
+  },
+  {
+   "id": "s10",
+   "text": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur calibodi.com !",
+   "pause": 0.3,
+   "say": "Abonne-toi, une nouvelle vidéo chaque jour. Et retrouve-nous sur CaliBodi point com !"
+  }
+ ]
+}

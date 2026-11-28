@@ -1,0 +1,1136 @@
+{
+ "duration": 67.817,
+ "words": [
+  {
+   "word": "Tu",
+   "start": 0.176,
+   "end": 0.288
+  },
+  {
+   "word": "repousses",
+   "start": 0.288,
+   "end": 0.738
+  },
+  {
+   "word": "ton",
+   "start": 0.738,
+   "end": 0.818
+  },
+  {
+   "word": "réveil",
+   "start": 0.818,
+   "end": 1.219
+  },
+  {
+   "word": "3",
+   "start": 1.219,
+   "end": 1.54
+  },
+  {
+   "word": "ou",
+   "start": 1.556,
+   "end": 1.62
+  },
+  {
+   "word": "4",
+   "start": 1.701,
+   "end": 1.845
+  },
+  {
+   "word": "fois",
+   "start": 1.861,
+   "end": 2.022
+  },
+  {
+   "word": "chaque",
+   "start": 2.022,
+   "end": 2.198
+  },
+  {
+   "word": "matin?",
+   "start": 2.214,
+   "end": 2.471
+  },
+  {
+   "word": "Tu",
+   "start": 3.065,
+   "end": 3.225
+  },
+  {
+   "word": "te",
+   "start": 3.225,
+   "end": 3.306
+  },
+  {
+   "word": "dis",
+   "start": 3.306,
+   "end": 3.466
+  },
+  {
+   "word": "que",
+   "start": 3.466,
+   "end": 3.627
+  },
+  {
+   "word": "tu",
+   "start": 3.627,
+   "end": 3.723
+  },
+  {
+   "word": "vas",
+   "start": 3.723,
+   "end": 3.867
+  },
+  {
+   "word": "juste",
+   "start": 3.867,
+   "end": 4.188
+  },
+  {
+   "word": "dormir",
+   "start": 4.188,
+   "end": 4.493
+  },
+  {
+   "word": "5",
+   "start": 4.509,
+   "end": 4.638
+  },
+  {
+   "word": "minutes",
+   "start": 4.638,
+   "end": 4.911
+  },
+  {
+   "word": "de",
+   "start": 4.911,
+   "end": 4.991
+  },
+  {
+   "word": "plus",
+   "start": 5.071,
+   "end": 5.231
+  },
+  {
+   "word": "et",
+   "start": 5.328,
+   "end": 5.392
+  },
+  {
+   "word": "finalement",
+   "start": 5.392,
+   "end": 5.793
+  },
+  {
+   "word": "tu",
+   "start": 5.793,
+   "end": 5.954
+  },
+  {
+   "word": "te",
+   "start": 5.954,
+   "end": 6.034
+  },
+  {
+   "word": "lèves",
+   "start": 6.034,
+   "end": 6.194
+  },
+  {
+   "word": "complètement",
+   "start": 6.194,
+   "end": 6.676
+  },
+  {
+   "word": "dans",
+   "start": 6.676,
+   "end": 6.756
+  },
+  {
+   "word": "le",
+   "start": 6.756,
+   "end": 6.836
+  },
+  {
+   "word": "brouillard?",
+   "start": 6.836,
+   "end": 7.125
+  },
+  {
+   "word": "Et",
+   "start": 7.896,
+   "end": 7.96
+  },
+  {
+   "word": "si",
+   "start": 7.96,
+   "end": 8.072
+  },
+  {
+   "word": "le",
+   "start": 8.072,
+   "end": 8.12
+  },
+  {
+   "word": "problème",
+   "start": 8.12,
+   "end": 8.425
+  },
+  {
+   "word": "ne",
+   "start": 8.522,
+   "end": 8.586
+  },
+  {
+   "word": "venait",
+   "start": 8.586,
+   "end": 8.762
+  },
+  {
+   "word": "pas",
+   "start": 8.762,
+   "end": 8.923
+  },
+  {
+   "word": "seulement",
+   "start": 8.923,
+   "end": 9.196
+  },
+  {
+   "word": "du",
+   "start": 9.196,
+   "end": 9.324
+  },
+  {
+   "word": "nombre",
+   "start": 9.324,
+   "end": 9.565
+  },
+  {
+   "word": "d'heures",
+   "start": 9.565,
+   "end": 9.886
+  },
+  {
+   "word": "que",
+   "start": 9.886,
+   "end": 9.966
+  },
+  {
+   "word": "tu",
+   "start": 9.966,
+   "end": 10.046
+  },
+  {
+   "word": "dors?",
+   "start": 10.046,
+   "end": 10.239
+  },
+  {
+   "word": "Quand",
+   "start": 11.089,
+   "end": 11.25
+  },
+  {
+   "word": "tu",
+   "start": 11.25,
+   "end": 11.41
+  },
+  {
+   "word": "te",
+   "start": 11.41,
+   "end": 11.523
+  },
+  {
+   "word": "réveilles",
+   "start": 11.523,
+   "end": 11.908
+  },
+  {
+   "word": "à",
+   "start": 11.908,
+   "end": 11.972
+  },
+  {
+   "word": "des",
+   "start": 11.972,
+   "end": 12.052
+  },
+  {
+   "word": "heures",
+   "start": 12.149,
+   "end": 12.277
+  },
+  {
+   "word": "très",
+   "start": 12.373,
+   "end": 12.534
+  },
+  {
+   "word": "différentes",
+   "start": 12.534,
+   "end": 13.015
+  },
+  {
+   "word": "chaque",
+   "start": 13.015,
+   "end": 13.256
+  },
+  {
+   "word": "jour,",
+   "start": 13.256,
+   "end": 13.481
+  },
+  {
+   "word": "ton",
+   "start": 14.058,
+   "end": 14.235
+  },
+  {
+   "word": "horloge",
+   "start": 14.235,
+   "end": 14.54
+  },
+  {
+   "word": "biologique",
+   "start": 14.54,
+   "end": 15.021
+  },
+  {
+   "word": "peut",
+   "start": 15.021,
+   "end": 15.182
+  },
+  {
+   "word": "avoir",
+   "start": 15.198,
+   "end": 15.455
+  },
+  {
+   "word": "du",
+   "start": 15.503,
+   "end": 15.583
+  },
+  {
+   "word": "mal",
+   "start": 15.583,
+   "end": 15.84
+  },
+  {
+   "word": "à",
+   "start": 15.84,
+   "end": 15.872
+  },
+  {
+   "word": "garder",
+   "start": 15.984,
+   "end": 16.321
+  },
+  {
+   "word": "un",
+   "start": 16.321,
+   "end": 16.354
+  },
+  {
+   "word": "rythme",
+   "start": 16.354,
+   "end": 16.771
+  },
+  {
+   "word": "régulier.",
+   "start": 16.787,
+   "end": 17.236
+  },
+  {
+   "word": "Résultat:",
+   "start": 17.67,
+   "end": 18.119
+  },
+  {
+   "word": "certains",
+   "start": 18.713,
+   "end": 18.986
+  },
+  {
+   "word": "matins",
+   "start": 18.986,
+   "end": 19.274
+  },
+  {
+   "word": "tu",
+   "start": 19.307,
+   "end": 19.435
+  },
+  {
+   "word": "peux",
+   "start": 19.435,
+   "end": 19.595
+  },
+  {
+   "word": "te",
+   "start": 19.595,
+   "end": 19.676
+  },
+  {
+   "word": "sentir",
+   "start": 19.708,
+   "end": 20.141
+  },
+  {
+   "word": "beaucoup",
+   "start": 20.157,
+   "end": 20.398
+  },
+  {
+   "word": "plus",
+   "start": 20.398,
+   "end": 20.558
+  },
+  {
+   "word": "fatigué",
+   "start": 20.558,
+   "end": 20.96
+  },
+  {
+   "word": "que",
+   "start": 21.04,
+   "end": 21.12
+  },
+  {
+   "word": "d'autres.",
+   "start": 21.12,
+   "end": 21.457
+  },
+  {
+   "word": "Mais",
+   "start": 22.244,
+   "end": 22.324
+  },
+  {
+   "word": "voici",
+   "start": 22.356,
+   "end": 22.661
+  },
+  {
+   "word": "une",
+   "start": 22.661,
+   "end": 22.773
+  },
+  {
+   "word": "astuce",
+   "start": 22.821,
+   "end": 23.11
+  },
+  {
+   "word": "que",
+   "start": 23.158,
+   "end": 23.287
+  },
+  {
+   "word": "tu",
+   "start": 23.287,
+   "end": 23.367
+  },
+  {
+   "word": "peux",
+   "start": 23.367,
+   "end": 23.527
+  },
+  {
+   "word": "tester",
+   "start": 23.527,
+   "end": 23.929
+  },
+  {
+   "word": "dès",
+   "start": 23.929,
+   "end": 24.009
+  },
+  {
+   "word": "demain.",
+   "start": 24.089,
+   "end": 24.218
+  },
+  {
+   "word": "Pendant",
+   "start": 25.052,
+   "end": 25.293
+  },
+  {
+   "word": "une",
+   "start": 25.309,
+   "end": 25.453
+  },
+  {
+   "word": "semaine,",
+   "start": 25.453,
+   "end": 25.903
+  },
+  {
+   "word": "Essaye",
+   "start": 26.352,
+   "end": 26.577
+  },
+  {
+   "word": "de",
+   "start": 26.577,
+   "end": 26.737
+  },
+  {
+   "word": "te",
+   "start": 26.737,
+   "end": 26.898
+  },
+  {
+   "word": "lever",
+   "start": 26.898,
+   "end": 27.107
+  },
+  {
+   "word": "à",
+   "start": 27.155,
+   "end": 27.219
+  },
+  {
+   "word": "peu",
+   "start": 27.219,
+   "end": 27.379
+  },
+  {
+   "word": "près",
+   "start": 27.379,
+   "end": 27.556
+  },
+  {
+   "word": "à",
+   "start": 27.556,
+   "end": 27.62
+  },
+  {
+   "word": "la",
+   "start": 27.62,
+   "end": 27.7
+  },
+  {
+   "word": "même",
+   "start": 27.7,
+   "end": 27.845
+  },
+  {
+   "word": "heure,",
+   "start": 27.957,
+   "end": 28.086
+  },
+  {
+   "word": "même",
+   "start": 28.583,
+   "end": 28.728
+  },
+  {
+   "word": "le",
+   "start": 28.824,
+   "end": 28.872
+  },
+  {
+   "word": "week-end,",
+   "start": 28.872,
+   "end": 29.37
+  },
+  {
+   "word": "en",
+   "start": 29.964,
+   "end": 30.124
+  },
+  {
+   "word": "évitant",
+   "start": 30.124,
+   "end": 30.509
+  },
+  {
+   "word": "les",
+   "start": 30.509,
+   "end": 30.59
+  },
+  {
+   "word": "gros",
+   "start": 30.59,
+   "end": 30.83
+  },
+  {
+   "word": "décalages.",
+   "start": 30.83,
+   "end": 31.28
+  },
+  {
+   "word": "Et",
+   "start": 32.13,
+   "end": 32.195
+  },
+  {
+   "word": "dès",
+   "start": 32.275,
+   "end": 32.355
+  },
+  {
+   "word": "que",
+   "start": 32.355,
+   "end": 32.435
+  },
+  {
+   "word": "tu",
+   "start": 32.467,
+   "end": 32.564
+  },
+  {
+   "word": "te",
+   "start": 32.596,
+   "end": 32.756
+  },
+  {
+   "word": "lèves,",
+   "start": 32.756,
+   "end": 32.965
+  },
+  {
+   "word": "ouvre",
+   "start": 33.575,
+   "end": 33.752
+  },
+  {
+   "word": "les",
+   "start": 33.752,
+   "end": 33.88
+  },
+  {
+   "word": "volets",
+   "start": 33.88,
+   "end": 34.04
+  },
+  {
+   "word": "ou",
+   "start": 34.522,
+   "end": 34.538
+  },
+  {
+   "word": "expose-toi",
+   "start": 34.538,
+   "end": 35.132
+  },
+  {
+   "word": "à",
+   "start": 35.132,
+   "end": 35.164
+  },
+  {
+   "word": "la",
+   "start": 35.164,
+   "end": 35.276
+  },
+  {
+   "word": "lumière",
+   "start": 35.276,
+   "end": 35.597
+  },
+  {
+   "word": "du",
+   "start": 35.597,
+   "end": 35.726
+  },
+  {
+   "word": "jour.",
+   "start": 35.726,
+   "end": 35.934
+  },
+  {
+   "word": "Cette",
+   "start": 36.528,
+   "end": 36.769
+  },
+  {
+   "word": "lumière",
+   "start": 36.769,
+   "end": 37.074
+  },
+  {
+   "word": "aide",
+   "start": 37.186,
+   "end": 37.331
+  },
+  {
+   "word": "ton",
+   "start": 37.331,
+   "end": 37.491
+  },
+  {
+   "word": "cerveau",
+   "start": 37.491,
+   "end": 37.78
+  },
+  {
+   "word": "à",
+   "start": 37.828,
+   "end": 37.973
+  },
+  {
+   "word": "comprendre",
+   "start": 37.973,
+   "end": 38.438
+  },
+  {
+   "word": "que",
+   "start": 38.454,
+   "end": 38.551
+  },
+  {
+   "word": "la",
+   "start": 38.551,
+   "end": 38.695
+  },
+  {
+   "word": "journée",
+   "start": 38.695,
+   "end": 39.016
+  },
+  {
+   "word": "commence",
+   "start": 39.016,
+   "end": 39.514
+  },
+  {
+   "word": "et",
+   "start": 39.915,
+   "end": 39.979
+  },
+  {
+   "word": "contribue",
+   "start": 40.06,
+   "end": 40.477
+  },
+  {
+   "word": "à",
+   "start": 40.477,
+   "end": 40.541
+  },
+  {
+   "word": "réguler",
+   "start": 40.541,
+   "end": 40.942
+  },
+  {
+   "word": "ton",
+   "start": 40.942,
+   "end": 41.071
+  },
+  {
+   "word": "rythme",
+   "start": 41.071,
+   "end": 41.408
+  },
+  {
+   "word": "veille-sommeil.",
+   "start": 41.424,
+   "end": 41.873
+  },
+  {
+   "word": "Autre",
+   "start": 42.884,
+   "end": 43.013
+  },
+  {
+   "word": "petit",
+   "start": 43.109,
+   "end": 43.35
+  },
+  {
+   "word": "conseil:",
+   "start": 43.35,
+   "end": 43.783
+  },
+  {
+   "word": "évite",
+   "start": 44.249,
+   "end": 44.474
+  },
+  {
+   "word": "de",
+   "start": 44.474,
+   "end": 44.586
+  },
+  {
+   "word": "rester",
+   "start": 44.586,
+   "end": 45.035
+  },
+  {
+   "word": "10",
+   "start": 45.035,
+   "end": 45.164
+  },
+  {
+   "word": "minutes",
+   "start": 45.164,
+   "end": 45.533
+  },
+  {
+   "word": "à",
+   "start": 45.533,
+   "end": 45.597
+  },
+  {
+   "word": "repousser",
+   "start": 45.597,
+   "end": 46.079
+  },
+  {
+   "word": "ton",
+   "start": 46.079,
+   "end": 46.191
+  },
+  {
+   "word": "réveil.",
+   "start": 46.191,
+   "end": 46.512
+  },
+  {
+   "word": "Prépare",
+   "start": 47.042,
+   "end": 47.427
+  },
+  {
+   "word": "plutôt",
+   "start": 47.443,
+   "end": 47.636
+  },
+  {
+   "word": "tes",
+   "start": 47.684,
+   "end": 47.86
+  },
+  {
+   "word": "affaires",
+   "start": 47.86,
+   "end": 48.149
+  },
+  {
+   "word": "la",
+   "start": 48.165,
+   "end": 48.31
+  },
+  {
+   "word": "veille",
+   "start": 48.31,
+   "end": 48.599
+  },
+  {
+   "word": "et",
+   "start": 48.904,
+   "end": 48.968
+  },
+  {
+   "word": "place",
+   "start": 48.968,
+   "end": 49.209
+  },
+  {
+   "word": "ton",
+   "start": 49.209,
+   "end": 49.369
+  },
+  {
+   "word": "téléphone",
+   "start": 49.369,
+   "end": 49.722
+  },
+  {
+   "word": "assez",
+   "start": 49.786,
+   "end": 50.011
+  },
+  {
+   "word": "loin",
+   "start": 50.011,
+   "end": 50.172
+  },
+  {
+   "word": "pour",
+   "start": 50.252,
+   "end": 50.364
+  },
+  {
+   "word": "devoir",
+   "start": 50.364,
+   "end": 50.653
+  },
+  {
+   "word": "te",
+   "start": 50.653,
+   "end": 50.814
+  },
+  {
+   "word": "lever.",
+   "start": 50.814,
+   "end": 51.022
+  },
+  {
+   "word": "Tu",
+   "start": 51.696,
+   "end": 51.809
+  },
+  {
+   "word": "ne",
+   "start": 51.809,
+   "end": 51.857
+  },
+  {
+   "word": "vas",
+   "start": 51.857,
+   "end": 51.937
+  },
+  {
+   "word": "pas",
+   "start": 52.017,
+   "end": 52.098
+  },
+  {
+   "word": "forcément",
+   "start": 52.098,
+   "end": 52.579
+  },
+  {
+   "word": "devenir",
+   "start": 52.579,
+   "end": 52.868
+  },
+  {
+   "word": "un",
+   "start": 52.916,
+   "end": 52.98
+  },
+  {
+   "word": "champion",
+   "start": 52.98,
+   "end": 53.382
+  },
+  {
+   "word": "du",
+   "start": 53.382,
+   "end": 53.462
+  },
+  {
+   "word": "réveil",
+   "start": 53.462,
+   "end": 53.783
+  },
+  {
+   "word": "du",
+   "start": 53.783,
+   "end": 53.863
+  },
+  {
+   "word": "jour",
+   "start": 53.863,
+   "end": 54.04
+  },
+  {
+   "word": "au",
+   "start": 54.04,
+   "end": 54.104
+  },
+  {
+   "word": "lendemain.",
+   "start": 54.104,
+   "end": 54.313
+  },
+  {
+   "word": "Mais",
+   "start": 54.907,
+   "end": 55.067
+  },
+  {
+   "word": "parfois,",
+   "start": 55.067,
+   "end": 55.437
+  },
+  {
+   "word": "pour",
+   "start": 55.549,
+   "end": 55.661
+  },
+  {
+   "word": "mieux",
+   "start": 55.661,
+   "end": 55.838
+  },
+  {
+   "word": "commencer",
+   "start": 55.87,
+   "end": 56.352
+  },
+  {
+   "word": "ta",
+   "start": 56.352,
+   "end": 56.512
+  },
+  {
+   "word": "journée,",
+   "start": 56.512,
+   "end": 56.801
+  },
+  {
+   "word": "tu",
+   "start": 57.074,
+   "end": 57.187
+  },
+  {
+   "word": "n'as",
+   "start": 57.187,
+   "end": 57.315
+  },
+  {
+   "word": "pas",
+   "start": 57.315,
+   "end": 57.476
+  },
+  {
+   "word": "besoin",
+   "start": 57.476,
+   "end": 57.668
+  },
+  {
+   "word": "de",
+   "start": 57.668,
+   "end": 57.717
+  },
+  {
+   "word": "te",
+   "start": 57.797,
+   "end": 57.877
+  },
+  {
+   "word": "forcer",
+   "start": 57.957,
+   "end": 58.23
+  },
+  {
+   "word": "davantage.",
+   "start": 58.23,
+   "end": 58.728
+  },
+  {
+   "word": "Tu",
+   "start": 59.242,
+   "end": 59.338
+  },
+  {
+   "word": "as",
+   "start": 59.338,
+   "end": 59.403
+  },
+  {
+   "word": "surtout",
+   "start": 59.403,
+   "end": 59.724
+  },
+  {
+   "word": "besoin",
+   "start": 59.724,
+   "end": 60.045
+  },
+  {
+   "word": "de",
+   "start": 60.045,
+   "end": 60.125
+  },
+  {
+   "word": "donner",
+   "start": 60.125,
+   "end": 60.398
+  },
+  {
+   "word": "à",
+   "start": 60.398,
+   "end": 60.43
+  },
+  {
+   "word": "ton",
+   "start": 60.527,
+   "end": 60.687
+  },
+  {
+   "word": "corps",
+   "start": 60.687,
+   "end": 60.912
+  },
+  {
+   "word": "un",
+   "start": 61.105,
+   "end": 61.137
+  },
+  {
+   "word": "rythme",
+   "start": 61.137,
+   "end": 61.49
+  },
+  {
+   "word": "plus",
+   "start": 61.49,
+   "end": 61.65
+  },
+  {
+   "word": "régulier.",
+   "start": 61.65,
+   "end": 62.02
+  },
+  {
+   "word": "Abonne-toi,",
+   "start": 62.871,
+   "end": 63.304
+  },
+  {
+   "word": "une",
+   "start": 63.593,
+   "end": 63.658
+  },
+  {
+   "word": "nouvelle",
+   "start": 63.658,
+   "end": 63.898
+  },
+  {
+   "word": "vidéo",
+   "start": 63.898,
+   "end": 64.22
+  },
+  {
+   "word": "chaque",
+   "start": 64.22,
+   "end": 64.46
+  },
+  {
+   "word": "jour,",
+   "start": 64.46,
+   "end": 64.749
+  },
+  {
+   "word": "et",
+   "start": 65.52,
+   "end": 65.584
+  },
+  {
+   "word": "retrouve-nous",
+   "start": 65.584,
+   "end": 65.986
+  },
+  {
+   "word": "sur",
+   "start": 66.066,
+   "end": 66.178
+  },
+  {
+   "word": "calibody.com.",
+   "start": 66.195,
+   "end": 67.078
+  }
+ ],
+ "text": "Tu repousses ton réveil 3 ou 4 fois chaque matin? Tu te dis que tu vas juste dormir 5 minutes de plus et finalement tu te lèves complètement dans le brouillard? Et si le problème ne venait pas seulement du nombre d'heures que tu dors? Quand tu te réveilles à des heures très différentes chaque jour, ton horloge biologique peut avoir du mal à garder un rythme régulier. Résultat: certains matins tu peux te sentir beaucoup plus fatigué que d'autres. Mais voici une astuce que tu peux tester dès demain. Pendant une semaine, Essaye de te lever à peu près à la même heure, même le week-end, en évitant les gros décalages. Et dès que tu te lèves, ouvre les volets ou expose-toi à la lumière du jour. Cette lumière aide ton cerveau à comprendre que la journée commence et contribue à réguler ton rythme veille-sommeil. Autre petit conseil: évite de rester 10 minutes à repousser ton réveil. Prépare plutôt tes affaires la veille et place ton téléphone assez loin pour devoir te lever. Tu ne vas pas forcément devenir un champion du réveil du jour au lendemain. Mais parfois, pour mieux commencer ta journée, tu n'as pas besoin de te forcer davantage. Tu as surtout besoin de donner à ton corps un rythme plus régulier. Abonne-toi, une nouvelle vidéo chaque jour, et retrouve-nous sur calibody.com."
+}
