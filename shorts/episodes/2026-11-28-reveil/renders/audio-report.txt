@@ -1,0 +1,49 @@
+duration 68.52s · bpm 120 · 70 kicks
+  sfx reveil       0.12 ->   0.02  dropped (would mask a word) · own file
+  sfx tick         0.29 ->   0.43  -23.0 dB vs voice (lowered -13.0 dB) · own file
+  sfx whoosh       3.00 ->   2.91   -6.0 dB vs voice · in a breath · own file
+  sfx tick         4.19 ->   4.34  -23.0 dB vs voice (lowered -13.0 dB) · own file
+  sfx whoosh       5.30 ->   5.36  dropped (would mask a word) · own file
+  sfx tick         5.95 ->   6.10  dropped (would mask a word) · own file
+  sfx click        7.80 ->   7.70  -22.9 dB vs voice (lowered -14.9 dB, word attack) · own file
+  sfx tick         8.52 ->   8.59  dropped (would mask a word) · own file
+  sfx whoosh      11.05 ->  10.96   -6.0 dB vs voice · in a breath · own file
+  sfx tick        11.25 ->  11.20  dropped (would mask a word) · own file
+  sfx whoosh      14.00 ->  13.91   -6.0 dB vs voice · in a breath · own file
+  sfx tick        14.06 ->  13.96  -23.6 dB vs voice (lowered -13.6 dB) · own file
+  sfx click       17.60 ->  17.75  -14.4 dB vs voice (lowered -6.4 dB) · own file
+  sfx tick        17.67 ->  17.76  -23.5 dB vs voice (lowered -13.5 dB, word attack) · own file
+  sfx whoosh      22.00 ->  21.98   -6.0 dB vs voice · in a breath · own file
+  sfx tick        22.82 ->  22.83  -18.8 dB vs voice (lowered -8.8 dB) · own file
+  sfx whoosh      24.95 ->  24.85   -6.0 dB vs voice · in a breath · own file
+  sfx tick        25.05 ->  24.95  -15.6 dB vs voice (lowered -5.6 dB, word attack) · own file
+  sfx click       28.55 ->  28.45  dropped (would mask a word) · own file
+  sfx tick        28.58 ->  28.48  dropped (would mask a word) · own file
+  sfx whoosh      32.00 ->  31.96   -6.0 dB vs voice · in a breath · own file
+  sfx tick        32.13 ->  32.03  -21.4 dB vs voice (lowered -11.4 dB) · own file
+  sfx whoosh      36.50 ->  36.40  -19.5 dB vs voice (lowered -13.5 dB) · in a breath · own file
+  sfx tick        36.53 ->  36.43  -16.4 dB vs voice (lowered -6.4 dB) · own file
+  sfx check       38.55 ->  38.61  dropped (would mask a word) · own file
+  sfx click       39.90 ->  39.80  dropped (would mask a word) · own file
+  sfx tick        40.54 ->  40.51  -24.3 dB vs voice (lowered -14.3 dB) · own file
+  sfx whoosh      42.70 ->  42.61   -6.0 dB vs voice · in a breath · own file
+  sfx tick        42.88 ->  43.01  -21.9 dB vs voice (lowered -11.9 dB) · own file
+  sfx whoosh      44.25 ->  44.38  dropped (would mask a word) · own file
+  sfx tick        44.25 ->  44.25  -21.7 dB vs voice (lowered -11.7 dB) · own file
+  sfx click       47.00 ->  46.90  dropped (would mask a word) · own file
+  sfx tick        47.04 ->  46.94  -21.8 dB vs voice (lowered -11.8 dB) · own file
+  sfx whoosh      49.00 ->  49.08  dropped (would mask a word) · own file
+  sfx tick        49.21 ->  49.12  -19.9 dB vs voice (lowered -9.9 dB) · own file
+  sfx notification  49.21 ->  49.11  dropped (would mask a word) · own file
+  sfx whoosh      51.60 ->  51.50   -6.0 dB vs voice · in a breath · own file
+  sfx tick        51.86 ->  52.01  dropped (would mask a word) · own file
+  sfx thump       52.98 ->  52.89   -9.4 dB vs voice (lowered -7.4 dB, word attack) · own file
+  sfx click       54.85 ->  54.75  dropped (would mask a word) · own file
+  sfx tick        54.91 ->  54.81  -22.7 dB vs voice (lowered -12.7 dB) · own file
+  sfx whoosh      59.20 ->  59.10   -6.0 dB vs voice · in a breath · own file
+  sfx tick        59.40 ->  59.44  -18.4 dB vs voice (lowered -8.4 dB) · own file
+  sfx whoosh      62.60 ->  62.52   -6.0 dB vs voice · in a breath · own file
+  sfx shimmer     65.20 ->  65.10   -9.4 dB vs voice (lowered -1.4 dB) · own file
+voice -13.5 LUFS · music -29.5 LUFS · sfx -30.5 LUFS · mix -13.5 LUFS
+speech band (300-3400 Hz) while talking: voice is 21.0 dB above the music
+music in pauses: -30.1 dBFS · voice while talking: -15.1 dBFS

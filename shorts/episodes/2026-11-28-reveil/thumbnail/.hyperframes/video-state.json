@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "historyId": "e19b23f5-5df6-44dc-8227-17ab014d751b",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/brand/icon-512.png": {
+      "hash": "1944b8525c899450deff18a23cba1c90734b2d008ea0455f5095532986b17f22",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/19/1944b8525c899450deff18a23cba1c90734b2d008ea0455f5095532986b17f22"
+    },
+    "assets/fonts/Caveat-700-latin-ext.woff2": {
+      "hash": "f97b55783e417e37fce40600ad946b11eb63741a1cfdb2cd3907febc3cd8927f",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/f9/f97b55783e417e37fce40600ad946b11eb63741a1cfdb2cd3907febc3cd8927f"
+    },
+    "assets/fonts/Caveat-700-latin.woff2": {
+      "hash": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/15/15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405"
+    },
+    "assets/fonts/Montserrat-500-latin-ext.woff2": {
+      "hash": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/54/54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    "assets/fonts/Montserrat-500-latin.woff2": {
+      "hash": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/06/06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    "assets/fonts/Montserrat-600-latin-ext.woff2": {
+      "hash": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/54/54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    "assets/fonts/Montserrat-600-latin.woff2": {
+      "hash": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/06/06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    "assets/fonts/Montserrat-800-latin-ext.woff2": {
+      "hash": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/54/54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    "assets/fonts/Montserrat-800-latin.woff2": {
+      "hash": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/06/06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    },
+    "assets/fonts/Montserrat-900-latin-ext.woff2": {
+      "hash": "f4fcedc59ae41e24d67bcbd406c7a5f0b6e21ab57d2f4c198e1b1486f3832330",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/f4/f4fcedc59ae41e24d67bcbd406c7a5f0b6e21ab57d2f4c198e1b1486f3832330"
+    },
+    "assets/fonts/Montserrat-900-latin.woff2": {
+      "hash": "5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/5b/5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205"
+    },
+    "assets/fx/grain.png": {
+      "hash": "f31725459f1e6ed1268a65f9e7080751ad0519767014bf4d76c951a6d1b16bce",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/f3/f31725459f1e6ed1268a65f9e7080751ad0519767014bf4d76c951a6d1b16bce"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/92/92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "hyperframes.json": {
+      "hash": "59f217caa367f193d879fd3e5b84dee5b0793b5a617094711df1f4d4de5b30bc",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/59/59f217caa367f193d879fd3e5b84dee5b0793b5a617094711df1f4d4de5b30bc"
+    },
+    "img/calix-fatigue.png": {
+      "hash": "eb343b86df29a187b63e7ae34316dce5800204c8992edbf2a63d2723bbd894a8",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/eb/eb343b86df29a187b63e7ae34316dce5800204c8992edbf2a63d2723bbd894a8"
+    },
+    "img/calix-sceptique.png": {
+      "hash": "3c16b43591d27f6922f8b12cbd8e2f49ed6aa92c67cf154fe745d92c97b12177",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/3c/3c16b43591d27f6922f8b12cbd8e2f49ed6aa92c67cf154fe745d92c97b12177"
+    },
+    "img/fond.jpg": {
+      "hash": "e4d63c5b9b9d5ba4c77df902da43a3c29e0ecd0a9f9923b9a5314faadee5f51d",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/e4/e4d63c5b9b9d5ba4c77df902da43a3c29e0ecd0a9f9923b9a5314faadee5f51d"
+    },
+    "index.html": {
+      "hash": "0c3d94cbc15d69f28b86489b6186cb21289e7e770f1a241d4cb7a0adc2626ff9",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/0c/0c3d94cbc15d69f28b86489b6186cb21289e7e770f1a241d4cb7a0adc2626ff9"
+    },
+    "meta.json": {
+      "hash": "1f875f3c9012f8e2048025f3a1602a94310752d3777931ac5959ca867b8f8db8",
+      "content": "/root/.cache/hyperframes/history/e19b23f5-5df6-44dc-8227-17ab014d751b/blobs/1f/1f875f3c9012f8e2048025f3a1602a94310752d3777931ac5959ca867b8f8db8"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "49586e36-22e3-4efe-84e9-6be07fe1b2a2-0"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "49586e36-22e3-4efe-84e9-6be07fe1b2a2-0",
+        "image": "/tmp/claude-0/-home-user/thumb2/frame-00-at-0.5s.png",
+        "time": 0.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1795852496160,
+        "contentHash": "5dfce28811ed9eed948b44f9069ffaf2907d4ee707c7a0c15f26e9e4eaae70dd",
+        "revision": null,
+        "inputFingerprint": "ef7db1ad794e4e5166f174a7625fd5089a7a4430dfe65b3fe7f2ed98fe9edfc6",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  }
+}
